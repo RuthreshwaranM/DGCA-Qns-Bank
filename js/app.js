@@ -8,6 +8,19 @@ const APP = document.getElementById("app");
 const CRUMBS = document.getElementById("breadcrumbs");
 const PASS_MARK = 70; // % — DGCA ground exam pass threshold
 
+// Subjects that don't have local chapter data — clicking their card
+// opens an external tool in a new tab instead of navigating in-app.
+const EXTERNAL_SUBJECTS = {
+  "radio-telephony": {
+    url: "https://dgca-rtr-simulator.vercel.app/login.html",
+    label: "Opens the RTR Simulator"
+  },
+  "cockpit-study": {
+    url: "https://cockpit-study.vercel.app/",
+    label: "Opens Cockpit Study"
+  }
+};
+
 /* ============================================================
    STORAGE LAYER (all persisted client-side via localStorage)
    ============================================================ */
@@ -185,16 +198,22 @@ function renderHome() {
   subjects.forEach(sub => {
     const qc = subjectQuestionCount(sub);
     const cc = (sub.chapters || []).length;
+    const ext = EXTERNAL_SUBJECTS[sub.id];
+    const isExternal = !!ext;
     const card = el(`
       <button class="card">
         <div class="card-top">
-          <div class="card-title">${sub.name}</div>
-          <span class="chip chip-amber">${cc} ch</span>
+          <div class="card-title">${sub.name}${isExternal ? ' <span style="color:var(--cyan);font-size:13px;">&nearr;</span>' : ""}</div>
+          ${isExternal ? "" : `<span class="chip chip-amber">${cc} ch</span>`}
         </div>
-        <div class="card-meta">${qc} question${qc === 1 ? "" : "s"}</div>
+        <div class="card-meta">${isExternal ? ext.label : qc + " question" + (qc === 1 ? "" : "s")}</div>
       </button>
     `);
-    card.addEventListener("click", () => navigate(`#/subject/${sub.id}`));
+    if (isExternal) {
+      card.addEventListener("click", () => window.open(ext.url, "_blank", "noopener"));
+    } else {
+      card.addEventListener("click", () => navigate(`#/subject/${sub.id}`));
+    }
     grid.appendChild(card);
   });
   APP.appendChild(grid);
