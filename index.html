@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DGCA Exam Bank &middot; CPL/ATPL Question Practice</title>
+<meta name="description" content="Practice and test yourself on DGCA CPL/ATPL question banks.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a href="#/" class="brand" style="cursor:pointer;">
+    <div class="brand-mark">DG</div>
+    <div>
+      DGCA Exam Bank
+      <small>CPL / ATPL Practice</small>
+    </div>
+  </a>
+  <div class="topbar-actions">
+    <a href="#/stats" class="icon-btn" title="Progress">📈</a>
+    <a href="#/bookmarks" class="icon-btn" title="Bookmarks">★</a>
+    <a href="#/mistakes" class="icon-btn" title="Revise mistakes">⟲</a>
+  </div>
+</header>
+
+<nav class="breadcrumbs" id="breadcrumbs"></nav>
+
+<main id="app"></main>
+
+<!-- PARSER — must load before the subject data files -->
+<script src="js/parser.js"></script>
+
+<!-- SUBJECT DATA FILES — add a new subject by duplicating one of
+     these, changing id/name, and adding a line for it here. -->
+<script src="data/air-navigation.js"></script>
+<script src="data/radio-navigation.js"></script>
+<script src="data/navigation-instrumentation.js"></script>
+<script src="data/aviation-meteorology.js"></script>
+<script src="data/air-regulations.js"></script>
+<script src="data/aircraft-engines.js"></script>
+<script src="data/technical-specific.js"></script>
+<script src="data/technical-performance.js"></script>
+<script src="data/radio-telephony.js"></script>
+
+<!-- APPLICATION ENGINE -->
+<script src="js/app.js"></script>
+
+</body>
+</html>
