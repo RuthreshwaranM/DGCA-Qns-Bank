@@ -13,7 +13,7 @@
 
 registerSubject("radio-navigation", "Radio Navigation");
 
-registerChapterText("radio-navigation", "Basic Principle", "Basic Principle", `
+registerChapterText("radio-navigation", "Basic Principle ASSIGNMENT", "Basic Principle ASSIGNMENT", `
 42. VDF for aeronautical use provides service in the frequency range?
 a. 108 to 118 MHz.
 b. 108 to 136 MHz.
@@ -36,7 +36,7 @@ d. QDM.
 Explanation: QDR = magnetic bearing FROM the station to the aircraft.
    `);
 
-registerChapterText("radio-navigation", "vdf", "VDF", `
+registerChapterText("radio-navigation", "vdf ASSIGNMENT", "VDF ASSIGNMENT", `
 1. What is the approximate maximum theoretical range at which an aircraft at FL130 could receive information from a VDF facility, which is sited 1024 FT above MSL?
 *a. 180 NM.
 b. 220 NM.
@@ -346,7 +346,7 @@ d. QDM.
 Explanation: QDR = magnetic bearing FROM the station to the aircraft.
 `);
 
-registerChapterText("radio-navigation", "ADF", "ADF", `
+registerChapterText("radio-navigation", "ADF ASSIGNMENT", "ADF ASSIGNMENT", `
 42. VDF for aeronautical use provides service 
 in the frequency range?
 a. 108 to 118 MHz.
@@ -370,7 +370,7 @@ d. QDM.
 Explanation: QDR = magnetic bearing FROM the station to the aircraft.
    `);
 
-registerChapterText("radio-navigation", "VOR", "VOR", `
+registerChapterText("radio-navigation", "VOR ASSIGNMENT", "VOR ASSIGNMENT", `
    42. VDF for aeronautical use provides service in the frequency range?
 a. 108 to 118 MHz.
 b. 108 to 136 MHz.
@@ -393,7 +393,7 @@ d. QDM.
 Explanation: QDR = magnetic bearing FROM the station to the aircraft.
    `);
 
-registerChapterText("radio-navigation", "ILS", "ILS", `
+registerChapterText("radio-navigation", "ILS ASSIGNMENT", "ILS ASSIGNMENT", `
    42. VDF for aeronautical use provides service in the frequency range?
 a. 108 to 118 MHz.
 b. 108 to 136 MHz.
@@ -416,7 +416,7 @@ d. QDM.
 Explanation: QDR = magnetic bearing FROM the station to the aircraft.
    `);
 
-registerChapterText("radio-navigation", "Basic Radar", "Basic Radar", `
+registerChapterText("radio-navigation", "Basic Radar ASSIGNMENT", "Basic Radar ASSIGNMENT", `
    42. VDF for aeronautical use provides service in the frequency range?
 a. 108 to 118 MHz.
 b. 108 to 136 MHz.
@@ -439,30 +439,375 @@ d. QDM.
 Explanation: QDR = magnetic bearing FROM the station to the aircraft.
    `);
    
-registerChapterText("radio-navigation", "AWR", "AWR", `
-   42. VDF for aeronautical use provides service in the frequency range?
-a. 108 to 118 MHz.
-b. 108 to 136 MHz.
-*c. 118 to 136 MHz.
-d. 130 to 300 MHz.
-Explanation: VDF operates in the VHF comms band, 118–136 MHz.
+registerChapterText("radio-navigation", "AWR ASSIGNMENT", "AWR ASSIGNMENT", `
+1. Airborne weather radar system use a wavelength of approximately 3 cm in order to: 
+a. Transmit at a higher pulse repetition frequency for extended range. 
+b. Obtain optimum use of the Cosecant squared beam. 
+c. Detect the smaller cloud formations as well as large. 
+*d. Detect the larger water droplets. 
 
-43. In flight a pilot can improve the range of his transmission with a VDF operator by?
-*a. Increasing altitude.
-b. Decreasing altitude.
-c. Speaking louder.
-d. Flying out of clouds.
-Explanation: Climbing extends the VHF line-of-sight radio horizon.
+2. The ISO-ECHO facility of an airborne weather radar is provided in order to: 
+*a. Detect areas of possible severe turbulence in cloud. 
+b. Give an indication of cloud tops. 
+c. Inhibit unwanted ground returns. 
+d. Extend the mapping range. 
 
-44. What is the Q code for a magnetic bearing from a VDF station?
-a. QNH.
-b. QRE.
-*c. QDR.
-d. QDM.
-Explanation: QDR = magnetic bearing FROM the station to the aircraft.
-   `);
+3. In the MAPPING MODE the airborne weather radar utilizes a: 
+a. Fan shaped beam effective up to a range of 150 NM. 
+*b. Fan shaped beam effective up to a maximum of 50 NM to 60 NM range. 
+c. Pencil beam to a maximum range of 60 NM. 
+d. Pencil beam effective from zero to 150 NM. 
 
-registerChapterText("radio-navigation", "SSR", "SSR", `
+4. Which of the following cloud types is most readily detected by airborne weather radar when 
+using the ‘weather beam’? 
+a. Cirrocumulus. 
+*b. Cumulus. 
+c. Stratus. 
+d. Altostratus. 
+
+5. In which mode of operation does the aircraft weather radar use a cosecant radiation 
+pattern? 
+a. CONTOUR. 
+b. WEATHER. 
+*c. MAPPING. 
+d. MANUAL. 
+
+6. In an Airborne Weather Radar that has a colour cathode ray tube (CRT) the areas of greatest 
+turbulence are indicated on the screen by: 
+*a. Colour zones being closet together. 
+b. Blank iso-echo areas where there is no colour. 
+c. Large area of flashing red colour. 
+d. Iso-echo areas, which are, coloured black. 
+
+7. Which of the following is a complete list of airborne weather radar antenna stabilisation 
+axes? 
+a. Roll, pitch and yaw. 
+b. Pitch and yaw. 
+*c. Roll and pitch. 
+d. Roll and yaw. 
+
+8. In an Airborne Weather radar that has a colour ray tube (CRT) increasing severity of rain and 
+turbulence is generally shown by a change of colour from. 
+*a. Green to yellow to red. 
+b. Yellow to amber to blue. 
+c. Green to red to black. 
+d. Yellow to orange to red. 
+
+9. A frequency of 10 GHz is considered to be the optimum for use in an airborne weather radar 
+system because:  
+a. Greater detail can be obtained at the more distant ranges of the smaller water droplets. 
+*b. The larger water droplets will give good echoes and the antenna can be kept relatively small. 
+c. Static interference is minimized. 
+d. Less power output is required in the mapping mode. 
+
+10. In general the operation of airborne weather radar equipment on the ground is: 
+*a. Only permitted with certain precautions, to safeguard health of personnel and to protect 
+equipment. 
+b. Permitted anywhere 
+c. Totally prohibited. 
+d. Unrestrictedly permitted in aerodrome maintenance areas. 
+
+11. The pencil shaped beam of an airborne weather radar is used in preference to the mapping 
+mode for the determination of ground features. 
+a. Beyond 100 NM because insufficient antenna tilt angle is available with the Mapping mode. 
+b. Beyond 150 NM because the wider beam gives better definition. 
+c.  
+When approaching coast-lines in polar regions. 
+*d. Beyond 50 to 60 NM because more power can be concentrated in the narrower beam. 
+
+12. A weather radar, set to the 100 NM scale, shows a squall at 50 NM, by changing the scale 50 
+NM, the return on the radar screen should. 
+a. Increase in area and appear nearer to the bottom of the screen. 
+*b. Increase in area and move to the top of the screen 
+c. Decrease in area but not change in position on the screen 
+d. Decrease in area and move to the top of the screen 
+
+13. In weather radar the use of a cosecant beam in ‘Mapping’ mode enables. 
+a. Better reception of echoes on contrasting terrain such as ground to sea. 
+b. A greater radar range to be achieved. 
+c. Higher definition echoes to be produced giving a clearer picture. 
+*d. Scanning of a larger ground zone producing echoes whose signal are practically independent 
+of distance. 
+
+14. In Airborne Weather Radar (AWR), the main factor which determine whether a cloud will be 
+detected are: 
+*a. Size of the water drops and the wavelength/frequency used. 
+b. Range from cloud and the wavelength/frequency used. 
+c. Size of the water droplets and the diameter of the scanner. 
+d. Rotational speed of radar scanner and the range from cloud. 
+
+15. In order to ascertain whether a cloud return on an Aircraft Weather Radar (AWR) is at or 
+above the height of the aircraft, the tilt control should be set to? 
+*a. 2.5° up. 
+b. 0°. 
+c. 2.5° down. 
+d. 5°up. 
+
+16. When switching on the weather radar, after start-up, a signal very bright line appears on the 
+screen. This means that the? 
+a. Transmitter is faulty. 
+b. Scanner is not rotating. 
+*c. Scanner of the cathode ray tube is faulty. 
+d. Receiver is faulty. 
+
+17. Which of the following lists phenomena that CANNOT be detected by weather radar? 
+a. Dry hail, clear air turbulence. 
+*b. Snow; clear air turbulence. 
+c. Clear air turbulence; turbulence in cloud with precipitation 
+d. Snow, turbulence in clouds with precipitation. 
+
+18. The “gain” control knob of an AWR adjusts? 
+a. The power level of the transmitted energy is made dependent on the selected range. 
+b. The brightness of the display. 
+c. The automatic gain control of the AWR is activated. 
+*d. The receiver sensitivity in order to achieve optimum target acquisition. 
+
+19. Airborne Weather Radars are generally based on the use of?        
+a. Secondary radar in the SHF band. 
+b. Primary radar in the UHF band. 
+*c. Primary radar in the SHF band. 
+d. Secondary radar in the VHF band. 
+
+20. In the MAPPING MODE the airborne weather radar utilizes a? 
+a. Fan shaped beam effective up to a range of 150 nm. 
+*b. Fan shaped beam effective up to a maximum range of 50 nm to 60 nm. 
+c. Pencil beam effective from zero to 150nm. 
+d. Pencil beam effective to a maximum range of 60 nm. 
+
+21. In Airborne Weather Radar (AWR) the main factors that determine whether or not a cloud 
+will be detected are? 
+a. Range to the cloud, wavelength/frequency used. 
+b. Size of the water droplets and the diameter of the radar scanner. 
+*c. Size of the water droplets, and the wavelength/ frequency used. 
+d. Rotational speed of the radar scanner, range from cloud. 
+
+22. In order to ascertain whether a cloud return on an Aircraft Weather Radar (AWR) is at or 
+above the height of the aircraft, the tilt control should be set to (assume a beam width of d 
+degrees)? 
+a. 2.5 degrees down. 
+*b. 2.5 degrees up. 
+c. 5 degrees up. 
+d. 0 degrees. 
+
+23. In an Airborne Weather Radar the area of greater turbulence are usually indicated on the 
+screen by? 
+*a. Colour zones of red or magenta. 
+b. Black area where there is no colour. 
+c. Colour zones of green or yellow. 
+d. Area which are coloured black. 
+
+24. To improve the detection of precipitation area(s) in e.g. Thunderstorms, in which the top of 
+the cloud lies at or slightly above the level of flight? 
+*a. The tilting setting should be lower when the aircraft climbs to a higher altitude. 
+b. The tilting setting should be higher when the aircraft climbs to a higher altitude. 
+c. The tilting setting should be higher when the selected range decreases. 
+d. The tilting setting should be lower when the selected range increases. 
+
+25. Which statements relating to the stabilization system of airborne weather radar antennae is 
+true? 
+a. They are stabilized with respect to the pitch, roll and yaw axes. 
+b. They are stabilized with respect to the yaw axis, but not with respect to the pitch and roll 
+axes. 
+*c. They are stabilized with respect to the pitch and roll axes but not with respect to the yaw 
+axis. 
+d. The pilot can choose the axes of stabilization with the system’s stabilization selector switch. 
+
+26. Airborne Weather Radar has been primarily developed to detect? 
+a. Areas of wind shear and severe aircraft icing. 
+b. Areas of severe clear air turbulence. 
+*c. The kinds of precipitation, which are usually accompanied by turbulence. 
+d. All kinds of frozen precipitation such as hail, snow and graupel. 
+
+27. The antennae of modern airborne weather radars are stabilized by means of? 
+a. Mercury switches. 
+*b. Inputs from the aircraft’s attitude system. 
+c. Artificial gravity switches. 
+d. Feedback from the antenna accelerometers. 
+
+28. The heaviest turbulence is likely to be encountered? 
+*a. Where the area of heaviest precipitation is closest to the edge of the thunderstorm cell. 
+b. About half way between two thunderstorms cells. 
+c. In the way core of a thunderstorm cell. 
+d. In the area of heaviest precipitation. 
+
+29. The pictures in the diagram are showing an aircraft’s position with respect to some 
+thunderstorm cells and the image pilot is getting from the radar. To detect this “blind alley” 
+the pilot should? 
+a. Select the cosecant square beam from better alley detection. 
+b. Switch over from normal to x mode. 
+c. Initiate a sleep climb. 
+*d. Increase the range setting of the radar. 
+
+30. In which frequency band do most Airborne Weather Radars operate? 
+a. VHF 
+b. UHF 
+*c. SHF 
+d. EHF 
+
+31. The theoretical maximum range for an airborne weather radar is determined by the? 
+a. Pulse length. 
+b. Beam width. 
+*c. Pulse repetition frequency. 
+d. Carrier wave frequency. 
+
+32. On the airborne weather radar display in WX mode, different colours are used? 
+a. To display ground height differences. 
+b. To display echoes from other aircraft. 
+*c. To display different intensity of precipitation. 
+d. To display clouds, indicating difference levels of visibility. 
+
+33. The airborne weather radar (AWR) cannot detect? 
+*a. Snow. 
+b. Wet hail. 
+c. Dey hail. 
+d. Moderate rain. 
+
+34. Which of the following list of phenomena are least likely to be detect by airborne weather 
+radar? 
+a. Clear air turbulence. 
+*b. Precipitation. 
+c. Turbulence in cloud that has precipitation. 
+d. Wet snow and turbulence in cloud that has precipitation. 
+
+35. While using the AWR in the weather mode, the strongest returns on the screen indicate? 
+a. Areas of severe icing. 
+b. Areas of probable windshear. 
+*c. Areas of high concentration of large water droplets. 
+d. Areas of severe turbulence. 
+
+36. On a colour airborne weather radar, a bright red echo indicates? 
+a. Strong rising air currents. 
+b. An area of extreme turbulence. 
+c. An area of strong windshear. 
+*d. Heavy concentrate of liquid/solid water. 
+
+37. The ISO-ECHO feature of an airborne weather radar can be used to detect? 
+a. CAT. 
+b. Wake turbulence. 
+c. Turbulence is cloud. 
+*d. Area of possible turbulence in cloud. 
+
+38. Airborne weather uses a particularly high frequency radar signal, at 9 to 12 GHz, in order to? 
+*a. Get good return from droplets of water and other sorts of precipitation. 
+b. Get the most accurate range and bearing information. 
+c. Make it possible to present a colour display of the weather situation. 
+d. All of the answers in this question are correct. 
+
+39. An airborne weather radar, with a beam width of 4 degrees in azimuth, is being used in the 
+mapping mode. At what maximum range will it be able to detect a 1 nm wide opening in a 
+sea cliff? 
+a. 4 nm. 
+*b. 15 nm. 
+c. 45 nm. 
+d. 60 nm. 
+
+40. The tilt angle on the AWR at which an active cloud just disappears from the screen is 4 
+degrees up. If the beam width is 5 degrees and the range to the cloud is 40nm use the 1 : 60 
+rule  to calculate the approximate height of the cloud relative to the  aircraft? 
+a. 4000 ft above. 
+b. 4000 ft below. 
+*c. 6000 ft above. 
+d. 6000 ft below. 
+
+41. An aircraft flying at 25 000 feet is equipped with AWR. The beam width is 5 degrees. With 
+the radar tilted 3.5 degrees up, the radar is showing top of a cloud return at 105 nm. The 
+approximate height of the cloud is. 
+a. 14 300 ft. 
+b. 25 600 ft. 
+c. 30 300 ft. 
+*d. 35 600 ft. 
+
+42. The airborne weather radar is using a 5 degrees beam. The cloud is detected at a range of 
+60nm. If the scanner is tilted up to 5 degrees, the cloud disappears. Using trigonometry to 
+determine the height of the tops of the cloud, in relation to the aeroplanes cruising level, 
+select the nearest answer from the following? 
+*a. 15900 ft above the aircraft. 
+b. 15900 ft below the aircraft. 
+c. 31900 ft below the aircraft. 
+d. 31900 ft below the aircraft. 
+
+43. What frequency is typical chosen for AWR system? 
+a. 9375 khz. 
+b. 93.75 Mhz (93 decimal 5 khz). 
+*c. 9.375 GHz (9 decimal 375 GHz). 
+d. 93.75 GHz (93 decimal 75 GHz). 
+
+44. The cosecant squared beam is used for mapping in the AWR because? 
+a. It allows cloud detection to be effected while mapping. 
+b. A greater range can be achieved. 
+*c. A larger area of ground in illuminated by the beam. 
+d. A wider beam is produced in azimuth to give a greater coverage. 
+
+45. On a weather radar, the greatest turbulences is likely in an area where targets are? 
+a. Coloured red. 
+b. Coloured magneta. 
+c. Show a clearly defined hole. 
+*d. Show a rapid gradient of change from magenta to yellow. 
+
+46. Weather radar is used by the pilot to assist in the? 
+a. Detection of other aircraft through clouds. 
+*b. Detection and avoidance of potentially turbulent cloud cells. 
+c. Detection and avoidance of turbulence. 
+d. Detection and determination of a route through active cloud cell formations. 
+
+47. The stabilisation of the weather radar aerial is effective? 
+a. For up to +/- 5 degrees in pitch and roll. 
+*b. For up to +/- 20 degrees of combined pitch and roll. 
+c. For up to +/- 30 degrees of combined pitch and roll. 
+d. For up to +/- 40 degrees of combined pitch and roll. 
+
+48. A height ring is used? 
+a. As a range marker. 
+b. As a zero point for range measurement. 
+*c. To determine that weather radar is functioning. 
+d. To determine the exact aeroplane height above the surface. 
+
+49. A side lobe from an aerial of a weather radar may produce an echo on the screen known as a 
+“height ring”. The pilot can use this? 
+a. Aa a range marker. 
+b. To determine the aeroplane’s height above the surface. 
+c. As a zero point for range measurement. 
+*d. To determine that the weather radar is functioning. 
+
+50. The ISO-ECHO circuits is incorporated in the AWR? 
+*a. To display areas of turbulence. 
+b. To allow ground mapping. 
+c. To alert pilots to the presence of cloud. 
+d. To allow simultaneous mapping and detection of clouds. 
+
+51. When the airborne weather radar is operating in its primary mode, to detect precipitation? 
+a. The radar beam is a cosecant beam. 
+*b. The radar beam is pencil shaped. 
+c. Maximum tilt on the aerial will often be used. 
+d. The range will be limited, compared to the range obtainable in the ground mapping mode. 
+
+52. Airborne weather radars use a frequency of approximately 9 GHz because? 
+a. The frequency penetrates clouds quite easily enabling good mapping of ground feature in 
+the mapping mode. 
+b. The short wavelength allows signals to be reflected from cloud water droplets of all sizes. 
+*c. The wavelength is such that reflections are obtained only from the larger water droplets. 
+d. It has a short wavelength, so producing higher frequency returns. 
+
+53. The use of AWR on the ground is? 
+a. Not permitted. 
+b. Permitted provided reduced power is used. 
+*c. Permitted provided special precautions, to safeguard personnel and equipment. 
+d. Only permitted to assist movement in low visibility conditions. 
+
+54. In an AWR with a colour CRT area of greater turbulence are indicated by? 
+a. Iso-echo area coloured black. 
+b. Large areas of flashing red. 
+c. Iso-echo areas with no colour. 
+*d. Most rapid change of colour. 
+
+55. AWR contour mode is used for? 
+*a. Identifying area of maximum turbulence within a cloud. 
+b. Identifying rain bearing clouds. 
+c. Short range mapping. 
+d. Long range mapping. 
+    `);
+
+registerChapterText("radio-navigation", "SSR ASSIGNMENT", "SSR ASSIGNMENT", `
 1. When Mode C is selected on the aircraft SSR transponder the additional information 
 transmitted is: 
 a. Altitude based on regional QNH. 
@@ -826,7 +1171,7 @@ b. Sends out a special pulse before the normal pulse train.
 d. Transmit the aeroplane’s registration or flight number as a data sequence. 
    `);   
 
-registerChapterText("radio-navigation", "DME", "DME", `
+registerChapterText("radio-navigation", "DME ASSIGNMENT", "DME ASSIGNMENT", `
    
 1. A DME station is located 1000 feet above MSL. An aircraft flying at FL 370, 15 NM away from the DME station, will have a DME reading of? 
 a. 14 NM. 
@@ -1173,7 +1518,7 @@ c. Prevent overload of the system.
 d. Permit more channels in the system. 
    `);
 
-registerChapterText("radio-navigation", "GNSS-GPS", "GNSS-GPS", `
+registerChapterText("radio-navigation", "GNSS-GPS ASSIGNMENT", "GNSS-GPS ASSIGNMENT", `
 42. VDF for aeronautical use provides service in the frequency range?
 a. 108 to 118 MHz.
 b. 108 to 136 MHz.
@@ -1195,3 +1540,442 @@ b. QRE.
 d. QDM.
 Explanation: QDR = magnetic bearing FROM the station to the aircraft.
    `);
+
+registerChapterText("radio-navigation", "Properties of Radio Waves OXFORD", "Properties of Radio Waves OXFORD", `
+42. VDF for aeronautical use provides service in the frequency range?
+a. 108 to 118 MHz.
+b. 108 to 136 MHz.
+*c. 118 to 136 MHz.
+d. 130 to 300 MHz.
+Explanation: VDF operates in the VHF comms band, 118–136 MHz.
+
+43. In flight a pilot can improve the range of his transmission with a VDF operator by?
+*a. Increasing altitude.
+b. Decreasing altitude.
+c. Speaking louder.
+d. Flying out of clouds.
+Explanation: Climbing extends the VHF line-of-sight radio horizon.
+
+44. What is the Q code for a magnetic bearing from a VDF station?
+a. QNH.
+b. QRE.
+*c. QDR.
+d. QDM.
+Explanation: QDR = magnetic bearing FROM the station to the aircraft.
+   `);
+
+registerChapterText("radio-navigation", "Radio Propagation Theory OXFORD", "Radio Propagation Theory OXFORD", `
+42. VDF for aeronautical use provides service in the frequency range?
+a. 108 to 118 MHz.
+b. 108 to 136 MHz.
+*c. 118 to 136 MHz.
+d. 130 to 300 MHz.
+Explanation: VDF operates in the VHF comms band, 118–136 MHz.
+
+43. In flight a pilot can improve the range of his transmission with a VDF operator by?
+*a. Increasing altitude.
+b. Decreasing altitude.
+c. Speaking louder.
+d. Flying out of clouds.
+Explanation: Climbing extends the VHF line-of-sight radio horizon.
+
+44. What is the Q code for a magnetic bearing from a VDF station?
+a. QNH.
+b. QRE.
+*c. QDR.
+d. QDM.
+Explanation: QDR = magnetic bearing FROM the station to the aircraft.
+   `);
+
+registerChapterText("radio-navigation", "Modulation Waves OXFORD", "Modulation OXFORD", `
+42. VDF for aeronautical use provides service in the frequency range?
+a. 108 to 118 MHz.
+b. 108 to 136 MHz.
+*c. 118 to 136 MHz.
+d. 130 to 300 MHz.
+Explanation: VDF operates in the VHF comms band, 118–136 MHz.
+
+43. In flight a pilot can improve the range of his transmission with a VDF operator by?
+*a. Increasing altitude.
+b. Decreasing altitude.
+c. Speaking louder.
+d. Flying out of clouds.
+Explanation: Climbing extends the VHF line-of-sight radio horizon.
+
+44. What is the Q code for a magnetic bearing from a VDF station?
+a. QNH.
+b. QRE.
+*c. QDR.
+d. QDM.
+Explanation: QDR = magnetic bearing FROM the station to the aircraft.
+   `);
+
+registerChapterText("radio-navigation", "Antennae OXFORD", "Antennae OXFORD", `
+42. VDF for aeronautical use provides service in the frequency range?
+a. 108 to 118 MHz.
+b. 108 to 136 MHz.
+*c. 118 to 136 MHz.
+d. 130 to 300 MHz.
+Explanation: VDF operates in the VHF comms band, 118–136 MHz.
+
+43. In flight a pilot can improve the range of his transmission with a VDF operator by?
+*a. Increasing altitude.
+b. Decreasing altitude.
+c. Speaking louder.
+d. Flying out of clouds.
+Explanation: Climbing extends the VHF line-of-sight radio horizon.
+
+44. What is the Q code for a magnetic bearing from a VDF station?
+a. QNH.
+b. QRE.
+*c. QDR.
+d. QDM.
+Explanation: QDR = magnetic bearing FROM the station to the aircraft.
+   `);
+
+registerChapterText("radio-navigation", "Doppler Radar Systems OXFORD", "Doppler Radar Systems OXFORD", `
+42. VDF for aeronautical use provides service in the frequency range?
+a. 108 to 118 MHz.
+b. 108 to 136 MHz.
+*c. 118 to 136 MHz.
+d. 130 to 300 MHz.
+Explanation: VDF operates in the VHF comms band, 118–136 MHz.
+
+43. In flight a pilot can improve the range of his transmission with a VDF operator by?
+*a. Increasing altitude.
+b. Decreasing altitude.
+c. Speaking louder.
+d. Flying out of clouds.
+Explanation: Climbing extends the VHF line-of-sight radio horizon.
+
+44. What is the Q code for a magnetic bearing from a VDF station?
+a. QNH.
+b. QRE.
+*c. QDR.
+d. QDM.
+Explanation: QDR = magnetic bearing FROM the station to the aircraft.
+   `);
+
+registerChapterText("radio-navigation", "VHF Direction Finder (VDF) OXFORD", "VHF Direction Finder (VDF) OXFORD", `
+42. VDF for aeronautical use provides service in the frequency range?
+a. 108 to 118 MHz.
+b. 108 to 136 MHz.
+*c. 118 to 136 MHz.
+d. 130 to 300 MHz.
+Explanation: VDF operates in the VHF comms band, 118–136 MHz.
+
+43. In flight a pilot can improve the range of his transmission with a VDF operator by?
+*a. Increasing altitude.
+b. Decreasing altitude.
+c. Speaking louder.
+d. Flying out of clouds.
+Explanation: Climbing extends the VHF line-of-sight radio horizon.
+
+44. What is the Q code for a magnetic bearing from a VDF station?
+a. QNH.
+b. QRE.
+*c. QDR.
+d. QDM.
+Explanation: QDR = magnetic bearing FROM the station to the aircraft.
+   `);
+
+registerChapterText("radio-navigation", "Automatic Direction Finder (ADF) OXFORD", "Automatic Direction Finder (ADF) OXFORD", `
+42. VDF for aeronautical use provides service in the frequency range?
+a. 108 to 118 MHz.
+b. 108 to 136 MHz.
+*c. 118 to 136 MHz.
+d. 130 to 300 MHz.
+Explanation: VDF operates in the VHF comms band, 118–136 MHz.
+
+43. In flight a pilot can improve the range of his transmission with a VDF operator by?
+*a. Increasing altitude.
+b. Decreasing altitude.
+c. Speaking louder.
+d. Flying out of clouds.
+Explanation: Climbing extends the VHF line-of-sight radio horizon.
+
+44. What is the Q code for a magnetic bearing from a VDF station?
+a. QNH.
+b. QRE.
+*c. QDR.
+d. QDM.
+Explanation: QDR = magnetic bearing FROM the station to the aircraft.
+   `);
+
+registerChapterText("radio-navigation", "VHF Omni-directional Range (VOR) OXFORD", "VHF Omni-directional Range (VOR) OXFORD", `
+42. VDF for aeronautical use provides service in the frequency range?
+a. 108 to 118 MHz.
+b. 108 to 136 MHz.
+*c. 118 to 136 MHz.
+d. 130 to 300 MHz.
+Explanation: VDF operates in the VHF comms band, 118–136 MHz.
+
+43. In flight a pilot can improve the range of his transmission with a VDF operator by?
+*a. Increasing altitude.
+b. Decreasing altitude.
+c. Speaking louder.
+d. Flying out of clouds.
+Explanation: Climbing extends the VHF line-of-sight radio horizon.
+
+44. What is the Q code for a magnetic bearing from a VDF station?
+a. QNH.
+b. QRE.
+*c. QDR.
+d. QDM.
+Explanation: QDR = magnetic bearing FROM the station to the aircraft.
+   `);
+
+registerChapterText("radio-navigation", "Instrument Landing System (ILS) OXFORD", "Instrument Landing System (ILS) OXFORD", `
+42. VDF for aeronautical use provides service in the frequency range?
+a. 108 to 118 MHz.
+b. 108 to 136 MHz.
+*c. 118 to 136 MHz.
+d. 130 to 300 MHz.
+Explanation: VDF operates in the VHF comms band, 118–136 MHz.
+
+43. In flight a pilot can improve the range of his transmission with a VDF operator by?
+*a. Increasing altitude.
+b. Decreasing altitude.
+c. Speaking louder.
+d. Flying out of clouds.
+Explanation: Climbing extends the VHF line-of-sight radio horizon.
+
+44. What is the Q code for a magnetic bearing from a VDF station?
+a. QNH.
+b. QRE.
+*c. QDR.
+d. QDM.
+Explanation: QDR = magnetic bearing FROM the station to the aircraft.
+   `);
+
+registerChapterText("radio-navigation", "Microwave Landing System (MLS) OXFORD", "Microwave Landing System (MLS) OXFORD", `
+42. VDF for aeronautical use provides service in the frequency range?
+a. 108 to 118 MHz.
+b. 108 to 136 MHz.
+*c. 118 to 136 MHz.
+d. 130 to 300 MHz.
+Explanation: VDF operates in the VHF comms band, 118–136 MHz.
+
+43. In flight a pilot can improve the range of his transmission with a VDF operator by?
+*a. Increasing altitude.
+b. Decreasing altitude.
+c. Speaking louder.
+d. Flying out of clouds.
+Explanation: Climbing extends the VHF line-of-sight radio horizon.
+
+44. What is the Q code for a magnetic bearing from a VDF station?
+a. QNH.
+b. QRE.
+*c. QDR.
+d. QDM.
+Explanation: QDR = magnetic bearing FROM the station to the aircraft.
+   `);
+
+registerChapterText("radio-navigation", "Radar Principles OXFORD", "Radar Principles OXFORD", `
+42. VDF for aeronautical use provides service in the frequency range?
+a. 108 to 118 MHz.
+b. 108 to 136 MHz.
+*c. 118 to 136 MHz.
+d. 130 to 300 MHz.
+Explanation: VDF operates in the VHF comms band, 118–136 MHz.
+
+43. In flight a pilot can improve the range of his transmission with a VDF operator by?
+*a. Increasing altitude.
+b. Decreasing altitude.
+c. Speaking louder.
+d. Flying out of clouds.
+Explanation: Climbing extends the VHF line-of-sight radio horizon.
+
+44. What is the Q code for a magnetic bearing from a VDF station?
+a. QNH.
+b. QRE.
+*c. QDR.
+d. QDM.
+Explanation: QDR = magnetic bearing FROM the station to the aircraft.
+   `);
+
+registerChapterText("radio-navigation", "Ground Radar OXFORD", "Ground Radar OXFORD", `
+42. VDF for aeronautical use provides service in the frequency range?
+a. 108 to 118 MHz.
+b. 108 to 136 MHz.
+*c. 118 to 136 MHz.
+d. 130 to 300 MHz.
+Explanation: VDF operates in the VHF comms band, 118–136 MHz.
+
+43. In flight a pilot can improve the range of his transmission with a VDF operator by?
+*a. Increasing altitude.
+b. Decreasing altitude.
+c. Speaking louder.
+d. Flying out of clouds.
+Explanation: Climbing extends the VHF line-of-sight radio horizon.
+
+44. What is the Q code for a magnetic bearing from a VDF station?
+a. QNH.
+b. QRE.
+*c. QDR.
+d. QDM.
+Explanation: QDR = magnetic bearing FROM the station to the aircraft.
+   `);
+
+
+registerChapterText("radio-navigation", "Airborne Weather Radar OXFORD", "Airborne Weather Radar OXFORD", `
+42. VDF for aeronautical use provides service in the frequency range?
+a. 108 to 118 MHz.
+b. 108 to 136 MHz.
+*c. 118 to 136 MHz.
+d. 130 to 300 MHz.
+Explanation: VDF operates in the VHF comms band, 118–136 MHz.
+
+43. In flight a pilot can improve the range of his transmission with a VDF operator by?
+*a. Increasing altitude.
+b. Decreasing altitude.
+c. Speaking louder.
+d. Flying out of clouds.
+Explanation: Climbing extends the VHF line-of-sight radio horizon.
+
+44. What is the Q code for a magnetic bearing from a VDF station?
+a. QNH.
+b. QRE.
+*c. QDR.
+d. QDM.
+Explanation: QDR = magnetic bearing FROM the station to the aircraft.
+   `);
+
+registerChapterText("radio-navigation", "Secondary Surveillance Radar (SSR) OXFORD", "Secondary Surveillance Radar (SSR) OXFORD", `
+42. VDF for aeronautical use provides service in the frequency range?
+a. 108 to 118 MHz.
+b. 108 to 136 MHz.
+*c. 118 to 136 MHz.
+d. 130 to 300 MHz.
+Explanation: VDF operates in the VHF comms band, 118–136 MHz.
+
+43. In flight a pilot can improve the range of his transmission with a VDF operator by?
+*a. Increasing altitude.
+b. Decreasing altitude.
+c. Speaking louder.
+d. Flying out of clouds.
+Explanation: Climbing extends the VHF line-of-sight radio horizon.
+
+44. What is the Q code for a magnetic bearing from a VDF station?
+a. QNH.
+b. QRE.
+*c. QDR.
+d. QDM.
+Explanation: QDR = magnetic bearing FROM the station to the aircraft.
+   `);
+
+registerChapterText("radio-navigation", "Distance Measuring Equipment (DME) OXFORD", "Distance Measuring Equipment (DME) OXFORD", `
+42. VDF for aeronautical use provides service in the frequency range?
+a. 108 to 118 MHz.
+b. 108 to 136 MHz.
+*c. 118 to 136 MHz.
+d. 130 to 300 MHz.
+Explanation: VDF operates in the VHF comms band, 118–136 MHz.
+
+43. In flight a pilot can improve the range of his transmission with a VDF operator by?
+*a. Increasing altitude.
+b. Decreasing altitude.
+c. Speaking louder.
+d. Flying out of clouds.
+Explanation: Climbing extends the VHF line-of-sight radio horizon.
+
+44. What is the Q code for a magnetic bearing from a VDF station?
+a. QNH.
+b. QRE.
+*c. QDR.
+d. QDM.
+Explanation: QDR = magnetic bearing FROM the station to the aircraft.
+   `);
+
+registerChapterText("radio-navigation", "Area Navigation Systems (RNAV) OXFORD", "Area Navigation Systems (RNAV) OXFORD", `
+42. VDF for aeronautical use provides service in the frequency range?
+a. 108 to 118 MHz.
+b. 108 to 136 MHz.
+*c. 118 to 136 MHz.
+d. 130 to 300 MHz.
+Explanation: VDF operates in the VHF comms band, 118–136 MHz.
+
+43. In flight a pilot can improve the range of his transmission with a VDF operator by?
+*a. Increasing altitude.
+b. Decreasing altitude.
+c. Speaking louder.
+d. Flying out of clouds.
+Explanation: Climbing extends the VHF line-of-sight radio horizon.
+
+44. What is the Q code for a magnetic bearing from a VDF station?
+a. QNH.
+b. QRE.
+*c. QDR.
+d. QDM.
+Explanation: QDR = magnetic bearing FROM the station to the aircraft.
+   `);
+
+registerChapterText("radio-navigation", "Electronic Flight Information System (EFIS) OXFORD", "Electronic Flight Information System (EFIS) OXFORD", `
+42. VDF for aeronautical use provides service in the frequency range?
+a. 108 to 118 MHz.
+b. 108 to 136 MHz.
+*c. 118 to 136 MHz.
+d. 130 to 300 MHz.
+Explanation: VDF operates in the VHF comms band, 118–136 MHz.
+
+43. In flight a pilot can improve the range of his transmission with a VDF operator by?
+*a. Increasing altitude.
+b. Decreasing altitude.
+c. Speaking louder.
+d. Flying out of clouds.
+Explanation: Climbing extends the VHF line-of-sight radio horizon.
+
+44. What is the Q code for a magnetic bearing from a VDF station?
+a. QNH.
+b. QRE.
+*c. QDR.
+d. QDM.
+Explanation: QDR = magnetic bearing FROM the station to the aircraft.
+   `);
+
+registerChapterText("radio-navigation", "Global Navigation Satellite System (GNSS) OXFORD", "Global Navigation Satellite System (GNSS) OXFORD", `
+42. VDF for aeronautical use provides service in the frequency range?
+a. 108 to 118 MHz.
+b. 108 to 136 MHz.
+*c. 118 to 136 MHz.
+d. 130 to 300 MHz.
+Explanation: VDF operates in the VHF comms band, 118–136 MHz.
+
+43. In flight a pilot can improve the range of his transmission with a VDF operator by?
+*a. Increasing altitude.
+b. Decreasing altitude.
+c. Speaking louder.
+d. Flying out of clouds.
+Explanation: Climbing extends the VHF line-of-sight radio horizon.
+
+44. What is the Q code for a magnetic bearing from a VDF station?
+a. QNH.
+b. QRE.
+*c. QDR.
+d. QDM.
+Explanation: QDR = magnetic bearing FROM the station to the aircraft.
+   `);
+
+registerChapterText("radio-navigation", "Revision Questions OXFORD", "Revision Questions OXFORD", `
+42. VDF for aeronautical use provides service in the frequency range?
+a. 108 to 118 MHz.
+b. 108 to 136 MHz.
+*c. 118 to 136 MHz.
+d. 130 to 300 MHz.
+Explanation: VDF operates in the VHF comms band, 118–136 MHz.
+
+43. In flight a pilot can improve the range of his transmission with a VDF operator by?
+*a. Increasing altitude.
+b. Decreasing altitude.
+c. Speaking louder.
+d. Flying out of clouds.
+Explanation: Climbing extends the VHF line-of-sight radio horizon.
+
+44. What is the Q code for a magnetic bearing from a VDF station?
+a. QNH.
+b. QRE.
+*c. QDR.
+d. QDM.
+Explanation: QDR = magnetic bearing FROM the station to the aircraft.
+   `);
+
