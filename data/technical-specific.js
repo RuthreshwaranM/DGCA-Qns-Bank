@@ -756,12 +756,10 @@ b. 6.4 Bar
 d. 6.7 Bar
 
 122. What is the maximum oil consumption on DA40D:
-a. 0.1 qtz/hr
-b. 0.1 lts/hr
+*a. 0.1 qtz/hr & 0.1 lts/hr
+b. 1.0 lts/hr
 c. 1.0qtz/hr
-d. 1.0 lts/hr
-*e. Both A & B are correct
-f. Both C & D are correct
+d. Both B & C are correct
 
 123. What is the minimum oil quantity on the DA40D:
 *a. 4.5 Lts
@@ -773,8 +771,7 @@ d. 4.3 Lts
 a. 6.3 US Qts
 b. 6.2 US Qts
 c. 6Lts.
-d. 6.3 Lts
-*e. Both A & C are correct
+*d. Both A & C are correct
 
 125. What is the maximum and minimum oil temperature:
 a. +105 C & -32 C
@@ -856,8 +853,8 @@ d. annunciation panel.
 138. When an ECU backup unsafe warning appears on the PFD what colour will be the annunciation and what does it mean:
 a. Red, ECU backup battery has less than 60% electrical charge
 b. Amber, ECU backup battery has less than 70% electrical charge
-c. Red, ECU battery has less than 70% electrical charge
-*d. White, ECU backup battery has less than 70% electrical charge
+*c. Red, ECU battery has less than 70% electrical charge
+d. White, ECU backup battery has less than 70% electrical charge
 
 139. The sign glow if seen on the anuunciation panel means:
 *a. Glow plug active
@@ -914,11 +911,10 @@ c. Not permitted in thunderstorm but permitted in known icing condition
 *d. Not permitted in icing as well as thunderstorm at all
 
 148. Approved fuel grade for the DA40D:
-a. Jet A-1 (ASTMD1655)
-b. Jet A (ASTMD1655)
+a. Jet A-1 (ASTMD1655) & Jet A (ASTMD1655)
+b. Diesel fuel (EN590)
 c. Jet fuel No.3 (GB6537-94)
-d. Diesel fuel (EN590)
-*e. All
+*d. All 
 
 149. Total fuel quantity in standard tank:
 a. 30 USG
@@ -970,15 +966,15 @@ d. 100 kias
 
 157. The max speed for propeller wind milling is:
 a. 108 kias
-b. 110 kias
-*c. 120 kias
+*b. 110 kias
+c. 120 kias
 d. 105 kias
 
 158. Restarting a wind milling propeller is possible b/w:
 a. 78 & 110 Kias
-*b. 73& 120 Kias
+b. 73& 120 Kias
 c. 60 & 120 Kias
-d. 73 & 110 Kias
+*d. 73 & 110 Kias
 
 159. Restarting the engine with the wind milling propeller is possible below:
 a. 6800 Feet
@@ -1090,8 +1086,8 @@ d. 10 Mins
 
 177. When starting a cold engine the oil pressure can be as high as ___ bar for ___ seconds:
 a. 6 Bar for 20 Sec
-b. 6.5 Bar for 20 Sec
-*c. 7 Bar for 10 Sec
+*b. 6.5 Bar for 20 Sec
+c. 7 Bar for 10 Sec
 d. 6.5 Bar for 10 Sec
 
 178. If the airplane is operated with diesel or blend of diesel or jet fuel safe transfer is not ensured unless the fuel temperature is minimum of:
@@ -1154,15 +1150,15 @@ a. 4.50%
 c. 5.21%
 d. 5.16%
 
-188. While landing at dow slope 2% result in:
+188. While landing at down slope 2% result in:
 a. decrese in landing distance by 5%
-b. increase in landing distance by 10%
+b. increase in landing distance by 15%
 *c. increase in landing distance by 10%
 d. decrease in landing distance by 10%
 
 189. If the fuel transfer status light begin to blink:
-a. turn off the fuel transfer pump
-*b. turn on the fuel transfer pump
+*a. turn off the fuel transfer pump
+b. turn on the fuel transfer pump
 c. fuel transfer pump failure
 d. main tank fuel low
 
