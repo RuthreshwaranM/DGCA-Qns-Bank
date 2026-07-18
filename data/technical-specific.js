@@ -290,6 +290,7 @@ d. None
 a. Pulling up the friction handle for high friction
 b. Pressing the button on top on the lever for low friction
 *c. Both A & B above
+d. None of the above 
 
 45. The Propeller used on DA40D A/C is:
 a. Hydraulically regulated 3 bladed constant speed propeller
@@ -465,12 +466,6 @@ b. Va
 *c. Vne
 d. Vno
 
-73b. The never exceed speed (Vne) of the DA40 is equal to:
-a. 179 Kts
-b. 169 Kts
-*c. 178 Kts
-d. 176 Kts
-
 74. The yellow arc in the airspeed indicate range can be flown only in:
 a. Headwinds
 b. Tailwinds
@@ -613,21 +608,25 @@ d. 110
 a. Warning annunciation
 *b. Caution Annunciation
 c. Advisory Annunciation
+d. None of the above 
 
 98. The door open annunciation for warning & caution & status message for:-
 *a. Warning annunciation
 b. Caution Annunciation
 c. Advisory Annunciation
+d. None of the above 
 
 99. The PFD fan fail annunciation for warning & caution & status message for:-
 a. Warning annunciation
 b. Caution Annunciation
 *c. Advisory Annunciation
+d. None of the above 
 
 100. For safe takeoff, the TORA should be ___ to take off distance over a 50 ft obstacle:
 a. More
 *b. Equal
 c. Less
+d. None of the above 
 
 101. Which of the dimensions of the DA40 is correct:
 a. Span-39'2"
@@ -825,6 +824,7 @@ c. Aeroshell Oil diesel 10W40
 a. DAI-G30MJX
 *b. DAI-G48-MIX
 c. NONE
+d. None of the above 
 
 134. What is the normal operating range of the oil pressure:
 a. 1.2 to 6.5 bar
@@ -1412,6 +1412,7 @@ d. Pneumatics
 *a. That the non observation of the corresponding procedure leads to an immediate or important degradation in flight safety
 b. That the non observation of the corresponding procedure leads to a minor or to a more or less long term degradation in flight safety
 c. draws the attention to any item not directly related to safety but which is important or unusable
+d. None of the above 
 
 232. Span of DA40D is approx :
 a. 11.84 mt
@@ -1561,6 +1562,7 @@ d. 4 Lt
 a. That the non observation of the corresponding procedure leads to an immediate or important degradation in flight safety.
 *b. That the non observation of the corresponding procedure leads to a minor or to a more or less long term degradation in flight safety.
 c. None
+d. None of the above 
 
 257. Yellow range of ASI marking is:
 a. 128-178 KIAS
@@ -1752,6 +1754,7 @@ c. 2.0 Lts
 a. 4person
 *b. 2 person, both must sit in front
 c. 3 person
+d. None of the above 
 
 289. What is AHRS:
 a. Avionics & Height reference System
@@ -1824,4 +1827,10 @@ a. 0.7
 b. 0.6
 c. 0.72
 *d. 0.84
+
+301. The never exceed speed (Vne) of the DA40 is equal to:
+a. 179 Kts
+b. 169 Kts
+*c. 178 Kts
+d. 176 Kts
 `);
