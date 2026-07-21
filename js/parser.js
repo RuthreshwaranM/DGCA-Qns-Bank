@@ -32,6 +32,14 @@
      [image: filename.png]
    (drop the actual image file into the /images folder)
 
+   OPTIONAL — add a diagram to the EXPLANATION by adding a line
+   anywhere after your "Explanation:" line:
+     Explanation: See the diagram below.
+     [image: filename.png]
+   (same [image: ...] syntax — it's routed to the question or the
+   explanation depending on whether it appears before or after
+   the "Explanation:" line)
+
    Numbering (1., 2., 3. ...) doesn't need to be sequential or
    unique across chapters — it's only used to help you keep
    track while pasting; the app generates its own internal IDs.
@@ -66,7 +74,8 @@ function parseQuestionsText(raw, idPrefix) {
         image: cur.image,
         options: cur.options.map(o => o.text.trim()),
         correctIndex: correctIndex,
-        explanation: cur.explanationLines.join(" ").replace(/\s+/g, " ").trim()
+        explanation: cur.explanationLines.join(" ").replace(/\s+/g, " ").trim(),
+        explanationImage: cur.explanationImage
       });
     }
     cur = null;
@@ -78,7 +87,7 @@ function parseQuestionsText(raw, idPrefix) {
 
     if ((m = line.match(qStartRe))) {
       pushCurrent();
-      cur = { qLines: [m[1]], image: null, options: [], explanationLines: [] };
+      cur = { qLines: [m[1]], image: null, options: [], explanationLines: [], explanationImage: null };
       state = "question";
       continue;
     }
@@ -86,7 +95,12 @@ function parseQuestionsText(raw, idPrefix) {
 
     if ((m = line.match(imgRe))) {
       const v = m[1].trim();
-      cur.image = v.includes("/") ? v : "images/" + v;
+      const path = v.includes("/") ? v : "images/" + v;
+      if (state === "explanation") {
+        cur.explanationImage = path;
+      } else {
+        cur.image = path;
+      }
       continue;
     }
     if ((m = line.match(optRe))) {
