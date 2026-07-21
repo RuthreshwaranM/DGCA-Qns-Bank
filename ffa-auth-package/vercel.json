@@ -1,0 +1,15 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/api/gate?path=index.html" },
+    { "source": "/index.html", "destination": "/api/gate?path=index.html" },
+    { "source": "/js/app.js", "destination": "/api/gate?path=js/app.js" },
+    { "source": "/js/parser.js", "destination": "/api/gate?path=js/parser.js" },
+    { "source": "/data/:file*", "destination": "/api/gate?path=data/:file*" },
+    { "source": "/images/:file*", "destination": "/api/gate?path=images/:file*" }
+  ],
+  "functions": {
+    "api/gate.js": {
+      "includeFiles": "protected/**"
+    }
+  }
+}

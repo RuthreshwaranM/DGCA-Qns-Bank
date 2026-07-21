@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register Student &middot; Flight Flare Aviation</title>
+<meta name="robots" content="noindex, nofollow">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/academy.css">
+<link rel="icon" href="logo1.png" type="image/png">
+
+<style>
+.ff-login-shell{ max-width:420px; margin:64px auto; padding:0 24px; }
+.ff-login-card{
+  background: var(--ff-panel-bg, #10182b);
+  border: 1px solid var(--ff-border, rgba(212,175,55,0.2));
+  border-radius: 16px;
+  padding: 40px 32px 32px;
+  box-shadow: 0 24px 60px rgba(0,0,0,0.4);
+}
+.ff-login-title{
+  font-family: var(--ff-font-display, 'Space Grotesk', sans-serif);
+  font-size: 1.5rem;
+  color: var(--ff-cream, #f4ecd8);
+  text-align: center;
+  margin-bottom: 6px;
+}
+.ff-login-sub{
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--ff-muted, #8a94a8);
+  margin-bottom: 28px;
+}
+</style>
+</head>
+<body class="ff-page-body">
+
+<header class="ff-topbar">
+  <a href="aboutus.html" class="ff-brandbar">
+    <img src="logo1.png" alt="Flight Flare Aviation" class="ff-logo">
+    <div class="ff-brand-text">
+      <strong>FLIGHT FLARE AVIATION</strong>
+      <span>DGCA EXAM BANK</span>
+    </div>
+  </a>
+</header>
+
+<main class="ff-login-shell">
+  <div class="ff-login-card" id="ff-card">
+    <div class="ff-login-title">Create Student Profile</div>
+    <div class="ff-login-sub">Admin-only — Exam Bank registration portal</div>
+
+    <form class="ff-form" id="ff-reg-form">
+      <div class="ff-field">
+        <label for="ff-r-name">Full Name</label>
+        <input type="text" id="ff-r-name" name="name" required placeholder="Student's full name" autocomplete="off">
+      </div>
+      <div class="ff-field">
+        <label for="ff-r-password">Password</label>
+        <input type="password" id="ff-r-password" name="password" required placeholder="Create a secure password">
+      </div>
+      <button type="submit" class="ff-submit" id="ff-reg-btn">Register Student</button>
+      <div class="ff-form-status" id="ff-reg-status"></div>
+    </form>
+  </div>
+</main>
+
+<footer class="ff-footer">
+  <div class="ff-footer-brand">
+    <img src="logo1.png" alt="Flight Flare Aviation">
+    <span>FLIGHT FLARE AVIATION</span>
+  </div>
+  <div class="ff-footer-links">
+    <a href="aboutus.html">About Us</a>
+    <a href="contactus.html">Contact Us</a>
+  </div>
+  <div class="ff-footer-copy">&copy; <span id="ff-year"></span> Flight Flare Aviation. All rights reserved.</div>
+</footer>
+
+<script>
+document.getElementById('ff-year').textContent = new Date().getFullYear();
+
+const urlParams = new URLSearchParams(window.location.search);
+const adminKey = urlParams.get('key');
+
+if (!adminKey) {
+  document.getElementById('ff-card').innerHTML = `
+    <div style="text-align:center;">
+      <div class="ff-login-title" style="color:#ff6b6b;">Access Denied</div>
+      <div class="ff-login-sub">Missing admin security key parameter.</div>
+    </div>`;
+}
+
+document.getElementById('ff-reg-form')?.addEventListener('submit', async function(e){
+  e.preventDefault();
+  const name = document.getElementById('ff-r-name').value;
+  const password = document.getElementById('ff-r-password').value;
+  const status = document.getElementById('ff-reg-status');
+  const btn = document.getElementById('ff-reg-btn');
+
+  status.textContent = '';
+  status.className = 'ff-form-status';
+  btn.disabled = true;
+  btn.textContent = 'Registering...';
+
+  try {
+    const res = await fetch('/api/register', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, password, adminKey })
+    });
+    const data = await res.json();
+
+    if (data.success) {
+      status.textContent = data.message;
+      status.className = 'ff-form-status ok';
+      document.getElementById('ff-reg-form').reset();
+    } else {
+      status.textContent = data.error;
+      status.className = 'ff-form-status err';
+    }
+  } catch (err) {
+    status.textContent = 'Network error. Please try again.';
+    status.className = 'ff-form-status err';
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Register Student';
+  }
+});
+</script>
+</body>
+</html>

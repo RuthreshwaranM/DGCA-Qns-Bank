@@ -1,0 +1,53 @@
+<!-- ============================================================
+     AUTH GUARD — paste this as the FIRST thing inside <body> of
+     your real protected/index.html. It's the client-side half of
+     the gate: /api/gate already refuses to serve this page to an
+     unauthenticated browser, but this catches the case where
+     someone's stale sessionStorage says they're logged in when the
+     server-side cookie has actually expired, and keeps the topbar
+     / sign-out UX matching the RTR site.
+============================================================ -->
+<script>
+(function(){
+  const auth = sessionStorage.getItem('ffa_auth');
+  if(!auth){
+    window.location.replace('/login.html');
+    return;
+  }
+  try{
+    const data = JSON.parse(auth);
+    if(!data.loggedIn){
+      window.location.replace('/login.html');
+      return;
+    }
+    /* Session expires after 4 hours — matches the server-side JWT expiry */
+    const fourHours = 4 * 60 * 60 * 1000;
+    if(Date.now() - data.time > fourHours){
+      sessionStorage.removeItem('ffa_auth');
+      window.location.replace('/login.html');
+      return;
+    }
+    /* Optional: show student name/ID in your topbar once the DOM is ready.
+       Add elements with these IDs anywhere in your topbar markup if you
+       want this to populate automatically — otherwise it's a no-op. */
+    window.addEventListener('DOMContentLoaded', () => {
+      const nb = document.getElementById('user-name');
+      const sb = document.getElementById('student-badge');
+      const ui = document.getElementById('user-info');
+      if(nb) nb.textContent = data.name;
+      if(sb){ sb.textContent = data.userId; sb.style.display = 'block'; }
+      if(ui) ui.style.display = 'flex';
+    });
+  }catch(e){
+    window.location.replace('/login.html');
+  }
+})();
+
+/* Call this from a "Sign Out" button anywhere in the protected app */
+async function ffaSignOut(){
+  try { await fetch('/api/logout'); } catch(e){}
+  sessionStorage.removeItem('ffa_auth');
+  window.location.replace('/login.html');
+}
+</script>
+<!-- END AUTH GUARD -->

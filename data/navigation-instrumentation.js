@@ -1283,39 +1283,39 @@ registerChapterText("navigation-instrumentation", "AIRSPEED-ASSIGNMENT", "AIRSPE
 a. Lower TAS because air density decreases. 
 b. Higher TAS because air density decreases. 
 c. Higher TAS because air density increases. 
-d. Lower TAS because air density increases. 
+*d. Lower TAS because air density increases. 
 
 2. The EAS is obtained from the CAS by correcting for: 
 a. Instruments error. 
-b. Compressibility error. 
+*b. Compressibility error. 
 c. Density error. 
 d. Position error. 
 
 3. When climbing at a constant CAS in standard atmosphere: 
 a. TAS decrease. 
 b. TAS remains constant. 
-c. TAS increases. 
+*c. TAS increases. 
 d. TAS first decreases, then remains constant above the tropopause. 
 
 4. During ac climb at a constant CAS below the tropopause in the standard atmosphere: 
 a. The Mach number and the speed of sound decrease. 
 b. The Mach number decreases and the speed of sound increases. 
-c. The Mach number increases and the speed of sound decreases. 
+*c. The Mach number increases and the speed of sound decreases. 
 d. The Mach number and all sped of sound increases. 
 
 5. During descent at constant CAS below the tropopause in standard atmosphere: 
-a. Mach number and TAS decrease. 
+*a. Mach number and TAS decrease. 
 b. Mach number and TAS increase. 
 c. Mach number and decreases and TAS increases. 
 d. Mach number and increases and TAS decreases. 
 
 6. The CAS is obtained from the IAS by correcting for the following errors: 
-1.  Position. 
-2.  Compressibility. 
-3.  Instruments. 
-4.  Density. 
-The combination that regroups all of the correct statements is: 
-a. 1,3. 
+   .1.  Position. 
+   .2.  Compressibility. 
+   .3.  Instruments. 
+   .4.  Density. 
+   The combination that regroups all of the correct statements is: 
+*a. 1,3. 
 b. 3. 
 c. 1,3,4. 
 d. 2,3,4. 
@@ -1326,67 +1326,66 @@ order to meet his scheduled time of arrival, he decides to use the maximum groun
 any time of the descent. He will be limited? 
 a. By the MMO. 
 b. By the VMO in still air. 
-c. Initially by the MMO, then by the VMO below a certain flight level. 
+*c. Initially by the MMO, then by the VMO below a certain flight level. 
 d. Initially by the VMO, then by the MMO below a certain flight level. 
 
 8. In a standard atmosphere and at the sea level, the calibrated airspeed (CAS) is? 
 a. Lower than the true airspeed(TAS). 
-b. Equal to the true airspeed (TAS). 
+*b. Equal to the true airspeed (TAS). 
 c. Independent of the true airspeed (TAS). 
 d. Higher than the true airspeed (TAS). 
 
 9. With a constant weight, irrespective of the airfield altitude, an aircraft always takes off at the 
 same? 
-a. Calibrated airspeed. 
+*a. Calibrated airspeed. 
 b. Ground speed. 
 c. True airspeed. 
 d. Equivalent airspeed. 
 
 10. The calibrated airspeed (CAS) is obtained by applying to the indicated airspeed (IAS)? 
 a. A compressibility and density correction. 
-b. An instrument and position/pressure error correction. 
+*b. An instrument and position/pressure error correction. 
 c. An antenna and compressibility correction. 
 d. An instrument and density correction. 
 
 11. The velocity maximum operating (VMO) is a speed expressed in? 
 a. True airspeed (TAS). 
 b. Computed airspeed (COAS). 
-c. Calibrated airspeed (CAS). 
+*c. Calibrated airspeed (CAS). 
 d. Equivalent airspeed (EAS). 
 
 12. The limits of the white scale of an airspeed indicator are? 
 a. VSI for the lower limit and VFE for the upper limit. 
 b. VSO for the lower limit and VLE for the upper limit. 
 c. VSI for the lower limit and VLE for the upper limit. 
-d. VSO for the lower limit and VFE for the upper limit. 
+*d. VSO for the lower limit and VFE for the upper limit. 
 
 13. The limits of the green scale of an airspeed indicator are? 
 a. VS1 for the lower limit and VNE for the upper limit. 
 b. VS1 for the lower limit and VLO for the upper limit. 
-c. VS1 for the lower limit and VNO for the upper limit. 
+*c. VS1 for the lower limit and VNO for the upper limit. 
 d. VSO for the lower limit and VNO for the upper limit. 
 
 14. The limits of the yellow scale of an airspeed indicator are? 
 a. VLO for the lower limits and VNE for the upper limit. 
 b. VLE for the lower limit and VNE for the upper limit. 
 c. VFE for the lower limit and VNE for the upper limit. 
-d. VNO for the lower limit and VNE for the upper limit. 
+*d. VNO for the lower limit and VNE for the upper limit. 
 
 15. During a straight and uniform climb, the pilot maintains a constant calibrated airspeed (CAS)? 
-a. The Mach number increases and the true airspeed (TAS) increases. 
+*a. The Mach number increases and the true airspeed (TAS) increases. 
 b. The Mach number increases and the true airspeed (TAS) is constant. 
 c. The Mach number is constant and the true airspeed (TAS) is constant. 
 d. The Mach number is constant and the true airspeed (TAS) decrease.  
 
 16. VLE is the maximum? 
-a.  
-Speed authorized in flight. 
-b. Flight speed with landing gear down. 
+a.  Speed authorized in flight. 
+*b. Flight speed with landing gear down. 
 c. Speed at which the landing gear can be operated with full safety. 
 d. Speed with flaps extended in a given position. 
 
 17. VLO is the maximum? 
-a. Speed at which the landing gear can be operated with full safety. 
+*a. Speed at which the landing gear can be operated with full safety. 
 b. Flight speed with landing gear down. 
 c. Speed with flaps extended in a given position. 
 d. Cruising speed not be exceeded except in still air with caution. 
@@ -1394,38 +1393,38 @@ d. Cruising speed not be exceeded except in still air with caution.
 18. VNE is the maximum speed? 
 a. At which the flight controls can be fully deflected. 
 b. With flaps extended in landing position. 
-c. Which must never be exceeded. 
+*c. Which must never be exceeded. 
 d. Not to be exceeded except in still air and with caution. 
 
 19. VNO is the maximum speed? 
 a. Which must never be exceeded. 
 b. At which the flight controls can be fully deflected. 
 c. With flaps extended in landing position. 
-d. Not to be exceeded except in still air and with caution. 
+*d. Not to be exceeded except in still air and with caution. 
 
 20. For a constant calibrated Airspeed (CAS) and a level flight, a fall in ambient temperature will 
 result in a? 
 a. Lower True Airspeed (TAS) due to a decrease in air density. 
-b. Lower True Airspeed (TAS) due to an increase in air density. 
+*b. Lower True Airspeed (TAS) due to an increase in air density. 
 c. Higher True Airspeed (TAS) due to a decrease in air density. 
 d. Higher True Airspeed (TAS) due to an increase in air density. 
 
 21. When climbing at a constant Mach number below the tropopause, in ISA conditions, the 
 Calibrated Airspeed (CAS) will? 
-a. Decrease. 
+*a. Decrease. 
 b. Increase at a liner rate. 
 c. Remain constant. 
 d. Increase at an exponential rate. 
 
 22. If the outside temperature at 35000 feet is -40°C, the local speed of sound is? 
 a. 686 kt. 
-b. 596 kt. 
+*b. 596 kt. 
 c. 247 kt. 
 d. 307 kt. 
 
 23. When descending through an isothermal layer at a constant Calibrated Airspeed (CAS), the True 
 Airspeed (TAS) will? 
-a. Decrease. 
+*a. Decrease. 
 b. Increase at a liner rate. 
 c. Remain constant. 
 d. Increase at an exponential rate. 
@@ -1435,12 +1434,12 @@ temperature remains constant, the Mach number?
 a. Decreases. 
 b. Remains constant. 
 c. Decreases if the static temperature is lower than the standard temperature. 
-d. Increases. 
+*d. Increases. 
 
 25. The airspeed indicator of a twin-engined aircraft comprises different sectors and color marks. 
 The blue line corresponds to the? 
 a. Maximum speed in operations, or VMO. 
-b. Optimum climbing speed with one engine inoperative, or Vy. 
+*b. Optimum climbing speed with one engine inoperative, or Vy. 
 c. Speed not to be exceeded, or VNE. 
 d. Minimum control speed, or VMC. 
 
@@ -1448,25 +1447,25 @@ d. Minimum control speed, or VMC.
 This pointer indicates the? 
 a. Speed indicated on the auto-throttle control box, versus temperature. 
 b. Speed indicated on the auto-throttle control box versus altitude. 
-c. Maximum speed in VMO operation versus altitude. 
+*c. Maximum speed in VMO operation versus altitude. 
 d. Maximum speed in VMO operation, versus temperature.  
 
 27. VFE is the maximum speed? 
 a. At which the flaps can be operated. 
 b. With the flaps extended in take-off position. 
-c. With the flaps extended in a given position. 
+*c. With the flaps extended in a given position. 
 d. With the flaps extended in landing position. 
 
 28. An airspeed is in steady descent. The auto-throttle maintains a constant Mach number. If the 
 total temperature remains constant, the calibrated airspeed? 
 a. Remains constant. 
 b. Decreases If the static temperature is lower than the standard temperature, increases if above. 
-c. Increases. 
+*c. Increases. 
 d. Decreases. 
 
 29. An aeroplane is in steady descent below the tropopause in the USA. The auto-throttle maintains 
-*a constant calibrated airspeed. If the total temperature remains constant, the Mach number? 
-a. Increases if the static temperature is lower than the standard temperature, decreases if higher. 
+a constant calibrated airspeed. If the total temperature remains constant, the Mach number? 
+*a. Increases if the static temperature is lower than the standard temperature, decreases if higher. 
 b. Decreases. 
 c. Increases. 
 d. Remains constant. 
