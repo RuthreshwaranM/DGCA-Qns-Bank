@@ -4,7 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact Us &middot; Flight Flare Aviation</title>
-<meta name="description" content="Get in touch with Flight Flare Aviation — WhatsApp, Telegram, phone or the enquiry form.">
+<meta name="description" content="Get in touch with Flight Flare Aviation — WhatsApp, Telegram, Instagram, phone or the enquiry form.">
+<link rel="icon" href="logo1.png" type="image/png">
+
+<!-- Social share preview -->
+<meta property="og:title" content="Contact Us · Flight Flare Aviation">
+<meta property="og:description" content="Questions, corrections, or a query about a subject — we read everything.">
+<meta property="og:image" content="logo2.png">
+<meta property="og:type" content="website">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +19,19 @@
 
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/academy.css">
+<script src="js/protection.js" defer></script>
+
+<style>
+.ff-contact-list li a img.ff-chan-icon,
+.ff-contact-list li span img.ff-chan-icon{ width:22px; height:22px; border-radius:5px; object-fit:cover; }
+.ff-contact-list li a{ display:flex; align-items:center; gap:12px; }
+.ff-contact-list li span.ff-icon{ display:flex; align-items:center; justify-content:center; width:22px; }
+.ff-dm-badge{
+  display:inline-block; margin-left:8px; padding:2px 8px; font-size:10.5px; font-weight:700;
+  letter-spacing:.3px; border-radius:999px; background:rgba(37,211,102,0.15); color:#25D366;
+  vertical-align:middle;
+}
+</style>
 </head>
 <body class="ff-page-body">
 
@@ -37,19 +57,26 @@
     <!-- Direct contact channels -->
     <ul class="ff-contact-list">
       <li>
-        <!-- Replace 91XXXXXXXXXX with your WhatsApp number, country code first, no + or spaces -->
         <a href="https://chat.whatsapp.com/LTxzz9GUiR76gEaAay6q2n" target="_blank" rel="noopener">
-          <span class="ff-icon">WA</span>
+          <img class="ff-chan-icon" src="whatsapplogo.png" alt="WhatsApp">
           <span>
-            WhatsApp
-            <small>Chat with us directly</small>
+            WhatsApp — chat with us directly<span class="ff-dm-badge">DM</span>
+            <small>Fastest way to reach us one-on-one</small>
           </span>
         </a>
       </li>
       <li>
-        <!-- Replace with your Telegram channel/username -->
+        <a href="https://chat.whatsapp.com/LTxzz9GUiR76gEaAay6q2n" target="_blank" rel="noopener">
+          <img class="ff-chan-icon" src="whatsapplogo.png" alt="WhatsApp community">
+          <span>
+            WhatsApp community
+            <small>Join fellow CPL/ATPL candidates</small>
+          </span>
+        </a>
+      </li>
+      <li>
         <a href="https://t.me/FlightFlareAviation" target="_blank" rel="noopener">
-          <span class="ff-icon">TG</span>
+          <img class="ff-chan-icon" src="telegramlogo.png" alt="Telegram">
           <span>
             Telegram
             <small>Join our study channel</small>
@@ -57,8 +84,16 @@
         </a>
       </li>
       <li>
-        <!-- Replace with your phone number -->
-        <a href="tel:+91 9360736138">
+        <a href="https://www.instagram.com/flightflare_aviation?igsh=N3V6bmM2NXBtbWVz" target="_blank" rel="noopener">
+          <img class="ff-chan-icon" src="instagramlogo.png" alt="Instagram">
+          <span>
+            Instagram
+            <small>Updates, tips &amp; announcements</small>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="tel:+919360736138">
           <span class="ff-icon">☎</span>
           <span>
             Call us
@@ -67,12 +102,11 @@
         </a>
       </li>
       <li>
-        <!-- Replace with your email -->
         <a href="mailto:flightflareaviation@gmail.com">
           <span class="ff-icon">@</span>
           <span>
             Email
-            <small>flightflareaviation.com</small>
+            <small>flightflareaviation@gmail.com</small>
           </span>
         </a>
       </li>
@@ -142,19 +176,7 @@
 <script>
 document.getElementById('ff-year').textContent = new Date().getFullYear();
 
-/*
-  EMAIL DELIVERY — this form uses Formspree (https://formspree.io), a free
-  service that forwards static-site form submissions to your inbox with no
-  backend/server needed.
-
-  Setup (5 minutes):
-  1. Go to formspree.io, sign up free, create a new form.
-  2. Formspree gives you an endpoint like: https://formspree.io/f/abc1234
-  3. Paste that endpoint below, replacing FORM_ENDPOINT.
-  4. Formspree will send a confirmation email the first time — verify it.
-  Every submission after that lands directly in your inbox.
-*/
-const FORM_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID"; // <-- replace with your Formspree endpoint
+const FORM_ENDPOINT = "https://formspree.io/f/xlgqlkyo";
 
 const form = document.getElementById('ff-contact-form');
 const status = document.getElementById('ff-form-status');
@@ -162,12 +184,6 @@ const btn = document.getElementById('ff-submit-btn');
 
 form.addEventListener('submit', async function (e) {
   e.preventDefault();
-
-  if (FORM_ENDPOINT.includes('YOUR_FORM_ID')) {
-    status.textContent = 'Form not connected yet — set up Formspree and paste your endpoint in contactus.html.';
-    status.className = 'ff-form-status err';
-    return;
-  }
 
   btn.disabled = true;
   btn.textContent = 'Sending...';
