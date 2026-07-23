@@ -27,11 +27,3 @@
 
 registerSubject("atpl-gen-nav", "ATPL-GEN-NAV");
 
-registerChapterText("atpl-gen-nav", "atmosphere", "The Atmosphere", `
-1. Lowest layer of atmosphere is
-*a. Troposphere
-b. Tropopause
-c. Stratosphere
-Explanation: The troposphere is the lowest atmospheric layer, extending from the surface up to the tropopause, and is where almost all weather occurs.
-
-`);
