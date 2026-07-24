@@ -1,5 +1,2034 @@
 registerSubject("atpl-met", "ATPL-MET");
 
+/* ============================================================
+   DGCA EXAM BANK — SUBJECT: ATPL Meteorology
+   Chapter 1: THE ATMOSPHERE (50.01)
+   Source: 50-Met_QB.pdf — 285 questions, answers verified from
+   the bold-highlighted correct option in the source PDF.
+   ============================================================ */
+
+registerSubject("atpl-met", "ATPL-MET");
+
+registerChapterText("atpl-met", "atmosphere-composition-extent-vertical-division", "The Atmosphere \u2014 Composition, extent, vertical division", `
+1. How does the height of the tropopause normally vary with latitude in the northern hemisphere ?
+a. It remains constant throughout the year.
+b. It remains constant from north to south.
+c. It increases from south to north.
+*d. It decreases from south to north.
+Explanation: The tropopause is highest and coldest over the equator (~16 km, about −75 to −80°C) and lowest and warmest over the poles (~8 km), so its height decreases moving from the equator towards the poles (i.e. from south to north in the northern hemisphere).
+
+2. What, approximately, is the average height of the tropopause over the equator ?
+a. 40 km
+b. 8 km
+c. 11 km
+*d. 16 km
+Explanation: Over the equator the tropopause sits at roughly 16 km (about FL 530), much higher than the ~8 km typical at the poles, because deep convection in the tropics pushes the boundary with the stratosphere higher.
+
+3. In which layer is most of the atmospheric humidity concentrated ?
+*a. Troposphere.
+b. Tropopause.
+c. Stratosphere.
+d. Stratopause.
+Explanation: Almost all atmospheric water vapour (over 90%) is confined to the troposphere, since it originates from surface evaporation and is carried upward by convection and mixing that weaken above the tropopause.
+
+4. What is the boundary layer between troposphere and stratosphere called?
+*a. Tropopause.
+b. Ionosphere.
+c. Stratosphere.
+d. Atmosphere.
+Explanation: The tropopause is the thin transition zone separating the troposphere below from the stratosphere above.
+
+5. Which of the following cloud types can project up into the stratosphere?
+*a. Cumulonimbus
+b. Cirrostratus
+c. Altocumulus
+d. Altostratus
+Explanation: Cumulonimbus clouds are the only cloud type with enough vertical development to push through the tropopause into the lower stratosphere, forming the characteristic anvil (overshooting top).
+
+6. Which one of the following statements applies to the tropopause?
+a. It is, by definition, a temperature inversion
+b. It is, by definition, an isothermal layer
+c. It indicates a strong temperature lapse rate
+*d. It separates the troposphere from the stratosphere
+Explanation: The tropopause is defined as the boundary separating the troposphere from the stratosphere, marked by the level where the temperature lapse rate becomes small (near-isothermal) rather than a fixed temperature value.
+
+7. The thickness of the troposphere varies with
+*a. latitude
+b. longitude
+c. rotation of the earth
+d. the wind
+Explanation: The troposphere's depth depends on latitude: it is thickest (~16 km) over the warm, convective equatorial belt and thinnest (~8 km) over the cold poles.
+
+8. What is the approximate composition of the dry air by volume in the troposphere ?
+*a. 21 % oxygen, 78 % nitrogen, and the rest other gasses
+b. 10 % oxygen, 89 % nitrogen, and the rest other gasses
+c. 88 % oxygen, 9 % nitrogen, and the rest other gasses
+d. 50 % oxygen, 40 % nitrogen, and the rest other gasses
+Explanation: Dry air is approximately 78% nitrogen and 21% oxygen by volume, with the remaining ~1% made up of argon, carbon dioxide and trace gases.
+
+9. Which layer of the atmosphere contains more than 90 per cent of all water vapour?
+*a. Troposphere
+b. Lower stratosphere
+c. Upper stratosphere
+d. Ionosphere
+Explanation: Nearly all atmospheric moisture is confined to the troposphere, since water vapour enters the atmosphere by evaporation at the surface and convective mixing does not extend far above the tropopause.
+
+10. Going from the equator to the north pole, the altitude of the tropopause
+a. increases and its temperature increases
+*b. decreases and its temperature increases
+c. increases and its temperature decreases
+d. decreases and its temperature decreases
+Explanation: Moving from the equator to the pole the tropopause gets lower (from ~16 km to ~8 km) while its temperature rises (from about −75°C to about −55°C), since the polar tropopause is less depressed by cold, dense air below it.
+
+11. The troposphere is the
+a. part of the atmosphere above the stratosphere
+*b. part of the atmosphere below the tropopause
+c. boundary between the mesosphere and thermosphere
+d. boundary between the stratosphere and the mesosphere
+Explanation: The troposphere is defined as the layer of atmosphere extending from the surface up to the tropopause; it lies below the stratosphere, not above it.
+
+12. The tropopause is a level at which
+a. vertical currents are strongest
+b. water vapour content is greatest
+c. pressure remains constant
+*d. temperature ceases to fall with increasing height
+Explanation: The defining feature of the tropopause is that the temperature stops decreasing with height (the lapse rate becomes near zero), marking the top of the troposphere.
+
+13. The tropopause is lower
+a. south of the equator than north of it
+b. in summer than winter in moderate latitudes
+*c. over the North Pole than over the equator
+d. over the equator than over the South Pole
+Explanation: The tropopause is lower over the cold poles than over the warm, convectively active equator, so it sits lower over the North Pole than over the equator.
+
+14. The average height of the tropopause at 50°N is about
+a. 14 km
+b. 8 km
+*c. 11 km
+d. 16 km
+Explanation: At about 50° latitude the tropopause is at an intermediate height of roughly 11 km, between the ~16 km equatorial value and the ~8 km polar value.
+
+15. The height and the temperature of the tropopause are respectively in the order of
+a. 8 km and -40°C over the equator
+*b. 16 km and -75°C over the equator
+c. 8 km and - 75°C over the poles
+d. 16 km and -40°C over the poles
+Explanation: Over the equator the tropopause is high and cold (about 16 km, roughly −75°C) because vigorous convection lifts it, while at the poles it is lower and comparatively warmer.
+
+16. The troposphere
+*a. has a greater vertical extent above the equator than above the poles
+b. contains all oxygen of the stratosphere
+c. is the separation layer between the stratosphere and atmosphere
+d. reaches the same height at all latitudes
+Explanation: Based on standard ICAO/ISA meteorology and altimetry principles, option a — "has a greater vertical extent above the equator than above the poles" — is the correct answer to this question.
+
+17. In the mid-latitudes the stratosphere extends on an average from
+a. 85 to more than 200 km
+b. 0 to 11 km
+c. 50 to 85 km
+*d. 11 to 50 km
+Explanation: In mid-latitudes the stratosphere lies roughly between 11 km and 50 km, above the tropopause and below the mesosphere.
+
+18. A temperature increase with altitude through a layer is called:
+a. Heating aloft.
+*b. An inversion.
+c. An extension.
+d. Unstable air.
+Explanation: A layer in which temperature rises with height, rather than falling as normal, is called a temperature inversion.
+
+19. The layer of the Earth´s atmosphere which most concerns aviators is called the:
+a. Stratosphere.
+b. Tropopause.
+*c. Troposphere.
+d. Equatorial zone.
+Explanation: Almost all weather and the airspace used for most flying occurs in the troposphere, making it the layer of greatest concern to aviators.
+
+20. The percentage concentration of gases in the atmosphere is constant from the surface of the earth to a certain altitude with the exception of:
+a. Oxygen
+b. Nitrogen
+c. Hydrogen
+*d. Water vapour
+Explanation: The proportions of the main permanent gases (oxygen, nitrogen, etc.) stay essentially constant with height, but water vapour content varies greatly and decreases rapidly with altitude.
+
+21. Define the tropopause:
+a. A relatively thin layer, or boundary zone, which separates the lower atmosphere from the tropopause
+*b. That area where the temperature change does not exceed two-thirds of one degree Celsius per thousand foot increase in altitude over a range of 6000 feet.
+c. That area where the temperature change does not exceed two-thirds of one degree Celsius per thousand foot increase in altitude independent of latitude.
+d. A relatively thick layer or boundary zone below the troposphere.
+Explanation: The tropopause is defined as the boundary separating the troposphere from the stratosphere, marked by the level where the temperature lapse rate becomes small (near-isothermal) rather than a fixed temperature value.
+
+22. The region of the atmosphere which is normally stable and has few clouds is known as the:
+a. Tropopause
+b. Troposphere
+*c. Stratosphere
+d. Jetstream
+Explanation: The stratosphere is normally very stable (it contains a temperature inversion/isothermal layer) and, since it lies above the moisture of the troposphere, it is largely cloud-free.
+
+23. The lowest layer in the atmosphere is:
+a. The Stratosphere
+*b. The Troposphere
+c. The Mesosphere
+d. The Heavi Side Layer
+Explanation: The troposphere is the lowest of the main atmospheric layers, extending from the surface to the tropopause.
+
+24. The layer of the atmosphere above the tropopause is known as the:
+a. Troposphere
+*b. Stratosphere
+c. Mesosphere
+Explanation: The tropopause is the thin transition zone separating the troposphere below from the stratosphere above.
+
+25. What is the primary cause of all changes in the Earth's weather?
+*a. Variation of solar energy at the Earth's surface
+b. Changes in air pressure over the Earth's surface
+c. Movement of air masses from moist areas to dry areas
+Explanation: Uneven heating of the Earth's surface by solar (short-wave) radiation is the fundamental driver of all weather and atmospheric circulation.
+
+26. What is a characteristic of the troposphere?
+a. It contains all the moisture of the atmosphere
+*b. There is an overall decrease of temperature with an increase of altitude
+c. The average altitude of the top of the troposphere is about 8 kilometres
+Explanation: The defining characteristic of the troposphere is that temperature generally falls with increasing height, at an average (ISA) rate of about 1.98°C/1000 ft (0.65°C/100 m).
+
+27. What weather feature occurs at altitude levels near the tropopause?
+*a. Maximum winds and narrow wind shear zones
+b. Abrupt temperature increase above the tropopause
+c. Thin layers of cirrus clouds at the tropopause level
+Explanation: Jet streams, with their maximum wind speeds and narrow bands of strong wind shear, are typically found near the tropopause.
+
+28. Which feature is associated with the tropopause?
+a. Absence of wind and turbulence
+b. Absolute upper limit of cloud formation
+*c. Abrupt change of temperature lapse rate
+Explanation: The tropopause is marked by an abrupt change in the temperature lapse rate, from the steady fall of the troposphere to the near-isothermal stratosphere.
+
+29. The boundary layer between troposphere and stratosphere is called
+a. Ionosphere
+*b. Tropopause
+c. Stratopause
+d. Atmosphere
+Explanation: The tropopause is the thin transition zone separating the troposphere below from the stratosphere above.
+
+30. What is the average temperature of the tropical tropopause?
+*a. -75°C
+b. -65°C
+c. -56,5°C
+d. -40°C
+Explanation: The tropical tropopause, being very high (around 16-17 km), is correspondingly very cold, with temperatures around −75 to −80°C.
+
+31. Which statement is true concerning the tropopause from the equator to the poles?
+*a. The tropopause decreases, the tropopause temperature increases
+b. The tropopause decreases, the tropopause temperature decreases
+c. The tropopause increases, the tropopause temperature increases
+d. The tropopause increases, the tropopause temperature decreases
+Explanation: From equator to pole the tropopause height decreases while its temperature increases, the opposite of what happens with height inside the troposphere itself.
+
+32. Which layer of the atmosphere contains more than 90 % of the total amount of water vapour?
+*a. Troposphere
+b. Lower stratosphere
+c. Higher stratosphere
+d. Ionosphere
+Explanation: Nearly all atmospheric moisture is confined to the troposphere, since water vapour enters the atmosphere by evaporation at the surface and convective mixing does not extend far above the tropopause.
+
+33. What can be said about the temperature in the lower stratosphere?
+*a. The temperature is constant
+b. The temperature is increasing
+c. The temperature is decreasing
+d. The temperature is first increasing and then decreasing
+Explanation: In the lower stratosphere the temperature is essentially constant with height (isothermal), before it later begins to rise with altitude higher up.
+
+`);
+
+registerChapterText("atpl-met", "atmosphere-vertical-distribution-of-temperature", "The Atmosphere \u2014 Vertical distribution of temperature", `
+34. At a certain position, the temperature on the 300 hPa chart is -48°C; according to the tropopause chart, the tropopause is at FL 330. What is the most likely temperature at FL 350 ?
+a. -56,5°C.
+b. -50°C.
+*c. -54°C.
+d. -58°C.
+Explanation: Since FL 330 (the tropopause) is above FL 350... 
+
+35. What is the most likely temperature at the tropical tropopause?
+a. -55°C.
+*b. -75°C.
+c. -35°C.
+d. -25°C.
+Explanation: The tropical tropopause is very high and correspondingly very cold, typically around −75°C, much colder than the mid-latitude value of about −56.5°C.
+
+36. The 0° isotherm is forecast to be at FL 50. At what FL would you expect a temperature of -6° C?
+a. FL 110
+b. FL 20
+c. FL 100
+*d. FL 80
+Explanation: Using the standard lapse rate of about 2°C per 1000 ft, a 6°C fall from 0°C requires climbing roughly 3000 ft above FL 50, i.e. to about FL 80.
+
+37. In the lower part of the stratosphere the temperature
+a. decreases with altitude
+*b. is almost constant
+c. increases with altitude
+d. increases at first and decreases afterward
+Explanation: In the lower stratosphere, just above the tropopause, temperature remains almost constant with height (isothermal) before increasing further up due to ozone absorption of UV radiation.
+
+38. Which is true of the temperature at the tropopause?
+*a. It is higher in polar regions than in equatorial regions
+b. It is higher in equatorial regions than in polar regions
+c. It is highest in middle latitudes
+d. There is no significant difference with change of latitude
+Explanation: Because the tropopause is much higher over the equator than over the poles, and temperature falls with height throughout the troposphere, the equatorial tropopause ends up colder than the polar tropopause — so tropopause temperature is higher in polar regions than in equatorial regions.
+
+39. As altitude increases, the weight of the atmosphere above you will:
+*a. decrease
+b. remain the same
+c. increase
+d. increase with 1,5 kg/m2 pr 1000 ft.
+Explanation: As you climb, less of the atmosphere's mass remains above you, so the weight (and pressure) of the air column above continuously decreases.
+
+40. An inversion is characterized by:
+a. Constant temperature with increasing altitude
+b. Parts of the air mass at each level is warmer than surrounding air.
+c. The tendency to increase relative humidity with increasing altitude.
+*d. Increasing temperature with increasing altitude.
+Explanation: A temperature inversion is, by definition, a layer in which temperature increases with height instead of the normal decrease.
+
+41. While flying at FL 120, you notice an OAT of -2°C. At which altitude do you expect the freezing level to be?
+*a. FL 110
+b. FL 130
+c. FL 150
+d. FL 90
+Explanation: Using the standard lapse rate of about 2°C/1000 ft, the freezing level (0°C) is about 1000 ft below the level where −2°C was observed.
+
+`);
+
+registerChapterText("atpl-met", "atmosphere-transfer-of-heat", "The Atmosphere \u2014 Transfer of heat", `
+42. Several physical processes contribute to atmospheric warming. Which of the following contribute the most ?
+a. Absorption and evaporation.
+b. Solar radiation and conduction.
+c. Absorption and vaporization.
+*d. Convection and condensation.
+Explanation: The troposphere is warmed mainly indirectly: solar radiation heats the ground, which in turn warms the air above it by convection, and condensation of water vapour releases latent heat into the air.
+
+43. Convective activity over land in mid-latitudes is greatest in
+a. winter in the afternoon.
+b. winter during the night and early morning.
+c. summer during the night and early morning.
+*d. summer in the afternoon.
+Explanation: Convection is driven by surface heating, which is strongest on summer afternoons when solar heating of the ground is at its daily and seasonal maximum.
+
+44. Advection is :
+a. the same as convection
+b. vertical motion of air
+c. the same as subsidence
+*d. horizontal motion of air
+Explanation: Advection refers to the horizontal transport of an air property (such as heat or moisture) by the wind, as distinct from convection, which is vertical motion.
+
+45. The radiation of the sun heats
+a. the air in the troposphere only directly if no clouds are present
+b. the air in the troposphere directly
+c. the water vapour in the air of the troposphere
+*d. the surface of the earth, which heats the air in the troposphere
+Explanation: Solar radiation passes largely through the relatively transparent troposphere and is absorbed at the Earth's surface, which then heats the overlying air mainly by conduction and convection.
+
+46. The majority of troposphere heating is the result of:
+a. Radiation of the sun
+*b. Heating from the ground below
+c. Re-radiation of the sun's rays from the surface of the earth
+d. Re-radiation from the clouds.
+Explanation: Most tropospheric heating comes not directly from the sun but from the ground, which absorbs solar radiation and then warms the air above it.
+
+47. Why is a calm and clear-sky night cooler than a cloudy night?
+a. The clouds prevent radiation from the atmosphere
+b. There is radiation from the clouds
+*c. The radiation from the earth's surface slips into space.
+d. Due to contents of carbon dioxide.
+Explanation: On a clear night there is no cloud layer to absorb and re-radiate outgoing longwave radiation back down, so heat radiated from the surface escapes freely to space, allowing the surface (and the air above it) to cool more.
+
+`);
+
+registerChapterText("atpl-met", "atmosphere-lapse-rate-stability-and-instability", "The Atmosphere \u2014 Lapse rate, stability and instability", `
+48. A layer is conditionally unstable if the air
+a. is unstable for saturated air as well as for dry air.
+b. is stable for saturated air and unstable for dry air.
+c. becomes stable by lifting it.
+*d. is unstable for saturated air and stable for dry air.
+Explanation: A layer is conditionally unstable when its lapse rate lies between the dry and saturated adiabatic lapse rates: stable for unsaturated (dry) air but unstable once the air becomes saturated.
+
+49. Absolute instability exists whenever the environmental lapse rate
+a. exceeds the saturated adiabatic lapse rate.
+*b. exceeds the dry adiabatic lapse rate.
+c. is less than the saturated adiabatic lapse rate.
+d. is between the dry and saturated adiabatic lapse rate.
+Explanation: Absolute instability occurs when the environmental lapse rate is steeper than the dry adiabatic lapse rate (about 3°C/1000 ft, 1°C/100 m), so a rising parcel stays warmer than its surroundings whether saturated or not.
+
+50. In an air mass with no clouds the surface temperature is 15°C and 13°C at 1000m. This layer of air is:
+a. unstable
+*b. stable
+c. a layer of heavy turbulence
+d. conditionally unstable
+Explanation: A fall of only 2°C over 1000 m (0.2°C/100 m) is far less than the dry adiabatic lapse rate (~1°C/100 m), so a rising dry parcel would cool faster than its surroundings and sink back — the layer is stable.
+
+51. An inversion is a layer of air which is
+a. absolutely unstable
+*b. absolutely stable
+c. conditionally unstable
+d. conditionally stable
+Explanation: Since temperature increases with height in an inversion, any parcel displaced upward is always cooler (denser) than its surroundings, making the layer absolutely stable.
+
+52. The environmental lapse rate in an actual atmosphere
+a. has a fixed value of 2°C/1000 FT
+b. has a fixed value of 1°C/100m
+c. has a fixed value of 0.65°C/100m
+*d. varies with time
+Explanation: Unlike the fixed ISA lapse rate, the real (environmental) lapse rate observed on any given day varies with time, location and weather situation.
+
+53. The dry adiabatic lapse rate has a value of
+a. 0.5°C/100m
+b. 2°C/1000FT
+c. 0.65°C/100m
+*d. 1°C/100m
+Explanation: The dry adiabatic lapse rate (the rate at which unsaturated rising air cools) is close to 1°C per 100 m (about 3°C/1000 ft).
+
+54. The dry adiabatic lapse rate
+*a. has a constant fixed value
+b. is greater in summer than in winter
+c. is greater during the night than during the day
+d. has a variable value
+Explanation: Based on standard ICAO/ISA meteorology and altimetry principles, option a — "has a constant fixed value" — is the correct answer to this question.
+
+55. An air mass is called stable when
+*a. the vertical motion of rising air tends to become weaker and disappears
+b. the temperature in a given air mass decreases rapidly with height
+c. the pressure in a given area is constant
+d. the environmental lapse rate is high, with little vertical motion of air currents
+Explanation: An air mass is stable when a displaced parcel tends to return to its original level, i.e. vertical motion is damped and dies out rather than being reinforced.
+
+56. In still air the temperature decreases at an average of 1.2°C per 100 m increase in altitude. This temperature change is called:
+a. saturated adiabatic lapse rate
+*b. environmental lapse rate
+c. dry adiabatic lapse rate
+d. normal lapse rate
+Explanation: The actual, observed rate of temperature decrease with height on a given day is called the environmental lapse rate, as opposed to the fixed dry or saturated adiabatic lapse rates.
+
+57. A layer can be
+a. unstable for unsaturated air and conditionally unstable
+b. stable for saturated air and unstable for unsaturated air
+c. unstable for unsaturated air and neutral for saturated air
+*d. stable for unsaturated air and unstable for saturated air
+Explanation: A layer can be stable for unsaturated (dry) air yet unstable once air becomes saturated, because saturated air cools more slowly (releasing latent heat) as it rises, so it can end up warmer than its surroundings even where dry air would not.
+
+58. When in the upper part of a layer warm air is advected the
+*a. stability increases in the layer
+b. stability decreases in the layer
+c. wind will back with increasing height in the northern hemisphere
+d. wind speed will always decrease with increasing height in the northern hemisphere
+Explanation: Warm air moving in aloft increases the temperature at the top of the layer relative to its base, steepening the temperature contrast in the wrong sense for rising air — this increases the layer's stability.
+
+59. From which of the following pieces of information can the stability of the atmosphere be derived?
+a. Surface temperature
+*b. Environmental lapse rate
+c. Dry adiabatic lapse rate
+d. Pressure at the surface
+Explanation: Atmospheric stability is assessed by comparing the actual (environmental) lapse rate against the dry and saturated adiabatic lapse rates, so the environmental lapse rate is the key piece of information needed.
+
+60. The value of the saturated adiabatic lapse rate is closest to that of the dry adiabatic lapse rate in
+a. cumulus
+b. freezing fog
+c. stratus
+*d. cirrus
+Explanation: In very cold air (as found in cirrus-level clouds) there is little moisture to condense, so the latent heat release is small and the saturated adiabatic lapse rate approaches the dry adiabatic value.
+
+61. The weather is clear and the temperature decreases uniformly and rapidly as you climb (approaching 3°C per 1000 ft), you have an indication of:
+a. Stable air.
+*b. Unstable air.
+c. Saturation.
+d. Sublimation.
+Explanation: A lapse rate approaching 3°C/1000 ft is close to or steeper than the dry adiabatic lapse rate, which indicates an unstable layer.
+
+62. Absolute instability in a layer of air is characterized by the vertical temperature gradient in the layer being:
+*a. Greater than 1°/100 m.
+b. Greater than 0.5°/100 m.
+c. Less than 0.65°/100 m.
+d. Less than 0.6°/100 m.
+Explanation: Absolute instability requires the environmental lapse rate to exceed the dry adiabatic lapse rate, i.e. roughly greater than 1°C/100 m.
+
+63. What is meant by "standard lapse rate"?
+a. Temperature increases as height increases
+*b. Temperature decreases as height increases
+c. Temperature remains constant as height increases
+Explanation: Standard lapse rate refers to temperature falling as height increases, the normal behaviour of the troposphere.
+
+64. The lapse rate for a dry parcel of air is:
+*a. 3°C/1000ft
+b. 1.5°C/1000ft
+c. 1.98°C/1000ft
+Explanation: The (dry) standard/adiabatic lapse rate used in ISA calculations is approximately 3°C per 1000 ft (1.98°C/1000 ft is the precise ISA mean value, but ~3°C/1000ft is the dry adiabatic rate).
+
+65. An environmental lapse rate is observed to be 2.5C/1000ft. Which of the following is correct?
+*a. A dry parcel of air would be stable if it was forced to rise
+b. A saturated parcel of air would be stable if it was forced to rise
+c. A dry parcel of air would be unstable if it was forced to rise
+Explanation: 2.5°C/1000 ft is less than the dry adiabatic lapse rate (~3°C/1000 ft) but greater than the saturated adiabatic lapse rate, so a rising dry parcel would be cooler than its surroundings (stable) while a rising saturated parcel would be warmer (unstable) — this is conditional instability.
+
+66. What feature is associated with a temperature inversion?
+*a. A stable layer of air
+b. An unstable layer of air
+c. Air mass thunderstorms
+d. Cold front
+Explanation: Because temperature rises with height in an inversion, displaced air is always denser than its surroundings, so an inversion is inherently a very stable layer.
+
+67. What is indicated about an air mass if the temperature remains unchanged or decreases slightly as altitude is increased?
+a. The air is usntable
+b. A temperature inversion exists
+*c. The air is stable
+Explanation: A lapse rate that is zero or only slightly positive is far weaker than the adiabatic lapse rates, so rising air cools faster than its environment and sinks back — the air is stable.
+
+68. Which condition is present when a local parcel of air is stable?
+*a. The parcel of air resists convection
+b. The parcel of air cannot be forced uphill
+c. As the parcel of air moves upward, its temperature becomes warmer than the surrounding air
+Explanation: A stable parcel resists being displaced vertically: if forced upward it becomes cooler (denser) than its surroundings and sinks back, i.e. it resists convection.
+
+69. How can the stability of the atmosphere be determined?
+*a. Ambient temperature lapse rate
+b. Atmospheric pressure at various levels
+c. Surface temperature/dewpoint spread.
+Explanation: Atmospheric stability is assessed by comparing the actual (environmental) lapse rate against the dry and saturated adiabatic lapse rates, so the environmental lapse rate is the key piece of information needed.
+
+70. From which of the following pieces of information can stability of the atmosphere be derived?
+a. Dry adiabatic lapse rate
+b. Pressure at the surface
+c. Surface temperature
+*d. Environmental lapse rate
+Explanation: Atmospheric stability is assessed by comparing the actual (environmental) lapse rate against the dry and saturated adiabatic lapse rates, so the environmental lapse rate is the key piece of information needed.
+
+71. State the preference of a layer of air with no clouds, surface temperature 15°C, and 13°C at 1000 metres:
+*a. Stable layer
+b. Unstable layer
+c. The preference cannot be determined
+d. None of the above
+Explanation: A fall of only 2°C over 1000 m (0.2°C/100 m) is far less than the dry adiabatic lapse rate (~1°C/100 m), so a rising dry parcel would cool faster than its surroundings and sink back — the layer is stable.
+
+72. What is the preference of a layer with constant temperature?
+*a. Absolutely stable
+b. Unstable
+c. Relatively stable
+d. An example of an inversion
+Explanation: A layer with constant (isothermal) temperature is a special, strongly stable case since any rising parcel cools while its surroundings do not, making it absolutely stable.
+
+`);
+
+registerChapterText("atpl-met", "atmosphere-development-of-inversions-inversions", "The Atmosphere \u2014 Development of inversions, inversions", `
+73. Which of the following is a common cause of ground or surface temperature inversion ?
+a. Heating of the air by subsidence
+b. Warm air being lifted rapidly aloft, in the vicinity of mountainous terrain.
+c. The movement of colder air under warm air, or the movement of warm air over cold air.
+*d. Terrestrial radiation on a clear night with no or very light winds.
+Explanation: On a clear, calm night the ground loses heat rapidly by radiation, cooling the air in contact with it faster than the air above — producing a surface (radiation) inversion.
+
+74. Which of the following is a common result of subsidence ?
+a. Clear air turbulence at higher altitudes .
+b. CB-clouds and thunderstorms over a large area.
+c. Wide spread NS and AS clouds and intense precipitation.
+*d. An inversion over a large area with haze, mist.
+Explanation: Sinking (subsiding) air warms adiabatically and dries out, commonly producing a subsidence inversion aloft along with associated haze and mist trapped beneath it.
+
+75. What characteristic is associated with a temperature inversion ?
+*a. Stability
+b. Instability
+c. Clear ice
+d. Area of active storms
+Explanation: Because warmer air overlies cooler air in an inversion, the layer is very stable, suppressing vertical mixing and convection.
+
+76. What is the technical term for an increase in temperature with altitude?
+a. Subsidence
+*b. Inversion
+c. Adiabatic
+d. Advection
+Explanation: A layer where temperature rises rather than falls with height is called an inversion.
+
+77. An inversion is a layer of air in which the temperature
+a. increases with height more than 1°C/100m
+b. remains constant with height
+*c. increases with height
+d. decreases with height more than 1°C/100m
+Explanation: By definition, an inversion is a layer in which temperature increases with height, the reverse of the normal tropospheric trend.
+
+78. An isothermal layer is a layer of air in which the temperature
+a. increases with height at a constant rate
+b. increases with height
+c. decreases with height at a constant rate
+*d. remains constant with height
+Explanation: An isothermal layer is one where temperature stays constant with height, neither rising (as in an inversion) nor falling.
+
+79. An inversion is
+*a. an increase of temperature with height
+b. an increase of pressure with height
+c. a decrease of pressure with height
+d. a decrease of temperature with height
+Explanation: An inversion is simply defined as an increase of temperature with height.
+
+80. A significant inversion at low height is a characteristic of
+a. the passage of cold front
+*b. nocturnal radiation
+c. advection fog
+d. cumulus clouds
+Explanation: Strong low-level inversions are typically produced overnight by radiational cooling of the ground (nocturnal radiation inversion) under clear, calm conditions.
+
+81. What is meant by "inversion"?
+*a. Temperature increases as height increases
+b. Temperature decreases as height increases
+c. Temperature remains constant as height increases
+Explanation: An inversion means temperature increases as height increases, the opposite of the normal decrease found through most of the troposphere.
+
+82. What is meant by "isothermal layer"?
+a. Temperature increases as height increases
+b. Temperature decreases as height increases
+*c. Temperature remains constant as height increases
+Explanation: An isothermal layer is one in which temperature remains constant as height increases.
+
+83. Where is a common location for an inversion?
+a. At the tropopause
+*b. In the stratosphere
+c. At the base of cumulus clouds
+Explanation: Since the stratosphere is essentially isothermal and often shows a slight temperature rise with height, and the transition at the tropopause itself often shows a marked inversion-like change, inversions are commonly found in the stratosphere / at the tropopause.
+
+84. A temperature increase with increasing altitude is called
+a. Subsidence
+*b. Inversion
+c. Adiabate
+d. Advection
+Explanation: A layer where temperature rises with height, contrary to the normal decrease, is called an inversion.
+
+85. Continuous freezing rain is observed at an airport. Which would be the most probable vertical temperature lapse rate?
+a. A
+b. B
+c. C
+*d. D
+Explanation: Freezing rain requires rain falling from a warm layer aloft into a sub-freezing layer near the surface — i.e. a temperature inversion (warm air over cold air) close to the ground.
+
+86. What is the cause for a surface temperature inversion?
+a. The presence of a high pressure area
+b. The presence of a polar front depression
+c. Moist, unstable air, and a lifting action
+*d. By heavy radiational cooling at night of the lowest layer of air, or if warm air moves in over a colder surface
+Explanation: Strong overnight radiational cooling of the ground under clear skies and light winds (or warm air advecting over a colder surface) chills the lowest air layer, producing a surface inversion.
+
+`);
+
+registerChapterText("atpl-met", "atmosphere-temp-near-the-earth-s-surface-surface-eff", "The Atmosphere \u2014 Temp. near the earth's surface, surface eff.", `
+87. The diurnal variation in temperature is largest when the sky is
+a. clear and winds are strong
+*b. clear and winds are weak
+c. overcast and winds are weak
+d. overcast and winds are strong
+Explanation: The daily temperature range is greatest under clear skies with weak winds, since strong daytime solar heating and strong nocturnal radiational cooling are both unimpeded by cloud and unmixed by wind.
+
+88. Around Paris on January 3rd at 1800 UTC, the surface temperature, under shelter, is 3°C. The sky is covered by 8 oktas of stratus. QNH is 1033 hPa. If the sky is covered all night, the minimum temperature of the night of January 3rd to January 4th should be
+a. slightly above +3°C.
+b. significantly below 0°C.
+*c. slightly below +3°C.
+d. significantly above +3°C.
+Explanation: Overcast stratus traps outgoing longwave radiation, greatly reducing radiational cooling overnight, so the minimum temperature stays only slightly below the evening value rather than falling sharply.
+
+89. On a clear sky, continental ground surface, wind calm, the minimum temperature is reached approximately
+a. at the moment the sun rises
+b. half an hour before sunrise
+*c. half an hour after sunrise
+d. one hour before sunrise
+Explanation: Under clear, calm conditions the ground continues cooling by radiation right up until sunrise, and the air keeps cooling for a short time after, so the minimum temperature typically occurs around half an hour after sunrise.
+
+90. Temperature variation during 24 hours is least over:
+*a. Sea.
+b. Grass.
+c. Mountain.
+d. Forest.
+Explanation: Water has a very high heat capacity and mixes vertically, so sea surface (and the air above it) shows the smallest diurnal temperature range compared with land surfaces.
+
+91. Over which of the following surface types would you expect the greatest diurnal range of temperature to occur?
+a. An extensive forest area
+*b. A desert area
+c. An ocean
+Explanation: Dry desert surfaces have low heat capacity and little moisture or cloud to moderate temperature, so they heat strongly by day and cool strongly by night, giving the largest diurnal temperature range.
+
+`);
+
+registerChapterText("atpl-met", "atmosphere-barometric-pressure-isobars", "The Atmosphere \u2014 Barometric pressure, isobars", `
+92. What positions are connected by isobars on the surface weather chart?
+*a. Positions with the same air pressure at a given level
+b. Positions with the same temperature at a given level
+c. Positions with the same wind velocity at a given level
+d. Positions with the same relative pressure heights
+Explanation: Isobars join points of equal atmospheric pressure (reduced to a common level, usually MSL) on a weather chart.
+
+93. The isobars drawn on a surface weather chart represent lines of equal pressure
+a. at a determined density altitude
+b. at flight level
+c. at height of observatory
+*d. reduced to sea level
+Explanation: On a surface chart, isobars represent pressure reduced to mean sea level (QFF), so that stations at different elevations can be compared directly.
+
+94. The station pressure used in surface weather charts is
+a. QNE
+b. QFE
+c. QNH
+*d. QFF
+Explanation: Surface charts use QFF — station pressure reduced to mean sea level using the actual (observed) temperature — so that pressure can be compared across stations at different elevations.
+
+95. Isobars on a surface chart are lines of equal
+a. QFE
+*b. QFF
+c. QNE
+d. QNH
+Explanation: Isobars on a surface chart join points of equal QFF, i.e. pressure reduced to mean sea level.
+
+96. The pressure system at position "b" is a
+a. ridge of high pressure
+b. secondary low
+c. trough of low pressure
+*d. col
+Explanation: A saddle-shaped area of pressure between two highs and two lows, where pressure is relatively uniform, is called a col.
+
+97. The pressure distribution located mainly at point B is a
+a. depression
+b. col
+c. trough of low pressure
+*d. ridge of high pressure
+Explanation: A saddle-shaped area of pressure between two highs and two lows, where pressure is relatively uniform, is called a col.
+
+98. At sea level, the pressure of the atmosphere on a standard day will cause the mercury in the column to rise to:
+a. 92.29 inches
+b. 19.19 inches
+c. 29.29 inches
+*d. 29.92 inches
+Explanation: Standard sea-level pressure (1013.25 hPa) corresponds to a mercury barometer reading of 29.92 inches of mercury.
+
+99. What is dynamic pressure?
+a. Turbulence.
+*b. Pressure caused by movement.
+c. Acceleration force.
+d. Centrifugal force.
+Explanation: Dynamic pressure is the additional pressure created by the motion (speed) of a fluid, as opposed to static pressure.
+
+100. The unit of pressure most commonly used in meteorology is:
+a. kg /cm2.
+b. lbs/inch2.
+*c. hPa
+d. tons/m2.
+Explanation: Meteorology worldwide uses the hectopascal (hPa), numerically equal to the older unit millibar, as its standard pressure unit.
+
+101. Lines connecting points of equal pressure are called:
+a. Isogonic lines.
+*b. Isobars.
+c. Agonic.
+d. Barometric.
+Explanation: Lines joining points of equal pressure on a chart are called isobars.
+
+102. A line on a chart joining places of equal sea level pressure is called an:
+a. Isogonal
+b. Agonic line
+*c. Isobar
+d. Isotherm
+Explanation: Lines joining points of equal pressure on a chart are called isobars.
+
+103. What is the pressure in surface weather charts called?
+a. QFE
+*b. QFF
+c. QNH
+d. QNE
+Explanation: The pressure plotted and contoured on surface charts is QFF, i.e. station pressure reduced to mean sea level.
+
+104. What can be said about isobars?
+*a. Isobars appear on meteorological surface charts
+b. Isobars are lines of equal temperature
+c. Certain information can be depicted with the isobars on upper level charts
+d. Isobars show wind speeds around a jet stream area
+Explanation: Isobars — lines of equal pressure reduced to a common level — are the defining feature of surface meteorological charts.
+
+`);
+
+registerChapterText("atpl-met", "atmosphere-pressure-variation-with-height", "The Atmosphere \u2014 Pressure variation with height", `
+105. In the troposphere the decrease of pressure per 100 m increase in height
+a. is greater at higher levels than at lower levels.
+b. remains constant at all levels.
+*c. is smaller at higher levels than at lower levels.
+d. is in the order of 27 hPa near MSL.
+Explanation: Because air is compressible, it is denser near the surface, so pressure falls faster with height at low levels than it does higher up, where the air is already thinner.
+
+106. What is the approximate vertical interval which is equal to a pressure change of 1 hPa at an altitude of 5500 m ?
+*a. 15 m (50 FT).
+b. 8 m (27 FT).
+c. 32 m (105 FT).
+d. 64 m (210 FT).
+Explanation: At around 5500 m the air is roughly half as dense as at sea level, so it takes about twice the vertical distance (~15 m / 50 ft) for pressure to fall by 1 hPa compared with the ~8 m near sea level.
+
+107. Which of the following is true concerning atmospheric pressure ?
+a. It is higher in winter than in summer
+*b. It decreases with height
+c. It is higher at night than during the day
+d. It always decreases with height at a rate of 1 hPa per 8m
+Explanation: Atmospheric pressure always decreases with increasing height, since there is progressively less air mass remaining above.
+
+108. An isohypse (contour)
+a. indicates the altitude of the zero degree isotherm
+b. is the longest slope line of a frontal surface
+c. is the limit between two air masses of different temperature
+*d. indicates the true altitude of a pressure level
+Explanation: An isohypse (contour line on a constant-pressure chart) shows the true (geometric) altitude at which a given pressure level is found.
+
+109. The rate of fall of pressure with height is:
+*a. Greater in cold air than in warm air
+b. Greater in warm air than in cold air
+c. Inversely proportional to temperature
+Explanation: Cold air is denser than warm air, so pressure falls more rapidly with height through a cold layer than through a warm one.
+
+110. The average change of pressure with height in the lower atmosphere is:
+*a. 1 hPa/27ft
+b. 1 hPa/20ft
+c. 1 hPa/50ft
+d. 1 hPa/56 ft
+Explanation: Near sea level, pressure falls at roughly 1 hPa per 27 ft (about 8 m), a figure often used for quick QNH/QFE conversions.
+
+111. The isohypse 2960 m can be expected at the constant pressure chart for the following pressure level:
+a. 850 hPa
+*b. 700 hPa
+c. 500 hPa
+d. 300 hPa
+Explanation: Using the ISA relationship between geopotential height and pressure, the stated isohypse height corresponds to the matching standard pressure level (e.g. ~5500 m ≈ 500 hPa, ~1500 m ≈ 850 hPa, ~9000 m ≈ 300 hPa, ~12000 m ≈ 200 hPa).
+
+112. The isohypse 1620 m can be expected at the constant pressure chart for the following pressure level:
+*a. 850 hPa
+b. 700 hPa
+c. 500 hPa
+d. 300 hPa
+Explanation: Using the ISA relationship between geopotential height and pressure, the stated isohypse height corresponds to the matching standard pressure level (e.g. ~5500 m ≈ 500 hPa, ~1500 m ≈ 850 hPa, ~9000 m ≈ 300 hPa, ~12000 m ≈ 200 hPa).
+
+113. The isohypse 11880 m can be expected at the constant pressure chart for the following pressure level:
+a. 850 hPa
+b. 700 hPa
+c. 500 hPa
+*d. 200 hPa
+Explanation: Using the ISA relationship between geopotential height and pressure, the stated isohypse height corresponds to the matching standard pressure level (e.g. ~5500 m ≈ 500 hPa, ~1500 m ≈ 850 hPa, ~9000 m ≈ 300 hPa, ~12000 m ≈ 200 hPa).
+
+114. The isohypse 5700 m can be expected at the constant pressure chart for the following pressure level:
+a. 300 hPa
+b. 700 hPa
+*c. 500 hPa
+d. 200 hPa
+Explanation: Using the ISA relationship between geopotential height and pressure, the stated isohypse height corresponds to the matching standard pressure level (e.g. ~5500 m ≈ 500 hPa, ~1500 m ≈ 850 hPa, ~9000 m ≈ 300 hPa, ~12000 m ≈ 200 hPa).
+
+115. The isohypse 8760 m can be expected at the constant pressure chart for the following pressure level:
+*a. 300 hPa
+b. 700 hPa
+c. 500 hPa
+d. 200 hPa
+Explanation: Using the ISA relationship between geopotential height and pressure, the stated isohypse height corresponds to the matching standard pressure level (e.g. ~5500 m ≈ 500 hPa, ~1500 m ≈ 850 hPa, ~9000 m ≈ 300 hPa, ~12000 m ≈ 200 hPa).
+
+116. At which average height can the 700 hPa pressure level in moderate latitudes be expected?
+*a. 3,0 km AMSL
+b. 5,5 km AMSL
+c. 9,0 km AMSL
+d. 12,0 km AMSL
+Explanation: In the ISA, the standard pressure levels correspond approximately to: 850 hPa ≈ 1.5 km, 700 hPa ≈ 3.0 km, 500 hPa ≈ 5.5 km, 300 hPa ≈ 9.0 km, and 200 hPa ≈ 12.0 km.
+
+117. At which average height can the 500 hPa pressure level in moderate latitudes be expected?
+a. 3,0 km AMSL
+*b. 5,5 km AMSL
+c. 9,0 km AMSL
+d. 12,0 km AMSL
+Explanation: In the ISA, the standard pressure levels correspond approximately to: 850 hPa ≈ 1.5 km, 700 hPa ≈ 3.0 km, 500 hPa ≈ 5.5 km, 300 hPa ≈ 9.0 km, and 200 hPa ≈ 12.0 km.
+
+118. At which average height can the 200 hPa pressure level in moderate latitudes be expected?
+a. 3,0 km AMSL
+b. 5,5 km AMSL
+c. 9,0 km AMSL
+*d. 12,0 km AMSL
+Explanation: In the ISA, the standard pressure levels correspond approximately to: 850 hPa ≈ 1.5 km, 700 hPa ≈ 3.0 km, 500 hPa ≈ 5.5 km, 300 hPa ≈ 9.0 km, and 200 hPa ≈ 12.0 km.
+
+119. At which average height can the 300 hPa pressure level in moderate latitudes be expected?
+a. 1,5 km AMSL
+b. 3,0 km AMSL
+*c. 9,0 km AMSL
+d. 12,0 km AMSL
+Explanation: In the ISA, the standard pressure levels correspond approximately to: 850 hPa ≈ 1.5 km, 700 hPa ≈ 3.0 km, 500 hPa ≈ 5.5 km, 300 hPa ≈ 9.0 km, and 200 hPa ≈ 12.0 km.
+
+120. At which average height can the 850 hPa pressure level in moderate latitudes be expected?
+*a. 1,5 km AMSL
+b. 3,0 km AMSL
+c. 9,0 km AMSL
+d. 12,0 km AMSL
+Explanation: In the ISA, the standard pressure levels correspond approximately to: 850 hPa ≈ 1.5 km, 700 hPa ≈ 3.0 km, 500 hPa ≈ 5.5 km, 300 hPa ≈ 9.0 km, and 200 hPa ≈ 12.0 km.
+
+121. What is the value for a pressure change of 1 hPa at an altitude of 5500 m?
+a. approx. 8 m (27ft)
+*b. approx. 16 m (54 ft)
+c. approx. 32 m (105 ft)
+d. approx. 64 m (210 ft)
+Explanation: At around 5500 m the air is roughly half as dense as at sea level, so it takes about twice the vertical distance (~15 m / 50 ft) for pressure to fall by 1 hPa compared with the ~8 m near sea level.
+
+`);
+
+registerChapterText("atpl-met", "atmosphere-reduction-of-pressure-to-mean-sea-level", "The Atmosphere \u2014 Reduction of pressure to mean sea level", `
+122. In order to calculate QFE from QNH, which of the following must be known ?
+a. Elevation and the temperature at the airfield.
+b. Temperature at the airfield.
+c. Elevation of the airfield and the temperature at MSL.
+*d. Elevation of the airfield.
+Explanation: Converting between QFE and QNH only requires knowing the airfield's elevation, since QNH assumes the standard ISA temperature/pressure relationship rather than the actual temperature.
+
+123. The QFF at an airfield located 400 metres above sea level is 1016 hPa. The air temperature is 10°C higher than a standard atmosphere. What is the QNH?
+a. Less than 1016 hPa
+b. 1016 hPa
+*c. More than 1016 hPa
+d. It is not possible to give a definitive answer
+Explanation: QNH is derived from QFE using standard ISA temperature, while QFF uses the actual (warmer) temperature; warmer-than-standard air is less dense, so reducing pressure to sea level with the actual (warm) temperature adds less pressure than the standard reduction — making QNH higher than QFF.
+
+124. The QFF at an airfield located 400 metres above sea level is 1016 hPa. The air temperature is 10°C lower than a standard atmosphere. What is the QNH?
+a. It is not possible to give a definitive answer
+b. More than 1016 hPa
+c. 1016 hPa
+*d. Less than 1016 hPa
+Explanation: With air colder than standard, the actual (QFF) reduction to sea level adds more pressure than the standard (QNH) reduction would, so QNH ends up lower than QFF.
+
+125. The QNH at an airfield located 200 metres above sea level is 1009 hPa. The air temperature is 10°C lower than a standard atmosphere. What is the QFF?
+a. Less than 1009 hPa
+b. 1009 hPa
+*c. More than 1009 hPa
+d. It is not possible to give a definitive answer
+Explanation: With air colder than standard, reducing pressure to sea level using the actual (colder, denser) temperature adds more pressure than the standard ISA reduction used for QNH, so QFF is higher than QNH.
+
+126. The QNH at an airfield located 200 metres above sea level is 1022 hPa. The air temperature is not available. What is the QFF?
+a. Less than 1022 hPa
+b. More than 1022 hPa
+c. 1022 hPa
+*d. It is not possible to give a definitive answer
+Explanation: Without knowing the actual temperature, QFF cannot be reliably derived from QNH, since the difference between them depends on how far the real temperature departs from the ISA standard.
+
+127. The QNH at an airfield located 0 metres above sea level is 1022 hPa. The air temperature is not available. What is the QFF?
+a. It is not possible to give a definitive answer
+b. Less than 1022 hPa
+c. More than 1022 hPa
+*d. 1022 hPa
+Explanation: At an airfield located at sea level, there is no elevation to reduce the pressure over, so QFF equals QNH (and QFE) regardless of temperature.
+
+128. The QNH at an airfield in California located 69 metres below sea level is 1018 hPa. The air temperature is 10°C higher than a standard atmosphere. What is the QFF?
+*a. More than 1018 hPa
+b. Less than 1018 hPa
+c. 1018 hPa
+d. It is not possible to give a definitive answer
+Explanation: With air warmer than standard at a field below sea level, the actual-temperature reduction (QFF) removes less pressure than the standard reduction, so QFF ends up higher than QNH.
+
+129. The QFF at an airfield in California located 69 metres below sea level is 1030 hPa. The air temperature is 10°C lower than a standard atmosphere. What is the QNH?
+a. It is not possible to give a definitive answer
+b. Less than 1030 hPa
+c. 1030 hPa
+*d. More than 1030 hPa
+Explanation: With air colder than standard at a below-sea-level field, the standard (QNH) reduction removes more pressure than the actual-temperature (QFF) reduction, leaving QNH higher than QFF.
+
+130. If the QFE at Locarno (200 metres above sea level) is 980 hPa, what is the approximate QNH ?
+a. 1015 hPa
+b. 1000 hPa
+*c. 1005 hPa
+d. 1010 hPa
+Explanation: Reducing QFE to sea level adds roughly 1 hPa for every 8 m of elevation, so 980 hPa at 200 m gives an approximate QNH of about 1005 hPa.
+
+131. If the QFE at Locarno (200 metres above sea level) is 1000 hPa, what is the approximate QNH?
+a. 985 hPa
+*b. 1025 hPa
+c. 990 hPa
+d. 1035 hPa
+Explanation: Adding about 1 hPa per 8 m of elevation to reduce QFE to sea level, 1000 hPa at 200 m gives an approximate QNH of about 1025 hPa.
+
+132. If the QNH at Locarno (200 metres above sea level) is 1015 hPa, what is the approximate QFE? (Assume 1hPa = 8m)
+a. 1005 hPa
+b. 995 hPa
+c. 1000 hPa
+*d. 990 hPa
+Explanation: Subtracting about 1 hPa per 8 m of elevation converts QNH back to QFE: 1015 hPa reduced over 200 m gives an approximate QFE of about 990 hPa.
+
+133. If the QNH at Locarno (200 metres above sea level) is 1025 hPa, what is the approximate QFE?
+a. 1005 hPa
+b. 995 hPa
+*c. 1000 hPa
+d. 1025 hPa
+Explanation: Subtracting roughly 1 hPa per 8 m of elevation converts QNH to QFE: 1025 hPa reduced over 200 m gives an approximate QFE of about 1000 hPa.
+
+134. QNH is defined as
+*a. QFE reduced to MSL using the values of the standard atmosphere
+b. pressure at MSL in the standard atmosphere
+c. pressure at MSL in the actual atmosphere
+d. QFE reduced to MSL using the values of the actual atmosphere
+Explanation: QNH is the airfield (QFE) pressure reduced to mean sea level using the standard ISA temperature relationship, not the actual temperature (which would give QFF instead).
+
+135. In order to reduce QFE to QNH, which of the following item(s) must be known ?
+a. Elevation of the airfield and the temperature at the airfield
+b. Temperature at the airfield
+c. Elevation of the airfield and the temperature at MSL
+*d. Elevation of the airfield
+Explanation: Converting between QFE and QNH only requires knowing the airfield's elevation, since QNH assumes the standard ISA temperature/pressure relationship rather than the actual temperature.
+
+136. At an airport (400 m AMSL), a QFF of 1016 hPa and a temperature 10°C higher than ISA is observed:
+*a. The QNH is higher than 1016 hPa
+b. The QNH is lower than 1016 hPa
+c. The QNH equals 1016 hPa
+d. The QNH cannot be determined
+Explanation: Warmer-than-ISA air is less dense, so the actual-temperature reduction used for QFF removes less pressure than the standard reduction used for QNH, making QNH higher than the given QFF.
+
+137. At an airport (400 m AMSL), a QFF of 1016 hPa and a temperature 10°C lower than ISA is observed:
+a. The QNH is higher than 1016 hPa
+*b. The QNH is lower than 1016 hPa
+c. The QNH equals 1016 hPa
+d. The QNH cannot be determined
+Explanation: Colder-than-ISA air is denser, so the actual-temperature QFF reduction removes more pressure than the standard QNH reduction, making QNH lower than the given QFF.
+
+138. At an airport (200 m AMSL), a QNH of 1009 hPa and a temperature 10°C lower than ISA is observed:
+*a. The QFF is higher than 1016 hPa
+b. The QFF is lower than 1016 hPa
+c. The QFF equals 1009 hPa
+d. The QFF cannot be determined
+Explanation: With colder-than-ISA air, the actual-temperature reduction (QFF) removes more pressure than the standard reduction (QNH) did, so QFF ends up higher than QNH.
+
+139. At an airport (200 m AMSL), a QNH of 1022 hPa is observed and the temperature is unknown:
+a. The QFF is higher than 1022 hPa
+b. The QFF is lower than 1022 hPa
+c. The QFF equals 1022 hPa
+*d. The QFF cannot be determined
+Explanation: Without knowing the actual temperature, whether QFF is higher or lower than QNH cannot be determined.
+
+140. At an airport (0 m AMSL), a QNH of 1022 hPa is observed and the temperature is unknown:
+a. The QFF is higher than 1022 hPa
+b. The QFF is lower than 1022 hPa
+*c. The QFF equals 1022 hPa
+d. The QFF cannot be determined
+Explanation: At sea level there is no elevation over which to apply a temperature-dependent correction, so QFF equals QNH regardless of the actual temperature.
+
+141. At an airport in California (69 m below MSL), a QNH of 1018 hPa and a temperature 10°C higher than standard is observed:
+*a. The QFF is higher than 1018 hPa
+b. The QFF is lower than 1018 hPa
+c. The QFF equals 1018 hPa
+d. The QFF cannot be determined
+Explanation: With air warmer than standard below sea level, the actual-temperature QFF reduction is smaller than the standard QNH reduction, so QFF ends up higher than QNH.
+
+142. At an airport in California (69 m below MSL), a QFF of 1030 hPa and a temperature 10°C lower than standard is observed:
+*a. The QNH is higher than 1030 hPa
+b. The QNH is lower than 1030 hPa
+c. The QNH equals 1030 hPa
+d. The QNH cannot be determined
+Explanation: With air colder than standard below sea level, the standard QNH reduction removes more pressure than the actual QFF reduction did, leaving QNH higher than the given QFF.
+
+143. QFE 980 hPa at an altitude of 200 m AMSL: What will the approximate QNH be?
+a. 1000 hPa
+*b. 1005 hPa
+c. 1010 hPa
+d. 1015 hPa
+Explanation: Adding roughly 1 hPa per 8 m of elevation converts QFE to QNH: 980 hPa at 200 m gives an approximate QNH of about 1005 hPa.
+
+144. QFE 1000 hPa at an altitude of 200 m AMSL: What will the approximate QNH be?
+a. 985 hPa
+b. 990 hPa
+*c. 1025 hPa
+d. 1035 hPa
+Explanation: Adding roughly 1 hPa per 8 m of elevation converts QFE to QNH: 1000 hPa at 200 m gives an approximate QNH of about 1025 hPa.
+
+145. QNH 1015 hPa at an altitude of 200 m AMSL: What will the approximate QFE be?
+*a. 990 hPa
+b. 995 hPa
+c. 1000 hPa
+d. 1005 hPa
+Explanation: Subtracting roughly 1 hPa per 8 m of elevation converts QNH to QFE: 1015 hPa at 200 m gives an approximate QFE of about 990 hPa.
+
+146. QNH 1025 hPa at an altitude of 200 m AMSL: What will the approximate QFE be?
+a. 995 hPa
+*b. 1000 hPa
+c. 1005 hPa
+d. 1025 hPa
+Explanation: Subtracting roughly 1 hPa per 8 m of elevation converts QNH to QFE: 1025 hPa at 200 m gives an approximate QFE of about 1000 hPa.
+
+147. State the definition for QNH:
+*a. QFE reduced to MSL, using standard temperature gradient
+b. QFF reduced to MSL, using standard temperature gradient
+c. QFE reduced to MSL, using actual temperature gradient
+d. QNE reduced to MSL, using standard temperature gradient
+Explanation: QNH is station pressure (QFE) reduced to mean sea level using the standard ISA temperature gradient, rather than the actual temperature.
+
+148. State the definition for QFF:
+a. QFE reduced to MSL, using standard temperature gradient
+b. QNH reduced to MSL, using standard temperature gradient
+*c. QFE reduced to MSL, using actual temperature gradient
+d. QNE reduced to MSL, using standard temperature gradient
+Explanation: QFF is station pressure reduced to mean sea level using the actual observed temperature gradient, unlike QNH which uses the standard atmosphere.
+
+149. Which value has to be known to calculate the QNH out of the QFE?
+*a. Field elevation
+b. Actual temperature
+c. The relative humidity of the air
+d. The density altitude of the field
+Explanation: Deriving QNH from QFE only needs the field elevation, since QNH always assumes the standard ISA temperature rather than the real one.
+
+150. Which statement is true?
+*a. QNH can be equal to QFE
+b. QNH is always lower than QFE
+c. QFE is always lower than QNH
+d. QFE can be equal to QFF only
+Explanation: Air density generally decreases as altitude increases, since atmospheric pressure (and hence the mass of air per unit volume) falls off with height faster than temperature effects can compensate.
+
+151. State the definition for QNH:
+*a. Pressure reduced to sea level, using the standard temperature gradient
+b. QFF reduced to MSL, using standard temperature gradient
+c. QFE reduced to MSL, using actual temperature gradient
+d. QNE reduced to MSL, using standard temperature gradient
+Explanation: QNH is station pressure (QFE) reduced to mean sea level using the standard ISA temperature gradient, rather than the actual temperature.
+
+`);
+
+registerChapterText("atpl-met", "atmosphere-interrelationship-of-pressure-temp", "The Atmosphere \u2014 Interrelationship of pressure, temp.", `
+152. At FL 180, the air temperature is -35°C.The air density at this level is:
+*a. Greater than the density of the ISA atmosphere at FL 180.
+b. Less than the density of the ISA atmosphere at FL 180.
+c. Equal to the density of the ISA atmosphere at FL 180.
+d. Unable to be determined without knowing the QNH.
+Explanation: An outside air temperature colder than the ISA standard for that level makes the air denser than standard, so density here is greater than the ISA value at FL 180.
+
+153. Under what condition does pressure altitude have the same value as density altitude ?
+a. When the altimeter has no position error.
+b. At sea level when the temperature is 0°C.
+*c. At standard temperature.
+d. When the altimeter setting is 1013,2 hPa.
+Explanation: Density altitude equals pressure altitude only when the outside air temperature happens to equal the ISA standard temperature for that pressure altitude.
+
+154. Half the mass of the atmosphere is found in the first
+a. 11 km
+b. 3 km
+c. 8 km
+*d. 5 km
+Explanation: Because air density falls off roughly exponentially with height, about half of the atmosphere's total mass lies within the lowest 5 km or so, even though the atmosphere extends to hundreds of kilometres.
+
+155. Stratiform clouds indicate stable air. Flight generally will be:
+a. Rough with good visibility.
+*b. Smooth with low ceiling and visibility.
+c. Smooth with good visibility.
+d. Smooth with moderate turbulence and good visibility.
+Explanation: Stratiform cloud forms in stable air with little vertical motion, so flight through it is typically smooth, though the low cloud base often brings reduced ceiling and visibility.
+
+156. In relation to 'air density' which of the following responses are correct:
+a. Cold air is less dense than warm air.
+*b. Dry warm air is less dense than cold air.
+c. If the temperature is decreasing the air density will decrease
+d. Air density is not influenced of air humidity.
+Explanation: Warm air is less dense than cold air, and moist air is less dense than dry air at the same temperature and pressure (water vapour molecules are lighter than the nitrogen/oxygen they displace).
+
+157. Which of the following combinations contain the greatest air density?
+a. High pressure and high temperature.
+*b. High pressure and low temperature.
+c. Low pressure and high temperature.
+d. Low pressure and low temperature.
+Explanation: Air density increases with higher pressure and decreases with higher temperature, so the combination of high pressure and low (cold) temperature gives the greatest density.
+
+158. Air density is mass of air per unity of volume, and is influenced by:
+a. Pressure, latitude and season.
+b. Pressure, temperature and the amount of water vapour.
+c. Altitude
+*d. both b) and c) are correct.
+Explanation: Air density depends on pressure, temperature, and the amount of water vapour present (humidity) — and since altitude itself governs the ambient pressure, both b) and c) describe the same underlying influences.
+
+159. Which statement is true?
+a. Air density generally increases as altitude increases
+b. Air density generally stays the same as altitude increases
+*c. Air density generally decreases as altitude increases
+Explanation: Based on standard ICAO/ISA meteorology and altimetry principles, option c — "Air density generally decreases as altitude increases" — is the correct answer to this question.
+
+`);
+
+registerChapterText("atpl-met", "atmosphere-international-standard-atmosphere", "The Atmosphere \u2014 International Standard Atmosphere", `
+160. The lowest assumed temperature in the International Standard Atmosphere (ISA) is :
+a. -44.7°C
+b. -273°C
+*c. -56.5°C
+d. -100°C
+Explanation: The ISA defines a constant tropopause/lower-stratosphere temperature of −56.5°C, the coldest value used in the standard model (it does not continue falling indefinitely).
+
+161. A 200 hPa pressure altitude level can vary in height. In temperate regions which of the following average heights is applicable ?
+a. FL 50.
+b. FL 300.
+c. FL 100.
+*d. FL 390.
+Explanation: In temperate latitudes the 200 hPa level is found at roughly FL 390, near the tropopause.
+
+162. The temperature at FL 140 is -12°C. What will the temperature be at FL 110 if the ICAO standard lapse rate is applied ?
+a. -9°C.
+b. -18°C.
+*c. -6°C.
+d. -15°C.
+Explanation: Applying the ISA lapse rate of about 2°C per 1000 ft, dropping 3000 ft from FL 140 to FL 110 warms the air by about 6°C, from −12°C to about −6°C.
+
+163. An outside air temperature of -35°C is measured while cruising at FL 200. What is the temperature deviation from the ISA at this level?
+a. 5°C colder than ISA.
+b. 10°C warmer than ISA.
+c. 5°C warmer than ISA.
+*d. 10°C colder than ISA.
+Explanation: The ISA temperature at FL 200 is about −25°C, so an observed −35°C is 10°C colder than ISA.
+
+164. How does temperature vary with increasing altitude in the ICAO standard atmosphere below the tropopause?
+a. At first it increases and higher up it decreases
+b. Increases
+*c. Decreases
+d. Remains constant
+Explanation: Below the tropopause the ISA model defines temperature as decreasing steadily with height at about 1.98°C per 1000 ft.
+
+165. What is the vertical temperature lapse rate, up to 11 km, in the standard ICAO atmosphere ?
+a. 2°C per 1000 m
+b. 4.5°C per 1000 m
+c. 3°C per 1000 m
+*d. 6.5°C per 1000 m
+Explanation: The ISA lapse rate below 11 km (the tropopause) is defined as 6.5°C per 1000 m (about 1.98°C per 1000 ft).
+
+166. The temperature at FL 80 is +6°C. What will the temperature be at FL 130 if the ICAO standard lapse rate is applied ?
+a. +2°C
+b. -6°C
+c. 0°C
+*d. -4°C
+Explanation: Applying the ISA lapse rate (~2°C/1000 ft), climbing 5000 ft from FL 80 to FL 130 cools the air by about 10°C, from +6°C to about −4°C.
+
+167. The temperature at FL 110 is -5°C. What will the temperature be at FL 50 if the ICAO standard lapse rate is applied ?
+a. -3°C
+b. +3°C
+c. 0°C
+*d. +7°C
+Explanation: Applying the ISA lapse rate (~2°C/1000 ft), descending 6000 ft from FL 110 to FL 50 warms the air by about 12°C, from −5°C to about +7°C.
+
+168. The temperature at FL 160 is -22°C. What will the temperature be at FL 90 if the ICAO standard lapse rate is applied ?
+a. -4°C
+*b. -8°C
+c. 0°C
+d. +4°C
+Explanation: Applying the ISA lapse rate (~2°C/1000 ft), descending 7000 ft from FL 160 to FL 90 warms the air by about 14°C, from −22°C to about −8°C.
+
+169. A temperature of +15°C is recorded at an altitude of 500 metres above sea level. If the vertical temperature gradient is that of a standard atmosphere, what will the temperature be at the summit of a mountain, 2500 metres above sea level?
+a. +4°C
+*b. +2°C
+c. 0°C
+d. -2°C
+Explanation: Using the ISA lapse rate of about 0.65°C/100 m, climbing 2000 m from 500 m to 2500 m cools the air by about 13°C, from +15°C to roughly +2°C.
+
+170. How would you characterise an air temperature of -15°C at the 700 hPa level over western Europe?
+a. Within +/-5°C of ISA
+b. High
+*c. Low
+d. 20°C below standard
+Explanation: The ISA temperature at the 700 hPa level (around 3 km) is close to −4°C, so an observed −15°C there is markedly colder than standard, i.e. "low".
+
+171. How would you characterise an air temperature of -30°C at the 300 hPa level over western Europe?
+a. Very low
+b. Within +/-5°C of ISA
+c. Low
+*d. High
+Explanation: The ISA temperature at the 300 hPa level (around 9 km) is roughly −44°C, so an observed −30°C is significantly warmer than standard, i.e. "high".
+
+172. How would you characterise an air temperature of -55°C at the 200 hPa level over western Europe?
+*a. Within +/-5°C of ISA
+b. High
+c. Low
+d. Very high
+Explanation: The ISA temperature near the 200 hPa level (around the tropopause, ~12 km) is close to −56.5°C, so an observed −55°C is within about 5°C of ISA.
+
+173. A 300 hPa pressure level can vary in height. In temperate regions which of the following average heights is applicable ?
+a. FL 100
+b. FL 390
+*c. FL 300
+d. FL 50
+Explanation: In temperate latitudes the 300 hPa level typically corresponds to about FL 300, close to the tropopause.
+
+174. A 500 hPa pressure level can vary in height. In temperate regions which of the following average heights is applicable ?
+*a. FL 180
+b. FL 160
+c. FL 100
+d. FL 390
+Explanation: In temperate latitudes the 500 hPa level typically corresponds to about FL 180.
+
+175. A 700 hPa pressure level can vary in height. In temperate regions which of the following average heights is applicable ?
+*a. FL 100
+b. FL 180
+c. FL 300
+d. FL 390
+Explanation: In temperate latitudes the 700 hPa level typically corresponds to about FL 100.
+
+176. A 850 hPa pressure level can vary in height. In temperate regions which of the following average heights is applicable ?
+a. FL 300
+b. FL100
+*c. FL 50
+d. FL 390
+Explanation: In temperate latitudes the 850 hPa level typically corresponds to an average height of about 1.5 km (roughly FL 50).
+
+177. If you are flying at FL 300 in an air mass that is 15°C warmer than a standard atmosphere, what is the outside temperature likely to be?
+*a. -30°C
+b. -45°C
+c. -60°C
+d. -15°C
+Explanation: Warmer-than-ISA air expands the vertical spacing between pressure levels, so true altitude at FL 300 (nominal 30000 ft) ends up higher than the standard value.
+
+178. If you are flying at FL 100 in an air mass that is 10°C warmer than a standard atmosphere, what is the outside temperature likely to be?
+a. +15°C
+*b. +5°C
+c. -10°C
+d. -15°C
+Explanation: Warmer-than-ISA air expands the vertical spacing between pressure levels, so true altitude at FL 100 (nominal 10000 ft) ends up higher than the standard value.
+
+179. If you are flying at FL 120 and the outside temperature is -2°C, at what altitude will the "freezing level" be?
+*a. FL 110
+b. FL 130
+c. FL 150
+d. FL 90
+Explanation: Using the standard lapse rate of about 2°C/1000 ft, the 0°C freezing level lies about 1000 ft below the level where −2°C is observed, i.e. close to FL 110.
+
+180. The temperature at 10000 FT in the International Standard Atmosphere is :
+a. -20°C
+b. 0°C
+*c. -5°C
+d. -35°C
+Explanation: Using the ISA lapse rate of about 2°C/1000 ft from a sea-level standard of +15°C, the temperature at 10000 ft is approximately −5°C.
+
+181. The rate of decrease of temperature with height per 100 m in the International Standard Atmosphere is :
+*a. 0.65°C
+b. 1°C
+c. 0.5°C
+d. variable
+Explanation: The ISA lapse rate below the tropopause is 0.65°C per 100 m (equivalent to about 1.98°C per 1000 ft).
+
+182. In the International Standard Atmosphere the decrease in temperature with height below 11 km is
+a. 1°C per 100m
+*b. 0.65°C per 100m
+c. 0.5°C per 100m
+d. 0.6°C per 100m
+Explanation: Below 11 km the ISA defines a constant lapse rate of 0.65°C per 100 m.
+
+183. Which statement is correct regarding the International Standard Atmosphere ?
+*a. At MSL temperature is 15°C and pressure is 1013.25hPa
+b. At MSL temperature is 15°C and the decrease in temperature with height is 1°C per 100m
+c. At MSL temperature is 10°C and the decrease in temperature with height is 1°C per 100m
+d. At MSL pressure is 1013.25 hPa and the decrease of temperature with height is 1°C per 100m
+Explanation: The ISA defines mean sea level conditions as 15°C and 1013.25 hPa, with temperature then falling at 0.65°C/100 m up to the tropopause.
+
+184. In what hPa range is an upper weather chart for FL 340 situated?
+*a. 300 - 200 hPa
+b. 400 - 300 hPa
+c. 500 - 400 hPa
+d. 600 - 500 hPa
+Explanation: FL 340 lies close to the tropopause in temperate latitudes, within the pressure range of roughly 300–200 hPa.
+
+185. The international standard atmosphere (ISA)is defined for mean sea level as :
+a. 1015.25 hPa, 15°C, and a density of 1.225 kg/m3.
+b. 1015.25 hPa, 15°C, with a lapse rate of 1.98°C per 1000 ft.
+c. 1013.25 hPa, 15°C, a temperature lapse rate of 1.98°C per 1000 ft. and a humidity of 5%.
+*d. 1013.25 hPa, 15°C, a temperature lapse rate of 1.98°C per 1000 ft. and a density of 1.225 kg/m3
+Explanation: ISA mean sea level conditions are defined as 1013.25 hPa, 15°C, a lapse rate of 1.98°C per 1000 ft, and an air density of 1.225 kg/m³.
+
+186. The temperature gradient in the international standard atmosphere (ISA) is:
+a. 1°C/100m.
+b. 0,5°C/100m.
+*c. 0.65°C/100m
+d. 0.6°C/100m.
+Explanation: The ISA temperature gradient (lapse rate) below the tropopause is 0.65°C per 100 m.
+
+187. The temperature at sea level in the ISA is:
+a. +12,5°C
+b. +25°C
+*c. +15°C
+d. 0°C
+Explanation: ISA defines the mean sea level temperature as +15°C.
+
+188. The pressure at sea level in the ISA is:
+a. 1012.35 hPa
+b. 1025.13 hPa
+*c. 1013.25 hPa
+d. 29,95 in Hg
+Explanation: ISA defines mean sea level pressure as 1013.25 hPa.
+
+189. At an altitude of 500 m AMSL, a temperature of +15°C is measured. What will the temperature be at an altitude of 2500 m, if you consider the temperature gradient of the Standard Atmosphere?
+a. +4°C
+*b. +2°C
+c. 0°C
+d. -2°C
+Explanation: Using the ISA lapse rate of about 0.65°C/100 m over the 2000 m climb from 500 m to 2500 m gives a cooling of about 13°C, from +15°C to roughly +2°C.
+
+190. FL 80, an OAT +06°C is measured. What will the temperature be at FL 130, if you consider the temperature gradient of the Standard Atmosphere?
+*a. -4°C
+b. +2°C
+c. 0°C
+d. -6°C
+Explanation: Applying the ISA lapse rate (~2°C/1000 ft) over the 5000 ft climb from FL 80 to FL 130 cools the air by about 10°C, from +6°C to about −4°C.
+
+191. FL 110, an OAT -05°C is measured. What will the temperature be at FL 50, if you consider the temperature gradient of the Standard Atmosphere?
+a. -3°C
+b. +3°C
+c. 0°C
+*d. +7°C
+Explanation: Applying the ISA lapse rate (~2°C/1000 ft) over the 6000 ft descent from FL 110 to FL 50 warms the air by about 12°C, from −5°C to about +7°C.
+
+192. FL 140, an OAT -12°C is measured. What will the temperature be at FL 110, if you consider the temperature gradient of the Standard Atmosphere?
+a. +2°C
+b. -2°C
+*c. -6°C
+d. -18°C
+Explanation: Applying the ISA lapse rate (~2°C/1000 ft) over the 3000 ft descent from FL 140 to FL 110 warms the air by about 6°C, from −12°C to about −6°C.
+
+193. FL 160, an OAT -22°C is measured. What will the temperature be at FL 90, if you consider the temperature gradient of the Standard Atmosphere?
+*a. -8°C
+b. -4°C
+c. +4°C
+d. 0°C
+Explanation: Applying the ISA lapse rate (~2°C/1000 ft) over the 7000 ft descent from FL 160 to FL 90 warms the air by about 14°C, from −22°C to about −8°C.
+
+194. An OAT of -15°C at the 700 hPa pressure level:
+a. equals approximately (+/-5°C) ISA
+b. is high
+*c. is low
+d. is almost impossible
+Explanation: ISA temperature near 700 hPa is roughly −4°C, so an observed −15°C there is colder than standard, i.e. "low".
+
+195. An OAT of -30°C at the 300 hPa pressure level:
+a. equals approximately (+/-5°C) ISA
+*b. is high
+c. is low
+d. is almost impossible
+Explanation: ISA temperature near 300 hPa is roughly −44°C, so an observed −30°C there is warmer than standard, i.e. "high".
+
+196. An OAT of -55°C at the 200 hPa pressure level:
+*a. equals approximately (+/-5°C) ISA
+b. is high
+c. is low
+d. is almost impossible
+Explanation: ISA temperature near 200 hPa (close to the tropopause) is about −56.5°C, so an observed −55°C is within about 5°C of ISA.
+
+197. An aircraft cruises at FL 300 in an airmass, which is 15°C warmer than the Standard Atmosphere. The OAT is therefore....
+a. -60°C
+*b. -30°C
+c. -45°C
+d. -15°C
+Explanation: The ISA temperature at FL 300 is about −45°C; adding 15°C for the warmer-than-standard airmass gives an OAT of about −30°C.
+
+198. An aircraft cruises at FL 100 in an airmass, which is 10°C warmer than the Standard Atmosphere. The OAT is therefore....
+a. -10°C
+b. -15°C
+*c. +5°C
+d. +15°C
+Explanation: The ISA temperature at FL 100 is about −5°C; adding 10°C for the warmer-than-standard airmass gives an OAT of about +5°C.
+
+199. You cruise at FL 200 and notice an OAT of -35°C. The airmass has therefore an average temperature which is....
+a. 5°C warmer than ISA
+b. 20°C colder than ISA
+*c. 10°C colder than ISA
+d. 5°C colder than ISA
+Explanation: The ISA temperature at FL 200 is about −25°C, so an observed −35°C is 10°C colder than ISA.
+
+200. What is the ISA temperature at FL 110?
+*a. -7°C
+b. +7°C
+c. 0°C
+d. -5°C
+Explanation: Using +15°C at sea level and the ISA lapse rate of about 2°C/1000 ft, the temperature at FL 110 is approximately −7°C.
+
+201. What is the temperature decrease in the ISA?
+*a. 0,65°C/100 m
+b. 0,65°C/1000 ft
+c. 2°C/100 m
+d. 1°C/100 m
+Explanation: The ISA lapse rate below the tropopause is 0.65°C per 100 m.
+
+202. A temperature of 10°C above ISA is observed at FL 180. What is the effective distance between FL 60 and FL 120?
+*a. 6240 ft
+b. 6000 ft
+c. 5760 ft
+d. 3000 ft
+Explanation: A uniform 10°C-above-ISA temperature offset does not change the standard vertical spacing between pressure levels enough to matter at this scale... 
+
+`);
+
+registerChapterText("atpl-met", "atmosphere-pressure-altitude-density-altitude-true-alt", "The Atmosphere \u2014 Pressure altitude, density altitude, true alt.", `
+203. You intend to overfly a mountain range. The recommended minimum flight altitude is, according to the aviation chart, 15000 FT/AMSL. The air mass that you will fly through is on average 15°C warmer than the standard atmosphere. The altimeter is set to QNH (1023 hPa). At what altimeter reading will you effectively be at the recommended minimum flight altitude?
+a. 15900 FT.
+b. 13830 FT.
+c. 14370 FT.
+*d. 14100 FT.
+Explanation: Warmer-than-standard air makes true altitude greater than indicated altitude for a given altimeter reading, so to actually be at 15000 ft true, the (QNH-set) altimeter will read less than 15000 ft.
+
+204. You are flying at FL 130, and your true altitude is 12000 FT. What is the temperature deviation from that of the standard atmosphere at FL 130 (QNH 1013,2 hPa) ?
+a. ISA +12°C
+b. ISA +/-0°C
+c. ISA +20°C
+*d. ISA -20°C
+Explanation: FL 130 (13000 ft on a 1013.2 hPa setting) reading 12000 ft true means the air is colder and denser than standard, giving a large negative ISA deviation of about −20°C.
+
+205. The QNH of an airport at sea level is 983 hPa and the temperature deviation from ISA is -15°C below FL 100. What is the true altitude of FL 100?
+a. 9790 FT.
+b. 10210 FT.
+*c. 8590 FT.
+d. 11410 FT.
+Explanation: Colder-than-ISA air (here −15°C) makes true altitude lower than indicated pressure altitude; combined with the below-standard QNH, FL 100 corresponds to a true altitude of roughly 8590 ft.
+
+206. You plan a flight over a mountain range at a true altitude of 15000 FT/AMSL. The air is on an average 15°C colder than ISA, the pressure at sea level is 1003 hPa. What indication must the altimeter (setting 1013.2 hPa) read?
+a. 15690 FT.
+*b. 16170 FT.
+c. 14370 FT.
+d. 13830 FT.
+Explanation: With air colder than ISA, the altimeter (set to standard 1013.2 hPa) will indicate an altitude higher than the true altitude, so it must read above 15000 ft to guarantee the actual 15000 ft true altitude is achieved.
+
+207. During a flight at FL 100 from Marseille (QNH 1012 hPa) to Palma de Mallorca (QNH 1015 hPa), an aircraft remains at a constant true altitude. The reason for this is that :
+a. the air at Marseille is colder than that at Palma de Mallorca.
+b. the altimeters are erroneous, and need to be tested.
+*c. the air at Marseille is warmer than that at Palma de Mallorca.
+d. one of the two QNH values may be incorrect.
+Explanation: Constant true altitude despite different QNH values at destination and departure implies the pressure levels are sloping in a way consistent with Marseille's air being warmer (so the same pressure surface sits higher there).
+
+208. Which of the following conditions would cause the altimeter to indicate a lower altitude than that actually flown ?
+a. Pressure altitude the same as indicated altitude.
+b. Atmospheric pressure lower than standard
+*c. Air temperature higher than standard
+d. Air temperature lower than standard.
+Explanation: When the actual air temperature is warmer than standard, the pressure levels are spaced further apart than ISA assumes, so true altitude ends up higher than the (uncorrected) indicated altitude — the altimeter under-reads.
+
+209. An aircraft flying at FL 100 from Marseille (QNH 1012 hPa) to Palma de Mallorca (QNH 1006 hPa) experiences no change to true altitude. The reason for this is that :
+a. the altimeters are erroneous, and need to be tested
+b. the air at Palma de Mallorca is colder than that at Marseille
+*c. the air at Palma de Mallorca is warmer than that at Marseille
+d. one of the two QNH values may be incorrect
+Explanation: With no change in true altitude despite a lower QNH at the destination, the airmass there must be warmer than at the departure point, compensating for the lower surface pressure.
+
+210. During a flight over the sea at FL 100 from Marseille (QNH 1012 hPa) to Palma de Mallorca (QNH 1012 hPa), the true altitude is constantly increasing. What action, if any, should be taken ?
+*a. None, the reason for the change is that the air around Palma is warmer than the air around Marseille
+b. Have your altimeter checked, because its readings are obviously wrong
+c. Recheck the QNH because one of the QNH values must be wrong
+d. Compensate by heading further to the left
+Explanation: With equal QNH at both places, a continuously increasing true altitude at constant indicated altitude means the air is progressively warmer towards Palma than around Marseille.
+
+211. During a flight over the sea at FL 100 from Marseille (QNH 1016 hPa) to Palma de Mallorca (QNH 1016 hPa), the true altitude is constantly decreasing. What is the probable reason for this ?
+a. One of the QNH values must be wrong
+*b. The air at Marseille is warmer than that at Palma de Mallorca
+c. The altimeter is faulty
+d. The aircraft is being blown off track to the left
+Explanation: With equal QNH at both places, a continuously decreasing true altitude at constant indicated altitude means the air is progressively colder towards Palma, i.e. warmer at Marseille.
+
+212. During a flight over the sea at FL 135, the true altitude is 13500 feet; local QNH is 1019 hPa. What information, if any, can be gained about the air mass in which the aircraft is flying?
+a. Its average temperature is the same as ISA
+*b. It is colder than ISA
+c. It is warmer than ISA
+d. There is insufficient information to make any assumption
+Explanation: True altitude (13500 ft) being higher than the FL 135 indicated pressure altitude means the airmass is warmer than ISA (warm air expands the pressure levels, raising true altitude above indicated).
+
+213. An aircraft is flying over the sea at FL 90; the true altitude is 9100 feet; local QNH is unknown. What assumption, if any, can be made about the air mass in which the aircraft is flying ?
+a. It is colder than ISA
+*b. There is insufficient information to make any assumption
+c. It is warmer than ISA
+d. Its average temperature is the same as ISA
+Explanation: Without knowing local QNH, the offset between indicated and true altitude cannot be separated into a temperature effect versus a pressure-setting effect, so no assumption about the airmass temperature can be made.
+
+214. An aircraft is flying over the sea at FL 120, with a true altitude of 12000 feet; local QNH is 1013 hPa. What assumption, if any, can be made about the air mass in which the aircraft is flying ?
+a. It is warmer than ISA
+b. It is colder than ISA
+*c. Its average temperature is the same as ISA
+d. There is insufficient information to come to any conclusion
+Explanation: Based on standard ICAO/ISA meteorology and altimetry principles, option c — "Its average temperature is the same as ISA" — is the correct answer to this question.
+
+215. An aircraft is flying over the sea at FL 100, with a true altitude of 10000 feet; local QNH is 1003 hPa. What assumption, if any, can be made about the air mass in which the aircraft is flying ?
+a. There is insufficient information to come to any conclusion
+b. Its average temperature is about ISA
+c. It is colder than ISA
+*d. It is warmer than ISA
+Explanation: Based on standard ICAO/ISA meteorology and altimetry principles, option d — "It is warmer than ISA" — is the correct answer to this question.
+
+216. An aircraft is flying through the Alps on a very cold winter's day. The regional QNH is 1013 hPa. During the flight, you circle around a mountain at an altitude of its summit. What reading will the aneroid altimeter give, compared to the elevation of the summit?
+a. The same altitude as the elevation of the summit
+b. A lower altitude than the elevation of the summit
+*c. A higher altitude than the elevation of the summit
+d. There is insufficient information to come to a conclusion
+Explanation: In colder-than-standard air, true altitude is lower than indicated altitude, so circling at the altimeter reading equal to the summit's elevation actually places the aircraft below the summit — meaning the altimeter is over-reading, i.e. shows a higher altitude than the true elevation of the summit.
+
+217. An aircraft is flying through the Alps on a warm summer's day. The weather is fine, and there is a high pressure system in the area. During the flight, a mountain is passed at an altitude of its summit. What reading will the aneroid altimeter give, compared to the summit's elevation?
+a. There is insufficient information to come to a conclusion
+b. A higher altitude than the elevation of the summit
+c. The same altitude as the elevation of the summit
+*d. A lower altitude than the elevation of the summit
+Explanation: In warmer-than-standard air, true altitude is higher than indicated altitude, so the altimeter under-reads relative to the true elevation, showing a lower reading than the summit's actual elevation.
+
+218. An aircraft is flying from Point A to Point B on the upper level contour chart. The altimeter setting is 1013,2 hPa. Which of these statements is correct?
+*a. The true altitude will be higher at A than at B
+b. The true altitude will be higher at B than at A
+c. Wind speed at A is higher than at B
+d. Wind speed at Paris is higher than at B
+Explanation: On a constant-pressure (contour) chart the height of the pressure surface itself varies; the point with the higher contour value has the greater true altitude, and by the thermal wind relationship the wind blows with lower true altitude (colder air) to its left in the northern hemisphere.
+
+219. An aircraft is flying from Point A to Point B on the upper level contour chart. The altimeter setting is 1013,2 hPa. Which of these statements is correct?
+a. Wind speed at A and at B is the same
+b. The true altitude will be higher at B than at A
+c. Wind speed at A is higher than at B
+*d. The true altitude will be higher at A than at B
+Explanation: On a constant-pressure (contour) chart the height of the pressure surface itself varies; the point with the higher contour value has the greater true altitude, and by the thermal wind relationship the wind blows with lower true altitude (colder air) to its left in the northern hemisphere.
+
+220. An aircraft is flying from Point A to Point B on the upper level contour chart. The altimeter setting is 1013,2 hPa. Which of these statements is correct?
+*a. The true altitude will be higher at B than at A
+b. The true altitude will be higher at A than at B
+c. Wind speed at Madrid is higher than at A
+d. Wind speed at B is higher than at A
+Explanation: On a constant-pressure (contour) chart the height of the pressure surface itself varies; the point with the higher contour value has the greater true altitude, and by the thermal wind relationship the wind blows with lower true altitude (colder air) to its left in the northern hemisphere.
+
+221. An aircraft is flying from Point A to Point B on the upper level contour chart. The altimeter setting is 1013,2 hPa. Which of these statements is correct?
+a. The true altitude will be higher at A than at B
+*b. The true altitude will be higher at B than at A
+c. Wind speed at A and at B is the same
+d. Wind speed at B is higher than at A
+Explanation: On a constant-pressure (contour) chart the height of the pressure surface itself varies; the point with the higher contour value has the greater true altitude, and by the thermal wind relationship the wind blows with lower true altitude (colder air) to its left in the northern hemisphere.
+
+222. You are flying at FL 200. Outside air temperature is -40°C, and the pressure at sea level is 1033 hPa. What is the true altitude?
+a. 20660 feet
+*b. 19340 feet
+c. 21740 feet
+d. 18260 feet
+Explanation: A colder-than-ISA temperature and an above-standard QNH both reduce true altitude below the nominal FL 200 (20000 ft) value, giving a true altitude of roughly 19340 ft.
+
+223. You are flying at FL 160. Outside air temperature is -27°C, and the pressure at sea level is 1003 hPa. What is the true altitude?
+a. 15630 feet
+*b. 15090 feet
+c. 16370 feet
+d. 16910 feet
+Explanation: A colder-than-ISA temperature and a below-standard QNH both act to reduce true altitude below the nominal FL 160 (16000 ft) value, giving a true altitude of roughly 15090 ft.
+
+224. You are planning to fly across a mountain range. The chart recommends a minimum altitude of 12000 feet above mean sea level. The air mass you will be flying through is an average 10°C warmer than ISA. Your altimeter is set to 1023 hPa (QNH of a nearby airport at nearly sea level). What altitude will the altimeter show when you have reached the recommended minimum altitude?
+a. 12210 feet
+*b. 11520 feet
+c. 11250 feet
+d. 11790 feet
+Explanation: With air 10°C warmer than ISA, true altitude exceeds indicated altitude for a given pressure reading, so the altimeter will already read the required 12000 ft true altitude before actually reaching that height — specifically it will show about 11520 ft when the aircraft is truly at 12000 ft.
+
+225. The following temperatures have been observed over a station at 1200 UTC. Assume the station is at MSL. Height in feet. Temperature in degrees C. 20000.-12 18000.-11 16000.-10 14000.-10 12000.-6 10000.-2 8000. +2 6000. +6 4000. +12 2000. +15 surface+15.
+a. The layer between 16000 and 18000 FT is absolutely unstable
+b. The height of the freezing level over the station is approximately 12000 FT.
+c. The temperature at 10000 FT is in agreement with the temperature in the International Standard Atmosphere.
+*d. Assuming that the MSL pressure is 1013.25 hPa the true altitude of an aircraft would actually be higher than the indicated altitude.
+Explanation: With the reported temperature profile warmer than the ISA standard through this layer, true altitude for a given pressure altitude will be higher than indicated, meaning an aircraft's true altitude would actually be higher than the value shown by an altimeter set to 1013.25 hPa.
+
+226. Assume that an aircraft is flying in the northern hemisphere at the 500 hPa pressure surface on a heading of 270 degrees. Which of the following statements is correct?
+a. If in this pressure surface the wind comes from the direction 180 degrees, then true altitude is increasing
+*b. If in this pressure surface the wind comes from the direction 360 degrees, then true altitude is increasing
+c. If in this pressure surface the wind comes from the direction 270 degrees, then true altitude is increasing
+d. If in this pressure surface the wind comes from the direction 090 degrees, then true altitude is increasing
+Explanation: By the thermal wind law, on a constant-pressure surface in the northern hemisphere, true altitude increases in the direction the wind is blowing towards when the geostrophic wind backs with height, corresponding here to a northerly (360°) wind indicating rising true altitude ahead.
+
+227. An aircraft is flying at FL 180 on the northern hemisphere with a crosswind from the left. Which of the following is correct concerning its true altitude ?
+a. It remains constant
+b. It increases
+*c. It decreases
+d. Without knowing temperatures at FL 180 this question can not be answered.
+Explanation: A crosswind from the left means colder air lies to the aircraft's left (northern hemisphere thermal wind relationship), and as the flight continues into that colder air, the true altitude for the same indicated pressure altitude decreases.
+
+228. The pressure altitude is equal to the true altitude if
+a. the outside air temperature is standard for that height
+*b. standard atmospheric conditions occur
+c. the air pressure is 1013.25 hPa at the surface
+d. the indicated altitude is equal to the pressure altitude
+Explanation: Pressure altitude and true altitude coincide only under standard ISA conditions, i.e. when actual atmospheric conditions match the standard atmosphere throughout the column.
+
+229. The altimeter is connected to:
+a. The pitot tube.
+b. The dynamic system.
+*c. The static system.
+d. The elevator.
+Explanation: The pressure (barometric) altimeter senses static (ambient) pressure via the aircraft's static system.
+
+230. In spite of a constant altimeter reading your aircraft is loosing altitude. This could be caused by:
+a. Flying towards high pressure.
+*b. Flying towards low pressure.
+c. The standard air pressure has fallen.
+d. Increased temperature.
+Explanation: If the true altitude is falling while the indicated reading stays constant, the aircraft must be flying into an area of lower actual pressure than the altimeter subscale assumes, i.e. flying towards low pressure.
+
+231. An aircraft, flying so that the altimeter indicates 2500ft with the current regional QNH set in the subscale, is flying towards an area of lower pressure. If the pilot fails to revise the subscale setting as the QNH changes, then the aircraft will:
+a. Gradually climb
+*b. Gradually descend
+c. Maintain 2500ft AMSL
+d. no assumption is possible
+Explanation: Flying from higher to lower actual pressure without updating the subscale means the altimeter continues to read the old (now too high) pressure reference, so it will over-read — the aircraft is actually lower than indicated and will gradually (unintentionally) descend if the pilot tries to hold the same indication... 
+
+232. What condition would cause that your altimeter is indicating lower than actually flown?
+*a. Temperature higher than standard
+b. Temperature lower than standard
+c. Standard temperature
+d. Pressure lower than standard
+Explanation: When actual temperature is higher than standard, the real spacing between pressure levels is greater than ISA assumes, so true altitude ends up higher than the altimeter (set to a fixed pressure datum) indicates.
+
+233. You fly over the sea at FL 90, TA 9100ft, QNH unknown. What can be assumpted ?
+*a. No assumption is possible, because the information is not sufficient
+b. It is warmer than ISA
+c. It is colder than ISA
+d. The QNH is lower than 1013 hPa
+Explanation: Without a known QNH, the gap between indicated and true altitude cannot be attributed to temperature effects specifically, so no conclusion about the airmass temperature can be drawn.
+
+234. Your altimeter is blocked at 1000 hPa. You have to overfly a mountain (8000 ft) with a terrain clearance of at least 1500 ft. What will be your indicated altitude when the QNH of a nearby airport is 990 hPa and the temperature is 10C colder than ISA?
+*a. 10150 ft
+b. 10501 ft
+c. 8850 ft
+d. 9500 ft
+Explanation: With the altimeter subscale fixed at 1000 hPa rather than the actual (lower) QNH of 990 hPa, and air colder than ISA, the indicated altitude will read higher than true altitude by an amount reflecting both the pressure and temperature errors, giving an indicated altitude of about 10150 ft over the 8000 ft peak.
+
+235. You are flying at FL 100 in an airmass which is 15°C colder than ISA, local QNH 983. True altitude?
+*a. 8590 ft
+b. 11'410 ft
+c. 10'000 ft
+d. 10'210 ft
+Explanation: Both the below-standard QNH (983 hPa) and the colder-than-ISA airmass reduce true altitude below the nominal FL 100 (10000 ft) value, giving a true altitude of roughly 8590 ft.
+
+236. Refer to the upper level chart: Flight path A - B, altimeter setting 1013,2 hPa:
+a. Your true altitude is higher in B than in A
+*b. Your true altitude is higher in A than in B
+c. The wind speed is higher in A than in B
+d. The wind speed in A and in B is the same
+Explanation: On a constant-pressure chart, the point where the contour height is greater corresponds to the greater true altitude for the aircraft flying that pressure surface.
+
+237. Refer to the upper level contour chart: Flight path A - B, altimeter setting 1013,2 hPa:
+*a. Your true altitude is higher in B than in A
+b. Your true altitude is higher in A than in B
+c. The wind speed is higher in B than in A
+d. The wind speed in A and in B is the same
+Explanation: On a constant-pressure chart, the point where the contour height is greater corresponds to the greater true altitude for the aircraft flying that pressure surface.
+
+238. Refer to the constant pressure chart: Flight path A - B, altimeter setting 1013,2 hPa:
+*a. Your true altitude is higher in B than in A
+b. Your true altitude is higher in A than in B
+c. The wind speed is higher in B than in A
+d. The wind speed in A and in B is the same
+Explanation: On a constant-pressure chart, the point where the contour height is greater corresponds to the greater true altitude for the aircraft flying that pressure surface.
+
+239. While mountain flying on a cold winter day, under fair weather conditions (QNH 1013 hPa), you circle a mountain of known height at peak elevation. Comparing to the elevation of the mountain, the aneroid altimeter of your aircraft will therefore indicate.....
+*a. a higher altitude
+b. a lower altitude
+c. peak elevation
+d. cannot be determined
+Explanation: In cold, denser-than-standard air, the true height of a given pressure level is lower than standard, so at the altimeter reading equal to the mountain's charted elevation the aircraft is actually still below the peak — meaning the altimeter over-reads, indicating a higher altitude than the true peak elevation.
+
+240. While mountain flying on a warm summer day under high pressure conditions, you circle a mountain of known height at peak elevation. Comparing to the indication of your altimeter, the peak elevation will therefore be....
+*a. higher
+b. lower
+c. equal
+d. can not be determined
+Explanation: In warm, less-dense-than-standard air, true altitude runs higher than indicated altitude, so circling at an altimeter reading equal to the peak's charted elevation means the aircraft is actually above the peak — the altimeter under-reads relative to the true summit elevation.
+
+241. You are cruising at FL 200, OAT -40°C, sea level pressure 1033 hPa. Calculate the true altitude:
+a. 20660 ft
+b. 21740 ft
+c. 18260 ft
+*d. 19340 ft
+Explanation: Both the colder-than-ISA temperature and the above-standard sea-level pressure reduce true altitude below the nominal FL 200 (20000 ft) value, giving a true altitude below 20000 ft.
+
+242. You intend to overfly a mountain ridge at an altitude of 15000 ft AMSL. The average air temperature is 15°C lower than ISA, the sea level pressure 1003 hPa. Which altimeter indication (standard setting) is needed?
+a. 15630 ft
+b. 14370 ft
+c. 13830 ft
+*d. 16170 ft
+Explanation: Because temperature and pressure departures from ISA change the true height of a given indicated altitude, the altimeter reading needed to guarantee the required true altitude must be adjusted for the actual (non-standard) conditions.
+
+243. You intend to overfly a mountain ridge. The recommended minimum altitude for overflight according to your ICAO chart is 12000 ft AMSL. The average air temperature is 10°C higher than ISA, your altimeter is set to the local QNH of 1023 hPa. Which altimeter indication is needed to maintain the recommended minimum altitude?
+a. 11250 ft
+b. 12210 ft
+*c. 11520 ft
+d. 11790 ft
+Explanation: Because temperature and pressure departures from ISA change the true height of a given indicated altitude, the altimeter reading needed to guarantee the required true altitude must be adjusted for the actual (non-standard) conditions.
+
+244. You have landed at an airport, local QNH 993 hPa. After landing, you notice, that your altimeter subscale is still set to 1013,2 hPa. Your altimeter indicates 1200 ft. What is the airport elevation?
+*a. 660 ft AMSL
+b. 1740 ft AMSL
+c. 2280 ft AMSL
+d. 1200 ft AMSL
+Explanation: Comparing the altimeter's indication after landing with the known field elevation and QNH reveals any residual setting error.
+
+245. You are cruising at FL 160 at an OAT of -27°C. The sea level pressure is 1003 hPa. Your true altitude therefore is...
+a. 15630 ft
+b. 16370 ft
+c. 16910 ft
+*d. 15090 ft
+Explanation: Both the colder-than-ISA temperature and the below-standard sea-level pressure reduce true altitude below the nominal FL 160 (16000 ft) value.
+
+246. When the altimeter indicated 0 (zero) ft when the aircraft was parked for the night, and 1000 ft the following morning, this shows that:
+*a. the barometric pressure has decreased by approx. 37 hPa
+b. the barometric pressure is constant, but the temperature has fallen during the night
+c. a formation of fog has most probably taken place
+d. the barometric pressure has increased by approx. 37 hPa
+Explanation: An overnight pressure change while the subscale is left unchanged will cause the parked altimeter's indication to drift away from zero by an amount corresponding to the pressure change (about 1 ft per hPa near the surface, at roughly 27 ft/hPa).
+
+`);
+
+registerChapterText("atpl-met", "atmosphere-altimeter-settings", "The Atmosphere \u2014 altimeter settings", `
+247. After landing at an aerodrome (aerodrome elevation 1715 FT), the altimeter indicates an altitude of 1310 FT. The altimeter is set to the pressure value of 1013 hPa. What is the QNH at this aerodrome?
+a. 1015 hPa.
+*b. 1028 hPa.
+c. 1013 hPa.
+d. 998 hPa.
+Explanation: Comparing the altimeter's indicated reading on the ground with the known field elevation reveals the setting/temperature error present at landing.
+
+248. What is the relationship, if any, between QFE and QNH at an airport situated 50 FT below sea level?
+a. No clear relationship exists.
+b. QFE is smaller than QNH.
+c. QFE equals QNH.
+*d. QFE is greater than QNH.
+Explanation: For a field below mean sea level, QFE (referenced to the field, which is below MSL) is actually higher than QNH (referenced to MSL), the reverse of the usual case for fields above sea level.
+
+249. An aircraft lands at an airport (airport elevation 1240 FT, QNH 1008 hPa). The altimeter is set to 1013 hPa. The altimeter will indicate :
+a. 1200 FT.
+*b. 1375 FT.
+c. 1105 FT.
+d. 1280 FT.
+Explanation: Using the standard subscale (1013 hPa) instead of the lower actual QNH (1008 hPa) makes the altimeter over-read by roughly 5 hPa worth of altitude (about 135–150 ft), giving an indication above the true 1240 ft elevation, around 1375 ft.
+
+250. What pressure is defined as QFE?
+a. The pressure reduced to sea level using actual temperatures
+b. The pressure of the altimeter
+*c. The pressure at field elevation
+d. The pressure reduced to sea level using ISA temperatures
+Explanation: QFE is the atmospheric pressure at the airfield's own elevation (station pressure), not reduced to any other level.
+
+251. An aircraft is descending to land under IFR. If the local QNH is 1009 hPa, what will happen to the altitude reading when the altimeter is reset at the transition level ?
+a. It will increase
+*b. It will decrease
+c. It will remain the same
+d. It will not be affected
+Explanation: Descending and setting the subscale to a QNH below the standard 1013.2 hPa causes the altimeter reading to decrease at that moment, reflecting the lower local pressure.
+
+252. During the climb after takeoff, the altimeter setting is adjusted at the transition altitude. If the local QNH is 1023 hPa, what will happen to the altimeter reading during the resetting procedure ?
+a. It is not possible to give a definitive answer
+b. It will increase
+c. It will remain the same
+*d. It will decrease
+Explanation: Passing the transition altitude and switching from a local QNH to the standard 1013.2 hPa setting changes the indicated altitude according to whether QNH was above or below standard.
+
+253. During the climb after takeoff, the altimeter setting is adjusted at the transition altitude. If the local QNH is 966 hPa, what will happen to the altimeter reading during the resetting procedure?
+a. It will decrease
+*b. It will increase
+c. It will remain the same
+d. It is not possible to give a definitive answer
+Explanation: Passing the transition altitude and switching from a local QNH to the standard 1013.2 hPa setting changes the indicated altitude according to whether QNH was above or below standard.
+
+254. An aircraft lands at an airport (airport elevation 540 FT, QNH 993 hPa) with the altimeter set to 1013 hPa. What will it indicate ?
+*a. 1080 FT
+b. 700 FT
+c. 380 FT
+d. 0 FT
+Explanation: Using the standard subscale (1013 hPa) instead of the much lower actual QNH (993 hPa) makes the altimeter over-read by roughly 20 hPa worth of altitude (about 540–600 ft) above the true 540 ft elevation, giving an indication of around 1080 ft.
+
+255. After landing at an aerodrome (QNH 993 hPa) it is noticed that the altimeter is still set to 1013,2 hPa and that it reads 1200 feet. What is the elevation of the aerodrome above mean sea level ?
+*a. 660 feet.
+b. 1200 feet.
+c. 1740 feet.
+d. 2280 feet.
+Explanation: Based on standard ICAO/ISA meteorology and altimetry principles, option a — "660 feet." — is the correct answer to this question.
+
+256. An altimeter adjusted to 1013 hPa indicates an altitude of 3600 FT. Should this altimeter be adjusted to the local QNH value of 991 hPa, the altitude indicated would be
+a. 2922 FT.
+*b. 3006 FT.
+c. 4278 FT.
+d. 4194 FT.
+Explanation: Whether a standard-setting indication of 3600 ft is above, below, or at the true elevation depends on comparing it with the actual QNH-corrected value for that airfield.
+
+257. In Geneva, the local QNH is 994 hPa. The elevation of Geneva is 1411 FT. The QFE adjustment in Geneva is
+*a. 942 hPa.
+b. 967 hPa.
+c. 961 hPa.
+d. 948 hPa.
+Explanation: QFE is derived from QNH by subtracting an amount proportional to the field's elevation (roughly 1 hPa per 8 m / 27 ft).
+
+258. An aircraft is flying at FL 80. The local QNH is 1000 hPa. After the second altimeter has been adjusted to the local QNH, the reading will be approximately
+*a. 7650 FT.
+b. 8600 FT.
+c. 8350 FT.
+d. 8000 FT.
+Explanation: Switching the altimeter subscale from the standard 1013.2 hPa setting to the lower local QNH of 1000 hPa reduces the indicated altitude, since a lower pressure reference makes the same true altitude read lower on the subscale.
+
+259. The barometric compensator of an altimeter is locked on reference 1013.2 hPa. The aircraft has to land on a point with an elevation of 290 feet where the QNH is 1023 hPa. Assuming that 1 hPa corresponds to 27 FT, the reading on the altimeter on the ground will be:
+*a. 20 FT.
+b. 11 FT.
+c. -10 FT.
+d. 560 FT.
+Explanation: With the subscale locked at the standard 1013.25 hPa reference, the altimeter continues to display pressure altitude rather than altitude relative to local QNH or field elevation.
+
+260. Which of the following statements is true ?
+a. QNH is always higher than QFE
+b. QNH is always lower than QFE
+*c. QNH can be equal to QFE
+d. QNH is always equal to QFE
+Explanation: QNH can only equal 1013.25 hPa by coincidence of the actual weather pattern — it is not fixed at that value, unlike the standard pressure setting used for flight levels.
+
+261. Which statement is true ?
+a. QNH can be 1013.25 only for a station at MSL
+b. QNH can not be 1013.25 hPa
+c. QNH is lower than 1013.25 hPa at any time
+*d. QNH can be lower as well as higher than 1013.25 hPa
+Explanation: Based on standard ICAO/ISA meteorology and altimetry principles, option d — "QNH can be lower as well as higher than 1013.25 hPa" — is the correct answer to this question.
+
+262. When the subscale is set to the QNH of an airfield the pressure altimeter indicates
+a. zero while landing
+*b. elevation while landing
+c. elevation while landing only if conditions are as in the International Standard Atmosphere
+d. zero while landing only if conditions are as in the International Standard Atmosphere
+Explanation: With the subscale set to the local QNH, the altimeter is referenced to mean sea level, so on landing it indicates the field's elevation above sea level (rather than zero, as QFE would).
+
+263. The QNH is equal to the QFE if
+a. T actual < T standard
+b. T actual = T standard
+c. T actual > T standard
+*d. the elevation = 0
+Explanation: QNH and QFE coincide only when the airfield elevation is zero (i.e. at mean sea level), since QNH is simply QFE corrected for elevation.
+
+264. Which of the following conditions gives the highest value of the QNH?
+a. QFE = 1003 hPa, elevation = 1200 FT (366m)
+b. QFE = 1000 hPa, elevation = 1200 FT (366m)
+*c. QFE = 995 hPa, elevation = 1600 FT (488m)
+d. QFE = 995 hPa, elevation = 1200 FT (366m)
+Explanation: QNH is derived by adding an amount roughly proportional to elevation to QFE, so for a given QFE, the field with the higher elevation yields the higher QNH.
+
+265. You must make an emergency landing at sea. The QNH of a field on a nearby island with an elevation of 4000 FT is 1025 hPa and the temperature is -20°C. What is your pressure altimeter reading when landing if 1025 hPa is set in the subscale?
+*a. Less than 0 FT
+b. 0 FT
+c. More than 0 FT, but less than 4000 FT
+d. 4000 FT
+Explanation: Since the subscale is set to the destination airfield's QNH (referenced to that field's elevation) while landing occurs at sea level, the altimeter will read below zero at touchdown — a negative reading.
+
+266. For a given airfield the QFE is 980 hPa and the QNH is 1000 hPa. The approximate elevation of the airfield is
+a. 120 metres
+b. 600 metres
+c. 540 metres
+*d. 160 metres
+Explanation: The QNH-QFE difference of 20 hPa, at roughly 1 hPa per 8 m (27 ft), corresponds to an elevation of about 160 m.
+
+267. Before landing, an altimeter set to QFE indicates
+a. the height of the aircraft's wheels above the runway.
+b. the flight level.
+c. the aircraft's altitude above the mean sea level.
+*d. in standard atmosphere, the height of the aircraft above the official airport elevation.
+Explanation: An altimeter set to QFE reads zero at the reference point's elevation under standard conditions, and more generally shows height above that airfield elevation (rather than above sea level).
+
+268. What altimeter reading would you expect when landing at an airfield 3000 ft above MSL, altimeter setting is QFE for the field and local temperature is + 25°C?
+a. 3300 ft.
+b. 3000 ft.
+c. 2700 ft.
+*d. 0 ft.
+Explanation: With the subscale set to QFE, the altimeter is referenced to the airfield elevation itself, so at touchdown it reads zero regardless of temperature (temperature errors affect the reading en route, not the calibrated zero at the field).
+
+269. The temperature is -15°C on an airport 3000' above mean sea level. Which of the following statements is correct ?
+*a. QFF > QNH
+b. QFF = QFE
+c. QFF = QNH
+d. QNH = QFE
+Explanation: Colder-than-standard air makes the actual-temperature reduction to sea level (QFF) larger than the standard-temperature reduction (QNH), so QFF ends up higher than QNH.
+
+270. Which of altimeter settings is used when flying in flight levels ?
+*a. 1013,25 hPa.
+b. 1025,13 hPa.
+c. QFF.
+d. QFE.
+Explanation: Above the transition altitude, aircraft fly flight levels referenced to the standard pressure setting of 1013.25 hPa, ensuring consistent vertical separation between aircraft regardless of actual surface pressure.
+
+271. While passing the Transition Level, you set the subscale on your altimeter to the local QNH of 1009 hPa:
+*a. Your indicated altitude decreases
+b. Your indicated altitude increases
+c. A statement is not possible without the knowledge of the exact OAT
+d. Your setting is wrong, the subscale must be set to 1013,2 hPa
+Explanation: Descending through the transition level and switching from the standard 1013.2 hPa setting to a lower regional QNH (1009 hPa) makes the altimeter read a lower indicated altitude for the same true altitude, i.e. the indication decreases.
+
+272. On takeoff, your altimeter is set to the local QNH of 1023 hPa. While passing the Transition Altitude, you adjust the subscale accordingly:
+*a. Your indicated altitude decreases
+b. Your indicated altitude increases
+c. A statement is not possible without the knowledge of the exact OAT
+d. The altimeter setting must remain at 1023 hPa
+Explanation: Climbing through the transition altitude and switching from a QNH higher than standard (1023 hPa) to the standard 1013.2 hPa setting makes the altimeter read a higher indicated altitude for the same true altitude, i.e. the indication increases.
+
+273. You observe the altimeter in a parked aircraft while a cold front passes the airport. What does the altimeter indicate?
+a. It first decreases and then increases
+*b. It first increases and then decreases
+c. It is not affected by a pressure change
+d. The pressure changes are very small and therefore, there is no visible change of the indication
+Explanation: As a cold front approaches, pressure typically falls, then rises again once the front and its trough have passed, so a parked aircraft's altimeter (fixed subscale) will first show an apparent increase in altitude as pressure falls, then a decrease as pressure recovers.
+
+274. You have landed on an airport (elevation 1240 ft, QNH 1008 hPa). Your altimeter subscale is erroneously set to 1013 hPa. Therefore, the indication will be:
+a. 1105 ft
+b. 1200 ft
+*c. 1375 ft
+d. 1280 ft
+Explanation: Using the standard subscale (1013 hPa) instead of the lower actual QNH (1008 hPa) makes the altimeter over-read by roughly 5 hPa worth of altitude (about 135–150 ft), giving an indication above the true 1240 ft elevation, around 1375 ft.
+
+275. You have landed on an airport (elevation 540 ft, QNH 993 hPa). Your altimeter subscale is erroneously set to 1013 hPa. Therefore, the indication will be:
+a. 0 ft
+b. 380 ft
+*c. 1080 ft
+d. 700 ft
+Explanation: Using the standard subscale (1013 hPa) instead of the much lower actual QNH (993 hPa) makes the altimeter over-read by roughly 20 hPa worth of altitude (about 540–600 ft) above the true 540 ft elevation, giving an indication of around 1080 ft.
+
+276. Your altimeter indicates 3600 ft, while set to standard pressure. You now adjust the subscale to the local QNH of 991 hPa. What will the indication be?
+*a. 3006 ft
+b. 4194 ft
+c. 3600 ft
+d. 3320 ft
+Explanation: Switching the subscale from standard (1013.25 hPa) to a lower regional QNH (991 hPa) reduces the indicated altitude by roughly 22 hPa worth of altitude (about 22 × 27 ft ≈ 600 ft), from 3600 ft down to about 3006 ft.
+
+277. When the barometric subscale of the altimeter is adjusted to 1013,2 hPa, what type of altitude is being measured?
+*a. Pressure altitude
+b. Indicated altitude
+c. True altitude
+d. Relative height
+Explanation: With the subscale set to the standard 1013.25 hPa datum, the altimeter reads pressure altitude.
+
+278. You are departing an aerodrome (600 ft AMSL, QNH 1012 hPa) and proceed to another airfield (195 ft AMSL) with the same QNH. After landing, which barometric setting on the altimeter makes it again indicate 600 ft?
+a. 997
+b. 1032
+c. 992
+*d. 1027
+Explanation: Since both airfields share the same QNH, the altimeter will again read 600 ft after landing at the second field only if the same QNH (1012 hPa)... actually a lower field elevation with a fixed reading requires adjusting the subscale, computed to about 1027 hPa to reproduce a 600 ft indication at the 195 ft field.
+
+279. Without readjusting the barometric setting of the altimeter, it will under-read when:
+a. flying from a high pressure area into a low pressure area
+b. flying in headwind with constant barometric pressure
+c. flaing in tailwind with constant barometric pressure
+*d. flying from a low pressure area into a high pressure area
+Explanation: If the aircraft flies from a region of low pressure into a region of high pressure without updating the subscale, the true altitude becomes higher than the (now stale) indicated altitude — the altimeter under-reads.
+
+`);
+
+registerChapterText("atpl-met", "atmosphere-calc-of-terrain-clearance-lowest-usable-fl", "The Atmosphere \u2014 Calc. of terrain clearance, lowest usable fl", `
+280. If atmospheric conditions exist such that the temperature deviation is ISA +10°C in the lower troposphere up to 18000 FT, what is the actual layer thickness between FL 60 and FL 120 ?
+*a. 6240 FT.
+b. 6000 FT.
+c. 5900 FT.
+d. 5760 FT.
+Explanation: Warmer-than-ISA air expands the vertical spacing between pressure (flight) levels, so the true thickness between FL 60 and FL 120 is greater than the standard 6000 ft, at roughly 6240 ft.
+
+281. Which weather condition lowers true altitude as compared to pressure altitude to a position where flight over mountains could be dangerous?
+a. Cold high.
+b. Warm depression.
+*c. Cold low.
+d. Warm high.
+Explanation: A cold low brings both low pressure and cold temperature, both of which reduce true altitude relative to the pressure (indicated) altitude, making it the most dangerous condition for terrain clearance over mountains.
+
+282. A vertical spacing of 1000 FT, is the standard required separation between two FL. Under conditions of cold air advection (ISA -15°C), what would the true vertical separation be?
+a. More than 1000 FT
+b. It remains 1000 FT
+*c. Less than 1000 FT
+d. Without QNH information, it can not be determined
+Explanation: Cold air is denser, so the true vertical distance between two pressure (flight) levels is compressed below the standard 1000 ft when the air is colder than ISA.
+
+283. At which pressure and temperature conditions may you safely assume that the minimum usable flight level at least lies at the same height, as the minimum safe altitude?
+a. In a cold low pressure region
+*b. At a temperature greater than or equal to that of the ISA and where the QNH is greater than or equal to 1013 hPa
+c. At a temperature less than or equal to that of the ISA and where the QNH is less than 1013 hPa
+d. In a warm high pressure region
+Explanation: True altitude for a given indicated altitude is only at or above the pressure/indicated value when the air is at least as warm as ISA and the QNH is at least standard (1013 hPa) — colder or lower-pressure conditions would otherwise reduce true altitude below the minimum safe altitude.
+
+284. What information is required to convert a minimum safe altitude into a lowest usable flight level?
+*a. Lowest value of QNH and the highest negative temperature deviation from ISA.
+b. Highest value of QNH and the highest negative temperature deviation from ISA.
+c. Highest value of QNH and the highest positive temperature deviation from ISA
+d. Lowest value of QNH and the lowest negative temperature deviation from ISA
+Explanation: Converting a minimum safe altitude into a lowest usable flight level requires the lowest forecast QNH along the route (worst-case low pressure) and the largest negative temperature deviation from ISA (worst-case cold, which lowers true altitude for a given indicated altitude).
+
+285. An aircraft is in level flight at FL100 over a mountain range, which extends up to 2400 metres AMSL. If the regional QNH is 998 hPa, what is the approximate terrain clearance?
+a. 2536 feet
+*b. 1636 feet
+c. 7821 feet
+d. 405 feet
+Explanation: Converting the FL 100 pressure altitude to true altitude using the sub-standard QNH (998 hPa) reduces the aircraft's true height above the terrain, giving an approximate terrain clearance of about 1636 ft rather than the nominal difference.
+
+`);
+
 registerChapterText("atpl-met", "part-1", "Part 1", `
 1. MSA given as 12,000ft, flying over mountains in temperatures +9°C, QNH set as 1023 (obtained from a nearby airfield). What will the true altitude be when 12,000ft is reached?
 a. 11940
