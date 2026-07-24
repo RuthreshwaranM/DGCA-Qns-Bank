@@ -1976,3 +1976,1080 @@ d. Variable with temperature
 Explanation: Elr is not a fixed value where as Saturated air lapse rate is0.6°C per 100 m (1.8°C/1000 ft). unsaturated or dry air has lapse rate 1°C per 100 m (3°C/1000 ft) FINISH Contact us: admin@eatpl.in
 
 `);
+registerChapterText("atpl-met", "part-8", "Part 8", `
+1. Why do TRS not occur in the SE Pacific and South Atlantic?
+*a. Low water temperatures
+b. No Coriolis effect
+c. SE trade crosses Equator
+d. SE trade winds blow there
+
+2. What is a cold pool, in the northern hemisphere?
+a. Cold air found on the lee side of the Alps in winter in a cold north westerly air stream
+*b. Cold air brought down from the North behind frontal systems
+c. Air from tropical continental origin
+d. Air from Polar maritime origin only
+Explanation: These outbreaks are usually characterised by a cold front at their leading edge; they are common just behind polar front depressions, and the air is typically unstable.
+
+3. Flying away from a low pressure at low levels in the Southern Hemisphere, where is the wind coming from?
+*a. From the left and slightly on the nose
+b. From the right and slightly on the nose
+c. From the rear and slightly on the left
+d. From the rear and slightly on the right
+
+4. What is Relative Humidity dependent upon?
+*a. Moisture content and temperature of the air
+b. Temperature of the air
+c. Temperature and pressure
+d. Moisture content of the air
+Explanation: Relative Humidity is a term used to describe the quantity of water vapour that exists in a gaseous mixture of air and water. Relative humidity is expressed as a percentage and is calculated using the formula below. More simply, the relative humidity is the amount of water vapour present in a volume of air divided by the maximum amount of water vapour which that volume could hold at that temperature expressed as a percentage.
+
+5. Using the diagram shown, what cross section is through an occluded front?
+a. DE
+b. CD
+*c. CB
+d. AB
+Explanation: Diagram-dependent question - the cross-section reference (AB/CD/CB/DE) refers to a chart in the original source that isn't available here, so the correct option can't be confirmed. [UNRESOLVED - diagram required, no answer marked]
+
+6. What is true about the dew point temperature?
+a. Can be higher or lower than the air mass temperature
+b. Can be higher than the temperature of the air mass only
+c. Can be only lower than the temperature of the air mass
+*d. Can be equal to or lower than the temperature of the air mass
+
+7. What are the indications of a TRS from a great distance?
+*a. Thick Ci
+b. Thick Cb's
+c. Ns
+d. Sc
+
+8. What is true regarding super cooled water droplets?
+a. Always below -60°C
+b. All large
+c. All small
+*d. All below 0°C
+
+9. Wind is caused by?
+a. Mixing of fronts
+*b. Horizontal pressure difference
+c. Earth rotation
+d. Surface friction
+
+10. What weather might you expect behind a fast moving cold front?
+a. 8 oktas of layered cloud
+b. Scattered ST
+*c. Isolated CB’s and showers
+d. Continuous rain
+
+11. How would an unstable atmosphere likely reduce the visibility?
+a. By mist
+b. By haze
+*c. By rain and or snow
+d. Low stratus
+
+12. Which is true regarding a polar front jet stream?
+a. It is found in the warm air and so does it’s plan projection show this
+*b. It is located where there is little vertical temperature gradient but the horizontal pressure gradient is at it’s steepest
+c. It is located where there is significant horizontal temperature difference but the pressure gradient is flat
+d. It is always in the colder of the air masses
+
+13. A layer of air cooling at the SALR compared to the DALR would give what kind of cloud?
+a. Stratus if saturated
+*b. Cumulus if saturated
+c. No cloud if saturated
+d. Convective cloud
+
+14. What is a SPECI?
+a. A forecast valid for 3 hours
+*b. A report produced when significant changes have occurred
+c. A forecast and valid for 6 hours
+d. A landing forecast
+
+15. Description of radiation fog
+a. Marked increase in ground wind speed
+b. Marked increase in wind speed close to the ground
+*c. Ground cooling due to radiation
+d. Warm air over warm surface
+
+16. The wind in the Northern Hemisphere at the surface and above the friction layer at 2000 ft would be?
+a. Veered at the surface, veered above the friction layer
+*b. Backed at the surface, veered above the friction layer
+c. Veered at the surface, backed above the friction layer
+d. Backed at the surface, backed above the friction layer
+
+17. What is the composition of Ci cloud?
+a. Super cooled water droplets
+*b. Ice crystals
+c. Water droplets
+d. Smoke particles
+
+18. Isolated TS occur mostly due to
+a. Warm frontal uplift
+b. Cold front uplift
+c. Insolation
+*d. Convection
+Explanation: Heat, or airmass type (more common in summer time). Also called isolated are formed by thermal triggering or CONVECTION not by frontal uplift
+
+19. Polar front depression normally move
+a. In the direction of the isobars behind the cold front
+b. In the direction of the isobars in front of the warm front
+c. In the direction on the isobars ahead of the depression
+*d. In the direction of the isobars inside the warm sector
+
+20. Fair weather cumulus gives an indication of
+a. Poor visibility
+b. Thunderstorms
+*c. Turbulence
+d. Smooth flying below
+
+21. Thermal lows usually develop
+a. Over the sea in summer.
+b. Over the sea in winter.
+*c. Over the land in summer.
+d. Over the land in winter.
+
+22. When flying from South to North in the Southern Hemisphere crossing over and above a polar frontal jet at FL 400, what might happen to the OAT?
+a. initially fall then rise
+b. initially rise then fall
+c. rise
+*d. fall PFJ ARE LOCATED IN WARM AIR
+Explanation: Polar Front Jets are located in warm air. Flying from the cold (polar) side, where the tropopause is lower, into the warm side, where the tropopause is higher, the OAT falls as you move from the lower stratosphere into the upper troposphere.
+
+23. Tornadoes are usually associated with which cloud type
+a. Ns
+b. Cu
+*c. Cb
+d. Ts
+
+24. Why is clear ice such a problem?
+a. Translucent and forms along leading edges
+b. Not translucent and forms along leading edges
+*c. Very heavy and can affect controls and surfaces
+d. Forms in clear air, is difficult to see and hard to remove
+Explanation: Clear ice forms in relatively clear air/cloud with large water droplets; there is little trapped air within it, so it is transparent and adheres strongly. Being heavy and hard to shed, it can distort aerofoil shapes and unbalance propellers, causing control and vibration problems.
+
+25. Wind at altitude is usually given as …….. in ……..
+a. True, m/s
+b. Magnetic, m/s
+*c. True, KT
+d. Magnetic, KT
+
+26. A steep pressure gradient is characterised by
+*a. Isobar close together, strengthened wind
+b. Isobar far apart, decreased wind
+c. Isobars close together, temperature increasing
+d. Isobars far apart, temperature decreasing
+Explanation: Closely spaced isobars imply a steep pressure gradient (common in low pressure systems) and widely spaced isobars imply a shallow pressure gradient (common in high pressure systems).
+
+27. An occlusion is mimicking a cold front, where would the coldest air be found?
+*a. Behind the original cold front.
+b. Behind the original warm front
+c. In front of the occlusion.
+d. In front of the original warm front.
+
+28. Assuming a generalised zonal distribution of winds, which zones on the diagram contain the temperate lows?0
+a. t
+*b. t + x
+c. s + y
+d. u + w
+Explanation: Diagram-dependent question - the lettered wind zones refer to a chart in the original source that isn't available here, so the correct option can't be confirmed. [UNRESOLVED - diagram required, no answer marked]
+
+29. Over flat dry land what would cause cloud?
+a. Orographic uplift.
+*b. Convective uplift during the day.
+c. Release of latent heat.
+d. Advection
+
+30. Without the ability to de-ice or land immediately, what should you do if you encounter rain ice at about 2,000ft?
+a. Turn around immediately before loss of controllability.
+b. Descend immediately to stop the rain ice
+*c. Climb into the warm air found above.
+d. Fly faster.
+
+31. In central Europe, where are the greatest wind speeds?
+*a. Tropopause level
+b. 5500m
+c. Where the air converges
+d. Above the Alps
+Explanation: Jet streams,The direction of jet streams is generally westerly, maximum speeds occur near the tropopause, 200 kts have been recorded in Europe
+
+32. Up to FL180 ISA Deviation is ISA -10°C. What is the actual depth of the layer between FL60 and FL120?
+a. 6000ft
+b. 6240ft
+*c. 5760ft
+d. 5700ft
+
+33. Standing in the Northern Hemisphere, north of a polar frontal depression travelling west to east, the wind will
+a. Continually veer
+b. Continually back
+*c. Back then veer
+d. Veer then back
+
+34. Which of the following would lead to the formation of Advection fog
+*a. warm moist air over cold surface, clear night and light winds
+b. cold dry air over warm surface, clear night and light winds
+c. cold moist air over warm surface, cloud night with strong winds
+d. warm dry air over cold surface, cloudy night with moderate winds
+
+35. Flying over France at dawn, with 8/8 St at 200ft, QNH 1026, wind Var3, what will be the most likely conditions at mid- day in winter and summer:
+a. OVC 2000ft St OVC 200ft St
+*b. OVC 500ft AGL St SCT 3000ft St
+c. OVC 2000ft AGL St OVC 200ft St
+d. Clear skies CB’s
+
+36. When is diurnal variation a maximum?
+*a. Clear sky, still wind
+b. Clear sky, strong wind
+c. OVC, still
+d. OVC, windy
+
+37. What do the following one hour interval METARS indicate the passage of: 22010KT 9999 SCT200 14/08 Q1012= 22010KT 9999 OVC200 13/08 Q1011= 23012KT 9KM SCT 060 OVC120 13/08 Q1010= 24012KT 8KM -RA BKN040 OVC090 12/08 Q1009= 25015KT 2000 +RA SCT002 OVC008 12/08 Q1008= 27015KT 0800 DZ BKN002 OVC010 17/16 Q1008= 27015KT 0800 DZ BKN002 OVC010 17/16 Q1008= 27015G30KT 1000 +SHRA TS OVC010 17/16 Q1008= 29020KT 9000 SHRA SCTO30 13/07 Q1012=
+a. Cold occlusion
+*b. Polar front
+c. Ridge
+d. Warm front
+
+38. Which is likely to cause aquaplaning?
+*a. +RA
+b. SA
+c. FG
+d. DS
+Explanation: Aquaplaning, also known as hydroplaning, is a condition in which standing water, slush or snow, causes the moving wheel of an aircraft to lose contact with the load bearing surface on which it is rolling with the result that braking action on the wheel is not effective in reducing the ground speed of the aircraft. RA is heavy rain
+
+39. Hill fog will be most likely when:
+a. Clear sky, little wind, dry air
+*b. Humid, stable, blowing onto a range of hills
+c. Precipitation is lifted by air blowing over the hills
+d. High RH, unstable
+
+40. On the route London to Bombay, which feature would you most likely encounter between 30E and 50E
+a. Polar front jet in excess of 90kts
+*b. Sub tropical jet in excess of 90kts
+c. Variable winds less than 30kts
+d. Easterly winds
+
+41. When would the strongest convection occur?
+*a. Land in summer
+b. Land in winter
+c. Sea in summer
+d. Sea in winter
+
+42. What is a land breeze?
+*a. From land over water at night
+b. From land over sea by day
+c. From sea over land by night
+d. From sea over land by day
+Explanation: After sunset. The land will cool rapidly whilst the sea will retain its heat. There will be an increase in pressure at the surface over the land whilst the pressure over the sea will fall – there will be a land breeze. The speed will be about 5 kts and the breeze will extend about 5 nms out to sea.
+
+`);
+
+registerChapterText("atpl-met", "part-9", "Part 9 ", `
+1. When are thermal lows most likely
+*a. Land in summer
+b. Land in winter
+c. Sea in summer
+d. Sea in winter
+
+2. Dew point is defined as:
+a. The lowest temperature at which evaporation will occur for a given pressure
+b. The lowest temperature to which air must be cooled in order to reduce the relative humidity
+c. The temperature below which the change of state for a given volume of air will result in absorption of latent heat
+*d. The temperature to which moist air must be cooled to reach saturation
+
+3. FL180, Northern Hemisphere with a wind from the left, what can you say about temperature with a heading of 360°?
+a. Not possible to tell without a pressure
+b. Increases from South to North
+*c. Increases from North to South
+d. Nothing
+Explanation: With your back to the upper wind, the cold air is to your left in the northern hemisphere and to your right in the southern hemisphere. north is cold
+
+4. What do the letters NO SIG mean at the end of a METAR
+*a. No significant change
+b. No significant weather
+c. No significant cloud
+d. No signature on report
+
+5. What is a trend forecast
+a. An aerodrome forecast valid for 9 hours
+b. A routine report
+*c. A landing forecast appended to a METAR/SPECI valid for 2 hours.
+d. A route forecast, valid for 24 hours.
+
+6. In a class A aircraft if you encounter freezing rain, do you:
+a. Climb to the cooler air above
+*b. Climb to the warmer air above
+c. Accelerate
+d. Descend
+
+7. When heading South in the Southern Hemisphere you experience
+*a. You are flying towards a lower temperature
+b. You are flying away from a lower temperature
+c. You are flying towards a low pressure
+d. You are flying out of a high
+Explanation: With your back to the upper wind, the cold air is to your left in the northern hemisphere and to your right in the southern hemisphere.
+
+8. Where is windshear the greatest?
+*a. Near a strong low level inversion and in the region of a thunderstorm
+b. Near a valley with wind speeds greater than 35kts
+c. On the windward side of a mountain
+d. When the wind is greater than 35kts
+
+9. Where do you find squall lines
+a. Where there are thunderstorms
+*b. Ahead of a fast moving cold front
+c. Foggy areas
+d. Regions of snow
+Explanation: Squall lines with embedded bowing line segments are often located along or north of the warm front, southward across the warm sector, along or ahead of the cold front.
+
+10. A Fohn wind occurs
+a. On the windward side caused by surface heating
+*b. On the leeward side, because the condensation level is higher
+c. On the windward side, caused by surface cooling and wind flow reversal
+d. On the leeward side, caused by precipitation
+Explanation: The Fohn wind is a warm, dry wind that blows on the leeward (downwind) side of a mountain range, such as in the Alps. Because the air loses moisture on the windward ascent, the condensation level (cloud base) is higher on the descent, so dry adiabatic warming applies over more of the descent, leaving the leeward air warmer and drier than it started.
+
+11. What is the tropopause?
+a. The layer between the troposphere and stratosphere
+*b. The boundary between the troposphere and stratosphere
+c. where temperature increases with height
+d. Upper boundary to C.A.T.
+
+12. The Harmattan is
+a. A SE monsoon wind
+*b. NE wind over NW Africa between Nov - April reducing visibility with dust
+c. A local depression wind
+d. SE wind over NW Africa between Nov - April reducing visibility with dust
+Explanation: The Harmattan is a cool, dusty wind that may reduce visibility to below 1000m, especially in areas bordering desert regions such as Kano, Nigeria. The dust layer may extend to 7,000 or 10,000ft or more; visibility improves towards the coast. The Harmattan blows from November through April, though by then the winds will be light, especially in the south.
+
+13. What are Lenticularis clouds a possible indication of?
+*a. Mountain waves
+b. Instability
+c. Developing Cu and Cb
+d. Horizontal wind shear in the upper atmosphere
+Explanation: Altocumulus lenticularis, also known as lenticular cloud, is found downwind of mountainous or hilly areas, and is indicative of the presence of mountain wave activity. Because of its position downwind of high ground, moderate or even severe turbulence may be found beneath altocumulus lenticularis. However, the air in the lenticular clouds, themselves, is always smooth.
+
+14. At what height is half the mass of the atmosphere
+*a. 5km
+b. 11km
+c. 8km
+d. 3km
+Explanation: render function for question type not found
+
+15. What is true about moderate to severe airframe icing
+a. It will occur in clear sky conditions
+b. Always occurs in AS cloud
+c. May occur in the uppermost levels of CB capillatus formation
+*d. Most likely in NS
+Explanation: Rain ice occurs in a narrow range of altitudes at low level (about 1000ft) ahead of a warm front or occlusion, and is associated particularly with the moderate continuous rain that often falls from Nimbostratus (NS).
+
+16. With regard to the idealized globe below, where are traveling lows located
+a. V
+b. S + Y
+c. T + W
+d. U + W
+Explanation: Diagram-dependent question - the lettered zones refer to a chart in the original source that isn't available here. [UNRESOLVED - not enough info to confirm]
+
+17. At a certain position the temperature on the 300 hPa chart is -48°C. According to the chart the tropopause is at FL330. The most likely temperature at FL350 is:
+*a. -54°C
+b. -50°C
+c. -50°C
+d. 58°C
+Explanation: As per isa Temperature should be -56.5°C from 11 km (36,090ft) to 20 km (65,617 ft) but in this hypothetical situation as per the chart 300 hpa corresponds to fl300 and temperature is-48°c as per lapse rate -2° c per 1000 feet at fl330 temp should be -54°C -54°c
+
+18. What is the cause of the formation of the polar front jet
+*a. Pressure
+b. Azores High
+c. Temperature
+d. Tropopause height
+Explanation: The Polar Front jets in the northern hemisphere are of a transient na-ture and move with the Polar Front as it moves south in winter pressure gradient between the Tm warm and Pm cold air masses on either side of the polar front.
+
+19. General surface winds in West Africa with ITCZ to the north:
+*a. NE trade wind to the north, SW monsoon to the south
+b. East - West
+c. SE trade winds to the north, NE trade winds to the south
+d. West - East
+
+20. TAF 130600Z 130716 VRB02 CAVOK = Volmet 0920 28020G40KT BKN050CB OVC090 TEMPO TS =
+a. TAF is correct Volmet is wrong
+b. TAF & Volmet match
+c. Volmet speaker surely must have mixed up airports because there is no way that TAF & Volmet can differ by that much.
+*d. Conditions just turned out to be much more volatile than originally forecast.
+
+21. Cold occlusion is:
+a. Cold air undercutting warm air
+b. Warm air overriding cold air
+c. Air ahead of the warm front undercutting the air behind the cold front
+*d. Air behind the cold front undercutting the air in front of the warm front
+Explanation: The coldest air mass behind and the less cold air in front of the occlusion; the warm air mass is above ground level
+
+22. Warm occlusion is:
+a. Warm air undercutting cold air
+b. Warm air overriding cold air
+*c. Air ahead of the warm front over riding the air behind the cold front
+d. Air behind the cold front over riding the air in front of the warm front
+Explanation: If the air ahead of the warm front is colder than the air behind the cold front, a warm-type occlusion forms. This type is more common in winter.
+
+23. Where is the warmest air?
+a. A
+*b. B
+c. C
+d. D
+Explanation: This diagram shows a warm occlusion; tropical maritime air is warm and moist, hence position B is the warmest.
+
+24. The subtropical high pressure belt is at which latitude?
+*a. 25° -35°
+b. 10° -15°
+c. 55° -75°
+d. 40° -55°
+
+25. Which of these would cause your true altitude to decrease with a constant indicated altitude?
+*a. Cold/Low
+b. Hot/Low
+c. Cold/High
+d. Hot/High
+Explanation: Cold air molecules are more closely packed than warm air molecules; a column of cold air is denser than a column of warm air. Cold and low pressure both cause the true altitude to be lower than the indicated altitude.
+
+26. Flying from Bangkok to Bombay, why does the wind at 30,000ft change from 15kts headwind in winter to a 20kt tailwind in summer?
+a. Freak weather conditions experienced on route
+b. The Equatorial Easterly jet changes direction through 180 degrees
+c. This is due to local changes in the upper winds due to the movement of the ITCZ
+*d. The Subtropical jet changes direction through 180 degrees
+Explanation: render function for question type not found
+
+27. Where is the ITCZ during the year?
+a. Doesn’t move
+b. Always north of the equator
+c. Always south of the equator
+*d. Moves in accordance with the heat equator
+Explanation: The Intertropical Convergence Zone is the broad zone of separation between the air masses either side of the heat equator, conveyed by the trade winds. It is subject to large seasonal movement over land (much less over the sea), following the sun's seasonal position, and is responsible for the wet and dry seasons in the tropics.
+
+28. Flying from Marseilles to Dakar in summer where is the ITCZ?
+a. Canaries
+b. Algeria
+c. Gibraltar
+*d. Near Dakar
+Explanation: Dakar and the ITCZ are in roughly the same place in the Northern Hemisphere summer, when the ITCZ sits over North Africa.
+
+29. Where is the ozone layer?
+a. ionosphere
+*b. Stratosphere
+c. Tropopause
+d. Troposphere
+
+30. Which of the following diagrams depicts Cumulus Capillatus:
+a. A
+b. B
+c. D
+d. C
+Explanation: Diagram-dependent question - the lettered diagram options refer to a chart in the original source that isn't available here. [UNRESOLVED - not enough info to confirm]
+
+31. Squall lines are encountered:
+a. In an air mass with cold air properties
+*b. Ahead of a cold front
+c. Behind a stationary front
+d. At an occluded front
+Explanation: Squall lines are observed frequently in the warm sector of a mid-latitude cyclone, usually about 100-300km in advance of the cold front. Divergence ahead of an upper-level trough induces low-level convergence.
+
+32. When do you get TRS at Darwin?
+a. July - October
+b. Never
+*c. November - April
+d. In the winter
+Explanation: The wet season (November – April) The wet season in Darwin is characterised by high humidity, monsoonal rains and storms. Average temperatures range from 24.7 – 32 °C (76.5 – 89.6°F), and humidity can push past 80 per cent. The average annual rainfall is 1727.3 mm (68 inches) and January is the wettest month. Despite this, January and February is considered by many as the most beautiful time of year in the Top End. Sunny days and afternoon storms refresh the landscape, and animals and plants flourish.
+
+33. What causes ‘echoes’ on airborne weather radar screens?
+a. Water vapour
+b. All cloud
+c. Fog
+*d. Hail
+Explanation: The optimum radar frequency is one that has a wavelength comparable to the size of the objects which we wish to detect, namely the large water droplets and wet hail which in turn are associated with severe turbulence; these droplets are about 3 cm systems is 9375 MHz, /-30 MHz
+
+34. In a Tropical Downpour the visibility is sometimes reduced to:
+a. 1000m
+b. 500m
+c. 200m
+*d. less than 100m
+
+35. QNH is defined as:
+a. The pressure at MSL obtained using the standard atmosphere
+b. The pressure at MSL obtained using the actual conditions
+c. QFE reduced to MSL using the actual conditions
+*d. QFE reduced to MSL using the standard atmosphere
+
+36. The fastest moving thunderstorms are:
+a. Orographic
+b. Thermal
+*c. Frontal
+d. Lifting
+Explanation: Thunderstorms usually move in the direction of the 10,000ft (700mb) wind, though large or newly developed storms may differ. Frontal thunderstorms often appear along a squall line, usually an indication of severe weather, with cells in varying stages of development.
+
+37. Airfield is 69 metres below sea level, QFF is 1030 hPa, temperature is ISA -10°C. What is the QNH?
+a. Impossible to tell
+b. Less than 1030Hpa
+c. 1030Hpa
+*d. More than 1030Hpa
+
+38. What is the movement of air relating to a trough?
+a. Descending and diverging
+b. Ascending and diverging
+c. Descending and converging
+*d. Converging and ascending
+Explanation: A trough is a low pressure feature; in a low pressure area winds converge and there is vertical (ascending) movement of air, and with abundant moisture this is the recipe for cloud and unsettled weather.
+
+39. What diagram best shows Acc?
+a. A
+b. B
+c. D
+d. C
+Explanation: Diagram-dependent question - the lettered diagram options refer to a chart in the original source that isn't available here. [UNRESOLVED - not enough info to confirm]
+
+40. What symbol is used to describe a TRS?
+a. 
+b. C
+c. D
+d. A
+Explanation: Symbol-dependent question - the correct answer is a weather symbol from the original source that isn't available here as text. [UNRESOLVED - not enough info to confirm]
+
+41. Which of the following would give you the worst airframe icing?
+a. GR
+b. SN
+c. FZFG
+*d. +FZRA
+Explanation: Freezing rain is the most dangerous form of icing; it occurs when rain becomes supercooled by falling through a temperature inversion into air below 0°C, producing large, rain-sized supercooled droplets.
+
+`);
+registerChapterText("atpl-met", "part-10", "Part 10", `
+1. What causes wind?
+*a. Difference in pressure
+b. Rotation of the earth
+c. Frontal systems
+d. Difference in temperature
+Explanation: The uneven heating of the earth’s surface is the main cause of the winds. On being heated more the air raises up and hence low pressure is created. Hence the air in high pressure occupies the low- pressure region causing the wind.
+
+2. Where are icing conditions on a runway specified?
+a. TAF
+*b. METAR
+c. SIGMET
+d. GAFFO
+Explanation: an additional 8 figure runway state code will be specified on the metar if there is any contamination
+
+3. Where are icing conditions on route specified?
+a. TAF and METAR
+b. METAR and SIGMET
+*c. SWC (sig. weather chart) and SIGMET
+d. SPECI and TREND Significant Weather (SIGWX) charts provide invaluable meteorological information to aircraft operators and flight crew. Particularly for longer flights, or when weather issues may be a factor, SIGWX charts can be a vital flight planning tool. the only cloud shown in waf sigwx chart is CB moderate and severe icing is associated to a cb
+
+4. If flying in the Alps with a Foehn effect from the south
+*a. Clouds will be covering the southern passes of the Alps
+b. CAT on the northern side
+c. Wind veering and gusting on the northern side
+d. Convective weather on the southern passes of the Alps
+Explanation: The Föhn Wind is a warm dry wind which blows on the downwind side of a mountain range. It is a local wind in the Alps. become saturated and will cool adiabatically as it rises. After reaching the condensation level, cloud will form and the air will cool at the SALR
+
+5. If flying en route and you encounter moderate turbulence with convective clouds and you decide to continue, you should
+a. Decrease power and climb above the clouds if flight parameters allow
+b. Decrease power and fly below the clouds
+*c. Increase power and climb above the clouds if flight parameters allow
+d. Increase power and fly below the clouds Decreasing the speed will give more allowance for the thrust and
+Explanation: we can climb faster
+
+6. You are flying from Madrid (QNH 1012) to Paris (QNH 1015) at FL 80. If your true altitude and indicated altitude remain the same then
+*a. The air at Madrid is warmer than Paris
+b. The air at Paris is warmer than Madrid
+c. The altimeters are incorrect
+d. Your indicated altitude must be changing The true altitude of this surface will depend on the density of the air below flying from Madrid where the qnh is lower to,Paris where the qnh is higher you would normally expect your true altitude to increase since true altitude remains constant it must be colder in Paris
+
+7. If you are flying on a QNH 1009 on very cold day and you circle the top of a peak in the Alps, your altimeter will read
+a. The same as the elevation of the peak
+b. Lower than the elevation of the peak
+*c. Higher than the elevation of the peak
+d. Not enough information to tell
+Explanation: Disregard the qnh Let’s say if we are flying visually on a cold day or a warm day if you fly over a mountain keeping clear of terrain visually, you will be at the same altitude, on a cold day if you fly over a mountain keeping clear of terrain visually, setting qnh 1009 on the altimeter, indicated altitude will be more than the true altitude on a warm day if you fly at the same altitude visually,setting qnh 1009 on the altimeter, indicated altitude will be less than the true altitude Because molecules in cold air are closely packed molecules in warm air are loosely packed a column of cold air on the left, and a column of warm air on the right. Notice that, since cold air causes pressure to fall more rapidly with height, the pressure levels in the cold air column are column, they expand away from the surface.
+
+8. If an Isohypse on a surface pressure chart of 500hPa shows a figure of 522, this indicates
+a. Topography of 522m above MSL
+*b. Topography of 522 decametres above MSL
+c. Pressure is 522mb
+d. A low surface pressure
+Explanation: lines of equal thickness are plotted on chart also called the isohypse thickness level are measured in decameter or dam 520 dam is 5200 metres
+
+9. Moderate turbulence can be expected in
+*a. Alto-cumulus Lenticularis
+b. Cirrocumulus
+c. Nimbostratus
+d. Stratus
+
+10. RVR is
+a. Measured using ceilometers along the runway
+*b. Displayed in TAF=s and METAR=s
+c. Usually greater than met visibility
+d. Given when the met visibility is below 2000m
+Explanation: The maximum distance in the direction of takeoff or landing at which the runway, or specified lights delineating the runway, can be seen from a position on the centreline corresponding to the average eye level of a pilot at touchdown. – RVR is not normally reported if it is 1500m or more. – Between 800 and 200m it is reported in steps of 50m. – Between 0 and 200m it is reported in steps of 25m. – e.g. R36L/P1500: Runway 36 Left touch-down RVR is more than 1500m. The lowest visibility observed will be reported if the visibility in any direction is a) Less than 1500 metres or b) Less than 50% of the prevailing visibility. RVR is not normally reported if it is 1500m or more visibility value. These findings are consistent with the fact that the assessment of RVR takes advantage of high intensity runway lights while the visibility assessment is based upon lights of moderate intensity.
+
+11. Comparing the surface wind to the 3000ft wind
+a. Surface wind veers and is less then the 3000ft wind
+b. Surface wind blows along the isobars and is less than the 3000ft wind
+*c. Surface wind blows across the isobars and is less than the 3000ft wind
+d. Both are the same The Geostrophic Wind only blows above the friction layer. Within
+Explanation: the friction layer the wind speed is reduced because of surface friction. Therefore the Coriolis Force will reduce, causing the two forces to be out of balance. Remember that the friction layer varies depending upon the nature of the surface and the time of the day. There-fore, the height of the Geostrophic Wind will vary. Generally though it is considered to be between 2,000 – 3,000ft. reduction in the Coriolis Force, the PGF is now more dominating. This causes the wind to blow across the isobars towards the low.
+
+12. Up and down going draughts in a thunderstorm occur in which stage?
+a. Cumulus stage
+*b. Mature stage
+c. Dissipating stage
+d. Precipitation stage
+
+13. Relative humidity increases in
+a. Warmer air compared to colder air
+b. Warm air at a constant vapour pressure
+c. Cold air at a constant vapour pressure
+*d. Colder air compared to warmer air
+Explanation: As the air descends it will be heated adiabatically and will be warmer than the air at a lower level adjacent to the surface. as the temperature increases, the relative humidity will decrease vice averse temp decreases rh increases
+
+14. If an active cold front is approaching what will the altimeter read on a parked aircraft shortly before the front arrives?
+a. Decrease
+*b. Increase
+c. fluctuates -50ft to +50ft
+d. stays the same
+Explanation: As the cold air advances, it forces the warm air upwards causing the warm air to cool. The water vapour in the warm air mass, consequently, condenses, and clouds are created. The slope of the cold front boundary is steeper than that of the warm front, with a gradient of approximately one in fifty. The unstable air just ahead of the cold front is, forced to rise vigorously. Causing pressure to reduce and altimeter reading increased render function for question type not found
+
+15. Low level wind shear is likely to be greatest
+a. At the condensation level when there is a strong surface friction
+b. At the condensation level when there is no night radiation
+c. At the top of the friction layer during strong solar radiation
+*d. At the top of a surface based inversion during strong night radiation
+
+16. What is a microburst?
+*a. Air descending at high speed, the air is colder than the surrounding air
+b. Air is descending at high speed; the air is warmer than the surrounding air
+c. A small Tropical Revolving Storm
+d. A small depression with high wind speeds
+Explanation: the mass of air descending from the cloud is significant enough, a phenomenon known as a microburst
+
+17. The high bringing tropical continental air masses to Europe in summer
+a. Southern Italy
+b. Southern France
+*c. Balkans
+d. Azores
+Explanation: Tropical Continental Source: N Africa, SE Europe and the Balkans. Mainly summer, warm, dry, stable.
+
+18. On a polar front depression, the point of occlusion moves mainly in which direction in the Northern Hemisphere?
+a. Along the front to the west
+b. Across the front to the north
+c. Across the front to the south
+*d. Along the front to the east
+Explanation: These depressions are called the Polar Front Depressions or Warm Sector Depressions and they move west to east along the polar front with the general westerly upper winds, reaching NW Europe from the Atlantic Ocean
+
+19. The ITCZ is best described as
+*a. where the trade winds of the north and southern hemisphere meet
+b. where the west winds meet the sub-tropical high pressure belt
+c. where cold fronts are formed in the tropics
+d. where the Harmattan meets the NE trades in Africa
+
+20. When would you most likely find cold occlusions across central Europe?
+a. Winter and spring
+*b. Summer
+c. Winter and autumn
+d. Winter
+Explanation: the air behind the cold front is colder than the air ahead of the warm front, then a cold type occlusion will be formed. This type of occlusion is more common in summer.
+
+21. How do you calculate the lowest flight level?
+*a. Lowest QNH and lowest negative temperature below ISA
+b. Lowest QNH and highest negative temperature below ISA
+c. Highest QNH and highest temperature above ISA
+d. Highest QNH and lowest temperature
+
+22. TRS off Somalia are called
+a. Hurricanes
+b. Typhoons
+*c. Cyclones
+d. Tornadoes
+Explanation: TRS are given different names in different parts of the world. Either side of North America these storms are called Hurricanes. In the Indian Ocean and around Australia they are called Cyclones and around the far east, they called Typhoons. Typhoons are the most violent and have the longest season of any TRS. Indian Ocean touches Somalia
+
+23. Where do you get freezing rain?
+a. Rain hitting the ground and freezing on impact
+b. Rain falling into warmer air
+*c. Rain falling from an inversion into an area below 0°C
+d. Rain falling into colder air and freezing into pellets
+Explanation: Freezing rain occurs when the layer of freezing air is so thin that the raindrops do not have enough time to freeze before reaching the ground. Instead, the water freezes on contact with the surface, creating a coating of ice on whatever the raindrops contact.
+
+24. CB cloud in summer contains
+a. Water droplets
+b. Ice crystals
+*c. Water droplets, ice crystals and super cooled water droplets
+d. Water droplets and ice crystals
+
+25. Solar radiation heats the atmosphere by
+a. Heating the air directly
+*b. Heating the surface, this then heats the air in the atmosphere
+c. Heating the water vapour in the atmosphere directly
+d. Heating the water vapour directly unless there are clouds present
+
+26. How are CBs that are not close to other CBs described on a SIGMET?
+*a. Isolated
+b. Embedded
+c. Frequent
+d. Occasional
+Explanation: EMBD for close cb ISOL for isolated cb
+
+27. What affects how much water vapour the air can hold?
+a. RH
+*b. Temperature
+c. Dew point
+d. Pressure
+Explanation: This amount of space in the air that can hold water changes depending on the temperature and pressure. The maximum amount of water vapour that can be in the air depends on the air temperature
+
+28. Aerodrome at MSL, QNH is 1022. QFF is
+a. Greater than 1022
+b. Less than 1022
+*c. Same as QNH
+d. Cannot tell without temperature information
+
+29. What units are used to measure vertical wind shear?
+a. m/sec
+b. kts
+*c. kts/100ft
+d. kms/100ft
+
+30. If you fly from Bombay to Karachi in summer you might experience a 70kt tailwind and the same flight in winter experiences a headwind. This is due to
+*a. The normal local changes in the winds at that time of the year
+b. The route happens to be in a region of the STJ=s
+c. In winter you unusually unfavourable conditions
+d. In summer you had unusually good weather conditions
+Explanation: in winters aircraft flying to the west from bombay will experience western disturbance, headwind in summer you will experience tropical easterly jet stream
+
+31. Why is the “Icelandic low” more intense in winter?
+*a. The temperature contrast between arctic/polar air and equatorial areas are much greater in winter.
+b. The developments of lows over the North Atlantic Sea, east of Canada are stronger in winter
+c. The winds over the North Atlantic are more favourable for lows during winter.
+d. In winter, strong winds favour the development of lows
+
+32. What causes the formation of aircraft contrails at certain altitudes?
+*a. Water vapour that condenses behind the engines
+b. Soot particles from the engine exhaust
+c. Water vapour that condenses in the wing tips due to pressure changes in the relative warm air
+d. Un burnt fuel
+
+33. QNH is 1003. At FL100 true altitude is 10,000ft. Is it
+*a. Warmer than ISA
+b. Colder than ISA
+c. Same as ISA
+d. Cannot tell
+Explanation: o know the temperature of the air you need to know two things, the indicated altitude on QNH and the true altitude. You know this because if it’s warmer than ISA then TRUE > INDICATED and if it’s colder than ISA then TRUE < INDICATED. In the question then, whilst you have the true altitude they have not given you the indicated on QNH. They have given you a flight level the flight level 1013 and onto 1003. You now see that the INDICATED on QNH is 9730 FT. Notice that this is less than the TRUE altitude of 10,000ft. Therefore the TRUE altitude is more than the INDICATED altitude. Looking back to the second paragraph this can only happen if the air is warmer!
+
+34. Which cloud would produce showers?
+a. NS
+b. AS
+c. CS
+*d. CB
+Explanation: Cumulonimbus clouds are clouds that the aviator should avoid. Cumulonimbus clouds consist of vigorous convective cloud cells of great vertical extent. In the later stages of their development, cumulonimbus clouds display a characteristic anvil top, as the upper part of the cloud hits the Tropopause. The upper parts of a cumulonimbus cloud often consist of super-cooled water droplets and ice crystals. Within cumulonimbus, very strong upcurrents and downdraughts are continually at play, producing severe precipitation in the form of heavy showers of rain and hail. render function for question type not found
+
+35. QFE is 1000hPa with an airfield elevation of 200m AMSL. What is QNH?
+a. 976 hPa
+*b. 1024 hPa
+c. 1008 hPa
+d. 992 hPa
+Explanation: 1 metre above msl pressure reduces by 8 hpa 200 metre above msl pressure increases by 25 hpa Current pressure 1000 plus 25 gives qnh
+
+36. A moist stable air mass is forced to rise against a mountain range. What might you expect?
+a. Large Cu clouds and turbulence
+b. Altocumulus Lenticularis
+*c. Cap clouds and standing waves
+d. Clear skies
+
+37. Melbourne in July will experience:
+a. The equatorial low pressure belt
+b. Sub-tropical high
+*c. Continuous waves of troughs and ridges
+d. The Antarctic high
+
+38. METAR winds are meaned over the………….. period immediately preceding the time of observation.
+*a. 10 minute
+b. 30 minute
+c. 1 hour
+d. 1 minute
+
+39. RVR is defined as being
+a. The maximum distance an observer on the runway can see marker boards by day and runway lights by night
+*b. The maximum distance a pilot in the threshold area at 15ft above the runway can see marker boards by day or runway lights by night, when looking in the direction of takeoff or landing.
+c. The maximum distance in metres a pilot 15ft above the touchdown zone can see marker boards by day and runway lights by night in the direction of take-of
+d. The distance it would be possible to see an observer 15ft above the runway when standing in the direction of take-off or landing.
+Explanation: RVR is the maximum distance that a pilot 15 ft above the runway in the touchdown area can see marker boards by day or runway lights by night when looking in the direction of take-off or landing RVR is reported when normal visibility is 1500 m or less, or when shallow fog is reported or forecast
+
+40. Hurricanes in the Caribbean generally move
+*a. West, then NE
+b. East, then SE
+c. West, then SE
+d. East, the NE
+Explanation: HURRICANE IS THE NAME GIVEN TO TRS IN THE CARIBBEAN /GULF OF MEXICO AREA. FREQUENCY OF HURRICANES IS 3 PER YEAR FROM AUGUST TO OCTOBER THEY TRAVEL WESTWARDS 10-15 DEG NORTH LAT THEN THEY CROSS BAY OF MEXICO OR TURN RIGHT ALONG SUB TROPICAL HIGHG TO TRACK NW,N,NORTH EAST UP THE USA COAST
+
+`);
+registerChapterText("atpl-met", "part-11", "Part 11", `
+1. What are the TRS off the coast of Madagascar called and when would you expect to find them?
+*a. Cyclones, in December and January
+b. Hurricanes, in July and August
+c. Typhoons, in May to November
+d. Cyclones, in June and July
+Explanation: TRS are given different names in different parts of the world. Either side of North America these storms are called Hurricanes. In the Indian Ocean and around Australia they are called Cyclones and around the far east, they called Typhoons. Typhoons are the most violent and have the longest season of any TRS. December and January Has high humidity and trade winds hence trs forms during this time
+
+2. If an Aerodrome is 1500ft AMSL on QNH 1038, what will the actual height AGL to get to FL75?
+*a. 6670 ft
+b. 8170 ft
+c. 8330 ft
+d. 2330 ft
+Explanation: Under normal conditions, pressure varies by 1 hPa per 27 feet. 1038 hPa is (1038-1013.25) = 24.75 hPa higher than standard 24.75 x 27 = 668.25 ft So FL75 will be at 7500 plus 668.25 = 8168.25 ft msl So, 8168.25 – 1500 = 6668.25 ft agl, rounded up to 6670 ft agl
+
+3. Why do TRS tend to form in the western side of tropical oceans?
+a. Because the land temperature and sea temperature provide unstable gradient for formation
+b. Because the coastal gulf provides a strong rotational force
+c. Because the areas tend to have high >shear= in the atmosphere
+*d. Because the air humidity is high, due to long passage of trade winds over ocean
+
+4. Altimeter set to 1023 at aerodrome. On climb to altitude the SPS is set at transition altitude. What will indication on altimeter do on resetting to QNH?
+a. Dependent on temperature
+b. Decrease
+*c. Increase
+d. Same
+Explanation: Forget about the part in which aircraft is at aerodrome with 1023 setting at pressure altitude altitude Measured from 1013 (SPS)setting will be less than altitude measured at 1023 setting
+
+5. The ITCZ is best described as:
+*a. The area where trade winds from the Northern Hemisphere meets those from the Southern Hemisphere
+b. Where west winds meet subtropical high pressure zone
+c. Where Harmattan meets the N.E. Trade winds
+d. Where cold fronts form in the tropics
+Explanation: between the air masses either side of the heat equator. The air is conveyed by the Trade Winds north east and south east. Subject to large seasonal movement overland, but much less over the sea.
+
+6. What is reported as precipitation?
+a. FZFG
+b. FG
+c. TS
+*d. SN
+
+7. At FL60 what pressure chart would you use?
+a. 700 hPa
+*b. 850 hPa
+c. 800 hPa
+d. 900 hPa
+Explanation: 850 hpa is 5000 feet 800 HPA WOULD BE 6000 feet
+
+8. On a descent through cloud cover at high level you notice a white, cloudy or opaque, rough powder like substance on the leading edge of the wing. This contamination is likely to be:
+a. Frost
+b. Clear ice
+c. Mixed ice
+*d. Rime ice
+Explanation: rime ice is formed WHEN SMALL supercooled drops spread over wings happen under 0° Celsius flying through clouds
+
+9. Moderate Turbulence
+*a. Changes in altitude and/or attitude occur but the aircraft remains in positive control at all times
+b. Slight erratic changes in altitude and/or attitude
+c. Large, abrupt changes in altitude and/or attitude. Aircraft maybe momentarily out of control
+d. Slight, rapid and somewhat rhythmic bumpiness
+
+10. ATIS reports:
+*a. Aerodrome operational and meteorological information
+b. Met only
+c. Operational only
+d. None of the above
+Explanation: The automatic provision of current, routine information to arriving and departing aircraft throughout 24 hrs or a specified portion thereof Voice-ATIS broadcasts normally contain the following information in the order listed: name of aerodrome; arrival and/or departure indicator; contract type, if communication is via D-ATIS; designator; type of approach(es) to be expected; the runway(s) in use; status of arresting system constituting a potential hazard, if any; significant runway surface conditions and, if appropriate, braking action; holding delay, if appropriate; transition level, if applicable; other essential operational information; surface wind direction (in degrees magnetic) and speed, including significant variations and, if surface wind sensors related specifically to the sections of runway(s) in use are available and the information is required by operators, the indication of the runway and the section of the runway to which the information refers; visibility and, when applicable, RVR; present weather; cloud below 1 500 m (5 000 ft) or below the highest minimum sector altitude, whichever is greater; cumulonimbus; if the sky is obscured, vertical visibility when available; air temperature; dew point temperature; altimeter setting(s); any available information on significant meteorological phenomena in the approach and climb-out areas including wind shear, and information on recent weather of operational significance; trend forecast, when available; and specific ATIS instructions.
+
+11. Shortly after the passage of an active cold front you observe the aneroid altimeter of a parked aircraft. The indication of the instrument will
+*a. Decrease
+b. Not be influenced by the air pressure
+c. Increase
+d. Show no appreciable change due to such minor pressure fluctuation
+
+12. In a shallow pressure distribution (widely spaced Isobars or low pressure gradients) you observe the aneroid altimeter of a parked aircraft for 10 minutes (no thunderstorms observed). The reading of the instrument will…
+a. Not be influenced by the air pressure
+b. Increase greatly
+*c. Show no appreciable change due to such a minor pressure fluctuation
+d. Experience great changes
+Explanation: THERE IS NO REASON FOR THE READING TO CHANGE IF THERE WAS NO PRESSURE CHANGE
+
+13. You are flying from Marseilles (QNH 1012 hPa. to Palma de Mallorca (QNH 1012 hPa. at FL100. You notice that the effective height above MSL (Radio Altitude) increases constantly. Hence…
+a. One of the QNH values must be wrong.
+b. You have the altimeters checked, as their indications are obviously wrong.
+*c. The air mass above Palma is warmer than that above Marseilles
+d. You have to adjust for a crosswind from the right. Since both the places have same pressure it is obvious that we are
+Explanation: flying to a warmer place
+
+14. You are flying from Marseilles (QNH 1026 hPa. to Palma de Mallorca (QNH 1026 hPa. at FL100. You notice that the effective height above MSL (Radio Altitude) decreases constantly. Hence…
+a. One of the QNH values must be wrong.
+*b. The air mass above Marseilles is warmer than that above Palma
+c. You have the altimeters checked, as their indications are obviously wrong.
+d. You have to adjust for a crosswind from the right. If temperature is warmer than ISA
+Explanation: then TRUE > INDICATED and if it’s colder than ISA
+
+15. What happens to an aircraft altimeter on the ground once a cold front has passed?
+a. increases
+*b. decreases
+c. increases then decreases
+d. remains the same
+
+16. Even pressure system, no CB – what would you notice the altimeter in an aircraft on the ground to do during a 10 min period
+*a. remains the same as any fluctuations are small
+b. increases
+c. rapidly fluctuates
+d. impossible to tell
+Explanation: THERE IS NO REASON FOR THE READING TO CHANGE IF THERE WAS NO PRESSURE CHANGE
+
+17. What weather phenomenon is over Northern Italy?
+a. a high
+b. easterly wind
+*c. cloud and rain
+d. a col
+Explanation: Ebbr falls ahead of a warm front this will be the weather ahead of a warm front Ahead of a warm front Surface W/V – Speed increasing, slight backing, usually southerly. Temperature – Steady low. Dew Point – Steady low. Cloud – Increasing to 8/8, base lowering. Initially cloud changes from Ci to Cs to As, then very close to the front Ns. Precipitation – Light continuous from As becoming moderate continuous from Ns. Visibility – Reducing to poor.
+
+18. If you see Alto Castellanus what does it indicate?
+a. The upper atmosphere is stable
+b. Subsistence
+c. Instability in the lower atmosphere
+*d. Middle level instability
+Explanation: Altocumulus castellanus is a “bubbly” form of normal altocumulus. The “towers” that form in altocumulus castellanus are like battlements on castles, hence the name. These clouds are significant because they often herald a change to showery, temperate latitudes. Cumulonimbus clouds sometimes develop from altocumulus castellanus, when instability is present at medium levels of the Troposphere.
+
+19. When would a SIGMET be issued for subsonic flights
+a. Thunderstorms and fog
+*b. Severe Mountain Waves
+c. Solar Flare activity
+d. Moderate turbulence
+
+20. Which of these statements about icing is correct?
+a. Ice will occur going through cirrus cloud
+b. Large amounts of icing if temperature is way below -12°C
+c. Icing increases if dry snow starts to fall from cloud
+*d. Icing will occur if super-cooled water and ice are present
+Explanation: Glaze ice or clear ice is formed when LARGE supercooled drops spread over wings wings both happen under 0° Celsius flying through clouds
+
+21. The core of a jet stream is located
+*a. at the level where temperature change with altitude becomes little or nil and the pressure surface is at maximum slope
+b. in the warm air where the pressure surface is horizontal
+c. in the warm air and directly beneath at the surface
+d. in cold air across the jet core, there is very little horizontal temp difference. There is, however, a big horizontal pressure difference.
+
+22. Trade winds are most prominent or strongest
+a. Upper troposphere over sea
+*b. Lower troposphere over ocean
+c. Lower troposphere over land
+d. Upper troposphere over land
+Explanation: The trade winds are air currents closer to Earth’s surface that blow from east to west near the equator over the ocean
+
+23. A layer of air can be
+a. Conditional; unstable when unsaturated and stable when saturated
+*b. Conditional; unstable when saturated and stable when unsaturated
+c. Neutrally stable when saturated and unstable when unsaturated
+d. all of the above if dry air is disturbed it will return to is original position, in other
+Explanation: words the air is stable, however, when saturated air is disturbed it
+
+24. The Gust Front is
+a. Characterised by frequent lightning
+*b. Formed by the cold outflow from beneath TS
+c. another name for a cold front
+d. Directly below a TS
+
+25. What is the ratio of height to width in a typical Jet stream:
+a. 1:10
+*b. 1:100
+c. 1:1000
+d. 1:10000
+Explanation: The length, width and height of a typical mid-latitude jet stream is 1000 nautical miles, 150 nautical miles and 18000 feet respectively. Depth width ratio of about 1:100
+
+26. When and where does an Easterly Jet stream occur:
+a. All year through the Equator
+*b. In Summer from SE Asia through S. India to Central Africa
+c. In Summer from the Middle East through N. Africa and the Mediterranean to S. Spain
+d. In Winter in Arctic Russia TEJ tropical easterly jet stream
+Explanation: The easterly jet is a jet stream that occurs only in the summer of the northern hemisphere at approx. 45000 ft, from south east Asia extending over southern India to central Africa. only one which travels to west
+
+27. What degree of turbulence, if any, is likely to be encountered while flying through a cold front in the summer over central Europe at FL100?
+a. light turbulence in ST cloud
+b. moderate turbulence in NS cloud
+c. light turbulence in Cb cloud
+*d. severe turbulence in Cb cloud
+Explanation: cb will be found at 10000 feet which will have severe turbulence
+
+28. An easterly wave is a:
+a. wave in a trade wind belt, moving from east to west with severe convective activity in rear of its trough
+*b. small scale wave disturbance in the tropics, moving from east to west with severe convective activity ahead of its trough
+c. wave-like disturbance in the monsoon regime of indices moving from east to west with severe convective activity ahead of its trough
+d. disturbance in the higher levels associated with the equatorial easterly jets, moving from east to west, with severe convective activity in rear of its trough
+
+29. What is the most common freezing precipitation?
+a. Freezing pellets
+*b. Freezing rain and freezing drizzle
+c. Freezing graupel
+d. Freezing hail and freezing snow
+
+30. From which of the following clouds are you least likely to get precipitation in summer?
+a. CS/NS
+*b. CS/AS
+c. CB/CU
+d. CU/ST
+Explanation: Cs are high level clouds and AS are medium level and are very less likely to produce rain, indicates approaching weather system
+
+31. What is a cold pool?
+a. Found south of the Alps if there is NW airflow
+b. Cool area of weather which disappears at night
+*c. Cold pool is most evident behind polar frontal weather in mid temperate areas with little or no sign on significant weather charts
+d. Air trapped on the leeward side of mountain ranges
+Explanation: These are outbreaks of cold air from near the poles. These outbreaks are usually characterized by a cold front at their leading edge. In fact they are common just behind the polar front depressions Although surface temperature anomalies such as cold pools are not evident on surface pressure charts, they can be found most notably You may remember that cold air causes pressure to fall more rapidly with height, reducing the pressure in the upper atmosphere. Therefore by analyzing a pressure chart in the middle to upper atmosphere you can identify cold air pools by the low pressure they create
+
+32. Where do you find information on ICING and CAT?
+a. 300mb chart
+b. 700mb char
+*c. Sig. WX chart
+d. Analysis chart
+Explanation: ignificant Weather (SIGWX) charts provide invaluable meteorological information to aircraft operators and flight crew. Particularly for longer flights, or when weather issues may be a factor, SIGWX charts can be a vital flight planning tool. the only cloud shown in waf sigwx chart is CB moderate and severe icing is associated to a cb, INFO ON CLEAR AIR TURBULENCE IS ALSO PROVIDED render function for question type not found
+
+33. Relative humidity:
+a. Is not affected by temperature
+b. Is not affected by air expanding and contracting
+c. Does not change when water is added
+*d. changes when water is added, even if the temperature is the same
+Explanation: Relative Humidity is a term used to describe the quantity of water vapour that exists in a gaseous mixture of air and water. water vapour increases rh changes
+
+34. A warm front occlusion is approaching the east coast of the UK. What WX would you expect in the North Sea during summer?
+a. High level Ci
+b. TS/showers/CB
+*c. Medium level cloud 3/8 oktas, isolated showers
+d. Low level stratus
+
+35. What is the average height of the Tropopause at the equator?
+*a. 16km
+b. 11km
+c. 5km
+d. 3km
+Explanation: The warmer the air, the higher the tropopause. The colder the air, the lower the tropopause. Generally over the poles, the tropopause can be between 8 -10 km and over the equator 16 – 18 km.
+
+36. Up to FL180 ISA Deviation is ISA +10°C. What is the actual depth of the layer between FL60 and FL120?
+a. 6000ft
+*b. 6240ft
+c. 5760ft
+d. 5700ft
+Explanation: FL120 minus FL060 is 6000 feet in ISA. The question relies upon you knowing the altimeter correction for temperature deviations from ISA. The accepted appoximation is 4% height difference for every 10°C below standard temperature as measured at the altimeter setting source. This is safe for all altimeter setting source altitudes for temperatures above -15°C. 6000 feet x0.04 x 10/10 = 240 feet.The 0.04 is the 4%, the 10 is the ABOVE ISA deviation. The altimeter will still register the difference as 6000 feet but in reality we have an approximate depth of 6240 feet Warmer than ISA — altimeter under-reads. Colder than ISA — altimeter over-reads. render function for question type not found
+
+37. What happens to the temperature of a saturated air mass when descending
+a. heats up more than dry because of expansion
+*b. heats up less than dry because of evaporation
+c. heats up more than dry because of compression
+d. heats up less than dry because of latent heat released during condensation
+Explanation: Saturated air that is either forced to rise or descend within the atmosphere will change its temperature, on average by 0.6°C per 100 m (1.8°C/1000 ft). saturated, depends on temperature, and pressure of the air parcel. dalr temp will increase 1°C per 100 m, it will heat up more than salr
+
+38. What prevents air from flowing directly from a high to a low pressure
+a. Centripetal force
+b. Centrifugal force
+c. Pressure force
+*d. Coriolis force
+Explanation: Coriolis Force, (CF), is the force caused by the rotation of the earth. It acts 90° to the wind direction causing air to turn to the right in the northern hemi-sphere and to the left in the Southern hemisphere. CF is maximum at the poles and minimum at the equator. render function for question type not found
+
+39. What is the relationship between the 5000 ft wind and the surface wind in the southern hemisphere
+a. surface winds are veered from the 5000ft and have the same speed
+b. surface winds are backed from the 5000ft and have a slower speed
+*c. surface winds are veered from the 5000ft and have a slower speed
+d. surface winds are backed from the 5000ft and have a faster speed
+Explanation: Due to friction the surface wind is slower than the geostrophic (freestream) wind. In NH the surface wind Backs. In SH the surface wind Veers
+
+40. What is the relationship between the 2000 ft wind and the surface wind in the Northern Hemisphere
+a. surface winds blow across isobars towards a high
+b. surface winds blow parallel to isobars
+*c. surface winds blow across isobars towards a low
+d. surface winds have laminar flow
+
+`);
