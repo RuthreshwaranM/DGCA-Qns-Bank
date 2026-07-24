@@ -153,6 +153,7 @@
     <a href="aboutus.html" class="ff-nav-link">About Us</a>
     <a href="contactus.html" class="ff-nav-link">Contact Us</a>
     <a href="https://dgca-rtr-simulator.vercel.app/login.html" target="_blank" rel="noopener" class="btn btn-ghost btn-sm" title="Open RTR Simulator">RTR &nearr;</a>
+    <a href="formula-vault.html" target="_blank" rel="noopener" class="btn btn-ghost btn-sm" title="Open Formula & Theory Vault">Formulas &nearr;</a>
     <a href="#/stats" class="icon-btn" title="Progress">📈</a>
     <a href="#/bookmarks" class="icon-btn" title="Bookmarks">★</a>
     <a href="#/mistakes" class="icon-btn" title="Revise mistakes">⟲</a>
@@ -176,7 +177,11 @@
 <script src="js/parser.js"></script>
 
 <!-- SUBJECT DATA FILES — add a new subject by duplicating one of
-     these, changing id/name, and adding a line for it here. -->
+     these, changing id/name, and adding a line for it here.
+     NOTE: only real JS data modules belong here. formula-vault.html
+     is a standalone page and is linked directly, not loaded as a script
+     (see the "Formulas ↗" link in the topbar above, and the
+     card added in data/cockpit-study.js below). -->
 <script src="data/air-navigation.js"></script>
 <script src="data/radio-navigation.js"></script>
 <script src="data/navigation-instrumentation.js"></script>
@@ -194,7 +199,7 @@
 <script src="data/atpl-met.js"></script>
 <script src="data/atpl-gen-nav.js"></script>
 <script src="data/atpl-radio-and-inst.js"></script>
-<script src="data/DGCA-previous-attempt-qns.js"></script>
+<script src="data/DGCA-previous-attempt-qns.js.js"></script>
 <script src="data/Boeing-737.js"></script>
 <script src="data/indigo-qns-bank.js"></script>
 <script src="data/Airbus-320.js"></script>
@@ -213,6 +218,7 @@
   <div class="ff-footer-links">
     <a href="aboutus.html">About Us</a>
     <a href="contactus.html">Contact Us</a>
+    <a href="formula-vault.html" target="_blank" rel="noopener">Formula Vault</a>
     <a href="https://chat.whatsapp.com/LTxzz9GUiR76gEaAay6q2n" target="_blank" rel="noopener">WhatsApp</a>
     <a href="https://t.me/FlightFlareAviation" target="_blank" rel="noopener">Telegram</a>
     <a href="tel:+91 9360736138">Call</a>
