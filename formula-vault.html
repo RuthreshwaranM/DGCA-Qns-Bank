@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ATPL / CPL Formula & Theory Vault | Flight Flare Aviation</title>
+<script src="js/protection.js" defer></script>
+<style>
+  :root{
+    --bg:#070c1a;
+    --bg-panel:#0d1526;
+    --bg-card:#101a30;
+    --bg-row-odd:#0d1526;
+    --bg-row-even:#101c33;
+    --bg-row-hover:#152546;
+    --border:#1e2b48;
+    --border-soft:#182238;
+    --orange:#ff8a34;
+    --orange-dim:#f5821f;
+    --amber:#ffc94d;
+    --text:#e9eefb;
+    --text-dim:#a9b6d1;
+    --text-mute:#71809f;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Segoe UI',Roboto,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  .topstrip{
+    height:6px;width:100%;
+    background:linear-gradient(90deg,#5b6ee1,#8c6fe0 35%,var(--orange) 75%,#ffb347);
+  }
+
+  header{
+    padding:28px 40px 22px;
+    border-bottom:1px solid var(--border-soft);
+    background:radial-gradient(1200px 400px at 15% -10%, rgba(91,110,225,0.14), transparent 60%),
+               radial-gradient(1000px 400px at 90% -20%, rgba(255,138,52,0.12), transparent 60%);
+  }
+  .brand-row{
+    display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;
+    max-width:1500px;margin:0 auto;
+  }
+  .brand-left{display:flex;align-items:center;gap:14px;}
+  .brand-badge{
+    width:46px;height:46px;border-radius:10px;
+    background:linear-gradient(135deg,#1a2648,#0d1526);
+    border:1px solid var(--border);
+    display:flex;align-items:center;justify-content:center;font-size:20px;
+  }
+  .brand-text .eyebrow{
+    font-size:11px;letter-spacing:2.5px;color:var(--orange);font-weight:700;text-transform:uppercase;
+  }
+  .brand-text h1{margin:2px 0 0;font-size:26px;letter-spacing:0.3px;}
+  .brand-text h1 span{color:var(--orange);}
+  .header-sub{max-width:1500px;margin:16px auto 0;color:var(--text-dim);font-size:14.5px;max-width:780px;}
+  .stat-pills{display:flex;gap:10px;flex-wrap:wrap;}
+  .pill{background:var(--bg-card);border:1px solid var(--border);padding:8px 14px;border-radius:999px;font-size:12.5px;color:var(--text-dim);}
+  .pill b{color:var(--text);}
+
+  .controls-bar{
+    position:sticky;top:0;z-index:50;
+    background:rgba(7,12,26,0.94);backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--border-soft);
+    padding:14px 40px;
+  }
+  .controls-inner{max-width:1500px;margin:0 auto;display:flex;gap:14px;align-items:center;flex-wrap:wrap;}
+  #searchInput{
+    flex:1;min-width:220px;background:var(--bg-card);border:1px solid var(--border);color:var(--text);
+    padding:11px 16px;border-radius:10px;font-size:14.5px;outline:none;
+  }
+  #searchInput:focus{border-color:var(--orange-dim);}
+  #searchInput::placeholder{color:var(--text-mute);}
+  #resultCount{font-size:12.5px;color:var(--text-mute);white-space:nowrap;}
+  #clearBtn{
+    background:transparent;border:1px solid var(--border);color:var(--text-dim);
+    padding:10px 14px;border-radius:10px;font-size:13px;cursor:pointer;
+  }
+  #clearBtn:hover{border-color:var(--orange-dim);color:var(--text);}
+  .view-toggle{display:flex;border:1px solid var(--border);border-radius:10px;overflow:hidden;}
+  .view-toggle button{
+    background:var(--bg-card);color:var(--text-dim);border:none;padding:10px 14px;font-size:13px;cursor:pointer;
+  }
+  .view-toggle button.active{background:var(--orange-dim);color:#1a0f04;font-weight:700;}
+
+  .layout{display:flex;max-width:1500px;margin:0 auto;align-items:flex-start;}
+  nav.toc{
+    width:270px;flex-shrink:0;position:sticky;top:70px;
+    max-height:calc(100vh - 90px);overflow-y:auto;padding:26px 14px 40px 40px;
+  }
+  nav.toc::-webkit-scrollbar{width:6px;}
+  nav.toc::-webkit-scrollbar-thumb{background:var(--border);border-radius:6px;}
+  .toc-title{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--text-mute);margin:0 0 10px 6px;font-weight:700;}
+  .toc-link{
+    display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:8px;color:var(--text-dim);
+    text-decoration:none;font-size:13.6px;margin-bottom:2px;border:1px solid transparent;
+    transition:background .15s, color .15s;
+  }
+  .toc-link .num{font-size:11px;color:var(--text-mute);min-width:18px;}
+  .toc-link .count{margin-left:auto;font-size:11px;color:var(--text-mute);}
+  .toc-link:hover{background:var(--bg-card);color:var(--text);}
+  .toc-link.active{background:var(--bg-card);border-color:var(--border);color:var(--orange);}
+  .toc-link.active .num{color:var(--orange);}
+
+  main{flex:1;min-width:0;padding:30px 40px 80px;}
+
+  section.topic{margin-bottom:46px;scroll-margin-top:80px;}
+  .topic-head{display:flex;align-items:baseline;gap:12px;margin-bottom:6px;flex-wrap:wrap;}
+  .topic-head h2{font-size:22px;margin:0;}
+  .topic-index{
+    font-size:13px;color:var(--orange);font-weight:700;
+    background:rgba(255,138,52,0.1);border:1px solid rgba(255,138,52,0.35);
+    padding:2px 10px;border-radius:999px;
+  }
+  .topic-desc{color:var(--text-dim);font-size:13.8px;margin:6px 0 18px;max-width:900px;}
+
+  /* ===== Table view (default, professional & readable) ===== */
+  .table-wrap{
+    background:var(--bg-panel);border:1px solid var(--border);border-radius:14px;overflow:hidden;
+  }
+  table.formula-table{
+    width:100%;border-collapse:collapse;table-layout:fixed;
+  }
+  table.formula-table col.col-num{width:44px;}
+  table.formula-table col.col-concept{width:19%;}
+  table.formula-table col.col-formula{width:29%;}
+  table.formula-table col.col-explain{width:auto;}
+  table.formula-table thead th{
+    text-align:left;font-size:11px;letter-spacing:1.2px;text-transform:uppercase;
+    color:var(--text-mute);font-weight:700;
+    background:#0a1120;
+    padding:12px 16px;border-bottom:1px solid var(--border);
+  }
+  table.formula-table tbody tr{border-bottom:1px solid var(--border-soft);}
+  table.formula-table tbody tr:last-child{border-bottom:none;}
+  table.formula-table tbody tr:nth-child(odd){background:var(--bg-row-odd);}
+  table.formula-table tbody tr:nth-child(even){background:var(--bg-row-even);}
+  table.formula-table tbody tr:hover{background:var(--bg-row-hover);}
+  table.formula-table td{
+    padding:16px;vertical-align:top;font-size:13.6px;
+    word-wrap:break-word; overflow-wrap:break-word;
+  }
+  td.cell-num{color:var(--text-mute);font-size:12px;padding-top:18px;}
+  td.cell-concept{color:var(--text);font-weight:600;}
+  td.cell-concept .concept-icon{color:var(--orange);margin-right:6px;}
+  td.cell-formula{
+    font-family:'Cambria Math','Georgia',serif;color:var(--amber);
+    line-height:1.55; font-size:14px;
+    white-space:normal;
+  }
+  td.cell-explain{color:var(--text-dim);line-height:1.55;}
+  td.cell-explain b{color:var(--text);font-weight:600;}
+
+  .no-results{text-align:center;padding:60px 20px;color:var(--text-mute);}
+
+  footer{
+    border-top:1px solid var(--border-soft);
+    padding:34px 40px 50px;text-align:center;color:var(--text-mute);font-size:12.5px;
+  }
+  footer b{color:var(--orange);}
+
+  @media (max-width:980px){
+    nav.toc{display:none;}
+    header, .controls-bar, main{padding-left:20px;padding-right:20px;}
+    table.formula-table col.col-num,
+    table.formula-table thead{display:none;}
+    table.formula-table, table.formula-table tbody, table.formula-table tr, table.formula-table td{
+      display:block;width:100%;
+    }
+    table.formula-table tr{padding:14px 16px;border-bottom:1px solid var(--border-soft);}
+    table.formula-table td{padding:4px 0;}
+    td.cell-concept{font-size:14.5px;padding-top:10px;}
+    td.cell-formula{
+      background:#0a1120;border:1px solid var(--border-soft);border-radius:8px;
+      padding:10px 12px !important;margin:6px 0;
+    }
+  }
+  mark{background:rgba(255,201,77,0.35);color:inherit;border-radius:3px;padding:0 2px;}
+</style>
+</head>
+<body>
+
+<div class="topstrip"></div>
+
+<header>
+  <div class="brand-row">
+    <div class="brand-left">
+      <div class="brand-badge">✈️</div>
+      <div class="brand-text">
+        <div class="eyebrow">Flight Flare Aviation</div>
+        <h1>ATPL / CPL <span>Formula &amp; Theory Vault</span></h1>
+      </div>
+    </div>
+    <div class="stat-pills">
+      <div class="pill"><b>14</b> subjects</div>
+      <div class="pill"><b>200+</b> formulas &amp; concepts</div>
+      <div class="pill"><b>FREE</b> for every student</div>
+    </div>
+  </div>
+  <p class="header-sub">Every formula from the ATPL ground-subject syllabus, laid out topic-wise in a clean reference table — the formula and its plain-language explanation sit side by side, so there's nothing to scroll or slide to read.</p>
+</header>
+
+<div class="controls-bar">
+  <div class="controls-inner">
+    <input type="text" id="searchInput" placeholder="Search any formula, term, or keyword — e.g. 'glidepath', 'QDM', 'V1', 'ISA'…">
+    <span id="resultCount"></span>
+    <button id="clearBtn" onclick="document.getElementById('searchInput').value='';filterRows();">Clear</button>
+  </div>
+</div>
+
+<div class="layout">
+  <nav class="toc" id="tocNav">
+    <div class="toc-title">Jump to subject</div>
+  </nav>
+
+  <main id="mainContent">
+    <div class="no-results" id="noResults" style="display:none;">No formulas match your search. Try a different keyword.</div>
+  </main>
+</div>
+
+<footer>
+  Built for <b>Flight Flare Aviation</b> students · DGCA CPL / ATPL Exam Bank · Reference compiled from the classic ATPL formulae &amp; theory summary
+</footer>
+
+<script>
+const DATA = [
+  {
+    id:"general",
+    title:"Handy Formulas & Quick-Reference Guidelines",
+    desc:"The formulas that show up across almost every subject — memorise these first, they carry the most exam weight per line learned.",
+    cards:[
+      {
+        h:"Push the Head, Pull the Tail",
+        f:"NDB QDM/QDR interception mnemonic",
+        e:"When intercepting a bearing to/from an NDB, if the needle head is left of the nose, turn the nose <b>toward</b> the head (push it back to centre); if the tail end is off-centre, turn to <b>pull</b> the tail back. It's the classic memory aid for ADF needle interpretation during radio navigation."
+      },
+      {
+        h:"Glidepath height vs distance",
+        f:"glidepath angle × distance (ft) ÷ 60 = glidepath height (ft) ≈ 300 ft per NM",
+        e:"For a standard 3° glideslope, height above threshold is roughly <b>300 ft for every nautical mile</b> from touchdown. Quick mental check for any ILS or visual approach profile."
+      },
+      {
+        h:"Rate of descent for 3° glidepath",
+        f:"Rate of descent (ft/min) = Groundspeed (kt) × 5",
+        e:"At a standard 3° glideslope, multiply your groundspeed by 5 to get the required rate of descent in ft/min. For a 3.5° slope, multiply by 3.5/3 as a correction factor."
+      },
+      {
+        h:"Climb gradient",
+        f:"Climb gradient (%) = (Rate of climb × 6000) ÷ (TAS × 6080)",
+        e:"Relates your vertical speed to your ground distance covered, expressed as a percentage. Used heavily in performance and obstacle clearance calculations."
+      },
+      {
+        h:"Angle of bank for a Rate 1 turn",
+        f:"Bank angle (°) ≈ (TAS ÷ 10) + 7",
+        e:"A quick approximation pilots use to set bank angle for a standard rate (3°/sec) turn at a given true airspeed — no calculator needed in the cockpit."
+      },
+      {
+        h:"Radius of turn (nautical miles)",
+        f:"Radius (NM) = TAS ÷ (rate × 60 × π)",
+        e:"Bigger turns need more radius as speed increases — this formula ties turn rate, TAS, and geometry together, essential for holding pattern and procedure-turn planning."
+      },
+      {
+        h:"Radius of turn (metres)",
+        f:"Radius (m) = V² (m/s) ÷ (10 × tan(bank angle))",
+        e:"The metric version of the turn-radius formula, useful when working in SI units for performance-style questions."
+      },
+      {
+        h:"Load factor 'n'",
+        f:"n = 1 ÷ cos(bank angle)",
+        e:"In a level turn, load factor rises sharply with bank angle — at 60° bank, n = 2, meaning you (and the aircraft) weigh double. This is why steep turns increase stall speed."
+      },
+      {
+        h:"Stall speed increase with load factor",
+        f:"Load factor = (V-stall increased ÷ V-stall level)²",
+        e:"Stalling speed rises with the <b>square root</b> of the load factor. A 2G turn increases stall speed by about 41%, not 100% — a common trap in exam questions."
+      },
+      {
+        h:"The IAS-to-TAS speed chain",
+        f:"IAS → (instrument/position error) → RAS/CAS → (compressibility) → EAS → (density) → TAS",
+        e:"Each speed type corrects for one specific error as you go from what the instrument shows to your true speed through the air. Learn this chain — it's tested in nearly every subject (Instrumentation, Performance, Principles of Flight)."
+      },
+      {
+        h:"EAS from TAS using relative density",
+        f:"EAS = √(relative density) × TAS",
+        e:"At 40,000 ft, relative density is about ¼, so EAS = 0.5 × TAS. EAS is what actually determines the aerodynamic forces (lift and drag) on the aircraft, regardless of altitude."
+      },
+      {
+        h:"VOR / NDB variation rule",
+        f:"VOR's variation is applied at the station · NDB's variation is applied at the aircraft",
+        e:"A subtle but frequently tested rule: for VOR bearings, use the magnetic variation at the ground station; for NDB/ADF bearings, use the variation at your own aircraft's position."
+      },
+      {
+        h:"True bearing from relative bearing",
+        f:"Relative bearing + True heading = True bearing",
+        e:"Relative bearing is measured from the aircraft's nose. Add your true heading to convert it into a true bearing to the station — the foundation of manual bearing plotting."
+      },
+      {
+        h:"QDR, QDM, QTE relationships",
+        f:"QDR + Variation = QTE  ·  QDM ± 180° = QDR",
+        e:"<b>QDR</b> = magnetic bearing FROM the station. <b>QDM</b> = magnetic bearing TO the station (what the RMI shows). <b>QTE</b> = true bearing FROM the station. Master this square of four bearings and radio-nav plotting becomes mechanical."
+      },
+      {
+        h:"Speed of sound (LSS)",
+        f:"LSS (kt) = 38.94 × √T(°K)   [0°C = 273°K]",
+        e:"Local Speed of Sound depends only on air temperature, not altitude directly. At sea level ISA (288K) LSS ≈ 661 kt; at the tropopause (216.5K) it drops to ≈ 573 kt."
+      },
+      {
+        h:"Mach number",
+        f:"Mach number = TAS ÷ LSS",
+        e:"A pure ratio (no units) comparing your true airspeed to the local speed of sound — critical for high-altitude jet operations near the transonic regime."
+      }
+    ]
+  },
+
+  {
+    id:"navigation",
+    title:"General Navigation",
+    desc:"Great circles, rhumb lines, chart projections, convergency, and the geometry of finding your way around a sphere.",
+    cards:[
+      {
+        h:"Departure (E/W distance)",
+        f:"Departure (NM) = Δ Longitude (minutes) × cos(latitude)",
+        e:"Converts a difference in longitude into actual east-west distance in nautical miles — the further from the equator, the shorter that distance becomes for the same longitude change."
+      },
+      {
+        h:"Earth convergency",
+        f:"Convergency (°) = Δ Longitude × sin(mean latitude)",
+        e:"Meridians converge toward the poles. This formula tells you the angular difference between true north at two different longitudes on the same great circle track."
+      },
+      {
+        h:"Conversion angle",
+        f:"Conversion angle = ½ × convergency",
+        e:"The angle between a great circle track and the rhumb line joining the same two points, measured at the mid-point of the track."
+      },
+      {
+        h:"Rhumb line vs. great circle shape",
+        f:"Northern hemisphere: Great circle curves poleward of the rhumb line · Southern hemisphere: reversed",
+        e:"On a sphere, the shortest path (great circle) always bows toward the nearer pole compared to the constant-bearing rhumb line — visualise this for chart-reading questions."
+      },
+      {
+        h:"Mercator projection scale",
+        f:"Scale = Scale(equator) × or ÷ cos(Δ latitude)",
+        e:"Multiply moving away from the equator, divide moving toward it. Mercator scale expands with latitude, which is why Greenland looks enormous on a Mercator world map."
+      },
+      {
+        h:"Simple conic / Lambert's convergency",
+        f:"Chart convergency = Δ Longitude × sin(parallel of origin)",
+        e:"On a Lambert's conformal conic chart, convergency is constant everywhere (unlike on the actual earth), governed by the 'constant of the cone' — the sine of the parallel of origin."
+      },
+      {
+        h:"Grid navigation",
+        f:"Convergence = Δ Longitude from datum meridian · Grivation = Variation + Convergence",
+        e:"Used in polar regions where magnetic compasses are unreliable — a grid of parallel lines replaces meridians, and grivation gives the angle between grid north and magnetic north."
+      },
+      {
+        h:"Time / distance to PNR or PSR",
+        f:"Time to PNR (hr) = (Safe Endurance × GS-home) ÷ (GS-out + GS-home)",
+        e:"Point of No Return / Point of Safe Return: the furthest point you can fly to and still return with adequate fuel reserves. Greatest distance occurs in still-air conditions."
+      },
+      {
+        h:"Distance to Critical Point (CP/ETP)",
+        f:"Distance to CP = (Total distance × GS-home) ÷ (GS-out + GS-home)",
+        e:"Determines the point along a route where it takes equally long to continue or turn back — vital for engine-out or depressurisation diversion planning. Always use the slower (failure-case) groundspeed."
+      },
+      {
+        h:"ISA reference values",
+        f:"15°C · 1013.25 mb · 1225 g/m³ at mean sea level",
+        e:"The International Standard Atmosphere is the baseline every instrument, performance chart, and altimeter calibration is built around."
+      },
+      {
+        h:"ISA temperature lapse rate",
+        f:"1.98°C per 1000 ft up to the 36,000 ft tropopause, then constant at −56.5°C to 66,000 ft, then rising 0.3°C/1000 ft to 105,000 ft",
+        e:"Temperature falls steadily through the troposphere, flattens out through the stratosphere's lower layer, then actually starts rising again due to ozone absorption."
+      },
+      {
+        h:"QFE / QNH / QFF / QNE",
+        f:"Four altimeter subscale settings",
+        e:"<b>QFE</b>: altimeter reads zero at the airfield. <b>QNH</b>: altimeter reads field elevation on the ground. <b>QFF</b>: airfield pressure reduced to sea level using actual conditions. <b>QNE</b>: height shown at touchdown with 1013.2 mb set — used at very high-elevation airfields."
+      },
+      {
+        h:"Compass deviation formula",
+        f:"Total deviation = A + B(sin heading) + C(cos heading)",
+        e:"A is a fixed misalignment error, B relates to the aircraft's longitudinal magnetism, and C to its lateral magnetism — together they explain why a compass reads slightly differently on different headings."
+      },
+      {
+        h:"True/Magnetic/Compass conversion",
+        f:"Compass + Deviation = Magnetic + Variation = True",
+        e:"The classic 'CDMVT' chain (Compass Deviation Magnetic Variation True) — memorise the direction of the algebraic sum both ways for plotting and de-plotting bearings."
+      },
+      {
+        h:"Bearing definitions",
+        f:"QUJ = true TO station · QTE = true FROM station · QDR = magnetic FROM station · QDM = magnetic TO station",
+        e:"These four Q-codes describe every possible bearing relationship between aircraft and station — the RMI needle shows QDM directly."
+      },
+      {
+        h:"Depression angle / cloud height",
+        f:"Relative height (ft) = 9.4 × depression angle × range (NM)",
+        e:"Used with airborne weather radar tilt settings to estimate how far above or below your own altitude a returned echo (like a cloud top) actually is."
+      },
+      {
+        h:"Civil twilight definitions",
+        f:"Morning civil twilight: sun 6° below horizon → sunrise · Evening: sunset → sun 6° below horizon",
+        e:"Defines the period of usable natural light before sunrise and after sunset — relevant to VFR operating minima and flight planning."
+      },
+      {
+        h:"Equation of time",
+        f:"Equation of time = Apparent solar day − Mean solar day",
+        e:"The sun doesn't cross your meridian at exactly the same clock time every day because Earth's orbit is elliptical and its axis is tilted — this formula captures that daily wobble."
+      }
+    ]
+  },
+
+  {
+    id:"meteorology",
+    title:"Meteorology",
+    desc:"Atmosphere structure, stability, pressure systems, fronts, icing, and the tools used to forecast and brief the weather.",
+    cards:[
+      {
+        h:"Pressure/height relationship near the surface",
+        f:"Sea level 1013 mb ≈ 27 ft per mb · at 18,000 ft (500 mb) ≈ 48 ft per mb",
+        e:"Pressure falls faster with height near sea level and more slowly at altitude — pressure/height is not linear, which is why altimeters use a specific standard lapse curve."
+      },
+      {
+        h:"DALR and SALR",
+        f:"DALR = 3°C per 1000 ft (dry) · SALR ≈ 1.8°C per 1000 ft (saturated, temperate climates)",
+        e:"Dry air cools faster as it rises than saturated air, because condensation releases latent heat that partially offsets the cooling — the difference drives cloud and stability behaviour."
+      },
+      {
+        h:"Stability test: ELR vs DALR/SALR",
+        f:"ELR > DALR → absolutely unstable · ELR < SALR → absolutely stable · Between the two → conditionally unstable",
+        e:"Compare the actual (environmental) lapse rate to the dry and saturated adiabatic rates to predict whether rising air will keep accelerating (unstable, showers/CB) or sink back (stable, layered cloud)."
+      },
+      {
+        h:"Föhn effect temperature rise",
+        f:"Temperature rise = (Lee cloud base − Windward cloud base) × 1.2",
+        e:"Explains why air is noticeably warmer and drier on the lee (downwind) side of a mountain range after losing moisture as rain on the windward side."
+      },
+      {
+        h:"Geostrophic wind",
+        f:"Geostrophic force = 2 × Ω × V × sin(latitude)",
+        e:"The wind that results when the pressure gradient force is exactly balanced by the Coriolis (geostrophic) force — blows parallel to straight isobars, faster where isobars are closer together."
+      },
+      {
+        h:"Surface wind backing (day/night)",
+        f:"Over land by day: backs ~30°, ~50% of free-stream speed. Over sea: backs ~10°, ~70% of free-stream speed. At night, backing increases and speed drops further over land.",
+        e:"Friction slows and backs (turns anticlockwise, N.H.) the wind near the surface compared to the free-flowing wind above the boundary layer; the effect is stronger over rougher land surfaces."
+      },
+      {
+        h:"Wet bulb temperature",
+        f:"Falls at 1.8°C per 1000 ft · lies between dew point and OAT",
+        e:"A rough humidity indicator — at 100% relative humidity, dew point, wet bulb, and outside air temperature all converge to the same value."
+      },
+      {
+        h:"Cloud base height bands (temperate)",
+        f:"Above 6,500 ft AGL = 'medium' (alto-) · Above 16,500 ft AGL = 'high' (cirro-)",
+        e:"Standard cloud-family altitude bands used to classify cloud types in temperate latitudes for briefing and METAR/TAF interpretation."
+      },
+      {
+        h:"Single-cell CB life cycle",
+        f:"Development ~15–20 min · active period under 1 hour (mature stage 30–40 min) · updrafts 3,000–4,000 ft/min",
+        e:"A basic thunderstorm cell runs through developing, mature, and dying stages quickly — this timeline matters for planning around convective activity."
+      },
+      {
+        h:"Icing risk by temperature",
+        f:"No icing above 0°C or below −45°C · clear ice risk highest near 0°C · rime ice near −25°C",
+        e:"Clear ice (most dangerous, hardest to shed) forms from large supercooled droplets near freezing; rime ice (rougher, more brittle) forms from smaller droplets at colder temperatures."
+      },
+      {
+        h:"Fog types",
+        f:"Radiation fog: surface cools at night, cools air by conduction · Advection fog: warm moist air moves over a cold surface · Arctic smoke: cold air moves over a warm surface (needs an inversion present)",
+        e:"Each fog type has a distinct formation mechanism, which is why radiation fog burns off quickly with sun/wind while advection fog can persist and even be lifted into low stratus by wind."
+      },
+      {
+        h:"Air mass classifications",
+        f:"Polar Maritime (cool, moist, unstable) · Tropical Maritime (warm, moist, stable) · Polar/Tropical Continental variants",
+        e:"Air masses are named by source region (polar/tropical) and surface track (maritime/continental) — this combination predicts the weather type they'll bring."
+      },
+      {
+        h:"Climate zone bands by latitude",
+        f:"Equatorial (0–10°) → Tropical transitional (10–20°) → Arid subtropical (20–35°) → Temperate transitional (35–40°) → Disturbed temperate (40–65°) → Polar (65–90°)",
+        e:"Each latitude band has characteristic pressure systems and seasonal weather patterns — useful for long-haul route weather planning."
+      },
+      {
+        h:"METAR cloud cover terms",
+        f:"FEW = 1–2 oktas · SCT = 3–4 oktas · BKN = 5–7 oktas · OVC = 8 oktas",
+        e:"Cloud amount is always reported in eighths of sky covered (oktas) — these four bands are what you'll see coded in every METAR and TAF."
+      },
+      {
+        h:"SIGMET / warning validity",
+        f:"SIGMET validity = 4 hours (volcanic ash warnings up to 12 hours)",
+        e:"SIGMETs cover hazardous en-route weather like severe turbulence, icing, and thunderstorms, and expire quickly since conditions change fast — except for slower-evolving ash clouds."
+      },
+      {
+        h:"Turbulence severity in G",
+        f:"Light = 0–0.5G · Moderate = 0.5–1G · Severe = >1G",
+        e:"Turbulence categories are defined by the vertical acceleration variation experienced by the aircraft, not just how it 'feels' subjectively."
+      }
+    ]
+  },
+
+  {
+    id:"instrumentation",
+    title:"Instrumentation",
+    desc:"Pitot-static instruments, gyroscopic principles, compass errors, and modern electronic flight displays.",
+    cards:[
+      {
+        h:"Total Air Temperature",
+        f:"TAT = SAT + Kinetic (ram) heating",
+        e:"As air is decelerated at the probe, its temperature rises due to compression — TAT is always warmer than the true Static Air Temperature, especially at high Mach numbers."
+      },
+      {
+        h:"Rate 1 / 2 / 3 turns",
+        f:"Rate 1 = 180°/min (3°/sec) · Rate 2 = 360°/min (6°/sec) · Rate 3 = 540°/min (9°/sec)",
+        e:"Standard turn rates used throughout IFR procedures — holding patterns and procedure turns are almost always flown at Rate 1."
+      },
+      {
+        h:"Latitude nut wander",
+        f:"Wander (°/hr) = 15 × sin(latitude)  [NH = positive]",
+        e:"A real gyroscopic drift caused by the earth's curvature combined with the gyro's pendulous mounting — increases with latitude, zero at the equator."
+      },
+      {
+        h:"Earth rotation wander",
+        f:"Wander (°/hr) = 15 × sin(latitude)  [NH = negative]",
+        e:"An apparent (not real) wander that occurs simply because the earth rotates beneath a gyro whose spin axis stays fixed in space."
+      },
+      {
+        h:"Transport wander",
+        f:"Wander = (E/W groundspeed × tan latitude) ÷ 60",
+        e:"Occurs when a gyro is physically moved across the earth's surface — moving east or west at higher latitudes causes apparent drift due to the changing rate of meridian convergence."
+      },
+      {
+        h:"Total drift (gyro)",
+        f:"Total drift = Real wander + Earth rotation wander + Latitude nut wander + Transport wander",
+        e:"All four wander sources add together to give the total apparent drift a free directional gyro will show over time, which is why DGs need periodic realignment to the compass."
+      },
+      {
+        h:"Compass turning errors (acceleration)",
+        f:"N.H. acceleration on E/W heading → apparent turn toward North",
+        e:"Caused by magnetic dip acting on the pendulously-mounted compass card — remembered by mnemonics like 'ANDS' (Accelerate North, Decelerate South) in the northern hemisphere."
+      },
+      {
+        h:"Compass turning errors (turning through N/S)",
+        f:"Turning through the near pole → compass LAGS · through the far pole → compass LEADS",
+        e:"During a turn, the compass card temporarily under- or over-reads depending on which pole (near/far) you're turning through — significant up to about 35° latitude, zero on the magnetic equator."
+      },
+      {
+        h:"INS/IRS Schuler period",
+        f:"Schuler cycle = 84.4 minutes (damped)",
+        e:"Inertial navigation errors oscillate on this specific 84.4-minute cycle regardless of platform type (stable platform, strapdown, or wander-angle) — a fundamental property of inertial systems tuned to earth's radius and gravity."
+      },
+      {
+        h:"EFIS colour coding",
+        f:"Green = active/selected · White = present situation/scales · Magenta = command info, wx radar/turbulence · Cyan = inactive/background · Yellow = caution · Red = warning",
+        e:"A standardised colour language used across glass cockpits so crews can interpret critical information at a glance, regardless of aircraft type."
+      },
+      {
+        h:"GPWS warning modes",
+        f:"Mode 1: excessive sink rate · Mode 2: closure with terrain · Mode 3: height loss after take-off · Mode 4: insufficient terrain clearance · Mode 5: below glideslope · Mode 6: altitude callouts · Mode 7: windshear",
+        e:"Each GPWS mode monitors a different dangerous flight geometry and triggers a distinct aural warning — knowing the mode numbers helps decode why an alert is firing."
+      },
+      {
+        h:"TCAS advisories",
+        f:"TA = Traffic Advisory ('Traffic, Traffic') · RA = Resolution Advisory (climb/descend instruction)",
+        e:"TCAS escalates from an alerting-only Traffic Advisory to a directive Resolution Advisory as a conflicting aircraft gets closer — crews must follow an RA promptly and smoothly."
+      },
+      {
+        h:"Radio altimeter",
+        f:"Active from 2,500 ft down to ground level · Frequency band 4,200–4,400 MHz",
+        e:"Unlike the barometric altimeter, the radio (radar) altimeter measures true height above the terrain directly beneath the aircraft using a continuous-wave FM signal."
+      }
+    ]
+  },
+
+  {
+    id:"communications",
+    title:"Communications — VFR / IFR",
+    desc:"Radio wave propagation, frequency bands, and the physics behind how your voice and data get from cockpit to ground.",
+    cards:[
+      {
+        h:"Wavelength",
+        f:"λ = C ÷ f   (C = speed of light in m/s, f = frequency in Hz)",
+        e:"Wavelength and frequency are inversely related — the higher the frequency, the shorter the wave, which changes how the signal propagates (surface wave, sky wave, or line-of-sight)."
+      },
+      {
+        h:"Maximum skip distance",
+        f:"Max skip distance (NM) = 1.43 × √H   (H = height of ionosphere in km)",
+        e:"Defines the closest point sky waves can be received after bouncing off the ionosphere — inside this radius you're in the 'skip zone' with no reliable sky-wave reception."
+      },
+      {
+        h:"Maximum theoretical (line-of-sight) range",
+        f:"Range (NM) = 1.25√H1 + 1.25√H2   (H1, H2 = heights of transmitter/receiver in feet)",
+        e:"VHF/UHF communications rely on line-of-sight propagation — this formula estimates the maximum radio horizon based on the height of both stations."
+      },
+      {
+        h:"Modulation types",
+        f:"AM = amplitude modulation · FM = frequency modulation · Pulse = digital data/morse",
+        e:"AM (used for VHF/HF voice) is simpler with lower power needs; FM offers better noise immunity but needs more power and a complex receiver — each suits different comm and nav applications."
+      },
+      {
+        h:"Frequency bands used in aviation",
+        f:"HF: 2.85–22 MHz (long range) · VHF: 118–137 MHz (short range, line-of-sight)",
+        e:"HF relies on ionospheric sky-wave refraction for oceanic/long-range comms; VHF is limited to line-of-sight but offers much clearer, static-free voice quality."
+      },
+      {
+        h:"Attenuation by frequency",
+        f:"Atmospheric & surface attenuation increase at higher frequencies · Ionospheric attenuation increases as frequency decreases",
+        e:"This trade-off explains why low frequencies (LF/MF) travel further along the surface but suffer more ionospheric absorption, while high frequencies (VHF+) are clean but limited to sight-range."
+      },
+      {
+        h:"DF bearing accuracy classes",
+        f:"Class A = ±2° · Class B = ±5° (most common) · Class C = ±10° · Class D = greater than ±10°",
+        e:"Direction-finding bearings are graded by accuracy class so pilots and controllers know how much to trust a given VDF fix."
+      },
+      {
+        h:"VDF vs QGH letdown",
+        f:"VDF letdown = pilot-interpreted, uses a chart · QGH (ground homing) = controller-interpreted, radar-style approach without a chart",
+        e:"Both are older non-precision letdown aids using VHF direction-finding, differing in who interprets the bearings and whether the pilot needs a published chart."
+      },
+      {
+        h:"SRA vs PAR",
+        f:"SRA = Surveillance Radar Approach (distance/altitude guidance, advisory 3° path) · PAR = Precision Approach Radar (adds full glidepath + azimuth corrections)",
+        e:"PAR is the more precise version of a radar-guided approach, giving continuous corrections in both azimuth and glidepath rather than just periodic distance/altitude calls."
+      }
+    ]
+  },
+
+  {
+    id:"massbalance",
+    title:"Mass & Balance",
+    desc:"Weight limits, centre of gravity shifts, and the load categories every dispatch calculation is built on.",
+    cards:[
+      {
+        h:"Common unit conversions",
+        f:"1 m = 3.28 ft · 1 US gallon = 3.785 L · 1 Imperial gallon = 1.2 US gallons · 1 kg = 2.2 lbs",
+        e:"These conversions appear constantly in mass & balance and fuel-planning questions — worth memorising cold rather than deriving each time."
+      },
+      {
+        h:"CG shift formula",
+        f:"Mass moved ÷ Total (old) mass = Change of CG ÷ Distance from mass to new position",
+        e:"Relates how much weight you shift (e.g. moving cargo or passengers) to how far the centre of gravity moves — rearrange to solve for any one unknown."
+      },
+      {
+        h:"Maximum permissible traffic load",
+        f:"Max traffic load = MTOM − DOM − Fuel on board",
+        e:"Traffic load is everything you can carry as passengers/cargo once the aircraft's own operating mass and required fuel are subtracted from the maximum take-off mass."
+      },
+      {
+        h:"MTOM / MZFM / MLM structure",
+        f:"Each limit = DOM + relevant load + relevant fuel component",
+        e:"MTOM (max take-off), MZFM (max zero-fuel, i.e. no fuel counted), and MLM (max landing, using only diversion+reserve fuel) each cap traffic load differently — whichever gives the lowest number is your binding limit."
+      },
+      {
+        h:"Maximum fuel load rule",
+        f:"At MTOM limit: Fuel = Traffic load · At MLM limit: Fuel = Traffic load + sector fuel",
+        e:"A practical rule of thumb for quickly checking whether fuel or payload is the binding constraint on a given flight."
+      },
+      {
+        h:"CG movement effects",
+        f:"CG forward → more stability but more fuel burn and higher Vs · CG aft of range → less stable, may become uncontrollable",
+        e:"There's a real trade-off in CG position: too far forward costs fuel efficiency and complicates rotation/flare; too far aft risks losing stability altogether."
+      }
+    ]
+  },
+
+  {
+    id:"flightplanning",
+    title:"Flight Planning",
+    desc:"Range, endurance, critical points, and the North Atlantic track system for long-haul operations.",
+    cards:[
+      {
+        h:"Best range speed (jet)",
+        f:"Best range = 1.32 × VIMD (minimum drag speed)",
+        e:"Jets get their best fuel mileage flying noticeably faster than the pure minimum-drag speed, because engine efficiency (SFC) improves at higher power settings."
+      },
+      {
+        h:"Specific Air Range (SAR)",
+        f:"SAR (jet) = TAS ÷ (SFC × Drag)",
+        e:"SAR measures distance covered per unit of fuel burned — the key metric for choosing the most fuel-efficient cruise altitude and speed."
+      },
+      {
+        h:"Long Range Cruise (LRC)",
+        f:"LRC ≈ Best-range speed + 4%",
+        e:"Flying 4% faster than the pure best-range speed only costs about 1% of range but buys meaningfully reduced flight time — the standard compromise most airlines actually fly."
+      },
+      {
+        h:"Time to PNR/PSR",
+        f:"Time (hr) = (Safe endurance × GS-home) ÷ (GS-out + GS-home)",
+        e:"Same formula as in General Navigation — the point beyond which you can no longer return to your departure point (or alternate) with adequate fuel reserves."
+      },
+      {
+        h:"Distance to Critical Point (CP)",
+        f:"Distance to CP (NM) = (Total track distance × GS-home) ÷ (GS-out + GS-home)",
+        e:"For engine-failure or depressurisation planning, this is the point where continuing and turning back take exactly the same time — always use the reduced (failure-case) speed."
+      },
+      {
+        h:"NAT-OTS operating windows",
+        f:"Westbound (A→Z): 11:30–18:00 UTC · Eastbound (Z→A, 'red eye'): 01:00–08:00 UTC",
+        e:"The North Atlantic Organised Track System runs two daily 'rush hour' windows in opposite directions, with tracks labelled alphabetically from the most extreme latitude inward."
+      },
+      {
+        h:"MNPS lateral separation",
+        f:"1° of longitude ≈ 60 NM",
+        e:"Used to convert oceanic track spacing (typically given in degrees of longitude) into actual nautical-mile separation for airspace planning."
+      }
+    ]
+  },
+
+  {
+    id:"humanfactors",
+    title:"Human Performance & Limitations",
+    desc:"Physiology, perception, memory, decision-making, and the psychology of managing a flight deck safely.",
+    cards:[
+      {
+        h:"Normal vital signs",
+        f:"Resting heart rate ≈ 72 bpm · Blood pressure ≈ 100/60 (normal), 160/100 (max) · Breathing ≈ 16/min",
+        e:"Baseline physiological reference values used in aeromedical questions — deviations from these are what altitude, stress, and hypoxia start to affect."
+      },
+      {
+        h:"Hyperventilation chain",
+        f:"Increased breathing → reduced CO₂ → blood becomes more alkaline → arteries constrict → reduced oxygen delivery",
+        e:"Counter-intuitively, over-breathing (often from anxiety) can reduce the oxygen actually reaching your brain, causing dizziness and tingling — the opposite of what it feels like it should do."
+      },
+      {
+        h:"G-tolerance (unaided)",
+        f:"The body unaided can cope with roughly +7 to +8G and −3G (vertical axis)",
+        e:"Positive G (pushed into seat) is tolerated far better than negative G (lifted out of seat) — 'grey-out' (tunnel vision) typically starts around +3G."
+      },
+      {
+        h:"Atmosphere composition",
+        f:"78% Nitrogen · 21% Oxygen · 0.9% Argon · 0.03% CO₂",
+        e:"The baseline gas mixture that oxygen equipment, cabin pressurisation, and hypoxia physiology are all built around."
+      },
+      {
+        h:"Noise-induced hearing damage thresholds",
+        f:"Discomfort ~120 dB · Pain ~140 dB · Possible eardrum rupture >160 dB · Prolonged exposure >90 dB can cause permanent damage",
+        e:"Cumulative exposure above 90 dB over time is the real long-term hazard for flight crew, not just single loud events."
+      },
+      {
+        h:"Memory model",
+        f:"Sensory store: 2–3 sec · Working memory: 15–30 sec, ~7 items · Long-term memory: unlimited, indefinite",
+        e:"Information must pass through a short 'working memory' bottleneck (holding only about 7 items) before it can be consolidated into long-term memory — a key limitation for checklist and briefing design."
+      },
+      {
+        h:"Decision-making model",
+        f:"Skill-based → Rule-based → Knowledge-based (increasing conscious effort)",
+        e:"Experienced pilots handle familiar situations almost automatically (skill-based) and only fall back to slow, effortful knowledge-based reasoning for genuinely novel problems."
+      },
+      {
+        h:"Fight-or-flight (General Adaptation Syndrome)",
+        f:"1. Alarm reaction → 2. Resistance → 3. Exhaustion",
+        e:"Describes the body's staged physiological response to sustained stress — useful context for understanding crew fatigue and stress management."
+      },
+      {
+        h:"Arousal vs performance",
+        f:"Performance peaks at a moderate arousal level, then declines for both very low (boredom) and very high (panic) arousal",
+        e:"Known as the Yerkes-Dodson relationship — too little stress (underload) hurts performance just as much as too much (overload/panic)."
+      },
+      {
+        h:"Body Mass Index",
+        f:"BMI = Weight (kg) ÷ Height (m)²",
+        e:"A basic health screening metric referenced in aeromedical fitness discussions."
+      }
+    ]
+  },
+
+  {
+    id:"radionav",
+    title:"Radio Navigation",
+    desc:"NDB, VOR, DME, radar, and satellite systems — the electronic infrastructure that lets aircraft know exactly where they are.",
+    cards:[
+      {
+        h:"Radio spectrum bands",
+        f:"VLF 3–30 kHz · LF 30–300 kHz · MF 300 kHz–3 MHz · HF 3–30 MHz · VHF 30–300 MHz · UHF 300 MHz–3 GHz · SHF 3–30 GHz · EHF 30–300 GHz",
+        e:"Each aviation system sits in a specific band suited to its needs — NDBs use LF/MF, VHF comms and VOR use VHF, DME and radar use UHF/SHF."
+      },
+      {
+        h:"NDB theoretical range",
+        f:"Range ∝ cube root of transmitter power (watts)",
+        e:"Doubling an NDB's transmitter power doesn't double its range — range only grows with the cube root of power, so big range gains need disproportionately more power."
+      },
+      {
+        h:"Pulse Repetition Frequency / Period",
+        f:"PRP = 1 ÷ PRF",
+        e:"PRF is how many radar pulses are sent per second; PRP is the time between them. Low PRF (long PRP) is needed for long-range radars so echoes from distant targets return before the next pulse is sent."
+      },
+      {
+        h:"Radar maximum theoretical range",
+        f:"Max range (m) = (C × PRP) ÷ 2   (C = 300,000,000 m/s)",
+        e:"Range is fundamentally limited by how long the radar can wait between pulses — you can't detect a target further away than the round-trip light-speed distance allows before the next pulse fires."
+      },
+      {
+        h:"Radar minimum theoretical range",
+        f:"Min range (m) = (C × pulse length) ÷ 2",
+        e:"Very close targets can't be resolved because the radar is still transmitting its own pulse — a longer pulse length means a larger minimum detectable range."
+      },
+      {
+        h:"Radar beamwidth",
+        f:"Beamwidth = 70 × wavelength ÷ antenna diameter",
+        e:"A larger antenna (for a given wavelength) produces a narrower, more precise beam — this is why weather radar antennas are made as large as practically fits in the nose."
+      },
+      {
+        h:"Cloud height above aircraft (weather radar)",
+        f:"Height (ft) = Range (ft) × (scanner tilt − ½ beamwidth) ÷ 60",
+        e:"Pilots use antenna tilt angle together with radar range to estimate whether a returned echo (storm cell) is above or below their own flight level."
+      },
+      {
+        h:"GPS constellation",
+        f:"24 satellites (21 operational + 3 spares), 6 orbital planes at 55° inclination, ~20,200 km altitude, 12-hour orbital period",
+        e:"Designed so at least 4 satellites are always visible above a 5° mask angle from anywhere on earth — the minimum needed for a full 3D position + time fix."
+      },
+      {
+        h:"Required Navigation Performance (RNP)",
+        f:"RNP5 = accurate to ±5 NM for 95% of the time · RNP0.01/15 = ±0.01 NM / 15 ft (used for CAT II approaches)",
+        e:"RNP defines a statistical accuracy standard for a given phase of flight or approach type, rather than a single guaranteed tolerance."
+      }
+    ]
+  },
+
+  {
+    id:"principles",
+    title:"Principles of Flight",
+    desc:"Aerodynamics, stability, compressibility, and the physics that keeps an aircraft in the air.",
+    cards:[
+      {
+        h:"Continuity equation",
+        f:"Area × Velocity = constant",
+        e:"As air is squeezed into a smaller cross-section (like over a curved wing surface), it must speed up to keep the same volume flowing through per second."
+      },
+      {
+        h:"Bernoulli's principle",
+        f:"Static pressure + ½ρV² = constant  (Dynamic pressure Q = ½ρV²)",
+        e:"As airspeed increases over a surface, static pressure drops — the fundamental mechanism behind lift generation over a wing's upper surface."
+      },
+      {
+        h:"Lift equation",
+        f:"Lift = CL × ½ρV² × S",
+        e:"Lift depends on the lift coefficient (a function of angle of attack), dynamic pressure, and wing area — the master formula behind every aerodynamic performance question."
+      },
+      {
+        h:"Total drag equation",
+        f:"Drag = CD × ½ρV² × S",
+        e:"Same structure as the lift equation but using the drag coefficient — together, lift and drag define the whole aerodynamic force balance on the aircraft."
+      },
+      {
+        h:"Best range speed (jet)",
+        f:"Best range = 1.32 × VIMD",
+        e:"VIMD is the speed of minimum drag; the actual best-range speed for a jet sits noticeably faster because engine SFC improves as thrust/power setting increases."
+      },
+      {
+        h:"V-speed definitions",
+        f:"V1 = decision speed · V2 = safety speed at screen height with OEI · V3 = all-engines speed at screen · V4 = V2 + 10 kt (all-engine initial climb)",
+        e:"These four V-speeds define the critical take-off speed sequence, balancing engine-failure safety margins against runway length requirements."
+      },
+      {
+        h:"Speed of sound & Mach number",
+        f:"LSS (kt) = 38.94 × √T(K) · Mach = TAS ÷ LSS",
+        e:"Same core formula as in General Navigation/Instrumentation — repeated here because Mach effects (shockwaves, buffet) are central to high-speed principles of flight."
+      },
+      {
+        h:"Transonic mach thresholds",
+        f:"Mcrit: first local supersonic flow appears · M0.89: CP starts moving aft · Mdet: shockwave detaches, CL drops to ~70% of low-speed value",
+        e:"As a jet approaches and exceeds Mcrit, shockwaves form on the wing, the centre of pressure shifts aft, and lift characteristics change dramatically — the physics behind Mach buffet and 'coffin corner'."
+      },
+      {
+        h:"Propeller pitch ranges",
+        f:"Feather (+85°) → Flight coarse stop (+50°) → Flight fine stop (+14°) → Taxi/Ground fine (−1°) → Reverse (−15°)",
+        e:"A constant-speed propeller automatically moves toward fine pitch at low speed/high power demand and coarse pitch at high speed, maintaining constant RPM across the flight envelope."
+      },
+      {
+        h:"Aircraft stability terms",
+        f:"Static stability = initial response to displacement · Dynamic stability = what happens afterward, over time",
+        e:"An aircraft can be statically stable (initially tends to return to trim) but dynamically unstable (the resulting oscillation actually grows over time) — the two concepts are tested separately."
+      }
+    ]
+  },
+
+  {
+    id:"aviationlaw",
+    title:"Aviation Law",
+    desc:"ICAO framework, airspace classification, separation standards, and the regulatory backbone of commercial aviation.",
+    cards:[
+      {
+        h:"Air Traffic Services — 3 components",
+        f:"1. Air Traffic Control Service  2. Flight Information Service  3. Alerting Service",
+        e:"Every ATS unit provides some combination of these three core services, whether it's a full radar control centre or a simple FIS unit at a small aerodrome."
+      },
+      {
+        h:"Airspace classes A–G",
+        f:"A: IFR only, fully controlled · B: IFR+VFR controlled · C/D: IFR separated from all, VFR gets traffic info · E: IFR controlled, no VFR clearance needed · F/G: advisory/information service only, uncontrolled",
+        e:"The seven ICAO airspace classes form a spectrum from fully controlled (Class A) to essentially uncontrolled (Class G) — memorise what separation and service each class actually guarantees."
+      },
+      {
+        h:"ICAO Annexes (key ones)",
+        f:"1: Personnel Licensing · 2: Rules of the Air · 3: Met Services · 6: Operation of Aircraft · 8: Airworthiness · 11: ATC Services · 13: Accident Investigation · 14: Aerodromes",
+        e:"18 annexes cover every regulatory domain in aviation — numbers 1, 2, 3, 6, 8, 11, 13 and 14 come up most often in exams."
+      },
+      {
+        h:"Aerodrome reference codes",
+        f:"1: <800m · 2: 800–1200m · 3: 1200–1800m · 4: >1800m",
+        e:"The first element of the ICAO aerodrome reference code is based on the runway length required, driving related infrastructure standards like runway width and strip dimensions."
+      },
+      {
+        h:"MSA (Minimum Sector/Safe Altitude)",
+        f:"1,000 ft clearance within 25 NM (2,000 ft in mountainous terrain)",
+        e:"Guarantees terrain clearance for a defined sector around a navigation fix — the baseline safety altitude shown on approach charts."
+      },
+      {
+        h:"Speed categories (approach)",
+        f:"Category A: <91 kt · B: 91–121 kt · C: 121–141 kt · D: 141–166 kt · E: 166–211 kt",
+        e:"Calculated as 1.3 × stall speed in landing configuration — determines which approach minima and procedure-turn radius apply to a given aircraft type."
+      },
+      {
+        h:"Holding speeds",
+        f:"≤FL140: 170–230 kt (normal) · ≤FL200: 240–280 kt · ≤FL340: 265–280 kt",
+        e:"Maximum indicated airspeeds permitted in a published holding pattern, increasing with altitude and category to keep aircraft within the protected holding area."
+      },
+      {
+        h:"Wake turbulence separation",
+        f:"Standard 2 minutes on departure, up to several nautical miles on approach depending on weight category combination",
+        e:"Heavier aircraft generate stronger wingtip vortices; separation minima scale specifically to protect lighter aircraft following heavier ones."
+      },
+      {
+        h:"Supplemental oxygen requirements",
+        f:"Flight deck: required after 30 min above 10,000 ft (pressurised); entire time above 13,000 ft (unpressurised)",
+        e:"Oxygen requirements scale with cabin altitude and duration of exposure, protecting crew and passengers from hypoxia at reduced pressure."
+      },
+      {
+        h:"ATPL/CPL licensing hour minimums",
+        f:"ATPL: 1,500 total hours (incl. 500 PIC, 200 XC, 100 night) · CPL: 150 total hours (incl. 20 XC as PIC, 5 night)",
+        e:"Broad benchmark hour requirements across major licence categories — exact figures vary slightly by regulation but these are the standard reference numbers tested."
+      }
+    ]
+  },
+
+  {
+    id:"opsprocedures",
+    title:"Operational Procedures",
+    desc:"Approach categories, runway condition assessment, and the procedures governing day-to-day flight operations.",
+    cards:[
+      {
+        h:"Recency requirement",
+        f:"3 take-offs and landings within the preceding 90 days",
+        e:"The basic currency requirement to legally carry passengers — separate day/night recency requirements may also apply."
+      },
+      {
+        h:"Landing category minima",
+        f:"CAT I: DH 200 ft, RVR >550m · CAT II: DH 100 ft, RVR 300m · CAT IIIA: DH 0 ft, RVR 200m · CAT IIIB: DH 0 ft, RVR 75m · CAT IIIC: DH 0 ft, RVR 0m",
+        e:"As approach category increases, both decision height and required visibility shrink toward zero — CAT IIIC theoretically allows a fully automatic 'blind' landing."
+      },
+      {
+        h:"Contaminated vs wet runway",
+        f:"Contaminated: >25% of surface covered by >3mm water/slush, compacted snow, or ice · Wet: <3mm water, no significant standing water",
+        e:"This distinction drives significant performance penalties — contaminated runway landing/take-off distances require substantial safety margins over dry-runway figures."
+      },
+      {
+        h:"Braking action scale",
+        f:"0.4+ = good (5) · 0.35–0.39 = medium-good (4) · 0.30–0.35 = medium (3) · 0.26–0.29 = medium-poor (2) · <0.25 = poor (1)",
+        e:"A standardised numeric scale (SNOWTAM code) reporting runway friction, letting crews compare landing performance data consistently across airports worldwide."
+      },
+      {
+        h:"Jets vs turboprops landing distance factor",
+        f:"Class A jets must be able to land within 60% of LDA · Turboprops and Class B aircraft within 70%",
+        e:"Jets are required to demonstrate a larger safety margin (able to stop in less of the available distance) than turboprop or smaller Class B aircraft."
+      }
+    ]
+  },
+
+  {
+    id:"performance",
+    title:"Performance",
+    desc:"Take-off and landing distances, climb gradients, and the certified numbers behind every dispatch decision.",
+    cards:[
+      {
+        h:"Aircraft performance classes",
+        f:"Class A: jets/turboprops >9 seats or >5,700 kg MTOM · Class B: small piston/turbo, <9 seats, <5,700 kg · Class C: large piston aircraft",
+        e:"Each class has different certification standards (JAR 25 for Class A, JAR 23 for Class B) governing required performance margins."
+      },
+      {
+        h:"TODA / ASDA / Balanced field",
+        f:"TODA = TORA + clearway · ASDA = TORA + stopway · Balanced field: TODA = ASDA",
+        e:"These distances define how much runway/overrun is available for take-off roll versus how much is available to stop safely if the take-off is rejected."
+      },
+      {
+        h:"Climb gradient",
+        f:"Climb gradient (%) = (Rate of climb × 6000) ÷ (TAS × 6080)",
+        e:"Same formula from the quick-reference section — heavily used in obstacle clearance and engine-out performance calculations."
+      },
+      {
+        h:"Hydroplaning speed",
+        f:"Speed (kt) = 9 × √(tyre pressure in psi)",
+        e:"Above this speed on a wet/flooded runway, tyres can lose effective contact with the surface (aquaplaning), drastically reducing braking and directional control."
+      },
+      {
+        h:"Net vs gross take-off flight path",
+        f:"Class B (multi): clear obstacles by 50 ft using net performance (net = 0.77 × gross) · Class A: clear by 35 ft (net = gross × 0.8 twin / 0.9 three-engine / 1.0 four-engine)",
+        e:"'Net' performance applies a safety margin below the theoretical 'gross' (average fleet) performance to account for aircraft-to-aircraft variability and ensure a safe obstacle clearance margin."
+      },
+      {
+        h:"V-speeds in take-off performance",
+        f:"V1 = decision speed · VR = rotation speed (>1.05 × VMCA) · V2 = safety speed at screen height with one engine out",
+        e:"VMC (minimum control speed) is highest in cold, dense air where asymmetric thrust is greatest — this is why VR must always maintain a margin above it."
+      },
+      {
+        h:"Take-off flight path segments",
+        f:"1st: liftoff to gear-up · 2nd: climb at V2 to level-off · 3rd: acceleration segment, flaps retracting · 4th: final climb to 1,500 ft",
+        e:"The engine-out net take-off flight path is broken into four defined segments, each with its own required climb gradient, ending at the standard 1,500 ft obstacle clearance altitude."
+      }
+    ]
+  },
+
+  {
+    id:"generalknowledge",
+    title:"Aircraft General Knowledge",
+    desc:"Electrical systems, basic physics, and the engineering fundamentals behind aircraft systems.",
+    cards:[
+      {
+        h:"Basic electrical laws",
+        f:"V = I × R  ·  P = I² × R  ·  P = V × I",
+        e:"Ohm's Law and its power derivatives — the foundation for every aircraft electrical system question, from generator load to circuit protection."
+      },
+      {
+        h:"RMS voltage",
+        f:"RMS voltage = 0.707 × peak voltage",
+        e:"Aircraft AC systems are rated in RMS (root mean square) terms, not peak voltage — a standard 115V AC system actually peaks at over 160V."
+      },
+      {
+        h:"Typical aircraft AC supply",
+        f:"115V (RMS), 400 Hz, three-phase",
+        e:"Aircraft use 400 Hz (much higher than the 50/60 Hz domestic mains) because it allows smaller, lighter transformers and motors — a critical weight-saving choice."
+      },
+      {
+        h:"Frequency from RPM",
+        f:"F (Hz) = RPM × pole pairs ÷ 60",
+        e:"Relates a generator's rotational speed and pole configuration to its electrical output frequency — the basis for constant-frequency generator design."
+      },
+      {
+        h:"Force, momentum, and work",
+        f:"Force = mass × acceleration · Momentum = mass × velocity · Work = force × distance · Power = work ÷ time",
+        e:"Core Newtonian mechanics that underpin everything from engine thrust calculations to structural loading."
+      },
+      {
+        h:"Pressure formula",
+        f:"P = F ÷ A   (bar × 14.5 = psi)",
+        e:"The basic pressure relationship used across hydraulics, pneumatics, and tyre pressure calculations — with the standard bar-to-psi conversion factor."
+      },
+      {
+        h:"Emission classification codes",
+        f:"A3E = VHF comms · A8W = ILS · A9W = VOR · N0N = DME · NON = NDB carrier · A1A = NDB ident",
+        e:"ICAO's standardised codes describe the exact modulation type of each aeronautical system's signal — recognising a few key ones (VOR, ILS, DME, NDB) covers most exam questions."
+      }
+    ]
+  }
+];
+
+// ---------- Rendering ----------
+const main = document.getElementById('mainContent');
+const tocNav = document.getElementById('tocNav');
+const noResults = document.getElementById('noResults');
+
+function escapeAttr(str){
+  return str.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+function stripTags(str){
+  return str.replace(/<[^>]*>/g,'');
+}
+
+function buildTOC(){
+  let html = '<div class="toc-title">Jump to subject</div>';
+  DATA.forEach((section, i) => {
+    html += `<a class="toc-link" href="#${section.id}" data-target="${section.id}">
+      <span class="num">${String(i+1).padStart(2,'0')}</span>${section.title}
+      <span class="count">${section.cards.length}</span>
+    </a>`;
+  });
+  tocNav.innerHTML = html;
+}
+
+function buildSections(){
+  let html = '';
+  DATA.forEach((section, i) => {
+    html += `<section class="topic" id="${section.id}">
+      <div class="topic-head">
+        <span class="topic-index">${String(i+1).padStart(2,'0')}</span>
+        <h2>${section.title}</h2>
+      </div>
+      <p class="topic-desc">${section.desc}</p>
+      <div class="table-wrap">
+        <table class="formula-table">
+          <colgroup>
+            <col class="col-num"><col class="col-concept"><col class="col-formula"><col class="col-explain">
+          </colgroup>
+          <thead>
+            <tr><th>#</th><th>Concept</th><th>Formula / Rule</th><th>Plain-language explanation</th></tr>
+          </thead>
+          <tbody>`;
+    section.cards.forEach((card, idx) => {
+      const searchBlob = escapeAttr((card.h+' '+card.f+' '+stripTags(card.e)).toLowerCase());
+      html += `<tr data-search="${searchBlob}">
+        <td class="cell-num">${idx+1}</td>
+        <td class="cell-concept"><span class="concept-icon">●</span>${card.h}</td>
+        <td class="cell-formula">${card.f}</td>
+        <td class="cell-explain">${card.e}</td>
+      </tr>`;
+    });
+    html += `</tbody></table></div></section>`;
+  });
+  main.insertAdjacentHTML('afterbegin', html);
+}
+
+buildTOC();
+buildSections();
+
+// ---------- Search filter ----------
+const input = document.getElementById('searchInput');
+const resultCount = document.getElementById('resultCount');
+const allSections = () => document.querySelectorAll('section.topic');
+
+function filterRows(){
+  const q = input.value.trim().toLowerCase();
+  let visibleTotal = 0;
+  allSections().forEach(section => {
+    let visibleInSection = 0;
+    section.querySelectorAll('tbody tr').forEach(row => {
+      const match = q === '' || row.dataset.search.includes(q);
+      row.style.display = match ? '' : 'none';
+      if(match){ visibleInSection++; visibleTotal++; }
+    });
+    section.style.display = visibleInSection > 0 ? '' : 'none';
+  });
+  if(q === ''){
+    resultCount.textContent = '';
+  } else {
+    resultCount.textContent = visibleTotal + ' result' + (visibleTotal===1?'':'s');
+  }
+  noResults.style.display = (q !== '' && visibleTotal === 0) ? 'block' : 'none';
+}
+input.addEventListener('input', filterRows);
+
+// ---------- Active TOC link on scroll ----------
+const tocLinks = () => document.querySelectorAll('.toc-link');
+function setActive(id){
+  tocLinks().forEach(l => l.classList.toggle('active', l.dataset.target === id));
+}
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      setActive(entry.target.id);
+    }
+  });
+}, { rootMargin: '-80px 0px -70% 0px', threshold: 0 });
+allSections().forEach(sec => observer.observe(sec));
+</script>
+</body>
+</html>
