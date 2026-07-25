@@ -9,7 +9,10 @@ const CRUMBS = document.getElementById("breadcrumbs");
 const PASS_MARK = 70; // % — DGCA ground exam pass threshold
 
 // Subjects that don't have local chapter data — clicking their card
-// opens an external tool in a new tab instead of navigating in-app.
+// opens an external tool instead of navigating in-app.
+// "radio-telephony" is special-cased below: instead of opening
+// directly, it shows an inline PDF ad popup first (see
+// showRtrAdPopup()), which then navigates on to RTR_URL when closed.
 const EXTERNAL_SUBJECTS = {
   "radio-telephony": {
     url: "https://dgca-rtr-simulator.vercel.app/login.html",
@@ -20,6 +23,9 @@ const EXTERNAL_SUBJECTS = {
     label: "Opens Cockpit Study"
   }
 };
+
+// Where the popup sends the visitor once they close it.
+const RTR_LANDING_URL = "https://dgca-rtr-simulator.vercel.app/";
 
 /* ============================================================
    STORAGE LAYER (all persisted client-side via localStorage)
@@ -113,6 +119,43 @@ function ringSVG(pct, size, stroke, cls) {
 }
 
 /* ============================================================
+   RTR AD POPUP — shown when the Radio Telephony card is clicked.
+   The PDF renders INLINE inside this popup's own HTML via
+   <iframe> — nothing downloads, no new tab, no external app opens.
+   Closing it (X, backdrop click, Escape, or the Continue button)
+   navigates the current tab on to the live RTR simulator.
+   ============================================================ */
+function showRtrAdPopup() {
+  const overlay = el(`
+    <div id="rtr-ad-overlay" style="position:fixed;inset:0;z-index:99999;background:rgba(5,8,16,0.85);backdrop-filter:blur(4px);display:flex;align-items:center;justify-content:center;padding:20px;">
+      <div style="position:relative;width:100%;max-width:820px;height:88vh;background:var(--panel);border:1px solid var(--border);border-radius:16px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,0.6);display:flex;flex-direction:column;">
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:14px 18px;border-bottom:1px solid var(--border);background:var(--bg-elev);flex-shrink:0;">
+          <div style="font-family:var(--font-display);font-weight:700;font-size:14px;color:var(--amber);">DGCA RTR(A) Practice Simulator</div>
+          <button id="rtr-ad-close" title="Close and continue to RTR Simulator" style="width:32px;height:32px;border-radius:8px;border:1px solid var(--border);background:transparent;color:var(--text-muted);font-size:18px;line-height:1;cursor:pointer;">&times;</button>
+        </div>
+        <iframe src="DGCA_RTR_SIMULATOR_BROCHURE.pdf" style="flex:1;border:none;width:100%;background:#fff;"></iframe>
+        <div style="padding:12px 18px;border-top:1px solid var(--border);display:flex;justify-content:flex-end;gap:10px;background:var(--bg-elev);flex-shrink:0;">
+          <button id="rtr-ad-continue" class="btn btn-primary btn-sm">Continue to RTR Simulator &rarr;</button>
+        </div>
+      </div>
+    </div>
+  `);
+  document.body.appendChild(overlay);
+
+  function goToRtr() {
+    window.location.href = RTR_LANDING_URL;
+  }
+  function onKeydown(e) {
+    if (e.key === "Escape") goToRtr();
+  }
+
+  overlay.querySelector("#rtr-ad-close").addEventListener("click", goToRtr);
+  overlay.querySelector("#rtr-ad-continue").addEventListener("click", goToRtr);
+  overlay.addEventListener("click", (e) => { if (e.target === overlay) goToRtr(); });
+  document.addEventListener("keydown", onKeydown);
+}
+
+/* ============================================================
    DATA HELPERS
    ============================================================ */
 
@@ -134,11 +177,7 @@ function subjectQuestionCount(subject) { return (subject.chapters || []).reduce(
 function navigate(hash) { window.location.hash = hash; }
 
 window.addEventListener("hashchange", render);
-window.addEventListener("DOMContentLoaded", async function () {
-  await initAuthAndQuestions();
-  renderAccountWidget();
-  render();
-});
+window.addEventListener("DOMContentLoaded", render);
 
 function render() {
   const hash = window.location.hash.replace(/^#\/?/, "");
@@ -191,26 +230,6 @@ function renderHome() {
     </div>
   `));
 
-  if (!window.AUTH.hasPaid) {
-    const totalFree = (window.META || []).reduce((s, sub) => s + sub.chapters.reduce((n, c) => n + c.free, 0), 0);
-    const totalFull = (window.META || []).reduce((s, sub) => s + sub.chapters.reduce((n, c) => n + c.total, 0), 0);
-    const banner = el(`
-      <div class="chapter-row" style="border-color:var(--amber); margin-bottom:20px;">
-        <div class="chapter-row-left">
-          <div>
-            <div class="chapter-name">You're on the free sample &middot; ${totalFree} of ${totalFull} questions</div>
-            <div class="chapter-meta">Unlock every subject and chapter with a one-time payment.</div>
-          </div>
-        </div>
-        <div class="chapter-row-actions">
-          <button class="btn btn-sm" id="ff-home-unlock" style="background:var(--amber);color:#2a1e00;">Unlock full access &middot; ${EXAM_PRICE_DISPLAY}</button>
-        </div>
-      </div>
-    `);
-    banner.querySelector("#ff-home-unlock").addEventListener("click", startCheckout);
-    APP.appendChild(banner);
-  }
-
   const quickRow = el(`<div class="grid" style="margin-bottom:6px;"></div>`);
   quickRow.appendChild(quickCard("Revise mistakes", mistakeCount + " question" + (mistakeCount === 1 ? "" : "s") + " flagged wrong", "#/mistakes", "chip-danger"));
   quickRow.appendChild(quickCard("Bookmarks", bookmarkCount + " question" + (bookmarkCount === 1 ? "" : "s") + " saved", "#/bookmarks", "chip-cyan"));
@@ -233,7 +252,11 @@ function renderHome() {
         <div class="card-meta">${isExternal ? ext.label : qc + " question" + (qc === 1 ? "" : "s")}</div>
       </button>
     `);
-    if (isExternal) {
+    if (sub.id === "radio-telephony") {
+      // Special case: show the inline-PDF ad popup first; the popup
+      // itself handles navigating on to the RTR simulator when closed.
+      card.addEventListener("click", () => showRtrAdPopup());
+    } else if (isExternal) {
       card.addEventListener("click", () => window.open(ext.url, "_blank", "noopener"));
     } else {
       card.addEventListener("click", () => navigate(`#/subject/${sub.id}`));
@@ -291,26 +314,21 @@ function renderChapterList(subjectId) {
     const key = `${subjectId}/${ch.id}`;
     const stat = Store.statsForChapterKey(key);
     const warnCount = (ch.parseWarnings || []).length;
-    const cm = metaFor(subjectId, ch.id);
-    const locked = !window.AUTH.hasPaid && cm && cm.total > cm.free;
-    const lockChip = locked ? ` <span class="chip chip-amber" title="${cm.free} free, ${cm.total} total">&#128274; ${cm.total - cm.free} locked</span>` : "";
     const row = el(`
       <div class="chapter-row">
         <div class="chapter-row-left">
           <div class="chapter-index">${String(i + 1).padStart(2, "0")}</div>
           <div>
-            <div class="chapter-name">${ch.name}${warnCount ? ` <span class="chip chip-danger" title="${(ch.parseWarnings||[]).join(' | ').replace(/"/g,'&quot;')}">${warnCount} to fix</span>` : ""}${lockChip}</div>
-            <div class="chapter-meta">${ch.questions.length}${locked ? ` of ${cm.total}` : ""} question${ch.questions.length === 1 ? "" : "s"}${stat ? ` &middot; best ${stat.best}% &middot; ${stat.attempts} attempt${stat.attempts === 1 ? "" : "s"}` : " &middot; not attempted yet"}</div>
+            <div class="chapter-name">${ch.name}${warnCount ? ` <span class="chip chip-danger" title="${(ch.parseWarnings||[]).join(' | ').replace(/"/g,'&quot;')}">${warnCount} to fix</span>` : ""}</div>
+            <div class="chapter-meta">${ch.questions.length} questions${stat ? ` &middot; best ${stat.best}% &middot; ${stat.attempts} attempt${stat.attempts === 1 ? "" : "s"}` : " &middot; not attempted yet"}</div>
           </div>
         </div>
         <div class="chapter-row-actions">
           <button class="btn btn-ghost btn-sm" data-act="practice">Practice</button>
           <button class="btn btn-primary btn-sm" data-act="test">Test</button>
-          ${locked ? `<button class="btn btn-sm" data-act="unlock" style="background:var(--amber);color:#2a1e00;">Unlock all</button>` : ""}
         </div>
       </div>
     `);
-    if (locked) row.querySelector('[data-act="unlock"]').addEventListener("click", (e) => { e.stopPropagation(); startCheckout(); });
     row.querySelector('[data-act="practice"]').addEventListener("click", () => { setupState.mode = "practice"; navigate(`#/setup/${subjectId}/${ch.id}`); });
     row.querySelector('[data-act="test"]').addEventListener("click", () => { setupState.mode = "test"; navigate(`#/setup/${subjectId}/${ch.id}`); });
     row.addEventListener("click", (e) => {
