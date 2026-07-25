@@ -9,11 +9,7 @@ const CRUMBS = document.getElementById("breadcrumbs");
 const PASS_MARK = 70; // % — DGCA ground exam pass threshold
 
 // Subjects that don't have local chapter data — clicking their card
-// opens an external tool instead of navigating in-app.
-// "radio-telephony" is special-cased below: instead of opening
-// directly, it shows an inline PDF ad popup first (see
-// showRtrAdPopup()), which then navigates on to RTR_LANDING_URL
-// when the popup is closed.
+// opens an external tool in a new tab instead of navigating in-app.
 const EXTERNAL_SUBJECTS = {
   "radio-telephony": {
     url: "https://dgca-rtr-simulator.vercel.app/login.html",
@@ -24,9 +20,6 @@ const EXTERNAL_SUBJECTS = {
     label: "Opens Cockpit Study"
   }
 };
-
-// Where the popup sends the visitor once they close it.
-const RTR_LANDING_URL = "https://dgca-rtr-simulator.vercel.app/";
 
 /* ============================================================
    STORAGE LAYER (all persisted client-side via localStorage)
@@ -117,43 +110,6 @@ function ringSVG(pct, size, stroke, cls) {
     <circle class="ring-fill ${cls || ""}" cx="${size/2}" cy="${size/2}" r="${r}" stroke-width="${stroke}"
       stroke-dasharray="${c}" stroke-dashoffset="${offset}"></circle>
   </svg>`;
-}
-
-/* ============================================================
-   RTR AD POPUP — shown when the Radio Telephony card is clicked.
-   The PDF renders INLINE inside this popup's own HTML via
-   <iframe> — nothing downloads, no new tab, no external app opens.
-   Closing it (X, backdrop click, Escape, or the Continue button)
-   navigates the current tab on to the live RTR simulator.
-   ============================================================ */
-function showRtrAdPopup() {
-  const overlay = el(`
-    <div id="rtr-ad-overlay" style="position:fixed;inset:0;z-index:99999;background:rgba(5,8,16,0.85);backdrop-filter:blur(4px);display:flex;align-items:center;justify-content:center;padding:20px;">
-      <div style="position:relative;width:100%;max-width:820px;height:88vh;background:var(--panel);border:1px solid var(--border);border-radius:16px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,0.6);display:flex;flex-direction:column;">
-        <div style="display:flex;align-items:center;justify-content:space-between;padding:14px 18px;border-bottom:1px solid var(--border);background:var(--bg-elev);flex-shrink:0;">
-          <div style="font-family:var(--font-display);font-weight:700;font-size:14px;color:var(--amber);">DGCA RTR(A) Practice Simulator</div>
-          <button id="rtr-ad-close" title="Close and continue to RTR Simulator" style="width:32px;height:32px;border-radius:8px;border:1px solid var(--border);background:transparent;color:var(--text-muted);font-size:18px;line-height:1;cursor:pointer;">&times;</button>
-        </div>
-        <iframe src="DGCA_RTR_SIMULATOR_BROCHURE.pdf" style="flex:1;border:none;width:100%;background:#fff;"></iframe>
-        <div style="padding:12px 18px;border-top:1px solid var(--border);display:flex;justify-content:flex-end;gap:10px;background:var(--bg-elev);flex-shrink:0;">
-          <button id="rtr-ad-continue" class="btn btn-primary btn-sm">Continue to RTR Simulator &rarr;</button>
-        </div>
-      </div>
-    </div>
-  `);
-  document.body.appendChild(overlay);
-
-  function goToRtr() {
-    window.location.href = RTR_LANDING_URL;
-  }
-  function onKeydown(e) {
-    if (e.key === "Escape") goToRtr();
-  }
-
-  overlay.querySelector("#rtr-ad-close").addEventListener("click", goToRtr);
-  overlay.querySelector("#rtr-ad-continue").addEventListener("click", goToRtr);
-  overlay.addEventListener("click", (e) => { if (e.target === overlay) goToRtr(); });
-  document.addEventListener("keydown", onKeydown);
 }
 
 /* ============================================================
@@ -277,11 +233,7 @@ function renderHome() {
         <div class="card-meta">${isExternal ? ext.label : qc + " question" + (qc === 1 ? "" : "s")}</div>
       </button>
     `);
-    if (sub.id === "radio-telephony") {
-      // Special case: show the inline-PDF ad popup first; the popup
-      // itself handles navigating on to the RTR simulator when closed.
-      card.addEventListener("click", () => showRtrAdPopup());
-    } else if (isExternal) {
+    if (isExternal) {
       card.addEventListener("click", () => window.open(ext.url, "_blank", "noopener"));
     } else {
       card.addEventListener("click", () => navigate(`#/subject/${sub.id}`));
