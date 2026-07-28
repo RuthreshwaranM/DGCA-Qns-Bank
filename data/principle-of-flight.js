@@ -1,6 +1,6 @@
 registerSubject("principles-of-flight", "Principles of Flight");
 
-registerChapterText("principles-of-flight", "overview-and-definitions", "Overview and Definitions", `
+registerChapterText("principles-of-flight", "overview-and-definitions", "Overview and Definitions-Oxford", `
 1. An aircraft's mass is a result of:
 a. It weight
 b. How big it is
@@ -193,7 +193,7 @@ Explanation: Momentum = mass x velocity, so statements 1, 2 and 3 are correct; s
 
 registerSubject("principles-of-flight", "Principles of Flight");
 
-registerChapterText("principles-of-flight", "atmosphere", "Atmosphere", `
+registerChapterText("principles-of-flight", "atmosphere", "Atmosphere-Oxford", `
 1. When considering air: 1- Air has mass 2- Air is not compressible 3-Air is able to flow or change its shape when subject to even small pressures 4-The viscosity of air is very high 5-Moving air has kinetic energy. The correct combination of all true statements is:
 a. 1,2,3 and 5
 b. 2,3 and 4
@@ -351,7 +351,7 @@ Explanation: The critical Mach number is the aircraft's Mach number at which air
 
 registerSubject("principles-of-flight", "Principles of Flight");
 
-registerChapterText("principles-of-flight", "basic-aerodynamics", "Basic Aerodynamics", `
+registerChapterText("principles-of-flight", "basic-aerodynamics", "Basic Aerodynamics-Oxford", `
 1. If the cross sectional area of an airflow is mechanically reduced:
 a. The velocity of the airflow remains constant and the kinetic energy increases
 b. The velocity of the airflow remains constant and the mass flow increases
@@ -422,7 +422,7 @@ b. The equation of kinetic energy
 d. Bernoulli's principle of continuity
 Explanation: This statement describes the conservation of mass and energy, which is the underlying physical basis for the principle of continuity in fluid flow.
 `);
-registerChapterText("principles-of-flight", "subsonic-airflow", "Subsonic Air Flow", `
+registerChapterText("principles-of-flight", "subsonic-airflow", "Subsonic Air Flow-Oxford", `
 1. With reference to aerofoil section terminology, which of the following statements is true:
 a. The chord line is a line joining the centre of curvature of the leading edge to the centre of the trailing edge, equidistant from the top and bottom surface of the aerofoil.
 b. The angle of incidence is the angle between the chord line and the horizontal datum of the aircraft.
@@ -564,7 +564,7 @@ d. At normal angles of attack lift can be lost entirely if enough ice accumulate
 Explanation: Ice distorts the aerofoil shape, disrupting airflow, reducing lift significantly, and increasing stall speed.
 `);
 
-registerChapterText("principles-of-flight", "lift", "Lift", `
+registerChapterText("principles-of-flight", "lift", "Lift-Oxford", `
 1. To maintain altitude, what must be done as Indicated Air Speed (IAS) is reduced:
 a. Decrease angle of attack to reduce the drag.
 *b. Increase angle of attack to maintain the correct lift force.
@@ -822,7 +822,7 @@ c. A higher TAS for the same lift off IAS.
 Explanation: Low density altitude provides denser air, improving aircraft performance and reducing the take-off distance.
 `);
 
-registerChapterText("principles-of-flight", "drag", "Drag", `
+registerChapterText("principles-of-flight", "drag", "Drag-Oxford", `
 1. What is the effect on total drag of an aircraft if the airspeed decreases in level flight below that speed for maximum L/D?
 *a. Drag increases because of increased induced drag.
 b. Drag decreases because of lower induced drag.
@@ -1048,7 +1048,7 @@ c. (i) 4, (ii) 1/16, (iii) 1/4
 Explanation: According to the source, doubling IAS doubles TAS, reduces the coefficient of induced drag to one-sixteenth, and reduces induced drag to one-quarter.
 `);
 
-registerChapterText("principles-of-flight", "stalling", "Stalling", `
+registerChapterText("principles-of-flight", "stalling", "Stalling-Oxford", `
 1. An aeroplane will stall at the same:
 a. Angle of attack and attitude with relation to the horizon
 b. Airspeed regardless of the attitude with relation to the horizon
@@ -1315,7 +1315,7 @@ d. Decrease the bank angle
 Explanation: The stick shaker is a direct and immediate warning of an impending stall based on angle of attack. The correct and immediate response is to reduce the angle of attack, typically by easing forward pressure on the controls, to restore a safe margin above the stall, rather than delaying to verify the warning or relying solely on thrust or bank angle changes, which do not directly address the angle of attack problem.
 `);
 
-registerChapterText("principles-of-flight", "ch1-flaps", "Flaps and High Lift Devices", `
+registerChapterText("principles-of-flight", "ch1-flaps", "Flaps and High Lift Devices-Oxford", `
 1. With the flaps lowered, the stalling speed will:
 a. Increase
 *b. Decrease
@@ -1421,7 +1421,7 @@ c. Krueger flap
 d. Variable camber flap
 Explanation: This question refers to an illustration (Annex F) that was not included with the material provided, so the specific answer cannot be confirmed here; if you upload that diagram, it can be identified precisely. For reference, a Krueger flap is a leading-edge device that hinges forward and down from the underside of the leading edge to increase camber, while a slat is a separate aerofoil-shaped leading-edge device that extends forward, creating a slot to re-energise the boundary layer.
 `);
-registerChapterText("principles-of-flight", "ch2-airframe-contamination", "Airframe Contamination", `
+registerChapterText("principles-of-flight", "ch2-airframe-contamination", "Airframe Contamination-Oxford", `
 1. After an aircraft has been exposed to severe weather:
 a. Snow should be removed but smooth ice may be left
 *b. All snow and ice should be removed
@@ -1471,7 +1471,7 @@ c. 1, 4 and 6
 *d. 4, 5 and 6
 Explanation: Icing can alter the wing's stalling characteristics enough that AoA-based stall warning systems, the classic nose-down pitching tendency, and elevator response can all become unreliable or absent; the indications that remain reliably present in an icing-induced stall are airframe buffet, a developing roll control problem such as wing drop or oscillation, and a high rate of descent.
 `);
-registerChapterText("principles-of-flight", "ch3-stability-and-control", "Stability and Control", `
+registerChapterText("principles-of-flight", "ch3-stability-and-control", "Stability and Control-Oxford", `
 1. An aeroplane which is inherently stable will:
 a. Require less effort to control
 b. Be difficult to stall
@@ -1690,7 +1690,7 @@ d. The CG is on the forward CG limit
 Explanation: Stick force per knot (speed stability) falls to zero when the CG coincides with the stick-free neutral point; forward of this point, positive stick forces are needed to change speed away from trim, while aft of it, the stick force gradient can reverse.
 `);
 
-registerChapterText("principles-of-flight", "ch4-controls", "Controls", `
+registerChapterText("principles-of-flight", "ch4-controls", "Controls-Oxford", `
 1. An elevon is:
 a. An all moving tailplane that has no elevator
 b. The correct name for a V-tail
@@ -1995,7 +1995,7 @@ c. The aerodynamic loads on the control surface
 d. The mass balance weights
 Explanation: In a fully powered (irreversible) control system, aerodynamic loads on the control surfaces are not transmitted back to the pilot's controls at all, so an artificial feel unit, commonly a Q-feel system that generates a resistance proportional to dynamic pressure, is fitted specifically to give the pilot realistic, speed-related control forces.
 `);
-registerChapterText("principles-of-flight", "ch5-flight-mechanics", "Flight Mechanics", `
+registerChapterText("principles-of-flight", "ch5-flight-mechanics", "Flight Mechanics-Oxford", `
 1. In straight and level powered flight the following principal forces act on an aircraft:
 a. Thrust, lift, weight.
 *b. Thrust, lift, drag, weight
@@ -2244,7 +2244,7 @@ a. Heading, altitude, and ability to climb 50 ft/min
 c. Heading and altitude
 Explanation: VMCA is defined purely as the minimum airspeed at which directional (heading) control can still be maintained, using no more than a specified amount of bank, following failure of the critical engine; it makes no guarantee about the ability to also maintain altitude or achieve any climb performance at that speed.
 `);
-registerChapterText("principles-of-flight", "ch6-high-speed-flight", "High-Speed Flight", `
+registerChapterText("principles-of-flight", "ch6-high-speed-flight", "High-Speed Flight-Oxford", `
 1. Identify which of the following is the correct formula for Mach number:
 *a. TAS/M a = constant
 b. M = IAS/a
@@ -2434,7 +2434,7 @@ c. The TAS of the aircraft less the wind speed
 d. The TAS relative to the speed of sound at sea level
 Explanation: An oblique shock wave (such as a sonic boom's shock cone) is generated by, and remains attached to, the aircraft as it moves; as a fixed pattern relative to the aircraft, it therefore travels over the ground at exactly the aircraft's groundspeed.
 `);
-registerChapterText("principles-of-flight", "ch7-limitations", "Limitations", `
+registerChapterText("principles-of-flight", "ch7-limitations", "Limitations-Oxford", `
 1. If an aircraft is flown at its design manoeuvring speed VA:
 a. It is possible to subject the aircraft to a load greater than its limit load during high 'g' manoeuvres.
 b. It is only possible to subject the aircraft to a load greater than its limit load during violent increases in incidence, i.e. when using excessive stick force to pull-out of a dive
@@ -2526,7 +2526,7 @@ b. 1, 2, 3 and 6
 d. 1, 3, 5 and 6
 Explanation: Statements 1, 2, and 4 are all correct design principles and facts (control reversal and torsional divergence speeds must have generous margins above any achievable flight speed, and every airframe is inherently flexible rather than perfectly rigid); statement 6 correctly describes why some large aircraft lock out their outboard ailerons at high speed. Statement 3 is incorrect because it is mass balance, not aerodynamic balance, that specifically prevents flutter, and statement 5 is incorrect because aeroelastic effects actually increase (are directly related to) with increasing IAS/dynamic pressure, not inversely proportional to it.
 `);
-registerChapterText("principles-of-flight", "ch8-wind-shear", "Wind Shear", `
+registerChapterText("principles-of-flight", "ch8-wind-shear", "Wind Shear-Oxford", `
 1. Take-off EPR is being delivered by all engines and the take-off is proceeding normally, the undercarriage has just retracted. Which initial indications may be observed when a headwind shears to a downdraught?
 a. Indicated Air Speed: constant. Vertical Speed: decreases. Pitch Attitude: decreases.
 b. Indicated Air Speed: increases. Vertical Speed: decreases. Pitch Attitude: constant.
@@ -2647,7 +2647,7 @@ c. Avoid windshear by delaying departure or by diverting if airborne
 *d. Prepare for the inadvertent encounter by a speed 'margin' if 'energy loss' windshear is suspected.
 Explanation: When an energy-loss (performance-decreasing) windshear encounter is suspected on approach or departure, carrying an additional airspeed margin above the normal target speed provides a buffer against the airspeed loss that such a shear would otherwise cause, reducing the risk of an unsafe energy state during the encounter.
 `);
-registerChapterText("principles-of-flight", "ch9-propeller-gyroscopics", "Propeller (Gyroscopic and Handling Effects)", `
+registerChapterText("principles-of-flight", "ch9-propeller-gyroscopics", "Propeller (Gyroscopic and Handling Effects)-Oxford", `
 1. As a result of gyroscopic precession, it can be said that:
 a. Any pitching around the longitudinal axis results in a yawing moment
 *b. Any yawing around the normal axis results in a pitching moment
@@ -2769,7 +2769,7 @@ d. The prop control lever to be advanced.
 Explanation: With RPM held constant by the governor, extra engine power can only be absorbed by increasing the load the propeller presents; this is achieved by coarsening (increasing) the blade angle, which increases the aerodynamic resistance and torque absorbed at the same rotational speed.
 `);
 
-registerChapterText("principles-of-flight", "part-1", "Part 1", `
+registerChapterText("principles-of-flight", "part-1", "Part 1-Oxford", `
 1. A unit of measurement of pressure is:
 a. kg/square dm
 b. kg/cubic metre
@@ -2945,7 +2945,7 @@ b. A positive (nose up) pitching moment
 d. No aerodynamic force
 Explanation: A symmetrical aerofoil has identical upper and lower surface curvature, so its pressure distribution is symmetrical about the chord at all angles of attack, producing zero pitching moment regardless of the lift being generated - this is one of the defining aerodynamic properties of a symmetrical section.
 `);
-registerChapterText("principles-of-flight", "part-2", "Part 2", `
+registerChapterText("principles-of-flight", "part-2", "Part 2-Oxford", `
 1. Angle of attack is the angle between:
 *a. undisturbed airflow and chord line
 b. undisturbed airflow and mean camber line
@@ -3121,7 +3121,7 @@ b. lift decreases and drag increases
 d. the aircraft will be partially supported on a cushion of air
 Explanation: Ground effect weakens tip vortices and downwash, reducing the induced angle of attack; for the same geometric angle of attack this effectively increases lift while reducing induced drag, which is why aircraft tend to float and are reluctant to settle onto the runway when flared too high.
 `);
-registerChapterText("principles-of-flight", "part-3", "Part 3", `
+registerChapterText("principles-of-flight", "part-3", "Part 3-Oxford", `
 1. When considering an angle of attack versus coefficient of lift graph for a cambered aerofoil, where does the lift curve intersect the vertical CL axis?
 *a. above the origin
 b. below the origin
@@ -3296,7 +3296,7 @@ c. Parasite drag
 d. Form drag
 Explanation: This question refers to a specific drag-versus-speed diagram not reproduced here; conventionally, such diagrams plot total drag on the vertical axis against airspeed on the horizontal axis, showing the classic U-shaped total drag curve made up of induced and parasite drag components.
 `);
-registerChapterText("principles-of-flight", "part-4", "Part 4", `
+registerChapterText("principles-of-flight", "part-4", "Part 4-Oxford", `
 1. The advantage of a turbulent boundary layer over a laminar boundary layer is:
 a. decreases energy
 b. thinner
