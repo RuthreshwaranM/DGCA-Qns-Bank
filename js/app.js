@@ -40,6 +40,7 @@ const SUBJECT_IMAGES = {
   "piston-engines": "pistonengine.png",
   "jet-engines": "jetengine.png",
   "principles-of-flight": "pof.png",
+  "Red-bird-technical": "Red-bird-technical.png",
   "electric-and-electronics": "electrics.png",
   "mass-balance-performance": "massbalance.png",
   "flight-planning-monitoring": "flightplanning.png",
