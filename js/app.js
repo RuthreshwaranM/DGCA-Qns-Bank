@@ -27,6 +27,35 @@ const EXTERNAL_SUBJECTS = {
 // Where the popup sends the visitor once they close it.
 const RTR_LANDING_URL = "https://dgca-rtr-simulator.vercel.app/";
 
+// Subject thumbnail images. Put these files in the site root
+// (same folder as logo1.png) and adjust names as you like —
+// just keep the id on the left matching the data file's id.
+const SUBJECT_IMAGES = {
+  "air-navigation": "airnav.png",
+  "radio-navigation": "radionav.png",
+  "navigation-instrumentation": "navinstrument.png",
+  "aviation-meteorology": "metlogo.png",
+  "air-regulations": "airregs.png",
+  "airframes-and-system": "airframes.png",
+  "piston-engines": "pistonengine.png",
+  "jet-engines": "jetengine.png",
+  "principles-of-flight": "pof.png",
+  "electric-and-electronics": "electrics.png",
+  "mass-balance-performance": "massbalance.png",
+  "flight-planning-monitoring": "flightplanning.png",
+  "performance": "performance.png",
+  "technical-specific": "techspecific.png",
+  "atpl-met": "atplmet.png",
+  "atpl-gen-nav": "atplgennav.png",
+  "atpl-radionav": "atplradionav.png",
+  "DGCA-previous-attempt-qns": "previousqns.png",
+  "Boeing-737": "boeing737.png",
+  "indigo-qns-bank": "indigo.png",
+  "Airbus-320": "airbus320.png",
+  "radio-telephony": "radiotelephony.png",
+  "cockpit-study": "cockpitstudy.png"
+};
+
 /* ============================================================
    STORAGE LAYER (all persisted client-side via localStorage)
    ============================================================ */
@@ -243,8 +272,10 @@ function renderHome() {
     const cc = (sub.chapters || []).length;
     const ext = EXTERNAL_SUBJECTS[sub.id];
     const isExternal = !!ext;
+    const img = SUBJECT_IMAGES[sub.id];
     const card = el(`
       <button class="card">
+        ${img ? `<div class="card-img-wrap"><img src="${img}" alt="${sub.name}" class="card-img" onerror="this.parentElement.remove()"></div>` : ""}
         <div class="card-top">
           <div class="card-title">${sub.name}${isExternal ? ' <span style="color:var(--cyan);font-size:13px;">&nearr;</span>' : ""}</div>
           ${isExternal ? "" : `<span class="chip chip-amber">${cc} ch</span>`}
