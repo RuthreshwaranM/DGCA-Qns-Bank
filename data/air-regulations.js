@@ -231,6 +231,661 @@ c. Ministry of Civil Aviation
 d. ICAO
 Explanation: Provision of aeronautical information services, including publication of the AIP and NOTAMs, is a function of AAI.
 `);
+
+/* ============================================================
+   AIR REGULATIONS QUESTION BANK - Rules of the Air, Signals, ATC & Flight Plans
+   Format matches js/parser.js (registerSubject / registerChapterText)
+   Correct answer is marked with '*'
+   NOTE: registerSubject("air-regulations", ...) already exists in your
+   main file, so only registerChapterText is called here.
+   ============================================================ */
+
+registerChapterText("air-regulations", "rules-of-the-air", "Rules of the Air", `
+1. Where State has not established minimum IFR altitudes, the minimum height of an aircraft above the highest obstacle over high terrain, or in mountainous areas shall be for an IFR flight:
+*a. At least 2000ft within 8 km of the estimated position
+b. At least 1000ft within 8 km of the estimated position
+c. At least 2000ft within 5 km of the estimated position
+Explanation: Over high terrain or mountainous areas, IFR flights must keep at least 2000 ft above the highest obstacle within 8 km of the estimated position; elsewhere the figure is 1000 ft.
+
+2. Aircraft wishing to conduct IFR flight within advisory airspace, but not electing to use the air traffic advisory service:
+a. Need to file a flight plan
+b. Shall nevertheless submit a flight plan but changes made thereto are not necessary to be notified
+*c. Shall nevertheless submit a flight plan and notify changes made thereto to the ATS unit providing that service
+Explanation: Even if the advisory service is not used, a flight plan must be submitted and any changes notified to the ATS unit providing the advisory service.
+
+3. The white dumb-bell with black perpendicular bar indicates that:
+*a. Taxiing need not be confined to the taxiways
+b. Glider flying is performed outside the landing area
+c. Landing, take-off and taxiing is allowed on runway and/or taxiway only
+Explanation: A white dumb-bell with a black bar means landing and take-off must be on runways only, but other manoeuvres (including taxiing) need not be confined to runways and taxiways.
+
+4. Your aircraft is intercepted by a military aircraft. The signals given by this aircraft conflict with ATC instructions. You should:
+a. Select code 7500 on your transponder
+b. Follow ATC instructions
+*c. Follow the instructions of the intercepting aircraft
+Explanation: The intercepted aircraft must comply with the intercepting aircraft's visual signals and instructions, even if they conflict with ATC instructions, while requesting immediate clarification.
+
+5. An aircraft which is being subject to unlawful interference ("hijacked") and is forced to divert from the cleared track or cruising level without being able to communicate with ATS shall try to:
+a. Fly the emergency triangle
+*b. Continue at an altitude that differs from the semicircular rule with 1000ft when above FL 290 and 500ft when lower than FL 290
+c. As soon as possible commence emergency descent in order to minimize the difference between cabin pressure and outside pressure
+Explanation: If unable to communicate, the aircraft should try to depart from its assigned track/level and fly at a level differing from the normal cruising levels by 1000 ft above FL290 or 500 ft below FL290, making it distinguishable to ATC and other traffic.
+
+6. An aircraft manoeuvering in an airport's circuit receives a series of red flashes from the control tower. This signifies that the aircraft must:
+a. Not land for the moment regardless of previous instructions
+b. Return to land and that clearance to land will be communicated in due course
+*c. Not land because the airport is not available for landing
+Explanation: A series of red flashes to an aircraft in flight means the aerodrome is unsafe, do not land.
+
+7. Whilst flying in an aerodrome's traffic circuit, an aircraft receives a series of green flashes from the tower. The aircraft:
+a. Is cleared to land
+b. Must land immediately and clear the landing area
+*c. Must come back to land and the landing clearance will be sent in due time
+Explanation: A series of green flashes to an aircraft in flight means return for landing, to be followed by a steady green light at the appropriate time. It is not yet a landing clearance.
+
+8. Except when a clearance is obtained from an ATC unit, a VFR flight can not enter or leave a control zone when ceiling is less than:
+a. 2000ft or visibility is less than 5km
+b. 1000ft or visibility is less than 5km
+*c. 1500ft or visibility is less than 5km
+Explanation: VFR flights shall not take off or land within a control zone, or enter or leave it, when the ceiling is below 1500 ft or ground visibility is below 5 km, unless cleared by ATC.
+
+9. Which of the following flights has the greatest priority to land?
+*a. Emergency aircraft
+b. Military aircraft
+c. VIP (Head of state) aircraft
+Explanation: Aircraft in distress or emergency (for example low fuel or a medical emergency) have priority over all other traffic, including military and VIP flights.
+
+10. An aircraft flying above the sea between 4500ft MSL and 9000ft MSL outside controlled airspace under VFR, must remain on principle at least:
+a. 1500m horizontally, 1000ft vertically from clouds; 8km visibility
+b. Clear of clouds and in sight of the surface; 8km visibility
+*c. 1500m horizontally, 1000ft vertically from clouds; 5km visibility
+Explanation: In Class F/G airspace above 3000 ft AMSL or 1000 ft AGL (whichever is higher) and up to 10000 ft AMSL, VFR requires 5 km visibility and 1500 m horizontal / 1000 ft vertical clearance from cloud.
+
+11. The VMC minima for an airspace classified as "B" above 10000ft MSL are:
+a. 2000m horizontally, 1000ft vertically from clouds; 8km visibility
+*b. 1500m horizontally, 1000ft vertically from clouds; 8km visibility
+c. 1 nautical mile horizontally and 1000ft vertically from clouds; 8km visibility
+Explanation: At or above 10000 ft AMSL, VMC minima are 8 km visibility with 1500 m horizontal and 1000 ft vertical distance from cloud.
+
+12. The VMC minima for an airspace classified as "G" above 10000ft MSL are:
+*a. 1500m horizontally, 1000ft vertically from clouds; 8km visibility
+b. 1 nautical mile horizontally and 1000ft vertically from clouds; 8km visibility
+c. 1 nautical mile horizontally and 1000ft vertically from clouds; 5km visibility
+Explanation: At or above 10000 ft AMSL in Class G, the minima are 8 km visibility, 1500 m horizontally and 1000 ft vertically from cloud.
+
+13. Minimum vertical distance from cloud for VFR flight within controlled space is:
+*a. 1000 ft
+b. 500 ft
+c. 1000 m
+Explanation: VFR flight in controlled airspace requires a minimum of 1000 ft vertical distance from cloud.
+
+14. Green flashes from Tower, this signal means that the aircraft:
+*a. May continue to taxy towards the take-off area
+b. Must return to its point of departure
+c. Must stop
+Explanation: To an aircraft on the ground, a series of green flashes means cleared to taxi (continue towards the take-off area).
+
+15. Which of the following actions shall be taken in case of a controlled flight deviates from the track?
+*a. Adjust the heading of the aircraft to regain track as soon as possible
+b. If VMC, maintain this condition, waiting for the ATC instructions
+c. Notify ATC of the new track immediately and comply with instructions
+Explanation: If a controlled flight deviates from its assigned track, the first action is to adjust the heading to regain track as soon as practicable.
+
+16. An aircraft is flying under IFR in an area where the visibility is unlimited and the sky is clear (free of clouds), when it totally loses radio communications. The procedure to be followed is:
+a. Descend to En-route Minimum Safe Altitude and join closest airfield open to IFR operations
+*b. Land on the closest appropriate aerodrome, then advise Air Traffic Services of landing
+c. Continue flight onto destination, complying with last received clearances in the filed flight plan
+Explanation: If in VMC when communication fails, the pilot continues in VMC, lands at the nearest suitable aerodrome and reports arrival to the appropriate ATS unit.
+
+17. While taxiing an aircraft receives the following light signal from the control tower: series of red flashes. This signal means that the aircraft:
+*a. Must vacate the landing area in use
+b. May continue to taxi to the take-off area
+c. Must stop
+Explanation: To an aircraft on the ground, a series of red flashes means move clear of the landing area in use.
+
+18. An aircraft intercepted by another aircraft shall immediately attempt to establish radio communication with the intercepting aircraft on the following frequencies:
+a. 121.5MHz - 282.8MHz
+b. 121.5MHz - 125.5MHz
+*c. 121.5MHz - 243MHz
+Explanation: The international emergency frequencies are 121.5 MHz (VHF) and 243 MHz (UHF), used to contact the intercepting aircraft.
+
+19. If radio contact with the intercepting aircraft is established but communication on a common language is not possible, which phrase should be pronounced by the intercepted aircraft to communicate that he is unable to comply with the instructions received?
+a. UNABLE TO COMPLY
+*b. CAN NOT
+c. CAN NOT COMPLY
+Explanation: The ICAO interception phrase meaning "unable to comply" is "CAN NOT" (pronounced KANN NOTT).
+
+20. If radio communication is established during an interception but communications in a common language is not possible, which phrase should be pronounced by the intercepting aircraft to request the intercepted aircraft to descend for landing?
+a. Descend for landing
+*b. Descend
+c. You land
+Explanation: The standard interception phrase for "descend for landing" is "DESCEND" (pronounced DEE-SEND).
+
+21. A signalman will ask the pilot to apply parking brakes by the following signals:
+a. Arms down, palms facing inwards, moving arms from extended position inwards
+b. Crossing arms extended above his head
+*c. Raise arm and hand, with fingers extended, horizontally in front of body, then clinch fist
+Explanation: The marshalling signal for "apply parking brakes" is raising the arm and hand with fingers extended horizontally in front of the body, then clenching the fist.
+
+22. Within uncontrolled airspace, the first usable level in IFR must provide a 500 feet margin above the following two levels:
+a. 3000 feet AMSL or 1500 feet AGL
+*b. 3000 feet AMSL or 1000 feet AGL
+c. FL 30 or 1500 feet AGL
+Explanation: In uncontrolled airspace, the lowest usable IFR level is determined by 3000 ft AMSL or 1000 ft AGL (whichever is higher), plus a 500 ft margin.
+
+23. An aircraft shall display, if so equipped, an anti-collision light:
+a. Outside the daylight-period at engine-start. During the daylight-period this is not applicable
+*b. On the ground when the engines are running
+c. While taxiing, but not when it is being towed
+Explanation: Anti-collision lights must be displayed whenever the aircraft engines are running on the ground, day or night, to make the aircraft conspicuous.
+
+24. A red flare addressed to a flying aircraft means:
+a. Dangerous airfield. Do not land
+*b. Not withstanding any previous instructions, do not land for the time being
+c. Come back and land
+Explanation: A red pyrotechnic light or flare means: notwithstanding any previous instructions, do not land for the time being.
+
+25. A double white cross displayed horizontally in the signal area means:
+a. An area unit for the movement of aircraft
+b. Need special precautions while approaching for landing
+*c. The aerodrome is being used by gliders and that glider flights are being performed
+Explanation: A horizontal white double cross in the signal area indicates that the aerodrome is being used by gliders and glider flying is in progress.
+
+26. An aircraft is considered to overtake another if it approaches the other aircraft from the rear on a line forming an angle of less than:
+a. 50 degrees with the plane of symmetry of the latter
+*b. 70 degrees with the plane of symmetry of the latter
+c. 60 degrees with the plane of symmetry of the latter
+Explanation: An aircraft is overtaking when it approaches from behind within an angle of less than 70 degrees to the plane of symmetry of the aircraft ahead, so that at night it could not see either navigation light on the other.
+
+27. During an IFR flight in VMC in controlled airspace you experience a two-way radio communication failure. You will:
+*a. Land at the nearest suitable aerodrome maintaining VMC and inform ATC
+b. Select A7600 and continue according current flightplan to destination
+c. Land at the nearest suitable aerodrome and inform ATC
+Explanation: If VMC can be maintained, the pilot should continue in VMC, land at the nearest suitable aerodrome and inform ATC. Squawk 7600 is selected, but the flight is not continued to destination under IFR.
+
+28. When does FLIGHT TIME end?
+*a. When the aeroplane first stops after landing to disembark passengers
+b. At touchdown
+c. At engine shut down when the aeroplane has stopped in the parking bay
+Explanation: Flight time (block-to-block) begins when the aircraft first moves under its own power for the purpose of taking off and ends when it finally comes to rest after landing, as per the given definition.
+
+29. The aerodrome at Calicut is not declared suitable for night operations. If the sunrise is at 0550 the earliest time by which an VFR aircraft operation at the station can take place is;
+*a. 0530
+b. 0520
+c. 0550
+Explanation: VFR flights are permitted from 20 minutes before sunrise (civil twilight allowance), so with sunrise at 0550 the earliest time is 0530.
+
+30. What is the meaning of AGL?
+a. Altitude of ground level
+b. Aerodrome ground level
+*c. Above ground level
+Explanation: AGL stands for Above Ground Level, i.e. height measured from the ground surface directly below.
+
+31. Which of the following defines flight visibility?
+a. Visibility determined in flight not obscured by cloud, dust, haze or precipitation
+b. The ability to determine in the air the distance and identity of unlighted objects by day and lighted objects by night
+*c. The forward visibility from the cockpit of an aircraft in flight
+Explanation: ICAO defines flight visibility as the visibility forward from the cockpit of an aircraft in flight.
+
+32. When operating under Special VFR clearance, the responsibility for remaining clear of obstacles on the ground rests with:
+a. Operator
+*b. The aircraft commander
+c. Air traffic control
+Explanation: ATC does not provide obstacle clearance for SVFR flights; the aircraft commander is responsible for remaining clear of obstacles.
+
+33. Who shall have the final authority over the disposition of the aircraft?
+a. The Authority
+b. The Owner
+*c. The Commander
+Explanation: The pilot-in-command (Commander) has final authority over the disposition of the aircraft while in command.
+
+34. The commander of a public transport aircraft must ensure that passenger seat belts are secure for:
+a. Take-off, landing and turbulence
+b. Take-off, landing, taxiing and turbulence
+*c. Take-off, landing, taxiing, turbulence and during emergencies
+Explanation: Passengers must have seat belts fastened for take-off, landing, taxiing, turbulence and any emergency.
+
+35. Who decides whether to fly under IFR or VFR in VMC?
+*a. The PIC
+b. The Operator
+c. The ATS authority
+Explanation: In VMC, the pilot-in-command decides whether the flight is conducted under VFR or IFR, subject to airspace requirements.
+
+36. An aircraft being towed by night must display:
+*a. The same lights that are required in flight
+b. Flashing navigation lights
+c. Steady navigation lights
+Explanation: An aircraft moved on the movement area at night must display the lights required for aircraft in flight, so a towed aircraft shows the same lights.
+
+37. Anti-collision lights on an aircraft must be switched on:
+a. Between SS and SR or any other period specified by the appropriate authority
+*b. As soon as engines are running
+c. All aircraft operating on the movement area
+Explanation: Anti-collision lights are to be switched on as soon as the engines are running, to warn others of the aircraft's presence.
+
+38. When two aircraft are approaching head on, and there is a danger of collision:
+a. Both aircraft alter heading to port
+*b. Both aircraft alter course to the right (starboard side)
+c. The smaller aircraft alters heading to port
+Explanation: In a head-on situation in the air, each aircraft shall alter heading to the right.
+
+39. A revised estimate shall be notified if the ETA destination passed by aircraft varies by:
+a. 3 minutes
+*b. 2 minutes
+c. 5 minutes
+Explanation: If the estimated time for the next reporting point, FIR boundary or destination varies by more than 2 minutes from that notified, a revised estimate shall be passed to ATS as soon as possible, as per the given key.
+
+40. An aircraft that has the right of way shall maintain its:
+*a. Heading and speed
+b. Right of progress
+c. Course, speed and height
+Explanation: The aircraft having right of way maintains its heading and speed, while the other aircraft gives way.
+
+41. On aerodromes aircraft taxiing on the manoeuvring area of an aerodrome shall give way to:
+a. Other converging aircraft
+*b. Aircraft taking off or about to take off
+c. Other vehicles and pedestrians
+Explanation: Aircraft taxiing on the manoeuvring area must give way to aircraft taking off or about to take off.
+
+42. What is Special VFR?
+a. A VFR procedure to enable an aeroplane to transit a control zone or area in IMC without compliance with IFR
+*b. A VFR flight cleared by ATC to operate within a CTR in meteorological conditions below VMC
+c. Any flight cleared by ATC to operate in conditions less than VMC in which the pilot is required to remain clear of cloud and in sight of the surface
+Explanation: A Special VFR flight is a VFR flight cleared by ATC to operate within a control zone in weather conditions below VMC.
+
+43. Which is the correct order of priority:
+a. Gliders do not give way to balloons
+*b. Power-driven heavier-than-air aircraft shall give way to airships, gliders and balloons
+c. Gliders shall give way to airships and balloons
+Explanation: The order of right of way is: balloons, then gliders, then airships, then power-driven heavier-than-air aircraft. Power-driven aircraft give way to airships, gliders and balloons.
+
+44. What is the minimum flight altitude permitted over towns and settlements and populated areas?
+a. The altitude which permits the aircraft to land safely in the event of an engine failure
+*b. 1000 ft above the highest obstacle within 600 m of the aircraft position
+c. 500 ft
+Explanation: Over congested areas, the minimum height is 1000 ft above the highest obstacle within a radius of 600 m of the aircraft.
+
+45. A controlled flight is requested to inform the appropriate ATC unit whenever the average True Air Speed at cruising level varies or is expected to vary from that given in the flight plan by plus or minus:
+a. 5%
+*b. Mach 0.02
+c. 10 %
+Explanation: For Mach-number based plans, ATC must be informed of a change of plus or minus Mach 0.02 or more. For TAS the threshold is 5%.
+
+46. An aircraft operated on, or in the vicinity of, an aerodrome shall whether or not within an ATZ:
+I) Observe other aerodrome traffic for the purpose of avoiding collision
+II) Conform with or avoid the pattern of traffic formed by other aircraft in operation
+III) Make all turns to the right, when approaching for landing or taking-off unless otherwise instructed
+IV) Land and take-off into the wind unless safety, the runway configuration, or an air traffic consideration determines that a different direction should be used
+a. All statements except II) are correct
+b. All statements except I) are correct
+*c. All statements except III) are correct
+Explanation: Statement III is wrong because the standard circuit makes turns to the left, unless otherwise instructed. Statements I, II and IV are correct.
+
+47. Aircraft "A" with an ATC clearance is flying in VMC conditions within a control area. Aircraft "B" with no ATC clearance is approaching at approximately the same altitude and on a converging course. Which is the right of way?
+a. Aircraft "A" regardless of the direction which "B" is approaching
+*b. Aircraft "B" if "A" is on its left
+c. Aircraft "A" if "B" is on its right
+Explanation: Having an ATC clearance does not confer right of way. The normal converging rule applies: the aircraft that has the other on its right gives way, so B has right of way if A is on its left.
+
+48. Which action shall be taken by an aircraft in the traffic pattern of an aerodrome, experiencing radio failure to indicate difficulties which compel it to land without requiring immediate assistance?
+a. Switching on and off four times the landing lights
+b. Switching on and off three times the landing lights
+*c. The repeated switching on and off of the landing lights
+Explanation: An aircraft in difficulty that must land but does not need immediate assistance repeatedly switches its landing lights on and off (or the navigation lights, in a manner distinct from flashing lights).
+
+49. Aircraft taxiing in the manoeuvring area must give way to:
+a. Follow-me vehicles
+b. Landing traffic
+*c. Departing and landing traffic
+Explanation: Aircraft taxiing on the manoeuvring area must give way to both landing traffic and aircraft taking off or about to take off.
+
+50. Two or more white crosses, displayed on runways and taxiways, indicate that:
+a. The threshold has been displaced
+*b. The section of the runway or taxiway is unfit for aircraft movement
+c. The runway or taxiway should be used with caution
+Explanation: White crosses on a runway or taxiway indicate that the area is unfit for aircraft movement.
+
+51. During initial climb in uncontrolled airspace, the altimeter setting should be:
+*a. Any desired value
+b. Local QNH
+c. Standard pressure setting
+Explanation: In uncontrolled airspace during initial climb below the transition altitude, there is no mandated setting, so the pilot may use any desired value, as per the key.
+
+52. When a controlled flight inadvertently deviates from its current flightplan, ATC has to be informed in case:
+a. Of an emergency
+b. The estimated time is in error by more than 10 minutes
+*c. The TAS varies by plus or minus 5% of the TAS notified in the flightplan
+Explanation: A variation of plus or minus 5% in the TAS from the flight plan must be reported to ATC.
+
+53. Which manoeuvre shall be executed by an intercepting aircraft if the pilot wants to communicate to the intercepted aircraft "YOU MAY PROCEED"?
+a. Rocking wings and flashing the navigational lights
+*b. Executing a climbing turn of 90 degrees or more without crossing the line of flight of the intercepted aircraft
+c. Circling the intercepted aircraft in a clock-wise pattern
+Explanation: An abrupt break-away manoeuvre, a climbing turn of 90 degrees or more without crossing the intercepted aircraft's line of flight, means "You may proceed".
+
+54. Semi-circular system sectors are:
+*a. From 000° to 179° and 180° to 359°
+b. From 000° to 089°, 090° to 179°, 180° to 269° and 270° to 359°
+c. From 090° to 260° and 270° to 089°
+Explanation: The semicircular rule divides tracks into 000-179 degrees (odd levels) and 180-359 degrees (even levels).
+
+55. While on IFR flight, a pilot has an emergency which causes a deviation from an ATC clearance. What action must be taken?
+a. Squawk 7700
+*b. The appropriate ATC unit shall be notified of the action taken as soon as circumstances permit
+c. Request an amended clearance or cancel the IFR flightplan
+Explanation: In an emergency requiring immediate action, the pilot may deviate from the clearance but must notify ATC of the action taken as soon as circumstances permit.
+
+56. Outside controlled airspace above 3000' AMSL:
+*a. Fly on 1013.2
+b. QFE
+c. QNH
+Explanation: Above the transition altitude (3000 ft AMSL) outside controlled airspace, altimeters are set to standard pressure 1013.2 hPa and flight levels are flown.
+
+57. An airborne flight plan must be submitted:
+a. 30 minutes before the intended point of entry into a CTA or advisory area
+*b. 10 minutes before the intended point of entry into a CTA or advisory area
+c. 60 minutes before the intended point of entry into a CTA or advisory area
+Explanation: A flight plan filed in the air must be submitted at least 10 minutes before the aircraft is estimated to reach the intended point of entry into the control area or advisory area.
+
+58. IFR flight in VMC, weather changes to IMC:
+a. Fly VMC and land at nearest convenient aerodrome.
+*b. Fly according to flight plan
+c. Change to VFR plan
+Explanation: An IFR flight remains an IFR flight regardless of the weather, so when VMC turns to IMC it continues according to its flight plan.
+
+59. PIC of an aeroplane shall
+a. Be responsible for safe conduct of navigation
+b. Be responsible for safe conduct of flight at all times
+*c. All above is correct
+Explanation: The pilot-in-command is responsible for the safe conduct of the flight and of navigation, so both statements are correct.
+
+60. On the ground, when two aircraft are approaching head on:
+*a. Both airplanes must stop or where practicable alter course to the right to keep well clear
+b. Both should declare an urgency
+c. Traffic patrol has to be informed
+Explanation: In a head-on situation on the ground, each aircraft shall stop or, where practicable, alter course to the right to keep well clear.
+
+61. No aircraft shall be flown over the congested area of cities, towns or settlements unless at a height that will permit, in the event of an emergency a landing to be made safely. Exceptions to this rule are:
+*a. Take-off and landing and permission from the appropriate authority
+b. Permission from the appropriate authority
+c. Take-off and landing
+Explanation: The minimum height rule does not apply to take-off and landing, or where permission has been obtained from the appropriate authority.
+
+62. Which type of service is provided in Class F airspace:
+a. Air traffic control service
+*b. Air traffic advisory service and FIS
+c. Air traffic advisory service
+Explanation: Class F airspace provides air traffic advisory service to IFR flights where practicable, and flight information service to all flights that request it.
+
+63. When is deviation from the rules of the air permitted?
+*a. Only in the interests of flight safety
+b. Only when it is economically advantageous
+c. Anytime the PIC thinks it is necessary
+Explanation: Rules of the air may be departed from only when it is absolutely necessary in the interest of safety.
+
+64. One of the following statements about aircraft ground movement is correct:
+*a. A taxiing aircraft has priority over a vehicle towing an aircraft
+b. A vehicle towing an aircraft has priority over a taxiing aircraft
+c. Two airplanes approaching head-on will alter course to the left
+Explanation: A taxiing aircraft has priority over a vehicle towing an aircraft, and head-on aircraft alter course to the right.
+
+65. While flying at night another aircraft reports that you are on his 100 degrees relative bearing. In that case you should see his:
+a. Red navigation light
+*b. Green navigation light
+c. Green and white navigation lights
+Explanation: A relative bearing of 100 degrees is on the right side (starboard) of the other aircraft, where the green navigation light is visible.
+
+66. The signal from pilot to marshaller which means - brakes applied - is:
+a. Fist clenched in front of the face then fingers extended
+b. Hands crossed in front of the face, palms outwards, then move arms outwards
+*c. Right arm and hand with fingers extended in front of face, then clench fist
+Explanation: The pilot signals "brakes engaged" by raising the arm and hand with fingers extended in front of the face, then clenching the fist.
+
+67. What does a red flashing light from the control tower to an aircraft on the manoeuvring area mean?
+a. Clear to taxi
+b. Return to the start point
+*c. Move clear of the landing area
+Explanation: A series of red flashes to an aircraft on the ground means move clear of the landing area.
+
+68. A series of red flashes sent to an aircraft in flight means:
+a. Return to the airfield and land
+*b. Airfield is unsafe, do not land
+c. Notwithstanding any other instructions do not land at the moment
+Explanation: Red flashes to an aircraft in flight mean the aerodrome is unsafe, do not land. A steady red light means give way to other aircraft and continue circling.
+
+69. A white dumbbell with a black bar spaced perpendicularly indicates
+a. All aircraft are required to land, takeoff and taxi on taxiways and runways only.
+*b. Are required to land and takeoff on runways only
+c. A white dumbbell when displayed requires a/c to land and takeoff and taxi on taxiways and runways only.
+Explanation: With the black bar added, the dumb-bell means landing and take-off on runways only, while other manoeuvres need not be confined to runways and taxiways.
+
+70. A red square panel with a yellow strip along each diagonal, displayed in the signals area of an aerodrome indicates:
+*a. Aerodrome is unfit for aircraft movements, and landing are prohibited
+b. Exercise special care when landing
+c. Land on paved surface only
+Explanation: A red square with yellow diagonals means the aerodrome is unsafe and landing is prohibited. A red square with one yellow diagonal means take special care when approaching or landing.
+
+71. Two a/c of same category converging...
+a. Both will turn to right
+b. Aircraft on right will turn right
+*c. Aircraft on the left will give way
+Explanation: When converging at the same level, the aircraft that has the other on its right shall give way, which is the aircraft on the left.
+
+72. A signalman will ask the pilot to apply parking brakes by the following signals:
+*a. Raise arm and hand, with fingers extended, horizontally in front of body, then clench fist
+b. Arms down, palms facing inwards, moving arms from extended position inwards.
+c. Horizontally moving his hands, fingers extended, palms toward ground
+Explanation: The marshalling signal for "apply brakes" is raising the arm and hand with fingers extended horizontally in front of the body, then clenching the fist.
+
+73. An aircraft is following a track of 179° (M) on a VFR plan. The choice of flight levels available to the pilot are:
+a. 50, 70, 90, 150, 170, 190, 210, 230, 250, 270, 290
+*b. 55, 75, 95, 115, 135, 155, 175, 195, 215, 235, 255, 275
+c. 50, 70, 90, 110, 130, 160, 180, 200, 220, 240, 260, 280
+Explanation: A track of 179 degrees lies in the 000-179 semicircle, so odd thousands are used. For VFR flights 500 ft is added: FL 55, 75, 95, and so on.
+
+74. After an aircraft has been intercepted in flight, the intercepted aircraft is rocking its wings. This means:
+*a. Will comply
+b. NO
+c. you are not to enter this airspace
+Explanation: Rocking wings by the intercepted aircraft acknowledges the intercepting aircraft's signals and means "Understood, will comply".
+
+75. All flights above ________ flight levels are to be cleared IFR irrespective of weather Conditions
+a. F 280
+*b. F 150
+c. F 140
+Explanation: As per the given key, flights above FL150 are conducted as IFR flights irrespective of weather conditions.
+
+76. A flashing intermittent red light from the ground to an aircraft in the air means:
+a. Continue for another approach
+b. Go-around
+*c. Aerodrome unsafe, do not land
+Explanation: A series of red flashes to an aircraft in flight means the aerodrome is unsafe, do not land.
+
+77. When a pilot raises his arms extended palms facing outwards and moves his hands inwards to cross in front of the face this means:
+a. Remove chocks
+*b. Insert chocks
+c. Brakes released
+Explanation: Moving the extended arms inwards so the hands cross in front of the face, palms outwards, is the signal to insert chocks.
+
+78. While taxiing, an aircraft receives from the airport controller the following light signal: a series of green flashes. This signal means that the aircraft:
+a. Must stop
+*b. May continue to taxi towards the take-off area
+c. Must return to its point of departure
+Explanation: To an aircraft on the ground, a series of green flashes means cleared to taxi.
+
+79. A black letter "C" on a yellow background indicates:
+a. The location of the control tower.
+*b. The location where visiting pilots should report.
+c. Rest-room facilities for visiting pilots.
+Explanation: A black letter C on a yellow background marks the location of the air traffic services reporting office, where pilots should report.
+
+80. At an aerodrome special VFR may be authorized when
+*a. Visibility falls below 5 km or cloud ceiling is less than 1500 feet
+b. Visibility falls below 8 km or cloud ceiling is less than 1500 feet
+c. Visibility falls below 8 km or cloud ceiling is less than 2500 feet
+Explanation: Special VFR may be considered when visibility is below 5 km or the ceiling is below 1500 ft, that is, below the normal VFR minima for a control zone.
+
+81. A special VFR clearance may be obtained from ATC for the following airspaces:
+a. CTR, TMA and AWY
+b. CTR and TMA
+*c. CTR
+Explanation: Special VFR clearances are issued only for flights within a control zone (CTR).
+
+82. If the sustained Mach number/true airspeed at cruising level varies by plus or minus ________ true airspeed or more from the current flight plan, the appropriate air traffic services unit shall be so informed:
+a. Mach 0.2
+b. 5%
+*c. 19 km/h
+Explanation: As per the given key, a TAS variation of plus or minus 19 km/h (about 10 kt) must be reported to ATS. Percentage-based criteria apply to the other form of the rule.
+
+83. On a VFR flight, your magnetic track is 005°, the magnetic heading 355°. Which of the following flight level is correct?
+a. FL 70
+*b. FL 55
+c. FL 60
+Explanation: Semicircular levels depend on track, not heading. Track 005 degrees lies in the 000-179 semicircle, so odd levels apply, and VFR adds 500 ft, giving FL 55.
+
+84. The VMC minima for an airspace classified as "G" above 10 000 feet MSL are:
+*a. 1500 m horizontally and 1 000 feet vertically from clouds; 8 km visibility.
+b. 1 nautical mile horizontally and 1 000 feet vertically from clouds; 5 km visibility
+c. 1 nautical mile horizontally and 1000 feet vertically from clouds; 8 km visibility
+Explanation: Above 10000 ft AMSL in Class G, VMC minima are 8 km visibility, 1500 m horizontally and 1000 ft vertically from cloud.
+
+85. Which provisions on a VFR-flight in Class E airspace are CORRECT?
+a. Service provided: Traffic Information as far as practical; ATC Clearance: required;
+*b. Service provided: Traffic Information as far as practical; ATC Clearance: not required;
+c. Service provided: Air Traffic Control Service; ATC Clearance: required;
+Explanation: In Class E, VFR flights receive traffic information as far as practicable and do not require an ATC clearance. IFR flights are controlled and need a clearance.
+
+86. If you are flying IFR in IMC conditions and you experience a total communications failure, you should:
+*a. Continue the flight according to flight plan
+b. Land at the nearest suitable aerodrome and report to ATS
+c. Try to contact another aircraft for relay
+Explanation: In IMC, the pilot continues according to the current flight plan and last acknowledged clearance, following the established radio failure procedure.
+
+87. When flying on an airway on a heading of 255(M) the correct flight level will be:
+*a. Usually EVEN
+b. Usually ODD
+c. Always EVEN
+Explanation: A westerly track (180-359 degrees) uses even levels under the semicircular rule. "Usually" is used because the rule applies to track and ATC may assign otherwise.
+
+88. You are outside controlled airspace on a VFR flight above 3,000ft. Your distance from the cloud should be:
+a. Clear of cloud and in sight of the surface
+*b. 1,000 ft vertically and 1.5 km horizontally
+c. 2,000 ft and 3 NM horizontally
+Explanation: Above 3000 ft AMSL (or 1000 ft AGL) in uncontrolled airspace, VFR flights remain 1000 ft vertically and 1500 m horizontally from cloud.
+
+89. In areas where a separation minimum of 1000 ft. is applied up to FL 410, authorisation for VFR flight shall not be granted above which flight level?
+a. FL 200
+*b. FL 290
+c. FL 240
+Explanation: VFR flights are not authorised above FL290 in areas where a 1000 ft vertical separation minimum applies up to FL410.
+
+90. When an aircraft is operating in class F airspace below 900 m amsl the minimum horizontal distance from cloud for VFR flight is:
+a. 5 km
+b. 1000 ft
+*c. Clear of cloud and in sight of the surface
+Explanation: At and below 900 m (3000 ft) AMSL or 300 m (1000 ft) above terrain, whichever is higher, VFR flights in Class F/G need only remain clear of cloud and in sight of the surface.
+
+91. SVFR may be authorized when the ground visibility is not less than:
+*a. 1500 m
+b. 1800 m
+c. 1000 m
+Explanation: Special VFR flights may be authorised only when the ground visibility is at least 1500 m.
+
+92. Which of the following aerodrome ground signals displayed in the signals area indicates that glider flying is in progress?
+*a. A white double cross
+b. A white dumb-bell
+c. A black letter - C - on a yellow background
+Explanation: A white double cross displayed horizontally means that glider flying is in progress at the aerodrome.
+
+93. In areas where a vertical separation minimum (VSM) of 300 m (1000 ft) is applied between FL 290 and FL 410 inclusive an aircraft on a magnetic track of 350 would be expected to fly at:
+a. FL 410
+b. FL 405
+*c. FL 400
+Explanation: Where the 1000 ft VSM applies between FL290 and FL410, the flight level scheme alternates every 1000 ft. For a westerly track (180-359 degrees) such as 350, the level is FL 400, as per the given key.
+
+94. Above flight level FL 290 (non-RVSM) the vertical flight separation between aircraft on the same direction is:
+a. 3000 ft
+*b. 4000 ft
+c. 1500 ft
+Explanation: Above FL290 without RVSM, the vertical separation minimum is 2000 ft, which gives 4000 ft between levels for aircraft flying in the same direction.
+
+95. Aircraft shall not be flown in formation except:
+*a. Formation flying is not permitted in India for civil aircraft.
+b. By pre-arrangement among the pilots taking part
+c. By pre-arrangement among the PICs taking part
+Explanation: As per the given key and Indian rules, formation flying is not permitted for civil aircraft in India. Under ICAO rules it is allowed only by pre-arrangement among the pilots-in-command.
+
+96. If the ground visibility is reported 1000 m, can a special VFR flight take off from an aerodrome in a control zone?
+a. Yes, provided the cloud ceiling is higher than 500 ft
+*b. No
+c. Yes, provided the pilot remains in visual contact with the ground
+Explanation: Special VFR requires ground visibility of at least 1500 m, so with 1000 m a special VFR take-off is not permitted.
+
+97. A VFR flight when flying inside an ATS airspace classified as C has to maintain the following minima of flight visibility and distance from clouds
+a. 5km at or above 3050m (10000ft) AMSL 1500m horizontal and 300m vertical from clouds
+b. 8km at or above 3050m (10000ft) AMSL, and clear of clouds
+*c. 8km at or above 3050m (10000ft) AMSL 1500m horizontal and 300m vertical from clouds
+Explanation: In Class C at or above 10000 ft AMSL, VFR flight needs 8 km flight visibility, 1500 m horizontally and 300 m (1000 ft) vertically from cloud.
+
+98. When, in airspace where VFR are permitted, the pilot in command of an IFR flight wishes to continue his flight in accordance with visual flight rules, until the destination is reached:
+1 He must inform the control unit ("cancel IFR")
+2 He must request and obtain clearance
+3 He may request his IFR flightplan to be changed to a VFR flightplan
+4 The flightplan automatically becomes a VFR flightplan
+The combination of correct statements is:
+a. 2, 4
+b. 1, 3
+*c. 1, 4
+Explanation: The pilot informs the control unit by cancelling IFR (statement 1), after which the flight plan automatically becomes a VFR flight plan (statement 4). No clearance request or new plan is needed.
+
+99. In the event of a delay of a controlled flight, the submitted flightplan should be amended or cancelled and a new flightplan submitted when the delay is:
+a. 30 minutes in excess of the estimated time of departure
+*b. 30 minutes in excess of the estimated time off blocks
+c. 60 minutes in excess of the estimated time of departure
+Explanation: For a controlled flight, if the departure is delayed by 30 minutes or more beyond the estimated off-block time, the flight plan must be amended or cancelled and a new one filed.
+
+100. Changing of flight rules from IFR to VFR is possible
+*a. If the commander so requests
+b. If instructed by ATC so long as VMC is forecasted during the next 30 minutes
+c. Only when leaving controlled airspace
+Explanation: The change from IFR to VFR is initiated by the commander, who informs ATC, provided VMC exists. ATC cannot instruct such a change.
+
+101. ADC Validity Period is:
+*a. (-) 15 minutes to (+) 45 minutes of EOBT in RPL/FPL
+b. (+) 60 minutes of EOBT in RPL/FPL
+c. (-) 15 minutes to (+) 30 minutes of EOBT in RPL/FPL
+Explanation: An Air Defence Clearance (ADC) is valid from 15 minutes before to 45 minutes after the EOBT given in the RPL/FPL.
+
+102. Flight Plan is to be filed atleast?
+a. One hour before EOBT
+*b. Three hours before EOBT
+c. One hour before TOBT
+Explanation: As per the given key, a flight plan is to be filed at least three hours before the Estimated Off-Block Time (EOBT).
+
+103. In the event of a proposed delay of ____ or more to the departure time for a flight plan when a flight plan has been previously filed, the Pilot-in-Command or his representative will be required to notify ATC of the revised ETD
+a. 60 minutes
+b. 30 minutes
+*c. 15 minutes
+Explanation: As per the given key, a delay of 15 minutes or more requires the pilot or representative to notify ATC of the revised ETD.
+
+104. If you see red and white lights of the aircraft ahead, it means:
+a. The aircraft is moving from left to right.
+*b. The aircraft is moving from right to left.
+c. The aircraft is flying near parallel to you.
+Explanation: Red is the left (port) wing light and white is the tail light. Seeing red and white means you are viewing the aircraft's left side from behind, so it is moving from right to left across your view.
+
+105. If you see Green and white lights of the aircraft ahead, it means:
+*a. The aircraft is moving from left to right.
+b. The aircraft is moving from right to left.
+c. The aircraft is flying near parallel to you.
+Explanation: Green is the right (starboard) wing light and white is the tail light. Seeing green and white means the aircraft is moving from left to right across your view.
+
+106. ADC validity for non schedule domestic flights is:
+a. (-) 15 minutes to (+) 45 minutes of EOBT in RPL/FPL.
+b. (+) 60 minutes of EOBT in RPL/FPL.
+*c. (-) 15 minutes to (+) 3 hours of EOBT.
+Explanation: For non-scheduled domestic flights, the ADC validity window extends from 15 minutes before to 3 hours after the EOBT.
+`);
 /* ============================================================
    AIR REGULATIONS QUESTION BANK
    Format matches js/parser.js (registerSubject / registerChapterText)
