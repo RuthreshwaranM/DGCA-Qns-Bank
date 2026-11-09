@@ -1510,6 +1510,1861 @@ a. The rules established by the state of the operator of the aircraft
 c. The rules established by the state(s) adjacent to the high seas over flown
 Explanation: Over the high seas, the rules in force are those established under the Chicago Convention (Annex 2, Rules of the Air).
 `);
+
+/* ============================================================
+   AIR REGULATIONS QUESTION BANK - Sets 3, 4, 5
+   Format matches js/parser.js (registerSubject / registerChapterText)
+   Correct answer is marked with '*'
+   ============================================================ */
+
+registerSubject("air-regulations", "Air Regulations");
+
+registerChapterText("air-regulations", "sample-paper-3", "Sample Paper 3", `
+1. When "Secondary Radar" is used, an aircraft may be identified by one of the following procedures:
+*a. Observation of compliance with an instruction to operate transponder from "ON" to "STBY" and back to "ON"
+b. To request pilot to set transponder on position "ON"
+c. To request pilot to set transponder on position "OFF"
+Explanation: Secondary radar identification can be done by observing the aircraft comply with an instruction to switch the transponder ON to STBY and back to ON.
+
+2. No of runway threshold stripes for a runway width of 23 meters is:
+a. 4
+b. 5
+*c. 6
+Explanation: A 23 m wide runway has 6 threshold stripes.
+
+3. Pair of landing stripes for a runway LDA of 1500 meters is:
+a. 2
+b. 3
+*c. 4
+Explanation: Per the answer key, a runway with an LDA of 1500 m has 4 pairs of touchdown zone markings.
+
+4. Filed minima 500m, RVR beginning 800m, RVR mid 300m. Aerodrome is:
+a. Below minima
+b. At par with minima
+*c. Above minima
+Explanation: Per the answer key, the reported RVR values are assessed as being above the filed minima.
+
+5. Flight manual is a manual associated with:
+*a. COA
+b. ICAO Standards
+c. DGCA CARs
+Explanation: The Flight Manual is associated with the Certificate of Airworthiness (C of A) of the aircraft.
+
+6. Number of cabin crew is required according to:
+a. No. of passengers excluding crew members
+b. No. of persons on board including crew members
+*c. No. of seats
+Explanation: The minimum number of cabin crew is determined by the number of passenger seats installed in the aircraft.
+
+7. Track separation is:
+a. Longitudinal
+*b. Lateral
+c. Composite
+Explanation: Track separation is a form of lateral separation.
+
+8. Geographical separation is:
+a. Longitudinal
+*b. Lateral
+c. Composite
+Explanation: Geographical separation, like track separation, is a form of lateral separation.
+
+9. Alert phase is:
+a. Aircraft is about to force land in a river
+b. Aircraft is intercepted
+*c. Apprehension exists as to the safety of the ship and its occupants.
+Explanation: The Alert Phase (ALERFA) is a situation in which apprehension exists as to the safety of an aircraft and its occupants.
+
+10. Appropriate way to cross a route.
+a. Along the traffic flow at 45 degrees
+*b. 90 degrees to the route
+c. Against the flow of traffic keeping a sharp lookout
+Explanation: A route should be crossed at 90 degrees to minimise the time spent in the traffic stream.
+
+11. Among the factors which affect night vision are:
+*a. Age, cabin altitudes above 8000 ft, smoking and alcohol.
+b. Age, cabin altitudes above 8000 ft, smoking, alcohol and lack of vitamin D.
+c. Age, cabin altitudes above 8000 ft, smoking, alcohol and lack of vitamin C.
+Explanation: Night vision is degraded by age, cabin altitude above 8000 ft, smoking and alcohol. Vitamin A (not C or D) deficiency also matters.
+
+12. Semi-circular system sectors are.
+a. From 001 to 180 and 181 to 360
+*b. From 000 to 179 and 180 to 359
+c. From 090 to 260 and 270 to 089
+Explanation: The semi-circular rule divides tracks into 000-179 and 180-359 degrees magnetic.
+
+13. Aerodrome Traffic Zone for VFR flights is to be considered, if ATZ is not notified is:
+*a. Within 5 NM of ARP up to 3000 feet.
+b. Within 25 NM of ARP up to 10,000 feet.
+c. Within 10 NM of ARP up to 5000 feet.
+Explanation: Where no ATZ is notified, it is taken as within 5 NM of the ARP up to 3000 ft.
+
+14. Identify taxi leadoff lights associated with the centerline lighting system:
+a. Alternate green and yellow lights curving from the centerline of the runway to the entry of the apron
+b. Alternate green and yellow lights curving from the centerline of the runway to the edge of the taxiway
+*c. Alternate green and yellow lights curving from the centerline of the runway to the centerline of the taxiway
+Explanation: Taxi leadoff lights are alternate green and yellow lights curving from the runway centreline to the taxiway centreline.
+
+15. The following are appropriate when faced with symptoms of decompression sickness:
+1. Climb to higher level
+2. Descent to the higher of 10000 ft or MSA and land as soon as possible
+3. Breathe 100% oxygen
+4. Get medical advice about recompression after landing
+The combination of correct statements is:
+a. 1, 4
+b. 1, 2, 3
+*c. 2, 3, 4
+Explanation: Descend to the higher of 10000 ft or MSA, breathe 100% oxygen, land as soon as possible and seek medical advice on recompression. Climbing makes it worse.
+
+16. The circulation system, among other things, allows for:
+1. Transportation of oxygen and carbon dioxide
+2. Transportation of information by chemical substances
+*a. 1 and 2 are correct
+b. 1 is correct, 2 wrong
+c. both are wrong
+Explanation: The circulatory system carries oxygen and CO2 and also transports chemical messengers (hormones).
+
+17. Which of the following requirements should be met when planning a flight with icing conditions:
+a. The flight should be planned so that a change of cruising level can be initiated rapidly
+b. The aircraft shall before flight sprayed with anti-icing fluid
+*c. The aircraft shall be equipped with approved ice-protection systems
+Explanation: Flight into known or expected icing requires the aircraft to be equipped with approved ice-protection systems.
+
+18. Red square with one yellow diagonal.
+a. Landings are prohibited and that the prohibition is liable to be prolonged.
+*b. Special precautions must be observed in approaching to land or in landing.
+c. Return to starting point on the aerodrome.
+Explanation: A red square panel with one yellow diagonal means special precautions must be observed in approaching to land or landing.
+
+19. Notams series A are:
+*a. International notams for changes/ unserviceability likely to last more than 2 hrs.
+b. Domestic notams for air routes
+c. International notams for changes/ unserviceability likely to last less than 2 hrs.
+Explanation: Series A NOTAMs are international NOTAMs for changes or unserviceability expected to last more than 2 hours.
+
+20. The RCP concept characterizes the performance required for:
+a. Computer capabilities that support ATM functions with reference to latest technology.
+b. Command capabilities that support ATM functions with reference to satellite based technology
+*c. Communication capabilities that support ATM functions without reference to any specific technology.
+Explanation: RCP (Required Communication Performance) specifies communication performance for ATM functions without reference to any specific technology.
+
+21. If an aerodrome minima is not established for IFR/VFR operations the minima to be applied will be laid down by:
+*a. DGCA
+b. AAI
+c. Operator
+Explanation: Where aerodrome minima are not established, the DGCA lays down the minima to be applied.
+
+22. OCA:
+a. Is specified to facilitate safe holding heights
+*b. Used in establishing compliance with appropriate obstacle clearance criteria
+c. Meets obstructions clearance criteria for take offs
+Explanation: OCA (Obstacle Clearance Altitude) is used to establish compliance with the appropriate obstacle clearance criteria.
+
+23. Damage to eardrums or ossicles (middle ear bones) leads to:
+*a. Conductive hearing loss
+b. Disorientation
+c. Permanent loss of hearing dizziness
+Explanation: Damage to the eardrum or middle ear bones impairs sound conduction, causing conductive hearing loss.
+
+24. ARIWS consists of a surveillance system:
+a. To alert ATC about runway incursions in real time basis
+b. To alert ATC and flight crew about runway incursions in a timely manner.
+*c. To generate alerts independent from ATC directly to the flight crew and vehicle operators about runway incursions on real time basis.
+Explanation: ARIWS generates alerts independently of ATC, directly to flight crew and vehicle operators, in real time.
+
+25. Amendment to aircraft rules 1937 is given in:
+a. AIP
+*b. AIC
+c. AIRAC
+Explanation: Per the answer key, amendments to the Aircraft Rules 1937 are given in the AIC (Aeronautical Information Circular).
+
+26. Deviations from ICAO procedures are published in:
+a. AIC
+b. AIRAC
+*c. AIP
+Explanation: Differences from ICAO SARPs and procedures are published in the AIP (GEN section).
+
+27. Precision approach (PA) procedure is an instrument approach procedure:
+a. Based on using both lateral and vertical navigation guidance systems designed for conventional 3D all weather approaches.
+*b. Based on navigation systems (ILS, MLS, GLS and SBAS Cat I) designed for 3D instrument approach operations Type A or B.
+c. Based on PBN (GBAS and SBAS) designed for 3D instrument approach operations Type A, B or C.
+Explanation: A precision approach is based on ILS, MLS, GLS or SBAS Cat I and is designed for 3D instrument approach operations Type A or B.
+
+28. Abrupt head movements in IMC operations may cause:
+*a. Disorientation
+b. False horizon
+c. Optical illusion
+Explanation: Abrupt head movements in IMC stimulate the vestibular system and can cause disorientation.
+
+29. Flight Engg. Is carried on board:
+*a. If demanded by C of A
+b. If operator feels so
+c. If P-I-C desires so
+Explanation: A flight engineer is carried when required by the aircraft's Certificate of Airworthiness.
+
+30. A departing aircraft carrying sick or injured persons will get priority over:
+*a. An aircraft carrying VVIP
+b. Military fighter flights
+c. An aircraft engaged in a live scramble
+Explanation: Per the answer key, an aircraft carrying sick or injured persons gets priority over a VVIP flight.
+
+31. UB67DFC stands for:
+*a. The nationality mark for unmanned aircraft registered in India
+b. International route in Upper airspace class D, F and C
+c. Way point in Upper airspace
+Explanation: As given in the answer key, this is a nationality/registration mark for an unmanned aircraft registered in India.
+
+32. Instrument flying time means:
+a. Flying simulator
+b. Flying in IMC
+*c. Flying a/c with sole reference to instruments
+Explanation: Instrument flying time is time during which the aircraft is flown solely by reference to instruments, regardless of weather.
+
+33. Outside controlled airspace above 3000' AMSL fly on:
+*a. 1013.2
+b. QFE
+c. QNH
+Explanation: Outside controlled airspace above 3000 ft AMSL, flight levels are flown with the altimeter set to 1013.2 hPa.
+
+34. ATPL who is 28 years old, medical is valid for:
+a. 2 yrs
+*b. 1 yr
+c. 6 months
+Explanation: An ATPL holder under 40 has a Class 1 medical validity of 12 months.
+
+35. ATC services are provided to IFR flights and traffic information to VFR flights as far as practical provided in class airspace:
+a. B
+*b. E
+c. D
+Explanation: In Class E, IFR flights receive ATC service and separation, while VFR flights receive traffic information as far as practical.
+
+36. Navigation light are to be displayed by all aircraft in flight:
+*a. From sunset to sunrise
+b. From 30 mins after sunset till 30 mins before sunrise
+c. At all time
+Explanation: Navigation lights must be displayed from sunset to sunrise.
+
+37. IFR flight in VMC, weather changes to IMC:
+a. Fly VMC and land at nearest convenient aerodrome.
+*b. Fly according to flight plan
+c. Change to VFR plan
+Explanation: An IFR flight continues in accordance with its IFR flight plan when the weather changes to IMC.
+
+38. Person is killed on runway while landing after being hit by the wing of an aircraft. It is an:
+*a. Accident
+b. Incident
+c. Accident only if it was due to pilots fault
+Explanation: A fatality caused by contact with the aircraft is an accident, regardless of whose fault it was.
+
+39. Aerodrome category for rescue and fire fighting is determined based on:
+a. Maximum certified All Up Weight of aircraft.
+*b. Aeroplane over all length and maximum fuselage width.
+c. Seating capacity of the aeroplane.
+Explanation: The RFF category is based on the overall length of the longest aeroplane and its maximum fuselage width.
+
+40. Series of red and green projection fired at an interval of 10 secs means:
+*a. Keep away from danger area
+b. Exercise caution while landing
+c. Do not land for the time being
+Explanation: Red and green pyrotechnic signals fired at 10 second intervals warn an aircraft to keep away from a danger area.
+
+41. Straight out departure is:
+a. 10 degree
+*b. 15 degree
+c. 30 degree
+Explanation: A straight-out departure is one where the initial departure track is within 15 degrees of the runway alignment.
+
+42. Aerodromes signs should be in the following configuration:
+a. Mandatory instruction signs; black background with red inscriptions.
+*b. Information signs; yellow or black background with black or yellow inscriptions
+c. Mandatory instruction signs; red background with black inscriptions.
+Explanation: Information signs use a yellow background with black inscriptions, or a black background with yellow inscriptions. Mandatory signs are red with white inscriptions.
+
+43. If there is a minor damage to aircraft on a ferry flight, passengers:
+*a. Can not be carried
+b. Can be carried
+c. Can be carried with the permission of operator
+Explanation: A ferry flight of a damaged aircraft may not carry passengers.
+
+44. An aircraft shall display, if so equipped, an anti-collision light:
+a. Outside the daylight-period in flight, but not on the ground when it is being towed;
+b. While taxing, but not when it is being towed;
+*c. On the ground when the engines are running
+Explanation: Per the answer key, the anti-collision light must be displayed on the ground when the engines are running.
+
+45. The transition level:
+*a. Shall be the lowest available flight level above the transition altitude that has been established
+b. Shall be the highest available flight level below the transition altitude that has been established
+c. Is calculated and decided by the commander
+Explanation: The transition level is the lowest available flight level above the transition altitude.
+
+46. A/c A at F390 reports at a point at 0210 wants to descend to F330, a/c B at F 360 estimates to reach the same reporting point at 0300. Before what time the first a/c should reach F330?
+a. 0235
+b. 0250
+*c. 0225
+Explanation: Per the answer key, aircraft A must reach F330 by 0225 to be clear of B's level at F360 before B reaches the reporting point.
+
+47. Which word or phrase shall be used in order to repeat for clarity or emphasis?
+a. Read back.
+*b. I say again.
+c. Confirm.
+Explanation: The phraseology "I SAY AGAIN" is used to repeat for clarity or emphasis.
+
+48. Who is responsible for approving methods of calculating minimum flight altitudes?
+a. The DGCA.
+b. The ICAO Council.
+*c. The State of the Operator.
+Explanation: The State of the Operator approves the method used by the operator to establish minimum flight altitudes.
+
+49. The term used to describe the visual phase of flight after completing an instrument approach, to bring an aircraft into position for landing on runway which is not suitably located for straight-in approach, is:
+a. Aerodrome traffic pattern
+*b. Visual manoeuvring (circling)
+c. Visual approach
+Explanation: Visual manoeuvring (circling) is the visual phase after an instrument approach that brings the aircraft to a runway not suitably located for a straight-in approach.
+
+50. Where there is an amendment to an International Standard a State must give notice to:
+*a. The ICAO Council within 60 days of the adoption of the amendment
+b. The ICAO Assembly within 30 days of the adoption of the amendment
+c. The ICAO Assembly within 60 days of the adoption of the amendment
+Explanation: A State must notify the ICAO Council within 60 days of adoption of an amendment to an International Standard.
+`);
+
+registerChapterText("air-regulations", "sample-paper-4", "Sample Paper 4", `
+1. VT-AXC owned by a private citizen is on a flight to Sri Lanka from Chennai on sight seeing tour. The aircraft's required to carry ________ among other things.
+*a. Manifest and detailed declarations of the cargo.
+b. Pilots Log Book
+c. MEL
+Explanation: Per the answer key, an aircraft on an international flight must carry the manifest and detailed cargo declarations.
+
+2. Vertical separation in CVSM airspaces above FL 290 is:
+a. 1000'
+*b. 2000'
+c. 4000'
+Explanation: Conventional vertical separation minimum (CVSM) above FL290 is 2000 ft.
+
+3. Altitude in transition layer is maintained by setting altimeter to.
+a. QFE
+b. 1013.2
+*c. QNH
+Explanation: In the transition layer, vertical position is expressed as altitude, so the altimeter is set to QNH.
+
+4. In relation to hypoxia, which of the following paraphrase(s) is (are) correct?
+a. This is a physical condition caused by a lack of oxygen saturation in the blood while hyperventilating
+b. This is a condition of lacking oxygen in the brain causing the circulatory system to compensate by decreasing the heart rate
+*c. This is a physical condition caused by a lack of oxygen to meet the needs of the body tissues, leading to mental and muscular disturbances, causing impaired thinking, poor judgment and slow reactions
+Explanation: Hypoxia is a lack of oxygen to meet the needs of body tissues, leading to impaired thinking, poor judgment and slow reactions.
+
+5. OCA is associated with:
+a. Oceanic Clearance Altitude, minimum altitude to fly over oceans
+b. Minimum altitude to fly above Transition level.
+*c. Altitude calculated to ensure obstacle/terrain clearance
+Explanation: OCA (Obstacle Clearance Altitude) is calculated to ensure obstacle and terrain clearance.
+
+6. 3D Instrument approach with decision height at or above 75 m (250 ft) is a:
+a. Type B, CAT I Precision Approach.
+b. Type A, CAT II Precision Approach.
+*c. Type A, CAT I Precision Approach.
+Explanation: A 3D approach with DH at or above 75 m (250 ft) is Type A. Per the answer key it is classed as a CAT I precision approach.
+
+7. If your aircraft is carrying cargo for remuneration, it will be known as a:
+a. Private aircraft
+b. Aerial work aircraft
+*c. Public transport aircraft
+Explanation: An aircraft carrying cargo for remuneration is a public transport aircraft.
+
+8. A horizontal yellow diagonal on a red square panel indicates.
+*a. Special precautions to be take when approaching to land.
+b. Landing areas is unserviceable
+c. Check runway in use
+Explanation: A red square panel with a yellow diagonal indicates that special precautions must be taken when approaching to land or landing.
+
+9. When radio contact is lost, an IFR flight in VMC should.
+*a. Continue in VMC and land at nearest suitable aerodrome
+b. Continue as per current flight plan
+c. Divert to alternate airfield
+Explanation: In VMC with radio failure, the aircraft continues in VMC and lands at the nearest suitable aerodrome.
+
+10. Minimum vertical distance from cloud for VFR flight within controlled space is.
+*a. 1000 ft
+b. 500 ft
+c. 1000 m
+Explanation: VFR flight in controlled airspace requires 1000 ft vertical distance from cloud.
+
+11. IFR flight within controlled airspace shall immediately report any deviations from flight plan resulting in;
+a. Variation of TAS by 10 knots.
+b. Change in ETA over reporting point by more than 2 minutes
+*c. All above are correct
+Explanation: Both a TAS variation of 10 knots (or 5%) and an ETA change of more than 2 minutes must be reported, so all the options apply.
+
+12. ICAO document dealing with Aerodromes is:
+a. Doc 8168
+b. Annex 7
+*c. Annex 14
+Explanation: Annex 14 to the Chicago Convention deals with Aerodromes.
+
+13. An airplane is planning a flight that will require a technical landing in a neighboring state. Which freedom of the air will be exercised?
+*a. 2nd freedom
+b. 3rd freedom
+c. 4th freedom
+Explanation: The 2nd freedom is the right to land in a foreign state for technical purposes without picking up or setting down traffic.
+
+14. A situation wherein apprehension exists as to the safety of an aircraft and its occupants is;
+a. Uncertainty (INCERFA)
+b. Distress phase (DISTRESFA)
+*c. Alert Phase (ALERFA)
+Explanation: That definition describes the Alert Phase (ALERFA).
+
+15. At holding point ATC transmits "cleared for immediate take off", what does it mean?
+a. Take off immediately after completing all checks on runway.
+b. Inform ATC when you are ready to take off with out waiting on runway.
+*c. Taxi immediately to runway and commence take off with out stop.
+Explanation: "Cleared for immediate take-off" means taxi onto the runway and begin the take-off roll without stopping, or vacate the runway.
+
+16. Hyperventilation is caused due to lack of __________ in blood system:
+*a. Carbon Dioxide
+b. Oxygen
+c. CO
+Explanation: Over-breathing washes out CO2 from the blood, causing the symptoms of hyperventilation.
+
+17. Track separation is also known as separation:
+a. Vertical
+*b. Lateral
+c. Longitudinal
+Explanation: Track separation is a form of lateral separation.
+
+18. An aircraft manoeuvering in an airport's circuit receives a series of red flashes from the control tower. This signifies that the aircraft must:
+*a. not land because the airport is not available for landing
+b. return to land and that clearance to land will be communicated in due course
+c. not land for the moment regardless of previous instructions
+Explanation: Per the answer key, a series of red flashes means the aerodrome is unsafe and the aircraft must not land.
+
+19. Anti-collision lights on an aircraft must be switched on:
+a. Between SS and SR or any other period specified by the appropriate authority
+*b. As soon as engines are running
+c. By all aircraft operating on the movement area
+Explanation: Anti-collision lights are switched on as soon as the engines are running.
+
+20. All aircraft transiting from a foreign FIR to an Indian FIR should inform ATS units responsible for providing FIS at least:
+a. 30 minutes prior to entry
+b. 20 minutes prior to entry
+*c. 10 minutes before entry
+Explanation: Per the answer key, the ATS unit must be informed at least 10 minutes before entry into the Indian FIR.
+
+21. Flt plan is prepared by:
+*a. Choosing routes as listed in AIP
+b. Taking shortest distance to the destination
+c. Taking any arbitrary points on route
+Explanation: A flight plan is prepared using the routes published in the AIP.
+
+22. For safety reasons, a person should remain away from a jet engine by at least:
+a. 100'
+*b. 200'
+c. 300'
+Explanation: Per the answer key, the safe distance from a jet engine is at least 200 ft.
+
+23. Identify runway remaining lighting on centre line lighting systems;
+a. Amber lights from 3000 ft to 1000 ft, then alternate red and white lights to the end.
+*b. Alternate red and white from 3000 ft to 1000 ft, then red lights to the end.
+c. Alternate red and white lights from 3000 ft to the end of the runway.
+Explanation: Runway remaining lighting is alternate red and white from 3000 ft to 1000 ft remaining, then red to the end.
+
+24. Identify touchdown zone lighting (TDZL):
+*a. Two rows of transverse light bars disposed symmetrically about the runway centre line.
+b. Flashing centre line lights spaced at 50 ft intervals extending through the touch down zone.
+c. Alternate white and green centre line lights extending from 75 ft from the threshold through the touch down zone.
+Explanation: TDZL consists of two rows of transverse light bars placed symmetrically about the runway centreline.
+
+25. When instructed by ATC to "hold short of a runway (ILS critical area etc.)" the pilot should stop:
+a. With the nose gear on the hold line.
+*b. So that no part of the aircraft extends beyond the hold line.
+c. So that the flight deck area of the aircraft is even with the hold line.
+Explanation: When told to hold short, no part of the aircraft may extend beyond the hold line.
+
+26. Airport information signs, used to provide destination or information, have:
+a. Yellow inscriptions on a black background.
+b. White inscriptions on a black background.
+*c. Black inscriptions on a yellow background.
+Explanation: Per the answer key, information signs showing destination or information use black inscriptions on a yellow background.
+
+27. An aircraft which is being subjected to unlawful interference ('hijacked') and is forced to divert from the cleared track or cruising level without being able to communicate with ATS shall try to:
+a. Declare an emergency
+b. As soon as possible commence emergency descent in order minimize the difference between cabin pressure and outside pressure.
+*c. Continue at an altitude that differs from the semicircular rule with 1000 feet when above FL 290 and 500 feet when lower than FL 290.
+Explanation: An aircraft unable to contact ATS should continue at a level differing from the semicircular cruising levels by 1000 ft above FL290 or 500 ft at or below FL290.
+
+28. Action required for rapid decompression recovery is:
+a. Only the prompt supply of oxygen is necessary
+*b. Take prompt supply of oxygen, descend to the lowest possible level and land as soon as possible
+c. Only medical treatment is of use
+Explanation: Recovery needs prompt oxygen, descent to the lowest safe level and landing as soon as possible.
+
+29. Damage to Tympanic membrane may be caused due to:
+*a. Flying with a severe cold due to changes in air pressure and blocked eustachian tubes resulting from the cold.
+b. Pain in the joints
+c. Lack of oxygen to meet the needs of the body tissues
+Explanation: A cold can block the Eustachian tubes, so pressure changes during flight can rupture the eardrum (tympanic membrane).
+
+30. One pilot will be designated as PIC of a public transport aircraft for each flight by:
+*a. The operator
+b. DGCA
+c. Flying contract unit
+Explanation: The operator designates the pilot-in-command for each flight.
+
+31. Enroute altitude will be determined for each stage of the route by taking 1000 ft terrain clearance within:
+a. 10 nm
+*b. 10 km
+c. 20 nm
+Explanation: Minimum en-route altitudes provide 1000 ft terrain clearance within 10 km of the route track.
+
+32. Vicinity of the aerodrome for a VFR /IFR flight is:
+a. 5 miles around up to 3000 ft AGL
+b. 25 miles around
+*c. As in "A" above and instrument holding and approach procedure paths
+Explanation: The vicinity of an aerodrome covers the area in option A plus the instrument holding and approach procedure paths.
+
+33. Cruising level available on a magnetic track of 300 degrees are:
+a. 115, 135, 155, 175
+b. 110, 130, 150, 160
+*c. 125, 145, 165, 185
+Explanation: A track of 300 degrees falls in the 180-359 semi-circle, which uses even thousands for IFR and odd thousands plus 500 ft for VFR (FL125, 145, 165, 185).
+
+34. In a standard holding pattern turns are made:
+*a. To the right
+b. In a direction depending on the entry;
+c. In a direction depending on the wind direction.
+Explanation: A standard holding pattern uses right-hand turns.
+
+35. The privileges of a license can be exercised by a pilot involved in an incident after:
+a. He is cleared by the medical authority
+*b. He is cleared by the DGCA
+c. He is cleared by the ATS authority
+Explanation: Per the answer key, a pilot involved in an incident may resume exercising licence privileges only after DGCA clearance.
+
+36. An Air India aircraft is on a dry lease to I.A.F. for military use. It will be known as a:
+a. Civil aircraft
+*b. Military aircraft
+c. International flight
+Explanation: An aircraft operated by the armed forces for military use is a military aircraft, even when leased.
+
+37. In a category D airspace, ATC will provide separation between:
+a. IFR flights and provides information on VFR flights and traffic avoidance on request to IFR flights and traffic information to VFR flights
+*b. IFR flights and IFR flights
+c. IFR flights and IFR/VFR flights and VFR/VFR flights
+Explanation: In Class D, ATC separates IFR from IFR only. VFR flights receive traffic information.
+
+38. Track separation ensures:
+a. Vertical separation between aircraft.
+b. Time separation between aircraft.
+*c. Lateral separation between aircraft.
+Explanation: Track separation provides lateral separation.
+
+39. VFR flights in class 'E' airspace are provided with?
+*a. Nil separation
+b. Horizontal separation
+c. Lateral separation
+Explanation: VFR flights in Class E receive no separation service, only traffic information as far as practical.
+
+40. Aircraft takes off from a runway of 45 meter width and makes an approach on a 25 meter wide runway, the pilot may feel at:
+a. Greater height and the impression of landing short
+*b. Greater height than he actually is with the tendency to land short
+c. Lower than actual height with the tendency to overshoot
+Explanation: Per the answer key, approaching a narrower runway creates the illusion of being higher than actual, with a tendency to land short.
+
+41. Aircraft flying in class 'D' airspace at 9000' will have following speed limit?
+a. No speed limit
+b. 250 kts TAS
+*c. 250 kts IAS
+Explanation: Below FL100 in Class D, the speed limit is 250 kt IAS.
+
+42. Your aircraft is intercepted by a military aircraft. The signals given by this aircraft conflict with ATC instructions. You should:
+a. Follow ATC instructions
+b. Select code A7500 on your transponder
+*c. Follow the instructions of the intercepting aircraft
+Explanation: If interception signals conflict with other instructions, follow the intercepting aircraft and request immediate clarification.
+
+43. No domestic flight carrying passengers is permitted to fly with in ________ nautical miles of international border.
+a. 15 km.
+*b. 15 nm
+c. 10 nm
+Explanation: Per the answer key, domestic passenger flights may not fly within 15 nm of the international border.
+
+44. Unless otherwise indicated, the missed approach procedures published on the IAC charts are based on a minimum climb gradient of:
+*a. 2.5%
+b. 3%
+c. 5%
+Explanation: Published missed approach procedures assume a minimum climb gradient of 2.5% unless otherwise indicated.
+
+45. CO poisoning symptoms:
+a. Tightening of forehead.
+*b. Loss of muscular power.
+c. Bends
+Explanation: Per the answer key, loss of muscular power is a symptom of carbon monoxide poisoning. Bends relate to decompression sickness.
+
+46. Tirupati aerodrome designator is?
+a. VATP
+b. VETP
+*c. VOTP
+Explanation: Tirupati's ICAO designator is VOTP (VO is the prefix for southern India).
+
+47. EDTO stands for:
+*a. Extended Diversion Time Operations (EDTO)
+b. Expected Diversion Time Overhead (EDTO)
+c. Expected Direction of Take Off (EDTO)
+Explanation: EDTO stands for Extended Diversion Time Operations.
+
+48. When reporting a frequency the use of the word DECIMAL can be omitted:
+*a. Never.
+b. When there is no likelihood of confusion.
+c. By the ground station only.
+Explanation: Per the answer key, the word DECIMAL is never omitted when stating a frequency.
+
+49. Which is the most complete list of documents that are to be carried on each flight:
+a. Certificate of airworthiness, AOP, aircraft radio license, maintenance records and maintenance program.
+*b. Certificate of registration, certificate of airworthiness, AOP, aircraft radio license, crew licences.
+c. Certificate of registration, aircrew log books and certificate of airworthiness.
+Explanation: Option B is the most complete list of documents required to be carried on each flight.
+
+50. The Transition Level:
+a. Is calculated and declared for an approach by the Pilot-in command
+b. Is published for the aerodrome in the Section ENR of the AIP
+*c. Shall be the lowest flight level available for use above the transition altitude.
+Explanation: The transition level is the lowest flight level available for use above the transition altitude.
+`);
+
+registerChapterText("air-regulations", "sample-paper-5", "Sample Paper 5", `
+1. A P-i-C is:
+a. The pilot who is competent to fly the aeroplane under all weather conditions.
+b. The Pilot who for the time being is in charge of the controls of the aeroplane.
+*c. A pilot who is responsible for the operation and safety of the aeroplane during flight time.
+Explanation: The pilot-in-command is responsible for the operation and safety of the aeroplane during flight time.
+
+2. Why PANS OPS are a separate document from the Annexes?
+*a. The procedures are outside of the scope of the SARPS.
+b. The procedures are too complicated for pilots to understand.
+c. The document is not relevant to air crew.
+Explanation: PANS contain procedures that are outside the scope of the Standards and Recommended Practices (SARPs), so they are published separately.
+
+3. ARIWS stands for:
+a. Automatic Runway Instrumented Weather Services.
+*b. Autonomous Runway Incursion Warning System.
+c. Airborne Runway Instrument Warning System.
+Explanation: ARIWS is the Autonomous Runway Incursion Warning System.
+
+4. A Control Area is:
+a. Defined area of airspace in which all controlled flights are provided with an Air Traffic Service.
+b. The confluence of airways adjacent to one or more aerodromes where ATC is provided to all air traffic.
+*c. A portion of airspace (between defined altitudes) where it has been determined that an ATC service will be provided to all IFR traffic and some VFR traffic.
+Explanation: Per the answer key, a control area is a portion of airspace between defined levels where ATC service is provided to all IFR traffic and some VFR traffic.
+
+5. The document 'Procedures for Air Navigation Services - Air Traffic Management' (PANS-ATM) is also commonly known by its ICAO document number. What is the document number?
+a. Doc 8168
+*b. Doc 4444
+c. Doc 7333
+Explanation: PANS-ATM is ICAO Doc 4444. Doc 8168 is PANS-OPS.
+
+6. Who is responsible for the issuing of clearance to achieve the safe and expeditious flow of a traffic to aircraft on the maneuvering area and to prevent collisions between aircraft and obstructions on the movement area?
+*a. The aerodrome Controller
+b. The approach Controller
+c. The Ground Controller
+Explanation: Per the answer key, the aerodrome controller issues clearances for the safe and expeditious flow of traffic and collision prevention on the manoeuvring area.
+
+7. What Annex to the Chicago Convention covers 'Facilitation'?
+a. Annex 6
+*b. Annex 9
+c. Annex 15
+Explanation: Annex 9 covers Facilitation.
+
+8. What is ICAO?
+a. An organization only permitted to make recommendations which are not binding on member states.
+b. An organization of civil aviation operators, limited to 33 members.
+*c. A specialized agency related to the United Nations.
+Explanation: ICAO is a specialized agency of the United Nations.
+
+9. Two aircraft are departing from a reporting point defined by an NDB. What is the minimum track separation required before one aircraft would be permitted to climb/descend through the other aircraft's level?
+*a. 30 degrees and a distance of 15 nm or more.
+b. 15 degrees and a distance of 15 km or more.
+c. 30 degrees and a distance of 15 km or more.
+Explanation: Per the answer key, the tracks must diverge by at least 30 degrees with both aircraft 15 nm or more from the NDB.
+
+10. What does the structure of ICAO consists of?
+*a. An Assembly, Council, Secretariat, committees and commissions.
+b. A Council; a Secretariat and committees and commissions.
+c. A ruling council of a small number of permanent states (like the UN security council) with committees and commissions reporting to the Council.
+Explanation: ICAO consists of an Assembly, a Council, a Secretariat, and committees and commissions.
+
+11. Trip fuel, which shall be the amount of fuel required to enable the aeroplane to fly:
+a. From take-off, until landing at the destination aerodrome.
+*b. From take-off or the point of in-flight re-planning, until landing at the destination aerodrome.
+c. From take-off, until landing at the destination aerodrome, including taxi fuel.
+Explanation: Trip fuel covers flight from take-off, or from the point of in-flight re-planning, until landing at the destination aerodrome.
+
+12. Factors affecting night vision are:
+*a. Alcohol, smoking, cabin altitude above 8000' and age.
+b. Alcohol, smoking, cabin altitude above 5000' and instrument lights.
+c. Alcohol, smoking, age and lack of vitamin D.
+Explanation: Night vision is affected by alcohol, smoking, cabin altitude above 8000 ft and age.
+
+13. When do PANS-ATM procedures absolve pilots from the responsibility for terrain avoidance?
+a. Never
+*b. When under radar vectoring.
+c. During take off and landing.
+Explanation: Per the answer key, while being radar vectored the controller has the responsibility for terrain clearance.
+
+14. Vitamins are essential for good night vision, therefore:
+a. Pilots should take excess intake of vitamin A to improve night vision significantly.
+*b. Pilots should take balanced diet containing sufficient vitamin A.
+c. Vitamin A deficiency does not matter, so long the pilot has adequate vitamin D intake.
+Explanation: A balanced diet with sufficient vitamin A supports night vision. Excess intake gives no significant benefit.
+
+15. What is the relevance of the OCH for a precision approach?
+a. It is the MDH if the glide path information is lost.
+*b. It is the lowest height at which a missed approach must be initiated.
+c. It is the height at which an aircraft correctly positioned on the glide must obtain the visual minima to land.
+Explanation: Per the answer key, OCH is the lowest height at which a missed approach must be initiated to remain within obstacle clearance criteria.
+
+16. When converging at approximately the same altitude:
+a. Balloons shall give way to hang gliders
+*b. Aeroplanes towing gliders shall give way to balloons
+c. Balloons shall give way to gliders.
+Explanation: In the order of priority, balloons have right of way over aeroplanes towing other aircraft or objects.
+
+17. Where traffic is flying in an established traffic pattern at an aerodrome where ATC is provided (a controlled aerodrome), who is responsible for collision avoidance?
+a. It depends upon the class of airspace.
+b. The aerodrome controller.
+*c. The pilots of the aeroplanes.
+Explanation: Pilots remain responsible for collision avoidance in the traffic pattern, even at a controlled aerodrome.
+
+18. Normal AOM RVR is 300m, Restricted AOM shall be:
+*a. 700M
+b. 500M
+c. 200M.
+Explanation: Per the answer key, the restricted aerodrome operating minimum RVR is 700 m.
+
+19. Enroute flt levels are on:
+*a. QNE
+b. QNH
+c. QFE
+Explanation: En-route flight levels are flown with the altimeter on the standard setting 1013.2 hPa (QNE).
+
+20. What is the International Aeronautical VHF Distress and Calling frequency?
+*a. 121.500MHz
+b. 123.450MHz
+c. 406.000MHz
+Explanation: 121.5 MHz is the international aeronautical VHF emergency frequency. 406 MHz is used by ELTs.
+
+21. You are flying in VMC and you suffer a communications failure. What are you required to do
+a. Land immediately.
+*b. Continue to fly in VMC and land at the nearest suitable aerodrome.
+c. Turn round and head back to the aerodrome of departure.
+Explanation: In VMC, continue in VMC and land at the nearest suitable aerodrome.
+
+22. If you are flying in IMC and you suffer a communications failure, which of the following is a correct course of action?
+a. Proceed in accordance with the flight plan as filed.
+*b. Proceed in accordance with the current flight plan (the flight plan as cleared by ATC and any re-clearance subsequently obtained).
+c. Turn around and go home.
+Explanation: In IMC, proceed according to the current flight plan, meaning the plan as cleared and any later re-clearance.
+
+23. What are the objectives of an ATC clearance?
+a. To see how accurately the pilot can read the clearance back and test if he can spot errors.
+b. To give route and altitude specific information when different from that flight planned.
+*c. Collision avoidance and air traffic flow management.
+Explanation: ATC clearances are issued to prevent collisions and to expedite and maintain an orderly flow of air traffic.
+
+24. Capillaries:
+*a. Facilitate oxygen/carbon dioxide exchange.
+b. Are the largest vessels carrying blood.
+c. Control heart beats.
+Explanation: Capillaries are the smallest vessels, where oxygen and carbon dioxide are exchanged with the tissues.
+
+25. An instrument approach has:
+a. Three segments
+*b. Five segments
+c. Six segments
+Explanation: An instrument approach procedure has five segments: arrival, initial, intermediate, final and missed approach.
+
+26. What is the principle objective of a rescue and fire fighting service?
+a. To minimize the damage caused by fire.
+b. To extinguish any with minimum delay.
+*c. To save lives.
+Explanation: The principal objective of the rescue and fire fighting service is to save lives.
+
+27. Ascending order of stress is:
+a. Family death, divorce, marriage, mortgage.
+b. Mortgage, marriage, family death, divorce.
+*c. Mortgage, marriage, divorce, family death.
+Explanation: In ascending order of stress, mortgage ranks lowest, then marriage, divorce, and death of a family member as the highest.
+
+28. Who is responsible for the issue of a certificate of airworthiness?
+a. ICAO
+b. The DGCA
+*c. The authority of State of Registration.
+Explanation: The State of Registration issues or validates the Certificate of Airworthiness.
+
+29. While facing turbulent weather, a pilot reduces speed to:
+a. Avoid stalling.
+b. Achieve better maneuorobility.
+*c. Avoid structural damage.
+Explanation: Speed is reduced to turbulence penetration speed (VB) to avoid structural damage from gust loads.
+
+30. Doc 4444 relates to:
+a. Flight level tables.
+b. Position reports.
+*c. All above.
+Explanation: Doc 4444 (PANS-ATM) covers both flight level tables and position reporting procedures, so all the options apply.
+
+31. Circadian Circle represents:
+*a. Our level of alertness throughout the day.
+b. Our level of competence to undertake a challenging job.
+c. Our level of incompetence after the peak is achieved in a career.
+Explanation: The circadian rhythm represents our level of alertness through the 24-hour day.
+
+32. Some one is calling you using a language which you cannot understand. You will indicate this by transmitting:
+a. Can not comply
+b. Unable to comply
+*c. Can not
+Explanation: Per the answer key, the phrase transmitted is "Can not" (per the answer key's wording).
+
+33. An aircraft electing to change the conduct of its flight from IFR to VFR shall, if a flight plan was submitted, notify the appropriate ATS unit specifically by transmitting:
+a. Cancelling my IFR flight plan.
+*b. Cancelling my IFR flight.
+c. Cancelling my IFR plan.
+Explanation: The phrase to use is "CANCELLING MY IFR FLIGHT".
+
+34. An aircraft is flying under Instrument Flight Rules in an area where the visibility is unlimited and the sky is clear, when it totally loses radio communications. The procedure to be followed is:
+*a. Land on the closest appropriate aerodrome, then advise Air Traffic Services of landing.
+b. Continue flight onto destination, complying with last received clearances then with filed flight plan.
+c. Descend to En-route Minimum Safe Altitude and join closest airfield open to IFR operations.
+Explanation: In VMC, an aircraft that loses radio contact lands at the closest suitable aerodrome and informs ATS of the landing.
+
+35. QNH at Mumbai is 1009. TL at Mumbai will be:
+a. FL 45
+b. FL 50
+*c. FL 55
+Explanation: Per the answer key, the transition level for QNH 1009 at Mumbai is FL 55.
+
+36. To which aircraft is a flight information service (FIS) provided?
+a. Only aircraft in receipt of ATC.
+b. All controlled flight from engine start to final shut gown.
+*c. All aircraft in receipt of an ATC service or known to ATC which are likely to be affected by the information.
+Explanation: FIS is provided to all aircraft likely to be affected by the information that are in receipt of ATC service or otherwise known to the ATS units.
+
+37. What type of airspace is normally established at the confluence of ATS routes in the vicinity of one or more major aerodromes?
+*a. Terminal Control Area (TMA).
+b. Control Zone (CTR).
+c. Special Rules Area (SRA).
+Explanation: A Terminal Control Area (TMA) is normally established at the confluence of ATS routes near major aerodromes.
+
+38. Hypoxic hypoxia is
+*a. The result of low oxygen levels in the bloodstream.
+b. The result of low hemoglobin.
+c. An inability of the cells of the body to use the oxygen available.
+Explanation: Hypoxic hypoxia results from low oxygen levels in the blood, for example at altitude. Low haemoglobin is anaemic hypoxia and cell inability is histotoxic hypoxia.
+
+39. You see yellow runway edge lights, what does this mean?
+a. You have run into the stop way.
+b. They have run out of the normal colour bulbs.
+*c. You are within 600m of the end of the runway or have less then one third of the runway remaining.
+Explanation: Yellow edge lights mark the last 600 m of the runway or the last third, whichever is less.
+
+40. What is the Annex of the Chicago Convention that covers SAR?
+a. Annex 14
+*b. Annex 12
+c. Annex 16
+Explanation: Annex 12 covers Search and Rescue.
+
+41. RWYCC and a description of runway surface is used for:
+*a. Airplane performance calculations by Flight Crew.
+b. Warning pilots of bad weather and imminent diversion.
+c. Informing Operator to stop all operations till further notice.
+Explanation: The Runway Condition Code and surface description are used by flight crew for aeroplane performance calculations.
+
+42. Obstacle light on top of a follow me vehicle will be:
+a. Flashing Blue
+b. Flashing Blue/Yellow
+*c. Flashing Yellow
+Explanation: Follow-me vehicles carry a flashing yellow light.
+
+43. Presbyopia is also known as:
+a. Short sightedness
+b. Cross sightedness
+*c. Long sightedness
+Explanation: Per the answer key, presbyopia is age-related long-sightedness, where near focus is lost.
+
+44. If you are intercepted by a military aircraft over foreign territory, on what frequency should you attempt to speak to the military pilot?
+a. The ATC frequency in use.
+*b. 121.500MHz (the VHF distress and calling frequency).
+c. No specific frequency. Try the lot until get contact.
+Explanation: An intercepted aircraft should try to establish contact with the intercepting aircraft on 121.5 MHz.
+
+45. You are carrying out an instrument approach to land at Mumbai International. You are IMC at FL 70. The radar controller tells you set the Mumbai QNH 1007 and descend to and maintain 4500ft. The transition level is FL50. What do you do?
+a. Tell the radar controller that you cannot accept his clearance as you are above the transition level.
+b. Level 1013 set until at FL50 then set 1007 and descend to 4500ft.
+*c. Set 1007 immediately and advise leaving 7000ft for 4500ft.
+Explanation: Per the answer key, when cleared to an altitude, the pilot sets QNH immediately and reports leaving the level for the cleared altitude.
+
+46. Which of the following is NOT an approved method of radar identification using SSR?
+a. Squawk handover from another radar controller.
+*b. Track observation and position reports.
+c. Use of the IDENT function.
+Explanation: Track observation and position reports is a primary radar identification method, not an SSR method. SSR identification uses IDENT, code assignment or handover.
+
+47. What information is contained in an AIC?
+a. Major changes to Search and Rescue facilities.
+*b. Information that does not qualify for inclusion in the AIP.
+c. A better printed version of a NOTAM.
+Explanation: An AIC contains information that does not qualify for the AIP or a NOTAM.
+
+48. Who is responsible when damage is caused by an aeroplane to persons or property on the ground?
+*a. The Operator.
+b. The pilot actually flying or at the controls when the incident happened.
+c. The commander is responsible providing that no other person can be held responsible.
+Explanation: The aircraft operator is liable for damage caused to persons or property on the ground.
+
+49. ATIS is normally provided
+a. To replace the FSS.
+*b. To relieve frequency congestion.
+c. For the rapid updating weather forecasts.
+Explanation: ATIS is provided to relieve frequency congestion by broadcasting routine arrival and departure information.
+
+50. "ASDA" (Acceleration Stop Distance Available) is:
+a. The length of the take-off run available plus the length of the clearway.
+*b. The length of the take-off run available plus the length of stopway (if stopway is provided).
+c. The length of the runway plus the length of stopway available (if stopway provided).
+Explanation: ASDA is the take-off run available (TORA) plus the stopway, if provided.
+`);
+/* ============================================================
+   AIR REGULATIONS QUESTION BANK - Sets 6, 7
+   Format matches js/parser.js (registerSubject / registerChapterText)
+   Correct answer is marked with '*'
+   ============================================================ */
+
+registerSubject("air-regulations", "Air Regulations");
+
+registerChapterText("air-regulations", "sample-paper-6", "Sample Paper 6", `
+1. SATVOICE is:
+*a. A valid Long-Range Communication System (LRCS).
+b. Not a valid Long-Range Communication System (LRCS) as yet.
+c. Another name for SATCOM.
+Explanation: SATVOICE (satellite voice communication) is a recognised long-range communication system.
+
+2. FMS/ RNAV:
+*a. Can be used for conventional procedures only if AFM permits.
+b. Cannot be used for conventional procedures.
+c. Can be used for conventional procedures if permitted by DGCA.
+Explanation: FMS/RNAV may be used for conventional procedures only if the Aircraft Flight Manual permits it.
+
+3. Purpose of VSS is to?
+a. Visual Safety Surface purpose is to identify obstacles that may affect the execution of an instrument approach procedure (except a circling approach).
+*b. Visual Segment Surface purpose is to identify obstacles that may affect the execution of an instrument approach procedure (except a circling approach).
+c. Visual Safety Surface purpose is to identify obstacles that may affect the execution of an instrument approach procedure (including a circling approach).
+Explanation: VSS stands for Visual Segment Surface. It identifies obstacles that may affect an instrument approach, except a circling approach.
+
+4. Except when a clearance is obtained from an ATC unit, a VFR flight cannot enter or leave a control zone when ceiling is less than:
+a. 2000ft or visibility is less than 5 km.
+b. 1000ft or visibility is less than 5 km.
+*c. 1500ft or visibility is less than 5 km.
+Explanation: Without ATC clearance, a VFR flight may not enter or leave a control zone when the ceiling is below 1500 ft or visibility is below 5 km.
+
+5. A double white cross displayed horizontally in the signal area means:
+a. An area unit for the movement of aircraft.
+b. Need special precautions while approaching for landing.
+*c. The aerodrome is being used by gliders and that glider flights are being performed.
+Explanation: A horizontal double white cross in the signal area indicates that gliders are using the aerodrome.
+
+6. What is Special VFR?
+a. A VFR procedure to enable an aeroplane to transit a control zone or area in IMC without compliance with IFR.
+*b. A VFR flight cleared by ATC to operate within a CTR in meteorological conditions below VMC.
+c. Any flight cleared by ATC to operate in conditions less than VMC in which the pilot is required to remain clear of cloud and in sight of the surface.
+Explanation: A Special VFR flight is a VFR flight cleared by ATC to operate within a control zone in conditions below VMC.
+
+7. IFR flight in VMC, weather changes to IMC:
+a. Fly VMC and land at nearest convenient aerodrome.
+*b. Fly according to flight plan.
+c. Change to VFR plan.
+Explanation: An IFR flight continues in accordance with its IFR flight plan.
+
+8. What does a red flashing light from the control tower to an aircraft on the maneuvering area mean?
+a. Clear to taxi.
+b. Return to the start point.
+*c. Move clear of the landing area.
+Explanation: A flashing red light to an aircraft on the manoeuvring area means to move clear of the landing area.
+
+9. In areas where a vertical separation minimum (VSM) of 300 m (1000 ft) is applied between FL 290 and FL 410 inclusive an aircraft on a magnetic track of 350 would be expected to fly at:
+a. FL 410.
+b. FL 405.
+*c. FL 400.
+Explanation: A track of 350 degrees is in the 180-359 semi-circle, which uses even levels (FL300, 320 ... 400) in RVSM airspace. FL400 is the match.
+
+10. A lower limit of a Control Area shall be established at a height above the ground level or water of not less than:
+a. 150 metres.
+*b. 200 metres.
+c. 300 meters.
+Explanation: The lower limit of a control area is set at not less than 200 m above ground or water.
+
+11. An ATS airspace where IFR and VFR flights are permitted are subject to Air Traffic Control Service and are separated from other IFR flights. All flights receive traffic information as far as practical, is classified as:
+*a. Airspace E.
+b. Airspace D.
+c. Airspace C.
+Explanation: Class E: IFR and VFR flights are permitted, IFR flights are separated from other IFR flights, and all flights receive traffic information as far as practical.
+
+12. A Control Zone shall extend laterally to at least:
+a. 10 miles from the center of the aerodrome or aerodromes concerned in the direction from which approaches may be made.
+*b. 5 nautical miles from the center of the aerodrome or aerodromes concerned in the direction from which approaches may be made.
+c. 20 miles from the center of the aerodrome or aerodromes concerned in the direction from which approaches may be made.
+Explanation: A control zone extends at least 5 NM from the aerodrome centre in the directions from which approaches may be made.
+
+13. ATIS broadcast messages containing departure and arrival information should include cloud cover, when the clouds are:
+a. Below 900m (3000ft) or below the highest minimum sector altitude, whichever is the greater.
+b. Below 2000m (600ft) or below the highest minimum sector altitude, whichever is the greater.
+*c. Below 1500m (5000ft) or below the highest minimum sector altitude, whichever is the greater.
+Explanation: ATIS includes cloud when it is below 1500 m (5000 ft) or below the highest minimum sector altitude, whichever is greater.
+
+14. Which of the following statements describes the Alert Phase (ALERFA)?
+a. An aircraft fails to arrive within 30 minutes of the ETA which was last notified to ATC.
+b. An aircraft declares that the fuel remaining is insufficient to reach safety.
+*c. An aircraft which has been cleared to land fails to land within 5 minutes of the ETA and communication has not been re-established.
+Explanation: Per the answer key, ALERFA applies when a cleared aircraft fails to land within 5 minutes of its ETA and communication has not been re-established.
+
+15. The longitudinal separation minima based on DME, and each aircraft "on track" uses DME stations, is:
+a. 10NM provided that the leading aircraft maintains a true airspeed of 40kt or more faster than the succeeding aircraft
+*b. 10NM provided that the leading aircraft maintains a true airspeed of 20kt or more faster than the succeeding aircraft.
+c. 20NM provided that the leading aircraft maintains a true airspeed of 10kt or more faster than the succeeding aircraft.
+Explanation: DME-based longitudinal separation is 10 NM, provided the leading aircraft is at least 20 kt faster than the following aircraft.
+
+16. Above FL 290 the vertical flight separation between aircraft on the same direction is:
+a. 2000ft.
+*b. 4000ft.
+c. 3000ft.
+Explanation: Without RVSM, aircraft on the same direction above FL290 are spaced 4000 ft apart.
+
+17. What defines a controlled aerodrome?
+a. It must be located within a CTR.
+*b. It must have a control tower giving an ATC service.
+c. It must have a control tower and be in a CTR.
+Explanation: A controlled aerodrome is one at which ATC service is provided to aerodrome traffic. This does not require a CTR.
+
+18. When "Secondary Radar" is used, an aircraft may be identified by one of the following procedures:
+a. To request pilot to set transponder on position "OFF".
+b. To request pilot to switch from "ON" to "STBY".
+*c. Observation of compliance with an instruction to operate transponder from "ON" to "STBY" and back to "ON".
+Explanation: Identification is done by observing compliance with an instruction to switch the transponder from ON to STBY and back to ON.
+
+19. A notice providing information on Rules of the Air, Traffic Services and Air Navigation Procedures and distributed in advance of its effective date is:
+*a. An AIRAC.
+b. An ATS NOTAM.
+c. An Advisory NOTAM.
+Explanation: AIRAC (Aeronautical Information Regulation and Control) distributes operationally significant changes in advance of their effective date.
+
+20. How can optimum arousal and vigilance affect a pilot?
+a. High arousal and vigilance are necessary for a pilot in all stages of flight.
+b. In low arousal and vigilance, there is a real danger of attention becoming narrowed.
+*c. Too little arousal and vigilance have an inert affect, while too much has a hyper affect.
+Explanation: Too little arousal makes a pilot sluggish (inert), and too much makes the pilot over-excited (hyper). Optimum performance lies between the two.
+
+21. The color identification of the contents of droppable containers and packages containing survival equipment should take the form of colored streamers according to the following code:
+*a. Red for medical supplies and first aid equipment.
+b. Black for food and water.
+c. Blue for blankets and protective clothing.
+Explanation: Red streamers mark medical supplies and first aid equipment. Blue is for food and water, yellow for blankets and protective clothing, and black for miscellaneous items.
+
+22. The number of stripes on each side of the center line of a runway which has a width of 45m is:
+a. 3.
+*b. 6.
+c. 4.
+Explanation: A 45 m wide runway has 12 threshold stripes in total, 6 on each side of the centreline.
+
+23. How is a paved pre-threshold area which is greater than 60 m in length but not suitable for any use by aircraft, marked?
+a. By white arrows directing approaching aircraft to the displaced threshold.
+b. By a yellow X.
+*c. By a white X.
+Explanation: Per the answer key, an unusable paved pre-threshold area longer than 60 m is marked with a white X.
+
+24. "Instrument runways" are the following runways intended for the operation of aircraft using instrument approach procedures:
+*a. Non precision approach runways, precision approach runways category I, II and III.
+b. Precision approach runways category II and III.
+c. Precision approach runways category I, II and III.
+Explanation: Instrument runways include non-precision approach runways and precision approach runways of Categories I, II and III.
+
+25. A precision approach procedure based on navigation systems SBAS Cat I is designed for 3D instrument approach operations:
+*a. Type A or B.
+b. Type A only.
+c. Type B only.
+Explanation: Precision approaches (ILS, MLS, GLS, SBAS Cat I) are designed for 3D instrument approach operations Type A or B.
+
+26. When the aircraft carries serviceable Mode C transponder, the pilot shall continuously operate this mode:
+a. Regardless of ATC instructions.
+*b. Unless otherwise directed by ATC.
+c. Only when directed by ATC.
+Explanation: Mode C is operated continuously unless ATC directs otherwise.
+
+27. In selecting a flight level for a flight, which of the following should be taken into consideration?
+1. Adequate terrain clearance is ensured.
+2. ATC requirements (Danger Areas, restricted airspace etc.) are complied with.
+3. Minimum traffic separation is ensured.
+4. Adequate separation from VFR traffic is ensured (differential flight levels applied).
+5. The appropriate flight level in accordance with the table of flight levels. The level chosen complies with the table of cruising levels.
+*a. 1, 2 and 5.
+b. All the above.
+c. 1, 2, 3 and 5.
+Explanation: Per the answer key, the pilot considers terrain clearance, ATC requirements and the table of cruising levels. Traffic separation is ATC's responsibility.
+
+28. OCH for a precision approach is defined as:
+a. The lowest height above mean sea level of the relevant runway used in establishing compliance with appropriate obstacle clearance requirements.
+b. The lowest altitude above the aerodrome elevation used in establishing compliance with appropriate obstacle clearance requirements.
+*c. The lowest height above the elevation of the relevant runway threshold, at which a missed approach must be initiated to ensure compliance with the appropriate obstacle clearance criteria.
+Explanation: For a precision approach, OCH is the lowest height above the runway threshold elevation at which a missed approach must be initiated to meet obstacle clearance criteria.
+
+29. You are on an IFR flight executing a circling approach. A descend below the MDA should not be made until:
+1. The pilot has the landing threshold in sight.
+2. Visual reference has been established and can be maintained.
+3. The required obstacle clearance can be maintained, and a landing can be made.
+The combination regrouping all the correct statements is:
+a. 1, 2.
+*b. 1, 2, 3.
+c. 2, 3.
+Explanation: Descent below MDA requires the threshold in sight, visual reference established and maintained, and obstacle clearance and a landing assured.
+
+30. No unauthorized person must be present within ______ mts of a/c while refueling is on:
+*a. 15.
+b. 30.
+c. 50.
+Explanation: During refuelling, no unauthorised person may be within 15 m of the aircraft.
+
+31. The member of operating crew shall not have taken alcoholic drinks:
+a. 6 hrs. before commencement of flight.
+*b. 12 hrs. before commencement of flight.
+c. 24 hrs. before commencement of flight.
+Explanation: Per the answer key, a crew member must not have consumed alcohol within 12 hours before the flight.
+
+32. To be able to execute a public transport flight, the minimum and maximum age (with ATPL) is:
+*a. 21 and 65 years.
+b. 16 and 60 years.
+c. 18 and 60 years.
+Explanation: Per the answer key, an ATPL holder may fly public transport between age 21 and 65.
+
+33. Flight Manual is to be carried by:
+*a. All aircraft.
+b. Scheduled aircraft only.
+c. If C of A states so.
+Explanation: Per the answer key, the Flight Manual is carried by all aircraft.
+
+34. Which of the following requirements should be met when planning a flight with icing conditions:
+a. The flight should be planned so that a change of cruising level can be initiated rapidly.
+b. The aircraft shall before flight sprayed with anti-icing fluid.
+*c. The aircraft shall be equipped with approved ice-protection systems.
+Explanation: Flight into known or expected icing requires approved ice-protection systems on the aircraft.
+
+35. About procedures for noise attenuation during landing:
+*a. Such procedures will not involve the prohibition of using reverse thrust.
+b. Such procedures do not exist.
+c. They prohibit the use of reverse thrust.
+Explanation: Noise abatement procedures for landing must not prohibit the use of reverse thrust.
+
+36. A class A fire is a fire of:
+a. Electrical origin.
+*b. Solid material, generally of organic nature.
+c. Liquid or liquefiable solid.
+Explanation: Class A fires involve solid combustibles such as wood, paper and fabric. Class B is flammable liquids.
+
+37. A slow decompression may be caused by:
+a. Loss of a cabin window.
+*b. A leak in a door seal during normal pressurized flight.
+c. Loss of a door.
+Explanation: A leaking door seal or similar small leak causes slow decompression. Loss of a window or door causes rapid or explosive decompression.
+
+38. One of the main characteristics of wind shear is that it:
+a. Occurs only at a low altitude (2000ft) and never in the horizontal plane.
+*b. Can occur at any altitude in both the vertical and horizontal planes.
+c. Can occur at any altitude and only in the horizontal plane.
+Explanation: Wind shear can occur at any altitude and in both horizontal and vertical directions.
+
+39. When flight crew members are at their duty stations they must:
+a. Wear a communication head set.
+*b. Keep the seat belts fastened.
+c. Fully raise the seat.
+Explanation: Flight crew at their stations must keep their seat belts fastened.
+
+40. Viscous hydroplaning is caused by:
+*a. A smooth and dirty runway surface.
+b. Bald tires.
+c. A rough runway surface.
+Explanation: Viscous hydroplaning occurs on smooth surfaces contaminated with a thin film of dirt, rubber or oil mixed with water.
+
+41. In radio terms, frequency means:
+*a. The number of complete wave forms passing a spot in one second.
+b. The number of wave forms in one hour.
+c. The length of a complete waveform in metres.
+Explanation: Frequency is the number of complete cycles passing a point per second (Hz).
+
+42. When flying on a SW heading at 3500 feet you would report your heading and level as:
+*a. Heading 225 at three thousand and five hundred.
+b. Southwest at three five zero zero.
+c. Heading 045 at three thousand five hundred.
+Explanation: SW equals 225 degrees. Headings are given in degrees and levels with the thousands and hundreds spoken in words.
+
+43. A State shall provide assistance to an aircraft subjected to an act of unlawful seizure. This assistance includes:
+a. Only permission to land.
+b. Provision of navigation aids, air traffic services, permission to land and catering for passengers.
+*c. Provision of navigation aids, air traffic services, permission to land.
+Explanation: Per the answer key, the State provides navigation aids, air traffic services and permission to land.
+
+44. One of the most frequent symptom(s) of decompression sickness emerging after a decompression in airline operation:
+*a. Are the bends.
+b. Is a shock.
+c. Are neurological damages to the CNS.
+Explanation: The bends (joint pain) is the most frequent symptom of decompression sickness.
+
+45. The elements of the SHEL model are:
+a. Software, hardware, electronics, and livewire.
+b. Shareware, hardware, education, and limitations.
+*c. Software, hardware, environment and liveware.
+Explanation: SHEL stands for Software, Hardware, Environment and Liveware.
+
+46. A high degree of cockpit automation may alter the traditional tasks of the pilots in a way, that:
+a. The crew always maintains situational awareness by being more alert.
+b. The crew pays more attention to be always in loop.
+*c. The attention of the cockpit crew will become reduced with the consequence of 'being out of the loop'.
+Explanation: High automation can reduce crew attention and leave them "out of the loop".
+
+47. An increase in the amount of carbon dioxide in the blood leads to:
+a. A decrease of acidity in the blood.
+b. A reduction of red blood cells.
+*c. Shortness of breath.
+Explanation: Rising CO2 stimulates the breathing reflex, causing shortness of breath. It also increases blood acidity.
+
+48. In the pulmonary artery there is:
+*a. Oxygen poor and carbon dioxide rich blood.
+b. Oxygen poor and carbon dioxide poor blood.
+c. Oxygen rich and carbon dioxide rich blood.
+Explanation: The pulmonary artery carries deoxygenated, CO2-rich blood from the heart to the lungs.
+
+49. Approaches at night without visual references on the ground and no landing aids (e.g., VASIS) can make the pilot believe of being:
+a. Lower than actual altitude with the risk of ducking under.
+b. Lower than actual altitude with the risk of overshooting.
+*c. Higher than actual altitude with the risk of landing short ("ducking under").
+Explanation: The black-hole approach illusion makes the pilot feel higher than actual, risking a low approach and landing short.
+
+50. Disturbance of the biological clock appears after a:
+1. Bad night's sleep.
+2. Day flight Delhi-London.
+3. Day flight Delhi-Colombo.
+4. Night flight London-Delhi.
+a. 1, 2 and 3 are correct.
+b. 1 and 3 are correct.
+*c. 2 and 4 are correct.
+Explanation: Long flights across several time zones (Delhi-London, London-Delhi) disturb the body clock. Delhi-Colombo crosses only a small time difference.
+`);
+
+registerChapterText("air-regulations", "sample-paper-7", "Sample Paper 7", `
+1. In an approach with vertical guidance, minimum height below which p-i-c cannot descend unless visual reference to land is established:
+a. DA.
+*b. DH.
+c. MDA
+Explanation: Per the answer key, in an approach with vertical guidance the minimum height is the DH (decision height).
+
+2. An instrument approach procedure without vertical guidance is a:
+a. Non precision approach, 2D Type B.
+b. Precision approach, 2D Type A.
+*c. Non precision approach, 2D Type A.
+Explanation: An approach without vertical guidance is a non-precision approach, 2D Type A.
+
+3. Which is the correct order of priority:
+a. Gliders do not give way to balloons.
+*b. Power-driven heavier-than-air aircraft shall give way to airships, gliders, and balloons.
+c. Gliders shall give way to airships and balloons.
+Explanation: Power-driven heavier-than-air aircraft give way to airships, gliders and balloons.
+
+4. Green Light on an aircraft is visible if seen from the front:
+a. At an arc of 110 degrees to the starboard side.
+*b. At an arc of 110 degrees to the port side.
+c. At an arc of 140 degrees to the starboard side.
+Explanation: Per the answer key, option B. Note that the green navigation light is normally on the starboard (right) side, so review this one.
+
+5. ILS glide slope angle normally is set at:
+a. 2.5 degrees.
+*b. 3.0 degrees.
+c. 3.5 degrees.
+Explanation: The standard ILS glide slope angle is 3 degrees.
+
+6. An instrument runway served by ILS & visual aids intended for operations with a DH not lower than 60m and RVR not less than 550m is a:
+*a. Cat I type B instrument runway.
+b. Cat II type A instrument runway.
+c. Cat III type B instrument runway.
+Explanation: Cat I with DH below 75 m but not lower than 60 m and RVR of at least 550 m is a Cat I Type B runway.
+
+7. Airfield safety altitude:
+*a. Is highest sector safety altitude with in 25NMs.
+b. Is highest sector safety altitude with in 10NMs.
+c. Provides clearance from obstructions within 50NMs of aerodrome.
+Explanation: Per the answer key, the airfield safety altitude is the highest sector safety altitude within 25 NM.
+
+8. Enroute Jeppensen charts are based on ______ projection.
+*a. Lamberts.
+b. Mercator.
+c. Conical.
+Explanation: En-route charts use the Lambert conformal conic projection.
+
+9. Types of Hypoxia are:
+a. Stagnant hypoxia.
+b. Anaemic hypoxia.
+*c. Both of these.
+Explanation: Stagnant and anaemic are both types of hypoxia, along with hypoxic and histotoxic.
+
+10. For Commercial Pilot Licence aeroplane, the applicant shall have completed in aeroplanes not less than _____. if the privileges of the licence are to be expected:
+a. 5 hours of night flight time including 3 take-offs and 3 landings as pilot-in-command.
+b. 5 hours of night flight time including 5 take-offs and 5 landings as pilot-in-command.
+*c. 5 hours of night flight time including 10 take-offs and 10 landings as pilot-in-command.
+Explanation: Per the answer key, the night flying requirement is 5 hours including 10 take-offs and 10 landings as PIC.
+
+11. Cabin crew requirement for an airplane with seating capacity of more than 50 passengers is:
+a. One cabin crew for each unit of 50 passengers.
+*b. Two cabin crew plus one cabin crew for each unit of 50 passengers units above 99 passengers.
+c. None of the above.
+Explanation: Per the answer key, two cabin crew plus one for each additional unit of 50 passengers above 99.
+
+12. Vertical separation in RVSM airspace:
+a. Is increased.
+*b. Is decreased.
+c. Does not alter.
+Explanation: RVSM reduces the vertical separation between FL290 and FL410 from 2000 ft to 1000 ft.
+
+13. On PAPI approach, if a pilot sees 3 lights white and one red, the aircraft is:
+a. Too high.
+*b. Slightly high.
+c. On correct approach.
+Explanation: Three white and one red indicates slightly above the glide path. Four white is too high, two and two is on path.
+
+14. MDA is calculated for:
+a. Non-precision approach.
+b. Circling approaches.
+*c. Both A & B are correct.
+Explanation: MDA applies to both non-precision approaches and circling approaches.
+
+15. ETOPS stands for:
+a. Extra Time Operations.
+b. Extended Turbojet Operations.
+*c. Extended Range for Twin Engine Operations.
+Explanation: ETOPS means Extended Range Twin-engine Operations (now generally termed EDTO).
+
+16. An Air India aircraft is on a dry lease to I.A.F. for military use. It will be known as a:
+a. Civil aircraft.
+*b. Military aircraft.
+c. International flight.
+Explanation: An aircraft operated by the armed forces for military use is a military aircraft, even if leased.
+
+17. Registration of an aircraft is valid for:
+a. One year.
+*b. Till canceled by DGCA.
+c. Till it is destroyed in an accident.
+Explanation: Aircraft registration remains valid until cancelled by the DGCA.
+
+18. Flight manual contains:
+a. Fuel and oil to be carried on board.
+b. Certificate of air worthiness.
+*c. Information and instruction to safe operations.
+Explanation: The Flight Manual contains the information and instructions needed for safe operation of the aircraft.
+
+19. Succession of command is given by:
+*a. The operator to pilots by a circular.
+b. DGCA.
+c. Central government.
+Explanation: The operator specifies the succession of command to pilots by circular.
+
+20. In the short-term-memory, information is stored for approximately _______ and it's capacity is _____items,
+a. 40 to 60 seconds, 11 +/- 3.
+b. 20 to 30 seconds, 7 +/- 2.
+*c. 10 to 20 seconds, 7 +/- 2.
+Explanation: Per the answer key, short-term memory holds information for about 10-20 seconds with a capacity of 7 plus or minus 2 items.
+
+21. If a passenger falls sick on board an a/c and he is suspected of any infectious disease, then PIC's action is:
+a. To land immediately.
+*b. To inform the officer-in-charge of destination aerodrome at least two hrs. before landing.
+c. To inform DGCA.
+Explanation: Per the answer key, the PIC informs the officer-in-charge of the destination aerodrome at least two hours before landing.
+
+22. The pilot of a departing aircraft flying under IFR shall change the altimeter setting from QNH to standard setting 1013.25hPA when passing:
+a. Transition layer.
+b. The level specified by ATC.
+*c. Transition altitude.
+Explanation: A departing aircraft changes from QNH to 1013.25 hPa when passing the transition altitude.
+
+23. Hyperventilation is caused due to:
+a. Decreased breathing rate.
+b. Increased heart beat.
+*c. Emotional tension or anxiety.
+Explanation: Hyperventilation, or over-breathing, is commonly triggered by emotional tension or anxiety.
+
+24. OCA is used in:
+a. Establishing compliance with appropriate obstacle clearance criteria associated with balked landing surface.
+b. Establishing compliance with appropriate obstacle clearance criteria en route.
+*c. Establishing compliance with appropriate obstacle clearance criteria at an aerodrome.
+Explanation: OCA is used to establish compliance with obstacle clearance criteria at an aerodrome.
+
+25. Flight plan is to be filed in India in respect of:
+a. All flights other than scheduled flights.
+*b. All flights other than local flights.
+c. Only for scheduled flights.
+Explanation: Per the answer key, a flight plan is required for all flights other than local flights.
+
+26. Mandatory instructions signs on an aerodrome shall have the following colours:
+*a. White inscription on a red background.
+b. Yellow inscription on a black background.
+c. Black inscription on a yellow background.
+Explanation: Mandatory instruction signs have white inscriptions on a red background.
+
+27. Hyper ventilation is caused due to lack of __________ in blood system:
+a. Oxygen.
+*b. Carbon Dioxide.
+c. CO.
+Explanation: Over-breathing washes out CO2 from the blood, causing hyperventilation symptoms.
+
+28. OCA circling approach is __________ the OCA precision approach:
+a. Lower than.
+*b. Higher than.
+c. Equal to.
+Explanation: Circling approach OCA is higher than the precision approach OCA.
+
+29. If an aerodrome minima is not established for IFR/VFR operations the minima to be applied will be laid down by:
+a. AAI.
+*b. DGCA.
+c. Operator.
+Explanation: Where no aerodrome minima are established, the DGCA lays down the minima to be applied.
+
+30. Enroute flight levels are on:
+a. QNH.
+*b. QNE.
+c. QFE.
+Explanation: En-route flight levels are flown on the standard altimeter setting (QNE, 1013.2 hPa).
+
+31. To overcome severe turbulence pilot should maintain:
+a. Constant flight attitude.
+*b. Constant airspeed.
+c. Constant airspeed and attitude.
+Explanation: Per the answer key, the pilot should maintain a constant airspeed (the turbulence penetration speed).
+
+32. At Aerodromes where no ATZ is established, the vicinity of aerodrome for VFR flights shall be:
+a. 5 NMs from ARP upto 1000' agl.
+b. 25 NMs from ARP upto 5000' agl.
+*c. 5 NMs from ARP upto 3000' agl.
+Explanation: Where no ATZ is established, the vicinity is 5 NM from the ARP up to 3000 ft AGL.
+
+33. Deviations from ICAO procedures are published in:
+*a. AIP.
+b. AIRAC.
+c. AIC.
+Explanation: Differences from ICAO SARPs and procedures are published in the AIP.
+
+34. In which chapter of the AIP can you find a list with "location indicators"?
+a. AGA.
+*b. GEN.
+c. ENR.
+Explanation: The list of location indicators is in the GEN part of the AIP.
+
+35. Track separation is also known as separation:
+a. Vertical.
+*b. Lateral.
+c. Composite.
+Explanation: Track separation is a form of lateral separation.
+
+36. Abrupt head movements in IMC operations may cause:
+a. False horizon.
+*b. Disorientation.
+c. Optical illusion.
+Explanation: Abrupt head movements in IMC stimulate the vestibular system and cause disorientation.
+
+37. Flight Engg. Is carried on board:
+a. If P-I-C desires so.
+b. If operator feels so.
+*c. If demanded by C of A.
+Explanation: A flight engineer is carried if the Certificate of Airworthiness requires one.
+
+38. Flight plan is prepared by:
+a. Taking any arbitrary points on route.
+b. Taking the shortest distance to the destination.
+*c. Choosing routes as listed in AIP.
+Explanation: Flight plans use the routes published in the AIP.
+
+39. For safety reasons, an aircraft should remain behind a jet engine by at least:
+a. 100'.
+*b. 200'.
+c. 300'.
+Explanation: Per the answer key, the safe distance behind a jet engine is at least 200 ft.
+
+40. ADC is required for:
+a. Scheduled flight only.
+b. Non-scheduled flight only.
+*c. All flights are in ADIZs.
+Explanation: Air Defence Clearance (ADC) is required for all flights in an Air Defence Identification Zone.
+
+41. Vertical separation in CVSM airspaces above FL 290 is:
+a. 1000'.
+*b. 2000'.
+c. 4000'.
+Explanation: Conventional vertical separation above FL290 is 2000 ft.
+
+42. What is the minimum flight altitude permitted over towns and settlements and populated areas?
+a. The altitude which permits the aircraft to land safely in the event of an engine failure.
+*b. 1000 ft above the highest obstacle within 600 m of the aircraft position.
+c. 500 ft.
+Explanation: Per the answer key, the minimum is 1000 ft above the highest obstacle within 600 m of the aircraft.
+
+43. A worker working close to the runway is thrown off and seriously injured by a jet blast from a departing aircraft, it is an:
+*a. Notifiable Accident.
+b. Notifiable Incident.
+c. Notifiable Occurrence.
+Explanation: A serious injury to a person caused by the aircraft's jet blast is classed as an accident.
+
+44. Minimum visibility required to fly at 12000' for a VFR flight is:
+a. 5 kms.
+*b. 8 kms.
+c. 10 kms.
+Explanation: At and above 10000 ft AMSL, VFR flight requires 8 km visibility.
+
+45. ATC services are provided to IFR flights and traffic information to VFR flights as far as practical provided in class airspace:
+*a. E.
+b. D.
+c. C.
+Explanation: In Class E, IFR flights get ATC service and VFR flights get traffic information as far as practical.
+
+46. Cruising level available on a magnetic track of 300 degrees are:
+a. 115, 135, 155, 175.
+b. 110, 130, 150, 160.
+*c. 125, 145, 165, 185.
+Explanation: A track of 300 degrees falls in the 180-359 semi-circle, which uses FL125, 145, 165, 185 for VFR.
+
+47. Route designator for domestic routes is:
+*a. Whiskey
+b. Alpha
+c. Blue
+Explanation: Domestic ATS routes in India use the designator W (Whiskey).
+
+48. In AIP, Enroute 3.2, ATS routes are described as:
+a. Upper ATS Routes.
+*b. Air Navigation Routes.
+c. Non RNP routes.
+Explanation: Per the answer key, ENR 3.2 describes the Air Navigation Routes.
+
+49. Standing water on runway is notified through a:
+a. Notam SW.
+*b. Snowtam.
+c. AIRRAC.
+Explanation: Standing water on a runway is notified by a SNOWTAM, which covers snow, slush, ice and standing water.
+
+50. CARS is a:
+*a. Cockpit Audio Recording System (CARS). It is a light weight voice recorder.
+b. Cockpit Automatic Recording System (CARS). It is a heavy weight flight recorder.
+c. Cockpit Audio Recovery System (CARS). It is a crash protected flight recorder.
+Explanation: CARS is a Cockpit Audio Recording System, a lightweight voice recorder.
+`);
+
+/* ============================================================
+   AIR REGULATIONS QUESTION BANK
+   Format matches js/parser.js (registerSubject / registerChapterText)
+   Correct answer is marked with '*'
+   ============================================================ */
+
+registerSubject("air-regulations", "Air Regulations");
+
+registerChapterText("air-regulations", "sample-paper-8", "Sample Question Paper 8", `
+1. Prohibition of flights over Mathura refinery is:
+a. Within a radius of 1 NM.
+b. Within a radius of 10 NM.
+*c. Within a radius of 10 kms.
+Explanation: Flights are prohibited within a 10 km radius of the Mathura refinery.
+
+2. Following failure of two-way radio communications the pilot should select one of the following on the transponder:
+*a. Mode A 7600.
+b. Mode A 7500.
+c. Mode C 2000.
+Explanation: Code 7600 indicates radio communication failure. 7500 is unlawful interference and 7700 is emergency.
+
+3. When two aircraft are approaching head on, the rules of the air require that:
+*a. Both aircraft alter heading to starboard.
+b. Both aircraft alter heading to port.
+c. The larger aircraft alters heading to starboard.
+Explanation: In a head-on approach, both aircraft alter heading to the right.
+
+4. An Instrument Rating Test is valid before renewal for:
+a. 6 months.
+b. 13 months.
+*c. 12 months.
+Explanation: As per the book key, an instrument rating test is valid for 12 months before renewal.
+
+5. While flying at night another aircraft reports that you are on a relative bearing of ten o' clock from him. You should see his:
+a. Green navigation light.
+b. White navigation light.
+*c. Red navigation light.
+Explanation: Ten o'clock from the other aircraft is on its left (port) side, which carries the red navigation light.
+
+6. A light aircraft taking off from an intermediate position on the runway after a heavy aircraft requires a wake vortex separation of:
+*a. 3 minutes.
+b. 3nm.
+c. 2 minutes.
+Explanation: A light aircraft departing from an intermediate point behind a heavy aircraft needs 3 minutes of wake turbulence separation.
+
+7. EAT is the time that an aircraft:
+a. Is expected to join the circuit.
+*b. Is expected to leave the hold and commence its approach.
+c. Is expected to land.
+Explanation: Expected Approach Time is when ATC expects an aircraft, following a delay, to leave the holding point to complete its approach for landing.
+
+8. Above 30000 ft the vertical separation between aircraft on reciprocal tracks will be:
+a. 2000ft.
+b. 1000ft.
+*c. 1000ft or 2000ft depending on whether or not the aircraft are in RVSM airspace.
+Explanation: Within RVSM airspace the minimum vertical separation is 1000 ft, otherwise 2000 ft applies above FL290.
+
+9. You receive an IFR route clearance stating the clearance expires at 0920. What does it mean?
+*a. If not airborne until 0920, a new clearance has to be issued.
+b. The take-off clearance is expected at 0920.
+c. After 0920 return to the ramp and file a new flight plan.
+Explanation: A clearance expiry time means that if the aircraft is not airborne by then, a new clearance must be obtained.
+
+10. Normal horizontal separation provided by radar units is:
+a. 3nm.
+*b. 5nm.
+c. 10nm.
+Explanation: As per the book key, the normal radar horizontal separation is 5 nm.
+
+11. The possible symptoms of carbon monoxide poisoning are:
+a. Anxiety, rapid breathing & dizziness.
+*b. Lethargy, nausea, headache & complexion.
+c. Blueness of lips, impaired judgment and co-ordination.
+Explanation: CO poisoning typically causes lethargy, nausea and headache, with a flushed complexion.
+
+12. If a pilot goes scuba diving to a depth of 30 feet for more than 10 mts, he/she should not fly within:
+a. 12 hours.
+*b. 24 hours.
+c. 48 hours.
+Explanation: As per the book key, flying should be delayed at least 24 hours after such a dive.
+
+13. A continuous red beam directed at an aircraft from the ATC tower means:
+a. Airfield unfit, land elsewhere.
+b. Airfield closed, do not land.
+*c. Do not land, give way to other aircraft and continue circling.
+Explanation: A steady red light to an aircraft in flight means give way to other aircraft and continue circling.
+
+14. Two aircraft of the same category are approaching an airport for the purpose of landing. The right-of-way belongs to the aircraft:
+a. At the higher altitude.
+*b. At the lower altitude, but the pilot shall not take advantage of this rule to cut in front of or to overtake the other aircraft.
+c. That is more maneuverable, and that aircraft may, with caution, move in front of or overtake the other aircraft.
+Explanation: The aircraft at the lower level has right-of-way, but must not use this to cut in front of or overtake the other aircraft.
+
+15. What is the minimum flight visibility and proximity to cloud requirements for VFR flight, at 6500 feet MSL, in Class D airspace?
+a. 1.5 Km visibility; clear of clouds.
+b. 10000 feet MSL, if above 10000 feet AGL.
+*c. 5 Km visibility; and 1000 feet below.
+Explanation: As per the book key, Class D VFR needs 5 km visibility and 1000 ft vertical clearance from cloud.
+
+16. Air Traffic Advisory Service is provided in airspace classified as:
+a. Class E.
+*b. Class F.
+c. Class G.
+Explanation: Class F airspace provides air traffic advisory service (IFR) and flight information service.
+
+17. When landing behind a large jet aircraft, at which point on the runway should you plan to land?
+a. If there is any crosswind, land on the windward side of the runaway and prior to the jet's touchdown point.
+b. At least 1000 feet beyond the jet's touchdown point.
+*c. Beyond the jet's touchdown point.
+Explanation: To stay above the wake vortices, land beyond the large jet's touchdown point.
+
+18. At an altitude of 6500 feet MSL the current altimeter setting is 996 hPa the pressure altitude would be approx.:
+*a. 7000 feet.
+b. 6300 feet.
+c. 6000 feet.
+Explanation: 1013 minus 996 is 17 hPa, which is roughly 500 ft. A setting below standard means pressure altitude is higher, so about 7000 ft.
+
+19. Hazardous wake turbulence caused by aircraft in still air:
+a. Dissipates immediately.
+b. Dissipates rapidly.
+*c. May persist for two minutes or more.
+Explanation: In still air, wake vortices can persist for two minutes or more.
+
+20. Wake turbulence will be greatest when generated by an aeroplane which is:
+a. Heavy, landing configuration and slow speed.
+*b. Heavy, clean configuration and slow speed.
+c. Light, clean configuration and high speed.
+Explanation: Vortex strength is greatest for a heavy aeroplane that is clean (no flaps) and slow.
+
+21. Preventive efforts for mental disorders should be aimed at more common mental health problems such as:
+a. Psychosis and bipolar disorder.
+*b. Depression, anxiety, and substance misuse.
+c. Personal, company and financial issues.
+Explanation: Depression, anxiety and substance misuse are the most common mental health problems.
+
+22. A situation in which apprehension exists as to the safety of an aircraft. To which emergency phase does this situation correspond?
+*a. ALERFA.
+b. INCERFA.
+c. DETRESFA.
+Explanation: ALERFA (Alert Phase) is a situation where apprehension exists as to the safety of an aircraft and its occupants.
+
+23. The marshaling signal "arms extended overhead, palms facing inwards, arms swung from the extended position inwards" means:
+*a. Stop.
+b. Chokes inserted.
+c. Cut Engines.
+Explanation: As per the book key, this marshalling signal means Stop.
+
+24. A skilled motor task will be momentarily disrupted by a startle reflex but return to normal within:
+a. Five to ten minutes.
+b. Two to three minutes.
+*c. Five to ten seconds.
+Explanation: As per the book key, performance of a skilled motor task recovers within about 5 to 10 seconds of a startle reflex.
+
+25. An aircraft without registration markings can be flown only:
+a. If the sale deed is not yet completed.
+b. For purpose of test flight only, prior to purchase.
+*c. If specially permitted in writing by the central govt.
+Explanation: An aircraft without registration marks may be flown only with special written permission of the Central Government.
+
+26. The member of operating crew shall not have taken alcoholic drinks:
+a. 6 hrs. before commencement of flight.
+*b. 12 hrs. before commencement of flight.
+c. 24 hrs. before commencement of flight.
+Explanation: As per the book key, crew must not have consumed alcohol within 12 hours before the flight.
+
+27. Photography at an aerodrome can be done with prior permission in writing from:
+a. Aerodrome officer.
+*b. DGCA.
+c. Central Govt.
+Explanation: As per the book key, prior written permission from DGCA is required.
+
+28. At the correct height on the approach to runway with PAPIs pilot should see:
+*a. Two red lights and two white.
+b. Two red lights and two green.
+c. Two white lights and two green.
+Explanation: On the correct PAPI glide path, two lights are red and two are white.
+
+29. The maximum speed for an aircraft flying in class F or G airspace below F 100 is:
+*a. 250KTS IAS.
+b. 250Kts TAS.
+c. 280Kts IAS
+Explanation: In Class F and G airspace below FL100 the speed limit is 250 kt IAS.
+
+30. While refueling is in progress, no naked light be brought within ________ mts:
+a. 35.
+*b. 30.
+c. 100.
+Explanation: As per the book key, no naked light may be brought within 30 m during refuelling.
+
+31. A pilot flying low due to thunder showers for safety reasons can be sued by:
+a. State Govt.
+b. Municipal Corporation.
+*c. Cannot be sued.
+Explanation: Flight below minimum height for safety reasons is permitted, so no action lies against the pilot.
+
+32. A person can bring to India human remains of a person who has died of plague:
+a. If enclosed in a wooden box.
+*b. Cannot bring them.
+c. If enclosed in a hermetically sealed shell of zinc after permission is obtained from proper authority.
+Explanation: As per the book key, remains of a person who died of plague cannot be brought into India.
+
+33. Class 'D' airspace in India:
+a. Includes controlled airspace in the form of terminal control areas and ATS routes where IFR traffic is provided Air Traffic Services.
+*b. Includes controlled airspace in form of control zone, control areas, terminal control areas where IFR flights receive Air Traffic control service and VFR flights receive traffic information and traffic avoidance advice on request.
+c. Extends from a specified height above control zone and aerodrome traffic zone where separation between IFR flights is assured.
+Explanation: In Class D, IFR flights get ATC service and VFR flights get traffic information (and avoidance advice on request).
+
+34. The speed limitation for both IFR flights and VFR flights inside ATS airspace classified as B, when flying below 3050m (10000ft) AMSL is:
+a. 260kt IAS.
+*b. Not applicable.
+c. 250kt IAS.
+Explanation: Class B airspace has no speed limitation.
+
+35. In the event of the forced landing at an uncontrolled aerodrome, aircraft:
+a. May take off after giving report to the district magistrate/police.
+*b. May take off if the forced landing was not due to any factor effecting the safe operation of the aircraft.
+c. Must not take off till permission is obtained from DGCA.
+Explanation: As per the book key, the aircraft may take off if the forced landing was not caused by anything affecting safe operation.
+
+36. What wind condition prolongs the hazards of wake turbulence on a landing runway for the longest period of time?
+a. Direct headwind.
+b. Direct tailwind.
+*c. Light quartering tailwind.
+Explanation: A light quartering tailwind can hold the upwind vortex over the runway and move the other vortex onto it.
+
+37. The altimeter indicates the aircraft altitude in relation to:
+a. Sea level.
+b. The standard datum plane.
+*c. The pressure level set in the barometric window.
+Explanation: An altimeter reads height above whatever pressure level is set in its subscale window.
+
+38. The pressure altitude at a given location is indicated on the altimeter after the altimeter is set to:
+a. The field elevation.
+*b. 29.92".
+c. The current altimeter setting.
+Explanation: Pressure altitude is read with the altimeter set to the standard setting of 29.92 in Hg (1013.25 hPa).
+
+39. During the two minutes after the passage of a heavy aeroplane in cruising flight, hazardous wing tip vortices will:
+a. Dissipate completely.
+b. Dissipate rapidly.
+*c. Dissipate slowly.
+Explanation: As per the book key, vortices dissipate slowly and remain hazardous for some time.
+
+40. What effect would a light crosswind have on the wing tip vortices generated by a large aeroplane that had just taken off?
+*a. Could cause one vortex to remain over the runway for some time.
+b. Would rapidly dissipate the strength of both vortices.
+c. Would rapidly clear the runway of all vortices.
+Explanation: A light crosswind can hold the upwind vortex over the runway while carrying the other away.
+
+41. LDA for runway 27 at an aerodrome is 1599mts. Pair of touchdown zone markings for this runway will be:
+a. 3
+b. 6
+*c. 4
+Explanation: For an LDA of 1500 m up to but not including 2400 m, 4 pairs of touchdown zone markings are provided.
+
+42. An aerial work aircraft on a VFR plan to Jaipur departs at 1032 hrs UTC. Sunset time at Jaipur is 1318 UTC. The flying time available to him to reach Jaipur is:
+*a. 2 hrs. & 46 minutes.
+b. 2 hrs. & 26 min.
+c. 2 hrs. & 16 min.
+Explanation: From 1032 to 1318 UTC is 2 hrs 46 min.
+
+43. Number of threshold stripes on a runway of 30 m width shall be:
+a. 4.
+b. 6.
+*c. 8.
+Explanation: Threshold stripes by runway width are 18 m: 4, 23 m: 6, 30 m: 8, 45 m: 12, 60 m: 16.
+
+44. Color of intermediate holding position markings shall be:
+a. White.
+b. Red.
+*c. Yellow.
+Explanation: Taxiway markings, including intermediate holding position markings, are yellow.
+
+45. The "Certificate of Airworthiness" of an aircraft shall be deemed to be suspended when an aircraft:
+a. Is involved in an accident/incident.
+b. Is modified or repaired without the consent of the Director General.
+*c. Is modified or repaired otherwise than in accordance with the provisions of the rules.
+Explanation: As per the book key, the C of A is deemed suspended if the aircraft is modified or repaired other than as the rules provide.
+
+46. Minimum crew required on private aircraft is:
+a. One pilot.
+b. Two pilots.
+*c. As specified in the certificate of the Airworthiness.
+Explanation: The minimum crew is as laid down in the aircraft's Certificate of Airworthiness.
+
+47. If an ATC clearance is not suitable to the pilot in command of an aircraft:
+a. He may request another clearance and the ATC concerned has to accept the pilot request.
+*b. He may request and, if practicable, obtain an amended clearance.
+c. The pilot has to accept the ATC clearance because it has been based on the flight plan fled with ATC.
+Explanation: The pilot may request an amended clearance, which ATC will give if practicable.
+
+48. In AIP, Enroute 3.1, ATS routes are described as:
+a. Lower ATS Routes.
+*b. Conventional Navigation Routes.
+c. RNP routes.
+Explanation: As per the book key, AIP ENR 3.1 lists the conventional navigation routes.
+
+49. NOF stands for:
+a. Notam Office.
+b. Notam for Flight.
+*c. International Notam Office.
+Explanation: NOF is the International NOTAM Office.
+
+50. What is meant by the trans authority gradient?
+a. It is the authority exercised by captain over all flight operations.
+b. It is the authority relationship between captain and other crew members.
+*c. It is the authority relationship between captain and first officer.
+Explanation: As per the book key, the trans-cockpit authority gradient is the authority relationship between the captain and the first officer.
+`);
 registerSubject("air-regulations", "Air Regulations");
 
 registerChapterText("air-regulations", "set-1", "Set 1", `
