@@ -3044,7 +3044,530 @@ b. NW India
 c. S India
 Explanation: With the monsoon trough shifted north during a break phase, rainfall concentrates along the Himalayan foothills rather than the plains.
 `);
+registerChapterText("aviation-meteorology", "additional-questions", "Additional Questions", `
+1. The main cause of occurrence of weather over the earth surface is
+a. Changing pressure
+b. Advection of moist air
+*c. Variation in insolation
+d. Movement of air mass
+Explanation: Uneven heating of the earth (variation in insolation) creates temperature and pressure differences, and these drive winds, cloud and weather. The other options are effects of this heating, not the root cause.
 
+2. Thermal lows are generally located over
+a. Polar region
+*b. Equatorial region
+c. Temperate region
+d. Movement region
+Explanation: Thermal lows form where strong heating makes air rise and surface pressure fall, which happens in the hot equatorial and tropical belt. Polar and temperate regions are too cold for this. Memory aid: heat makes a low.
+
+3. The main cause of ground inversion is
+a. Release of latent heat
+b. Incident Solar radiation
+c. Convection
+*d. Terrestrial radiation on calm and clear night
+Explanation: On a clear, calm night the ground loses heat by terrestrial radiation and cools the air touching it, so temperature rises with height just above the ground. Cloud or wind would stop this.
+
+4. Above the friction layer winds mostly blow parallel to isobars due to balance of
+*a. Coriolis force and Geostrophic force
+b. Coriolis force and Pressure Gradient force
+c. Coriolis force and Gravitational force
+d. Coriolis force and Centripetal force
+Explanation: Above the friction layer the wind is the geostrophic wind, so it blows parallel to the isobars. NOTE: book key says a, but the usual textbook balance is Coriolis force against Pressure Gradient force (option b), because geostrophic wind is the result of that balance rather than a separate force.
+
+5. Wind at 1 km height is 320/20 kt whereas surface wind is 260/05 kt because of
+a. Subsidence
+b. Convection
+*c. Friction
+d. Thunderstorm
+Explanation: Friction near the surface slows the wind (20 kt to 5 kt) and backs it (320 to 260), so the surface wind is lighter and turned toward low pressure compared with the wind above.
+
+6. The amount of water vapour which air can hold depends on
+a. Dew point temperature
+b. Wet bulb temperature
+*c. Dry bulb temperature
+d. Virtual temperature
+Explanation: Warmer air can hold more water vapour, so the capacity depends on the actual (dry bulb) air temperature. Dew point and wet bulb tell you how much vapour is present, not how much the air can hold.
+
+7. In General circulation over the globe the Equatorial Low Pressure Belt is at the junction of which cells?
+*a. Hadley Cells
+b. Polar cell
+c. Ferrel and Hadley Cells
+d. Ferrel Cell
+Explanation: The northern and southern Hadley cells meet at the equator, where the trade winds converge and air rises, giving the equatorial low (ITCZ). Ferrel and Hadley cells meet near 30 degrees, the subtropical highs.
+
+8. The dew point temperature
+*a. is higher if air contains more water vapour
+b. changes by cooling or warming
+c. is equal to the air temperature during mist
+d. is always higher than Wet Bulb temperature for unsaturated air
+Explanation: Dew point is the temperature to which air must cool to become saturated, so more water vapour means a higher dew point. Option d is wrong because for unsaturated air the dew point is lower than the wet bulb temperature.
+
+9. What controls the movement of most TS?
+a. jet stream
+b. wind at 400 hPa
+*c. wind at 700-500 hPa
+d. wind at 30,000 ft
+Explanation: A thunderstorm is steered by the mean wind of the middle troposphere, which is the 700-500 hPa layer, not by the jet stream far above it.
+
+10. Isohyets are the line of equal
+a. Humidity
+b. Sunshine
+*c. Rainfall amount
+d. Density
+Explanation: Isohyets join places with equal rainfall. Memory aid: hyeto means rain. Isopycnic means equal density.
+
+11. How much in advance of departure a pilot must notify the Aeronautical Met Station (AMS) requiring Met Forecast for a National flight?
+a. 3 hr
+b. 6 hr
+c. 12 hr
+*d. 18 to 24 hr
+Explanation: The operator must give advance notice so that the met station can prepare the flight documentation, and the book key for this question is 18 to 24 hr. NOTE: question 32 asks a very similar thing and its book key is 3 hr (a), so the two keys conflict; check the current IMD or AIP rule before relying on either.
+
+12. An a/c cruising at FL500 in July from Chennai to Trivandrum will generally experience
+a. Weak Sly wind
+b. Subtropical Wly wind
+c. Tropical Ely wind
+*d. Tropical Jet stream
+Explanation: In the monsoon season (July) the Tropical Easterly Jet lies over peninsular India at very high levels (around FL450 to FL500), so an aircraft there meets a tropical jet stream. Ordinary tropical easterlies are not strong enough to match this.
+
+13. The sun is highest at noon, but two/three hours later the earth receives more radiation. Hence maximum temperature is around 1500 hr. It is due to
+a. Angular Momentum
+b. Thermal cooling
+*c. Thermal Inertia
+d. Rotation of the Earth
+Explanation: Land and air keep gaining more heat than they lose until about 1500 hr, so the temperature peak lags behind the noon sun. This delay is called thermal inertia.
+
+14. Which of the following Indian month corresponds to Grishm Ritu
+*a. Jyeshtha and Asadha
+b. Shravana
+c. Phalguna
+d. Paush
+Explanation: Grishma Ritu is the hot summer season, covering Jyeshtha and Asadha (about mid May to mid July). Shravana is the rainy season and Phalguna and Paush fall in the cooler seasons.
+
+15. Due to Coriolis force an Ely wind blowing over the equator will
+a. get deflected to the left
+b. become Wly
+c. weaken
+*d. remain unchanged
+Explanation: Coriolis force depends on the sine of latitude, and the sine of 0 degrees is zero, so there is no Coriolis force at the equator and the wind is not deflected.
+
+16. The surface wind at coastal stations on West coast of India during late night/early morning in Pre-monsoon season is
+a. Nly
+*b. Ely
+c. Wly
+d. Sly
+Explanation: At night the land cools faster than the sea, so a land breeze blows from land to sea. The West coast faces west, so the land breeze there blows from the east (Ely).
+
+17. Convective clouds develop at a place when the atmosphere is
+a. absolutely stable
+*b. conditionally stable
+c. neutrally stable
+d. none of the above
+Explanation: Book answer is b. NOTE: book key says conditionally stable, but the usual textbook condition for convective cloud is conditional instability (ELR between SALR and DALR, so rising saturated air keeps rising); learn it as the book gives it but know this wording.
+
+18. In a SPECI report the QNH 1005.8 hPa is reported as
+a. 1016 hPa
+b. 1015.8 hPa
+*c. 1005 hPa
+d. 1016.8 hPa
+Explanation: QNH is reported in whole hectopascals and is rounded down, so 1005.8 becomes 1005 (Q1005). Do not round up to 1006.
+
+19. Stability of atmosphere is determined by
+a. Inversion
+b. DALR
+*c. ELR
+d. SALR
+Explanation: Stability is found by comparing the Environmental Lapse Rate (ELR) with the DALR and SALR. The ELR is the actual temperature fall with height, while DALR and SALR are fixed reference rates.
+
+20. The characteristic features, good visibility and turbulence, are of
+a. high pressure area
+b. stable air mass
+*c. unstable air
+d. cold Polar air mass
+Explanation: Unstable air has vertical mixing, which carries away haze and gives good visibility but bumpy, turbulent flight. Stable air is smooth but traps haze and gives poor visibility.
+
+21. Extreme turbulence in a TS can be assessed from
+a. heavy Ice accretion
+*b. frequent lightning
+c. Hail
+d. appearance of Anvil
+Explanation: Frequent lightning shows very strong updraughts and downdraughts inside the storm, which means severe to extreme turbulence. Hail, ice and an anvil appear in many storms and do not measure turbulence as well.
+
+22. Jet streams are strongest when temperature gradients are greatest
+*a. True
+b. False
+Explanation: Jet streams exist because of a large horizontal temperature difference (thermal wind). The greater the gradient, the stronger the jet, which is why jets are strongest in winter.
+
+23. While planning to land during TS, which is the most expected serious aviation hazard
+a. Hail storm
+b. Downdraught
+*c. WS and Turbulence
+d. Heavy rain
+Explanation: Near the ground a thunderstorm gives wind shear and turbulence from gust fronts and downdraughts, and this is most dangerous on approach when the aircraft is slow and low.
+
+24. In an arid area the cloud which is capable of causing Dust Storm is
+a. CI
+b. CU
+*c. CB
+d. NS
+Explanation: Only cumulonimbus (CB) has downdraughts strong enough to spread out as a gust front and lift dust over a wide area. CI is high ice cloud, CU is small and NS gives steady rain.
+
+25. If after the issue of a SPECI, conditions continue to be below the prescribed limit then the next routine report will be a
+*a. METAR
+b. SPECIAL
+c. SPECI
+d. could be METAR or SPECI
+Explanation: A SPECI is an extra report issued when conditions change, while routine reports (METAR) continue on schedule, so the next scheduled report is still a METAR.
+
+26. Fronts are characteristics of
+a. Tropical cyclones
+b. Monsoon depression
+c. TS
+*d. Extra Tropical Depressions
+Explanation: Fronts are boundaries between different air masses, and they occur in mid-latitude (extra-tropical) depressions. Tropical cyclones, monsoon depressions and thunderstorms form within one air mass and have no fronts.
+
+27. In India in a VOLMET broadcast
+a. SIGMET is excluded
+*b. METAR,SPECI,SIGMET and TAF are included
+c. only SPECI is included
+d. only TAF are included
+Explanation: VOLMET is a voice broadcast of weather for aircraft in flight, and in India it carries METAR, SPECI, SIGMET and TAF together.
+
+28. In a SPECI the lowest layer of clouds, regardless of amount, is reported as
+*a. FEW, SCT, BKN or OVC
+b. SCT, BKN or OVC
+c. BKN or OVC
+d. FEW, SCT, or BKN
+Explanation: The lowest cloud layer is always reported whatever its amount, so FEW is allowed. Memory aid: layer 1 any amount, layer 2 at least 3/8 (SCT or more), layer 3 at least 5/8 (BKN or OVC).
+
+29. The atmospheric pressure at an aerodrome is equal to the MSL pressure then
+a. QNH > QFE
+b. QNH < QFE
+*c. QNH = QFE
+d. None of the above
+Explanation: QFE is the pressure at aerodrome level and QNH is that pressure reduced to mean sea level. If they are equal there is nothing to reduce, so the aerodrome is at sea level.
+
+30. An a/c at FL180 in July from Kolkata to Mumbai will generally experience
+a. Wly wind
+*b. Ely wind
+c. Nly wind
+d. Sly wind
+Explanation: In July the mid-level flow over central India is easterly on the southern side of the subtropical ridge, so a westbound flight from Kolkata to Mumbai meets an Ely wind (a headwind).
+
+31. Isopicnic are the line of constant
+a. Height
+b. Insolation
+c. Geopotential heights
+*d. Density
+Explanation: Isopycnic lines join points of equal density. Memory aid: iso means equal and pycnic means dense (compare isobar for pressure, isotherm for temperature).
+
+32. The minimum notice required to be given to an Aerodrome Met Office (AMO) by an aircraft operator needing Met data for a National flight is
+*a. 3 hr
+b. 6 hr
+c. 12 hr
+d. 18 to 24 hr
+Explanation: The book key gives a minimum notice of 3 hr to the AMO. NOTE: question 11 asks a similar question and its book key is 18 to 24 hr (d), so the two keys conflict; check the current IMD or AIP rule before relying on either.
+
+33. METAR VIAG 250300Z 27005KT 1200 +SHRA FEW008 SCT025 BKN080 28/25 Q1004 TEMPO 0405 0800 +TSRA FEW020CB OVC300= In the METAR surface visibility in TS is
+*a. 800 m
+b. 1200 m
+c. 4050 m
+d. 0300 m
+Explanation: The thunderstorm (+TSRA) appears only in the TEMPO group TEMPO 0405 0800 +TSRA, and the 0800 right after the time group is the visibility, so it is 800 m. The 1200 is the prevailing visibility with the shower, and 0405 is a time, not a distance.
+
+34. The upper air report from an a/c other than weather reconnaissance a/c has the identification code as
+a. WINTEM
+b. VOLMET
+c. RAWIN
+*d. CODAR
+Explanation: Per the book, upper-air reports from ordinary aircraft carry the code name CODAR. WINTEM is a forecast of upper winds and temperatures, VOLMET is a voice broadcast, and RAWIN is a balloon wind sounding.
+
+35. 'TAF AMD' covers validity period
+*a. the remaining validity period of original TAF
+b. half the validity period of the TAF
+c. the validity starting 2 hr prior to the end period of original TAF
+d. full validity period of the TAF
+Explanation: An amended TAF (TAF AMD) replaces the original only for the time that is still left of the original validity period. It does not start a new full period.
+
+36. RVR is a measure of
+a. Atmospheric transmissivity and background illumination
+*b. Atmospheric transparency, intensity of R/W lights and background illumination
+c. Intensity of background illumination
+d. Atmospheric transmissivity, intensity of R/W lights
+Explanation: RVR is the distance a pilot can see runway lights or markings, so it depends on three things: how clear the air is, how bright the runway lights are, and the background light. Only option b lists all three.
+
+37. SPECI is issued when the visibility changes from
+*a. 800 to 1500 m
+b. 8km to 6km
+c. 300m to 400m
+d. 300m to 150m
+Explanation: SPECI is issued when visibility improves or deteriorates through the set limits of 800 m, 1500 m, 3000 m and 5000 m. A change from 800 to 1500 m crosses these limits; the other changes do not.
+
+38. During pre- monsoon the pressure gradient in the S parts of East coast of India is from
+a. N to S along the coast
+b. S to N along the coast
+*c. E to W across the coast
+d. W to E across the coast
+Explanation: In the pre-monsoon season land is hot and has lower pressure while the sea is cooler with higher pressure, so the gradient runs from sea to land. On the East coast the sea is to the east, so it is E to W across the coast.
+
+39. During SW monsoon the wind at FL400 over Bangaluru is generally
+*a. Strong Ely
+b. Strong Wly
+c. Fluctuates between Ely and Wly
+d. Weak Sly
+Explanation: In the SW monsoon the Tropical Easterly Jet lies over south India at high levels, and FL400 over Bengaluru is in this strong easterly flow.
+
+40. The lapse rate of temperature in a low level inversion is
+a. Positive
+*b. negative
+c. insignificant
+d. 6.5°C/km
+Explanation: In an inversion temperature rises with height, so the lapse rate (a fall with height) is negative. The 6.5°C/km in option d is the normal ISA lapse rate, not an inversion.
+
+41. Which of the following Indian month corresponds to Rainy Season/Varsha Ritu
+a. Kwar
+b. Kartic
+c. Magha
+*d. Shravana Bhadrapad
+Explanation: Varsha Ritu is the rainy season, covering Shravana and Bhadrapada (about mid July to mid September). Kwar and Kartic belong to the post-monsoon season and Magha to winter.
+
+42. The Code Name for an aviation forecast in figure code for a specific area is
+a. ROFOR
+*b. ARFOR
+c. TAFOR
+d. GAMET
+Explanation: ARFOR is the area forecast in figure code. Memory aid: AR is area, RO is route (ROFOR), TA is aerodrome (TAFOR). GAMET is also an area forecast but is written in plain language.
+
+43. SIGMET message is
+*a. Occurring or expected, enroute weather, which may affect safety of the air operation.
+b. Aerodrome forecast in plain language.
+c. Special Reports to local ATC unit and concerned operators
+d. Trend type of landing forecast passed to operators
+Explanation: A SIGMET warns of dangerous en-route weather (such as thunderstorms, turbulence, icing or volcanic ash) that is occurring or expected. Option b describes a TAF, c a SPECI, and d a trend forecast.
+
+44. Which of the following Indian month corresponds to Winter/ Shishira Ritu
+a. Kwar
+b. Pausha
+*c. Magha and Phalguna
+d. Shravana
+Explanation: Shishira Ritu is the late winter season covering Magha and Phalguna (about mid January to mid March). Shravana is the rainy season.
+
+45. The variable surface wind speed refers to
+*a. < 03 KT
+b. 04 KT or less
+c. ≥ 02 KT
+d. Calm
+Explanation: When the mean wind speed is below 3 kt the direction is too unsteady to give a single value, so it is reported as variable (VRB). Calm is a separate case with almost no wind.
+
+46. Which of the following Indian month corresponds to Sharad Ritu (Post monsoon)
+a. Jyeshtha
+*b. Asauj and Kartika
+c. Phalguna
+d. Shravana
+Explanation: Sharad Ritu is the post-monsoon (autumn) season covering Asauj (Ashwin) and Kartika. Jyeshtha is summer, Phalguna is late winter and Shravana is the rainy season.
+
+47. TAF VECC 2203000 2400KT 3000 FU SCT030 BECMG 0406 6000 SCT030 BKN100 TEMPO 0708 2000 TSRA SCT20CB OVC080= The above TAF forecasts TS and RA between
+a. 0400 and 0600 UTC
+b. 0400 and 0600 IST
+*c. 0700 and 0800 UTC
+d. 0700 and 0800 IST
+Explanation: TSRA (thunderstorm with rain) is in the group TEMPO 0708, which means temporarily between 0700 and 0800. TAF times are always in UTC, so the answer is 0700 and 0800 UTC. The 0406 group is only a gradual change in visibility and cloud.
+
+48. The hailstones occur from
+a. both warm and cold clouds
+*b. cold clouds only
+c. warm clouds only
+d. NS clouds
+Explanation: Hail forms in tall cumulonimbus where strong updraughts carry water drops above the freezing level, so it needs cold cloud. Warm clouds, whose temperature stays above 0°C, cannot make hail.
+
+49. SPECI is issued when the height of base of the lowest cloud layer ≥ 5/8 changes to or passes
+a. 500m, 300m, 150m, 50m, 25m
+b. 450m, 350m, 150m, 50m, 30m
+c. 400m, 300m, 150m, 90m, 30m
+*d. 450m, 300m, 150m, 60m, 30 m
+Explanation: The limits are the feet values converted to metres: 1500 ft is 450 m, 1000 ft is 300 m, 500 ft is 150 m, 200 ft is 60 m and 100 ft is 30 m. Memory aid: 1500, 1000, 500, 200, 100 ft.
+
+50. Fog is produced in Fronts by
+*a. evaporation and precipitation
+b. frequent Rain
+c. adiabatic cooling
+d. freezing Rain
+Explanation: In frontal fog, rain falling from warm air evaporates into the cooler air below and saturates it, so fog forms near the ground. It is cooling plus added moisture from precipitation, not adiabatic cooling.
+
+51. Over the earth deserts are located in the regions of
+a. Equatorial trough
+*b. Subtropical high
+c. Polar Front
+d. ITCZ
+Explanation: The subtropical high-pressure belts (about 30 degrees latitude) have sinking, warming, dry air that prevents cloud and rain, so most deserts lie there. The equatorial trough, ITCZ and polar front are zones of rising air and rain.
+
+52. The air can hold more moisture at MSL over the
+a. Temperate latitudes
+b. 20° Latitude
+*c. Equator
+d. Poles
+Explanation: Warm air holds more water vapour, and the equator is the warmest place at MSL, so it can hold the most moisture. The poles are the coldest and hold the least.
+
+53. With altitude in an isothermal atmosphere the density of the air
+*a. does not change
+b. increases with height
+c. first decrease and then decrease
+d. decreases
+Explanation: Book answer is a. NOTE: book key says a, but in an isothermal layer pressure still falls with height and so does density (option d); only temperature stays constant. Treat this as a doubtful key.
+
+54. The Fronts associated with WDs over NW India in winters are mostly
+*a. Warm Occlusion
+b. Cold Occlusion
+c. Cold Fronts
+d. Warm Fronts
+Explanation: By the time Western Disturbances reach NW India they are old, weak systems whose fronts are mostly occluded, and the book takes this as warm occlusion. Learn it as given.
+
+55. In a Cold Occlusion the
+a. Cold air of Cold Front is not the coldest
+*b. Cold air of Cold Front is the coldest
+c. Cold air of Warm Front is the coldest
+d. Cold air of Warm Front is warmer than that of Cold Front
+Explanation: In a cold occlusion the air behind the cold front is colder than the air ahead of the warm front, so the cold front undercuts the warm front and lifts the warm sector off the ground. In a warm occlusion it is the other way round.
+
+56. A day is called Rainy Day when the amount of Rainfall in a day is
+a. 7.5 mm or more
+b. 10 mm or more
+*c. 2.5 mm or more
+d. at least 1.0 mm
+Explanation: By IMD definition a rainy day has 2.5 mm or more of rain in 24 hours. Do not confuse it with 'rain day' counts of 1 mm used elsewhere, or with 7.5 mm, which is the limit for 'moderate' rain.
+
+57. A cold front is defined as the
+*a. advancing cold airmass undercutting the warm airmass
+b. warm airmass over riding the cold airmass
+c. retreating cold pool of air
+d. leading cold gust front
+Explanation: A cold front is the leading edge of cold air that advances and pushes under the warm air like a wedge. Option b describes a warm front, where warm air rides up over cold air.
+
+58. In a METAR the third layer of clouds is reported when amount is
+a. 3/8 or more SCT, BKN
+b. 5/8 or less SCT, BKN
+*c. 5/8 or more BKN or OVC
+d. 3/8 or more FEW, SCT
+Explanation: The first layer is reported whatever its amount, the second layer needs at least 3/8 (SCT or more), and the third layer needs at least 5/8 (BKN or OVC). Cumulonimbus or towering cumulus is always reported as an extra layer.
+
+59. SPECI is issued for RVR when it changes or passes
+*a. 150m
+b. 200 m
+c. 400 m
+d. 900 m
+Explanation: The RVR limits for SPECI are 150 m, 350 m, 600 m and 800 m. Of the options, only 150 m is on the list.
+
+60. Above which datum the cloud base is reported at airports?
+a. above mean sea level
+*b. above the aerodrome level
+c. above standard pressure level
+d. above pressure level in ISA
+Explanation: Cloud base is given as a height above aerodrome level, because that is what matters for approach and landing minima.
+
+61. For International Flight documentation, the following data is provided
+a. SIGWX charts between FL 250 and FL 600
+*b. SIGWX charts between FL 250 and FL 630 and forecast 250 hPa wind and Temp. data
+c. SIGWX charts and Upper wind and temperature charts
+d. WAFC generated SIGWX forecast chart only
+Explanation: International flight documentation gives SIGWX charts for the high level (FL250 to FL630) together with forecast wind and temperature data at 250 hPa. Options a and d leave out part of this and c is too general.
+
+62. When visibility is 800 m to 5000 m, in a METAR it is reported in steps of
+*a. 100 m
+b. 200 m
+c. 500 m
+d. 1000 m
+Explanation: In METAR, visibility is reported in 50 m steps below 800 m, 100 m steps from 800 m to 5000 m, and 1000 m steps from 5 km to 10 km.
+
+63. The Polar Front is
+a. Continuous
+*b. Not continuous
+c. A transition Zone between Polar and Arctic Westerlies
+d. Boundary between Arctic and Polar Air masses
+Explanation: The Polar Front is the boundary between polar and tropical air, and it is broken into separate pieces and not a continuous line around the globe. Options c and d name the wrong air masses.
+
+64. Most of the weather occurring in India is due to
+a. Fronts
+b. Cyclones
+*c. TS
+d. Monsoon Trough
+Explanation: Per the book, thunderstorms (convective activity) account for most of the weather India experiences, mainly in the pre-monsoon and monsoon seasons. Fronts are rare in India.
+
+65. The Doppler Weather Radar works on the Principles of
+a. Frequency amplification
+*b. Change in frequency of return echo
+c. Comparison of drop sizes
+d. Wavelength modification
+Explanation: Doppler radar measures the shift in frequency of the returned echo, which gives the speed of rain drops toward or away from the radar. Memory aid: Doppler means frequency shift.
+
+66. Flight forecast in "Chart form of Documentation" supplied in India consists of
+a. Synoptic charts 03 and 12 UTC and U/A charts for 00 and 12 UTC
+b. Latest surface synoptic chart and upper air charts
+c. SIGWX chart and upper air charts for 850, 500 and 300 hPa
+*d. SIGWX chart and prognostic charts for 300,250 and 200 hPa
+Explanation: In India the chart form of flight documentation is a SIGWX chart plus prognostic (forecast) charts for the high levels of 300, 250 and 200 hPa. Options a and b are observed charts, not forecasts.
+
+67. SIGMET message contains weather information which is
+a. Actual and not a forecast
+b. Forecast only
+*c. Both actual and forecast
+d. Actual only
+Explanation: A SIGMET gives the observed or expected phenomenon and also where it is forecast to be later, so it contains both actual and forecast information.
+
+68. Veering of geostrophic wind at a station with height indicates
+*a. Warm air advection
+b. Cold air advection
+c. Subsidence of cold air
+d. Convection of warm air
+Explanation: By the thermal wind relation, wind that turns clockwise (veers) with height in the Northern Hemisphere shows warm air being carried in. Backing with height shows cold advection. Memory aid: veer is warm, back is cold.
+
+69. The wind Bora is a
+a. warm Anabatic wind
+*b. cold Katabatic wind
+c. violent Wly wind
+d. light maritime Ely wind
+Explanation: Bora is a cold, strong wind that flows down the mountain slopes toward the Adriatic Sea, so it is a katabatic (downslope) wind. Warm downslope winds are called foehn.
+
+70. Will a SPECI be issued when the mean speed has changed by
+a. < 09 kt
+*b. 10 kt or more
+c. less than 10 kt
+d. > 08 kt
+Explanation: A SPECI is issued when the mean surface wind speed changes by 10 kt or more from the last report. A smaller change does not trigger it.
+
+71. Highest annual rainfall over the earth occurs the regions ?
+a. Temperate regions
+b. Tropical regions
+c. Polar regions
+*d. Equatorial regions
+Explanation: Near the equator the sun heats strongly, air is warm and moist, and strong convection and the ITCZ give heavy rain nearly all year, so the equatorial regions get the highest total rainfall.
+
+72. The most hazardous area for aviation in a cyclone is
+a. about 400 km from eye
+b. eye of the cyclone
+*c. wall cloud around the eye
+d. allover the cyclone
+Explanation: The wall cloud (eye wall) around the eye has the strongest winds, heaviest rain and most severe turbulence. The eye itself is fairly calm and the outer 400 km is much milder.
+
+73. The ITCZ
+a. is a region of calm winds and layer type of clouds
+b. affects only N hemisphere in winters
+*c. usually lies along the Equatorial Trough
+d. affects S hemisphere in monsoon
+Explanation: The ITCZ is where the trade winds of both hemispheres meet, and it usually lies along the equatorial trough. It has heavy cumulus and cumulonimbus, not calm layer cloud.
+
+74. The strong Wly winds which blow in both the hemispheres between 35° and 60° Lat are called :
+*a. Roaring Forties
+b. Trades
+c. Jetstreams
+d. Polar Wly
+Explanation: Per the book, the strong westerlies of the mid-latitudes are known as the Roaring Forties. Trades blow from the east in the tropics and jet streams are narrow high-level wind bands.
+
+75. Cold core low pressure system
+*a. intensifies with height
+b. weakens with height
+c. does not change with height
+d. veers with height
+Explanation: Cold air is dense, so pressure falls faster with height in a cold column and the low becomes stronger aloft. A warm core low does the opposite and weakens with height.
+`);
 registerChapterText("aviation-meteorology", "oxford-atmosphere", "The Atmosphere (Oxford Question Bank)", `
 1. How does the height of the tropopause normally vary with latitude in the Northern Hemisphere?
 *a. It decreases from south to north
@@ -3213,111 +3736,4 @@ a. 0°C
 c. +4°C
 d. -2°C
 Explanation: The height difference is 2500 - 500 = 2000 m. The cooling is 0.65°C x 20 = 13°C, so 15 - 13 = +2°C.
-`);
-
-registerChapterText("aviation-meteorology", "oxford-pressure", "Pressure (Oxford Question Bank)", `
-1. The barometric pressure at the airfield datum point is known as:
-a. QFF
-b. QNH
-*c. QFE
-d. Standard Pressure
-Explanation: QFE is the actual air pressure at the aerodrome datum (the airfield elevation). Think "F" for Field Elevation. With QFE set, the altimeter reads zero on the ground. QNH is the pressure reduced to sea level using ISA temperatures, and QFF is reduced to sea level using the actual temperature.
-
-2. The instrument that gives a continuous printed reading and record of the atmospheric pressure is:
-a. barometer
-b. hygrometer
-c. anemograph
-*d. barograph
-Explanation: A barograph draws a continuous trace of pressure on a chart. A barometer only shows the pressure at the moment, a hygrometer measures humidity, and an anemograph records wind speed and direction.
-
-3. The pressure of the atmosphere:
-a. decreases at an increasing rate as height increases
-b. decreases at a constant rate as height increases
-*c. decreases at a decreasing rate as height increases
-d. decreases at a constant rate up to the tropopause and then remains constant
-Explanation: Air is densest near the ground, so pressure drops fastest there (about 1 hPa per 30 ft). Higher up the air is thinner and the drop per 1000 ft gets smaller. So the pressure keeps falling, but more and more slowly.
-
-4. When considering the actual tropopause which statement is correct?
-*a. It is low over the poles and high over the Equator
-b. It is high over the poles and low over the Equator
-c. It is the same height of 36 090 ft all over the world
-d. It is at a constant altitude of 26 000 ft
-Explanation: The tropopause is about 16 km over the equator and about 8 km over the poles. The figure of 36 090 ft (11 km) is only the ISA value, which is a mid-latitude average.
-
-5. Atmospheric pressure may be defined as:
-a. the weight of the atmosphere exerted on any surface with which it is in contact
-b. the weight of the atmosphere at standard sea level
-*c. the force per unit area exerted by the atmosphere on any surface with which it is in contact
-d. a pressure exerted by the atmosphere of 1013.2 hPa
-Explanation: Pressure is always force divided by area. Option A says only "weight", which is a force and not a pressure, because it leaves out "per unit area".
-
-6. The QFF is the atmospheric pressure:
-a. at the place where the reading is taken
-b. corrected for temperature difference from standard and adjusted to MSL assuming standard atmospheric conditions exist
-*c. at a place where the reading is taken corrected to MSL taking into account the prevailing temperature conditions
-d. as measured by a barometer at the aerodrome reference point
-Explanation: QFF is the station pressure reduced to mean sea level using the actual (prevailing) temperature conditions. This is what is used to draw the isobars on surface weather charts. QNH uses ISA temperatures instead.
-
-7. The pressure of 1013 hPa is known as:
-*a. standard pressure setting
-b. QNH
-c. QFE
-d. QFF
-Explanation: 1013.25 hPa is the ISA mean sea level pressure. When it is set on the altimeter subscale, the altimeter shows pressure altitude, which is what we use for flight levels above the transition altitude.
-
-8. The aircraft altimeter will read zero at aerodrome level with which pressure setting set on the altimeter subscale:
-a. QFF
-b. QNH
-c. SPS
-*d. QFE
-Explanation: With QFE set, the altimeter shows height above the aerodrome, so it reads zero on the ground. With QNH set it shows altitude, which on the ground is the aerodrome elevation.
-
-9. The aerodrome QFE is:
-a. the reading on the altimeter on an aerodrome when the aerodrome barometric pressure is set on the subscale
-b. the reading on the altimeter on touchdown at an aerodrome when 1013 is set on the subscale
-c. the reading on the altimeter on an aerodrome when the sea level barometric pressure is set on the subscale
-*d. the aerodrome barometric pressure
-Explanation: QFE is the actual barometric pressure at the aerodrome, as a pressure value in hPa. Option A describes what the altimeter reads once QFE is set (zero), not what QFE itself is.
-
-10. When an altimeter subscale is set to the aerodrome QFE, the altimeter reads:
-a. the elevation of the aerodrome at the aerodrome reference point
-*b. zero at the aerodrome reference point
-c. the pressure altitude at the aerodrome reference point
-d. the appropriate altitude of the aircraft
-Explanation: Setting QFE tells the altimeter that the aerodrome is the zero level. So it reads zero at the aerodrome reference point, and in the air it shows height above the aerodrome. Elevation is what you see with QNH set.
-
-11. The aerodrome QNH is the aerodrome barometric pressure:
-*a. corrected to mean sea level assuming standard atmospheric conditions exist
-b. corrected to mean sea level, assuming isothermal conditions exist
-c. corrected for temperature and adjusted to MSL assuming standard atmosphere conditions exist
-d. corrected to MSL using ambient temperature
-Explanation: QNH is the aerodrome pressure reduced to sea level using the ISA temperature profile. It does not use the actual temperature, which is the difference from QFF. With QNH set, the altimeter reads altitude above mean sea level (the aerodrome elevation on the ground).
-
-12. A line drawn on a chart joining places having the same barometric pressure at the same level and at the same time is:
-a. an isotherm
-b. an isallobar
-c. a contour
-*d. an isobar
-Explanation: An isobar joins equal pressure. An isotherm joins equal temperature, a contour joins equal height, and an isallobar joins equal pressure change over time.
-
-13. An isobar on a meteorological chart joins all places having the same:
-a. QFE
-*b. QFF
-c. QNH
-d. standard pressure
-Explanation: Surface charts show isobars of QFF, which is pressure reduced to mean sea level with the actual temperature. That puts all stations on a common level so the pressure patterns (highs, lows and fronts) can be compared fairly.
-
-14. Pressure will _________ with increase of height and will be about __________ at 10 000 ft and ___________ at 30 000 ft.
-a. Increase, 800 hPa, 400 hPa
-*b. Decrease, 700 hPa, 300 hPa
-c. Increase, 200 hPa, 800 hPa
-d. Decrease, 500 hPa, 200 hPa
-Explanation: Pressure always decreases with height. Learn these pairs: 850 hPa is about 5000 ft, 700 hPa is about 10 000 ft, 500 hPa is about 18 000 ft, 300 hPa is about 30 000 ft and 200 hPa is about 39 000 ft.
-
-15. An airfield in England is 100 m above sea level, QFF is 1030 hPa, temperature at the surface is -15°C. What is the value of QNH?
-a. Impossible to determine
-*b. Less than 1030 hPa
-c. Same as QFF
-d. More than 1030 hPa
-Explanation: QFF is reduced to sea level with the actual temperature (-15°C, cold and dense air). QNH is reduced with the ISA temperature (+15°C, warmer and lighter). Cold air adds more pressure over the 100 m than ISA air does, so QFF is higher than QNH. So in cold air QNH is less than QFF, and in warm air it is the other way round.
 `);
