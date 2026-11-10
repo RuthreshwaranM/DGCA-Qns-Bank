@@ -3044,6 +3044,1419 @@ b. NW India
 c. S India
 Explanation: With the monsoon trough shifted north during a break phase, rainfall concentrates along the Himalayan foothills rather than the plains.
 `);
+
+registerChapterText("aviation-meteorology", "general-circulation", "General Circulation", `
+1. The polewards moving air piles up in the subtropical regions and forms high pressure belt at the surface, called
+*a. Subtropical high
+b. Polar High
+c. Equatorial high
+Explanation: Air that rises at the equator moves toward the poles, cools and piles up around 30 degrees latitude, where it sinks and forms the subtropical high. The polar high is a separate cold-air high, and the equatorial belt is a low.
+
+2. ........... occurs over subtropical high
+a. advection
+b. convection
+*c. subsidence
+Explanation: A high pressure area means air is sinking, and sinking air is called subsidence. Convection is rising air, so it belongs to lows, and advection is horizontal air movement. Memory aid: high pressure, sinking air.
+
+3. The occurrence of large deserts near 30N and 30S are due to large scale
+*a. subsidence
+b. convection
+c. advection
+Explanation: Sinking air warms as it descends and becomes dry, so cloud and rain cannot form under the subtropical highs. This is why deserts such as the Sahara and the Thar lie near 30N and 30S.
+
+4. A part of the sinking air over the subtropical highs flows towards the equator, turning west (in the northern hemisphere) due to the Coriolis force. This surface air is called
+*a. Trade winds
+b. Roaring forties
+c. Doldrums
+Explanation: Surface air moving from the subtropical high toward the equator is turned to the right in the Northern Hemisphere, so it blows from the northeast. These steady winds are the trade winds. Roaring forties are westerlies in mid-latitudes, and doldrums are calms at the equator.
+
+5. The huge vertical circulations, one between the equator and 30N and another between equator and 30S, are called
+*a. Hadley Cells
+b. Ferrel Cells
+c. Polar cells
+Explanation: In each Hadley cell, air rises at the equator, flows toward the pole at height, sinks near 30 degrees and returns to the equator at the surface. Ferrel cells lie between 30 and 60 degrees and polar cells lie between 60 degrees and the poles.
+
+6. The descending branch of the Hadley cell marked by calm winds and high pressure at the surface are called
+a. Tropical Latitudes
+b. Middle latitudes
+*c. Horse Latitudes
+Explanation: Under the sinking air near 30N and 30S the surface winds are light and variable, and this belt is called the Horse Latitudes. Memory aid: sailing ships became becalmed there. Horse latitudes are at 30 degrees and doldrums are at the equator.
+
+7. The winds in the upper troposphere are westerly. These are known as
+a. Natural Westerlies
+b. Steady Westerlies
+*c. Zonal Westerlies
+Explanation: Westerly winds in the upper troposphere blow along the lines of latitude (zones), so they are called zonal westerlies. Natural and Steady Westerlies are not standard terms.
+
+8. In the equatorial regions the upper tropospheric winds are
+a. Westerlies
+*b. Easterlies
+c. Zonal Westerlies
+Explanation: Over the equatorial belt the upper winds blow from the east, in the opposite direction to the westerlies of middle latitudes. These are the easterlies that steer tropical disturbances.
+
+9. The disturbances of middle latitudes move from
+*a. W to E
+b. E to W
+c. N to S
+d. S to N
+Explanation: Middle-latitude disturbances (lows and fronts) are steered by the upper westerly current, so they travel from west to east. Memory aid: westerlies come from the west and carry weather eastward.
+
+10. The tropical disturbances which form in the equatorial low pressure belt move in
+a. Easterly direction
+*b. Westerly direction
+c. Southerly direction
+Explanation: Tropical disturbances are steered by the high-level easterly flow, so they move toward the west. Here "westerly direction" means moving toward the west, not coming from the west. Memory aid: tropics go west, mid-latitudes go east.
+
+11. Tropical disturbance which reach the zone of transition in the upper level flow change course and begin to move in a
+a. Perpendicular direction
+*b. Opposite direction
+c. Southwards
+Explanation: Where the upper flow changes from easterly to westerly (the zone of transition), the disturbance recurves and starts moving the opposite way, toward the east. It does not turn at a right angle or head south.
+
+12. Latitudinally, on the average there is radiation ........... in the tropics than in the polar regions
+*a. surplus
+b. deficit
+c. balance
+Explanation: The tropics receive more solar energy than they lose, so they have a radiation surplus, while the poles lose more than they gain and have a deficit. This imbalance drives the circulation that carries heat from the tropics toward the poles.
+
+13. The systems like highs, lows, cyclonic circulation etc are associated with distinct types of weather. A study of the behaviour of these systems, known as
+*a. Synoptic Meteorology
+b. Climatology
+c. Physical Meteorology
+Explanation: Synoptic meteorology studies large weather systems such as highs, lows and fronts on weather charts, and uses them to forecast weather. Climatology studies long-term averages, and physical meteorology studies processes such as radiation and cloud physics.
+
+14. Rising air creates calms or doldrums in the equatorial region.
+a. ITCZ
+b. Horse Latitudes
+*c. Equatorial Doldrums
+Explanation: Air rises near the equator, so there is little horizontal wind at the surface, which gives a belt of calm called the Equatorial Doldrums. The ITCZ is the convergence zone itself and the horse latitudes are at 30 degrees.
+
+15. Steady NE winds in the N hemisphere and SE winds in the S hemisphere are called.
+a. Easterly winds
+*b. Trade Winds
+c. Tropical Winds
+Explanation: The steady northeast winds in the Northern Hemisphere and southeast winds in the Southern Hemisphere that blow toward the equator are the trade winds. Easterly winds is a general direction term, and Tropical Winds is not a standard name.
+`);
+registerChapterText("aviation-meteorology", "met-services-for-aviation", "MET Services for Aviation", `
+1. For non-scheduled National Flights an advance notice (before ETD) is required to be given to AMOs
+*a. 3 hr
+b. 18-24 hr
+c. 6 hr
+Explanation: Per the book, an Aerodrome Met Office (AMO) needs only 3 hr notice before ETD for a non-scheduled national flight, because it already has local data and can prepare the briefing quickly. NOTE: Q1 and Q2 have identical options, so check the key against your syllabus.
+
+2. For non-scheduled National Flights an advance notice (before ETD) is required to be given to AMSs
+a. 3 hr
+*b. 18-24 hr
+c. 6 hr
+Explanation: Per the book key, an Aeronautical Met Station (AMS) is a smaller unit with fewer resources, so it needs 18-24 hr notice. Memory aid: the bigger AMO needs 3 hr and the smaller AMS needs a day.
+
+3. WAFS provides high quality en-route forecasts of ..... to Met Offices.
+*a. high quality en-route forecasts of winds and temperature
+b. SIGMET
+c. TREND
+Explanation: The World Area Forecast System (WAFS) supplies global gridded en-route forecasts of upper winds and temperatures (and significant weather charts) to Met Offices. SIGMET is issued by Met Watch Offices and TREND is a landing forecast, so neither comes from WAFS.
+
+4. IMD has ........... Regional Met offices
+a. 4
+b. 5
+*c. 6
+Explanation: India Meteorological Department (IMD) has 6 Regional Meteorological Centres (Delhi, Mumbai, Kolkata, Chennai, Nagpur and Guwahati).
+
+5. There are ........... Aerodrome Met Offices
+a. 17
+*b. 18
+c. 19
+Explanation: As per the book, there are 18 Aerodrome Met Offices (AMOs) in India. This is a count to memorise.
+
+6. There are ........... Aeronautical Met Stations
+a. 56
+*b. 54
+c. 52
+Explanation: As per the book, there are 54 Aeronautical Met Stations (AMSs) in India. This is a count to memorise.
+
+7. In AIREP the Met Information is contained in Section
+a. 1
+b. 2
+*c. 3
+Explanation: An AIREP has three sections: Section 1 is position information, Section 2 is operational information and Section 3 is meteorological information (wind, temperature, turbulence, icing etc.).
+
+8. TAF are generally valid for
+a. 18 hr
+b. 12 hr
+*c. 9hr
+Explanation: As per the book, a TAF for an aerodrome is generally valid for 9 hr. Longer TAFs (12, 18 or 24 hr) are issued for some international aerodromes, but 9 hr is the standard answer here.
+
+9. The validity of Landing Forecast (TREND) is
+a. 1 hr
+*b. 2 hr
+c. 3 hr
+Explanation: A TREND landing forecast is appended to a METAR or SPECI and is valid for 2 hours from the observation time. Memory aid: TREND is short term, so 2 hr.
+
+10. Landing Forecast is append to
+*a. METAR and SPECI
+b. TAF
+c. AIREP
+Explanation: The TREND landing forecast is attached to the end of a METAR or SPECI observation. A TAF is a separate, longer-range forecast.
+
+11. Local/Area Forecast is issued three times a day valid for next
+a. 18 hr
+*b. 12hr
+c. 9hr
+Explanation: As per the book key, the local/area forecast is issued three times a day and is valid for the next 12 hr. NOTE: please verify, since another source might say 9 hr.
+
+12. Area Forecast covers an area
+*a. 100 NM
+b. 100 km
+c. 50 NM
+Explanation: An area forecast covers a radius of 100 NM around the aerodrome, while a local forecast covers 50 NM (see Q44). Memory aid: Area is the bigger one, so 100 NM.
+
+13. Global SIGWX Charts are issued by
+a. WMO
+b. AMO
+*c. WAFC
+Explanation: Global SIGWX (significant weather) charts are produced by the World Area Forecast Centres (WAFCs), at London and Washington. WMO sets standards and AMO is a local office.
+
+14. Global SIGWX Charts are valid for
+a. 18 hr
+*b. 24 hr
+c. 9hr
+Explanation: As per the book key, the global SIGWX forecast charts are fixed-time prognostic charts issued up to 24 hr ahead. NOTE: please verify the validity wording against your syllabus.
+
+15. Global SIGWX Charts for high-level are issued for Flight Levels
+*a. 250 & 630
+b. 460 & 100
+c. 460 & 260
+Explanation: High-level SIGWX charts cover FL250 to FL630. Memory aid: high level starts at 250 and goes up to the top, 630.
+
+16. CODAR is
+a. Radar Report
+b. Coded ARFOR
+*c. Upper report from an aircraft, other than weather reconnaissance aircraft
+Explanation: CODAR (Collection of Data from Aircraft Reports) is a coded upper-air report from an ordinary aircraft, not from a dedicated weather reconnaissance aircraft.
+
+17. WINTEM is
+a. Actual upper winds
+*b. Forecast upper wind and temperature
+c. Actual temperature and upper winds
+Explanation: WINTEM = WINd and TEMperature forecast. It is a forecast, not an actual observation, which rules out options a and c.
+
+18. SIGMET is a notice of severe weather for
+a. actual
+b. expected
+*c. both
+Explanation: A SIGMET warns of the occurrence or the expected occurrence of hazardous en-route weather, so it covers both observed and forecast conditions.
+
+19. SIGMET is issued for aircraft
+*a. in flight
+b. on ground
+c. both
+Explanation: SIGMET is for aircraft in flight (en-route hazards such as thunderstorms, severe turbulence and icing). Warnings for aircraft on the ground are airfield warnings.
+
+20. SIGMET is issued by
+a. WAFC
+b. AMO
+*c. MWO
+Explanation: SIGMET is issued by the Meteorological Watch Office (MWO) responsible for the FIR. WAFCs issue SIGWX charts, and AMOs issue local forecasts and airfield warnings.
+
+21. SIGMET is valid for
+*a. 4 hr
+b. 8 hr
+c. 9 hr
+Explanation: A SIGMET is valid for a maximum of 4 hr (6 hr for volcanic ash and tropical cyclone SIGMETs).
+
+22. SIGMET is not issued for
+*a. Rain
+b. Volcanic Ash
+c. SEV Icing
+Explanation: SIGMETs are for severe hazards such as volcanic ash, severe icing, severe turbulence, thunderstorms and tropical cyclones. Ordinary rain does not qualify.
+
+23. AIRMET is SIGMET issued by a MWO for the safety of
+*a. low-level aircraft
+b. high -level aircraft
+c. both
+Explanation: AIRMET information is issued by the MWO for low-level flights. It covers weather phenomena less severe than SIGMET criteria but still hazardous to low-level aircraft.
+
+24. GAMET is an area forecast in abbreviated plain language for
+*a. low level flights
+b. high level flights
+c. all level flights
+Explanation: GAMET is an area forecast in abbreviated plain language for low-level flights (generally up to FL100, or FL150 in mountainous areas). It is prepared in support of AIRMET.
+
+25. The validity of Airfield warnings is not exceeding
+a. 3 hr
+*b. 4 hr
+c. 6 hr
+Explanation: As per the book, airfield warnings are valid for a period not exceeding 4 hr.
+
+26. Airfield warning is issued for expected wind speed
+*a. 30 kt
+b. 24 kt
+c. 15 kt
+Explanation: An airfield warning is issued when the expected surface wind speed is 30 kt or more (see Q28 for the lower threshold for gliders and light aircraft).
+
+27. Airfield warning is issued for wind direction of 20 kt changes by
+*a. 45°
+b. 30°
+c. 60°
+Explanation: As per the book key, an airfield warning is issued when a wind of 20 kt or more changes direction by 45° or more.
+
+28. Airfield Warning for gliders, light aircraft and helicopters is issued for expected wind speed
+a. 15 kt
+*b. 17 kt
+c. 30 kt
+Explanation: Gliders, light aircraft and helicopters are more sensitive to wind, so the threshold is lower, at 17 kt, against 30 kt for general airfield warnings.
+
+29. Wind Shear Warning is issued for the observed or expected wind shear above runway
+*a. up to 500 m
+b. above 500 m
+c. 300 m
+Explanation: Wind shear warnings cover wind shear along the take-off or approach path up to 500 m (1600 ft) above the runway, which is the critical layer for take-off and landing.
+
+30. VOLMET is a MET information for aircraft
+a. on ground
+*b. in flight
+c. both
+Explanation: VOLMET (from the French vol, flight, and meteo) is a meteorological broadcast for aircraft in flight.
+
+31. VOLMET Radio Telephony Broadcast made on HF Channel from
+a. Mumbai only
+b. Kolkata only
+*c. both Kolkata and Mumbai
+Explanation: In India, VOLMET radio-telephony broadcasts on HF are made from both Mumbai and Kolkata, each in turn every half hour.
+
+32. VOLMET consists of
+a. SIGMET
+b. TAF only
+*c. TAF and METAR
+Explanation: As per the book key, VOLMET broadcasts consist of TAF and METAR. The text also mentions SPECI and SIGMET in the full broadcast.
+
+33. In ROBEX the METAR/SPECI of international aerodromes and their alternates is exchanged
+a. within India
+*b. outside India
+Explanation: Routine OPMET Bulletin Exchange (ROBEX) is the scheme for exchanging METAR and SPECI of international aerodromes and their alternates outside India. Air Reports are also exchanged under it.
+
+34. Global SIGWX Charts are issued ........... times a day
+a. Two
+b. Three
+*c. Four
+Explanation: As per the book key, global SIGWX charts are issued four times a day, which is every 6 hours.
+
+35. Global SIGWX Charts for Medium-level are issued for Flight Levels
+a. 150 & 200
+*b. 100 & 250
+c. 100 & 150
+Explanation: Medium-level SIGWX charts cover FL100 to FL250, while high-level charts cover FL250 to FL630.
+
+36. In India who compiles a single National SIGWX chart:
+a. New Delhi
+b. Mumbai
+c. Kolkata
+*d. Chennai
+Explanation: As per the book key, the single National SIGWX chart for India is compiled at Chennai. NOTE: please verify, since this is a book-specific fact.
+
+37. The Indian National SIGWX chart is made for Medium Levels between Flight Levels
+a. 150 & 200
+*b. 100 & 250
+c. 100 & 150
+Explanation: The Indian National SIGWX chart for medium levels covers FL100 to FL250, the same band as the global medium-level chart.
+
+38. The Indian National SIGWX chart is valid for
+*a. 24 hr
+b. 18 hr
+c. 12 hr
+Explanation: As per the book key, the Indian National SIGWX chart is valid for 24 hr. NOTE: please verify the validity wording against your syllabus.
+
+39. In India the National SIGWX chart is issued
+a. 2 times a day
+*b. 4 times a day
+c. 6 times a day
+Explanation: As per the book key, the national SIGWX chart is issued 4 times a day, i.e. every 6 hr, matching the global issue rate.
+
+40. Individual TS which cover less than 50% area, is termed as
+a. FRQ
+*b. ISOL
+c. OCNL
+Explanation: ISOL (isolated) means individual thunderstorms or CBs that are well separated and cover less than 50% of the area. Memory aid: isolated = few and far between.
+
+41. If TS cells have no separation between adjacent TS and cover an area more than 75%, it is termed as
+*a. FRQ
+b. ISOL
+c. OCNL
+Explanation: FRQ (frequent) means thunderstorm cells have little or no separation and cover more than 75% of the area.
+
+42. If TS cells are well separated and cover an area 50 - 75% it is termed as
+a. FRQ
+b. ISOL
+*c. OCNL
+Explanation: OCNL (occasional) means well-separated thunderstorm cells covering 50-75% of the area. Memory aid for coverage: ISOL less than 50%, OCNL 50-75%, FRQ more than 75%.
+
+43. The Indian National SIGWX chart is made for High Levels between Flight Levels
+a. 150 & 200
+b. 100 & 250
+c. 100 & 150
+*d. FL250 and FL630
+Explanation: The high-level National SIGWX chart covers FL250 to FL630, matching the high-level global chart.
+
+44. Local Forecast covers an area
+a. 100 NM
+b. 100 km
+*c. 50 NM
+Explanation: A local forecast covers a radius of 50 NM around the aerodrome, while the area forecast covers 100 NM (see Q12).
+
+45. Nowcasting forecast is valid for :
+a. 30 hr
+b. 48 hr
+*c. less than 24 hr
+Explanation: Nowcasting is a very short-range forecast of the current weather and the next few hours, so it is valid for less than 24 hr. The 30 hr and 48 hr options are far too long.
+`);
+
+registerChapterText("aviation-meteorology", "station-model", "Station Model", `
+1. The direction of surface wind is
+*a. NW
+b. NE
+c. SE
+Explanation: The wind shaft points toward the direction the wind blows FROM, and here it extends to the upper left of the station circle, so the wind is from the northwest. Memory aid: the barbs sit on the shaft end that points into the wind.
+
+2. The range of wind speed is
+a. 20-25 kt
+b. 16-22 kt
+*c. 18-22 kt
+Explanation: Wind speed is plotted in steps of 5 kt, and each plotted value stands for a small band around it, so a plotted 20 kt means 18 to 22 kt. The other options are wrong because the band is not that wide and does not start at 20 or 16.
+
+3. The type of medium cloud is
+*a. AC
+b. AS
+c. AC &AS
+Explanation: The medium cloud symbol (CM) in the model is an altocumulus (AC) type, so only AC is reported. AS would need a different symbol, and one symbol cannot show both types.
+
+4. Low clouds are
+a. CU
+b. SC
+*c. ST
+Explanation: The low cloud symbol (CL) in the model shows stratus (ST). Memory aid: ST means stratus, the low, flat, layered cloud that lies close to the ground.
+
+5. High clouds are
+a. CC
+*b. CI
+c. CS
+Explanation: The high cloud symbol (CH) in the model is cirrus (CI). Cirrus is the thin, wispy ice-crystal cloud found above about 6 km.
+
+6. Height of base of low clouds is
+a. 200 m
+b. 250 m
+*c. 100 to 199 m
+Explanation: The height code (h) below the circle is 2, and code 2 means a cloud base of 100 to 199 m. The station model gives a height band, never a single value like 200 m or 250 m.
+
+7. Amount of lowest cloud is
+a. 2/8
+b. 4/8
+*c. 3/8
+Explanation: The figure before the slash below the circle (Nh) is 3, meaning the lowest cloud covers 3 oktas, or 3/8 of the sky. The first number is the amount and the second is the height code.
+
+8. Dew Point temperature range is
+*a. 29.5 to 30.4°C
+b. 29.1 to 30.4°C
+c. 30.6 to 30.4°C
+Explanation: The dew point is the figure at the bottom left of the circle, here 30. It is reported to the nearest whole degree, so the true value lies from 29.5 to 30.4°C. Option c is impossible because its lower limit is higher than its upper limit.
+
+9. Temperature 34° C is
+*a. Dry
+b. Wet
+c. Dew Point
+Explanation: The top left figure of the station model is always the dry bulb (air) temperature. The dew point is the lower figure on the left, here 30.
+
+10. 962 represents
+a. QFE
+*b. QFF
+c. QNH
+Explanation: The pressure at the top right is the sea level pressure (QFF) in tenths of hPa, with the first 9 or 10 and the decimal point left out. QFE is station level pressure, and QNH is the altimeter setting, which is not plotted here.
+
+11. Pressure value in hPa is
+a. 996
+*b. 996.2
+c. 1096.2
+Explanation: The code 962 is read as 96.2 with a leading 9 or 10 added to give a value near 1000 hPa. Adding 9 gives 996.2 hPa, which is sensible, while adding 10 gives 1096.2 hPa, an impossibly high sea level pressure. Option a drops the tenth.
+
+12. Pressure change of 1.4 hPa is in
+a. 6 hr
+b. 3hr
+*c. 24 hr
+Explanation: The figure -14 under the pressure means a fall of 1.4 hPa. NOTE: book key says c (24 hr), but the standard station model plots the pressure tendency over the past 3 hours, so b (3 hr) looks correct. Marked as the book key says.
+
+13. Past weather is
+*a. Moderate Light Rain
+b. Continuous Rain
+c. Heavy Rain
+Explanation: The past weather symbol to the right of the circle is a single dot, meaning rain during the past period. The model does not show whether the rain was continuous or heavy, so only the general rain option fits. Option b and c add details the symbol cannot give.
+
+14. Rainfall amount is
+a. 2 mm
+b. 1.5 mm
+*c. 1.6 to 2.4 mm
+Explanation: A reported amount of 2 mm is rounded to the nearest 0.5 mm in the code, so the real rainfall lies between 1.6 and 2.4 mm. That is why a single value such as 2 mm or 1.5 mm is not the answer.
+
+15. Rainfall reported is from
+*a. 0300Z of yesterday to 0300Z of today
+b. 0100 to 2400Z
+c. 0530 to 0830 IST
+Explanation: Rainfall is reported as a 24-hour total ending at 0300 UTC, which is 0830 IST, so it covers 0300Z yesterday to 0300Z today. The other options are not a 24-hour period ending at the standard observation time.
+
+16. Speed of Ship is
+a. 5 KMH
+b. 5 MPS
+*c. 5 KT
+Explanation: In meteorology and aviation, ship speed is reported in knots, so 5 means 5 kt. Memory aid: ships and aircraft use knots, never km/h or m/s.
+
+17. Direction of movement of Ship
+a. NW
+b. SW
+*c. NE
+Explanation: The arrow beside the ship speed points toward the direction the ship is moving. Here it points to the upper right, so the ship is heading northeast. Unlike wind, this direction is where the ship is going TO, not where it comes from.
+
+18. Speed of Ship reported is averaged for
+*a. 3 hr
+b. 6 hr
+c. 12 hr
+Explanation: Ship course and speed are given as the average over the 3 hours before the observation. This matches the 3-hourly synoptic reporting cycle.
+
+19. Surface visibility is
+a. 500 to <1000 m
+b. 1000 to 2000m
+*c. 2000 to < 4000 m
+Explanation: The visibility code in the model is 95, and the code table gives 95 as 2 km. The reported value stands for the band from 2000 m up to less than 4000 m. Memory aid: codes 90 to 99 run from under 50 m up to 50 km or more.
+
+20. Weather reported is
+a. Rain at the time of observation
+*b. Rain during last one hour
+c. Rain not at station but within 5 km
+Explanation: The present weather code in the model falls in the 20 to 29 group, which means weather during the last hour but not at the time of observation. So it was raining in the past hour but not at the moment of observation. Option a would need a code from 60 to 69, and option c is not a meaning of this code.
+`);
+
+registerChapterText("aviation-meteorology", "aerodrome-met-reports-metar-speci-trend", "Aerodrome Met Reports: METAR, SPECI and TREND", `
+1. Given: METAR VIDP 160230Z 30005KT 290V050 1500S 5000N R15/P1500U BR FEW020 FEW025CB SCT120 BKN300 32/29 Q1003 REFG TEMPO FM0330 22015G25KT 3000 +TSRA FEW010 SCT025CB BKN150 BECMG AT0415 27008KT CAVOK= The METAR has been issued on ........... day
+a. 15th
+*b. 16th
+c. 17th
+Explanation: In 160230Z the first two digits (16) are the day of the month and the next four (0230) are the time in UTC, so the METAR was issued on the 16th.
+
+2. Given: METAR VIDP 160230Z 30005KT 290V050 1500S 5000N R15/P1500U BR FEW020 FEW025CB SCT120 BKN300 32/29 Q1003 REFG TEMPO FM0330 22015G25KT 3000 +TSRA FEW010 SCT025CB BKN150 BECMG AT0415 27008KT CAVOK= The METAR has been issued at
+a. 0630 IST
+*b. 0230UTC
+c. 0230 IST
+Explanation: The Z in 160230Z means UTC, so the time is 0230 UTC. IST is UTC + 5:30, so 0230 UTC would be 0800 IST, which rules out both IST options.
+
+3. Given: METAR VIDP 160230Z 30005KT 290V050 1500S 5000N R15/P1500U BR FEW020 FEW025CB SCT120 BKN300 32/29 Q1003 REFG TEMPO FM0330 22015G25KT 3000 +TSRA FEW010 SCT025CB BKN150 BECMG AT0415 27008KT CAVOK= The surface wind speed is
+a. 2-6 kt
+*b. 3-7 kt
+c. 4-6 kt
+Explanation: The wind group 30005KT gives a mean speed of 5 kt from 300 degrees. By the book's convention the speed varies about 2 kt either side of the mean, giving 3-7 kt. NOTE: the METAR itself does not state this range, so learn it as the book's answer.
+
+4. Given: METAR VIDP 160230Z 30005KT 290V050 1500S 5000N R15/P1500U BR FEW020 FEW025CB SCT120 BKN300 32/29 Q1003 REFG TEMPO FM0330 22015G25KT 3000 +TSRA FEW010 SCT025CB BKN150 BECMG AT0415 27008KT CAVOK= Wind direction is varying from
+*a. 290 to 050°
+b. 050 to 290°
+c. 200 to 050°
+Explanation: The group 290V050 means the direction varies from 290 degrees, clockwise through north (360), to 050 degrees. The first value is always the starting direction, so b is the wrong way round.
+
+5. Given: METAR VIDP 160230Z 30005KT 290V050 1500S 5000N R15/P1500U BR FEW020 FEW025CB SCT120 BKN300 32/29 Q1003 REFG TEMPO FM0330 22015G25KT 3000 +TSRA FEW010 SCT025CB BKN150 BECMG AT0415 27008KT CAVOK= Visibility 1500 m is towards
+a. N
+*b. S
+c. All over the airport
+Explanation: In the group 1500S 5000N, the 1500 m value is followed by S, so the lowest visibility of 1500 m is towards the south. The 5000N value is the visibility towards the north.
+
+6. Given: METAR VIDP 160230Z 30005KT 290V050 1500S 5000N R15/P1500U BR FEW020 FEW025CB SCT120 BKN300 32/29 Q1003 REFG TEMPO FM0330 22015G25KT 3000 +TSRA FEW010 SCT025CB BKN150 BECMG AT0415 27008KT CAVOK= Visibility towards N is
+a. 1500m
+*b. 5000 m
+c. 3000 m
+Explanation: The group 5000N shows 5000 m visibility towards the north. Directional visibility is given when it differs a lot from the prevailing (lowest) value.
+
+7. Given: METAR VIDP 160230Z 30005KT 290V050 1500S 5000N R15/P1500U BR FEW020 FEW025CB SCT120 BKN300 32/29 Q1003 REFG TEMPO FM0330 22015G25KT 3000 +TSRA FEW010 SCT025CB BKN150 BECMG AT0415 27008KT CAVOK= Height of base of low clouds above station level is
+*a. 2000 ft
+b. 2500 ft
+c. 2500 m
+Explanation: FEW020 means few clouds with the base at 020 x 100 = 2000 ft above station level. The lowest cloud is FEW020, since FEW025CB is higher.
+
+8. Given: METAR VIDP 160230Z 30005KT 290V050 1500S 5000N R15/P1500U BR FEW020 FEW025CB SCT120 BKN300 32/29 Q1003 REFG TEMPO FM0330 22015G25KT 3000 +TSRA FEW010 SCT025CB BKN150 BECMG AT0415 27008KT CAVOK= Runway Visual range is
+a. 1500 m
+*b. >1500 m
+c. < 1500 m
+Explanation: In R15/P1500U, R15 is runway 15, P means more than the highest value the equipment can report, so RVR is greater than 1500 m. M would mean less than.
+
+9. Given: METAR VIDP 160230Z 30005KT 290V050 1500S 5000N R15/P1500U BR FEW020 FEW025CB SCT120 BKN300 32/29 Q1003 REFG TEMPO FM0330 22015G25KT 3000 +TSRA FEW010 SCT025CB BKN150 BECMG AT0415 27008KT CAVOK= Runway Visual range has
+a. Decreased
+*b. Increased
+c. Remained same
+Explanation: The U at the end of R15/P1500U is the trend indicator, with U meaning upward (increasing). D means downward and N means no change. Memory aid: U = Up = increasing.
+
+10. Given: METAR VIDP 160230Z 30005KT 290V050 1500S 5000N R15/P1500U BR FEW020 FEW025CB SCT120 BKN300 32/29 Q1003 REFG TEMPO FM0330 22015G25KT 3000 +TSRA FEW010 SCT025CB BKN150 BECMG AT0415 27008KT CAVOK= The poor visibility is due to the Present weather, which is
+a. Fog
+b. Brown Dust
+*c. Mist
+Explanation: BR is the code for mist (visibility 1000 m to 5000 m). Fog is FG, haze is HZ, and dust is DU. Memory aid: BR comes from the French brume, meaning mist.
+
+11. Given: METAR VIDP 160230Z 30005KT 290V050 1500S 5000N R15/P1500U BR FEW020 FEW025CB SCT120 BKN300 32/29 Q1003 REFG TEMPO FM0330 22015G25KT 3000 +TSRA FEW010 SCT025CB BKN150 BECMG AT0415 27008KT CAVOK= Amount of lowest cloud is
+*a. 1-2/8
+b. 2-4/8
+c. 5-7/8
+Explanation: The lowest cloud is FEW020, and FEW means 1 to 2 oktas. SCT is 3 to 4 oktas, BKN is 5 to 7 oktas and OVC is 8 oktas.
+
+12. Given: METAR VIDP 160230Z 30005KT 290V050 1500S 5000N R15/P1500U BR FEW020 FEW025CB SCT120 BKN300 32/29 Q1003 REFG TEMPO FM0330 22015G25KT 3000 +TSRA FEW010 SCT025CB BKN150 BECMG AT0415 27008KT CAVOK= Amount of CB cloud is
+*a. 1-2/8
+b. 2-4/8
+c. 5-7/8
+Explanation: The CB group is FEW025CB, and FEW means 1 to 2 oktas of cumulonimbus. The CB is in the FEW layer, not the SCT120 or BKN300 layers.
+
+13. Given: METAR VIDP 160230Z 30005KT 290V050 1500S 5000N R15/P1500U BR FEW020 FEW025CB SCT120 BKN300 32/29 Q1003 REFG TEMPO FM0330 22015G25KT 3000 +TSRA FEW010 SCT025CB BKN150 BECMG AT0415 27008KT CAVOK= Height of base of CB is
+a. 2500 m
+b. 3000 ft
+*c. 2500 ft
+Explanation: FEW025CB means the cumulonimbus base is at 025 x 100 = 2500 ft. Cloud heights in METAR are in hundreds of feet, so metres cannot be right.
+
+14. Given: METAR VIDP 160230Z 30005KT 290V050 1500S 5000N R15/P1500U BR FEW020 FEW025CB SCT120 BKN300 32/29 Q1003 REFG TEMPO FM0330 22015G25KT 3000 +TSRA FEW010 SCT025CB BKN150 BECMG AT0415 27008KT CAVOK= The height of topmost layer of cloud is
+a. 3000 m
+b. 30000 m
+*c. 30000 ft
+Explanation: The highest layer is BKN300, which is 300 x 100 = 30000 ft. Heights are in feet, so the metre options are wrong.
+
+15. Given: METAR VIDP 160230Z 30005KT 290V050 1500S 5000N R15/P1500U BR FEW020 FEW025CB SCT120 BKN300 32/29 Q1003 REFG TEMPO FM0330 22015G25KT 3000 +TSRA FEW010 SCT025CB BKN150 BECMG AT0415 27008KT CAVOK= The landing forecast appended to any METAR is valid for
+a. 1 hr
+*b. 2hr
+c. 3 hr
+Explanation: A TREND landing forecast attached to a METAR or SPECI is valid for 2 hours from the time of the observation.
+
+16. Given: METAR VIDP 160230Z 30005KT 290V050 1500S 5000N R15/P1500U BR FEW020 FEW025CB SCT120 BKN300 32/29 Q1003 REFG TEMPO FM0330 22015G25KT 3000 +TSRA FEW010 SCT025CB BKN150 BECMG AT0415 27008KT CAVOK= The wind in TREND from 0330 UTC is valid up to ........... UTC
+a. 0400
+b. 0430
+*c. 0415
+Explanation: The TEMPO FM0330 group gives wind 22015G25KT from 0330. The next group, BECMG AT0415 27008KT, changes the wind at 0415, so the earlier wind is valid up to 0415.
+
+17. Given: METAR VIDP 160230Z 30005KT 290V050 1500S 5000N R15/P1500U BR FEW020 FEW025CB SCT120 BKN300 32/29 Q1003 REFG TEMPO FM0330 22015G25KT 3000 +TSRA FEW010 SCT025CB BKN150 BECMG AT0415 27008KT CAVOK= Expected visibility after 0415 UTC is
+a. 6000 m
+b. 10 km
+*c. ≥ 10 km
+Explanation: The group BECMG AT0415 27008KT CAVOK means from 0415 the weather becomes CAVOK. CAVOK needs visibility of 10 km or more, so the answer is 10 km or more.
+
+18. Given: METAR VIDP 160230Z 30005KT 290V050 1500S 5000N R15/P1500U BR FEW020 FEW025CB SCT120 BKN300 32/29 Q1003 REFG TEMPO FM0330 22015G25KT 3000 +TSRA FEW010 SCT025CB BKN150 BECMG AT0415 27008KT CAVOK= The group Q1003 in the METAR indicates
+a. QFE
+b. QFF
+*c. QNH
+Explanation: In METAR, Q followed by four digits is the QNH in hPa, so Q1003 is a QNH of 1003 hPa. Memory aid: METAR reports QNH, not QFE.
+
+19. Given: METAR VIDP 160230Z 30005KT 290V050 1500S 5000N R15/P1500U BR FEW020 FEW025CB SCT120 BKN300 32/29 Q1003 REFG TEMPO FM0330 22015G25KT 3000 +TSRA FEW010 SCT025CB BKN150 BECMG AT0415 27008KT CAVOK= The difference between TT and TdTd is 3° C. The atmosphere is
+a. Very Dry
+*b. Moist
+c. Saturated
+Explanation: The group 32/29 gives temperature 32 and dew point 29, a difference of 3 degrees C. A small spread means the air is near saturation, so it is moist. Saturated would need a spread of 0.
+
+20. Given: METAR VIDP 160230Z 30005KT 290V050 1500S 5000N R15/P1500U BR FEW020 FEW025CB SCT120 BKN300 32/29 Q1003 REFG TEMPO FM0330 22015G25KT 3000 +TSRA FEW010 SCT025CB BKN150 BECMG AT0415 27008KT CAVOK= Just before the METAR was issued the weather was
+a. Rain
+b. Mist
+*c. Fog
+Explanation: REFG is RE (recent) plus FG (fog). It means fog was observed in the period since the last report but is not occurring at the time of observation.
+
+21. Given: METAR VIDP 160230Z 30005KT 290V050 1500S 5000N R15/P1500U BR FEW020 FEW025CB SCT120 BKN300 32/29 Q1003 REFG TEMPO FM0330 22015G25KT 3000 +TSRA FEW010 SCT025CB BKN150 BECMG AT0415 27008KT CAVOK= The range of pressure reported as Q1003 is
+a. 1002.5 to 1003.5 hPa
+*b. 1003.0 to 1003.9 hPa
+c. 1003.1 to 1003.5 hPa
+Explanation: QNH is rounded down to the whole hPa, so any value from 1003.0 up to 1003.9 is reported as Q1003. Memory aid: pressure is always truncated, never rounded up.
+
+22. Given: METAR VIDP 160230Z 30005KT 290V050 1500S 5000N R15/P1500U BR FEW020 FEW025CB SCT120 BKN300 32/29 Q1003 REFG TEMPO FM0330 22015G25KT 3000 +TSRA FEW010 SCT025CB BKN150 BECMG AT0415 27008KT CAVOK= The range of temperature reported as 32° C is
+a. 31.4 to 32.3° C
+b. 32.1 to 32.4° C
+*c. 31.5 to 32.4° C
+Explanation: Temperature is rounded to the nearest whole degree, with values ending in .5 rounded up to the higher whole number. So 31.5 up to 32.4 is reported as 32.
+
+23. Visibility is reported in steps of 50 m when visibility is
+a. 800 m to 5000 m
+*b. 0 to 800 m
+c. 5000 m to 10 km
+Explanation: Up to 800 m the steps are 50 m. From 800 m to 5000 m the steps are 100 m, and from 5 km to 10 km they are 1000 m.
+
+24. Visibility is reported in steps of 100 m when visibility is
+*a. 800 m to 5000 m
+b. 0 to 800 m
+c. 5000 m to 10 km
+Explanation: Between 800 m and 5000 m visibility is reported in 100 m steps. Below 800 m it is 50 m steps, and above 5 km it is 1000 m steps.
+
+25. Visibility is reported in steps of 1000 m when visibility is
+a. 800 m to 5000 m
+b. 0 to 800 m
+*c. 5000 m to 9999
+Explanation: From 5 km up to just below 10 km, visibility is reported in 1000 m steps (for example 6000, 7000, 8000, 9000).
+
+26. Visibility is reported 9999 when visibility is
+a. 800 m to 5000 m
+b. 9000 m to 9999 m
+*c. 10 km or more
+Explanation: The group 9999 means visibility is 10 km or more, with no need for more detail. Values from 9000 to 9999 m are not reported as 9999.
+
+27. Temperature + 2.5°C is reported as
+a. 02
+*b. 03
+c. 2.5°C
+Explanation: Temperature is reported in whole degrees as two digits. A value ending in .5 is rounded up to the higher whole number, so +2.5 becomes 03.
+
+28. Temperature - 12.5°C is reported as
+a. - 12
+b. - 13
+*c. M 12
+Explanation: A .5 value is rounded to the higher whole number, so -12.5 becomes -12. Negative temperatures are reported with the letter M instead of a minus sign, giving M12.
+
+29. Pressure is rounded down to the nearest whole number in hectopascal
+a. exact value
+b. upper value
+*c. lower value
+Explanation: QNH is always truncated to the lower whole hPa and never rounded up. For example 1002.6 is reported as Q1002. NOTE: the stem wording is as printed in the book.
+
+30. QNH 1002.6 hPa is reported as
+*a. Q1002
+b. Q1003
+c. Q1002.6
+Explanation: QNH is rounded down to the lower whole hPa, so 1002.6 becomes 1002. Decimals are never reported in METAR in hPa.
+
+31. QNH 29.92 inches is reported as
+a. Q2900
+*b. A2992
+c. A 3000
+Explanation: When QNH is given in inches of mercury, the prefix A is used with four digits and the decimal point is dropped, so 29.92 becomes A2992. Q is only used with hPa.
+
+32. Fog is reported when visibility is
+*a. < 1000 m
+b. 1000 m
+c. > 1000 m
+Explanation: Fog (FG) is reported when visibility is below 1000 m. Memory aid: fog is thick, so under 1 km.
+
+33. Mist is reported when visibility is
+a. < 1000 m to 2000m
+*b. 1000 to 5000m
+c. >1000 m
+Explanation: Mist (BR) is reported when visibility is 1000 m up to 5000 m. Below 1000 m it is fog.
+
+34. CAVOK signifies Visibility, Cloud ........... and present weather better than the prescribed values or conditions
+*a. ceiling
+b. base
+c. amount
+Explanation: CAVOK stands for Ceiling And Visibility OK. It means visibility, cloud ceiling and present weather are all better than the prescribed limits.
+
+35. CAVOK is issued when visibility is
+a. 9-10 km
+*b. 10 km or more
+c. 10 km only
+Explanation: One of the CAVOK conditions is a visibility of 10 km or more. Exactly 10 km only is too narrow, and 9 km is below the limit.
+
+36. CAVOK is issued when (i) Visibility 10 km or more (ii) No weather of significance (iii) No clouds below 1500 m or below the highest minimum sector altitude, which ever is greater and no CB.
+a. Any one condition
+b. Any two conditions
+*c. All the three conditions
+Explanation: CAVOK is used only when all three conditions are met together: visibility of 10 km or more, no significant weather, and no cloud below 1500 m (or the highest MSA, whichever is greater) and no CB.
+
+37. SPECI is issued when (i) Change in wind direction is ≥ 60° and speed before and/or after change ≥ 10 kt. (ii) Mean speed has changed by ≥ 10 kt (iii) Variation from mean speed by ≥ 10 kt and speed before and/or after change ≥ 15 kt
+a. Any two conditions
+*b. Any one condition
+c. All the three conditions
+Explanation: Each of the listed wind changes is a separate SPECI criterion, so meeting any one of them is enough to issue a SPECI. They do not all have to happen together.
+
+38. SPECI is issued when Clouds are (i) BKN or OVC base at 30, 60, 150, 300, 450 m (ii) Cloud amount below 450 m changes from SKC/FEW/SCT to BKN/OVC OR from BKN/OVC to SKC/FEW/SCT.
+*a. Any one condition
+b. Any two conditions
+c. All the above conditions
+Explanation: These are separate SPECI criteria for cloud, so any one of them is enough to trigger a SPECI. Condition (i) is about the height of a BKN or OVC base reaching a threshold, and condition (ii) is about the amount changing below 450 m.
+
+39. SPECI is issued for vertical visibility, by stations having Ceilograph, when sky is obscured
+*a. True
+b. False
+Explanation: As per the book key, stations that have a ceilograph issue a SPECI when the vertical visibility changes through the threshold values while the sky is obscured.
+
+40. SPECI is issued when surface temperature has increased by ........... or more from the last observation.
+a. 3° C
+b. 4° C
+*c. 2° C
+Explanation: As per the book key, a SPECI is issued when the surface temperature rises by 2 degrees C or more compared with the last observation.
+
+41. WSRWY28 indicates that the wind shear has been reported for RW 28 in
+a. take off path
+b. approach path
+*c. both take off and approach paths
+Explanation: In METAR the group WS RWY28 means wind shear is present on runway 28. Without any further qualifier it applies to both the take-off and the approach (landing) paths.
+
+42. R26/M0150 in a METAR indicates that
+a. maximum RVR is 150 m
+b. minimum RVR is 150 m
+*c. 150 m is the lowest RVR instrument can measure and RVR is < 150 m
+Explanation: In RVR groups, M means "less than the lowest value that the equipment can assess". So M0150 says the RVR is below 150 m, which is the lowest value the instrument can report.
+`);
+registerChapterText("aviation-meteorology", "taf", "TAF (Aerodrome Forecast)", `
+1. Using TAF VILK 241800Z 2500/2509 09008KT 0800 FG BECMG 2504/2505 09015KT 6000 SCT008 BKN120 TEMPO 2506/2508 12015G30KT 3000 TSRA FEW012 FEW025CB BKN100 BECMG AT 25/0800 09010KT 7000 FEW030 SCT120 BKN280 = : The TAF has been issued on ........... day
+a. 23rd
+b. 18th
+*c. 24th
+Explanation: In 241800Z the first two digits (24) are the date and 1800 is the time in UTC, so the TAF was issued on the 24th; 18 is the hour, not the day.
+
+2. Using TAF VILK 241800Z 2500/2509 09008KT 0800 FG BECMG 2504/2505 09015KT 6000 SCT008 BKN120 TEMPO 2506/2508 12015G30KT 3000 TSRA FEW012 FEW025CB BKN100 BECMG AT 25/0800 09010KT 7000 FEW030 SCT120 BKN280 = : The TAF has been issued at
+*a. 2330 IST
+b. 1830 UTC
+c. 24 UTC
+Explanation: The issue time is 1800 UTC, and IST = UTC + 5:30, so 1800 + 0530 = 2330 IST; 1830 UTC and 24 UTC do not match the group 1800Z.
+
+3. Using TAF VILK 241800Z 2500/2509 09008KT 0800 FG BECMG 2504/2505 09015KT 6000 SCT008 BKN120 TEMPO 2506/2508 12015G30KT 3000 TSRA FEW012 FEW025CB BKN100 BECMG AT 25/0800 09010KT 7000 FEW030 SCT120 BKN280 = : The expected surface wind speed is
+a. 09 kt
+b. 06 kt
+*c. 08 kt
+Explanation: The first wind group 09008KT is read as direction 090 degrees and speed 08 kt; the 09 is part of the direction, not the speed.
+
+4. Using TAF VILK 241800Z 2500/2509 09008KT 0800 FG BECMG 2504/2505 09015KT 6000 SCT008 BKN120 TEMPO 2506/2508 12015G30KT 3000 TSRA FEW012 FEW025CB BKN100 BECMG AT 25/0800 09010KT 7000 FEW030 SCT120 BKN280 = : Initially expected wind direction is
+a. 120°
+*b. 090°
+c. 050°
+Explanation: The first wind group 09008KT gives the initial direction of 090 degrees; 120 degrees belongs to the later TEMPO group (12015G30KT).
+
+5. Using TAF VILK 241800Z 2500/2509 09008KT 0800 FG BECMG 2504/2505 09015KT 6000 SCT008 BKN120 TEMPO 2506/2508 12015G30KT 3000 TSRA FEW012 FEW025CB BKN100 BECMG AT 25/0800 09010KT 7000 FEW030 SCT120 BKN280 = : TAF is Valid for Date
+a. 23rd
+b. 24th
+*c. 25th
+Explanation: The validity group 2500/2509 starts with 25, meaning the forecast is valid on the 25th (from 0000 to 0900 UTC), even though it was issued on the 24th.
+
+6. Using TAF VILK 241800Z 2500/2509 09008KT 0800 FG BECMG 2504/2505 09015KT 6000 SCT008 BKN120 TEMPO 2506/2508 12015G30KT 3000 TSRA FEW012 FEW025CB BKN100 BECMG AT 25/0800 09010KT 7000 FEW030 SCT120 BKN280 = : Lowest forecast visibility in TAF is
+a. 1500m
+*b. 0800 m
+c. 0200 m
+Explanation: Comparing the visibilities in the TAF (0800, 6000, 3000, 7000 m) the smallest is 0800 m, given with the fog (FG) in the first line; 1500 m and 200 m are not in the TAF.
+
+7. Using TAF VILK 241800Z 2500/2509 09008KT 0800 FG BECMG 2504/2505 09015KT 6000 SCT008 BKN120 TEMPO 2506/2508 12015G30KT 3000 TSRA FEW012 FEW025CB BKN100 BECMG AT 25/0800 09010KT 7000 FEW030 SCT120 BKN280 = : Height of base of lowest clouds in TAF is
+a. 1000 m
+b. 1000 ft
+*c. 0800 ft
+Explanation: In SCT008 the cloud base is given in hundreds of feet, so 008 means 800 ft; this is the lowest base in the TAF (the other bases are 1200, 1000, 2500 ft and higher).
+
+8. Using TAF VILK 241800Z 2500/2509 09008KT 0800 FG BECMG 2504/2505 09015KT 6000 SCT008 BKN120 TEMPO 2506/2508 12015G30KT 3000 TSRA FEW012 FEW025CB BKN100 BECMG AT 25/0800 09010KT 7000 FEW030 SCT120 BKN280 = : Weather TSRA is expected after
+*a. 0600 UTC
+b. 0600 IST
+c. 0800 UTC
+Explanation: TSRA appears in the TEMPO 2506/2508 group, which is temporary fluctuation from 06 to 08 UTC on the 25th, so it starts after 0600 UTC; TAF times are in UTC, not IST.
+
+9. Using TAF VILK 241800Z 2500/2509 09008KT 0800 FG BECMG 2504/2505 09015KT 6000 SCT008 BKN120 TEMPO 2506/2508 12015G30KT 3000 TSRA FEW012 FEW025CB BKN100 BECMG AT 25/0800 09010KT 7000 FEW030 SCT120 BKN280 = : Direction of gusty wind is
+a. 090°
+b. 100°
+*c. 120°
+Explanation: The gust appears in 12015G30KT, which reads direction 120 degrees, mean speed 15 kt, gusting to 30 kt; the 090 degree winds have no gusts.
+
+10. Using TAF VILK 241800Z 2500/2509 09008KT 0800 FG BECMG 2504/2505 09015KT 6000 SCT008 BKN120 TEMPO 2506/2508 12015G30KT 3000 TSRA FEW012 FEW025CB BKN100 BECMG AT 25/0800 09010KT 7000 FEW030 SCT120 BKN280 = : Expected weather up to 25/0400UTC is
+*a. Fog
+b. TSRA
+c. Mist
+Explanation: The initial part of the TAF has 0800 FG (fog), and it stays until the BECMG 2504/2505 change begins at 0400 UTC; TSRA is only later (0600 to 0800), and mist (BR) is not mentioned.
+
+11. Using TAF VILK 241800Z 2500/2509 09008KT 0800 FG BECMG 2504/2505 09015KT 6000 SCT008 BKN120 TEMPO 2506/2508 12015G30KT 3000 TSRA FEW012 FEW025CB BKN100 BECMG AT 25/0800 09010KT 7000 FEW030 SCT120 BKN280 = : Amount of lowest cloud is
+a. 1-2/8
+*b. 3-4/8
+c. 5-7/8
+Explanation: The lowest cloud is SCT008, and SCT (scattered) means 3 to 4 oktas. Memory aid: FEW = 1-2, SCT = 3-4, BKN = 5-7, OVC = 8 oktas.
+
+12. Using TAF VILK 241800Z 2500/2509 09008KT 0800 FG BECMG 2504/2505 09015KT 6000 SCT008 BKN120 TEMPO 2506/2508 12015G30KT 3000 TSRA FEW012 FEW025CB BKN100 BECMG AT 25/0800 09010KT 7000 FEW030 SCT120 BKN280 = : Amount of CB cloud is
+*a. 1-2/8
+b. 2-4/8
+c. 5-7/8
+Explanation: The CB appears as FEW025CB, and FEW means 1 to 2 oktas of cloud cover.
+
+13. Using TAF VILK 241800Z 2500/2509 09008KT 0800 FG BECMG 2504/2505 09015KT 6000 SCT008 BKN120 TEMPO 2506/2508 12015G30KT 3000 TSRA FEW012 FEW025CB BKN100 BECMG AT 25/0800 09010KT 7000 FEW030 SCT120 BKN280 = : Height of base of CB is
+*a. 2500 ft
+b. 3000 m
+c. 2500 m
+Explanation: In FEW025CB the height 025 is in hundreds of feet, so the CB base is 2500 ft; cloud heights in a TAF are never in metres.
+
+14. Using TAF VILK 241800Z 2500/2509 09008KT 0800 FG BECMG 2504/2505 09015KT 6000 SCT008 BKN120 TEMPO 2506/2508 12015G30KT 3000 TSRA FEW012 FEW025CB BKN100 BECMG AT 25/0800 09010KT 7000 FEW030 SCT120 BKN280 = : The height of topmost layer of cloud is
+a. 2800 m
+b. 28000 m
+*c. 28000 ft
+Explanation: The highest layer in the TAF is BKN280, which means a base of 28,000 ft (280 x 100 ft); the unit is feet, not metres.
+
+15. Using TAF VILK 241800Z 2500/2509 09008KT 0800 FG BECMG 2504/2505 09015KT 6000 SCT008 BKN120 TEMPO 2506/2508 12015G30KT 3000 TSRA FEW012 FEW025CB BKN100 BECMG AT 25/0800 09010KT 7000 FEW030 SCT120 BKN280 = : Period of validity of TAF is
+a. 23 to 00 IST
+*b. 00 to 09 UTC
+c. 20 to 12 UTC
+Explanation: The group 2500/2509 means from 25th 0000 UTC to 25th 0900 UTC, a 9 hour validity; TAF times are always in UTC.
+
+16. Group 1500/1509 in a TAF indicates
+a. TAF is issued on 15th at 0000 UTC
+*b. TAF is valid from 15th 0000 to 0900 UTC
+c. TAF is valid from 1500 to 0900 UTC
+Explanation: A group in the form ddhh/ddhh gives the validity period, so 1500/1509 is day 15 hour 00 to day 15 hour 09 UTC; the issue time is the separate group ending in Z.
+
+17. What is true of a TAF
+a. 9 hr TAF is for international dissemination
+b. TAF valid for 9 hr is issued every 6 hr
+c. TAF valid for 12-30 hr is issued every 3 hr
+*d. TAF for national use are valid for 9 hr and issued every 3 hr
+Explanation: As per the book key, national TAFs are valid for 9 hours and issued every 3 hours; the 12 to 30 hour TAFs are issued every 6 hours, so b and c are the wrong way round.
+`);
+registerChapterText("aviation-meteorology", "rofor", "ROFOR (Route Forecast)", `
+1. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Time of issue of ROFOR is
+a. 0610 UTC
+b. 0000 IST
+*c. 0000 UTC
+Explanation: The first group 010000Z means day 01 at 0000 UTC (Z = UTC), so that is the time of issue; 0610 is the validity period and the Z shows it is UTC, not IST.
+
+2. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Period of validity of ROFOR is
+a. 0000 to 0000 IST
+b. 0600 to 0100 IST
+*c. 0600 to 1000 UTC
+Explanation: The group 010610 is the validity period, and the six digits are read as 06 to 10 UTC, i.e. 0600 to 1000 UTC.
+
+3. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Wind speed in ROFOR is in
+*a. KT
+b. MPS
+c. KMH
+Explanation: The "KT" after the validity group tells you the unit for wind speed is knots.
+
+4. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Base of CB cloud is
+a. 300 m
+b. 300 ft
+*c. 3000 ft
+Explanation: In 2CB030 the 2 is the amount in oktas, CB is the cloud type and 030 is the base in hundreds of feet, so 030 = 3000 ft.
+
+5. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Height of Freezing level?
+a. 1700 m
+*b. 17,000 ft
+c. 1.7 km
+Explanation: The freezing level group starts with indicator 7 (7///170), and 170 means 17,000 ft; 1700 m and 1.7 km are far too low.
+
+6. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Icing group in the ROFOR is
+a. 7///170
+*b. 621800
+c. 54//609
+Explanation: The icing group always starts with indicator 6, so 621800 is the icing group; 7///170 is the freezing level and 54-type groups are turbulence (indicator 5).
+
+7. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Type of Icing?
+a. Nil
+b. Light
+*c. Light icing in cloud
+Explanation: In 621800 the first digit 6 is the icing indicator and the second digit 2 is the type, which means light icing in cloud (compare 63 = light icing in precipitation).
+
+8. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Indicator figure for turbulence group in the ROFOR is
+a. 7
+b. 6
+*c. 5
+Explanation: Turbulence groups start with 5 (541501), icing groups with 6 and the freezing level with 7. Memory aid: Turbulence = 5, Icing = 6, Freezing = 7.
+
+9. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Height at which Icing is expected?
+a. 21,000 ft
+*b. 18,000 ft
+c. 15,000 ft
+Explanation: In 621800 the digits after the icing type (18) give the height in thousands of feet, so icing is expected at 18,000 ft. NOTE: the source prints option b as "18,000 m", which I corrected to ft because the ROFOR gives heights in feet.
+
+10. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Thickness of Icing is expected to be?
+a. 300 m
+b. 600 m
+*c. Up to Cloud Top
+Explanation: The last digit(s) of 621800 give the thickness, and here it is 00; a thickness code of 0 means the icing extends up to the cloud top.
+
+11. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Height at which Turbulence is expected?
+*a. 15,000 ft
+b. 5,000 ft
+c. 12,000 ft
+Explanation: In 541501 the 5 is the turbulence indicator, 4 is the type (moderate turbulence in cloud, occasional), 15 is the height in thousands of feet, so 15,000 ft; 5,000 ft is a trap from the leading 5.
+
+12. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Thickness of turbulence expected is?
+a. 2000 ft
+*b. 300 m
+c. Up to Top of cloud
+Explanation: The last two digits of 541501 are 01, meaning a layer thickness of 1000 ft, which is about 300 m.
+
+13. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Wind at 5000 ft expected is?
+a. 280/10 kt
+*b. 280/15 kt
+c. 280/20 kt
+Explanation: Group 405022 28015 means 4 = wind/temperature indicator, 05 = 5000 ft, 022 = +22 degrees C, then wind 280/15 kt; 280/10 belongs to 3000 ft in the other example and 280/20 to 7000 ft here.
+
+14. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Wind at 20000 ft expected is?
+*a. 270/45 kt
+b. 270/45 KMH
+c. 270/40 kt
+Explanation: Group 420M05 27045 means level 20 (20,000 ft), temperature M05 (minus 5 degrees C), wind 270/45; the speed is in knots, not KMH.
+
+15. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Temperature at 20000 ft expected is?
+*a. -05 °C
+b. 05 °C
+c. 265 K
+Explanation: In 420M05 the letter M means minus, so the temperature at 20,000 ft is -05 degrees C; 265 K would be -8 degrees C, so it does not match.
+
+16. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Temperature at 40,000 ft expected is?
+a. -45 °C
+*b. -41 °C
+c. 233 K
+Explanation: In 440M41 the 40 is the level (40,000 ft) and M41 is minus 41 degrees C; 233 K is about -40 degrees C, which is close but not equal.
+
+17. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Date of issue of forecast is?
+a. 10
+*b. 01
+c. 02
+Explanation: In 010000Z the first two digits (01) are the date and 0000 is the time in UTC; the 10 in the validity group 010610 is an end hour, not the date.
+
+18. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Indicator group for Jet stream in ROFOR is
+a. 22222
+*b. 11111
+c. 111111
+Explanation: Jet stream is introduced by 11111 and maximum wind by 22222. Memory aid: Jet stream = first group (11111), Maximum wind = second group (22222).
+
+19. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Indicator group for Maximum Wind in ROFOR is
+*a. 22222
+b. 11111
+c. 111111
+Explanation: The maximum wind group is introduced by 22222; 11111 is for the jet stream, and 111111 (six digits) is not a ROFOR indicator.
+
+20. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Maximum Wind speed expected is
+a. 120 kt
+b. 130 kt
+*c. 140 kt
+Explanation: Group 22222 36140 2825 gives max wind at 36 (36,000 ft) with speed 140 kt, then direction 280 and shear 25; 120 kt is the jet stream core speed, a different group.
+
+21. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Maximum Wind speed expected at height
+a. 40000 ft
+*b. 36000 ft
+c. 38000 ft
+Explanation: After the 22222 indicator, 36140 means the height is 36 (36,000 ft) and the speed is 140 kt; 38,000 ft is the jet stream core height in the 11111 group.
+
+22. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Jet stream is expected at Lat/Long
+a. 27 N/70 E
+b. 28 N/75 E
+*c. 28 N/70 E
+Explanation: After 11111, the group 12870 reads as 1 = quadrant, 28 = latitude N, 70 = longitude E, so 28N 70E; the other options mix up the numbers.
+
+23. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Vertical Wind Shear per 300 m expected is
+*a. 25 kt
+b. 30 kt
+c. 38 kt
+Explanation: In the max wind group 22222 36140 2825, the last group 2825 means direction 280 degrees and vertical wind shear 25 kt per 300 m.
+
+24. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Jet stream core speed is expected to be
+a. 125 kt
+*b. 120 kt
+c. 140 kt
+Explanation: In the jet stream group the part 380120 gives the height (38 = 38,000 ft) and the core speed (120 kt); 140 kt is the max wind speed from the 22222 group.
+
+25. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Jet stream is expected at a height of
+a. 40,000 ft
+b. 36,000 ft
+*c. 38,000 ft
+Explanation: In 380120 the first two digits (38) are the height in thousands of feet, so the jet stream core is at 38,000 ft; 36,000 ft is the max wind level.
+
+26. Using ROFOR 010000Z 010610 KT VECC VILK 2SC030 2CB030 3AC100 2CI300 7///170 621800 541501 405022 28015 407010 28020 410005 29030 420M05 27045 440M41 27105 11111 12870 380120 22222 36140 2825= : Wind at 40,000 ft expected is ?
+*a. 270/105 kt
+b. 270/115 KMH
+c. 270/140 kt
+Explanation: Group 440M41 27105 means level 40 (40,000 ft), temperature minus 41 degrees C and wind 270 degrees at 105 kt; speeds are in knots, and 140 kt is the 36,000 ft max wind.
+`);
+
+registerChapterText("aviation-meteorology", "met-briefing", "Meteorological Briefing", `
+1. Who prepares National SIGWX Charts
+a. AMOs
+b. WAFC
+*c. MWOs
+Explanation: National SIGWX charts are prepared by the Meteorological Watch Offices (MWOs), while the WAFCs prepare the global SIGWX charts.
+
+2. Flight Level of freezing Level is included in ............ SIGWX Charts
+*a. Medium level charts
+b. High level charts
+c. Low level charts
+Explanation: As per the book key, the flight level of the freezing level is shown on the medium level SIGWX charts.
+
+3. Fog, Precipitation and weather which reduce visibility below 5000 m is considered Significant weather for
+a. All level flights
+b. High level flights
+*c. Low level flights
+Explanation: Such surface-visibility phenomena matter mainly to flights operating close to the ground, so they count as significant weather for low level flights.
+
+4. Briefing and Consultation are generally provided to the aircrew ....... hours prior to the scheduled departure
+*a. 3 hr
+b. 5 hr
+c. 6 hr
+Explanation: Flight crew are generally briefed and consulted about 3 hours before scheduled departure.
+
+5. SIGMET information is provided to
+a. Low level flights
+*b. All level flights
+c. High level flights
+Explanation: SIGMET warns of hazardous en-route weather and is issued for the safety of all flights, whatever the level.
+
+6. For Low Level flights, and those under Visual Flight Rules, briefing is given up to
+*a. FL150 or above in mountains
+b. FL110 above the sea
+c. FL 120 or over the plains
+Explanation: As per the book key, briefing for low level and VFR flights extends up to FL150, or above in mountainous areas.
+
+7. The height indications in the Flight Documentation in all en-route Met conditions : eg upper winds, turbulence, cloud base/top etc is
+a. Above aerodrome elevation
+*b. Flight Levels
+c. As requested by the Pilot
+Explanation: En-route weather information (upper winds, turbulence, cloud base and top) is given in flight levels. Memory aid: En-route = Flight Levels, Aerodrome = Above aerodrome elevation.
+
+8. The height indications in the Flight Documentation in all aerodrome Met conditions : eg base and top of clouds
+*a. Above aerodrome elevation
+b. Flight Levels
+c. As requested by the Pilot
+Explanation: For aerodrome weather, heights such as cloud base and top are given above aerodrome elevation, in contrast to en-route data which uses flight levels.
+
+9. For National Flights the Documents provided are -
+a. National SIGWX charts only
+b. WAFC upper wind and temp. charts only
+*c. both WAFC upper wind and temp. charts and National SIGWX charts
+Explanation: National flights get both the WAFC upper wind and temperature charts and the National SIGWX charts, so options a and b are each only half the set.
+
+10. For National Flights the winds and temperatures are provided for LL Flights for altitudes
+*a. 600, 1500 and 300 m
+b. 3000 ft, 5000 ft, 10,000 ft
+c. 600, 1000 and 500 m
+Explanation: As per the book key, option a is the set of altitudes for which winds and temperatures are provided to low level flights.
+`);
+registerChapterText("aviation-meteorology", "miscellaneous", "Miscellaneous Questions", `
+1. Translucent rime ice forms due to
+a. Melting of large snow particles
+b. Freezing of large supercooled water drops
+*c. Freezing of small supercooled water drops
+d. Sublimation of large hail
+Explanation: Small supercooled drops freeze almost instantly on hitting the aircraft, trapping air and giving a rough, milky (translucent) rime ice; large drops spread out before freezing and make clear ice.
+
+2. Advection fog occurs due to ........ air moving over ............... surface over .........
+a. Dry, wet, land only
+b. Moist and cold, warm, land only
+*c. Warm & moist air, cold, both land & sea.
+d. Cold and dry air, warm, sea only
+Explanation: Advection fog forms when warm moist air is carried horizontally over a colder surface and is cooled below its dew point, and this can happen over both land and sea. NOTE: option d did not appear in the source and I added it as a placeholder only if your site needs 4 options; delete it if the book has just a, b and c.
+
+3. ELR 6.5°C and SALR 7°C on lifting a saturated parcel of air the atmosphere would be
+a. Stable
+*b. Absolutely stable
+c. Absolutely unstable
+d. Indifferent
+Explanation: When the ELR (6.5) is less than the SALR (7) the lifted saturated parcel cools faster than its surroundings, becomes colder and sinks back, so the air is absolutely stable (ELR < SALR).
+
+4. Gradient wind is weaker than geostrophic wind around a low because
+*a. Centripetal force is provided by pressure gradient force
+b. Centripetal force is added to the pressure gradient force
+c. Coriolis force is added to the pressure gradient force
+d. Coriolis force is opposite to Centripetal
+Explanation: Around a low, part of the pressure gradient force is used up to supply the inward centripetal force, so less is left to balance Coriolis, which gives a lower wind speed than the geostrophic wind.
+
+5. The altimeter of an aircraft is set to QFE before landing, on landing it will indicate
+a. Height of A/C wheels above runway
+b. Flight Level
+c. A/C altitude AMSL
+*d. Height of A/C above ARP in ISA
+Explanation: QFE is the pressure at the aerodrome reference point, so with it set the altimeter reads height above the aerodrome datum (assuming ISA conditions). NOTE: book key says d, but option a also looks plausible because the altimeter reads about zero on touchdown.
+
+6. TAF generally has a validity of ......... hr and TREND ........ hr
+*a. 9 hr; 2 hr
+b. 24 hr; 3 hr
+c. 12 hr; 2 hr
+d. 24 hr; 9hr
+Explanation: An Indian TAF is generally valid for 9 hours and a TREND forecast attached to a METAR covers the next 2 hours.
+
+7. CAT is most pronounced on which side of a subtropical jet stream
+a. About 3 km above the core
+*b. Cold side of core
+c. South side of core
+d. at core
+Explanation: Clear air turbulence is worst on the cold (polar) side of the core, where the wind shear is strongest and the tropopause slopes; the book key picks this over the other options.
+
+8. Hail forms by collision with super-cooled water drops by
+a. Condensation
+*b. Deposition
+c. Evaporation
+d. Transpiration
+Explanation: As per the book key, deposition is the choice; hail grows as it collides with supercooled drops in the CB, and condensation, evaporation and transpiration are not the right processes. NOTE: strictly, hail grows by accretion of supercooled drops, but that is not an option here.
+
+9. Thermal wind blows parallel to ................ keeping ..................... to the left
+*a. Isotherms, low temperature
+b. Isobars, low temperature
+c. Isobars, low pressure
+d. Isallobars, high temperature
+Explanation: The thermal wind blows along the isotherms with the low temperature on its left in the Northern Hemisphere (the cold air side).
+
+10. Roaring Forties are ...... winds blow throughout the year and are of very stormy nature in
+a. Wly, N hemisphere
+b. Ely, S hemisphere
+*c. Wly, S hemisphere
+d. Ely, S hemisphere
+Explanation: The Roaring Forties are strong westerlies between latitudes 40S and 50S in the Southern Hemisphere, where there is little land to slow them down.
+
+11. Temperature in the troposphere decreases from equator to poles. The thermal wind throughout troposphere is therefore ........ and ............ as height increases
+*a. Wly, increases
+b. Wly, decreases
+c. Wly, remains same
+d. Ely, increases
+Explanation: With the cold air to the north in the Northern Hemisphere, the thermal wind has the cold on its left, so it is westerly, and it grows stronger with height as the temperature gradient acts through a deeper layer.
+
+12. A Cold Front passes a station, the pressure
+a. Changes are very small
+b. first increases and then decreases
+*c. First decreases and then increases
+d. rises continually
+Explanation: Pressure falls as the front approaches, reaches a minimum at the front, then rises sharply behind it as the cold dense air arrives.
+
+13. Flying conditions associated with CB during pre monsoon are
+a. Continuous rain, poor visibility, light turbulence
+b. Good visibility, drizzle, turbulence
+*c. Hail, gusts, shower, severe turbulence
+d. Rain, poor visibility, and turbulence
+Explanation: A pre-monsoon CB gives hail, squalls and gusty winds, heavy showers and severe turbulence; continuous rain and light turbulence fit layer clouds, not CB.
+
+14. Which is true of a cold front
+a. Less steeper than a warm front
+b. Associated with continuous rain and ST clouds
+*c. Heavy convective weather and squall line
+d. Similar slope as warm front
+Explanation: A cold front is steeper than a warm front, so it lifts the warm air sharply and gives heavy convective weather (CB, showers) and often a squall line, while continuous rain with ST is a warm front feature.
+
+15. The observed temperature is -40°C at FL 300 (10 km). It is termed as
+*a. 10°C warmer than ISA
+b. 10°C colder than ISA
+c. 15°C warmer than ISA
+d. 15°C colder than ISA
+Explanation: With the 10 km given, ISA = 15 - (6.5 x 10) = -50°C, and -40°C is 10°C warmer than that. NOTE: with the other rule 2°C per 1000 ft the ISA at FL300 is -45°C, which would give 5°C warmer, but the question gives 10 km and only the 10 km method matches the key.
+
+16. Aquaplaning may occur in
+a. -GR
+*b. +RA
+c. -TS
+d. Thick Fog
+Explanation: Aquaplaning needs a layer of water on the runway, which heavy rain (+RA) provides; light hail, light thunderstorm and fog do not normally put enough water on the surface.
+
+17. CAT is most likely to be encountered in
+a. A high close to a Dust Storm
+b. After the passage of a severe Sandstorm
+*c. A sharp trough aloft with winds of jet stream speed
+d. A ridge aloft
+Explanation: CAT comes from strong wind shear, which is found in a sharp trough aloft with jet-stream speed winds; ridges and highs have weaker, smoother flow.
+
+18. What are Norwesters?
+a. Warm dry winds coming from NW
+b. Severe Duststorm from NW
+c. TS affecting NW India in premonsoon
+*d. TS of E and NE India in premonsoon
+Explanation: Norwesters (Kalbaisakhi) are premonsoon thunderstorms that hit east and northeast India (Bengal, Assam) from the northwest, so the name does not mean they affect NW India.
+
+19. Example of non frontal stability is
+a. Squall line
+*b. Inversion
+c. Frontogenesis
+d. Occlusion
+Explanation: An inversion (temperature rising with height) is a stable layer that is not linked to any front; the other three are all frontal or convective phenomena.
+
+20. If temperature initially is constant and then increases with height, the atmosphere is
+*a. Stable
+b. Unstable
+c. Indifferent
+d. Adiabatic
+Explanation: A layer where temperature is constant (isothermal) and then increases (inversion) has an ELR lower than the lapse rates of a rising parcel, so any parcel lifted is colder than its surroundings and the air is stable.
+
+21. Under what conditions severe icing is encountered
+a. temperature 0 deg C
+b. rain and temperature below -10 deg C
+*c. visible vapour and temperature -5 deg C
+d. rain at temperature -20 deg C
+Explanation: As per the book key, visible moisture (cloud) with a temperature around -5°C gives the supercooled drops that cause icing. NOTE: freezing rain is usually the worst icing case, so options b or d may look more severe; mark the key's answer anyway.
+
+22. Which statement about icing is correct?
+a. The level from ground to freezing level is more susceptible for icing
+*b. Most potent area for dangerous icing is freezing level to about 25,000 ft
+c. Icing may be severe in the temperature range -20 to -40 deg C
+d. Severe icing may form in the temperature range -10 to 30 deg C
+Explanation: Dangerous icing is found between the freezing level and about 25,000 ft, where supercooled water is plentiful; below the freezing level there is no icing, and at -20 to -40°C most drops have already frozen into ice crystals.
+
+23. Ice accretion
+a. increases drag but reduces stalling speed
+b. alters aerodynamics, reduces weight, and decrease lift
+c. alters aerodynamics, increases weight and lift
+*d. increases drag and weight and stalling speed
+Explanation: Ice spoils the wing shape so drag goes up and lift goes down, the added mass increases weight, and the aircraft therefore stalls at a higher speed.
+
+24. The wind 260102 KT, is reported in a METAR / SPECI as:
+a. 26010 KT + 26002 KT
+b. 260P99 KT only
+c. Only in remark column
+*d. 260P99 KT and complete wind in remark column
+Explanation: METAR wind speed groups cannot show 100 kt or more, so any speed above 99 kt is coded P99, written as 260P99KT, and the full wind (260 degrees, 102 kt) is given in the remarks.
+
+25. Will SPECI be issued if
+a. Wind changes from 27010 KT to 29018KT
+b. RVR changes, from 1400 m to 1600 m
+*c. Visibility changes from 6000 m to 4000 m
+d. Temperature changes from 15 to 16 deg C
+Explanation: A SPECI is issued when visibility falls below a threshold such as 5000 m (here 6000 m to 4000 m); small wind changes, a small RVR change or a 1°C temperature change do not meet the criteria.
+
+26. CAVOK in a METAR replaces
+*a. Visibility, cloud and Wx groups
+b. Wind, visibility & cloud groups
+c. Wind, temp & pressure groups
+d. Visibility, temp & cloud groups
+Explanation: CAVOK stands for Cloud And Visibility OK and replaces the visibility, present weather and cloud groups; wind, temperature and pressure are still reported.
+
+27. The calm and clear night is cooler than cloudy night because :
+*a. Clouds prevent terrestrial radiation from escaping
+b. Clouds radiate heat towards sky
+c. Due to CO2 and H2O present in the air
+d. Terrestrial radiation skip through clouds
+Explanation: Cloud acts like a blanket, absorbing the heat radiated by the ground and sending part of it back, so cloudy nights stay warmer than clear ones.
+
+28. Diurnal variation of temperature is least
+a. When sky is clear
+b. During land breeze over the coastal areas
+*c. When sky is overcast
+d. When winds are weak over the land surface
+Explanation: Overcast cloud cuts down daytime heating and night-time cooling, so the day-night temperature difference is smallest, while a clear sky gives the biggest range.
+
+29. Density altitude is
+*a. Higher if atmosphere is warmer than ISA
+b. Lower if atmosphere is warmer than ISA
+c. Higher if atmosphere is colder than ISA
+d. Higher if atmosphere is isothermal
+Explanation: Warmer air is less dense, so the aircraft behaves as if at a higher altitude. Memory aid: Hot = High density altitude.
+
+30. The temperature to which air should be cooled to saturate it is ............. temperature
+a. Wet bulb
+*b. Dew point
+c. Dry bulb
+d. Ambient
+Explanation: By definition, the dew point is the temperature to which air must be cooled, at constant pressure and moisture content, to become saturated.
+
+31. No cyclonic storm or high pressure systems form within 5° of the equator because
+a. Pressure gradient force is negligible
+b. Frictional force is minimal
+*c. Coriolis force is negligible
+d. Geotropic force is maximum
+Explanation: Coriolis force is zero at the equator and very small within about 5 degrees of it, so air cannot be set into the rotation needed for cyclones or highs.
+
+32. Gradient wind
+a. Is due to the balance between Pressure gradient force and Friction
+b. Is super geostrophic in a low and subgeostrophic in a high
+*c. Is due to the balance between Pressure gradient, Coriolis and Centripetal forces
+d. Blows parallel to straight isobars
+Explanation: The gradient wind blows along curved isobars with the pressure gradient, Coriolis and centripetal forces balanced; it is sub-geostrophic in a low and super-geostrophic in a high, so b is the wrong way round, and d describes the geostrophic wind.
+
+33. Effect of Wind Shear
+a. Decreasing head wind increases lift
+b. Increasing tail wind increases lift
+*c. Decreasing tail wind increases lift and a/c rises above the glide path
+d. Weakening head wind raises aircraft above the flight path
+Explanation: A decreasing tailwind means airspeed rises, so lift increases and the aircraft balloons above the glide path; a decreasing headwind or an increasing tailwind has the opposite effect.
+
+34. Due to friction the wind
+a. Strengthens and backs during landing
+*b. Decreases and backs during landing
+c. Strengthens and backs during take off
+d. Decreases and veers during landing
+Explanation: Friction slows the wind near the ground and turns it towards low pressure, which in the Northern Hemisphere is a backing (anticlockwise) change on the way down, as in landing.
+
+35. The term 'monsoon' means
+*a. Seasonal reversal of winds and rainfall
+b. Rains all over India
+c. One of the four seasons with maximum rain in the N
+d. Monsoon circulation
+Explanation: The word monsoon comes from the Arabic for season and means the seasonal reversal of the wind direction, with its accompanying rainfall, not simply rain.
+
+36. The two main seasons in India are
+a. Pre monsoon and SW monsoon
+b. Winters and Hot season
+c. Hot season and Rainy season
+*d. Winter and SW monsoon
+Explanation: Following the book key, the two main seasons are winter (the NE monsoon) and the SW monsoon, which are the periods of the two opposite wind systems.
+
+37. The main cause of seasons in India is
+*a. Oscillation of sun 23½ N to 23½ S
+b. Advection of air from Arabian sea
+c. Thermal equator at equator whole year
+d. Earth rotating around its own axis
+Explanation: The sun's apparent movement between the Tropic of Cancer and the Tropic of Capricorn shifts the zone of heating, which causes the seasons.
+
+38. The axis of monsoon trough runs
+a. In the Bay of Bengal
+*b. Along the Gangetic plains
+c. Along 22 deg East to West of India
+d. Along central peninsula
+Explanation: In its normal position during the SW monsoon, the monsoon trough runs from the heat low in Rajasthan/Pakistan along the Gangetic plains to the head of the Bay of Bengal.
+
+39. During monsoon season the low level winds are
+a. SEly along E coast
+b. NEly over Tamil Nadu
+c. SEly over Bay of Bengal
+*d. SEly North of Monsoon Trough
+Explanation: North of the monsoon trough the low level flow is south-easterly (from the Bay of Bengal), while south of the trough it is south-westerly, so option d describes this pattern.
+
+40. During SW monsoon the winds above 500 hPa are
+a. Ely over S and weak Wly over N India
+b. Wly over S and strong over N India
+c. Wly over S and weak Wly over N India
+*d. Strong Ely over S and weak over N India
+Explanation: In the upper troposphere during the SW monsoon the tropical easterly jet runs over south India, giving strong easterlies there and only weak winds over the north.
+
+41. Which is not true of post monsoon
+a. Pressure gradient is weakest of all seasons
+b. Frequency of tropical cyclones is max.
+c. Monsoon withdraws from the country
+*d. Worst period for flying except S India
+Explanation: The post-monsoon is generally a good season for flying over most of India, apart from the south where the NE monsoon brings rain, so d is the one that is not true; the other three are all true.
+
+42. The months during which Tamil Nadu gets most of its rainfall are
+*a. Oct - Nov
+b. Jul - Sep
+c. Apr - Jun
+d. Dec - Mar
+Explanation: Tamil Nadu is in the rain shadow of the SW monsoon and gets most rain from the NE (retreating) monsoon in October and November.
+
+43. ITCZ affects weather over India during
+a. Winters only
+b. Pre - monsoon only
+c. Monsoons only
+*d. All the four seasons
+Explanation: As per the book key, the ITCZ moves north and south through the year and affects India's weather in all four seasons.
+
+44. ENSO is the name given to
+a. El - Nino only
+b. Southern oscillations and La- Nino
+*c. El - Nino and Southern oscillations
+d. El - Nino and La - Nino combined
+Explanation: ENSO is El Nino Southern Oscillation, combining the ocean warming (El Nino) with the atmospheric pressure see-saw (Southern Oscillation).
+
+45. Friction causes winds to get deflected .............
+a. Parallel to isobars
+*b. Towards low
+c. Perpendicular to isobars
+d. Towards high
+Explanation: Friction reduces the Coriolis force, so the pressure gradient force wins and the wind crosses the isobars towards the low pressure.
+
+46. Station level pressure at ARP is reduced to MSL as per
+a. ISA is QFF
+b. ISA is QFE
+c. Isothermal is QNH
+*d. ISA is QNH.
+Explanation: QNH is the station pressure reduced to mean sea level using ISA conditions; QFE is the pressure at the aerodrome itself, and QFF uses the actual temperature.
+
+47. A/C moving from west to east and is drifting northwards. Its altimeter will
+*a. Under read
+b. Over read
+c. Reading will remain unchanged
+Explanation: A drift to the north means a southerly wind, so by Buys-Ballot's law the low pressure is to the west (behind) and high pressure to the east (ahead); moving towards higher pressure makes the altimeter under-read.
+
+48. Wind Shear in a TS is maximum
+a. Below the anvil
+b. all sides of a CB
+*c. Beneath the cloud
+d. in SW sector
+Explanation: As per the book key, the shear in a thunderstorm is greatest beneath the cloud in the downdraft and outflow (microburst) area close to the ground.
+
+49. Difference between Airmass TS (AM TS) and Steady State TS (SS TS) is
+*a. SS TS duration is more
+b. AM TS duration is more
+c. SS TS duration is less
+d. AM TS occur in fronts
+Explanation: An airmass thunderstorm is short-lived (it kills its own updraft with its downdraft), while a steady state storm (multicell or supercell) keeps its updraft alive and lasts much longer.
+
+50. In a line of TS there is a hole in the Radar echo, what would you infer
+a. No precipitation
+*b. Strong convective activity
+c. Area free of clouds
+d. A gap between two CB
+Explanation: As per the book key, a hole in the radar echo is read as strong convective activity, so it should not be used as a gap to fly through. NOTE: many pilots would read a gap as a break between two CBs (option d), but the key says b.
+`);   
 registerChapterText("aviation-meteorology", "additional-questions", "Additional Questions", `
 1. The main cause of occurrence of weather over the earth surface is
 a. Changing pressure
