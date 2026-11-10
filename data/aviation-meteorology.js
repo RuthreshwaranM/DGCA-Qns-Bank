@@ -3044,3 +3044,173 @@ b. NW India
 c. S India
 Explanation: With the monsoon trough shifted north during a break phase, rainfall concentrates along the Himalayan foothills rather than the plains.
 `);
+
+registerChapterText("aviation-meteorology", "oxford-atmosphere", "The Atmosphere (Oxford Question Bank)", `
+1. How does the height of the tropopause normally vary with latitude in the Northern Hemisphere?
+*a. It decreases from south to north
+b. It increases from south to north
+c. It remains constant from north to south
+d. It remains constant throughout the year
+Explanation: The tropopause is highest over the warm equator (about 16 km) and lowest over the cold poles (about 8 km), so moving north it gets lower. The warm tropical air is deeper and rises higher.
+
+2. What, approximately, is the average height of the tropopause over the Equator?
+a. 8 km
+*b. 16 km
+c. 11 km
+d. 50 km
+Explanation: Equator about 16 km, mid-latitudes about 11 km, poles about 8 km. 50 km is the top of the stratosphere, not the tropopause.
+
+3. In the International Standard Atmosphere the decrease in temperature with height below 11 km is:
+a. 0.5°C/100 m
+b. 0.6°C/100 m
+*c. 0.65°C/100 m
+d. 1°C/100 m
+Explanation: The ISA lapse rate in the troposphere is 0.65°C per 100 m, which is about 1.98°C (roughly 2°C) per 1000 ft.
+
+4. The 200 hPa pressure altitude level can vary in height. In temperate regions which of the following average heights is applicable?
+*a. FL390
+b. FL300
+c. FL100
+d. FL50
+Explanation: Learn these pairs: 850 hPa is about FL50, 700 hPa is about FL100, 500 hPa is about FL180, 300 hPa is about FL300, 250 hPa is about FL340 and 200 hPa is about FL390.
+
+5. The temperature at FL110 is -12°C. What will the temperature be at FL140 if the ICAO standard lapse rate is applied?
+a. -6°C
+*b. -18°C
+c. -9°C
+d. -15°C
+Explanation: FL110 to FL140 is 3000 ft higher. At about 2°C per 1000 ft it gets 6°C colder, so -12 - 6 = -18°C. Going up means colder.
+
+6. At a certain position the temperature on the 300 hPa chart is -54°C, and according to the significant weather chart the tropopause is at FL330. What is the most likely temperature at FL350?
+a. -48°C
+*b. -60°C
+c. -56.5°C
+d. -64°C
+Explanation: 300 hPa is about FL300, where it is -54°C. From FL300 to the tropopause at FL330 is 3000 ft, which is 6°C colder, so -60°C at the tropopause. Above the tropopause the layer is isothermal, so FL350 is also -60°C.
+
+7. What is the boundary between the troposphere and the stratosphere called?
+a. Ionosphere
+b. Stratosphere
+c. Atmosphere
+*d. Tropopause
+Explanation: The tropopause is the boundary between the troposphere below and the stratosphere above.
+
+8. Which constant pressure altitude chart is standard for 4781 ft pressure level (FL50)?
+a. 500 hPa
+b. 300 hPa
+*c. 850 hPa
+d. 700 hPa
+Explanation: 850 hPa is about 4781 ft (1457 m), roughly FL50. 700 hPa is about FL100, 500 hPa is about FL180 and 300 hPa is about FL300.
+
+9. An outside air temperature of -30°C is measured whilst cruising at FL200. What is the temperature deviation from the ISA at this level?
+*a. 5°C colder than ISA
+b. 5°C warmer than ISA
+c. 10°C colder than ISA
+d. 10°C warmer than ISA
+Explanation: ISA at FL200 = 15 - (2 x 20) = -25°C. The actual -30°C is 5°C lower than ISA, so it is 5°C colder.
+
+10. What is the most likely temperature at the tropical tropopause?
+a. -56.5°C
+*b. -75°C
+c. -40°C
+d. -25°C
+Explanation: The tropical tropopause is very high (about 16 km), so the air has cooled much more than the ISA value of -56.5°C at 11 km. About -75°C is typical.
+
+11. Which one of the following statements applies to the tropopause?
+a. It is, by definition, an isothermal layer
+b. It indicates a strong temperature lapse rate
+c. It is, by definition a temperature inversion
+*d. It separates the troposphere from the stratosphere
+Explanation: The tropopause is defined by what it separates: the troposphere and the stratosphere. It is not by definition isothermal or an inversion, although the temperature stops falling there.
+
+12. In the lower part of the stratosphere the temperature:
+*a. is almost constant
+b. decreases with altitude
+c. increases with altitude
+d. increases at first and decreases afterwards
+Explanation: The lower stratosphere is nearly isothermal (about -56.5°C in ISA from 11 to 20 km). It only starts to warm higher up, because of ozone absorbing ultraviolet.
+
+13. What is the approximate composition of the dry air by volume in the troposphere?
+a. 10% oxygen, 89% nitrogen and the rest other gases
+b. 88% oxygen, 9% nitrogen and the rest other gases
+c. 50% oxygen, 40% nitrogen and the rest other gases
+*d. 21% oxygen, 78% nitrogen and the rest other gases
+Explanation: Dry air is about 78% nitrogen, 21% oxygen and 1% other gases (argon, carbon dioxide and others).
+
+14. How does temperature vary with increasing altitude in the ICAO standard atmosphere below the tropopause?
+a. Remains constant
+*b. Decreases
+c. Increases
+d. At first it increases and higher up it decreases
+Explanation: In the troposphere the ISA temperature falls steadily with height, from 15°C at sea level to -56.5°C at 11 km.
+
+15. How would you characterize an air temperature of -15°C at the 700 hPa level over western Europe?
+a. Within +/-5°C of ISA
+b. 20°C below standard
+*c. Low
+d. High
+Explanation: ISA at 700 hPa (about 3000 m / 10 000 ft) is about -5°C. An actual -15°C is about 10°C below ISA, so it is low. It is not within 5°C of ISA, and it is not 20°C below.
+
+16. If you are flying at FL300 in an air mass that is 15°C warmer than a standard atmosphere what is the outside temperature likely to be?
+a. -15°C
+*b. -30°C
+c. -45°C
+d. -60°C
+Explanation: ISA at FL300 = 15 - (2 x 30) = -45°C. Adding the 15°C warm deviation gives -45 + 15 = -30°C.
+
+17. If you are flying at FL140 and the outside temperature is -8°C at what altitude will the freezing level be?
+a. FL75
+*b. FL100
+c. FL130
+d. FL180
+Explanation: The freezing level is where the temperature is 0°C, which is 8°C warmer than -8°C. At 2°C per 1000 ft that is 4000 ft lower, so FL140 - 40 = FL100.
+
+18. What is the most important constituent in the atmosphere from a weather standpoint?
+a. Carbon dioxide
+b. Oxygen
+*c. Water vapour
+d. Methane
+Explanation: Water vapour makes clouds, rain and snow and releases latent heat. It is only about 0-4% of the air, but it drives nearly all weather.
+
+19. The average height of the tropopause at a latitude of 50° is about:
+a. 8 km
+*b. 11 km
+c. 14 km
+d. 16 km
+Explanation: In mid-latitudes the tropopause averages about 11 km (36 090 ft), which is also the ISA value.
+
+20. Between mean sea level and a height of 20 km the lowest temperature in the international standard atmosphere (ISA) is:
+a. -273°C
+b. -44.7°C
+*c. -56.5°C
+d. -100°C
+Explanation: ISA cools from 15°C at sea level to -56.5°C at 11 km, then stays at -56.5°C up to 20 km. So the lowest value is -56.5°C. -273°C is absolute zero.
+
+21. The international standard atmosphere (ISA) assumes that the temperature will reduce at a rate of:
+*a. 1.98°C per 1000 feet up to 36 090 feet after which it remains constant to 65 617 feet
+b. 1.98°C per 1000 feet up to 36 090 feet and then will rise at 0.3°C per 1000 feet up to 65 617 feet when it will remain constant
+c. 2°C per 1000 feet up to 65 617 feet after which it will remain constant to 104 987 feet
+d. 2°C per 1000 feet up to 36 090 feet and will then increase at 0.3°C per 1000 feet up to 65 617 feet
+Explanation: ISA falls at 1.98°C per 1000 ft up to 36 090 ft (11 km), then stays constant at -56.5°C up to 65 617 ft (20 km). The warming starts only above 20 km.
+
+22. In the mid-latitudes the stratosphere extends on average from:
+a. 0 to 11 km
+*b. 11 to 50 km
+c. 50 to 85 km
+d. 11 to 20 km
+Explanation: The stratosphere starts at the tropopause (about 11 km) and reaches about 50 km. 0 to 11 km is the troposphere, and 50 to 85 km is the mesosphere.
+
+23. In relation to the total weight of the atmosphere, the weight of the atmosphere between mean sea level and a height of 5500 m is approximately:
+a. 1%
+b. 25%
+*c. 50%
+d. 99%
+Explanation: Air gets thinner with height, so half of the atmosphere's mass lies below about 5500 m. This is why the 500 hPa level (half of sea-level pressure) sits near 5500 m.
+
+24. A temperature of +15°C is recorded at an altitude of 500 metres above mean sea level. If the vertical temperature gradient is that of a standard atmosphere, what will be the temperature at the summit of a mountain 2500 metres above mean sea level?
+a. 0°C
+*b. +2°C
+c. +4°C
+d. -2°C
+Explanation: The height difference is 2500 - 500 = 2000 m. The cooling is 0.65°C x 20 = 13°C, so 15 - 13 = +2°C.
+`);
