@@ -3214,3 +3214,110 @@ c. +4°C
 d. -2°C
 Explanation: The height difference is 2500 - 500 = 2000 m. The cooling is 0.65°C x 20 = 13°C, so 15 - 13 = +2°C.
 `);
+
+registerChapterText("aviation-meteorology", "oxford-pressure", "Pressure (Oxford Question Bank)", `
+1. The barometric pressure at the airfield datum point is known as:
+a. QFF
+b. QNH
+*c. QFE
+d. Standard Pressure
+Explanation: QFE is the actual air pressure at the aerodrome datum (the airfield elevation). Think "F" for Field Elevation. With QFE set, the altimeter reads zero on the ground. QNH is the pressure reduced to sea level using ISA temperatures, and QFF is reduced to sea level using the actual temperature.
+
+2. The instrument that gives a continuous printed reading and record of the atmospheric pressure is:
+a. barometer
+b. hygrometer
+c. anemograph
+*d. barograph
+Explanation: A barograph draws a continuous trace of pressure on a chart. A barometer only shows the pressure at the moment, a hygrometer measures humidity, and an anemograph records wind speed and direction.
+
+3. The pressure of the atmosphere:
+a. decreases at an increasing rate as height increases
+b. decreases at a constant rate as height increases
+*c. decreases at a decreasing rate as height increases
+d. decreases at a constant rate up to the tropopause and then remains constant
+Explanation: Air is densest near the ground, so pressure drops fastest there (about 1 hPa per 30 ft). Higher up the air is thinner and the drop per 1000 ft gets smaller. So the pressure keeps falling, but more and more slowly.
+
+4. When considering the actual tropopause which statement is correct?
+*a. It is low over the poles and high over the Equator
+b. It is high over the poles and low over the Equator
+c. It is the same height of 36 090 ft all over the world
+d. It is at a constant altitude of 26 000 ft
+Explanation: The tropopause is about 16 km over the equator and about 8 km over the poles. The figure of 36 090 ft (11 km) is only the ISA value, which is a mid-latitude average.
+
+5. Atmospheric pressure may be defined as:
+a. the weight of the atmosphere exerted on any surface with which it is in contact
+b. the weight of the atmosphere at standard sea level
+*c. the force per unit area exerted by the atmosphere on any surface with which it is in contact
+d. a pressure exerted by the atmosphere of 1013.2 hPa
+Explanation: Pressure is always force divided by area. Option A says only "weight", which is a force and not a pressure, because it leaves out "per unit area".
+
+6. The QFF is the atmospheric pressure:
+a. at the place where the reading is taken
+b. corrected for temperature difference from standard and adjusted to MSL assuming standard atmospheric conditions exist
+*c. at a place where the reading is taken corrected to MSL taking into account the prevailing temperature conditions
+d. as measured by a barometer at the aerodrome reference point
+Explanation: QFF is the station pressure reduced to mean sea level using the actual (prevailing) temperature conditions. This is what is used to draw the isobars on surface weather charts. QNH uses ISA temperatures instead.
+
+7. The pressure of 1013 hPa is known as:
+*a. standard pressure setting
+b. QNH
+c. QFE
+d. QFF
+Explanation: 1013.25 hPa is the ISA mean sea level pressure. When it is set on the altimeter subscale, the altimeter shows pressure altitude, which is what we use for flight levels above the transition altitude.
+
+8. The aircraft altimeter will read zero at aerodrome level with which pressure setting set on the altimeter subscale:
+a. QFF
+b. QNH
+c. SPS
+*d. QFE
+Explanation: With QFE set, the altimeter shows height above the aerodrome, so it reads zero on the ground. With QNH set it shows altitude, which on the ground is the aerodrome elevation.
+
+9. The aerodrome QFE is:
+a. the reading on the altimeter on an aerodrome when the aerodrome barometric pressure is set on the subscale
+b. the reading on the altimeter on touchdown at an aerodrome when 1013 is set on the subscale
+c. the reading on the altimeter on an aerodrome when the sea level barometric pressure is set on the subscale
+*d. the aerodrome barometric pressure
+Explanation: QFE is the actual barometric pressure at the aerodrome, as a pressure value in hPa. Option A describes what the altimeter reads once QFE is set (zero), not what QFE itself is.
+
+10. When an altimeter subscale is set to the aerodrome QFE, the altimeter reads:
+a. the elevation of the aerodrome at the aerodrome reference point
+*b. zero at the aerodrome reference point
+c. the pressure altitude at the aerodrome reference point
+d. the appropriate altitude of the aircraft
+Explanation: Setting QFE tells the altimeter that the aerodrome is the zero level. So it reads zero at the aerodrome reference point, and in the air it shows height above the aerodrome. Elevation is what you see with QNH set.
+
+11. The aerodrome QNH is the aerodrome barometric pressure:
+*a. corrected to mean sea level assuming standard atmospheric conditions exist
+b. corrected to mean sea level, assuming isothermal conditions exist
+c. corrected for temperature and adjusted to MSL assuming standard atmosphere conditions exist
+d. corrected to MSL using ambient temperature
+Explanation: QNH is the aerodrome pressure reduced to sea level using the ISA temperature profile. It does not use the actual temperature, which is the difference from QFF. With QNH set, the altimeter reads altitude above mean sea level (the aerodrome elevation on the ground).
+
+12. A line drawn on a chart joining places having the same barometric pressure at the same level and at the same time is:
+a. an isotherm
+b. an isallobar
+c. a contour
+*d. an isobar
+Explanation: An isobar joins equal pressure. An isotherm joins equal temperature, a contour joins equal height, and an isallobar joins equal pressure change over time.
+
+13. An isobar on a meteorological chart joins all places having the same:
+a. QFE
+*b. QFF
+c. QNH
+d. standard pressure
+Explanation: Surface charts show isobars of QFF, which is pressure reduced to mean sea level with the actual temperature. That puts all stations on a common level so the pressure patterns (highs, lows and fronts) can be compared fairly.
+
+14. Pressure will _________ with increase of height and will be about __________ at 10 000 ft and ___________ at 30 000 ft.
+a. Increase, 800 hPa, 400 hPa
+*b. Decrease, 700 hPa, 300 hPa
+c. Increase, 200 hPa, 800 hPa
+d. Decrease, 500 hPa, 200 hPa
+Explanation: Pressure always decreases with height. Learn these pairs: 850 hPa is about 5000 ft, 700 hPa is about 10 000 ft, 500 hPa is about 18 000 ft, 300 hPa is about 30 000 ft and 200 hPa is about 39 000 ft.
+
+15. An airfield in England is 100 m above sea level, QFF is 1030 hPa, temperature at the surface is -15°C. What is the value of QNH?
+a. Impossible to determine
+*b. Less than 1030 hPa
+c. Same as QFF
+d. More than 1030 hPa
+Explanation: QFF is reduced to sea level with the actual temperature (-15°C, cold and dense air). QNH is reduced with the ISA temperature (+15°C, warmer and lighter). Cold air adds more pressure over the 100 m than ISA air does, so QFF is higher than QNH. So in cold air QNH is less than QFF, and in warm air it is the other way round.
+`);
