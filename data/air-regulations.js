@@ -231,7 +231,193 @@ c. Ministry of Civil Aviation
 d. ICAO
 Explanation: Provision of aeronautical information services, including publication of the AIP and NOTAMs, is a function of AAI.
 `);
+registerChapterText("air-regulations", "rk-bali-intl-orgs-conventions", "International Organisations & Conventions (RK Bali)", `
+1. Which of the following is obligating for members of ICAO?
+a. ICAO shall approve the pricing of tickets on international airline connections
+b. ICAO must be informed about changes in the national regulations
+*c. ICAO must be informed about differences from the standards in any of the Annexes to the convention
+Explanation: Under Article 38 of the Chicago Convention, a state that cannot comply with an ICAO Standard must notify ICAO of the difference. ICAO does not control ticket prices.
 
+2. For aircraft flying over the high seas, which rules shall be in force?
+a. The rules established by the state of the operator of the aircraft
+b. The rules established by the state(s) adjacent to the high seas over flown
+*c. The rules established under the Convention of international civil aviation
+Explanation: Under Article 12 of the Chicago Convention, over the high seas the rules in force are those established under the Convention (the ICAO rules). No single state's rules apply there.
+
+3. Annex 14 to the convention on international civil aviation contains SARPS for:
+a. Air Traffic Services
+*b. Aerodromes
+c. Facilitation
+Explanation: Annex 14 is Aerodromes. Air Traffic Services is Annex 11 and Facilitation is Annex 9.
+
+4. The Warsaw convention and later amendments deals with:
+*a. limitation of the operator's responsibility vis-a-vis passengers and goods transported
+b. operator's license for international scheduled aviation
+c. the security system at airports
+Explanation: The Warsaw Convention (1929) sets out the liability of air carriers, and limits it, for passengers, baggage and cargo in international carriage.
+
+5. Annex 17 to the Convention of Chicago covers:
+a. Aerodromes
+*b. Security
+c. Facilitations
+Explanation: Annex 17 is Security (safeguarding civil aviation against unlawful interference). Aerodromes is Annex 14 and Facilitation is Annex 9.
+
+6. The State has to notify the Council of ICAO and publish such differences in the national AIP. If a state finds that it is impracticable to comply with an International Standard:
+a. It shall give 45 days notice to ICAO of the differences between its own practices and the International Standard
+*b. It shall give 60 days notice to ICAO of the differences between its own practices and the International Standard
+c. It shall give immediate notice to ICAO of the differences between its own practices and the International Standard
+Explanation: The book's answer is 60 days. Note that Article 38 itself speaks of immediate notification of differences, and the 60-day period applies to notifying the Council after an amendment to a Standard is adopted. Learn B for the exam, but know both.
+
+7. The international convention defining rules relative to the responsibilities of international air carriers for the carriage of passengers, baggage and freight is the:
+a. Hague Convention
+*b. Warsaw Convention
+c. Tokyo Convention
+Explanation: The Warsaw Convention covers carrier liability. The Hague Convention is about unlawful seizure (hijacking) of aircraft, and the Tokyo Convention is about offences on board.
+
+8. The 'Standards' contained in the Annexes to the Chicago convention are to be considered:
+*a. binding for the member states that have not notified ICAO about a national difference
+b. advice and guidance for the aviation legislation within the member states
+c. binding for all air line companies with international traffic
+Explanation: Standards are binding on every member state unless that state has filed a difference with ICAO. Recommended Practices are the ones that are only advice.
+
+9. An aircraft flying over the territory of another state must:
+a. Follow the rules of the Air of the State it is over flying, provided they follow ICAO rules
+b. Follow the rules of the Air of the State of the Operator, if registered in other State
+*c. Follow the rules of the Air of the State of Registration to the extent that they do not conflict with the rules published by the State having jurisdiction over the territory overflown
+Explanation: Rules of the overflown state take priority (Articles 11 and 12). The rules of the state of registration apply only where they do not conflict with those.
+
+10. An airplane is planning a flight that will require a technical landing in a neighboring state. Which freedom of the air will be exercised?
+a. 3rd freedom
+b. 4th freedom
+*c. 2nd freedom
+Explanation: The 2nd freedom is the right to land for a technical stop (for example refuelling) without picking up or setting down traffic. The 3rd and 4th freedoms involve carrying traffic.
+
+11. The convention of Tokyo applies to damage:
+*a. caused in the territory of a contracting state or in a ship or aircraft registered therein, by an aircraft registered in the territory of another contracting state
+b. only caused in the territory of a contracting state by any aircraft registered in the territory of another contracting state
+c. caused in the territory of a contracting state by any aircraft regardless the registration
+Explanation: The book's answer is A. Note that this wording actually describes the Rome Convention (surface damage by foreign aircraft). The real Tokyo Convention (1963) is about offences committed on board aircraft. Pick A for the exam.
+
+12. The International Civil Aviation Organisation (ICAO) was established by the international convention of:
+a. Warsaw
+*b. Chicago
+c. Montreal
+Explanation: ICAO was created by the Chicago Convention of 1944, which came into force in 1947. It is headquartered in Montreal, but the convention is the Chicago one.
+
+13. The Rome Convention and later amendments deals with:
+*a. Damage caused by foreign aircraft to third parties on the surface
+b. offences and certain other acts committed on board aircraft
+c. Regulation of transportation of dangerous goods
+Explanation: The Rome Convention covers compensation for damage that foreign aircraft cause to people and property on the ground. Offences on board are Tokyo, and dangerous goods are Annex 18.
+
+14. The convention on offences and certain acts committed on board aircraft, is:
+a. the convention of Rome
+*b. the convention of Tokyo
+c. the convention of Chicago
+Explanation: The Tokyo Convention (1963) deals with offences and certain other acts committed on board aircraft.
+
+15. The aircraft commander, when he has reasonable grounds to believe that a person has committed or is about to commit, on board the aircraft, an offense against penal law:
+a. may not require or authorise the assistance of other crew members
+b. may require the assistance of passengers to restrain such persons
+*c. may deliver such person to the competent authorities
+Explanation: Under the Tokyo Convention the commander may restrain the person, may require or authorise help from other crew, and may only request (not require) help from passengers. He may also deliver the person to the competent authorities.
+
+16. If a person is injured by a part falling from an aircraft flying over the state but registered in another state, which convention covers this?
+a. Paris
+b. Chicago
+*c. Rome
+Explanation: Injury on the ground caused by a foreign aircraft, or by things falling from it, is covered by the Rome Convention.
+
+17. India is a signatory to the International Air Transport Agreement, 1944?
+a. Yes
+b. Yes, but it does not subscribe to Technical Freedoms
+*c. No
+Explanation: The book's answer is No. The International Air Transport Agreement (the "Five Freedoms Agreement") was signed by only a few states and India is not among them. Do not confuse it with the Chicago Convention, which India has signed.
+
+18. The convention signed by the states and moved by a desire to ensure adequate compensation for persons who suffer damage caused on the surface by foreign aircraft is:
+a. the Paris Convention
+*b. the Rome Convention
+c. the Warsaw Convention
+Explanation: Compensation for surface damage caused by foreign aircraft is the Rome Convention (1952). Paris (1919) is the early convention on air navigation, and Warsaw is carrier liability.
+
+19. Which Annex to the Chicago Convention covers dangerous goods carried in aircraft?
+a. Annex 16
+*b. Annex 18
+c. Annex 17
+Explanation: Annex 18 is the Safe Transport of Dangerous Goods by Air. Annex 16 is Environmental Protection and Annex 17 is Security.
+
+20. Proposal to give effect to an International Convention in India is initiated by:
+a. Ministry of Civil Aviation
+b. Parliament
+*c. DGCA
+Explanation: The book's answer is DGCA. Remember it as: the regulator starts the proposal, and the Ministry and Parliament then take it forward.
+
+21. If an Air India provides an aeroplane and complete crew for lease to Indian Air Force (a wet lease-out situation), who is the operator of the aeroplane?
+a. Air India - provided they carry civil load only
+*b. Air India - because it is their crew flying the aero plane
+c. Indian Air Force - provided they absolve Air India of any responsibility in the manner in which the aeroplane is operated
+Explanation: In a wet lease the aircraft comes with its own crew, so the lessor (Air India) stays the operator. In a dry lease, the lessee's crew fly it and the lessee becomes the operator.
+
+22. What flights are protected by the Prevention of Terrorism Act?
+*a. All flights
+b. Private flights only
+c. Military flights only
+Explanation: The book's answer is all flights. This is an older question, because the Prevention of Terrorism Act itself was repealed in 2004.
+
+23. The second freedom of the air is the:
+a. right to operate a commercial passenger flight with passengers on board between two states
+*b. right to land for a technical stop
+c. right to "cabotage" traffic, (trans-border traffic)
+Explanation: The 2nd freedom is the technical stop (non-traffic landing). Cabotage is carrying traffic between two points inside a foreign state, which is the 8th and 9th freedoms.
+
+24. Which convention makes acts of violence on board, destruction of aircraft in flight and destroying or damaging any air navigation facility punishable?
+a. The Tokyo convention
+*b. The Montreal convention
+c. The Warsaw convention
+Explanation: This is the Montreal Convention of 1971, on the suppression of unlawful acts against the safety of civil aviation. Do not confuse it with the Montreal Convention of 1999, which is about carrier liability.
+
+25. According to which Convention may an aircraft commander impose measures upon a person committing a crime or an offence on board the aircraft?
+a. The Convention of Rome
+b. The Convention of Warsaw
+*c. The Convention of Tokyo
+Explanation: The Tokyo Convention (1963) gives the aircraft commander the power to impose reasonable measures, including restraint, on a person committing an offence on board.
+
+26. 'Cabotage' refers to:
+*a. domestic air services
+b. a national air carrier
+c. crop spraying
+Explanation: Cabotage is carriage of passengers or cargo between two points within the same state, which means domestic services. A state normally reserves cabotage for its own airlines.
+
+27. In case of a conflict between ICAO regulations and national regulations, which one takes precedence?
+a. ICAO regulations are always binding for all member states in the interest of uniformity.
+*b. ICAO regulations for the member states that have not notified ICAO about a national difference with in a specified period.
+c. National regulations always take precedence over ICAO regulations.
+Explanation: A state can file a difference with ICAO. If it has not done so within the specified period, the ICAO Standard binds it and takes precedence. So it is neither "always ICAO" nor "always national".
+
+28. Which convention is considered to be a fore runner of Chicago Convention, 1944?
+a. Warsaw Convention, 1929
+*b. Paris Convention, 1919
+c. Ibero-American Convention, 1926
+Explanation: The Paris Convention of 1919 was the first treaty regulating air navigation and is the forerunner of the Chicago Convention. Warsaw 1929 is about carrier liability.
+
+29. ICAO is:
+*a. An independent and autonomous agency, with a constituency status in the UNO
+b. A part and parcel of UNO as a non specialised agency
+c. Not associated with UNO at all
+Explanation: ICAO is a specialised agency linked to the United Nations by agreement, but it is legally independent and was created by its own treaty, the Chicago Convention.
+
+30. What is the denunciation notice period for the Montreal Convention, 1999 (Air carrier liability)?
+*a. 90 days notice
+b. 6 months notice
+c. 12 months notice
+Explanation: The book's answer is 90 days, but be aware that the text of Article 54 of the Montreal Convention 1999 says denunciation takes effect 180 days after notice (about 6 months, option B). If your instructor confirms 180 days, move the * to option B.
+
+31. A State Party may denounce (withdraw from) the Tokyo Convention, 1963 by informing:
+*a. ICAO only
+b. ICAO and member states
+c. ICAO, member states and national aviation regulator
+Explanation: Under the Tokyo Convention, denunciation is done by notifying ICAO (the Secretary General). It takes effect six months after ICAO receives the notice.
+`);
 /* ============================================================
    AIR REGULATIONS QUESTION BANK - Rules of the Air, Signals, ATC & Flight Plans
    Format matches js/parser.js (registerSubject / registerChapterText)
@@ -239,8 +425,98 @@ Explanation: Provision of aeronautical information services, including publicati
    NOTE: registerSubject("air-regulations", ...) already exists in your
    main file, so only registerChapterText is called here.
    ============================================================ */
+registerChapterText("air-regulations", "rk-bali-nationality-registration-marks", "Aircraft Nationality and Registration Marks (RK Bali)", `
+1. The registration mark shall be letters, numbers or a combination of letters and numbers and shall be that assigned by:
+a. The International Telecommunication Union
+*b. The state of registry or common mark registering authority
+c. The state of registry only
+Explanation: Under ICAO Annex 7, the registration mark is assigned by the state of registry or by the common mark registering authority. Option C is wrong because "only" leaves out the common mark registering authority. The ITU does not assign registration marks.
 
-registerChapterText("air-regulations", "rules-of-the-air", "Rules of the Air", `
+2. The common mark shall be selected from the series of symbols included in the radio call signs allocated:
+a. To state of the operator
+*b. To the International Civil Aviation Organisation by the International Telecommunication Union
+c. To the state of registry by the International Civil Aviation Organisation
+Explanation: The ITU allocates a series of call sign symbols to ICAO, and the common mark is selected from that series. It is not taken from a state's own nationality allocation.
+
+3. The assignment of the common mark to a common mark registration authority will be made by:
+*a. The International Civil Aviation Organisation
+b. The state of registry
+c. The International Telecommunication Union
+Explanation: ICAO decides which authority registers aircraft under the common mark. The ITU only provides the series of symbols, and an individual state of registry cannot give itself the common mark.
+
+4. When letters are used for the registration mark combinations shall not be used which might be confused with urgent or distress signals for example:
+*a. XXX
+b. RCC
+c. DDD
+Explanation: XXX is the urgency signal (the Morse group for "PAN PAN"), so it cannot be used as a registration mark. RCC and DDD are not signals. Other combinations to avoid include SOS, PAN and TTT.
+
+5. When letters are used for the registration mark combinations shall not be used which might be confused with:
+a. Three letter combinations used in the international code of signals
+b. Four letter combinations beginning with Q
+*c. Five letter combinations used in the international code of signals
+Explanation: Registration marks must not be confused with the five-letter combinations of the International Code of Signals. Options A and B give the wrong number of letters, because the Q code is a three-letter group.
+
+6. The height of the marks on the fuselage (or equivalent structure) and on the vertical tail surfaces of heavier than air aircraft shall be:
+a. At least 20 centimetres
+b. At least 40 centimetres
+*c. At least 30 centimetres
+Explanation: Annex 7 sets a minimum of 30 cm for marks on the fuselage or equivalent structure and on the vertical tail surfaces. Learn it as: fuselage and tail 30 cm, under the wings 50 cm.
+
+7. The height of the marks on lighter than air aircraft other than unmanned free balloons shall be at least:
+a. 60 centimetres
+*b. 50 centimetres
+c. 1 meter
+Explanation: Lighter-than-air aircraft (airships and similar) need marks at least 50 cm high. 60 cm and 1 m are not the Annex 7 figures.
+
+8. When letters are used for registration mark combinations shall not be used which might be confused with urgent signals for example:
+a. LLL
+*b. PAN
+c. RCC
+Explanation: PAN is the urgency signal sent by radio ("PAN PAN"), so PAN cannot be used in a registration mark. LLL and RCC are not urgency signals.
+
+9. When letters are used for registration mark combinations shall not be used which might be confused with urgent signals for example:
+a. LLL
+*b. TTT
+c. RCC
+Explanation: TTT is the safety signal (the Morse group for "SECURITE"), so it is another group that cannot be used in a registration mark. Same stem as question 8, but with a different set of options.
+
+10. The height of the marks under the wings of heavier than air aircraft shall be at least:
+*a. 50 centimetres
+b. Between 40 and 50 centimetres
+c. 60 centimetres
+Explanation: The marks under the wings must be at least 50 cm high (the fuselage and tail marks are 30 cm). "Between 40 and 50" is wrong because the figure is a minimum of 50.
+
+11. A certificate of registration is valid from the date of registration to:
+a. 1 year
+b. Till the aircraft is destroyed in an accident
+*c. Till it is cancelled by DGCA
+Explanation: The certificate of registration has no fixed term. It stays valid until it is cancelled by the DGCA (the registering authority). This is different from the Airworthiness Review Certificate, which is valid for one year.
+
+12. Nationality marks alloted to India by ITU are:
+a. Letters VT and VW, both included
+b. Letters VT only
+*c. Letters AT to AW
+Explanation: The book's answer is AT to AW. The ITU actually allots India more than one block (AT to AW, VT to VW and 8T to 8Y), but this is the answer the question wants. Pick C for the exam.
+
+13. Nationality marks used in India are:
+*a. Letters VT, VU and U
+b. Letters VT and VU only
+c. Letters AT to AW
+Explanation: The book's answer is A. Learn it for the exam, but in practice Indian civil aircraft are registered with the nationality mark VT, for example VT-ABC.
+
+14. Who exercises operational control over the leased aircraft?
+a. Lessor
+*b. Lessee
+c. IFSC
+Explanation: In a lease the lessee, who actually operates the aircraft, has operational control. The lessor only owns it. In a wet lease the lessor's crew fly the aircraft, so the lessor stays the operator.
+
+15. A company undertaking to lease aircraft in India must be approved by:
+a. DGCA
+*b. IFSCA
+c. MOCA
+Explanation: The book's answer is IFSCA, the International Financial Services Centres Authority. It regulates aircraft leasing companies set up in the IFSC (GIFT City). Do not pick DGCA, which regulates safety and airworthiness.
+`);
+registerChapterText("air-regulations", "rules-of-the-air", "Rules of the Air (RK Bali)", `
 1. Where State has not established minimum IFR altitudes, the minimum height of an aircraft above the highest obstacle over high terrain, or in mountainous areas shall be for an IFR flight:
 *a. At least 2000ft within 8 km of the estimated position
 b. At least 1000ft within 8 km of the estimated position
@@ -886,6 +1162,336 @@ b. (+) 60 minutes of EOBT in RPL/FPL.
 *c. (-) 15 minutes to (+) 3 hours of EOBT.
 Explanation: For non-scheduled domestic flights, the ADC validity window extends from 15 minutes before to 3 hours after the EOBT.
 `);
+
+registerChapterText("air-regulations", "separation-methods-and-minima", "Separation Methods and Minima (RK Bali)", `
+1. An aircraft is maintaining FL 150 within airspace class D. Another aircraft below at FL 140 is receiving a clearance to descend to FL 70. It is severe turbulence in the area. When is the earliest that a clearance to descend to FL 140 or below can be expected?
+a. When the other aircraft has reported that it has left FL 140.
+b. When the other aircraft has reported that it has reached FL 70.
+*c. When the other aircraft has reported that it has descended through FL 130.
+Explanation: The upper aircraft must stay 1000 ft above the lower one, so it can go to FL 140 only after the lower aircraft reports passing through FL 130. "Left FL 140" leaves no 1000 ft margin, which is risky in severe turbulence, and waiting for FL 70 is the latest time, not the earliest.
+
+2. The longitudinal separation minima between aircraft departed from the same aerodrome and following the same track, and the preceding aircraft is maintaining a true airspeed of 20kt or more faster than the succeeding aircraft, is:
+*a. 5 minutes.
+b. 3 minutes.
+c. 2 minutes.
+Explanation: The faster the leading aircraft, the quicker the gap grows, so less time separation is needed. A lead of 20 kt or more gives 5 minutes, and a lead of 40 kt or more gives 3 minutes. Memory aid: 20 kt is 5 min, 40 kt is 3 min.
+
+3. The longitudinal separation minima based on time between aircraft at same cruising level where navigation aids permit frequent determination of position and speed and the preceeding aircraft is maintaining a true airspeed of 40kt or more faster than the succeeding aircraft, is:
+a. 5 minutes.
+*b. 3 minutes.
+c. 10 minutes.
+Explanation: At the same level with frequent position checks the base time is 10 minutes. It reduces to 5 minutes if the leader is 20 kt or more faster and to 3 minutes if it is 40 kt or more faster.
+
+4. The longitudinal separation minima based on time between aircraft at same cruising level where navigation aids permit frequent determination of position and speed and the preceeding aircraft is maintaining a true airspeed of 20kt or more faster than the succeeding aircraft, is:
+a. 15 minutes
+b. 10 minutes
+*c. 5 minutes
+Explanation: Same level with frequent position checks starts at 10 minutes, and a leader that is 20 kt or more faster cuts it to 5 minutes. Fifteen minutes is the figure when frequent position checks are not possible.
+
+5. The longitudinal separation minima based on time between aircraft at same cruising level where navigation aids permit frequent determination of position and speed, is:
+*a. 10 minutes.
+b. 3 minutes.
+c. 15 minutes.
+Explanation: Where navaids allow frequent checks of position and speed, the basic minimum is 10 minutes. Without such checks it is 15 minutes. The 3 minute figure applies only when the leader is 40 kt or more faster.
+
+6. The longitudinal separation minima between aircraft departed from the same aerodrome and following the same track, and the preceding aircraft is maintaining a true airspeed of 40kt or more faster than the succeeding aircraft, is:
+a. 10 minutes.
+b. 8 minutes.
+*c. 3 minutes.
+Explanation: For aircraft departing from the same aerodrome on the same track, a leader that is 40 kt or more faster needs only 3 minutes. If it is only 20 kt faster the figure is 5 minutes (see Q2). Memory aid: 40 kt is 3 min.
+
+7. The longitudinal separation minima based on distance using DME, and each aircraft "on track" uses DME stations, is:
+a. 10NM
+*b. 20NM
+c. 5NM
+Explanation: The basic DME distance minimum between aircraft at the same level and track is 20 NM. It can be reduced to 10 NM if the leader is 20 kt or more faster (see Q30).
+
+8. When an aircraft will pass through the level of another aircraft on the same track, the following minimum longitudinal separation shall be provided:
+a. 5 minutes at the time the level is crossed.
+*b. 15 minutes at the time the level is crossed.
+c. 10 minutes at the time the level is crossed.
+Explanation: When one aircraft climbs or descends through the level of another on the same track, there is no vertical separation at the crossing, so 15 minutes longitudinal separation is needed at that moment. Memory aid: crossing a level, 15 minutes.
+
+9. "ESSENTIAL TRAFFIC" is that controlled flight to which the provision of separation by ATC is applicable, but which, in relation to a particular controlled flight is not separated therefore by the appropriate separation minima. Whenever separation minima is not applied. The following flights are considered essential traffic one to each other.
+*a. All IFR flights in controlled airspace and controlled VFR.
+b. Only controlled IFR flights.
+c. Controlled VFR flights and VFR flights.
+Explanation: Essential traffic is a controlled flight that ATC should separate from you but is not separated by the minimum, so ATC must pass traffic information. This covers all controlled IFR flights and controlled VFR flights. Uncontrolled VFR flights are not controlled, so they are not essential traffic.
+
+10. Above FL 290 the vertical flight separation between aircraft on the same direction is:
+a. 2000ft.
+*b. 4000ft.
+c. 3000ft.
+Explanation: Without RVSM, levels above FL 290 are 2000 ft apart and same-direction aircraft use every second level, so same-direction separation is 4000 ft (for example FL 290, 330, 370). Opposite-direction traffic is 2000 ft apart.
+
+11. Track separation between aircraft using the same NDB shall be applied requiring the aircraft to fly:
+*a. At least 30° separated at a distance of 15NM or more from the facility.
+b. At least 45° separated at a distance of 15NM or more from the facility.
+c. At least 30° separated at a distance of 15 miles or more from the facility.
+Explanation: NDB track separation needs at least 30° between tracks at 15 NM or more from the NDB. Memory aid: VOR is 15°, NDB is 30°, dead reckoning is 45°, all at 15 NM. Option c says "miles" instead of NM, and option b has the wrong angle.
+
+12. Two aircraft flying at FL 170 using GNSS are confirmed to be established on tracks separated by 120 degrees with zero offset between two waypoints. At least one aircraft is to be at a minimum distance _____ NMs from a common point for separation.
+a. 5
+b. 10
+*c. 15
+Explanation: Tracks that diverge by well over the minimum angle (120° here) are treated like the VOR rule, so at least one aircraft must be 15 NM or more from the common point before the tracks count as separated.
+
+13. If an ATC clearance is not suitable to the pilot in command of an aircraft:
+a. He may request another clearance and the ATC concerned has to accept the pilot request.
+*b. He may request and, if practicable, obtain an amended clearance.
+c. The pilot has to accept the ATC clearance because it has been based on the flightplan filed with ATC.
+Explanation: A pilot may ask for an amended clearance, but ATC can give it only if traffic allows ("if practicable"), so it is not guaranteed. Option a is wrong because ATC does not have to accept, and option c is wrong because the pilot is allowed to ask.
+
+14. The "VMC and own separation" ATC clearance is used for a controlled flight to cross the level of another controlled flight when:
+a. Requested by the pilot in airspace classes A and B and authorised by ATC.
+*b. Requested by the pilot, during the day light and authorized by the state overflown.
+c. Requested by the pilot and authorized by the state overflown.
+Explanation: VMC own separation needs three things: the pilot requests it, it is daylight, and the state overflown authorises it. Option c leaves out daylight, and option a names airspace classes instead of these conditions.
+
+15. A/c on same level converging track has separation
+*a. 15min
+b. 10min
+c. 5min
+Explanation: Aircraft at the same level on converging tracks need 15 minutes by default. It is reduced to 10 minutes only where navaids allow frequent position and speed checks (see Q5).
+
+16. What are the controlled IFR separation methods applied by ATC?
+*a. Vertical, horizontal and composite separation.
+b. Time separation and track separation.
+c. Composite separation.
+Explanation: ATC separates controlled IFR traffic by vertical, horizontal (lateral or longitudinal) or composite separation. Time and track separation are only types of horizontal separation, not the main methods.
+
+17. The vertical IFR separation minimum being applied by ATC within a controlled airspace below FL 290 is:
+a. 500ft (150m).
+b. 2000ft (600m).
+*c. 1000ft (300m).
+Explanation: Up to and including FL 290 the standard vertical minimum is 1000 ft (300 m). The 2000 ft figure is the non-RVSM minimum above FL 290.
+
+18. The vertical IFR separation minimum being applied by ATC within a controlled airspace above FL 290 is:
+a. 500ft (150m).
+*b. 2000ft (600m).
+c. 1000ft (300m).
+Explanation: Above FL 290 the standard minimum doubles to 2000 ft because altimeters are less accurate at height. Only in RVSM airspace (FL 290 to FL 410) is it 1000 ft, and unless the question says RVSM you use 2000 ft.
+
+19. Longitudinal separation minima based on distance using DME for aircraft at the same cruising level and track, provided that each aircraft utilizes "on Track" DME stations and separation is checked by obtaining simultaneous DME readings, is:
+*a. 20NM
+b. 25NM
+c. 40NM
+Explanation: The basic DME distance minimum for same level and same track is 20 NM, checked with simultaneous DME readings from the two aircraft. It can be reduced to 10 NM when the leader is 20 kt or more faster.
+
+20. A "RNAV" distance based separation minimum may be used at the time the level is crossed, provided that each aircraft reports its distance to or from the same "on track"way-point. This minimum is:
+a. 20NM
+*b. 80NM
+c. 60NM
+Explanation: Book answer is 80 NM for RNAV distance-based separation at the time of level crossing. Memory aid: DME at the same level is 20 NM, but RNAV at a level crossing is the larger 80 NM.
+
+21. A VFR flight constitutes essential traffic to other VFR flights, when operating in controlled airspace classified as:
+*a. B
+b. B, C, D and E
+c. B and C
+Explanation: Essential traffic exists only where ATC is supposed to separate the flights. VFR flights are separated from each other only in class B. In C, D and E VFR flights get traffic information only, so they are not essential traffic to each other.
+
+22. RCP 120 is the number of :
+a. Transmissions loaded on aircraft FMS for data link exchange.
+b. Minutes required to divert to a suitable aerodrome under ETOP conditions.
+*c. Seconds it takes for an instruction to travel from the ground to aircraft and acknowledgment back to the ground.
+Explanation: RCP is Required Communication Performance, and the number is the time in seconds for the whole loop: instruction sent, received by the crew, and acknowledged back on the ground. RCP 120 means 120 seconds. It has nothing to do with ETOPS diversion time.
+
+23. Vertical or horizontal separation shall be provided between:
+a. All flights in class A, B and C airspaces.
+*b. All flights in class A and B airspaces.
+c. All flights in class B, C and D airspaces.
+Explanation: ATC separates all flights (IFR and VFR) from each other only in classes A and B. In C and D, VFR flights are not separated from other VFR flights, so options a and c are wrong.
+
+24. The separation method whereby the vertical and horizontal separation may be reduced till a maximum of half the standard criteria is called:
+*a. Composite separation.
+b. Reduced separation.
+c. Combined separation.
+Explanation: Composite separation is a mix of vertical and horizontal separation where each part may be cut to as little as half its normal value. Reduced and combined separation are not the official names.
+
+25. ADS-B ground station is more than 110 NMs from two aircraft at same level. Only ADS-B is being used for separation in non radar environment. The minimum safe distance between these aircraft is _____ NMs.
+*a. 10
+b. 5
+c. 3
+Explanation: Surveillance becomes less reliable far from the ground station, so beyond 110 NM the larger minimum of 10 NM is used. The smaller figures of 5 NM and 3 NM apply only with better coverage.
+
+26. Cruising level IFR during cruise within controlled airspace shall be given as flight level (FL)
+*a. Above the transition altitude when applicable.
+b. Only in airspace class A.
+c. If the obstacle clearance is more than 2000ft.
+Explanation: Above the transition altitude, vertical position is given as a flight level (pressure 1013.25 hPa), and below it as an altitude on QNH. It has nothing to do with the airspace class or with obstacle clearance.
+
+27. Aircraft flying along the same track may be separated by DME-distances from the same DME and it is confirmed that the aircraft have passed each other. Specify the shortest difference in DME-distance to make it possible for one aircraft to climb or descend
+*a. 10NM
+b. 12NM
+c. 15NM
+Explanation: Once the two aircraft are confirmed to have passed each other, one may climb or descend through the other's level when their DME readings from the same station differ by at least 10 NM.
+
+28. Track separation between aircraft using the same VOR shall be applied requiring the aircraft to fly:
+a. At least 15° separated at a distance of 15 miles or more from the facility.
+*b. At least 15° separated at a distance of 15NM or more from the facility.
+c. At least 30° separated at a distance of 15NM or more from the facility.
+Explanation: VOR track separation needs tracks at least 15° apart at 15 NM or more from the VOR. Memory aid: VOR 15°, NDB 30°, dead reckoning 45°. Option a says "miles" and option c is the NDB angle.
+
+29. ATC clearances are solely issued for:
+a. Alerting pilots about other aircraft in close vicinity.
+b. Making pilots follow laid down procedures.
+*c. Expediting and separating air traffic.
+Explanation: By the rules of the air, ATC clearances are issued only to expedite and separate air traffic. Alerting is the job of the alerting service, and procedures are not the purpose of a clearance.
+
+30. The longitudinal separation minima based on DME, and each aircraft "on track" uses DME stations, is:
+a. 10NM provided that the leading aircraft maintains a true airspeed of 40kt or more faster than the succeeding aircraft.
+*b. 10NM provided that the leading aircraft maintains a true airspeed of 20kt or more faster than the succeeding aircraft.
+c. 20NM provided that the leading aircraft maintains a true airspeed of 10kt or more faster than the succeeding aircraft.
+Explanation: The DME minimum is 20 NM, and it is reduced to 10 NM when the leading aircraft is at least 20 kt faster, because the gap grows by itself. Option a gives the wrong speed difference and option c keeps 20 NM with a speed margin that is too small.
+
+31. FMS/RNAV:
+*a. Can be used for conventional procedures only if AFM permits.
+b. Cannot be used for conventional procedures.
+c. Can be used for conventional procedures if permitted by DGCA.
+Explanation: Using FMS/RNAV to fly conventional (VOR/NDB) procedures is allowed only if the Aircraft Flight Manual (AFM) approves it for that aircraft. It is not banned outright (option b), and the approval comes from the AFM, not just a DGCA permission (option c).
+
+32. Longitudinal Separation Using Mach Number Technique (MNT) in oceanic or remote airspace is _______ if preceding aircraft is faster by at least _____.
+a. 10 minutes, 0.01 mach.
+*b. 9 minutes, 0.03 mach.
+c. 8 minutes, 0.05 mach.
+Explanation: Book key is 9 minutes when the preceding aircraft is faster by at least 0.03 Mach; the bigger the Mach lead, the shorter the time gap needed. NOTE: book key says b, but the PANS-ATM Mach number technique table that I know pairs 9 minutes with a smaller Mach difference, so check this against the current table.
+`);
+registerChapterText("air-regulations", "separation-in-the-vicinity-of-aerodromes", "Separation in the Vicinity of Aerodromes (RK Bali)", `
+1. If an arriving aircraft is making a straight in approach, a departing aircraft may take off in any direction
+*a. Until five minutes before the arriving aircraft is estimated to be over the instrument runway
+b. Until ten minutes before the arriving aircraft is estimated to be over the instrument runway
+c. Until two minutes before the arriving aircraft is estimated to be over the instrument runway
+Explanation: A departure may take off in any direction as long as it is airborne and clear at least 5 minutes before the arriving aircraft is estimated over the instrument runway. After that, the departure must take off in the same direction as the landing traffic so the two do not conflict. Memory aid: 5 minutes before the arrival, the freedom ends.
+
+2. For controlled traffic that shall be separated in the vicinity of an airport, separation minima may be reduced:
+a. At the discretion of the air traffic controller
+*b. When the commander in the following aircraft has the preceding aircraft in sight and is able to maintain own separation
+c. If the commander of the involved aircraft so requests
+Explanation: Separation minima near an aerodrome can be reduced when the pilot of the following aircraft reports the preceding aircraft in sight and accepts responsibility to keep his own separation. Option a is wrong because the controller cannot reduce minima at will, and option c is wrong because a request alone is not enough without having the other aircraft in sight.
+
+3. At the commencement of final approach, if the controller possesses wind information in the form of components, significant changes in the mean surface wind direction and speed shall be transmitted to aircraft. The mean tail-wind component significant change is:
+a. 3kt
+b. 4kt
+*c. 2kt
+Explanation: A tail wind is the most dangerous component on landing because it lengthens the ground run, so the limit for a significant change is the smallest. The limits are 2 kt for tail wind, 5 kt for cross wind and 10 kt for head wind. Memory aid: tail 2, cross 5, head 10.
+
+4. The EAT has to be transmitted to the pilot as soon as possible, in case the expected delay is:
+*a. 5 minutes or more
+b. 15 minutes or more
+c. 20 minutes
+Explanation: The book key is 5 minutes or more, so the pilot knows when to expect to leave the holding point and can plan fuel. NOTE: your Zenith notes give 5 minutes for a revised EAT (when it differs from the earlier one), and the PANS-ATM threshold for passing the first EAT is usually quoted as 10 minutes, so verify this against the current rule.
+
+5. A so called "Visual Approach" can be performed:
+a. During VFR flight, there should be a visibility of 5km or more
+b. During IFR flights, if the cloudbase is 1000ft more than the appropriate DA or MDA for that procedure
+*c. During IFR flights, if there is permanent sight on the movement area and the underlying ground
+Explanation: A visual approach is an IFR flight that continues the approach by visual reference to the ground instead of following the full instrument procedure. For this the pilot must keep the movement area and the underlying ground in sight all the time. It is not a VFR flight, and no fixed cloud base margin over DA or MDA defines it.
+
+6. "Time Approach Procedure" is used as necessary to expedite the approach of a number of arriving aircraft. This will be obtained requesting aircraft:
+a. To maintain a specified speed during the approach procedure
+*b. To pass the specified point inbound at the previously notified time
+c. To apply a step down descent between aircraft in the approach sequence
+Explanation: In a time approach procedure ATC gives each aircraft a time and the pilot must pass the specified fix inbound at that notified time. This spaces the aircraft by time, so ATC does not need a speed or a step-down descent instruction.
+
+7. During an arrival procedure under an IFR flight plan in VMC conditions, traffic avoidance is the responsibility of:
+a. The radar controller
+*b. The pilot in command
+c. The approach controller
+Explanation: In VMC the pilot can see other traffic, so the pilot in command remains responsible for avoiding collisions, even on an IFR flight plan. ATC gives clearances and information, but the final duty to see and avoid belongs to the pilot.
+
+8. If the crew on an arriving aircraft approaching a controlled aerodrome will report "field in sight", a clearance for "visual approach" may be given under certain conditions
+a. The meteorological visibility must not be less than 8km
+b. The approach must be passing the FAF
+*c. The air traffic controller will provide separation to other controlled traffic
+Explanation: When ATC clears a visual approach, the controller still separates that aircraft from the other controlled arriving and departing traffic. There is no fixed 8 km visibility rule, and the aircraft does not have to be at the FAF first.
+
+9. Which statement is correct? During a "visual approach" in controlled airspace (class C):
+*a. ATC will apply separation with other traffic
+b. The pilot has to apply separation with other traffic
+c. ATC will apply separation with other arriving traffic
+Explanation: In class C, ATC separates aircraft on a visual approach from other traffic, including arriving and departing aircraft, so option a is the full statement. Option c names only arriving traffic and so is too narrow, and option b would make the pilot responsible, which is not the case in class C.
+
+10. One minute separation may be used between departing aircraft if they are to fly on tracks diverging by at least:
+a. 30° immediately after take-off
+b. 15° immediately after take-off
+*c. 45° immediately after take-off
+Explanation: Departing aircraft can be released one minute apart only if their tracks diverge by at least 45° right after take-off, because they are then quickly away from each other's path. A smaller angle like 15° or 30° would leave them too close.
+`);
+registerChapterText("air-regulations", "procedures-for-aerodrome-control-service", "Procedures for Aerodrome Control Service (RK Bali)", `
+1. When instructed by ATC to hold short of Runway pilot should stop:
+a. With nose gear on hold line
+*b. So that no part of the A/c extends beyond hold line
+c. So that the Flt Deck Area of A/c is even with the hold line
+Explanation: "Hold short" means the whole aircraft must stay behind the holding position, so no part of it (nose, wing tip or tail) may cross the hold line, otherwise it can intrude on the runway. Memory aid: the hold line is a wall, and nothing crosses it.
+
+2. The following aircraft will be given priority to land:
+a. An aircraft with VVIP on board
+*b. An aircraft with critical shortage of fuel
+c. A scheduled aircraft
+Explanation: Aircraft in emergency or urgency, such as one with a critical shortage of fuel, always get priority because safety comes before convenience or status. VVIP and scheduled flights have no priority over an aircraft in distress.
+
+3. Apron is an area on aerodrome where following activities take place:
+a. Loading /unloading of passengers, mail and cargo only.
+b. Parking of aircraft only.
+*c. Loading/unloading of passengers, mail and cargo, fueling, parking or maintenance.
+Explanation: An apron is the defined area meant to accommodate aircraft for boarding, loading or unloading, refuelling, parking or maintenance, so option c covers all the uses. Options a and b are wrong because of the word "only".
+
+4. For safety reasons, a person should remain away from a jet engine by at least:
+a. 100'
+*b. 200'
+c. 300'
+Explanation: The book key gives 200 ft as the minimum safe distance from a jet engine, because of the danger from jet blast and the intake suction. Remember the figure as 200 ft.
+
+5. Movement area of an aerodrome constitutes the following
+a. Area including runways / taxiways excluding apron
+b. Area excluding taxiways but including runways and apron
+*c. Area including runways / taxiways / aprons
+Explanation: Movement area = manoeuvring area (runways and taxiways) + apron(s), so it includes runways, taxiways and aprons. Memory aid: movement area = manoeuvring area + apron.
+
+6. The maneuvering area of an airport is that area
+a. Normally referred to as the ramp or apron.
+*b. Used for taxiing, taking off and landing.
+c. Used when taxiing to and from the parking area.
+Explanation: The manoeuvring area is the part of the aerodrome used for take-off, landing and taxiing of aircraft, excluding aprons. Option a describes the apron, and option c describes only part of the use.
+
+7. An Aircraft shall report "long final" when it is at ____ from the approach end of the rwy
+*a. 8NMs
+b. 4NMs
+c. 1NMs
+Explanation: An aircraft making a straight-in approach reports "long final" at 8 NM, and then reports "final" at 4 NM. Memory aid: long final 8, final 4.
+
+8. What defines a controlled aerodrome?
+a. It must be located within a CTR.
+*b. It must have a control tower giving an ATC service.
+c. It must have a control tower and be in a CTR.
+Explanation: A controlled aerodrome is simply one where air traffic control service is provided to aerodrome traffic, so it needs a control tower giving ATC service. It does not have to be inside a CTR, which is why options a and c are wrong.
+
+9. Aerodrome traffic is considered to be:
+a. Aircraft on the movement area and flying in the vicinity.
+*b. Aircraft on the manoeuvring area and flying in the vicinity.
+c. Aircraft on the movement area only.
+Explanation: Aerodrome traffic means all traffic on the manoeuvring area of an aerodrome and all aircraft flying in its vicinity. Note it says manoeuvring area, not movement area, because the apron is not included.
+
+10. Aircraft shall not be held closer to a runway-in-use:
+*a. Than at a runway-holding position.
+b. Than at runway edge.
+c. Than at 40m from the runway edge.
+Explanation: Aircraft waiting to enter or cross the runway-in-use must be held at the runway-holding position and no closer, which keeps them clear of the protected runway area. Options b and c are not the standard holding distances.
+
+11. Friction Coefficient due to snow - in how many segments is runway divided based on friction level.:
+a. 1/2
+*b. 1/3
+c. 1/4
+Explanation: For snow or slush, the runway is divided into three equal parts, and the friction level is reported for each third, so each segment is 1/3 of the runway length. Memory aid: three thirds of the runway.
+
+12. Runway friction coefficient 0.20 means estimated surface friction:
+a. Good
+b. Medium to Good
+*c. Poor
+Explanation: Friction of 0.25 and below is classed as poor, so 0.20 is poor. Memory aid: 0.40 and above is good, and below 0.25 is poor.
+`);
+
+
 /* ============================================================
    AIR REGULATIONS QUESTION BANK
    Format matches js/parser.js (registerSubject / registerChapterText)
@@ -904,7 +1510,7 @@ Explanation: For non-scheduled domestic flights, the ADC validity window extends
 registerChapterText("air-regulations", "sample-paper-1", "Sample Question Paper 1", `
 1. Flt plan is to be filed in India in respect of:
 a. All flights other than scheduled flights.
-*b. All flights other than local flights.
+*b. All flights other than local flights. 
 c. Only for scheduled flights.
 Explanation: As per the given key, a flight plan must be filed for all flights other than local flights (flights remaining in the vicinity of the aerodrome).
 
@@ -1184,13 +1790,7 @@ a. Heading 215 at 2500 feet.
 c. 045 at 2 point 5.
 Explanation: South-east is 135 degrees. Altitude of 2500 ft is read out as "two thousand five hundred", and the heading is stated clearly.
 
-48. The determination of the aerodrome minimum operating conditions must take the following into account:
-1) Equipment available for navigation
-2) Dimensions and characteristics of the runways
-3) Composition of the flight crew
-4) Obstacles in the vicinity of approach and missed approach areas
-5) Facilities for determining and communicating the weather conditions
-The combination regrouping all the correct statements is:
+48. The determination of the aerodrome minimum operating conditions must take the following into account:\n1) Equipment available for navigation\n2) Dimensions and characteristics of the runways\n3) Composition of the flight crew\n4) Obstacles in the vicinity of approach and missed approach areas\n5) Facilities for determining and communicating the weather conditions\nThe combination regrouping all the correct statements is:
 a. 2, 4, 5.
 b. 1, 2, 4, 5.
 *c. 1, 2, 3, 4, 5.
