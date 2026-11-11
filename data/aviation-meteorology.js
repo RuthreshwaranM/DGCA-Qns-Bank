@@ -5150,3 +5150,950 @@ c. +4°C
 d. -2°C
 Explanation: The height difference is 2500 - 500 = 2000 m. The cooling is 0.65°C x 20 = 13°C, so 15 - 13 = +2°C.
 `);
+
+registerChapterText("aviation-meteorology", "oxford-pressure", "Pressure (Oxford Question Bank)", `
+1. The barometric pressure at the airfield datum point is known as:
+a. QFF
+b. QNH
+*c. QFE
+d. Standard Pressure
+Explanation: QFE is the actual air pressure at the aerodrome datum (the airfield elevation). Think "F" for Field Elevation. With QFE set, the altimeter reads zero on the ground. QNH is the pressure reduced to sea level using ISA temperatures, and QFF is reduced to sea level using the actual temperature.
+
+2. The instrument that gives a continuous printed reading and record of the atmospheric pressure is:
+a. barometer
+b. hygrometer
+c. anemograph
+*d. barograph
+Explanation: A barograph draws a continuous trace of pressure on a chart. A barometer only shows the pressure at the moment, a hygrometer measures humidity, and an anemograph records wind speed and direction.
+
+3. The pressure of the atmosphere:
+a. decreases at an increasing rate as height increases
+b. decreases at a constant rate as height increases
+*c. decreases at a decreasing rate as height increases
+d. decreases at a constant rate up to the tropopause and then remains constant
+Explanation: Air is densest near the ground, so pressure drops fastest there (about 1 hPa per 30 ft). Higher up the air is thinner and the drop per 1000 ft gets smaller. So the pressure keeps falling, but more and more slowly.
+
+4. When considering the actual tropopause which statement is correct?
+*a. It is low over the poles and high over the Equator
+b. It is high over the poles and low over the Equator
+c. It is the same height of 36 090 ft all over the world
+d. It is at a constant altitude of 26 000 ft
+Explanation: The tropopause is about 16 km over the equator and about 8 km over the poles. The figure of 36 090 ft (11 km) is only the ISA value, which is a mid-latitude average.
+
+5. Atmospheric pressure may be defined as:
+a. the weight of the atmosphere exerted on any surface with which it is in contact
+b. the weight of the atmosphere at standard sea level
+*c. the force per unit area exerted by the atmosphere on any surface with which it is in contact
+d. a pressure exerted by the atmosphere of 1013.2 hPa
+Explanation: Pressure is always force divided by area. Option A says only "weight", which is a force and not a pressure, because it leaves out "per unit area".
+
+6. The QFF is the atmospheric pressure:
+a. at the place where the reading is taken
+b. corrected for temperature difference from standard and adjusted to MSL assuming standard atmospheric conditions exist
+*c. at a place where the reading is taken corrected to MSL taking into account the prevailing temperature conditions
+d. as measured by a barometer at the aerodrome reference point
+Explanation: QFF is the station pressure reduced to mean sea level using the actual (prevailing) temperature conditions. This is what is used to draw the isobars on surface weather charts. QNH uses ISA temperatures instead.
+
+7. The pressure of 1013 hPa is known as:
+*a. standard pressure setting
+b. QNH
+c. QFE
+d. QFF
+Explanation: 1013.25 hPa is the ISA mean sea level pressure. When it is set on the altimeter subscale, the altimeter shows pressure altitude, which is what we use for flight levels above the transition altitude.
+
+8. The aircraft altimeter will read zero at aerodrome level with which pressure setting set on the altimeter subscale:
+a. QFF
+b. QNH
+c. SPS
+*d. QFE
+Explanation: With QFE set, the altimeter shows height above the aerodrome, so it reads zero on the ground. With QNH set it shows altitude, which on the ground is the aerodrome elevation.
+
+9. The aerodrome QFE is:
+a. the reading on the altimeter on an aerodrome when the aerodrome barometric pressure is set on the subscale
+b. the reading on the altimeter on touchdown at an aerodrome when 1013 is set on the subscale
+c. the reading on the altimeter on an aerodrome when the sea level barometric pressure is set on the subscale
+*d. the aerodrome barometric pressure
+Explanation: QFE is the actual barometric pressure at the aerodrome, as a pressure value in hPa. Option A describes what the altimeter reads once QFE is set (zero), not what QFE itself is.
+
+10. When an altimeter subscale is set to the aerodrome QFE, the altimeter reads:
+a. the elevation of the aerodrome at the aerodrome reference point
+*b. zero at the aerodrome reference point
+c. the pressure altitude at the aerodrome reference point
+d. the appropriate altitude of the aircraft
+Explanation: Setting QFE tells the altimeter that the aerodrome is the zero level. So it reads zero at the aerodrome reference point, and in the air it shows height above the aerodrome. Elevation is what you see with QNH set.
+
+11. The aerodrome QNH is the aerodrome barometric pressure:
+*a. corrected to mean sea level assuming standard atmospheric conditions exist
+b. corrected to mean sea level, assuming isothermal conditions exist
+c. corrected for temperature and adjusted to MSL assuming standard atmosphere conditions exist
+d. corrected to MSL using ambient temperature
+Explanation: QNH is the aerodrome pressure reduced to sea level using the ISA temperature profile. It does not use the actual temperature, which is the difference from QFF. With QNH set, the altimeter reads altitude above mean sea level (the aerodrome elevation on the ground).
+
+12. A line drawn on a chart joining places having the same barometric pressure at the same level and at the same time is:
+a. an isotherm
+b. an isallobar
+c. a contour
+*d. an isobar
+Explanation: An isobar joins equal pressure. An isotherm joins equal temperature, a contour joins equal height, and an isallobar joins equal pressure change over time.
+
+13. An isobar on a meteorological chart joins all places having the same:
+a. QFE
+*b. QFF
+c. QNH
+d. standard pressure
+Explanation: Surface charts show isobars of QFF, which is pressure reduced to mean sea level with the actual temperature. That puts all stations on a common level so the pressure patterns (highs, lows and fronts) can be compared fairly.
+
+14. Pressure will _________ with increase of height and will be about __________ at 10 000 ft and ___________ at 30 000 ft.
+a. Increase, 800 hPa, 400 hPa
+*b. Decrease, 700 hPa, 300 hPa
+c. Increase, 200 hPa, 800 hPa
+d. Decrease, 500 hPa, 200 hPa
+Explanation: Pressure always decreases with height. Learn these pairs: 850 hPa is about 5000 ft, 700 hPa is about 10 000 ft, 500 hPa is about 18 000 ft, 300 hPa is about 30 000 ft and 200 hPa is about 39 000 ft.
+
+15. An airfield in England is 100 m above sea level, QFF is 1030 hPa, temperature at the surface is -15°C. What is the value of QNH?
+a. Impossible to determine
+*b. Less than 1030 hPa
+c. Same as QFF
+d. More than 1030 hPa
+Explanation: QFF is reduced to sea level with the actual temperature (-15°C, cold and dense air). QNH is reduced with the ISA temperature (+15°C, warmer and lighter). Cold air adds more pressure over the 100 m than ISA air does, so QFF is higher than QNH. So in cold air QNH is less than QFF, and in warm air it is the other way round.
+`);
+registerChapterText("aviation-meteorology", "oxford-density", "Density (Oxford Question Bank)", `
+1. Consider the following statements relative to air density and select the one which is correct:
+a. Because air density increases with decrease of temperature, air density must increase with increase of height in the International Standard Atmosphere (ISA)
+*b. At any given surface temperature the air density will be greater in anticyclonic conditions than it will be when the MSL pressure is lower
+c. Air density increases with increase of relative humidity
+d. The effect of change of temperature on the air density is much greater than the effect of change of atmospheric pressure
+Explanation: Density depends on pressure and temperature (density = pressure / (R x temperature)). At the same temperature, higher pressure means denser air, and anticyclones have higher pressure than lows. A is wrong because pressure falls faster with height than temperature does, so density still decreases in ISA. C is wrong because humid air is LESS dense, since water vapour is lighter than dry air. D is not the book's answer.
+
+2. The tropopause in mid latitudes is:
+a. lower in summer with a lower temperature
+*b. lower in winter with a higher temperature
+c. lower in summer with a higher temperature
+d. lower in winter with a lower temperature
+Explanation: In winter the troposphere is colder and shallower, so the tropopause sits lower. A lower tropopause means the air has had less height to cool, so its temperature is higher. In summer the tropopause is higher and colder. Remember: higher tropopause = colder, lower tropopause = warmer.
+
+3. Generally as altitude increases:
+a. temperature decreases and density increases
+*b. temperature, pressure and density decreases
+c. temperature and pressure increase and density decreases
+d. temperature decreases and pressure and density increases
+Explanation: In the troposphere, temperature, pressure and density all fall with height. Temperature falls at about 2°C per 1000 ft, and pressure and density fall because the air above you is thinner and lighter.
+
+4. In the troposphere:
+a. over cold air, the pressure is higher at upper levels than at similar levels over warm air
+*b. over cold air, the pressure is lower at upper levels than at similar levels over warm air
+c. over warm air, the pressure is lower at upper levels than at similar levels over cold air
+d. the upper level pressure depends solely on the relative humidity below
+Explanation: Cold air is dense and contracts, so pressure falls off more quickly with height in a cold column. At the same upper level, the pressure is therefore lower over cold air and higher over warm air. This is why upper-level lows sit over cold air. Memory aid: "cold air, low aloft".
+
+5. Density at the surface will be low when:
+a. pressure is high and temperature is high
+b. pressure is high and temperature is low
+c. pressure is low and temperature is low
+*d. pressure is low and temperature is high
+Explanation: Density rises with pressure and falls with temperature. So the lowest density comes from low pressure combined with high temperature (hot, low-pressure days give poor aircraft performance). The highest density is high pressure with low temperature.
+
+6. Which of the following combinations will give the lowest air density?
+a. Low pressure, low humidity, low temperature
+b. High pressure, high temperature, high humidity
+c. High pressure, low temperature, low humidity
+*d. Low pressure, high humidity, high temperature
+Explanation: Low pressure, high temperature and high humidity each reduce density, so all three together give the lowest density. Humid air is lighter than dry air because water vapour molecules are lighter than nitrogen and oxygen. Option C is the opposite case, with the highest density.
+`);
+registerChapterText("aviation-meteorology", "oxford-pressure-systems", "Pressure Systems (Oxford Question Bank)", `
+1. A steep pressure gradient is characterized by:
+*a. isobars close together, strengthened wind
+b. isobars far apart, decreased wind
+c. isobars close together, temperature increasing
+d. isobars far apart, temperature decreasing
+Explanation: Isobars joined close together mean pressure changes quickly over a short distance, which is a steep gradient, so the wind is strong. Isobars far apart mean a weak gradient and light wind. Temperature has no part in this.
+
+2. QNH at Timbuktu (200 m AMSL) is 1015 hPa. What is the QFE? (Assume 1 hPa = 8 m)
+a. 1000 hPa
+*b. 990 hPa
+c. 1020 hPa
+d. 995 hPa
+Explanation: The airfield is 200 m above sea level and 1 hPa = 8 m, so 200 / 8 = 25 hPa. QFE is the pressure at the airfield, which is higher up than sea level, so it is lower than QNH: 1015 - 25 = 990 hPa.
+
+3. In temperate latitudes in summer what conditions would you expect in the centre of a high pressure system?
+a. Thunderstorms
+*b. Calm winds, haze
+c. Showers
+d. Dense cloud
+Explanation: Air sinks (subsidence) in the centre of a high, which suppresses cloud and gives light winds. The settled air traps dust and pollution near the ground, so you get haze. Thunderstorms, showers and dense cloud need rising air.
+
+4. If the pressure level surface bulges upwards, the pressure system is a:
+a. cold low
+b. warm low
+c. cold high
+*d. warm high
+Explanation: Warm air expands, so a pressure surface is lifted higher over warm air. A surface that bulges upward is therefore a high, and the air under it is warm, so it is a warm high. A surface that dips downward is a low (cold low).
+
+5. The QNH at an airfield 200 m AMSL is 1009 hPa; air temperature is 10°C lower than standard. What is the QFF?
+a. Not possible to give a definite answer
+b. Less than 1009 hPa
+c. 1009 hPa
+*d. More than 1009 hPa
+Explanation: QFF is reduced to sea level using the actual temperature, and QNH uses ISA. Air that is 10°C colder than ISA is denser and heavier, so more pressure is added over the 200 m. So QFF is higher than QNH when the air is colder than standard.
+
+6. QNH is defined as:
+a. the pressure at MSL obtained using the standard atmosphere
+b. the pressure at MSL obtained using the actual conditions
+c. QFE reduced to MSL using the actual conditions
+*d. QFE reduced to MSL using the standard atmosphere
+Explanation: QNH is the station pressure (QFE) reduced to mean sea level using the standard (ISA) atmosphere. Using the actual conditions instead gives QFF (options B and C). Option A is close, but the book picks D because it says what is being reduced.
+
+7. Landing at an airfield with QNH set the pressure altimeter reads:
+a. zero feet on landing only if ISA conditions prevail
+b. zero
+c. the elevation of the airfield if ISA conditions prevail
+*d. the elevation of the airfield
+Explanation: With QNH set, the altimeter shows altitude above mean sea level, so on the ground it shows the airfield elevation. This holds whatever the temperature, so the ISA conditions in A and C are not needed. A zero reading on the ground comes from QFE.
+
+8. Airfield is 69 metres below sea level, QFF is 1030 hPa, temperature is ISA -10°C. What is the QNH?
+a. Impossible to tell
+b. Less than 1030 hPa
+c. 1030 hPa
+*d. More than 1030 hPa
+Explanation: The field is below sea level, so reducing to MSL means subtracting the weight of the air between the field and sea level. QFF uses the actual cold, dense, heavy air, so it subtracts more and ends up lower. QNH uses lighter ISA air, so it subtracts less and ends up higher. So QNH is more than 1030 hPa.
+
+9. What is the vertical movement of air relating to a trough?
+a. Descending and diverging
+b. Ascending and diverging
+c. Descending and converging
+*d. Converging and ascending
+Explanation: A trough is an elongated area of low pressure. Air converges into it at low levels and is forced to rise, which is why troughs bring cloud and rain.
+
+10. What is the vertical movement of air relating to a ridge?
+*a. Descending and diverging
+b. Ascending and diverging
+c. Descending and converging
+d. Ascending and converging
+Explanation: A ridge is an elongated area of high pressure. Air sinks in it and spreads out (diverges) at the surface, which gives settled, mostly dry weather. Remember: trough = up and in, ridge = down and out.
+
+11. What is subsidence?
+a. Horizontal motion of air
+*b. Vertical down draught of air
+c. Vertical up draught of air
+d. Adiabatic cooling
+Explanation: Subsidence is large-scale sinking of air, typical of anticyclones. The sinking air is compressed and warms, so cloud dissipates. It is a downward movement, not a horizontal one.
+
+12. Aerodrome at MSL, QNH is 1022 hPa. QFF is:
+a. greater than 1022 hPa
+b. less than 1022 hPa
+*c. same as QNH
+d. cannot tell without temperature information
+Explanation: An aerodrome at mean sea level needs no reduction to sea level, so QFE, QNH and QFF are all the same value (1022 hPa). Temperature only matters when there is a height difference to correct for.
+
+13. Air at the upper levels of the atmosphere is diverging. What would you expect at the surface?
+a. Rise in pressure with clouds dissipating
+b. Rise in pressure with clouds forming
+c. Fall in pressure with cloud dissipating
+*d. Fall in pressure with cloud forming
+Explanation: Upper-level divergence removes air from the column, so surface pressure falls. Air then converges at the surface and rises to replace it, so cloud forms. This is how depressions deepen.
+
+14. Subsidence would be described as:
+a. vertical ascension of air
+b. horizontal movement of air
+c. the same as convection
+*d. vertical down flow of air
+Explanation: Subsidence is sinking air. Convection is the opposite, rising air from heating, so C is wrong.
+
+15. You are flying at FL170. The pressure level which is closest to you is the:
+a. 300 hPa
+b. 700 hPa
+*c. 500 hPa
+d. 850 hPa
+Explanation: Learn the pairs: 850 hPa is about FL50, 700 hPa is about FL100, 500 hPa is about FL180, 300 hPa is about FL300. FL170 is closest to 500 hPa.
+
+16. On a surface weather chart, isobars are lines of:
+a. QNH
+b. QFE
+*c. QFF
+d. QNE
+Explanation: Surface charts show isobars of QFF, which is station pressure reduced to mean sea level using actual temperatures. That lets all stations be compared at the same level.
+
+17. At FL60 what pressure chart would you use?
+a. 700 hPa
+b. 500 hPa
+*c. 800 hPa
+d. 1000 hPa
+Explanation: FL60 is 6000 ft, where the pressure is about 810 hPa, so 800 hPa is the nearest chart offered. 700 hPa is about FL100, 500 hPa is about FL180, and 1000 hPa is near the surface.
+
+18. At which average height can the 500 hPa pressure level be expected in moderate latitudes?
+a. 12.2 km
+b. 3 km
+*c. 5.5 km
+d. 9.0 km
+Explanation: The 500 hPa level is about 5.5 km (about 18 000 ft, or FL180) and half of the atmosphere's mass lies below it. 3 km is about 700 hPa, 9 km is about 300 hPa and 12 km is about 200 hPa.
+
+19. The average pressure found at a height of 1620 m in mid latitudes would be:
+a. 350 hPa
+b. 400 hPa
+*c. 850 hPa
+d. 950 hPa
+Explanation: 850 hPa is at about 1500 m (about 5000 ft), so 1620 m has about the same pressure. 950 hPa is only about 500 m up, 400 hPa is about 7000 m and 350 hPa is about 8000 m.
+`);
+registerChapterText("aviation-meteorology", "oxford-temperature", "Temperature (Oxford Question Bank)", `
+1. The measurement of surface temperature is made:
+a. at ground level
+b. at approximately 10 metres from ground level
+*c. at approximately 4 feet above ground level
+d. at approximately 4 metres above ground level
+Explanation: Surface air temperature is measured about 4 ft (1.25 m) above the ground, inside a Stevenson screen. This is high enough to avoid the extreme heating and cooling right at the ground, but still representative of surface conditions.
+
+2. The purpose of a "Stevenson screen" is to:
+a. maintain a moist atmosphere so that the wet bulb thermometer can function correctly
+b. prevent the mercury freezing in the low winter temperatures
+*c. protect the thermometer from wind, weather and from direct sunshine
+d. keep the wet and dry bulb thermometers away from surface extremes of temperature
+Explanation: The Stevenson screen is a white, louvred box. The white colour reflects sunlight and the louvres let air flow through. So the thermometer reads the true air temperature, without being heated by the sun or affected by rain and wind.
+
+3. If temperature remains constant with an increase in altitude there is:
+a. an inversion
+b. an inversion aloft
+c. uniform lapse rate
+*d. an isothermal layer
+Explanation: Isothermal means "same temperature". A layer where temperature does not change with height is an isothermal layer. In an inversion the temperature increases with height, and a uniform lapse rate means steady cooling with height.
+
+4. The surface of the earth is heated by:
+a. convection
+b. conduction
+c. long wave solar radiation
+*d. short wave solar radiation
+Explanation: The sun gives out short-wave radiation, which passes through the atmosphere with little absorption and warms the ground. The warm ground then heats the air above it by conduction, convection and long-wave radiation. Solar radiation is short-wave, not long-wave.
+
+5. Cloud cover will reduce diurnal variation of temperature because:
+a. incoming solar radiation is reflected back to space and outgoing terrestrial radiation is reflected back to earth
+b. incoming solar radiation is re-radiated back to space and atmospheric heating by convection will stop at the level of the cloud layer
+c. the cloud stops the sun's rays getting through to the earth and also reduces outgoing conduction
+*d. incoming solar radiation is reflected back to space and outgoing terrestrial radiation is re-radiated from the cloud layer back to the surface
+Explanation: By day, cloud reflects part of the sun's radiation back to space, so days are cooler. By night, cloud absorbs the heat that the ground radiates and re-radiates it back down, so nights are warmer. Cooler days plus warmer nights means a smaller day-night range.
+
+6. Diurnal variation of the surface temperature will:
+a. be unaffected by a change of wind speed
+*b. decrease as wind speed increases
+c. increase as wind speed increases
+d. be at a minimum in calm conditions
+Explanation: Wind mixes the air, so the heat gained by day and lost by night is spread through a deeper layer, and the surface range gets smaller. In calm conditions the heating and cooling stay near the ground, so the range is at its maximum, not its minimum.
+
+7. Which of the following surfaces is likely to produce a higher than average diurnal variation of temperature:
+*a. rock or concrete
+b. water
+c. snow
+d. vegetation
+Explanation: Rock and concrete heat up quickly by day and cool quickly by night, so they have a large range. Water has a high specific heat and mixes, so its temperature changes very little. Snow reflects most of the sun's radiation, and vegetation moderates the change.
+
+8. Most accurate temperatures above ground level are obtained by:
+a. tephigram
+b. aircraft reports
+c. temperature probe
+*d. radiosonde
+Explanation: A radiosonde is a balloon-carried instrument that measures temperature, pressure and humidity all the way up through the atmosphere. A tephigram is only a chart used to plot and study those readings, not an instrument.
+
+9. The method by which energy is transferred from one body to another by contact is called:
+a. radiation
+b. convection
+*c. conduction
+d. latent heat
+Explanation: Conduction is heat transfer by direct contact. Radiation travels as electromagnetic waves without contact, convection is transfer by moving fluid or air, and latent heat is the heat absorbed or released when water changes state.
+
+10. The diurnal variation of temperature is:
+a. greater over the sea than overland
+b. less over desert areas then over temperate grassland
+*c. reduced anywhere by the presence of cloud
+d. increased anywhere as wind speed increases
+Explanation: Cloud reduces the range everywhere (see question 5). A is wrong because the sea has a smaller range than land. B is wrong because deserts have a very large range. D is wrong because more wind decreases the range.
+
+11. The troposphere is heated largely by:
+a. absorption of the sun's short wave radiation
+b. radiation of heat from cloud tops and the earth's surface
+c. absorption by ozone of the sun's short wave radiation
+*d. conduction from the surface, convection and the release of latent heat
+Explanation: The troposphere is heated from below. The sun warms the ground, and the ground heats the air by conduction and convection. Latent heat released when water vapour condenses adds more. The air itself absorbs little of the sun's short-wave radiation, and ozone heating happens in the stratosphere.
+
+12. An inversion is one in which:
+a. there is no horizontal gradient of temperature
+b. there is no change of temperature with height
+*c. there is an increase of temperature as height increases
+d. there is a decrease of temperature as height increases
+Explanation: Normally the temperature falls with height. An inversion is the reverse, with temperature increasing with height. No change with height is an isothermal layer, and a decrease with height is the normal lapse rate.
+
+13. The sun gives out________ amount of energy with _________ wavelengths. The earth gives out relatively___________ amounts of energy with relatively___________ wavelengths:
+a. large, large, small, small
+b. small, small, large, large
+c. large, large, small, large
+*d. large, small, small, large
+Explanation: The sun is very hot, so it gives out a large amount of energy at short wavelengths (visible light). The earth is much cooler, so it gives out a small amount of energy at long wavelengths (infrared). Remember: hot and short, cool and long.
+
+14. With a clear night sky, the temperature change with height by early morning is most likely to show:
+a. a steady lapse rate averaging 2°C per 1000 ft
+b. a stable lapse rate of 1°C per 1000 ft
+c. an inversion above the surface with an isothermal layer above
+*d. an inversion from near the surface and a 2°C per 1000 ft lapse rate above
+Explanation: On a clear night the ground loses heat quickly by radiation and cools the air touching it, so the temperature rises with height from near the surface. That is a surface-based inversion. Above it the air returns to the normal lapse rate of about 2°C per 1000 ft.
+
+15. Over continents and oceans, the relative temperature conditions are:
+a. warmer in winter over land, colder in summer over sea
+*b. colder in winter over land, warmer in winter over sea
+c. cold in winter over land and sea
+d. warmer in summer over land and sea
+Explanation: Land heats and cools quickly, but the sea changes temperature slowly because of its high heat capacity. So in winter the land is colder than the sea, and in summer the land is warmer than the sea.
+`);
+registerChapterText("aviation-meteorology", "oxford-humidity", "Humidity (Oxford Question Bank)", `
+1. Throughout the 24 hours of a day the Relative Humidity can be expected to:
+a. increase during the day and decrease at night
+b. stay reasonably constant throughout the 24 hours
+*c. reduce during the day and increase at night
+d. only change with a change of air mass
+Explanation: Relative humidity depends on temperature. By day the air warms and can hold more vapour, so RH falls. At night the air cools, so RH rises and is usually highest around dawn. The actual amount of water vapour hardly changes.
+
+2. During a night with a clear sky, surface temperature will ____________ RH will ______________ and dew point will ___________.
+a. fall, rise, rise
+b. rise, rise, fall
+*c. fall, rise, remain the same
+d. fall, fall, remain the same
+Explanation: A clear night lets the ground lose heat, so the surface temperature falls. The water vapour content is unchanged but cooler air can hold less, so RH rises. Dew point depends only on the amount of vapour in the air, so it stays the same.
+
+3. A change of state directly from a solid to a vapour or vice versa is:
+a. insolation
+b. condensation
+c. evaporation
+*d. sublimation
+Explanation: Sublimation is solid to vapour, or vapour straight to solid, missing out the liquid stage (frost forming is an example). Evaporation is liquid to vapour, condensation is vapour to liquid, and insolation means incoming solar radiation.
+
+4. The instrument used for measuring the humidity of air is a:
+a. hydrometer
+*b. hygrometer
+c. wet bulb thermometer
+d. hygroscope
+Explanation: A hygrometer measures humidity (hygro = moisture). A hydrometer measures the density of liquids. A wet bulb thermometer is only one part of a hygrometer (a psychrometer).
+
+5. The process of change of state from a gas to a liquid is:
+a. evaporation in which latent heat is absorbed
+b. evaporation in which latent heat is released
+c. condensation in which latent heat is absorbed
+*d. condensation in which latent heat is released
+Explanation: Gas to liquid is condensation, and it releases latent heat into the air. This released heat warms the air and drives the growth of cumulus and thunderstorm clouds.
+
+6. The process of change of state from a liquid to a gas is:
+a. condensation in which latent heat is released
+b. evaporation in which latent heat is released
+c. condensation in which latent heat is absorbed
+*d. evaporation in which latent heat is absorbed
+Explanation: Liquid to gas is evaporation, and it absorbs latent heat, which is why evaporation cools things. Rule: changes toward the gas state absorb heat, and changes toward the solid state release heat.
+
+7. Air is classified as dry or saturated according to its relative humidity. If the relative humidity were 95% the air would be classified as:
+a. conditionally saturated
+b. partially saturated
+c. saturated
+*d. dry
+Explanation: This is the book's own two-way classification, and only air at exactly 100% RH counts as saturated. Any air below 100% is called dry (unsaturated), even if it is very moist, so 95% is dry. Do not use this wording as a real-life description, because 95% air is nearly saturated.
+
+8. On a wet bulb thermometer in an unsaturated atmosphere there will be a reduction of temperature below that of the dry bulb thermometer because:
+a. heat is absorbed during the process of condensation
+b. heat is released during the process of condensation
+c. heat is absorbed by the thermometer during the process of evaporation
+*d. heat is released from the thermometer during the process of evaporation
+Explanation: The wet bulb is covered in a wet muslin wick. Water evaporates from it, and that takes latent heat from the bulb, so heat leaves the thermometer and it reads lower than the dry bulb. Evaporation causes cooling, not condensation.
+
+9. Relative humidity is:
+a. air temperature over wet bulb temperature x 100
+b. air temperature over dew point temperature x 100
+*c. the actual amount of water vapour in a sample of air over the maximum amount of water vapour that the sample can contain x 100
+d. the maximum amount of water vapour that a sample of air can contain over the actual amount of water vapour the sample does contain x 100
+Explanation: RH = (actual vapour / maximum vapour the air can hold at that temperature) x 100%. It is a percentage of how full the air is. Option D is upside down, and A and B use temperatures, which are not how RH is defined.
+
+10. Absolute humidity is:
+a. the number of water droplets in a given quantity of air
+*b. the amount of water vapour that a given quantity of air holds
+c. the maximum amount of water vapour that a given quantity of air can hold
+d. the maximum number of water droplets that a given quantity of air can hold
+Explanation: Absolute humidity is the actual mass of water vapour in a given volume of air (grams per cubic metre). It is vapour, not droplets, and it is the actual amount, not the maximum.
+
+11. Wet bulb temperature would normally be lower than the dry bulb temperature because:
+a. condensation causes a release of latent heat
+*b. evaporation causes cooling
+c. latent heat is absorbed by the bulb thermometer
+d. of condensation on the muslin wick of the bulb
+Explanation: Water evaporating from the wet muslin takes heat from the bulb and cools it. The drier the air, the more it evaporates and the bigger the gap between wet and dry bulb readings. In saturated air there is no evaporation, so the two read the same.
+
+12. The wet bulb temperature:
+a. is measured using a hydrometer
+*b. is the minimum temperature to which a thermometer bulb can be cooled by the evaporation of water
+c. measures the dew point of the air
+d. is the minimum temperature reached by the surface of the earth as measured by a thermometer placed 1.2 metres above the ground
+Explanation: The wet bulb temperature is the lowest temperature reachable by evaporating water from the bulb. It is not the dew point (the two are equal only in saturated air), and D describes the grass minimum temperature instead.
+
+13. Which one of the following statements relating to atmospheric humidity is correct?
+a. If the air temperature falls then the absolute humidity must increase
+*b. The absolute humidity is the mass of water vapour contained in unit volume of air
+c. The diurnal variation of dew point temperature is greatest when skies are clear at night
+d. The dew point temperature is the temperature indicated by the wet bulb thermometer
+Explanation: Absolute humidity is the mass of vapour per unit volume of air. A is wrong because cooling does not add water vapour. C is wrong because dew point changes little over the day, and D is wrong because dew point and wet bulb temperature are different (equal only when the air is saturated).
+
+14. When condensation takes place, the higher the temperature, the __________ the amount of latent heat___________:
+a. lesser; released
+b. greater; absorbed
+*c. greater; released
+d. lesser; absorbed
+Explanation: This is the book's answer. Condensation always releases heat (not absorbs it). Warm air holds more vapour, so more heat is released when it condenses, and this is why warm tropical air gives such powerful storms.
+
+15. When water vapour changes to ice:
+a. latent heat is absorbed
+b. specific heat is released
+*c. latent heat is released
+d. specific heat is absorbed
+Explanation: Vapour to ice moves toward the solid state, so latent heat is released. Specific heat is the heat needed to change temperature by one degree, not the heat involved in changing state, so B and D are wrong.
+`);
+registerChapterText("aviation-meteorology", "oxford-adiabatics-stability", "Adiabatics and Stability (Oxford Question Bank)", `
+1. If the ELR is 0.65°C / 100 m, the layer is:
+a. atmosphere is conditionally stable
+b. atmosphere is stable
+c. atmosphere is unstable
+*d. atmosphere is stable when dry
+Explanation: The DALR is 1°C/100 m. An ELR of 0.65 is less than the DALR, so a dry parcel pushed up cools faster than its surroundings, becomes heavier and sinks back, which means it is stable when dry. But 0.65 is more than the SALR (about 0.5), so if the air is saturated it would be unstable. That is why the layer is only stable when dry (conditional).
+
+2. ELR is 1°C / 100 m, the layer is:
+*a. neutral when dry
+b. absolute stability
+c. absolute instability
+d. conditional stability
+Explanation: 1°C/100 m is exactly the DALR. A dry parcel cools at the same rate as the surrounding air, so it is always the same temperature as its surroundings and has no tendency to rise or sink. That is neutral stability for dry air.
+
+3. Why does air cool as it rises?
+*a. It expands
+b. It contracts
+c. The air is colder at higher latitudes
+d. The air is colder at higher altitudes
+Explanation: Pressure falls with height, so a rising parcel expands. Expanding does work against the surrounding air and uses up the parcel's heat energy, so it cools (adiabatic cooling). No heat is exchanged with the surroundings.
+
+4. From which of the following can the stability of the atmosphere be determined?
+a. Surface pressure
+b. Surface temperature
+c. DALR
+*d. ELR
+Explanation: Stability comes from comparing the environmental lapse rate (ELR, the actual temperature change with height) with the DALR and SALR. The DALR is a fixed number and the same everywhere, so on its own it tells you nothing about the actual air.
+
+5. When the upper part of a layer of warm air is advected:
+*a. Stability increases within the layer
+b. Stability decreases within the layer
+c. Wind speed will always decrease with increase in height in the Northern Hemisphere
+d. Wind will back with increase in height in the Northern Hemisphere
+Explanation: Warm air arriving in the upper part of a layer makes the top warmer, so the temperature falls less with height (smaller ELR), and that means more stability. Warm advection also makes the wind veer with height in the Northern Hemisphere, so D is wrong.
+
+6. The temperature at the surface is 15°C, the temperature at 1000 m is 13°C. The atmosphere is:
+a. unstable
+b. conditionally unstable
+*c. stable
+d. cannot tell
+Explanation: The temperature drops only 2°C in 1000 m, which is 0.2°C/100 m. That is less than both the SALR (about 0.5) and the DALR (1.0), so the air is absolutely stable.
+
+7. Which of the following gives conditionally unstable conditions?
+a. 1°C / 100 m
+*b. 0.65°C / 100 m
+c. 0.49°C / 100 m
+d. None of the above
+Explanation: Conditionally unstable means the ELR lies between the SALR (about 0.5°C/100 m) and the DALR (1°C/100 m). Only 0.65 is in that range. 1°C/100 m equals the DALR (neutral when dry), and 0.49 is below the SALR (absolutely stable).
+
+8. A mass of unsaturated air is forced to rise till just under the condensation level. It then settles back to its original position. What happens to the temperature?
+a. Temp. is greater than before
+*b. Temp. stays the same
+c. Temp. is less than before
+d. It depends on QFE
+Explanation: While unsaturated, the air cools at the DALR on the way up and warms at the same rate (the DALR) on the way down. There is no condensation and no latent heat involved, so the process is reversible and it ends at the same temperature it started at.
+
+9. What happens to the stability of the atmosphere in an inversion? (Temp increasing with height)
+*a. Absolutely stable
+b. Unstable
+c. Conditionally stable
+d. Conditionally unstable
+Explanation: In an inversion the air above is warmer than the air below, so any parcel pushed up is colder than its surroundings and sinks back. This is the most stable condition and it strongly resists any vertical movement.
+
+10. What happens to stability of the atmosphere in an isothermal layer? (Temp constant with height)
+*a. Absolutely stable
+b. Unstable
+c. Conditionally stable
+d. Conditionally unstable
+Explanation: In an isothermal layer the ELR is 0, which is less than both the SALR and the DALR. A parcel that rises cools below the temperature of the surrounding air and sinks back, so the layer is absolutely stable.
+
+11. What is the effect of a strong low level inversion?
+a. Good visibility
+b. Calm conditions
+*c. Turbulence
+d. Unstable conditions
+Explanation: This is the book's answer. A strong inversion acts like a lid. Wind can change sharply across it, which gives wind shear and turbulence at and below the inversion. It also traps smoke and haze below it, so visibility is poor (A is wrong), and the layer itself is very stable (D is wrong).
+
+12. A layer of air can be:
+a. conditional; unstable when unsaturated and stable when saturated
+*b. conditional; unstable when saturated and stable when unsaturated
+c. neutrally stable when saturated and unstable when unsaturated
+d. all of the above
+Explanation: A conditionally unstable layer (ELR between SALR and DALR) is stable while the air is unsaturated and becomes unstable once the air is saturated, because the saturated parcel cools slowly (the SALR) and stays warmer than its surroundings.
+
+13. What happens to the temperature of a saturated air mass when forced to descend?
+a. It heats up more than dry because of expansion
+*b. It heats up less than dry because of evaporation
+c. It heats up more than dry because of sublimation
+d. It heats up less than dry because of latent heat released during condensation
+Explanation: Descending air is compressed, so it warms. Saturated air contains cloud droplets, and as it warms they evaporate, which absorbs latent heat. So it warms more slowly (the SALR, about 0.5°C/100 m) than dry air (the DALR, 1°C/100 m). Condensation happens on the way up, not down, so D is wrong.
+
+14. In still air a lapse rate of 1.2°C / 100 m refers to:
+a. DALR
+b. SALR
+*c. ELR
+d. ALR
+Explanation: The DALR is fixed at 1°C/100 m and the SALR is about 0.5°C/100 m, so 1.2 is neither of them. The temperature change with height in still air (the surrounding atmosphere) is the environmental lapse rate (ELR), which can have any value.
+
+15. What happens to the temperature of a saturated air mass when descending?
+a. It heats up more than dry because of expansion
+*b. It heats up less than dry because of evaporation
+c. It heats up more than dry because of compression
+d. It heats up less than dry because of latent heat released during condensation
+Explanation: This is the same idea as question 13. Descending saturated air warms by compression, but evaporating cloud droplets absorb latent heat, so it warms less than dry air. Condensation releases heat during ascent, so D is wrong.
+
+16. The DALR is:
+a. variable with time
+*b. fixed
+c. variable with latitude
+d. variable with temperature
+Explanation: The DALR is a fixed constant of about 1°C/100 m (3°C per 1000 ft). It depends only on the properties of dry air. The SALR, in contrast, varies with temperature and moisture.
+
+17. An environment cooling at more than 1°C / 100 m is said to be:
+a. conditionally stable
+b. conditionally unstable
+*c. unstable
+d. stable
+Explanation: An ELR greater than the DALR (1°C/100 m) means the air is absolutely unstable. A parcel pushed up stays warmer than its surroundings and keeps rising, whether it is dry or saturated.
+`);
+registerChapterText("aviation-meteorology", "oxford-turbulence", "Turbulence (Oxford Question Bank)", `
+1. Maximum turbulence associated with the mountain waves is likely to be:
+a. two wavelengths downwind and just above the surface
+*b. approximately one wavelength downwind of, and approximately level with, the top of the ridge
+c. just below the tropopause above the ridge
+d. down the lee side of the ridge and along the surface
+Explanation: The worst turbulence in a mountain wave is in the rotor zone. It sits under the wave crest on the lee side, at about the height of the ridge top and roughly one wavelength downwind. A roll cloud often marks it.
+
+2. For the formation of mountain waves, the wind above the level of the ridge should:
+a. decrease or even reverse direction
+b. increase initially then decrease
+*c. increase with little change in direction
+d. increase and then reverse in direction
+Explanation: Waves need wind blowing across the ridge that gets stronger with height and keeps about the same direction. A decrease or a reversal of the wind above the ridge damps the waves out.
+
+3. When flying in IMC in a region close to a range of hills 2000 ft high, in stable air and with wind direction at right angles to the axis of the range of hills, which of the following is probably the most dangerous practice:
+a. flying towards the hills, into the wind, at flight level 65
+*b. flying parallel to the hills on the downwind side at flight level 40
+c. flying towards the hills downwind at flight level 55
+d. flying parallel to the hills on the upwind side at flight level 40
+Explanation: Stable air flowing over a ridge sets up strong downdraughts and rotors on the lee (downwind) side. FL40 is only about 2000 ft above the hills, so flying along the lee side in cloud, where you cannot see the ground, is the riskiest choice. The upwind side has smooth rising air, and FL55 or FL65 gives much more clearance.
+
+4. Which of the following statements referring to jet streams is correct?
+*a. Turbulence associated with jet streams is probably associated with the rapid windshear in the vicinity of the jet
+b. The maximum wind speed in a jet stream increases with increase of height up to the tropopause and remains constant thereafter
+c. The core of a jet stream is usually located just below the tropopause in the colder air mass
+d. The rate of change of wind speed at any given level is usually greatest on the warmer side of the jet
+Explanation: Clear air turbulence near a jet comes from the strong wind shear around the core. B is wrong because the wind speed rises to a maximum at the core and then decreases above it. C and D put the core and the strongest shear on the wrong side. The core sits in the warmer air, and the shear is strongest on the cold side.
+
+5. The significance of lenticular cloud is:
+a. there may be mountain waves present and there will be severe turbulence
+*b. there are mountain waves present but they may not give severe turbulence
+c. a Föhn wind can be expected with no turbulence
+d. a katabatic wind is present which may lead to fog in the valleys
+Explanation: Lenticular (lens-shaped) cloud forms at the crests of standing waves, so waves are definitely present. But the turbulence may be only light or moderate, and the cloud does not tell you how strong it will be. A says "will be severe", which goes too far.
+
+6. A mountain range is aligned in an east/west direction. Select the conditions from the table below that will give rise to mountain waves:
+a. 2000 ft: 020/40, 5000 ft: 020/30, 10 000 ft: 020/50
+*b. 2000 ft: 170/20, 5000 ft: 190/40, 10 000 ft: 210/60
+c. 2000 ft: 270/15, 5000 ft: 270/20, 10 000 ft: 270/40
+d. 2000 ft: 090/20, 5000 ft: 090/40, 10 000 ft: 090/60
+Explanation: An east-west ridge needs a wind from the north or south, so it blows across the ridge. C and D are westerly and easterly winds, so they blow along the ridge. Option A is northerly, but its speed drops from 40 to 30 kt before rising, which breaks the "steady increase" rule. Option B is southerly, increases steadily with height (20, 40, 60 kt) and changes direction only a little.
+
+7. For mountain waves to form, the wind direction must be near perpendicular to a ridge or range of mountains and the speed must:
+a. decrease with height within a stable layer above the hill
+b. increase with height within an unstable layer above the hill
+c. decrease with height within an unstable layer above the hill
+*d. increase with height within a stable layer above the hill
+Explanation: Waves need two things, a wind that gets stronger with height and a stable layer. In stable air the air pushed up by the ridge is pulled back down and oscillates, which makes the wave. In unstable air it just keeps rising as convection.
+
+8. A north/south mountain range, height 10 000 ft is producing marked mountain waves. The greatest potential danger exists for an aircraft flying:
+a. on the windward side of the ridge
+b. at FL350 over and parallel to the ridge
+c. towards the ridge from the lee side at FL140
+*d. above a line of clouds parallel to the ridge on the lee side at FL25
+Explanation: The line of cloud parallel to the ridge on the lee side is the roll cloud that marks the rotor, where the turbulence is most violent and lies low down. The book picks D for that reason. The windward side has smooth lift, and FL350 is far above the rotor.
+
+9. Clear air turbulence, in association with a polar front jet stream in the Northern Hemisphere, is more severe:
+a. underneath the jet core
+b. in the centre of the jet core
+c. looking downstream on the right hand side
+*d. looking downstream on the left hand side
+Explanation: The wind shear is strongest on the cold (polar) side of the jet. In the Northern Hemisphere the jet blows from west to east, and looking downstream the left hand side is the north, or cold, side. The centre of the core is usually the smoothest part.
+
+10. Mountain waves can occur:
+a. up to a maximum of 5000 ft above the mountains and 50 NM to 100 NM downwind
+b. up to mountain height only and 50 NM to 100 NM downwind
+c. above the mountain and downwind up to a maximum height at the tropopause and 50 NM to 100 NM downwind
+*d. in the stratosphere and troposphere
+Explanation: This is the book's answer. Strong waves can travel upward through the tropopause and be found in both the troposphere and the stratosphere, and can extend a long way downwind. Option C is the older limit, which is the tropopause.
+
+11. Clear air turbulence (CAT) should be reported whenever it is experienced. What should be reported if crew and passengers feel a definite strain against their seat or shoulder straps, food service and walking is difficult and loose objects become dislodged?
+a. Light TURB
+b. Extreme TURB
+c. Severe TURB
+*d. Moderate TURB
+Explanation: This is the standard turbulence scale. Light means a slight strain against the belts, and food service is still possible. Moderate means a definite strain against the belts, loose objects are dislodged, and food service and walking are difficult. Severe means the aircraft is momentarily out of control and occupants are thrown violently against their belts.
+`);
+registerChapterText("aviation-meteorology", "oxford-altimetry", "Altimetry (Oxford Question Bank)", `
+1. MSA given as 12 000 ft, flying over mountains in temperatures +9°C, QNH set as 1023 (obtained from a nearby airfield). What will the true altitude be when 12 000 ft is reached?
+a. 11 940
+b. 11 148
+c. 12 210
+*d. 12 864
+Explanation: With QNH set, the pressure error is already removed, so only temperature matters. ISA at 12 000 ft = 15 - 24 = -9°C, so +9°C is ISA +18. Correction = 4 ft per 1000 ft per °C = 12 x 18 x 4 = 864 ft. Warm air means true altitude is higher: 12 000 + 864 = 12 864 ft.
+
+2. When flying at FL180 in the Southern Hemisphere you experience a left to right crosswind. What is happening to your true altitude if indicated altitude is constant?
+a. Remains the same
+*b. Increasing
+c. Decreasing
+d. Impossible to tell
+Explanation: In the Southern Hemisphere the rule is the reverse of the north. A wind from the left means you are flying towards higher pressure, so the pressure surface (and your true altitude) rises. In the Northern Hemisphere a wind from the left would mean flying towards lower pressure.
+
+3. Flying from Marseilles (QNH 1012) to Palma (QNH 1015) at FL100. You do not reset the altimeter, why would true altitude be the same throughout the flight?
+a. Not possible to tell
+b. Air at Palma is warmer than air at Marseilles
+*c. Air at Marseilles is warmer than air at Palma
+d. Blocked static vent
+Explanation: Pressure rises from 1012 to 1015, which alone would raise true altitude by about 3 x 27 = 81 ft. For true altitude to stay the same, something must lower it by the same amount, and that is colder air at Palma. So Marseilles is the warmer place.
+
+4. Which of these would cause your true altitude to decrease with a constant indicated altitude?
+*a. Cold/Low
+b. Hot/Low
+c. Cold/High
+d. Hot/High
+Explanation: Cold air and low pressure both make true altitude lower than the indication. Remember "High to Low, look out below" for pressure, and "Hot to Cold, look out below" for temperature. Cold with low pressure gives both effects together.
+
+5. An aircraft flying in the Alps on a very cold day, QNH 1013 set in the altimeter, flies level with the summit of the mountains. Altitude from aneroid altimeter reads:
+a. same as mountain elevation
+b. lower than mountain elevation
+*c. higher than mountain elevation
+d. impossible to determine
+Explanation: In cold air the altimeter over-reads, so your true altitude is lower than the indication. When you are truly level with the summit, the altimeter shows more than the summit elevation. The danger is that you are lower than the altimeter says.
+
+6. You are flying in an atmosphere which is warmer than ISA, what might you expect?
+a. True altitude to be the same as indicated altitude
+b. True altitude to be lower than indicated altitude
+c. True altitude to be the decreasing
+*d. True altitude to be higher than indicated altitude
+Explanation: Warm air is less dense, so pressure surfaces are spread further apart and you are higher than the altimeter shows. True altitude is therefore higher than indicated.
+
+7. The QNH is 1030 hPa and at the transition level you set the SPS. What happens to your indicated altitude (assume 27 ft per 1 hPa)?
+*a. Drops by 459 ft
+b. Rises by 459 ft
+c. No change
+d. Rises
+Explanation: The setting goes from 1030 down to 1013, a change of 17 hPa. 17 x 27 = 459 ft. Lowering the subscale setting lowers the indication, so the altimeter drops by 459 ft.
+
+8. You are flying from Madrid (QNH 1012) to Paris (QNH 1015) at FL80. If your true altitude and indicated altitude remain the same then:
+*a. the air at Madrid is warmer than Paris
+b. the air at Paris is warmer than Madrid
+c. the altimeters are incorrect
+d. your indicated altitude must be changing
+Explanation: Rising pressure towards Paris would raise true altitude, so for it to stay constant the air at Paris must be colder, which lowers it by the same amount. So Madrid is warmer. This is the same reasoning as question 3.
+
+9. If you are flying on a QNH 1009 on very cold day and you circle the top of a peak in the Alps, your altimeter will read:
+a. the same as the elevation of the peak
+b. lower than the elevation of the peak
+*c. higher than the elevation of the peak
+d. not enough information to tell
+Explanation: Cold air makes the altimeter over-read, so when you are truly level with the peak the altimeter shows more than its elevation. Setting QNH removes the pressure error, so only the temperature error remains.
+
+10. How do you calculate the lowest usable flight level?
+*a. Lowest QNH and lowest negative temperature below ISA
+b. Lowest QNH and highest negative temperature below ISA
+c. Highest QNH and highest temperature above ISA
+d. Highest QNH and lowest temperature
+Explanation: Use the worst case for terrain clearance, which is the lowest QNH (lower pressure gives lower true altitude) together with the coldest temperature (the largest deviation below ISA). Both reduce true altitude, so the flight level must be high enough to still clear terrain in that case.
+
+11. QNH is 1003. At FL100 true altitude is 10 000 ft. It is:
+*a. warmer than ISA
+b. colder than ISA
+c. same as ISA
+d. cannot tell
+Explanation: QNH 1003 is 10 hPa below standard, so on pressure alone true altitude should be about 270 ft below FL100, at 9730 ft. Since the true altitude is actually 10 000 ft, something added about 270 ft, and warm air does that. So it is warmer than ISA.
+
+12. How is QNH determined from QFE?
+a. Using the temperature of the airfield and the elevation of the airfield
+b. Using the temperature
+*c. Using the elevation
+d. Using the temperature at MSL and the elevation of the airfield
+Explanation: QNH is QFE reduced to mean sea level using the standard (ISA) atmosphere, so the only thing needed is the aerodrome elevation. Temperature is used for QFF, not QNH.
+
+13. QFE is 1000 hPa with an airfield elevation of 200 m AMSL. What is QNH? (use 8 m per hPa).
+a. 975 hPa
+*b. 1025 hPa
+c. 1008 hPa
+d. 992 hPa
+Explanation: 200 m / 8 m per hPa = 25 hPa. QFE is measured at the airfield, which is above sea level, so QNH (at sea level) is higher: 1000 + 25 = 1025 hPa.
+
+14. Which of the following is true? QNH is:
+a. Always more than 1013.25 hPa
+b. Always less than 1013.25 hPa
+*c. Never 1013.25 hPa
+d. Can never be above or below 1013 hPa
+Explanation: The book's answer is C. In real life QNH can be above or below 1013.25, and could even equal it by coincidence, so treat this as a book-specific question. A, B and D are clearly wrong because QNH changes with the weather. Do not confuse QNH with the standard setting of 1013.25.
+
+15. Flying from Marseilles to Palma you discover your true altitude is increasing, but oddly the QNH is identical at both places. What could be the reason?
+a. Re-check the QNH
+b. Re-check the radio altimeter
+*c. The air at Palma is warmer
+d. Palma is lower than Marseilles
+Explanation: With equal QNH there is no pressure effect, so a rising true altitude must come from temperature. Warmer air at Palma raises true altitude. Both places are at sea level, so the elevation difference in D is not the cause.
+
+16. QNH is 1030. Aerodrome is 200 m AMSL. What is QFF?
+a. Higher than 1030
+b. Lower than 1030
+c. Same
+*d. Not enough info
+Explanation: QFF is reduced to sea level using the actual temperature, and no temperature is given. If the air is colder than ISA, QFF is higher than QNH, and if it is warmer, QFF is lower. So it cannot be determined.
+
+17. If an aerodrome is 1500 ft AMSL on QNH 1038, what will the actual height AGL to get to FL75 be?
+*a. 6675 ft
+b. 8175 ft
+c. 8325 ft
+d. 5325 ft
+Explanation: QNH 1038 is 25 hPa above standard, so the 1013 level is 25 x 27 = 675 ft above sea level. FL75 is therefore at 7500 + 675 = 8175 ft AMSL. Height above the aerodrome = 8175 - 1500 = 6675 ft.
+
+18. Altimeter set to 1023 at aerodrome. On climb to altitude the SPS is set at transition altitude. What will the indication on the altimeter do on resetting to QNH?
+a. Dependent on temperature
+b. Decrease
+*c. Increase
+d. Same
+Explanation: The book's answer is C, reading "resetting to QNH" as going back from 1013 to the QNH of 1023. A higher setting raises the indication by about 10 x 27 = 270 ft. Note that the move from QNH 1023 down to 1013 at the transition altitude does the opposite and lowers the indication by about 270 ft.
+
+19. What temperature and pressure conditions would be safest to ensure that your flight level clears all the obstacles by the greatest margin?
+a. Cold temp/low pressure
+b. Warm temp/high pressure
+c. Temp less than or equal to ISA and a QNH less than 1013
+*d. Temp more than or equal to ISA and a QNH greater than 1013
+Explanation: Warm air and high pressure both make true altitude higher than indicated, so you are higher above the terrain than the altimeter suggests. Cold and low pressure are the dangerous combination, because they put you lower than the instrument says.
+
+20. You are flying from Marseilles (QNH 1012 hPa) to Palma de Mallorca (QNH 1012 hPa) at FL100. You notice that the effective height above MSL (radio altitude) increases constantly. Hence:
+a. one of the QNH values must be wrong
+b. you have the altimeters checked, as their indications are obviously wrong
+*c. the air mass above Palma is warmer than that above Marseilles
+d. you have to adjust for a crosswind from the right
+Explanation: Equal QNH means no pressure effect, so the rising true altitude must come from temperature, and warmer air at Palma raises true altitude. Nothing is wrong with the altimeters.
+
+21. You are flying from Marseilles (QNH 1026 hPa) to Palma de Mallorca (QNH 1026 hPa) at FL100. You notice that the effective height above MSL (Radio Altitude) decreases constantly. Hence:
+a. one of the QNH values must be wrong
+*b. the air mass above Marseilles is warmer than that above Palma
+c. you have the altimeters checked, as their indications are obviously wrong
+d. you have to adjust for a crosswind from the right
+Explanation: This is the opposite case of question 20. Equal QNH, with true altitude falling, means the air is getting colder, so Palma is colder than Marseilles. Another way to say this is that Marseilles is the warmer.
+
+22. Flying at FL135 above the sea, the radio altimeter indicates a true altitude of 13 500 ft. The local QNH is 1019 hPa. Hence the crossed air mass is, on average:
+a. at ISA standard temperature
+*b. colder than ISA
+c. warmer than ISA
+d. there is insufficient information to determine the average temperature deviation
+Explanation: QNH 1019 is 6 hPa above standard, so in an ISA atmosphere the true altitude would be about 13 500 + 162 = 13 662 ft. The actual true altitude is lower at 13 500, so something removed about 162 ft, and cold air does that. So the air mass is colder than ISA.
+
+23. You are flying in the Alps at the same level as the summit on a hot day. What does the altimeter read?
+a. Same altitude as the summit
+b. Higher altitude as the summit
+*c. Lower altitude as the summit
+d. Impossible to tell
+Explanation: Hot air makes true altitude higher than indicated, so the altimeter under-reads. When you are truly level with the summit, the altimeter shows less than the summit's elevation. This is the opposite of the cold-day case in question 5.
+
+24. An airfield has an elevation of 540 ft with a QNH of 993 hPa. An aircraft descends and lands at the airfield with 1013 hPa set. What will its altimeter read on landing?
+a. 380 ft
+*b. 1080 ft
+c. 0 ft
+d. 540 ft
+Explanation: 1013 is 20 hPa higher than the QNH of 993, and 20 x 27 = 540 ft. A setting that is too high makes the altimeter over-read by that amount, so it shows 540 + 540 = 1080 ft.
+
+25. When is pressure altitude equal to true altitude?
+*a. In standard conditions
+b. When surface pressure is 1013.25 hPa
+c. When the temperature is standard
+d. When the indicated altitude is equal to the pressure altitude
+Explanation: Both the pressure and the temperature must be standard (ISA) for pressure altitude and true altitude to be equal. Option B removes only the pressure error, and option C removes only the temperature error. Each alone is not enough.
+
+26. What is the relationship between QFE and QNH at an airport 50 ft below MSL?
+a. QFE = QNH
+b. QFE < QNH
+*c. QFE > QNH
+d. There is no clear relationship
+Explanation: An airport below sea level has more air above it than at sea level, so its actual pressure (QFE) is higher than the sea-level value (QNH). At MSL they are equal, and at an airport above MSL, QFE is lower than QNH.
+
+27. You are flying at FL160 with an OAT of -27°C. QNH is 1003 hPa. What is your true altitude?
+a. 15 540 ft
+*b. 15 090 ft
+c. 16 330 ft
+d. 15 730 ft
+Explanation: ISA at FL160 = 15 - 32 = -17°C, so -27°C is ISA -10. Temperature correction = 16 x 10 x 4 = 640 ft lower. QNH 1003 is 10 hPa low, so 10 x 27 = 270 ft lower. True altitude = 16 000 - 640 - 270 = 15 090 ft.
+
+28. Up to FL180 ISA Deviation is ISA +10°C. What is the actual depth of the layer between FL60 and FL120?
+a. 6000 ft
+*b. 6240 ft
+c. 5760 ft
+d. 5700 ft
+Explanation: The layer is 6000 ft thick in ISA. Each degree of deviation changes thickness by 4 ft per 1000 ft, so +10°C is +4%: 6000 x 1.04 = 6240 ft. Warm air makes the layer thicker.
+
+29. Up to FL 180 ISA Deviation is ISA -10°C. What is the actual depth of the layer between FL60 and FL120?
+a. 6000 ft
+b. 6240 ft
+*c. 5760 ft
+d. 5700 ft
+Explanation: The same layer of 6000 ft, but cold air shrinks it. -10°C is -4%: 6000 x 0.96 = 5760 ft.
+
+30. What condition would cause your indicated altitude to be lower than that being actually flown?
+a. Pressure lower than standard
+b. Pressure is standard
+c. Temperature lower than standard
+*d. Temperature higher than standard
+Explanation: If the indicated altitude is lower than the true altitude, the altimeter under-reads, and that happens in warm air. Lower pressure and colder temperature both do the opposite, because they make the altimeter over-read.
+
+31. You fly over the sea at FL90, your true altitude is 9100 ft and QNH is unknown. What can be said about the atmosphere temperature?
+a. QNH is lower than standard
+b. It is colder than ISA
+c. It is warmer than ISA
+*d. Nothing, insufficient information
+Explanation: Both pressure and temperature move true altitude, and the QNH is not known. So a true altitude of 9100 ft against FL90 could be explained by a low QNH, warm air, or a mix of both, and you cannot separate them.
+
+32. You are flying at FL100 in an air mass that is 15°C colder than ISA. Local QNH is 983 hPa. What would the true altitude be?
+*a. 8590 ft
+b. 11 410 ft
+c. 10 000 ft
+d. 10 210 ft
+Explanation: QNH 983 is 30 hPa below standard, so 30 x 27 = 810 ft lower. Temperature is ISA -15, so 10 x 15 x 4 = 600 ft lower. True altitude = 10 000 - 810 - 600 = 8590 ft.
+
+33. Which statement is true?
+a. QFE is always lower than QNH
+b. QNH is always lower than QFE
+*c. QNH can be equal to QFE
+d. QFE can be equal to QFF only
+Explanation: At an aerodrome exactly at mean sea level, QFE and QNH are the same. So they can be equal, and neither A nor B is true "always".
+
+34. You fly from east to west at the 500 hPa level in the Northern Hemisphere;
+*a. if the wind is from the north there will be a gain in altitude
+b. if the wind is from the south there is again in altitude
+c. if you encounter northerly drift, there is a gain in altitude
+d. you fly towards an area of lower pressure, and therefore, experience a loss in altitude
+Explanation: Flying west, a wind from the north is a wind from your right. In the Northern Hemisphere a wind from the right means you are flying towards higher pressure, so the 500 hPa surface rises and you gain altitude. A northerly drift (option C) means the wind is from the south, which is the opposite case.
+
+35. You have landed on an airport elevation 1240 ft and QNH 1008 hPa. Your altimeter subscale is erroneously set to 1013 hPa. The indication on the altimeter will be:
+a. 1200 ft
+*b. 1375 ft
+c. 1105 ft
+d. 1280 ft
+Explanation: 1013 is 5 hPa above the QNH of 1008, and 5 x 27 = 135 ft. A setting that is too high makes the altimeter over-read, so it shows 1240 + 135 = 1375 ft.
+
+36. You are cruising at FL200, OAT is -40°C, sea level pressure is 1033 hPa. Calculate the true altitude.
+a. 20 660 ft
+b. 21 740 ft
+c. 18 260 ft
+*d. 19 340 ft
+Explanation: ISA at FL200 = 15 - 40 = -25°C, so -40°C is ISA -15. Temperature correction = 20 x 15 x 4 = 1200 ft lower. Pressure 1033 is 20 hPa high, so 20 x 27 = 540 ft higher. True altitude = 20 000 - 1200 + 540 = 19 340 ft.
+`);
