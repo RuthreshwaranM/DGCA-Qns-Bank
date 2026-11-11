@@ -3412,120 +3412,140 @@ Explanation: Nowcasting is a very short-range forecast of the current weather an
 
 registerChapterText("aviation-meteorology", "station-model", "Station Model", `
 1. The direction of surface wind is
+[image: station.png]
 *a. NW
 b. NE
 c. SE
 Explanation: The wind shaft points toward the direction the wind blows FROM, and here it extends to the upper left of the station circle, so the wind is from the northwest. Memory aid: the barbs sit on the shaft end that points into the wind.
 
 2. The range of wind speed is
+[image: station.png]
 a. 20-25 kt
 b. 16-22 kt
 *c. 18-22 kt
 Explanation: Wind speed is plotted in steps of 5 kt, and each plotted value stands for a small band around it, so a plotted 20 kt means 18 to 22 kt. The other options are wrong because the band is not that wide and does not start at 20 or 16.
 
 3. The type of medium cloud is
+[image: station.png]
 *a. AC
 b. AS
 c. AC &AS
 Explanation: The medium cloud symbol (CM) in the model is an altocumulus (AC) type, so only AC is reported. AS would need a different symbol, and one symbol cannot show both types.
 
 4. Low clouds are
+[image: station.png]
 a. CU
 b. SC
 *c. ST
 Explanation: The low cloud symbol (CL) in the model shows stratus (ST). Memory aid: ST means stratus, the low, flat, layered cloud that lies close to the ground.
 
 5. High clouds are
+[image: station.png]
 a. CC
 *b. CI
 c. CS
 Explanation: The high cloud symbol (CH) in the model is cirrus (CI). Cirrus is the thin, wispy ice-crystal cloud found above about 6 km.
 
 6. Height of base of low clouds is
+[image: station.png]
 a. 200 m
 b. 250 m
 *c. 100 to 199 m
 Explanation: The height code (h) below the circle is 2, and code 2 means a cloud base of 100 to 199 m. The station model gives a height band, never a single value like 200 m or 250 m.
 
 7. Amount of lowest cloud is
+[image: station.png]
 a. 2/8
 b. 4/8
 *c. 3/8
 Explanation: The figure before the slash below the circle (Nh) is 3, meaning the lowest cloud covers 3 oktas, or 3/8 of the sky. The first number is the amount and the second is the height code.
 
 8. Dew Point temperature range is
+[image: station.png]
 *a. 29.5 to 30.4°C
 b. 29.1 to 30.4°C
 c. 30.6 to 30.4°C
 Explanation: The dew point is the figure at the bottom left of the circle, here 30. It is reported to the nearest whole degree, so the true value lies from 29.5 to 30.4°C. Option c is impossible because its lower limit is higher than its upper limit.
 
 9. Temperature 34° C is
+[image: station.png]
 *a. Dry
 b. Wet
 c. Dew Point
 Explanation: The top left figure of the station model is always the dry bulb (air) temperature. The dew point is the lower figure on the left, here 30.
 
 10. 962 represents
+[image: station.png]
 a. QFE
 *b. QFF
 c. QNH
 Explanation: The pressure at the top right is the sea level pressure (QFF) in tenths of hPa, with the first 9 or 10 and the decimal point left out. QFE is station level pressure, and QNH is the altimeter setting, which is not plotted here.
 
 11. Pressure value in hPa is
+[image: station.png]
 a. 996
 *b. 996.2
 c. 1096.2
 Explanation: The code 962 is read as 96.2 with a leading 9 or 10 added to give a value near 1000 hPa. Adding 9 gives 996.2 hPa, which is sensible, while adding 10 gives 1096.2 hPa, an impossibly high sea level pressure. Option a drops the tenth.
 
 12. Pressure change of 1.4 hPa is in
+[image: station.png]
 a. 6 hr
 b. 3hr
 *c. 24 hr
 Explanation: The figure -14 under the pressure means a fall of 1.4 hPa. NOTE: book key says c (24 hr), but the standard station model plots the pressure tendency over the past 3 hours, so b (3 hr) looks correct. Marked as the book key says.
 
 13. Past weather is
+[image: station.png]
 *a. Moderate Light Rain
 b. Continuous Rain
 c. Heavy Rain
 Explanation: The past weather symbol to the right of the circle is a single dot, meaning rain during the past period. The model does not show whether the rain was continuous or heavy, so only the general rain option fits. Option b and c add details the symbol cannot give.
 
 14. Rainfall amount is
+[image: station.png]
 a. 2 mm
 b. 1.5 mm
 *c. 1.6 to 2.4 mm
 Explanation: A reported amount of 2 mm is rounded to the nearest 0.5 mm in the code, so the real rainfall lies between 1.6 and 2.4 mm. That is why a single value such as 2 mm or 1.5 mm is not the answer.
 
 15. Rainfall reported is from
+[image: station.png]
 *a. 0300Z of yesterday to 0300Z of today
 b. 0100 to 2400Z
 c. 0530 to 0830 IST
 Explanation: Rainfall is reported as a 24-hour total ending at 0300 UTC, which is 0830 IST, so it covers 0300Z yesterday to 0300Z today. The other options are not a 24-hour period ending at the standard observation time.
 
 16. Speed of Ship is
+[image: station.png]
 a. 5 KMH
 b. 5 MPS
 *c. 5 KT
 Explanation: In meteorology and aviation, ship speed is reported in knots, so 5 means 5 kt. Memory aid: ships and aircraft use knots, never km/h or m/s.
 
 17. Direction of movement of Ship
+[image: station.png]
 a. NW
 b. SW
 *c. NE
 Explanation: The arrow beside the ship speed points toward the direction the ship is moving. Here it points to the upper right, so the ship is heading northeast. Unlike wind, this direction is where the ship is going TO, not where it comes from.
 
 18. Speed of Ship reported is averaged for
+[image: station.png]
 *a. 3 hr
 b. 6 hr
 c. 12 hr
 Explanation: Ship course and speed are given as the average over the 3 hours before the observation. This matches the 3-hourly synoptic reporting cycle.
 
 19. Surface visibility is
+[image: station.png]
 a. 500 to <1000 m
 b. 1000 to 2000m
 *c. 2000 to < 4000 m
 Explanation: The visibility code in the model is 95, and the code table gives 95 as 2 km. The reported value stands for the band from 2000 m up to less than 4000 m. Memory aid: codes 90 to 99 run from under 50 m up to 50 km or more.
 
 20. Weather reported is
+[image: station.png]
 a. Rain at the time of observation
 *b. Rain during last one hour
 c. Rain not at station but within 5 km
