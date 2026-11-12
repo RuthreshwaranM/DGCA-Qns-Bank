@@ -7620,3 +7620,2106 @@ c. becoming from 1100UTC rain showers
 d. becoming from 1100UTC till 0000UTC slight rain showers
 Explanation: BECMG FM1100 means the change begins at 1100 UTC, and -RASH is slight (minus sign) rain showers, so the weather becomes slight rain showers from 1100 UTC. NOTE: no sign would mean moderate, and cessation of rain would be written NSW.
 `);
+
+registerChapterText("aviation-meteorology", "test-paper-01", "Test paper-01 (100qns)", `
+1. Which one of the following statements applies to the tropopause?
+a. It is, by definition, an isothermal layer
+b. It indicates a strong temperature lapse rate
+c. It is, by definition, a temperature inversion
+*d. It separates the troposphere from the stratosphere
+Explanation: The tropopause is the boundary layer between the troposphere below and the stratosphere above. Temperature stops falling there, but it is not a true inversion and it does not show a strong lapse rate.
+
+2. At a certain position, the temperature on the 300 hPa chart is -48°C; according to the tropopause chart, the tropopause is at FL 330. What is the most likely temperature at FL 350?
+*a. -54°C
+b. -50°C
+c. -56.5°C
+d. -58°C
+Explanation: 300 hPa is about FL 300, and from FL 300 to FL 330 the air cools about 2°C per 1000 ft, so -48 - 6 = -54°C at the tropopause. Above the tropopause the temperature stays constant, so FL 350 is also -54°C.
+
+3. The tropopause is lower
+a. South of the equator than north of it
+b. Over the equator than over the South Pole
+*c. Over the North Pole than over the equator
+d. In summer than winter in moderate latitudes
+Explanation: The tropopause is about 16 km high over the equator and about 8 km over the poles, so it is lower over the North Pole. In mid-latitudes it is lower in winter, not summer, so option d is wrong.
+
+4. What is the most likely temperature at the tropical tropopause?
+a. -55°C
+b. -35°C
+c. -25°C
+*d. -75°C
+Explanation: The tropical tropopause is very high (about 16 km), so the air there is very cold, about -75°C. The polar tropopause is lower and warmer (about -45°C). Memory aid: higher tropopause, colder temperature.
+
+5. Which statement is correct regarding the International Standard Atmosphere?
+a. At MSL temperature is 15°C and the decrease in temperature with height is 1°C per 100m
+b. At MSL temperature is 10°C and the decrease in temperature with height is 1°C per 100m
+c. At MSL pressure is 1013.25 hPa and the decrease of temperature with height is 1°C per 100m
+*d. At MSL temperature is 15°C and pressure is 1013.25 hPa
+Explanation: ISA at MSL is 15°C and 1013.25 hPa. The other options are wrong because ISA cools by 0.65°C per 100 m (6.5°C per km), not 1°C per 100 m.
+
+6. The tropopause is a level at which
+a. Water vapour content is greatest
+b. Pressure remains constant
+c. Vertical currents are strongest
+*d. Temperature ceases to fall with increasing height
+Explanation: Up to the tropopause temperature falls with height, and at the tropopause it stops falling and stays about constant. Water vapour is mostly low down in the troposphere, and pressure always keeps falling with height.
+
+7. The 0°C isotherm is forecast to be at FL 50. At what FL would you expect a Temperature of -6°C?
+*a. FL 80
+b. FL 20
+c. FL 100
+d. FL 110
+Explanation: The air cools about 2°C per 1000 ft, so -6°C is 6°C colder than 0°C, which is 3000 ft higher. FL 50 + 3000 ft = FL 80.
+
+8. How does temperature vary with increasing altitude in the ICAO standard atmosphere below the tropopause?
+a. Increases
+b. At first it increases and higher up it decreases
+c. Remains constant
+*d. Decreases
+Explanation: In the troposphere ISA temperature falls steadily with height at 6.5°C per km (about 2°C per 1000 ft), from 15°C at MSL to -56.5°C at 11 km.
+
+9. Which is true of the temperature at the tropopause?
+*a. It is higher in polar regions than in equatorial regions
+b. It's higher in equatorial regions than in Polar Regions
+c. It is highest in middle latitudes
+d. There is no significant difference with change of latitude
+Explanation: The polar tropopause is low and relatively warm (about -45°C), while the equatorial tropopause is high and very cold (about -75°C). Memory aid: the higher the tropopause, the colder it is.
+
+10. What is the boundary layer between troposphere and stratosphere called?
+*a. Tropopause.
+b. Ionosphere.
+c. Stratosphere.
+d. Atmosphere.
+Explanation: The boundary between the troposphere and the stratosphere is the tropopause. The "pause" at the end of a name always marks the top of a layer.
+
+11. How would you characterize an air temperature of -15°C at the 700 hPa level over Mumbai?
+*a. Low
+b. High
+c. Within +/- 5°C of ISA
+d. 20°C below standard
+Explanation: 700 hPa is about FL 100, where ISA is about -5°C. -15°C is about 10°C colder than ISA, which is called low, and it is not 20°C colder, so option d is wrong.
+
+12. The temperature at FL 110 is -5°C what will the temperature be at FL 50 if the ICAO standard lapse rate is applied?
+a. +3°C
+b. 0°C
+c. -3°C
+*d. +7°C
+Explanation: FL 110 to FL 50 is 6000 ft lower, so the air is 6 x 2 = 12°C warmer: -5 + 12 = +7°C. Going down gives warmer air.
+
+13. How does the height of the tropopause normally vary with latitude in the northern hemisphere?
+a. It remains constant throughout the year.
+*b. It decreases from south to north.
+c. It remains constant from north to south.
+d. It increases from south to north.
+Explanation: The tropopause is highest at the equator (about 16 km) and lowest at the pole (about 8 km), so going north it gets lower.
+
+14. The temperature FL 80 is +6°C. What will the temperature be at FL 130 if the ICAO standard lapse rate is applied?
+a. +2°C
+*b. -4°C
+c. -6°C
+d. 0°C
+Explanation: FL 80 to FL 130 is 5000 ft higher, so it is 5 x 2 = 10°C colder: +6 - 10 = -4°C.
+
+15. The lowest assumed temperature in the ICAO Standard Atmosphere is:
+a. -273°C
+b. -44.7°C
+c. -100°C
+*d. -56.5°C
+Explanation: ISA temperature falls to -56.5°C at 11 km (36,090 ft) and then stays constant up to 20 km, so -56.5°C is the lowest value assumed. -273°C is absolute zero.
+
+16. The troposphere is the:
+*a. Part of the atmosphere below the tropopause
+b. Part of the atmosphere above the stratosphere
+c. Boundary between the mesosphere and thermosphere
+d. Boundary between the stratosphere and the mesosphere
+Explanation: The troposphere is the lowest layer, from the ground up to the tropopause. It holds nearly all the weather.
+
+17. How would you characterize an air temperature of -55°C at the 200 hPa level over Western Europe?
+*a. Within +/- 5°C
+b. High
+c. Low
+d. Very high
+Explanation: 200 hPa is about FL 390, where ISA is about -56.5°C. -55°C is only 1.5°C warmer than ISA, so it is within +/- 5°C.
+
+18. The height and the temperature of the tropopause are respectively in the order of
+a. 8 km and -40°C over the equator
+b. 8 km and -75°C over the equator
+c. 16 km and -40°C over the equator
+*d. 16 km and -75°C over the equator
+Explanation: Over the equator the tropopause is about 16 km high and about -75°C. 8 km and about -45°C is the polar value.
+
+19. What of the following is the most important constituent in the atmosphere from a weather stand-point?
+a. Nitrogen
+b. Oxygen
+c. Hydrogen
+*d. Water vapour
+Explanation: Water vapour makes cloud, rain, fog and releases latent heat, so it drives weather even though it is only a few percent of the air. Nitrogen and oxygen are much more abundant but do not make weather.
+
+20. What is the vertical temperature lapse rate, up to 11 km, in the ICAO standard atmosphere?
+*a. 6.5°C per 1000m
+b. 4.5°C per 1000m
+c. 3°C per 1000m
+d. 2°C per 1000m
+Explanation: ISA cools 6.5°C per 1000 m up to 11 km. The 2°C figure is per 1000 ft, not per 1000 m.
+
+21. An outside air temperature of -35°C is measured while cruising at FL 200. What is the temperature deviation from the ISA at this level?
+a. 10°C warmer than ISA
+b. 5°C warmer than ISA
+c. 5°C colder than ISA
+*d. 10°C colder than ISA
+Explanation: ISA at FL 200 = 15 - (2 x 20) = -25°C, so -35°C is 10°C colder than ISA.
+
+22. How would you characterize an air temperature of -30°C at the 300 hPa level?
+a. Within +/-5°C of ISA
+b. Low
+c. Very low
+*d. High
+Explanation: 300 hPa is about FL 300, where ISA = 15 - (2 x 30) = -45°C. -30°C is 15°C warmer than ISA, which is high.
+
+23. The rate of decrease of temperature with height per 100m in the International Standard Atmosphere is:
+*a. 0.65°C
+b. 1°C
+c. 0.5°C
+d. Variable
+Explanation: ISA cools 6.5°C per 1000 m, which is 0.65°C per 100 m. The 1°C per 100 m figure is the dry adiabatic rate, which is not the ISA rate.
+
+24. What is the approximate composition of the dry air by volume in the troposphere?
+a. 50 % oxygen, 40 % nitrogen, and the rest other gasses
+*b. 21 % oxygen, 78 % nitrogen, and the rest other gasses
+c. 10 % oxygen, 89 % nitrogen, and the rest other gasses
+d. 88 % oxygen, 9 % nitrogen, and the rest other gasses
+Explanation: Dry air is about 78% nitrogen, 21% oxygen and about 1% other gases (argon, carbon dioxide). This mix is nearly the same up to about 80 km.
+
+25. If you are flying at FL 300 in an air mass that is 15°C warmer than a standard atmosphere, what is the outside temperature likely to be?
+a. -15°C
+*b. -30°C
+c. -45°C
+d. -60°C
+Explanation: ISA at FL 300 = 15 - (2 x 30) = -45°C. In air 15°C warmer: -45 + 15 = -30°C.
+
+26. A temperature of +15°C is recorded at an altitude of 500 meters above sea level. If the vertical temperature gradient is that of a standard atmosphere, what will the temperature be at the summit of a mountain, 2500 meters above sea level?
+a. +4°C
+b. 0°C
+c. -2°C
+*d. +2°C
+Explanation: The summit is 2500 - 500 = 2000 m higher, so the air cools 2 x 6.5 = 13°C: +15 - 13 = +2°C.
+
+27. The temperature at FL 140 is -12°C. What will the temperature be at FL 110 if the ICAO standard lapse rate is applied?
+a. -15°C
+*b. -6°C
+c. -18°C
+d. -9°C
+Explanation: FL 140 to FL 110 is 3000 ft lower, so it is 3 x 2 = 6°C warmer: -12 + 6 = -6°C.
+
+28. If you are flying at FL 120 and the outside temperature is -2°C, at what altitude will the "freezing level" be?
+a. FL 150
+b. FL 90
+*c. FL 110
+d. FL 130
+Explanation: To reach 0°C the air must be 2°C warmer, which is 1000 ft lower (2°C per 1000 ft). FL 120 - 1000 ft = FL 110.
+
+29. The troposphere:
+a. Reaches the same height at all latitudes
+*b. Has a greater vertical extent above the equator than above the poles
+c. Contains all oxygen of the stratosphere
+d. Is the separation layer between the stratosphere and atmosphere
+Explanation: The troposphere is about 16 km deep over the equator because strong heating makes air rise high, and only about 8 km deep over the poles.
+
+30. The thickness of the troposphere varies with:
+a. Rotation of the earth
+b. The wind
+*c. Latitude
+d. Longitude
+Explanation: The depth of the troposphere changes mainly with latitude (deepest at the equator, shallowest at the poles), and also with season. Longitude makes no systematic difference.
+
+31. What, approximately, is the average height of the tropopause over the equator?
+*a. 16 km
+b. 8 km
+c. 11 km
+d. 40 km
+Explanation: The average tropopause is about 16 km (about 54,000 ft) over the equator. 8 km is the polar value and 11 km is the ISA/mid-latitude value.
+
+32. Going from the equator to the North Pole, the altitude of the tropopause
+*a. Decreases and its temperature increases
+b. Increases and its temperature increases
+c. Increases and its temperature decreases
+d. Decreases and its temperature decreases
+Explanation: The tropopause falls from about 16 km at the equator to about 8 km at the pole, and its temperature rises from about -75°C to about -45°C. Lower tropopause means warmer.
+
+33. The temperature at 10,000 FT in the International Standard Atmosphere is:
+a. -20°C
+b. -35°C
+*c. -5°C
+d. 0°C
+Explanation: ISA at 10,000 ft = 15 - (2 x 10) = -5°C.
+
+34. The average height of the tropopause at 50°N is about:
+a. 14 km
+b. 16 km
+*c. 11km
+d. 8 km
+Explanation: In middle latitudes such as 50°N the tropopause averages about 11 km (36,000 ft), the same as the ISA tropopause. 16 km is equatorial and 8 km is polar.
+
+35. In the lower part of the stratosphere the temperature
+a. Increases with altitude
+b. Increases at first and decreases afterward
+*c. Is almost constant
+d. Decreases with altitude
+Explanation: In the lower stratosphere the air is isothermal at about -56.5°C up to 20 km in ISA. Higher up, ozone heating makes it warm with height.
+
+36. Which layer of the atmosphere contains more than 90% of all water vapour?
+*a. Troposphere
+b. Lower stratosphere
+c. Upper stratosphere
+d. Ionosphere
+Explanation: Water vapour comes from evaporation at the surface and is carried up by convection, so nearly all of it is in the troposphere. The stratosphere is very dry.
+
+37. In the mid-latitudes the stratosphere extends on an average from:
+a. 85 to more than 200 km
+*b. 11 to 50 km
+c. 0 to 11 km
+d. 50 to 85 km
+Explanation: In mid-latitudes the stratosphere runs from the tropopause at about 11 km up to about 50 km. 0 to 11 km is the troposphere and 50 to 85 km is the mesosphere.
+
+38. The 850 hPa pressure level can vary in height. In temperate regions which of the following average heights is applicable?
+a. FL 100
+b. FL 300
+c. FL 390
+*d. FL 50
+Explanation: 850 hPa is at about 1500 m, which is about 4800 ft, so FL 50. Memory aid: 850 = FL 50, 700 = FL 100, 500 = FL 180, 300 = FL 300, 250 = FL 340, 200 = FL 390.
+
+39. Which constant pressure altitude chart is standard for 18,289 FT pressure level (FL 180)?
+a. 300 hPa
+b. 200 hPa
+c. 700 hPa
+*d. 500 hPa
+Explanation: 500 hPa is at about 18,289 ft (about 5500 m), which is FL 180. Memory aid: 850 = FL 50, 700 = FL 100, 500 = FL 180, 300 = FL 300, 250 = FL 340, 200 = FL 390.
+
+40. If you are planning a flight at FL 170, which of these upper wind and temperature charts would be nearest your flight level?
+a. 850 hPa
+b. 700 hPa
+*c. 500 hPa
+d. 300 hPa
+Explanation: 500 hPa is about FL 180, which is the closest to FL 170. 700 hPa is about FL 100, which is much lower.
+
+41. Which constant pressure altitude chart is standard for a 38,662 FT pressure level (FL 390)?
+a. 500 hPa
+b. 700 hPa
+*c. 200 hPa
+d. 300 hPa
+Explanation: 200 hPa is at about 38,662 ft, which is FL 390. Memory aid: 850 = FL 50, 700 = FL 100, 500 = FL 180, 300 = FL 300, 250 = FL 340, 200 = FL 390.
+
+42. The station pressure used in surface weather charts is
+a. QNE
+*b. QFF
+c. QFE
+d. QNH
+Explanation: Pressure on surface weather charts is the station pressure reduced to mean sea level using the actual temperature of the air column, and that is QFF. QNH uses ISA temperature and is used for altimeter settings.
+
+43. Half the mass of the atmosphere is found in the first
+a. 8 km
+*b. 6 km
+c. 3km
+d. 11 km
+Explanation: Air is squeezed together near the ground, so half the mass of the atmosphere is in the first 5.5 km, which is about 6 km. Pressure at that height is about half of sea level (500 hPa).
+
+44. A 500 hPa pressure level can vary in height. In temperate regions which of the following average heights is applicable?
+a. FL 160
+b. FL 100
+c. FL 390
+*d. FL 180
+Explanation: The 500 hPa level is at about 5500 m, which is about FL 180. Memory aid: 850 = FL 50, 700 = FL 100, 500 = FL 180, 300 = FL 300, 250 = FL 340, 200 = FL 390.
+
+45. Which constant pressure altitude chart is standard for a 4781 FT pressure level (FL50)?
+a. 300 hPa
+*b. 850 hPa
+c. 700 hPa
+d. 500 hPa
+Explanation: 850 hPa is at about 4781 ft, which is FL 50. Memory aid: 850 = FL 50, 700 = FL 100, 500 = FL 180, 300 = FL 300, 250 = FL 340, 200 = FL 390.
+
+46. The QNH at an airfield located 200 metres above sea level is 1022 hPa. The air temperature is not available. What is the QFF?
+*a. It is not possible to give a definitive answer
+b. More than 1022 hPa
+c. 1022 hPa
+d. Less than 1022 hPa
+Explanation: QNH uses ISA temperature, but QFF uses the actual temperature of the air column. Without the actual temperature you cannot tell whether QFF is above or below QNH.
+
+47. A 700 hPa pressure level can vary in height. In temperate regions which of the following average heights is applicable?
+a. FL 180
+b. FL 300
+c. FL 390
+*d. FL 100
+Explanation: 700 hPa is at about 3000 m, which is about 9900 ft, so FL 100. Memory aid: 850 = FL 50, 700 = FL 100, 500 = FL 180, 300 = FL 300, 250 = FL 340, 200 = FL 390.
+
+48. When planning a flight at FL 60, which upper wind and temperature chart would be nearest your flight level?
+a. 300 hPa
+*b. 850 hPa
+c. 700 hPa
+d. 500 hPa
+Explanation: 850 hPa is about FL 50, which is the closest to FL 60. 700 hPa is about FL 100, which is further away.
+
+49. The QFF at an airfield located 400 meters above sea level is 1016 hPa. The air temperature is 10°C higher than a standard atmosphere. What is the QNH?
+*a. More than 1016 hPa
+b. 1016 hPa
+c. Less than 1016 hPa
+d. It is not possible to give a definitive answer
+Explanation: Warm air is lighter, so the air column to sea level weighs less than the ISA column, and the actual-temperature value (QFF) is lower than QNH. So QNH is more than 1016 hPa.
+
+50. Which of the following is true concerning atmospheric pressure?
+a. It always decreases with height at a rate of 1 hPa per 8m
+b. It decreases with height
+c. It is higher in winter than in summer
+d. It is higher at night than during the day
+Explanation: Pressure always falls with height because there is less air above. The rate is not constant (about 1 hPa per 8 m only near sea level), and winter or night are not always higher in pressure.
+
+51. The upper wind and temperature chart of 250 hPa corresponds, in a standard atmosphere, to about
+a. 32 000 FT
+*b. 34 000 FT
+c. 39 000 FT
+d. 30 000 FT
+Explanation: 250 hPa is at about 34,000 ft (FL 340), between 300 hPa at about FL 300 and 200 hPa at about FL 390.
+
+52. What positions are connected by isobars on the surface weather chart?
+a. Positions with the same relative pressure heights
+*b. Positions with the same air pressure at a given level
+c. Positions with the same temperature at a given level
+d. Positions with the same wind velocity at a given level
+Explanation: Isobars join places with equal pressure, and on a surface chart that level is mean sea level. Lines of equal temperature are isotherms and lines of equal wind speed are isotachs.
+
+53. How would you characterize an air temperature of -30°C at the 300 hPa level over Western Europe?
+a. Within +/- 5°C of ISA
+b. Low
+c. Very low
+*d. High
+Explanation: ISA at 300 hPa (about FL 300) is -45°C. -30°C is 15°C warmer than ISA, which is high.
+
+54. The QFF at an airfield in California located 69 meters below sea level is 1030 hPa. The air temperature is 10°C lower than a standard atmosphere. What is the QNH?
+a. 1030 hPa
+b. It is not possible to give a definitive answer
+*c. More than 1030 hPa
+d. Less than 1030 hPa
+Explanation: For a station below sea level the reduction subtracts the air column between the station and sea level. Cold air is denser, so the actual-temperature value (QFF) subtracts more and is lower than QNH. So QNH is more than 1030 hPa.
+
+55. What is the approximate vertical interval which is equal to a pressure change of 1 hPa at an altitude of 5500m?
+a. 8 m (27 FT).
+b. 32 m (105 FT).
+c. 64 m (210 FT).
+*d. 15 m (50 FT).
+Explanation: Pressure falls more slowly higher up, so 1 hPa is about 8 m (27 ft) near sea level, about 15 m (50 ft) at 5500 m, and about 30 m near FL 300.
+
+56. The greater the pressure gradient the
+a. Closer the isobars and the lower the temperatures
+b. Further the isobars will be apart and the higher the temperature
+*c. Closer the isobars and the stronger the wind
+d. Further the isobars will be apart and the weaker the wind
+Explanation: A large pressure gradient means a big pressure change over a short distance, so the isobars are close together and the wind is strong. Memory aid: close isobars, strong wind.
+
+57. When planning a flight at FL 110, which upper wind and temperature chart would be nearest your flight level?
+*a. 700 hPa
+b. 850 hPa
+c. 300 hPa
+d. 500 hPa
+Explanation: 700 hPa is about FL 100, which is the closest to FL 110. 500 hPa is about FL 180, which is much higher.
+
+58. The QNH at an airfield in California located 69 meters below sea level is 1018 hPa. The air temperature is 10°C higher than a standard atmosphere. What is the QFF?
+a. 1018 hPa
+b. It is not possible to give a definitive answer
+*c. More than 1018 hPa
+d. Less than 1018 hPa
+Explanation: For a station below sea level the reduction subtracts the air column. Warm air is lighter, so the actual-temperature value (QFF) subtracts less and is higher than QNH. So QFF is more than 1018 hPa.
+
+59. The QNH at an airfield located 0 meters above sea level is 1022 hPa. The air temperature is not available. What is the QFF?
+a. It is not possible to give a definitive answer
+*b. 1022 hPa
+c. Less than 1022 hPa
+d. More than 1022 hPa
+Explanation: At sea level there is no air column to reduce, so station pressure, QNH and QFF are all the same: 1022 hPa. The temperature is not needed.
+
+60. In what hPa range is an upper weather chart for FL 340 situated?
+a. 400 - 300 hPa
+b. 500 - 400 hPa
+c. 600 - 500 hPa
+*d. 300 - 200 hPa
+Explanation: FL 340 is 250 hPa, which lies between 300 hPa (about FL 300) and 200 hPa (about FL 390), so in the 300 - 200 hPa range.
+
+61. If you are flying at FL 100 in air mass that is 10°C warmer than a standard atmosphere , what is the outside temperature likely to be?
+a. -10°C
+b. -15°C
+*c. +5°C
+d. +15°C
+Explanation: ISA at FL 100 = 15 - (2 x 10) = -5°C. In air 10°C warmer: -5 + 10 = +5°C.
+
+62. In the troposphere the decrease of pressure per 100 m increase in height
+*a. Is smaller at higher levels than at lower levels.
+b. Remains constant at all levels
+c. Is greater at higher levels than at lower levels.
+d. Is in the order of 27 hPa near MSL.
+Explanation: The air is thinner higher up and weighs less, so pressure drops by a smaller amount per 100 m at height than near the ground. Near MSL the fall is about 12 hPa per 100 m, not 27 hPa.
+
+63. The QFF at an airfield located 400 meters above sea level is 1016 hPa. The air temperature is 10°C lower than a standard atmosphere. What is the QNH?
+a. More than 1016 hPa
+b. 1016 hPa
+c. It is not possible to give a definitive answer
+*d. Less than 1016 hPa
+Explanation: Cold air is denser, so the actual-temperature column adds more pressure than the ISA column and QFF is higher than QNH. So QNH is less than 1016 hPa.
+
+64. Isobars on a surface chart are lines of equal
+*a. QFF
+b. QFE
+c. QNE
+d. QNH
+Explanation: Surface charts use pressure reduced to mean sea level with the actual temperature, which is QFF, so the isobars join places of equal QFF. QFE is pressure at the airfield and QNE is the standard setting.
+
+65. A 200 hPa pressure altitude level can vary in height. In temperate regions which of the following average heights is applicable?
+a. FL 100.
+b. FL 50.
+*c. FL 390.
+d. FL 300.
+Explanation: 200 hPa is at about 11,800 m, which is about FL 390. Memory aid: 850 = FL 50, 700 = FL 100, 500 = FL 180, 300 = FL 300, 250 = FL 340, 200 = FL 390.
+
+66. If you are planning a flight at FL 290, which of these upper wind and temperature charts would be nearest your flight level?
+a. 850 hPa
+*b. 300 hPa
+c. 500 hPa
+d. 700 hPa
+Explanation: 300 hPa is about FL 300, which is the closest to FL 290. 500 hPa is about FL 180, which is much lower.
+
+67. A 300 hPa pressure level can vary in height. In temperate regions which of the following average heights is applicable?
+a. FL 100
+b. FL 50
+*c. FL 300
+d. FL 390
+Explanation: 300 hPa is at about 9000 m, which is about FL 300. Memory aid: 850 = FL 50, 700 = FL 100, 500 = FL 180, 300 = FL 300, 250 = FL 340, 200 = FL 390.
+
+68. The QNH at an airfield located 200 metres above sea level is 1009 hPa. The air temperature is 10°C lower than a standard atmosphere. What is the QFF?
+a. Less than 1009 hPa
+b. It is not possible to give a definitive answer
+*c. More than 1009 hPa
+d. 1009 hPa
+Explanation: Cold air is denser, so the actual-temperature column adds more pressure than the ISA column. So QFF is higher than QNH, which is more than 1009 hPa.
+
+69. Which constant pressure altitude chart is standard for a 30,065 FT pressure level (FL 300)?
+a. 200 hPa
+b. 700 hPa
+c. 500 hPa
+*d. 300 hPa
+Explanation: 300 hPa is at about 30,065 ft, which is FL 300. Memory aid: 850 = FL 50, 700 = FL 100, 500 = FL 180, 300 = FL 300, 250 = FL 340, 200 = FL 390.
+
+70. Which constant pressure altitude chart is standard for a 9882 FT pressure level (FL 100)?
+*a. 700 hPa
+b. 850 hPa
+c. 500 hPa
+d. 300 hPa
+Explanation: 700 hPa is at about 9882 ft, which is FL 100. Memory aid: 850 = FL 50, 700 = FL 100, 500 = FL 180, 300 = FL 300, 250 = FL 340, 200 = FL 390.
+
+71. The isobars drawn on a surface weather chart represent lines of equal pressure
+a. At flight level
+b. At height of observatory
+c. At a determined density altitude
+*d. Reduced to sea level
+Explanation: Stations are at different heights, so their pressures are first reduced to mean sea level before the isobars are drawn. Otherwise the chart would just show differences in station height.
+
+72. If the pressure surfaces bulge upwards in all levels then the pressure system is a
+a. Cold low
+b. Cold high
+c. Warm low
+*d. Warm high
+Explanation: Pressure surfaces that bulge upward at all levels mean high pressure at every level, and that happens in a warm high, where the warm air column is deep. A cold high weakens with height and becomes a low aloft.
+
+73. When isobars, for an area in the mid-latitudes on a weather map, are close together, the wind is most likely to be
+a. Changing direction rapidly
+b. Light
+*c. Strong
+d. Blowing perpendicular to this isobar
+Explanation: Close isobars mean a large pressure gradient, which gives strong wind. The wind blows nearly parallel to the isobars, not across them.
+
+74. Subsidence is:
+a. Vertically upward motion of air
+b. The same as convection
+*c. Vertically downward motion of air
+d. Horizontal motion of air
+Explanation: Subsidence is the slow, large-scale sinking of air, mainly in high pressure areas. Convection is upward motion and advection is horizontal motion.
+
+75. The isobars drawn on a surface weather chart represent lines of equal pressure
+a. At flight level
+b. At height of observatory
+c. At a determined density altitude
+*d. Reduced to sea level
+Explanation: Isobars on a surface chart join places of equal pressure after it is reduced to mean sea level (QFF). This is the same as question 71.
+
+76. Areas of sinking air are generally cloudless because as air sinks it
+a. Loses water vapour
+*b. Is heated by compression
+c. Reaches warmer layers
+d. Is heated by expansion
+Explanation: Sinking air is compressed by the higher pressure below and warms adiabatically. The warmer air is further from saturation, so any cloud evaporates. Warming here is from compression, not expansion.
+
+77. What type of air movement is associated with the centre line of a trough?
+a. Divergence with descending air.
+b. Divergence with lifting.
+c. Convergence with descending air.
+*d. Convergence with lifting.
+Explanation: Air converges toward the low pressure of a trough at the surface and has nowhere to go but up, so there is lifting, cloud and rain. Memory aid: trough, converge and rise.
+
+78. Extensive cloud and precipitation is often associated with a non-frontal thermal depression because of:
+a. Surface divergence and upper level convergence causing widespread descent of air in the depression
+b. Surface divergence and upper level convergence causing widespread ascent of air in the depression
+*c. Surface convergence and upper level divergence causing widespread ascent of air in the depression
+d. Surface convergence and upper level divergence causing widespread descent of air in the depression
+Explanation: In a depression air converges at the surface and diverges aloft, so air rises over a wide area and makes extensive cloud and rain. Descent would give clear weather.
+
+79. A trough of low pressure on a surface synoptic chart is an area of
+a. Convergence and subsidence
+*b. Convergence and widespread ascent
+c. Divergence and subsidence
+d. Divergence and widespread ascent
+Explanation: A trough is a low pressure feature, so air converges at the surface and rises, giving cloud and rain. Subsidence belongs to high pressure.
+
+80. How do air masses move at a warm front?
+a. Cold air overrides a warm air mass
+b. Cold air undercuts a warm air mass
+c. Warm air undercuts a cold air mass
+*d. Warm air overrides a cold air mass
+Explanation: At a warm front the warm air is lighter, so it slides up and over the retreating cold air. A cold front is the opposite, where cold air undercuts the warm air.
+
+81. In temperate latitudes what weather conditions may be expected over land during the summer in the centre of a stationary high pressure zone?
+a. Thick low level cloud.
+*b. Calm winds, haze.
+c. Showers and thunderstorms.
+d. Cumulus clouds and thunderstorms.
+Explanation: In the centre of a high the isobars are far apart, so the wind is calm, and subsidence keeps the sky mostly clear. The sinking air traps dust and pollution under an inversion, which gives haze.
+
+82. What surface weather is associated with a stationary high pressure region over land in the winter?
+a. Thick stratus with continuous rain.
+b. The possibility of snow showers.
+*c. A tendency for fog and low stratus.
+d. Thunderstorms.
+Explanation: In a winter high the nights are long, clear and calm, so the ground cools by radiation and fog and low stratus form under the subsidence inversion. They can last all day.
+
+83. What is the correct term for the descending air flow in a large high-pressure area?
+a. Convection.
+*b. Subsidence.
+c. Convergence.
+d. Advection.
+Explanation: The sinking air in a high pressure area is called subsidence. Convection is rising air, convergence is air flowing together, and advection is horizontal movement.
+
+84. Which of the following is a common result of subsidence?
+a. Clear air turbulence at high altitudes.
+*b. An inversion over a large area with poor visibility.
+c. CB-clouds and thunderstorms over a large area.
+d. Wide spread NS and AS clouds and intense precipitation.
+Explanation: Sinking air warms by compression and forms a subsidence inversion, which traps haze and smoke beneath it and cuts visibility. Cloud and storms need rising air, not sinking air.
+
+85. What is the most likely cause of a lack of clouds at higher levels in a stationary high?
+a. Divergence at higher levels
+*b. Sinking air
+c. Rising air
+d. Instability
+Explanation: Sinking air warms and dries as it descends, so cloud cannot form. Rising air or instability would produce cloud.
+
+86. Divergence in the upper air results, near the surface, in
+a. Falling pressure and likely dissipation of clouds
+*b. Falling pressure and likely formation of clouds
+c. Rising pressure and likely formation of clouds
+d. Rising pressure and likely dissipation of clouds
+Explanation: When air spreads out aloft, air is removed from the column, so surface pressure falls. Air then converges and rises at the surface, which forms cloud.
+
+87. Where are you likely to find the strongest winds close to the ground?
+a. Where there is little variation in pressure over a large area during the winter months
+b. In the transition zone between two air masses
+*c. At the centre of a low-pressure system.
+d. At the centre of a high-pressure system.
+Explanation: Wind strength depends on the pressure gradient. NOTE: book key (the highlight) says c, but the winds are normally light at the centre of a low, and the strongest winds are in the transition zone between two air masses (option b), where the isobars are closest.
+
+88. A blocking anticyclone on the northern hemisphere is
+*a. A warm anticyclone/quasi stationary/situated between 50°N and 70°N
+b. Quasi stationary/situated between 50°N and 70°N,/a cold anticyclone
+c. Situated between 50°N and 70°N/a cold anticyclone/ steering depressions
+d. A cold anticyclone/steering depressions/situated over Scandinavia
+Explanation: A blocking high is warm, almost stationary and sits at about 50°N to 70°N, where it blocks the normal west-to-east movement of depressions and forces them to go round it. The other options call it cold or say it steers depressions.
+
+89. In an area of converging air
+a. Clouds can not be formed
+*b. Clouds can be formed
+c. Convective clouds can be dissolved
+d. Stratified clouds can be dissolved
+Explanation: Converging air has nowhere to go but upward, and rising air cools and forms cloud. Cloud dissolves in sinking (diverging) air, not in converging air.
+
+90. Consider the following statements relative to Air Density and select the one which is correct:
+a. Because air density increases with decrease of temperature, air density must increase with increase of height in the International Standard Atmosphere (ISA).
+*b. At any given surface temperature, the air density will be greater in anticyclonic conditions than it will be when the MSL pressure is lower.
+c. Air density increases with increase of relative humidity.
+d. The effect of change of temperature on the air density is much greater than the effect of change of atmospheric pressure.
+Explanation: Density is proportional to pressure divided by temperature, so at the same temperature the higher pressure of an anticyclone gives the greater density. Density falls with height in ISA, so option a is wrong, and moist air is lighter, so option c is wrong.
+
+91. The tropopause in mid latitudes is:
+a. Lower in summer with a lower temperature.
+*b. Lower in winter with a higher temperature.
+c. Lower in summer with a higher temperature.
+d. Lower in winter with a lower temperature.
+Explanation: In winter the air is colder and less convection reaches high, so the tropopause is lower and, because a low tropopause is warmer, its temperature is higher. In summer it is higher and colder.
+
+92. Generally, as altitude increases:
+a. Temperature decreases and density increases
+*b. Temperature, pressure and density decreases
+c. Temperature and pressure increase and density decreases
+d. Temperature decreases and pressure density increases
+Explanation: In the troposphere temperature, pressure and density all fall with height. Density never increases with height because there is less air above pressing down.
+
+93. In the troposphere:
+a. Over cold air, the pressure is higher at upper levels than at similar levels over warm air
+*b. Over cold air, the pressure is lower at upper levels than at similar levels over warm air
+c. Over warm air, the pressure is lower at upper levels than at similar levels over warm air
+d. The upper-level pressure depends solely on the relative humidity below
+Explanation: Cold air is dense, so pressure falls quickly with height over cold air and is lower aloft than over warm air. This is why warm air gives high thickness and cold air gives low thickness. NOTE: option c is printed with "warm" twice in the source, and I kept it as printed.
+
+94. Density at the surface will be low when:
+a. Pressure is high and temperature is high.
+b. Pressure is high and temperature is low.
+c. Pressure is low and temperature is low.
+*d. Pressure is low and temperature is high.
+Explanation: Density goes up with pressure and down with temperature. Low pressure and high temperature together give the lowest density, which is bad for engine and wing performance.
+
+95. At FL 180, the air temperature is -35°C. The air density at this level is:
+a. Equal to the density of the ISA atmosphere at FL 180.
+b. Unable to be determined without knowing the QNH.
+*c. Greater than the density of the ISA atmosphere at FL 180.
+d. Less than the density of the ISA atmosphere at FL 180.
+Explanation: ISA at FL 180 = 15 - (2 x 18) = -21°C. -35°C is colder than ISA, and colder air is denser, so the density is greater. The QNH is not needed because FL is a pressure level.
+
+96. Under what condition does pressure altitude have the same value as density altitude?
+a. At sea level when the temperature is 0°C
+b. When the altimeter has no position error.
+c. When the altimeter setting is 1013.2 hPa.
+*d. At standard temperature.
+Explanation: Density altitude is pressure altitude corrected for temperature. When the temperature equals the ISA value for that altitude there is no correction, so the two are the same.
+
+97. When flying at FL 180 in the Southern Hemisphere you experience a left crosswind. What is happening to your true altitude if indicated altitude is constant?
+a. Remains the same
+*b. Increasing
+c. Decreasing
+d. Impossible to tell
+Explanation: In the Southern Hemisphere, with your back to the wind low pressure is on your right, so a left crosswind means the low is behind you and the high is ahead. Flying from low to high pressure makes true altitude increase. Memory aid: from high to low, look out below.
+
+98. Which of these would cause your true altitude to decrease with a constant indicated altitude?
+*a. Cold air/low pressure
+b. Hot air/low pressure
+c. Cold air/high pressure
+d. Hot air/high pressure
+Explanation: Both cold air and flying toward low pressure make the true altitude lower than the indicated altitude. Memory aid: from high to low, or hot to cold, look out below.
+
+99. An aircraft flying in the Alps on a very cold day, RPS 1013 set in the altimeter, flies level with the summit of the mountains. Altitude from aneroid altimeter reads:
+a. Same as mountain elevation.
+b. Lower than mountain elevation.
+*c. Higher than mountain elevation.
+d. Impossible to determine
+Explanation: On a very cold day the air is dense and the altimeter over-reads, so the true altitude is lower than the indicated one. When the aircraft is level with the summit (true altitude equals the elevation), the indicated altitude is higher than the elevation.
+
+100. You are flying in an atmosphere which is warmer than ISA, what might you expect?
+a. True altitude to be the same as indicated altitude
+b. True altitude to be lower than indicated altitude
+c. True altitude to be the decreasing
+*d. True altitude to be higher than indicated altitude
+Explanation: In warm air the pressure levels are stretched upward, so the altimeter under-reads and the true altitude is higher than the indicated altitude. In cold air it is the opposite.
+`);
+registerChapterText("aviation-meteorology", "test-paper-02", "Test paper-02 (100qns)", `
+1. The QNH is 1030 hPa and at the Transition Level you set the SPS. What happens to your indicated altitude (assume 27 ft per 1 hPa)?
+*a. Drops by 459 ft
+b. Rises by 459 ft
+c. No change
+d. Rises
+Explanation: The SPS is 1013 hPa, which is 1030 - 1013 = 17 hPa lower than QNH, so 17 x 27 = 459 ft and the altimeter drops. Memory aid: set a lower pressure and the altimeter reads lower.
+
+2. If you are flying on a QNH 1009 on very cold day and you circle the top of a peak in the Alps, your altimeter will read
+a. The same as the elevation of the peak
+b. Lower than the elevation of the peak
+*c. Higher than the elevation of the peak
+d. Not enough information to tell
+Explanation: Cold air is dense, so pressure falls quickly with height and the altimeter over-reads, so you are lower than indicated. At the peak's true height it therefore reads higher than the elevation. Memory aid: "High to low, look out below" and "cold = lower than indicated".
+
+3. QFE is 1000 hPa with an air field elevation of 200 m AMSL. What is QNH? (use 8 m per hPa)
+a. 975 hPa
+*b. 1025 hPa
+c. 1008 hPa
+d. 992 hPa
+Explanation: 200 m / 8 m per hPa = 25 hPa, and QNH must be higher than QFE for an airfield above sea level, so QNH = 1000 + 25 = 1025 hPa.
+
+4. Which of the following is true?
+a. Always more than 1013.25 hPa
+b. Always less than 1013.25 hPa
+*c. Never 1013.25 hPa
+d. Can never be above or below 1013 hPa
+Explanation: The book key is c, because 1013.25 hPa is the fixed ISA standard value and real pressures are almost never exactly that. Options a, b and d are wrong because real pressure is sometimes above and sometimes below 1013. NOTE: the question has no subject (it is incomplete in the source), and strictly pressure can occasionally equal 1013.25, so treat this one as a book-key answer.
+
+5. QNH is 1030. Aerodrome is 200m AMSL. What is QFF?
+a. Higher than 1030
+b. Lower than 1030
+c. Same
+*d. Not enough info
+Explanation: QFF reduces station pressure to sea level using the actual temperature of the air column, while QNH uses ISA temperature. Without the actual temperature you cannot tell whether QFF is higher or lower, so the information is not enough.
+
+6. You are flying in the Alps at the same level as the summits on a hot day. What does the altimeter read?
+a. Same altitude as the summit
+b. Higher altitude as the summit
+*c. Lower altitude as the summit
+d. Impossible to tell
+Explanation: Hot air is less dense, so pressure falls slowly with height and the altimeter under-reads, so true altitude is higher than indicated. At the summit's true height the altimeter therefore reads lower. Memory aid: "hot = higher than indicated".
+
+7. An airfield has an elevation of 540ft with a QNH of 993mb. An aircraft descends and lands at the airfield with 1013mb set. What will its altimeter read on landing?
+a. 380 ft
+*b. 1080 ft
+c. 0 ft
+d. 540 ft
+Explanation: 1013 - 993 = 20 hPa, and 20 x 27 ft = 540 ft. With the higher setting of 1013 the altimeter reads 540 ft more than the QNH reading of 540 ft, so 540 + 540 = 1080 ft.
+
+8. What is the relationship between QFE and QNH at an airport 50 ft below MSL?
+a. QFE = QNH
+b. QFE < QNH
+*c. QFE > QNH
+d. There is no clear relationship
+Explanation: Below sea level the station pressure (QFE) is higher than the sea level pressure (QNH), because there is more air above you. Above MSL, QFE < QNH, and only at exactly MSL are they equal.
+
+9. Up to FL 180 ISA Deviation ISA + 10°C. what is the actual depth of the layer between FL 60 and FL 120?
+a. 6000 ft
+*b. 6240 ft
+c. 5760 ft
+d. 5700 ft
+Explanation: The ISA depth is 12000 - 6000 = 6000 ft, and warm air expands the layer by about 4% per 10°C above ISA, so 6000 x 1.04 = 6240 ft. Memory aid: warm = thicker, cold = thinner.
+
+10. Up to FL 180 ISA Deviation is ISA -10°C. What is the actual depth of the layer between FL 60 and FL 120?
+a. 6000 ft
+b. 6240 ft
+*c. 5760 ft
+d. 5700 ft
+Explanation: The ISA depth is 6000 ft, and cold air shrinks the layer by about 4% per 10°C below ISA, so 6000 x 0.96 = 5760 ft. Memory aid: cold = thinner.
+
+11. What condition would cause your indicated altitude to be lower than that being actually flown?
+a. Pressure lower than standard
+b. Pressure is standard
+c. Temperature lower than standard
+*d. Temperature higher than standard
+Explanation: In warm air the altimeter under-reads, so the true altitude is higher than the indicated altitude. Low pressure or cold air does the opposite and makes the altimeter over-read.
+
+12. Which statement is true?
+a. QFE is always lower than QNH
+b. QNH is always lower than QFE
+*c. QNH can be equal to QFE
+d. QFE can be equal to QFF only
+Explanation: At an airfield exactly at mean sea level QFE = QNH. Above MSL QFE is lower and below MSL it is higher, so "always" statements in a and b are wrong.
+
+13. You fly from east to west at the 500 hPa level in the Northern Hemisphere.
+*a. If the wind is from the north there will be a gain in altitude
+b. If the wind is from the south there is a gain in altitude
+c. If you encounter northerly drift, there is a gain in altitude
+d. You fly towards an area of lower pressure, and therefore, experience a loss in altitude.
+Explanation: In the Northern Hemisphere, with your back to the wind low pressure is on your left, so a north wind puts low pressure to the east and high pressure to the west. Flying west you head into higher pressure, so the pressure surface rises and you gain altitude. Memory aid: "from high to low, look out below", so low to high gives a gain.
+
+14. Convective activity over land in mid-latitudes is greatest in
+a. Summer during the night and early morning.
+b. Winter in the afternoon.
+*c. Summer in the afternoon.
+d. Winter during the night and early morning.
+Explanation: Convection needs strong surface heating, which is greatest on summer afternoons when the ground is hottest.
+
+15. Several physical processes contribute to atmospheric warming. Which of the following contribute the most?
+a. Absorption and vaporization.
+b. Absorption and evaporation.
+*c. Convection and condensation.
+d. Solar radiation and conduction.
+Explanation: The book key is c: the atmosphere is mostly warmed indirectly, as the ground heats the air by convection and condensation releases latent heat. Solar radiation passes mostly straight through the air, and conduction is very weak because air is a poor conductor.
+
+16. The temperature at FL 160 is -22°C what will the temperature be at FL 90 if the ICAO standard lapse rate is applied?
+a. +4°C
+*b. -8°C
+c. -4°C
+d. 0°C
+Explanation: FL160 to FL90 is 7000 ft lower, and 7 x 2°C = 14°C of warming, so -22 + 14 = -8°C. The standard lapse rate is about 2°C per 1000 ft.
+
+17. The morning following a clear, calm night when the temperature has dropped to the dew point, is likely to produce
+a. A cold front
+b. Haze
+c. Good clear weather
+*d. Radiation fog
+Explanation: A clear calm night lets the ground cool strongly by radiation, and when the temperature reaches the dew point the air saturates and radiation fog forms.
+
+18. The environmental lapse rate in an actual atmosphere
+a. Has a fixed value of 2°C/1000 FT
+*b. Varies with time
+c. Has a fixed value of 1°C/100m
+d. Has a fixed value of 0.65°C/100m
+Explanation: The ELR is the real temperature change with height, and it changes with place and time. The fixed values (2°C/1000 ft, 0.65°C/100 m) belong to the ISA, and 1°C/100 m is the DALR.
+
+19. An isothermal layer is a layer of air in which the temperature
+a. Decreases with height at a constant rate
+b. Increases with height at a constant rate
+*c. Remains constant with height
+d. Increase with height
+Explanation: "Iso" means equal and "thermal" means temperature, so the temperature stays the same with height.
+
+20. Around Paris on January 3rd at 1800 UTC, the surface temperature, under shelter, is 3°C. The sky is covered by 8 oktas of stratus. QNH is 1033 hPa. If the sky is covered all night, minimum temperature of the night of January 3rd to January 4th should be
+*a. Slightly below +3°C
+b. Significantly below 0°C
+c. Significantly above +3°C
+Explanation: Overcast cloud acts like a blanket and stops the ground radiating its heat away, so the temperature falls only a little. Significant cooling (b) needs a clear sky, and there is no source of warming to make it significantly higher (c).
+
+21. An inversion is a layer of air in which the temperature
+a. Remains constant with height
+b. Increases with height more than 1°C/100 m
+c. Decreases with height more than 1°C/100m
+*d. Increases with height
+Explanation: Normally air cools with height, so an inversion reverses this and the temperature increases with height. There is no minimum rate of increase, so option b is wrong.
+
+22. An inversion is
+a. A decrease of pressure with height
+b. A decrease of temperature with height
+*c. An increase of temperature with height
+d. An increase of pressure with height
+Explanation: An inversion is a temperature feature: the temperature rises with height instead of falling. Pressure always decreases with height.
+
+23. On a clear sky, continental ground surface, wind calm, the minimum temperature is reached approximately
+a. One hour before sunrise
+*b. Half an hour after sunrise
+c. Half an hour before sunrise
+d. At the moment the sun rises
+Explanation: The ground keeps losing heat until incoming solar radiation exceeds the outgoing radiation, which happens a little after the sun rises, so the minimum is reached about half an hour after sunrise.
+
+24. The radiation of the sun heats
+a. The air in the troposphere only directly if no clouds are present
+*b. The surface of the earth, which heats the air in the troposphere
+c. The air in the troposphere directly
+d. The water vapour in the air of the troposphere
+Explanation: Short-wave solar radiation passes through the air almost unabsorbed and heats the ground. The warm ground then heats the air above by conduction, convection and long-wave radiation.
+
+25. Which of the following is a common cause of ground or surface temperature inversion?
+*a. Terrestrial radiation on a clear night with no or very light winds.
+b. Warm air being lifted rapidly aloft, in the vicinity of mountainous terrain.
+c. The movement of colder air under warm air, or the movement of warm air over cold air.
+d. Heating of the air by subsidence
+Explanation: On a clear calm night the ground cools by radiation and chills the air touching it, so the surface layer becomes colder than the air above. Subsidence (d) gives an inversion aloft, not at the surface.
+
+26. The diurnal variation in temperature is least when the sky is
+a. Clear and winds are weak
+b. Clear and winds are strong
+c. Overcast and winds are weak
+*d. Overcast and winds are strong
+Explanation: Cloud cuts heating by day and traps heat at night, and strong wind mixes the air so that surface differences do not build up, so the daily range is smallest.
+
+27. What is the technical term for an increase in temperature with altitude?
+a. Advection
+*b. Inversion
+c. Subsidence
+d. Adiabatic
+Explanation: Temperature increasing with height is called an inversion. Advection is horizontal movement of air and subsidence is sinking air.
+
+28. The diurnal variation in temperature is largest when the sky is
+*a. Clear and winds are weak
+b. clear and winds are strong
+c. overcast and winds are weak
+d. overcast and winds are strong
+Explanation: A clear sky gives strong heating by day and strong cooling by night, and weak wind means little mixing, so the day-night difference is the greatest.
+
+29. If you are flying at FL 100 in an air mass that is 10°C warmer than a standard atmosphere, what is the outside temperature likely to be?
+a. -10°C
+b. -15°C
+*c. +5°C
+d. +15°C
+Explanation: ISA at FL100 = 15 - (2 x 10) = -5°C, and the air is 10°C warmer, so -5 + 10 = +5°C.
+
+30. In the International Standard Atmosphere, the decrease in temperature with height below 11 km is
+a. 0.6°C per 100m
+*b. 0.65°C per 100m
+c. 1°C per 100m
+d. 0.5°C per 100m
+Explanation: The ISA lapse rate in the troposphere is 0.65°C per 100 m, which is about 2°C per 1000 ft. The 1°C per 100 m figure is the dry adiabatic rate, not the ISA.
+
+31. Relative humidity depends on
+a. Moisture content of the air only
+b. Temperature of the air only
+*c. Moisture content and temperature of the air
+d. Moisture content and pressure of the air
+Explanation: Relative humidity compares the water vapour present with the most the air could hold at that temperature, so it depends on both moisture content and temperature.
+
+32. When a given mass of air descends, what effect will it have on relative humidity?
+a. It increases.
+b. Remains constant.
+c. It increases up to 100%, and then remains stable.
+*d. It decreases.
+Explanation: Descending air is compressed and warms, so it can hold more vapour while the actual vapour stays the same, and relative humidity falls. That is why cloud dissolves in sinking air.
+
+33. What does dewpoint mean?
+a. The freezing level (danger of icing)
+b. The temperature at which the relative humidity and saturation vapour pressure are the same.
+*c. The temperature to which a mass of air must be cooled in order to reach saturation.
+d. The temperature at which ice melts.
+Explanation: The dew point is the temperature at which air becomes saturated when cooled at constant pressure and moisture content, so relative humidity becomes 100%.
+
+34. Relative humidity at a given temperature is the relation between:
+a. Water vapour weight and humid air volume
+b. Dew point and air temperature
+*c. Actual water vapour content and saturated water vapour content
+d. Water vapour weight and dry air weight
+Explanation: Relative humidity = actual vapour content / saturated vapour content at that temperature x 100%. Option a describes absolute humidity and d describes mixing ratio.
+
+35. The maximum amount of water vapour that the air can contain depends on the:
+*a. Air temperature
+b. Relative humidity
+c. Stability of the air
+d. Dewpoint
+Explanation: Warm air can hold much more water vapour than cold air, so the maximum (saturation) amount depends on the air temperature.
+
+36. Which of the following changes of state is knows as sublimation?
+a. Solid direct to liquid
+b. Liquid direct to solid
+c. Liquid direct to vapour
+*d. Solid direct to vapor
+Explanation: Sublimation is going straight from solid to vapour, with no liquid stage, for example ice turning to vapour. Solid to liquid is melting and liquid to solid is freezing.
+
+37. When water evaporates into unsaturated air:
+*a. Heat is absorbed
+b. Heat is released
+c. Relative humidity is not changed
+d. Relative humidity is decreased
+Explanation: Evaporation takes latent heat from the surroundings, so heat is absorbed. The air also gains vapour, so relative humidity increases (c and d are wrong).
+
+38. Which of the following statements is true of the dew point of an air mass?
+*a. It can only be equal to, or lower, than the temperature of the air mass
+b. It can be higher than the temperature of the air mass
+c. It can be used together with the air pressure to estimate the air mass's relative humidity
+d. It can be used to estimate the air mass's relative humidity even if the air temperature is unknown
+Explanation: The dew point is the temperature at which air saturates, so it cannot be above the air temperature. It is equal at saturation and lower otherwise. You need the air temperature as well to find relative humidity.
+
+39. The process by which water vapour is transformed directly into ice is known as:
+*a. Sublimation
+b. Supercooling
+c. Supersaturation
+d. Radiation cooling
+Explanation: Aviation texts use sublimation for a direct change between vapour and ice, as when frost forms. Supercooling is liquid below 0°C and supersaturation is relative humidity above 100%. Strictly, vapour to ice is also called deposition, but it is not among the options.
+
+40. During the late afternoon an air temperature of +12°C and a dew point of +5°C were measured. What temperature change must occur during the night in order to induce saturation?
+a. It must decrease to +7°C
+*b. It must decrease to +5°C
+c. It must decrease to 5°C
+d. It must decrease to +6°C
+Explanation: Air saturates when it cools to its dew point, which is +5°C. The dew point stays the same as long as the moisture does not change.
+
+41. Dew point is defined as:
+a. The temperature below which the change of state in a given volume of air will result in the absorption of latent heat
+*b. The temperature to which moist air must be cooled to become saturated at a given pressure
+c. The lowest temperature at which evaporation will occur for a given pressure
+d. The lowest temperature to which air must be cooled in order to reduce the relative humidity
+Explanation: The dew point is the temperature to which air must be cooled, at constant pressure, to become saturated. Option d is cut off in the source, so it was completed here.
+
+42. How, if at all, is the relative humidity of an unsaturated air mass influenced by temperature changes?
+a. It increase with increasing temperature.
+b. It is only influenced by the amount of water vapour
+*c. It decreases with increasing temperature.
+d. It is not influenced by temperature changes.
+Explanation: Warm air can hold more vapour, so if the moisture stays the same, warming lowers the relative humidity and cooling raises it.
+
+43. Relative humidity.
+*a. Increases if the air is cooled whilst maintaining the vapour pressure constant
+b. Is higher in warm air than in cool air
+c. Is higher in cool air than in warm air
+d. Decreases if the air is cooled whilst maintaining the vapour pressure constant
+Explanation: Cooling lowers the amount the air can hold while the vapour stays the same, so relative humidity rises. Options b and c are wrong because temperature alone does not decide relative humidity.
+
+44. In which of the following changes of state is latent heat released?
+*a. Gas to liquid
+b. Solid to liquid
+c. Solid to gas
+d. Liquid to gas
+Explanation: Condensation (gas to liquid) releases latent heat. Melting, sublimation and evaporation all absorb heat. Memory aid: heat is released when going toward the colder, more ordered state.
+
+45. The dewpoint temperature:
+*a. Can be reached by cooling the air whilst keeping pressure constant
+b. Can be reached by lowering the pressure whilst keeping temperature constant
+c. Can not be equal to the air temperature
+d. Can not be lower than air temperature
+Explanation: Cooling air at constant pressure brings it to its dew point. Option c is wrong because the dew point equals the temperature when the air is saturated, and option d is wrong because it is normally lower.
+
+46. Which of the following is the definition of relative humidity?
+a. Ratio between water vapour pressure and atmospheric pressure x 100
+b. Ratio between water vapour (g) and air (kg) X 100
+*c. Ratio between the actual mixing ratio and the saturation mixing ratio X 100
+d. Ratio between air temperature and dewpoint temperature X 100
+Explanation: Relative humidity is the actual mixing ratio divided by the saturation mixing ratio at that temperature, times 100%. Option b describes the mixing ratio itself.
+
+47. The difference between temperature and dewpoint is greater in:
+a. Moist air
+b. Air with high temperature
+c. Air with low temperature
+*d. Dry air
+Explanation: The temperature minus dew point spread measures how far air is from saturation. Dry air has a large spread and moist air has a small one.
+
+48. A parcel of moist but not saturated air rises due to adiabatic affects. Which of the following changes?
+a. Mixing ratio
+b. Specific humidity
+*c. Relative humidity
+d. Absolute humidity
+Explanation: As the parcel rises it expands and cools, so relative humidity increases. Mixing ratio and specific humidity do not change because no moisture is added or removed. Absolute humidity changes with volume, but relative humidity is the intended answer.
+
+49. Relative humidity:
+a. Does not change when water vapour is added provided the temperature of the air remains constant.
+*b. Changes when water vapour is added, even though the temperature remains constant.
+c. Is not affected when air is ascending or descending.
+d. Is not affected by temperature changes of the air.
+Explanation: Adding vapour at constant temperature moves the air closer to saturation, so relative humidity rises. Rising or descending air and temperature changes also alter relative humidity.
+
+50. The relative humidity of a sample air mass is 50%. How is the relative humidity of this air mass influenced by changes of the amount of water vapour in it?
+a. It decreases with increasing water vapour
+b. It is only influenced by temperature.
+*c. It increases with increasing water vapour.
+d. It is not influenced by changing water vapour.
+Explanation: More vapour in the same air at the same temperature means it holds a larger share of its maximum, so relative humidity increases.
+
+51. How does relative humidity and the dewpoint in an unsaturated air mass change with varying temperature?
+*a. When temperature increases, the relative humidity decreases, and the dewpoint remains constant.
+b. When temperature increases, the relative humidity increases, and the dewpoint decreases.
+c. When temperature decreases, the relative humidity decreases, and the dewpoint increases.
+d. When temperature decreases, the relative humidity and the dewpoint remains constant.
+Explanation: Warming raises the amount the air can hold, so relative humidity falls. The dew point depends only on the moisture content, so it stays constant. In d, relative humidity would rise on cooling, not stay constant.
+
+52. In which layer is most of the atmospheric humidity concentrated?
+a. Stratosphere
+b. Stratopause
+*c. Troposphere
+d. Tropopause.
+Explanation: Water vapour comes from evaporation at the surface and most is in the lowest layer, the troposphere, where nearly all cloud and weather happens.
+
+53. The dewpoint temperature
+a. Cannot be equal to the air temperature
+*b. Can be equal to the air temperature
+c. Is always lower than the air temperature
+d. Is always higher than the air temperature
+Explanation: When the air is saturated (RH 100%, fog or cloud), the dew point equals the air temperature. Otherwise it is lower, and it can never be higher.
+
+54. If the ELR is 0.65°C/100m
+a. Atmosphere is conditionally stable
+b. Atmosphere is absolutely stable
+c. Atmosphere is absolutely unstable
+*d. Atmosphere is stable when dry
+Explanation: 0.65°C/100 m is less than the DALR (1°C/100 m), so dry air is stable. It is more than the SALR (about 0.3 to 0.5), so saturated air is unstable. The layer is stable when dry and unstable when saturated, which is conditional instability.
+
+55. ELR is 1°C/100m
+*a. Neutral when dry
+b. Absolute stability
+c. Absolute instability
+d. Conditional stability
+Explanation: The DALR is 1°C/100 m, so an ELR equal to it is neutral for dry air. A lifted parcel cools at the same rate as its surroundings and has no tendency to rise or sink.
+
+56. Why does air cool as it rises?
+a. It expands
+b. It contracts
+c. The air is colder at higher latitudes
+*d. The air is colder at higher altitudes
+Explanation: The book key is d (the air is colder at higher altitudes). NOTE: book key says d, but the physical reason a rising parcel cools is that it expands as pressure falls, so a looks like the better answer. Marked as the book key says.
+
+57. From which of the following can the stability of the atmosphere be determined?
+a. Surface pressure
+b. Surface temperature
+c. DALR
+*d. ELR
+Explanation: Stability comes from comparing the environmental lapse rate (ELR) with the parcel's adiabatic rates. The DALR is a fixed value, so only the ELR tells you the state of the atmosphere.
+
+58. The rate of cooling of ascending saturated air is less than the rate of cooling of ascending unsaturated air because:
+a. Water vapour doesn't cool as rapidly as dry air.
+b. Water vapour absorbs the incoming heat from the sun
+*c. Heat is released during the condensation process
+d. Moist air is heavier than dry air
+Explanation: In saturated rising air the vapour condenses and releases latent heat, which offsets some of the cooling, so the SALR is less than the DALR.
+
+59. The temperature at the surface is 15°C, the temperature at 1000m is 13°C. Is the atmosphere
+a. Unstable
+b. Conditionally unstable
+*c. Stable
+d. Cannot tell
+Explanation: The ELR is (15 - 13) / 10 = 0.2°C per 100 m, which is less than both the SALR and the DALR, so the air is absolutely stable.
+
+60. Which of the following gives conditionally unstable conditions when saturated?
+a. 1°C/100m
+*b. 0.65°C/100m
+c. 0.49°C/100m
+d. None of the above
+Explanation: Conditional instability needs an ELR between the SALR (about 0.3 to 0.5) and the DALR (1.0). 0.65°C/100 m is in that range. 1°C/100 m is neutral when dry.
+
+61. A mass of unsaturated air is forced to rise till just under the condensation level. It then settles back to its original position.
+a. Temp. is greater than before
+*b. Temp. Stays the same.
+c. Temp. Is less than before.
+d. It depends on QFE
+Explanation: Unsaturated air cools at the DALR going up and warms at the same DALR coming down, and no latent heat was involved, so it ends at its original temperature.
+
+62. What happens to the stability of the atmosphere in an inversion? (Temp increasing with height)
+*a. Absolutely stable
+b. Unstable
+c. Conditionally stable
+d. Conditionally unstable
+Explanation: In an inversion the air above is warmer than the air below, so a lifted parcel is always cooler and denser than its surroundings and sinks back. That is absolute stability.
+
+63. What happens to stability of the atmosphere in an isothermal layer? (Temp constant with height)
+*a. Absolutely stable
+b. Unstable
+c. Conditionally stable
+d. Conditionally unstable
+Explanation: An ELR of 0°C/100 m is less than the SALR and the DALR, so a lifted parcel always ends up colder than its surroundings. It is absolutely stable.
+
+64. What is the effect of a strong low level inversion?
+a. Good visibility
+b. Calm conditions
+*c. Windshear
+d. Unstable conditions
+Explanation: A strong low-level inversion can separate calm surface air from fast air above, giving a sharp change in wind over a short height, which is windshear. It also traps smoke and haze, so visibility is poor (a is wrong).
+
+65. A layer of air can be
+a. Conditional; unstable when unsaturated and stable when saturated
+*b. Conditional; unstable when saturated and stable when unsaturated
+c. Neutrally stable when saturated and unstable when unsaturated
+d. All of the above
+Explanation: Conditional instability means the ELR lies between the SALR and DALR, so the layer is stable if unsaturated but unstable if saturated. Option a has it the wrong way round.
+
+66. What happens to the temperature of a saturated air mass when forced to descend?
+a. It heats up more than dry because of expansion
+*b. It heats up less than dry because of evaporation
+c. It heats up more than dry because of sublimation
+d. It heats up less than dry because of latent heat released during condensation
+Explanation: Descending air is compressed and warms, and any cloud droplets in it evaporate, which absorbs latent heat, so it warms less than dry air (at the SALR). Option d is wrong because condensation happens on ascent, not descent.
+
+67. In still air a lapse rate of 1.2°C/100 m refers to:
+a. DALR
+b. SALR
+*c. ELR
+d. ALR
+Explanation: A real measured lapse rate is an ELR. The DALR is fixed at 1°C/100 m and the SALR is lower, so 1.2°C/100 m can only be an actual environment value (a superadiabatic layer).
+
+68. What happens to the temperature of a saturated air mass when descending?
+a. It heats up more than dry because of expansion
+*b. It heats up less than dry because of evaporation
+c. It heats up more than dry because of compression
+d. It heats up less than dry because of latent heat released during condensation
+Explanation: It warms by compression but cloud droplets evaporate and absorb latent heat, so it warms less than dry air. Condensation (d) happens in rising air.
+
+69. The DALR is
+a. Variable with time
+*b. Fixed
+c. Variable with latitude
+d. Variable with temperature
+Explanation: The dry adiabatic lapse rate is a constant of physics, about 1°C/100 m or 3°C/1000 ft. The SALR varies with temperature and moisture, and the ELR varies with time and place.
+
+70. A parcel of air cooling by more than 1°C/100m is said to be?
+a. Conditionally stable
+b. Conditionally unstable
+*c. Unstable
+d. Stable
+Explanation: If the environment cools faster than the DALR (1°C/100 m), a lifted parcel is always warmer than its surroundings, so it keeps rising. That is absolute instability.
+
+71. During an adiabatic process heat is
+a. Lost
+b. Added but the result is an overall loss
+*c. Neither added nor lost
+d. Added
+Explanation: "Adiabatic" means no heat is exchanged with the surroundings. The temperature changes only because the air expands or is compressed.
+
+72. In unstable air, surface visibility is most likely to be restricted by
+a. Haze
+b. Drizzle
+c. Low stratus
+*d. Showers of rain or snow
+Explanation: Unstable air gives cumuliform cloud and showers, which cut the visibility locally. Haze, drizzle and low stratus belong to stable air.
+
+73. In an unstable layer there are cumuliform clouds. The vertical extent of these clouds depends on the
+*a. Thickness of the unstable layer
+b. Wind direction
+c. Air pressure at the surface
+d. Pressure at different levels
+Explanation: Convective cloud grows upward as long as the air stays unstable, so its height depends on how deep the unstable layer is.
+
+74. In an air mass with no clouds the surface temperature is 15°C and 13°C at 1000 m. The layer of air is:
+*a. Stable
+b. Unstable
+c. A layer of heavy turbulence
+d. Conditionally unstable
+Explanation: The ELR is 2°C per 1000 m = 0.2°C/100 m, which is less than the SALR and DALR, so the layer is stable.
+
+75. The stability in a layer is increasing if
+*a. Warm air is advected in the upper part and cold air in the lower part
+b. Warm air is advected in the lower part and cold air in the upper part
+c. Warm and moist air is advected in the lower part
+d. Cold and dry air is advected in the upper part
+Explanation: Warm air above and cold air below reduces the ELR, so the layer becomes more stable (heading toward an inversion). The opposite arrangement steepens the ELR and reduces stability.
+
+76. When warm air is advected in the lower part of a cold layer of air:
+a. Stability increases in the layer
+*b. Stability decreases in the layer
+c. Stability will remain the same
+d. Stability will be conditional
+Explanation: Warming the bottom of the layer steepens the lapse rate, so the layer becomes less stable.
+
+77. In central Europe, where are the greatest wind speeds?
+*a. Tropopause level
+b. 5500m
+c. Where the air converges
+d. Above the Alps
+Explanation: The jet streams sit near the tropopause, so that is where the strongest winds are found.
+
+78. Standing in the Northern Hemisphere, north of a polar frontal depression travelling west to east, the wind will
+a. Continually veer
+*b. Continually back
+c. Back then veer
+d. Veer then back
+Explanation: Winds circulate anticlockwise round a Northern Hemisphere low. As the low passes to the south of you, the wind goes from southeast to east to northeast, which is a continual backing. Memory aid: in the Northern Hemisphere, north of the track means backing and south of the track means veering.
+
+79. ATC will only report wind as gusting if:
+a. Gust speeds exceeds mean speed by > 15kts
+b. Gust to over 25kts
+*c. Gusts exceeds mean speed by 10kts
+d. Gusts to over 25kts
+Explanation: Gusts are reported when the peak wind exceeds the mean speed by 10 kt or more. The key is c, and a, b and d do not match this criterion.
+
+80. What is a land breeze?
+*a. From land over water at night
+b. From land over sea by day
+c. From sea over land by night
+d. From sea over land by day
+Explanation: At night the land cools faster than the sea, so the air over the sea is warmer and rises, and air flows from the land to the sea. Memory aid: a breeze is named after where it blows FROM.
+
+81. When heading South in the Southern Hemisphere you experience Starboard drift:
+a. You are flying towards a lower temperature
+*b. You are flying away from a lower temperature
+c. You are flying towards a low pressure
+d. You are flying out of a high
+Explanation: Starboard drift means the wind is from your left (east). In the Southern Hemisphere, with your back to the wind, low pressure is on your right, so it lies to the north. At altitude the low is also the colder side, so flying south takes you away from the lower temperature and toward high pressure.
+
+82. The gradient wind is more than geostrophic wind around an anticyclone because the:
+*a. Centrifugal force is added to the pressure gradient
+b. Centrifugal force opposes the pressure gradient
+c. Effect of coriolis is added to friction
+d. Coriolis effect opposes the centrifugal force
+Explanation: Around a high the pressure gradient force and the centrifugal force both act outward and are balanced by Coriolis, so Coriolis must be larger, which means a faster wind. Around a low the centrifugal force opposes the gradient and the wind is slower.
+
+83. What is the Bora?
+*a. Cold katabatic wind over the Adriatic
+b. Northerly wind blowing from the Mediterranean
+c. Warm anabatic wind blowing to the Mediterranean
+d. An anabatic wind in the Rockies
+Explanation: The Bora is a cold, strong, gusty katabatic wind that blows down from the mountains to the Adriatic coast. It is not warm and not anabatic.
+
+84. Flying from an area of low pressure in the Southern Hemisphere at low altitudes, where is the wind coming from?
+a. Right and slightly on the nose
+b. Left and slightly on the tail
+*c. Left and slightly on the nose
+d. Right and slightly on the tail
+Explanation: In the Southern Hemisphere, with your back to the wind, low pressure is on your right. With the low behind you the wind comes from your left. At low level friction turns the wind toward the low, so it also gains a headwind component and comes from the left and slightly ahead.
+
+85. What causes the Geostrophic wind to be stronger than the gradient wind around a low?
+a. Centrifugal force adds to the gradient force
+*b. Centrifugal force opposes the gradient force
+c. Coriolis force adds to the gradient force
+d. Coriolis force opposes the centrifugal force
+Explanation: Around a low the pressure gradient force acts inward, and Coriolis and the centrifugal force act outward. Coriolis is therefore smaller than in the straight geostrophic case, so the gradient wind is slower than the geostrophic wind.
+
+86. A METAR for Paris gave the surface wind at 260/20. Wind at 2000ft is most likely to be:
+a. 260°/15
+b. 210°/30
+*c. 290°/40
+d. 175°/15
+Explanation: In the Northern Hemisphere the wind veers (turns clockwise) and strengthens with height as friction decreases. Only 290°/40 is veered and faster than 260/20, whereas 210° is backed and 175° is far too backed.
+
+87. A large pressure gradient is shown by:
+a. Closely spaced isobars - low temperature
+b. Distant spaced isobars - high temperature
+*c. Close spaced isobars - strong winds
+d. Close spaced isobars - light winds
+Explanation: A large pressure gradient means isobars packed close together, and that gives strong winds. Memory aid: close isobars = strong wind.
+
+88. Where would you expect to find the strongest wind on the ground in temperate latitudes?
+*a. In an area of low pressure
+b. In an area of High pressure
+c. In the Warm air between two fronts
+d. In a weak anticyclone
+Explanation: Lows in temperate latitudes have the tightest pressure gradients, so they give the strongest surface winds. Highs and warm sectors usually have light or moderate winds.
+
+89. At a coastal airfield, with the runway parallel to the coastline. You are downwind over the sea with the runway to your right. On a warm summer afternoon, what would you expect the wind to be on finals?
+*a. Crosswind from the right
+b. Headwind
+c. Tailwind
+d. Crosswind from the left
+Explanation: On a warm afternoon there is a sea breeze, blowing from the sea to the land. With the sea on your left on the downwind leg, the wind comes from the left, and after turning 180° onto finals the sea is on your right, so the wind is a crosswind from the right.
+
+90. What causes wind?
+*a. Difference in pressure
+b. Rotation of the earth
+c. Frontal systems
+d. Difference in temperature
+Explanation: Air moves because of pressure differences (the pressure gradient force). Temperature differences cause the pressure differences, and the earth's rotation only changes the direction of the wind.
+
+91. If flying in the Alps with a Foehn effect from the south
+*a. Clouds will be covering the southern passes of the Alps
+b. CAT on the northern side
+c. Wind veering and gusting on the northern side
+d. Convective weather on the southern passes of the Alps
+Explanation: In a south Foehn the moist air is forced up the southern (windward) side, so cloud builds and covers the southern passes. The air then descends warm and dry on the northern side.
+
+92. Comparing the surface wind to the 3000 ft wind
+a. Surface wind veers and is less then the 3000ft wind
+b. Surface wind blows along the isobars and is less than the 3000ft wind
+*c. Surface wind blows across the isobars and is less than the 3000ft wind
+d. Both are the same
+Explanation: Friction slows the surface wind and turns it across the isobars toward low pressure, while the wind at 3000 ft is almost along the isobars. The surface wind is therefore weaker, and it is backed (not veered) in the Northern Hemisphere.
+
+93. The Geostrophic Wind blows at your flight level in the Northern Hemisphere. The true altitude and indicated altitude remain constant. The crosswind is
+a. From the left
+b. From the right
+*c. No crosswind
+d. Impossible to determine
+Explanation: Constant true and indicated altitude means the pressure surface is level along your track, so there is no pressure gradient across your track. The wind is therefore along the track and there is no crosswind.
+
+94. With all other things being equal with a high and a low having constantly spaced circular isobars. Where is the wind the fastest?
+*a. Anticyclonic
+b. Cyclonic
+c. Where the isobars are closest together
+d. Wherever the PGF is greatest.
+Explanation: With the same pressure gradient, the gradient wind is stronger round a high because the centrifugal force adds to the pressure gradient and Coriolis must balance both. Round a low it is slower.
+
+95. Foehn winds are
+a. Cold fall wind
+b. Cold katabatic
+*c. Warm descending winds
+d. Warm anabatic
+Explanation: A Foehn is a warm, dry wind that descends on the lee side of a mountain. It warms at the DALR on the way down after losing moisture on the windward side.
+
+96. What is the effect of a mountain valley wind?
+*a. It blows down a mountain to a valley at night
+b. It blows down a mountain to a valley during the day
+c. It blows from a valley up a mountain by day
+d. It blows from a valley up a mountain at night
+Explanation: The book key is a: at night the slopes cool and the dense air drains down to the valley (a katabatic or mountain wind). NOTE: the question is ambiguous, because c (valley wind up the slope by day) is also a true description of the valley wind. Marked as the book key says.
+
+97. What is the difference between Gradient and Geostrophic winds?
+a. Difference in temperatures
+b. A lot of friction
+*c. Curved isobars and straight isobars
+d. Different latitudes and densities
+Explanation: The geostrophic wind assumes straight isobars, while the gradient wind applies to curved isobars and includes the centrifugal force. Neither includes friction.
+
+98. What prevents air from flowing directly from a high to a low pressure
+a. Centripetal force
+b. Centrifugal force
+c. Pressure force
+*d. Coriolis force
+Explanation: The Coriolis force turns moving air to the right in the Northern Hemisphere (left in the Southern), so the wind blows along the isobars instead of straight across them.
+
+99. What is the relationship between the 5000 ft wind and the surface wind in the southern hemisphere
+a. Surface winds are veered from the 5000ft and have the same speed
+b. Surface winds are backed from the 5000ft and have the slower speed
+*c. Surface winds are veered from the 5000 ft and have a slower speed
+d. Surface winds are backed from the 5000ft and have a faster speed
+Explanation: Friction slows the surface wind and turns it toward low pressure. In the Southern Hemisphere low pressure is on the right of the wind, so the surface wind is veered (the opposite of the Northern Hemisphere, where it backs) and slower.
+
+100. What is the relationship between the 2000 ft wind and the surface wind in the Northern Hemisphere
+a. Surface winds blow across isobars towards a high
+b. Surface winds blow parallel to isobars
+*c. Surface winds blow across isobars towards a low
+d. Surface winds have laminar flow
+Explanation: Friction reduces the Coriolis force at the surface, so the pressure gradient force pulls the wind across the isobars toward low pressure. Memory aid: surface wind spirals in toward a low (convergence) and out of a high.
+`);
+registerChapterText("aviation-meteorology", "test-paper-03", "Test paper-03 (100qns)", `
+1. Wind is caused by?
+a. Mixing of fronts
+*b. Horizontal pressure difference
+c. Earth rotation
+d. Surface friction
+Explanation: Air moves from high to low pressure because of a horizontal pressure difference (the pressure gradient force); Coriolis and friction only change the direction and speed afterwards.
+
+2. For the same pressure gradient at 50°N, 60°N and 40°N, the geostrophic wind speed is?
+a. Greatest at 60°N
+b. Least at 50°N
+*c. Greatest at 40°N
+d. The same at all latitudes
+Explanation: Geostrophic speed is inversely proportional to sin(latitude): sin 40° = 0.64, sin 50° = 0.77, sin 60° = 0.87, so the smallest sine (40°N) gives the strongest wind. Memory aid: lower latitude = weaker Coriolis = faster wind for the same gradient.
+
+3. The wind in the Northern Hemisphere at the surface and above the friction layer at 2000 ft would be?
+a. Veered at the surface, veered above the friction layer
+*b. Backed at the surface, veered above the friction layer
+c. Veered at the surface, backed above the friction layer
+d. Backed at the surface, backed above the friction layer
+Explanation: Friction reduces Coriolis so surface wind blows across the isobars towards low pressure, i.e. backed compared with the geostrophic wind; above the friction layer the wind is geostrophic, so going up the wind veers.
+
+4. Where are easterly and westerly jets found?
+*a. Northern hemisphere only
+b. Southern hemisphere only
+c. Northern and southern hemisphere
+d. There are no easterly jets
+Explanation: Book key is a. NOTE: book key says a (Northern hemisphere only), but westerly jet streams also exist in the Southern Hemisphere, so c could be argued; the only true easterly jet (tropical easterly jet) is a Northern Hemisphere summer feature over Asia and Africa.
+
+5. In a high-pressure system
+a. The winds tend to be stronger in the morning.
+b. The angle between the isobars and the wind direction is greater in the afternoon
+c. The winds tend to be stronger at night.
+*d. The winds tend to be stronger in early afternoon.
+Explanation: Daytime heating mixes faster upper air down to the surface, so surface wind is strongest in the early afternoon; at night the surface layer decouples and wind drops, and the angle to the isobars is smaller by day, not greater.
+
+6. An aircraft is flying East to West in the Northern Hemisphere. What is happening to his altitude?
+a. Flying into a headwind will decrease altitude
+b. If the wind is from the south, he will gain altitude
+*c. If the wind is from the north, he will gain altitude
+d. Tailwind will increase altitude.
+Explanation: Heading west with a north wind gives left drift, and in the Northern Hemisphere left drift means you are flying towards higher pressure; with the altimeter setting unchanged, the true altitude increases. Memory aid: from high to low, look out below.
+
+7. Where would an anemometer be placed?
+a. Close to station, 2m above ground
+b. On the roof of the station
+*c. 10m above aerodrome elevation on a mast
+d. Next to the runway, 1m above ground
+Explanation: The standard exposure for measuring surface wind is 10 m above the ground (aerodrome elevation) on a mast in an open, unobstructed position.
+
+8. Which of the following is an example of a Foehn wind?
+a. Bora
+b. Harmattan
+*c. Chinook
+d. Ghibli
+Explanation: A Foehn is a warm dry downslope wind on the lee of mountains; the Chinook (Rockies) is the classic example, while Bora is a cold katabatic wind and Harmattan and Ghibli are hot dry desert winds.
+
+9. Wind at altitude is usually given as ……… in ……….
+a. True, m/s
+b. Magnetic, m/s
+*c. True, KT
+d. Magnetic, KT
+Explanation: Upper winds in forecasts and charts are given as direction in degrees True and speed in knots; only surface wind given by ATC for take-off and landing is in degrees Magnetic.
+
+10. If you fly with left drift in the Northern Hemisphere, what is happening to surface pressure?
+*a. Increases
+b. Decrease
+c. Stays the same
+d. Cannot tell
+Explanation: In the Northern Hemisphere wind circulates clockwise around highs, so left drift means you are heading towards higher pressure and surface pressure is increasing. Memory aid: left drift, pressure up; right drift, pressure down.
+
+11. What cloud does hail fall from?
+*a. Cb
+b. Ns
+c. Cu
+d. Ci
+Explanation: Hail needs strong updrafts to carry water droplets repeatedly up into freezing levels, which only happens in cumulonimbus (Cb).
+
+12. Flying conditions in Ci cloud and horizontal visibility
+a. Less than 500m vis, light/mod clear icing
+b. Greater than 1000m vis, light/mod rime ice
+c. Less than 500m vis, no icing
+*d. Greater than 1000m vis, no icing
+Explanation: Ci is made of ice crystals high in the atmosphere, so there is no airframe icing and visibility inside is fairly good (greater than 1000 m).
+
+13. What is the composition of Ci cloud?
+a. Super cooled water droplets
+*b. Ice crystals
+c. Water droplets
+d. Smoke particles
+Explanation: Cirrus forms at very low temperatures (high level), so it consists of ice crystals only.
+
+14. What cloud types are classified as medium cloud?
+a. Ns + Sc
+*b. Ac + As
+c. Cb + St
+d. Ci + Cs
+Explanation: Medium cloud has the prefix Alto: altocumulus (Ac) and altostratus (As); Ci and Cs are high, Sc and St are low.
+
+15. What type of cloud is associated with drizzle?
+*a. St
+b. Cb
+c. Ci
+d. Ac
+Explanation: Drizzle falls from thick, low, stable stratus (St) with small droplets; Cb gives showers and Ci and Ac give no precipitation reaching the ground.
+
+16. Fair weather cumulus gives an indication of
+a. Poor visibility
+b. Thunderstorms
+*c. Turbulence
+d. Smooth flying below
+Explanation: Fair weather Cu forms in thermals, which means rising and sinking air and therefore bumpy (turbulent) flying below and in the cloud; visibility is usually good and there is no thunderstorm risk.
+
+17. What are lenticularis clouds a possible indication of?
+*a. Mountain waves
+b. Instability
+c. Developing Cu and Cb
+d. Horizontal wind shear in the upper atmosphere
+Explanation: Lens-shaped lenticular clouds form at the crests of standing lee waves, so they warn of mountain waves and turbulence.
+
+18. In what cloud is icing and turbulence most severe?
+*a. Cb
+b. Ns
+c. Sc
+d. Ci
+Explanation: Cumulonimbus has strong updrafts and downdrafts and large amounts of supercooled water, giving the most severe turbulence and icing.
+
+19. What will snow most likely fall from?
+*a. Ns
+b. Ci
+c. Cs
+d. Ac
+Explanation: Snow is continuous precipitation from thick layer cloud, and of the options only nimbostratus (Ns) produces precipitation that reaches the ground.
+
+20. Clouds classified as low level are considered to have a base height of:
+a. 500 – 1000ft
+b. 1000 – 2000ft
+*c. The surface – 6500ft
+d. 100 – 200ft
+Explanation: Low cloud bases lie from the surface up to about 6500 ft (2000 m), medium from 6500 to 23000 ft and high above that.
+
+21. In a tropical downpour the visibility is sometimes reduced to:
+a. 1000 m
+b. 500 m
+c. 200 m
+*d. Less than 100 m
+Explanation: Very heavy tropical rain can cut visibility to less than 100 m.
+
+22. What type of cloud is usually found at high level?
+a. St
+b. Ac
+*c. Cc
+d. Ns
+Explanation: High cloud has the prefix Cirro: cirrus (Ci), cirrocumulus (Cc) and cirrostratus (Cs); St and Ns are low-level and Ac is medium.
+
+23. Altostratus is
+a. A low level cloud
+*b. A medium level cloud
+c. A high level cloud
+d. A heap type cloud
+Explanation: Alto means medium level, and stratus means layered, so altostratus is a medium-level layer cloud.
+
+24. What would be reflected to radar?
+a. Fog
+*b. Hail
+c. Cloud
+d. Mist
+Explanation: Weather radar needs large droplets or hail to return an echo; fog, mist and ordinary cloud droplets are too small, and hail returns a strong echo.
+
+25. Which of the following clouds may extend into more than one layer?
+a. Stratus.
+b. Altocumulus.
+c. Cirrus.
+*d. Nimbostratus.
+Explanation: Nimbostratus is a thick layer cloud whose base is low or medium but whose top often reaches medium level, so it can span more than one level.
+
+26. Which cloud would you encounter the most intensive rain?
+a. Ci
+*b. Ns
+c. St
+d. Sc
+Explanation: Of the options only nimbostratus gives heavy, continuous rain; Ci gives none, St gives drizzle and Sc gives at most light rain.
+
+27. CB cloud in summer contains
+a. Water droplets
+b. Ice crystals
+*c. Water droplets, ice crystals and super cooled water droplets
+d. Water droplets and ice crystals
+Explanation: A tall Cb has water droplets in the lower part, supercooled droplets in the middle and ice crystals in the top, so all three are present.
+
+28. Which cloud would produce showers?
+a. NS
+b. AS
+c. CS
+*d. CB
+Explanation: Showers are short and intense precipitation from convective cloud, and of the options only cumulonimbus is convective.
+
+29. When would you mostly likely get fair weather Cu?
+*a. 15:00
+b. 12:00
+c. 17:00
+d. 07:00
+Explanation: NOTE: book key says d (07:00), but fair weather Cu is driven by daytime heating and is normally best developed in the early afternoon, so a (15:00) would be expected; it is marked d as per the highlight.
+
+30. What type of cloud extends into another level?
+a. As
+b. Acc
+*c. Ns
+d. Ci
+Explanation: Nimbostratus is thick enough to extend from low into medium level; As, Acc and Ci normally stay in their own level.
+
+31. Ceilometers measure
+a. RVR
+*b. Cloud height
+c. Met Vis
+d. Turbulence
+Explanation: A ceilometer shines a light or laser beam upward and measures the height of the cloud base.
+
+32. Which of the following will indicate medium level instability, possibly leading to thunderstorms?
+a. Halo
+*b. Altocumulus Castellanus
+c. Altocumulus capillatus
+d. Red Cirrus
+Explanation: Castellanus means turret-shaped, and altocumulus castellanus shows instability at medium level that can develop into thunderstorms.
+
+33. What is the base of alto cumulus in summer?
+a. 0 – 1500’
+b. 1500 – 7000’
+c. 7000 – 15000’
+*d. 7000 – 16500’
+Explanation: Medium cloud such as altocumulus has a base from about 7000 ft up to about 16500 ft in summer, according to the book key.
+
+34. When a CC layer lies over a West European plain in summer, with a mean terrain height of 500 m above sea level, the average cloud base could be expected
+a. 0 – 100 ft above ground level
+b. 5000 – 15000 ft above ground level
+c. 15000 – 25000 ft above ground level
+*d. 15000 – 35000 ft above ground level
+Explanation: CC (cirrocumulus) is a high cloud, so its base is high in the troposphere, taken here as roughly 15000 to 35000 ft above ground.
+
+35. Which of the following cloud types can stretch across all three cloud levels (low, medium and high level)?
+a. CL
+b. ST
+c. AC
+*d. CB
+Explanation: Cumulonimbus has a low base and often a top at high level, so it can reach through all three levels.
+
+36. Which of the following cloud types can stretch across at least two cloud levels?
+a. ST
+*b. NS
+c. CI
+d. SC
+Explanation: Nimbostratus is a deep layer cloud that extends from low into medium level; ST, CI and SC stay in one level.
+
+37. From which cloud do you get hail?
+a. Sc
+*b. Cb
+c. Ns
+d. Ts
+Explanation: Hail is formed by repeated lifting in the strong updrafts of cumulonimbus; Ts is not a cloud type.
+
+38. If you see Alto Cu Castellanus what does it indicate?
+a. The upper atmosphere is stable
+b. Subsidence
+c. Instability in the lower atmosphere
+*d. Middle level instability
+Explanation: Castellanus turrets on altocumulus mean instability at the medium level, not in the lower atmosphere.
+
+39. To dissipate cloud
+*a. Subsidence
+b. Decrease in temperature
+c. Increase pressure
+d. Convection
+Explanation: Sinking air warms by compression, so relative humidity falls and cloud evaporates; cooling and convection create cloud instead.
+
+40. Cu is an indication of
+*a. Vertical movement of air
+b. Stability
+c. The approach of a warm front
+d. The approach of a cold front
+Explanation: Cumulus is heap cloud formed by rising air (convection), so it shows vertical movement and an unstable atmosphere.
+
+41. Which clouds are evidence of stable air?
+*a. St, As
+b. Cb, Cc
+c. Cu, Ns
+d. Cu, Cb
+Explanation: Stratiform (layered) clouds such as St and As are signs of stable air, while Cu and Cb are heap clouds formed in unstable air.
+
+42. Lack of cloud at low level in a stationary high is due to:
+a. Instability
+b. Rising air
+*c. Sinking air
+d. Divergence at high level
+Explanation: In a high the air descends and warms by compression, which dries it and stops low cloud forming.
+
+43. What is the most common freezing precipitation?
+a. Freezing pellets
+*b. Freezing rain and freezing drizzle
+c. Freezing graupel
+d. Freezing hail and freezing snow
+Explanation: Freezing rain and freezing drizzle (supercooled liquid drops that freeze on contact) are the common types of freezing precipitation and are a serious icing hazard.
+
+44. From which of the following clouds are you least likely to get precipitation in summer?
+a. CS/NS
+*b. CS/AS
+c. CB/CU
+d. CU/ST
+Explanation: Cs gives no precipitation and As gives at most very light precipitation that rarely reaches the ground in summer; the other pairs include Ns, Cb or St, which do produce precipitation.
+
+45. A layer of air cooling at the SALR compared to the DALR would give what kind of cloud?
+*a. Stratus if saturated
+b. Cumulus if saturated
+c. No cloud if saturated
+d. Convective cloud
+Explanation: Book key is a: a stable layer being cooled gives layered (stratiform) cloud such as stratus once it is saturated, whereas cumulus and convective cloud need unstable air.
+
+46. Over flat dry land what would cause cloud?
+a. Orographic uplift.
+*b. Convective uplift during the day
+c. Release of latent heat.
+d. Advection.
+Explanation: Flat land has no hills for orographic lifting, so daytime heating causing convective uplift is the cause of cloud.
+
+47. What is the approximate maximum diameter of a microburst?
+a. 20km
+b. 50 km
+*c. 4 km
+d. 400 m
+Explanation: A microburst is a small, intense downdraft with a maximum diameter of about 4 km.
+
+48. Which of the following causes echoes on meteorological radar screens?
+a. Water vapour
+b. Fog
+c. Any cloud
+*d. Hail
+Explanation: Radar echoes need large particles like raindrops or hail; water vapour, fog and small cloud droplets are too small to be seen.
+
+49. What are the requirements for the formation of a thunderstorm?
+a. A stratocumulus cloud with sufficient moisture
+b. A cumulus cloud with sufficient moisture associated with an inversion
+*c. An adequate supply of moisture, conditional instability and a lifting action
+d. Water vapour and high pressure
+Explanation: Three ingredients are needed: moisture, conditionally unstable air and a trigger that lifts it; an inversion or high pressure would suppress it.
+
+50. A microburst
+a. Occurs only in tropical areas
+*b. Has a diameter up to 4 km
+c. Has a life time of more than 30 minutes
+d. Is always associated with thunderstorms
+Explanation: A microburst is up to 4 km across, lasts only a few minutes, and can occur outside the tropics and sometimes beneath non-thunderstorm cloud.
+
+51. In Central Europe when is the greatest likelihood for thunderstorms due to warm updrafts?
+a. Late morning.
+*b. Mid- afternoon.
+c. Around midnight.
+d. Early morning.
+Explanation: Heating of the ground is greatest in the mid-afternoon, so thermal (air mass) thunderstorms peak then.
+
+52. Which of the following statements describes a microburst?
+a. A high-speed downdraft of air with a higher temperature than its surroundings
+b. An extremely strong wind gust associated with a tropical revolving storm
+c. A small low-pressure system where the wind circulates at high speed
+*d. A high-speed downburst of air with a generally lower temperature than its surroundings
+Explanation: A microburst is a concentrated downdraft of cold, dense air that spreads out violently when it hits the ground, causing severe wind shear.
+
+53. Which thunderstorms move forward the fastest?
+a. Thunderstorms formed by lifting processes.
+b. Thermal thunderstorms
+c. Orographic thunderstorms
+*d. Frontal thunderstorms
+Explanation: Frontal thunderstorms move with the front (especially a fast cold front), while thermal and orographic storms tend to stay near where they form.
+
+54. In addition to a lifting action, what are two other conditions necessary for thunderstorm
+a. Stable conditions and low atmospheric pressure
+b. Unstable conditions and low atmospheric pressure
+*c. Unstable conditions and high moisture content
+d. Stable conditions and high moisture content
+Explanation: A thunderstorm needs unstable air and plenty of moisture as well as a lifting trigger; stable air would damp the vertical growth.
+
+55. Aircraft struck by lightning may sometimes get considerable damage and at least temporarily the manoeuvring of the aircraft will be made more difficult. Which one of the following statements is correct?
+*a. Aircraft made by composite material may get severe damage, the crew may be blinded and temporarily lose the hearing.
+b. An aircraft made by metal has a certain capacity to attract a lightning, but the lightning will follow the surface and therefore no damage will be caused.
+c. An aircraft has in the atmosphere the same qualities as a Faraday's cage, which means that struck of lightning seldom occurs. But if it happens, the result will be an occasional engine failure. The Crew may get a shock.
+d. Aircraft made by composite material can't conduct a lightning and will therefore very seldom be struck.
+Explanation: Composites conduct less well than metal and can be damaged more, and a strike can cause temporary blindness and hearing loss; options b, c and d wrongly claim that no damage occurs or that strikes are rare.
+
+56. Which thunderstorms generally develop in the afternoon in summer over land in moderate latitudes?
+*a. Air mass thunderstorms
+b. Warm front thunderstorms
+c. Cold mass thunderstorms
+d. Occlusion thunderstorms
+Explanation: Air mass (thermal) thunderstorms are caused by daytime heating, so they develop in the afternoon over land in summer, unlike the frontal types.
+
+57. How long does a typical microburst last?
+a. 1 to 2 hours.
+b. About 30 minutes.
+*c. 1 to 5 minutes.
+d. Less than 1 minute.
+Explanation: A microburst is short-lived, typically 1 to 5 minutes, which makes it very hard to forecast.
+
+58. An airborne weather radar installation makes it possible to detect the location of
+a. All clouds
+b. Cumulonimbus, but provided that cloud of this type is accompanied by falls of hail
+c. Stratocumulus and its vertical development
+*d. Zones of precipitation, particularly liquid-state precipitation, and also their intensity
+Explanation: Weather radar detects precipitation particles (mainly liquid drops) and how heavy they are, not cloud itself.
+
+59. Which of the statements is true concerning squall lines?
+a. Severe squall lines always move from northwest to southeast
+*b. For severe squall lines a SIGMET is issued
+c. Severe squall lines only occur in the tropics
+d. For severe squall lines a TAF is issued
+Explanation: A severe squall line is a hazard to aircraft en route, so a SIGMET is issued; squall lines occur at any latitude and do not always move in one direction.
+
+60. What are the meteorological prerequisites, at low level, for thunderstorms formed by lifting processes, over land?
+a. High air pressure (> 1013 hPa), high temperatures.
+b. Low temperatures, low humidity.
+c. Subsidence, inversion.
+*d. High temperatures, high humidity
+Explanation: Hot, humid air near the surface gives the instability and moisture needed; subsidence, an inversion or dry air would stop thunderstorms.
+
+61. What is a microburst?
+a. A small low-pressure system where the wind circulates with very high speeds.
+*b. A concentrated downdraft with high speeds and a lower temperature than the surrounding air.
+c. A concentrated downdraft with high speeds and a higher temperature than the surrounding air.
+d. An extremely strong wind gust in a tropical revolving storm.
+Explanation: A microburst is a small, strong downdraft of cold air, because rain cools it by evaporation and makes it heavier than the surroundings.
+
+62. The initial phase of a thunderstorm is characterized by
+*a. Continuous up draughts
+b. Continuous downdraughts
+c. Frequent lightning
+d. Rain starting at surface
+Explanation: The cumulus (initial) stage has updrafts throughout; downdrafts, rain at the surface and lightning begin only in the mature stage.
+
+63. In which stage of the life cycle of a single thunderstorm cell occur both up- and downdrafts simultaneously?
+a. Cumulus stage
+b. Dissipating stage
+c. In all stage
+*d. Mature stage
+Explanation: The mature stage is when precipitation drags air down while updrafts continue, so both exist together; this is also the most severe stage.
+
+64. What weather condition would you expect at a squall line?
+a. Fog
+b. Strong whirlwinds reaching up to higher levels
+*c. Thunderstorms
+d. Strong steady rain
+Explanation: A squall line is a line of active thunderstorms, usually ahead of a cold front, with heavy showers, gusts and turbulence.
+
+65. Thunderstorms reach their greatest intensity during the
+a. Period in which precipitation is not falling.
+*b. Mature stage.
+c. Cumulus stage.
+d. Dissipating stage.
+Explanation: The mature stage has the strongest updrafts and downdrafts, heavy rain, hail and lightning, so it is the most intense.
+
+66. A microburst phenomenon can arise in the
+a. Up draught of a cumulonimbus at the mature stage.
+b. Downdraught of a cumulonimbus at the formation stage.
+c. Up draught of a cumulonimbus at the growth stage.
+*d. Downdraught of a cumulonimbus at the mature stage.
+Explanation: A microburst is a strong downdraft, so it comes from the downdraught of a cumulonimbus in its mature stage when precipitation is falling.
+
+67. During the life cycle of a thunderstorm, which stage is characterized predominantly by downdrafts?
+a. Anvil stage
+*b. Dissipating stage
+c. Cumulus stage
+d. Mature stage
+Explanation: In the dissipating stage the updraft dies and downdrafts take over the cell; the mature stage has both and the cumulus stage has only updrafts.
+
+68. Continuous up draughts occur in a thunderstorm during the
+a. Period in which precipitation is falling
+*b. Cumulus stage.
+c. Mature stage.
+d. Dissipating stage.
+Explanation: In the cumulus stage there are only updrafts and no precipitation falls; once rain starts, downdrafts appear.
+
+69. Where is a squall line to be expected?
+a. In front of a cold front occlusion at higher levels.
+b. At the surface position of a warm front.
+*c. In front of an active cold front
+d. Behind a cold front.
+Explanation: Squall lines form in the warm sector ahead of a fast, active cold front, where the warm air is forced up violently.
+
+70. What feature is normally associated with the cumulus stage of a thunderstorm?
+*a. Continuous updraft
+b. Roll cloud
+c. Frequent lightning
+d. Rain or hail at the surface
+Explanation: The cumulus stage is a growing cloud with updrafts only; roll cloud, lightning, rain and hail belong to the mature stage.
+
+71. A gust front is
+a. Normally encountered directly below a thunderstorm
+b. Characterized by heavy lightning
+c. Another name for a cold front
+*d. Formed by the cold air outflow from a thunderstorm
+Explanation: Downdraft air spreads out at the ground as a cold outflow whose leading edge, the gust front, can be several miles ahead of the storm.
+
+72. The diameter and the life time of a typical microburst are in the order of
+a. 8 km and 5-15 minutes
+b. 12 km and 5-10 minutes
+*c. 4 km and 1-5 minutes
+d. 4 km and 30-40 minutes
+Explanation: A microburst is up to about 4 km wide and lasts roughly 1 to 5 minutes, which is why it is so dangerous on approach.
+
+73. During which stage of thunderstorm development are rotor winds characterized by roll clouds most likely to occur?
+a. Cumulus stage and mature stage.
+*b. Mature stage.
+c. Cumulus stage.
+d. Dissipating stage.
+Explanation: Roll clouds form on the gust front, which exists once strong downdrafts spread out, so they belong to the mature stage.
+
+74. Large hail stones
+a. Only occur in frontal thunderstorms
+*b. Are typically associated with severe thunderstorms
+c. Only occur in thunderstorms of mid-latitudes
+d. Are entirely composed of clear ice
+Explanation: Big hail needs very strong updrafts to keep stones aloft, which means severe thunderstorms; it is not limited to fronts or mid-latitudes, and hail has layers of clear and opaque ice.
+
+75. In which of the following areas is the highest frequency of thunderstorms encountered?
+a. Temperate
+*b. Tropical
+c. Polar
+d. Subtropical
+Explanation: The tropics have the most heat and moisture, so they have the highest thunderstorm frequency.
+
+76. Isolated thunderstorms of a local nature are generally caused by
+a. Frontal lifting (warm front)
+b. Frontal lifting (cold front)
+c. Frontal occlusion.
+*d. Thermal triggering.
+Explanation: Isolated, local (air mass) thunderstorms are triggered by surface heating (thermals) rather than by fronts.
+
+77. What is the relationship between meteorological visibility and RVR in homogeneous fog?
+*a. The met vis. is generally less than the RVR.
+b. The met vis. generally is greater than the RVR.
+c. The met vis generally is the same as the RVR
+d. There is no specific relationship between the two.
+Explanation: RVR is based on the runway lights, which are seen further in fog than unlit objects, so RVR is generally greater than met vis.
+
+78. Visibility is reduced by haze when:
+a. Small water droplets are present.
+*b. Dust particles are trapped below an inversion.
+c. A light drizzle falls.
+d. A cold front just passed.
+Explanation: Haze is dry dust and smoke particles that build up below an inversion because there is no vertical mixing; water droplets would be mist or fog.
+
+79. What is the average vertical extent of radiation fog?
+a. 2000 ft
+b. 5000 ft
+c. 10000 ft
+*d. 500 ft
+Explanation: Radiation fog is a shallow layer formed by ground cooling and is typically only about 500 ft (up to a few hundred feet) deep.
+
+80. When is the RVR reported at most airports?
+a. When the RVR decreases below 800m.
+b. When the RVR decreases below 2000m.
+*c. When the meteorological visibility decreases below 1500m
+d. When the meteorological visibility decreases below 800m
+Explanation: RVR is normally reported when the met visibility drops below 1500 m, per the book key.
+
+81. Under which of these conditions is radiation fog most likely to form?
+*a. Little or no cloud.
+b. Very dry air.
+c. Strong surface winds.
+d. Very low temperatures.
+Explanation: A clear sky lets the ground lose heat rapidly at night; with calm wind and moist air this cools the surface air to its dew point and forms fog.
+
+82. Which of the following conditions is most likely to lead to the formation of advection fog?
+a. Dry cold air moving over a warm surface
+*b. Moist warm air moving over a cold surface
+c. Moist cold air moving over a warm surface
+d. Dry warm air moving over a cold surface
+Explanation: Advection fog forms when warm moist air is carried over a colder surface, cooling it to its dew point.
+
+83. When does frontal fog, also known as mixing fog, occur?
+*a. When very humid warm air meets with very humid cold air.
+b. When very humid warm air meets with dry cold air.
+c. When very humid cold air meets with dry warm air.
+d. When very dry cold air meets with very dry warm air.
+Explanation: Mixing of two very moist air masses (warm rain falling into cold air at a front) saturates the air and forms fog.
+
+84. Flight visibility from the cockpit during approach in a tropical downpour can decrease to minimal:
+a. About 500m.
+b. About 1000m.
+*c. Tens of metres.
+d. About 200m.
+Explanation: In an intense tropical downpour the visibility from the cockpit can fall to only tens of metres.
+
+85. The most likely reason for radiation fog to dissipate or become low stratus is:
+a. An increasingly stable atmosphere
+b. Surface cooling
+c. A low level temperature inversion.
+*d. Increasing surface wind speed.
+Explanation: A stronger wind mixes the fog layer upward, lifting it into low stratus or dispersing it; stability, cooling and an inversion all help fog to stay.
+
+86. Advection fog can be formed when:
+a. Warm moist air flows over a warmer surface.
+b. Cold moist air flows over warmer water.
+*c. Warm moist air flows over a colder surface.
+d. Cold moist air flows over a warmer surface.
+Explanation: Warm moist air cooled from below by a colder surface reaches saturation, giving advection fog; cold air over warm water gives steam fog.
+
+87. Below a low level inversion visibility is often:
+*a. Moderate or poor because there is no vertical exchange.
+b. Very good at night.
+c. Very good in the early morning
+d. Moderate or poor due to heavy snow showers.
+Explanation: An inversion acts like a lid, so smoke, dust and haze build up beneath it and visibility is poor.
+
+88. Which of the following conditions is most likely to lead to the formation of steam fog (arctic smoke)?
+a. Warm air moving over cold water.
+b. The sea is warmed by strong radiation from the sun.
+c. The coastal region of the sea cools at night.
+*d. Cold air moving over warm water.
+Explanation: Steam fog forms when very cold air passes over relatively warm water; water evaporates into the cold air and condenses at once.
+
+89. Which of the following circumstances most favour the development of radiation fog?
+*a. Moist air over land during clear night with little wind.
+b. Warm moist air at the windward side of a mountain.
+c. Maritime tropical air flowing over cold sea.
+d. Advection of very cold air over much warmer sea.
+Explanation: Radiation fog needs moist air, a clear night and light wind over land; options b, c and d describe upslope, advection and steam fog.
+
+90. Which of the following statements is true concerning advection fog?
+a. It forms when unstable air is cooled adiabatically
+b. It forms slowly and disappears rapidly.
+*c. It can be formed suddenly by day or night
+d. It forms at night or the early morning.
+Explanation: Advection fog depends on wind carrying moist air over a cold surface, not on the time of day, so it can appear suddenly day or night, unlike radiation fog.
+
+91. What wind conditions, occurring just before dawn, favour the formation of fog at an airport where the temperature is 15°C and the dew point is 14°C?
+a. Westerly, 10kt variable.
+b. Easterly, 10kt.
+*c. Calm.
+d. Northerly, 10kt.
+Explanation: The temperature and dew point are only 1°C apart, so a little more cooling gives fog; calm wind lets the surface layer cool undisturbed, while 10 kt would mix the air and stop fog forming.
+
+92. Advection is:
+a. The same as convection.
+*b. Horizontal motion of air.
+c. Vertical motion of air.
+d. The same as subsidence.
+Explanation: Advection means horizontal movement of air (and its properties), while convection is vertical movement. Memory aid: Advection = Across, convection = up.
+
+93. Which of the following weather conditions favour the formation of radiation fog?
+a. Light wind, extensive cloud, dry air.
+b. Light wind, extensive cloud, moist air.
+c. Strong wind, little or no cloud moist air.
+*d. Light wind, little or no cloud, moist air.
+Explanation: Radiation fog needs a light wind (gentle mixing), clear sky (good night cooling) and moist air so that the dew point is reached.
+
+94. At what time of day, or night, is radiation fog most likely to occur?
+a. Shortly after midnight.
+*b. Shortly after sunrise.
+c. At sunset.
+d. Late evening.
+Explanation: Ground temperature is lowest around sunrise, so radiation fog is usually at its thickest then and is often at its densest shortly after sunrise before the sun burns it off.
+
+95. What conditions are most likely to lead to the formation of hill fog?
+a. High relative humidity and an unstable air mass.
+b. Clear skies, calm or light winds, with relatively low humidity
+c. Precipitation which is lifted by the action of moderate winds striking the range.
+*d. Humid stable air mass, wind blowing towards the hills.
+Explanation: Humid stable air forced up a slope cools to its dew point and forms fog (cloud) on the hill; unstable air would give cumulus instead.
+
+96. Which of the following is most likely to lead to the dissipation of radiation fog?
+a. A build up of a high pressure area resulting in adiabatic warming associated with a sinking air mass.
+*b. A marked increase in wind velocity near to the ground.
+c. A marked decrease in wind velocity close to the ground.
+d. Ground cooling caused by radiation during the night.
+Explanation: A strong wind mixes the shallow fog layer with drier air above and breaks it up; less wind or more ground cooling would keep it in place.
+
+97. What are the differences between radiation fog and advection fog?
+a. Radiation fog forms only on the ground, advection fog only on the sea.
+b. Radiation fog forms due to night cooling and advection fog due to daytime cooling.
+c. Radiation fog is formed by surface cooling in a calm wind. Advection fog is formed by evaporation over the sea.
+*d. Radiation fog forms due to surface cooling at night in a light wind. Advection fog forms when warm humid air flows over a cold surface.
+Explanation: Radiation fog comes from ground cooling on clear, light-wind nights; advection fog comes from warm moist air moving over a colder surface, so it needs wind.
+
+98. Frontal fog is most likely to occur:
+a. In winter in the early morning.
+*b. In advance of a warm front.
+c. In rear of a warm front.
+d. In summer in the early morning.
+Explanation: Frontal fog forms ahead of a warm front where warm rain falls into the cold air below and saturates it.
+
+99. While approaching your target aerodrome you receive the following message: RVR runway 23: 400m: this information indicates the:
+*a. Length of runway which a pilot in an aircraft on the ground would see, on the threshold of runway 23.
+b. Meteorological visibility on runway 23.
+c. Portion of runway which a pilot on the threshold of any of the runways would see, with runway 23 in service.
+d. Minimum visibility at this aerodrome, with runway 23 being the one in service.
+Explanation: RVR is the distance along the runway a pilot at the threshold of that runway could see markings or lights; it is not the met visibility.
+
+100. Which of the following is most likely to lead to the formation of radiation fog?
+a. Cold air passing over warm ground.
+*b. Heat loss from the ground on clear nights.
+c. Dry, warm air passing over warm ground.
+d. The passage of fronts.
+Explanation: Radiation fog forms when the ground loses heat by radiation on clear nights and cools the moist air above it to its dew point.
+`);
