@@ -6117,3 +6117,1506 @@ c. 18 260 ft
 *d. 19 340 ft
 Explanation: ISA at FL200 = 15 - 40 = -25°C, so -40°C is ISA -15. Temperature correction = 20 x 15 x 4 = 1200 ft lower. Pressure 1033 is 20 hPa high, so 20 x 27 = 540 ft higher. True altitude = 20 000 - 1200 + 540 = 19 340 ft.
 `);
+registerChapterText("aviation-meteorology", "oxford-winds", "Winds (Oxford)", `
+1. In central Europe, where are the greatest wind speeds?
+*a. Tropopause level
+b. 5500 m
+c. Where the air converges
+d. Above the Alps
+Explanation: Wind speed generally increases with height up to the tropopause, where the jet streams sit because the temperature contrast between air masses (thermal wind) is strongest. That is why the strongest winds are found at tropopause level.
+
+2. Standing in the Northern Hemisphere, north of a polar frontal depression travelling west to east, the wind will:
+a. continually veer
+*b. continually back
+c. back then veer
+d. veer then back
+Explanation: Wind circulates anticlockwise around a low in the Northern Hemisphere. As the low passes to the south, an observer to the north sees the wind change from NE through E to SE, which is backing. Memory aid: poleward of the track the wind backs, and equatorward of the track it veers.
+
+3. ATC will only report wind as gusting if:
+a. gust speeds exceeds mean speed by >15 kt
+b. gusts to over 25 kt
+*c. gusts exceeds mean speed by 10 kt
+d. gusts to over 25 kt
+Explanation: A wind is reported as gusting when the peak speed exceeds the mean speed by 10 kt or more. The size of the variation matters, not the absolute gust speed, which rules out the 25 kt options. NOTE: options b and d are identical in the source.
+
+4. What is a land breeze?
+*a. From land over water at night
+b. From land over sea by day
+c. From sea over land by night
+d. From sea over land by day
+Explanation: At night land cools faster than the sea, so the air over the sea is warmer and rises, and cooler air flows from land to sea. Memory aid: land breeze = land to sea = night. Sea breeze = sea to land = day.
+
+5. When heading south in the Southern Hemisphere you experience starboard drift:
+a. you are flying towards a lower temperature
+*b. you are flying away from a lower temperature
+c. you are flying towards a low pressure
+d. you are flying out of a high
+Explanation: Starboard drift while heading south means the wind is from the east (the left). In the Southern Hemisphere, with your back to the wind, low pressure is on your right (north), so you are flying south away from low pressure towards higher pressure. Pressure at height is higher in warm air, so you are flying away from the colder air.
+
+6. What are the factors affecting the geostrophic wind?
+*a. PGF, ρ, φ, Ω
+b. ρ, φ, Ω
+c. ρ, φ, PGF
+d. ρ, PGF, Ω
+Explanation: Geostrophic wind speed = PGF / (2 x Ω x ρ x sin φ), so it depends on the pressure gradient force (PGF), air density (ρ), latitude (φ) and the earth's rotation rate (Ω). All four are needed, so only option a is complete.
+
+7. What is the Bora?
+*a. Cold katabatic wind over the Adriatic
+b. Northerly wind blowing from the Mediterranean
+c. Warm anabatic wind blowing to the Mediterranean
+d. An anabatic wind in the Rockies
+Explanation: The Bora is a cold, strong katabatic (falling) wind that blows from the high ground of the Balkans down to the Adriatic coast, usually in winter. Memory aid: Bora is cold, and the Föhn (and Chinook) is warm.
+
+8. Flying away from an area of low pressure in the Southern Hemisphere at low altitudes, where is the wind coming from?
+a. Right and slightly on the nose
+b. Left and slightly on the tail
+*c. Left and slightly on the nose
+d. Right and slightly on the tail
+Explanation: In the Southern Hemisphere wind blows clockwise around a low, and near the surface friction makes it cross the isobars slightly towards the low. With the low behind you, this wind arrives from the left and slightly ahead (on the nose).
+
+9. What causes the geostrophic wind to be stronger than the gradient wind around a low?
+a. Centrifugal force adds to the gradient force
+*b. Centrifugal force opposes the gradient force
+c. Coriolis force adds to the gradient force
+d. Coriolis force opposes the centrifugal force
+Explanation: Around a low the pressure gradient force acts inwards, while Coriolis and centrifugal force both act outwards. Centrifugal force therefore opposes the gradient force, so less Coriolis is needed to balance it. A lower balancing Coriolis force means a lower wind speed, so the gradient wind is slower than the geostrophic wind.
+
+10. A METAR for Paris gave the surface wind at 260/20. Wind at 2000 ft is most likely to be:
+a. 260/15
+b. 210/30
+*c. 290/40
+d. 175/15
+Explanation: In the Northern Hemisphere the wind veers with height (clockwise) and increases as friction falls away, by roughly 2 times the surface speed. So 260/20 becomes about 290/40, with the direction 20 to 30 degrees to the right of the surface wind and a higher speed. Options a and d have lower speeds, and b backs instead of veering.
+
+11. A large pressure gradient is shown by:
+a. closely spaced isobars - low temperature
+b. distant spaced isobars - high temperature
+*c. close spaced isobars - strong winds
+d. close spaced isobars - light winds
+Explanation: A large pressure gradient means pressure changes quickly over a short distance, which is shown by closely spaced isobars. A strong gradient gives a strong wind. Memory aid: tight isobars = strong winds.
+
+12. Where would you expect to find the strongest wind on the ground in temperate latitudes?
+*a. In an area of Low pressure
+b. In an area of High pressure
+c. In the warm air between two fronts
+d. In a weak anticyclone
+Explanation: Depressions in temperate latitudes have closely packed isobars and steep pressure gradients, so they produce the strongest surface winds. Highs and weak anticyclones have wide isobar spacing and light winds.
+
+13. At a coastal airfield, with the runway parallel to the coastline, you are downwind over the sea with the runway to your right. On a warm summer afternoon, what would you expect the wind to be on finals?
+*a. Crosswind from the right
+b. Headwind
+c. Tailwind
+d. Crosswind from the left
+Explanation: On a warm afternoon a sea breeze blows from the sea to the land, which means from the sea side towards the runway. On downwind the sea is on your left and the runway on your right. After turning onto finals, the heading reverses, so the sea breeze comes from your right as a crosswind.
+
+14. What causes wind at low levels?
+*a. Difference in pressure
+b. Rotation of the earth
+c. Frontal systems
+d. Difference in temperature
+Explanation: Wind is air moving in response to a horizontal pressure difference (the pressure gradient force). Temperature differences and fronts may create those pressure differences, and rotation only deflects the wind, but the direct cause is the pressure difference.
+
+15. If flying in the Alps with a Föhn effect from the south:
+*a. clouds will be covering the southern passes of the Alps
+b. CAT on the northern side
+c. wind veering and gusting on the northern side
+d. convective weather on the southern passes of the Alps
+Explanation: With a southerly Föhn, moist air is forced up the southern (windward) side and forms cloud that covers the southern passes. The air then descends the northern side as a warm, dry wind. Memory aid: cloud on the windward side, clear and warm on the lee side.
+
+16. Comparing the surface wind to the 3000 ft wind:
+a. surface wind veers and is less then the 3000 ft wind
+b. surface wind blows along the isobars and is less than the 3000 ft wind
+*c. surface wind blows across the isobars and is less than the 3000 ft wind
+d. both are the same
+Explanation: Friction at the surface slows the wind and reduces the Coriolis force, so it blows across the isobars towards low pressure. At 3000 ft the wind is above the friction layer, blowing along the isobars (the geostrophic wind) at a higher speed.
+
+17. 90 km/h wind in kt is approximately:
+a. 70
+b. 60
+*c. 50
+d. 30
+Explanation: 1 kt = 1.852 km/h, so 90 / 1.852 = about 48.6 kt, which is approximately 50 kt. Quick rule: divide km/h by about 2 and add a little.
+
+18. The geostrophic wind blows at your flight level in Northern Hemisphere and the true altitude and indicated altitude remain constant. The crosswind is:
+a. from the left
+b. from the right
+*c. no crosswind
+d. impossible to determine
+Explanation: If true altitude and indicated altitude both stay constant, the pressure at your level is not changing along your track, so you are flying along an isobar. The geostrophic wind blows parallel to isobars, so it is a headwind or tailwind with no crosswind.
+
+19. With all other things being equal with a high and a low having constantly spaced circular isobars, where is the wind the fastest?
+*a. Anticyclonic
+b. Cyclonic
+c. Where the isobars are closest together
+d. Wherever the PGF is greatest
+Explanation: With the same pressure gradient, the gradient wind around a high is faster than the geostrophic wind, and around a low it is slower. This is because centrifugal force adds to the pressure force in a low and opposes it in a high, so more Coriolis (a higher speed) is needed in the high.
+
+20. Föhn winds are:
+a. warm katabatic
+b. cold katabatic
+*c. warm descending winds
+d. warm anabatic
+Explanation: A Föhn is a warm, dry wind on the lee side of a mountain. The air loses moisture on the windward side, then descends and warms at the dry adiabatic rate, ending up warmer than at the same level on the windward side. It descends, so it cannot be anabatic.
+
+21. What is the effect of a mountain valley wind?
+*a. It blows down a mountain to a valley at night
+b. It blows down a mountain to a valley during the day
+c. It blows from a valley up a mountain by day
+d. It blows from a valley up a mountain at night
+Explanation: At night the slopes cool, and the dense cold air drains down into the valley. NOTE: book key says a, but strictly the daytime up-slope flow (option c) is the valley wind and the night down-slope flow is the mountain wind, so the question wording is ambiguous.
+
+22. What is the difference between gradient and geostrophic winds?
+a. Difference in temperatures
+b. A lot of friction
+*c. Curved isobars and straight isobars
+d. Different latitudes and densities
+Explanation: Both blow parallel to the isobars above the friction layer. The geostrophic wind assumes straight isobars, while the gradient wind applies to curved isobars, so centrifugal force must also be included.
+
+23. What prevents air from flowing directly from a high to a low pressure?
+a. Centripetal force
+b. Centrifugal force
+c. Pressure force
+*d. Coriolis force
+Explanation: The pressure force pushes air from high to low, but the Coriolis force deflects it sideways (to the right in the Northern Hemisphere). The two balance when the wind blows parallel to the isobars, so air does not flow straight across them.
+
+24. What is the relationship between the 5000 ft wind and the surface wind in the Southern Hemisphere?
+a. Surface winds are veered from the 5000 ft and have the same speed
+b. Surface winds are backed from the 5000 ft and have a slower speed
+*c. Surface winds are veered from the 5000 ft and have a slower speed
+d. Surface winds are backed from the 5000 ft and have a faster speed
+Explanation: Friction slows the surface wind, and it turns towards the low. In the Southern Hemisphere that means the surface wind is veered relative to the 5000 ft wind, which is the reverse of the Northern Hemisphere. Memory aid: the surface wind is always slower, and it is backed in the NH and veered in the SH.
+
+25. What is the relationship between the 2000 ft wind and the surface wind in the Northern Hemisphere?
+a. surface winds blow across isobars towards a high
+b. surface winds blow parallel to isobars
+*c. surface winds blow across isobars towards a low
+d. surface winds have laminar flow
+Explanation: Friction reduces the Coriolis force at the surface, so the pressure force wins and the surface wind crosses the isobars towards low pressure. The 2000 ft wind is above the friction layer and blows parallel to the isobars.
+
+26. Wind is caused by:
+a. mixing of fronts
+*b. horizontal pressure difference
+c. earth rotation
+d. surface friction
+Explanation: Wind is the movement of air due to a horizontal pressure difference. Earth rotation only deflects the flow and friction only slows it, so neither causes the wind.
+
+27. For the same pressure gradient at 50N, 60N and 40N, the geostrophic wind speed is:
+a. greatest at 60N
+b. least at 50N
+*c. greatest at 40N
+d. the same at all latitudes
+Explanation: Geostrophic wind speed = PGF / (2 x Ω x ρ x sin φ), so it is inversely proportional to sin φ. The lowest latitude (40N) has the smallest sin φ and therefore the greatest wind speed.
+
+28. The wind in the Northern Hemisphere at the surface and above the friction layer at 2000 ft would be:
+a. veered at the surface, veered above the friction layer
+*b. backed at the surface, veered above the friction layer
+c. veered at the surface, backed above the friction layer
+d. backed at the surface, backed above the friction layer
+Explanation: In the Northern Hemisphere friction makes the surface wind back (turn towards the low) compared with the geostrophic wind. Above the friction layer at 2000 ft the wind is veered relative to the surface wind and is geostrophic.
+
+29. Where are easterly and westerly jets found?
+*a. Northern Hemisphere only
+b. Southern Hemisphere only
+c. Northern and southern Hemisphere
+d. There are no easterly jets
+Explanation: The book key is a. NOTE: book key says a, but westerly jet streams (polar front and subtropical) occur in both hemispheres, so option c looks more complete. Easterly jets (the tropical easterly jet and the African easterly jet) are the ones that mainly affect the Northern Hemisphere summer.
+
+30. In high pressure systems:
+a. the winds tend to be stronger in the morning
+b. the angle between the isobars and the wind direction is greatest in the afternoon
+c. the winds tend to be stronger at night
+*d. the winds tend to be stronger in early afternoon
+Explanation: Daytime heating produces convective mixing that brings faster upper air down to the surface, so surface winds are strongest in the early afternoon. At night the surface layer decouples and the wind drops. Mixing also reduces the angle between the isobars and the wind in the afternoon, which rules out b.
+
+31. An aircraft is flying East to West in the Northern Hemisphere. What is happening to its altitude?
+a. Flying into a headwind will decrease altitude
+b. If the wind is from the south, it will gain altitude
+*c. If the wind is from the north, it will gain altitude
+d. Tailwind will increase altitude
+Explanation: Heading west with a north wind in the Northern Hemisphere means low pressure is on your left (east) and high pressure ahead of you. On a constant pressure altimeter setting you fly towards higher pressure, so true altitude increases. Memory aid: "High to low, look out below", so flying low to high gains true altitude.
+
+32. Where would an anemometer be placed?
+a. Close to station, 2 m above ground
+b. On the roof of the station
+*c. 10 m above aerodrome elevation on a mast
+d. Next to the runway, 1 m above ground
+Explanation: The standard height for surface wind measurement is 10 m above the ground, on a mast in an open exposed position, so that buildings and obstacles do not disturb the reading.
+
+33. Which of the following is an example of a Föhn wind?
+a. Bora
+b. Harmattan
+*c. Chinook
+d. Ghibli
+Explanation: The Chinook is the Föhn-type warm descending wind on the eastern side of the Rocky Mountains. The Bora is a cold katabatic wind, the Harmattan is a dry north-easterly from the Sahara, and the Ghibli is a hot dry wind from the Sahara over Libya and Tunisia.
+
+34. Wind at altitude is usually given as ........ in ........
+a. true, m/s
+b. magnetic, m/s
+*c. true, kt
+d. magnetic, kt
+Explanation: Wind at altitude (in forecasts and upper wind charts) is given in true direction and knots. Memory aid: surface wind given by ATC is magnetic, while METAR, TAF and forecast winds are true.
+
+35. If you fly with left drift in the Northern Hemisphere, what is happening to surface pressure?
+*a. Increases
+b. Decreases
+c. Stays the same
+d. Cannot tell
+Explanation: Left drift in the Northern Hemisphere means the wind comes from the right. With your back to the wind, low pressure is on your left, so you are heading towards higher pressure and the pressure increases. Memory aid: right drift means flying towards low pressure and left drift means flying towards high pressure.
+`);
+registerChapterText("aviation-meteorology", "oxford-upper-winds", "Upper Winds (Oxford)", `
+1. How do you recognize high level jet streams and associated TURB?
+a. High pressure centre at high level
+*b. Streaks of Cirrus
+c. High level dust
+d. Lenticularis
+Explanation: Jet streams often show up as long, narrow bands of cirrus (cirrus streaks) lying along the jet axis, and the CAT is found around them. Lenticularis is a mountain wave cloud, and dust or a high pressure centre does not mark a jet.
+
+2. What type of jet stream blows constantly through the Northern Hemisphere?
+a. Arctic
+b. Equatorial
+c. Polar night
+*d. Subtropical
+Explanation: The subtropical jet is a permanent feature, always present in the Northern Hemisphere at around 30°N. The polar front jet is intermittent, because it changes position and strength with the weather systems.
+
+3. In central Europe, where are the greatest wind speeds?
+*a. Tropopause level
+b. 5500 m
+c. Where the air converges
+d. Above the Alps
+Explanation: Wind speed generally increases with height up to the tropopause, where the jet streams sit because the thermal wind is strongest there. That is why the greatest wind speeds are found at tropopause level.
+
+4. The Arctic Jet core is at:
+*a. 20 000 ft
+b. 30 000 ft
+c. 40 000 ft
+d. 50 000 ft
+Explanation: The Arctic jet is found at a low height compared with other jets, around 20 000 ft, because the polar tropopause is low. NOTE: this is the book's key. Memory aid: the colder the region, the lower the tropopause and the jet.
+
+5. FL180, Northern Hemisphere with a wind from the left, what can you say about temperature with a heading of 360°?
+a. Not possible to tell without a pressure
+b. Increases from south to north
+*c. Increases from north to south
+d. Nothing
+Explanation: Heading 360 with wind from the left means a westerly wind. By Buys Ballot, in the Northern Hemisphere with your back to the wind, low pressure is on your left, so low pressure (and cold air) is to the north. So the temperature increases from north to south.
+
+6. When heading south in the Southern Hemisphere you experience starboard drift:
+a. You are flying towards a lower temperature
+*b. You are flying away from a lower temperature
+c. You are flying towards a low pressure
+d. You are flying out of a high
+Explanation: Starboard (right) drift while heading south means the wind is from the east (the left). In the Southern Hemisphere, with your back to the wind, low pressure is on your right, so you are flying away from low pressure. Cold air has lower pressure aloft, so you are flying away from the colder air.
+
+7. With a polar front jet stream (PFJ), the area with the highest probability of turbulence in the Southern Hemisphere is:
+a. in the jet core
+b. above the jet core in the boundary of the warm and cold air
+c. looking downstream, on your left hand side
+*d. looking downstream, on your right hand side
+Explanation: The worst CAT is on the cold air side of the jet, where wind shear and temperature gradients are strongest. In the Northern Hemisphere the cold side is on the left looking downstream, and in the Southern Hemisphere it is the opposite, on the right.
+
+8. Contours on a weather chart indicate:
+*a. heights of pressure levels
+b. distance between pressure levels
+c. thickness between pressure levels
+d. height of ground
+Explanation: On constant pressure charts, the contours (isohypses) show the height of that pressure level above mean sea level. Low heights mean low pressure and high heights mean high pressure.
+
+9. If an isohypse on a surface pressure chart of 500 hPa shows a figure of 522, this indicates:
+a. topography of 522 m above MSL
+*b. topography of 522 decametres above MSL
+c. pressure is 522 hPa
+d. a low surface pressure
+Explanation: Contours on the 500 hPa chart are labelled in decametres, so 522 means 5220 m. This is a typical value, because the 500 hPa level lies at about 5500 m in the standard atmosphere.
+
+10. The polar front jet stream in summer compared to winter in the Northern Hemisphere moves:
+*a. north and decreases in strength
+b. north and increases in strength
+c. south and decreases in strength
+d. south and increases in strength
+Explanation: In summer the temperature contrast between the tropics and the poles is smaller, so the jet is weaker. It also shifts poleward (north) with the sun. In winter it is stronger and further south.
+
+11. A jet stream with a wind speed of 350 kt is:
+a. impossible
+*b. possible but very rare
+c. possible in polar areas
+d. common
+Explanation: As per the book key, speeds of this order have been recorded but they are very rare. A jet stream is defined as 60 kt or more, and typical cores are 100 to 150 kt, with extremes above 200 kt.
+
+12. If you fly at right angles to a jet stream and below the jet core in Europe with a decreasing outside air temperature, you will experience:
+a. increasing headwind
+b. increasing tailwind
+*c. wind from the left
+d. wind from the right
+Explanation: Decreasing temperature means you are flying towards the cold air. In the Northern Hemisphere, cold air is on the left looking along the wind direction, so the wind must be blowing across your track from left to right, which is wind from the left. Flying at right angles to the jet means it is a crosswind, not a headwind or tailwind.
+
+13. On a particular day the PFJ runs north to south in the Northern Hemisphere.
+a. The temperature gradient runs north to south below the jet core
+b. The temperature gradient runs north to south above the jet core
+c. The polar air is east of the jet above the core
+*d. The polar air is below the jet to the east
+Explanation: With a north-to-south jet, the temperature gradient is east to west, not north to south, which rules out a and b. The cold polar air lies on the left of the flow looking downstream, which is to the east for a southward-flowing jet, and it sits below the jet core. NOTE: this follows the book key, and it assumes the jet flows from the north.
+
+14. Flying 2500 ft below core of jet, with temperature increasing in the Southern Hemisphere, where does the wind come from?
+a. Head
+b. Tail
+*c. Left
+d. Right
+Explanation: Temperature increasing means you are flying towards warm air. In the Southern Hemisphere, cold air is on the right looking along the wind direction, so warm is on the left, which means the wind blows across your track from left to right, i.e. it comes from the left. This is the opposite of the Northern Hemisphere situation in Q12.
+
+15. When flying from south to north in the Southern Hemisphere, you cross over the polar front jet. What happens to the temperature?
+*a. It increases
+b. It decreases
+c. It remains the same
+d. Impossible to determine
+Explanation: In the Southern Hemisphere the polar (cold) air is to the south and the tropical (warm) air is to the north. Flying south to north through the jet takes you from cold to warm air, so the temperature increases.
+
+16. The core of a jet stream is located:
+*a. at the level where temperature change with altitude becomes little or nil and the pressure surface is at maximum slope
+b. in the warm air where the pressure surface is horizontal
+c. in the warm air and directly beneath at the surface
+d. in cold air
+Explanation: The jet core is at the tropopause break, where the horizontal temperature gradient reverses and the thermal wind stops increasing with height. The pressure surfaces slope most steeply there, which gives the maximum wind speed.
+
+17. What is the ratio of height to width in a typical jet stream?
+a. 1:10
+*b. 1:100
+c. 1:1000
+d. 1:10000
+Explanation: A jet stream is a flat, ribbon-like feature, typically a few km deep and several hundred km wide, which gives a ratio of about 1:100. Memory aid: a jet is like a thin pancake.
+
+18. When and where does an easterly jet stream occur?
+a. All year through the Equator
+*b. In summer from SE Asia through S. India to Central Africa
+c. In summer from the Middle East through N. Africa and the Mediterranean to S. Spain
+d. In winter in Arctic Russia
+Explanation: The tropical easterly jet forms in the Northern Hemisphere summer because of the strong heating of the Tibetan plateau. It extends from SE Asia across southern India to Central Africa. It is not present all year, so a is wrong.
+
+19. From the preflight briefing you know a jet stream is at 31 000 ft whilst you are at FL270. You experience moderate CAT. What would be the best course of action?
+a. Stay level
+*b. Descend
+c. Climb
+d. Reduce speed
+Explanation: You are about 4000 ft below the core, and the CAT is caused by the strong wind shear near the jet. Changing level away from the core reduces the shear. Climbing would take you towards the core, so descending is best.
+
+20. What is most different about the equatorial easterly jet stream?
+a. Its height
+b. Its length
+*c. Its direction
+d. Its speed
+Explanation: Almost all jet streams blow from west to east (westerly), but the equatorial or tropical easterly jet blows from east to west. Its direction is the main difference.
+
+21. Where are easterly and westerly jets found?
+*a. Northern Hemisphere only
+b. Southern Hemisphere only
+c. Northern and Southern Hemisphere
+d. There are no easterly jets
+Explanation: The book key is a. NOTE: book key says a, but westerly jet streams (polar front and subtropical) occur in both hemispheres, so option c looks more complete. The easterly jet mainly affects the Northern Hemisphere summer.
+
+22. Wind at altitude is usually given as .......... in ..........
+a. true, m/s
+b. magnetic, m/s
+*c. true, kt
+d. magnetic, kt
+Explanation: Wind at altitude (in forecasts and upper wind charts) is given in true direction and knots. Memory aid: surface wind from ATC is magnetic, while METAR, TAF and forecast winds are true.
+
+23. Under which of the following circumstances is the most severe CAT likely to be experienced?
+a. A westerly jet stream at low altitude in the summer
+*b. A curved jet stream near a deep trough
+c. A straight jet stream near a low pressure area
+d. A jet stream where there is a large spacing between the isotherms
+Explanation: CAT is worst where wind shear is strongest, which is in a strong, sharply curved jet near a deep trough. Wide isotherm spacing means a weak temperature gradient and so weak shear, and a summer low altitude jet is weaker, so those options are less severe.
+`);
+registerChapterText("aviation-meteorology", "oxford-clouds", "Clouds (Oxford)", `
+1. What cloud does hail fall from?
+*a. Cb
+b. Ns
+c. Cu
+d. Ci
+Explanation: Hail forms in the strong updrafts of cumulonimbus (Cb), where water droplets are carried up above the freezing level, freeze, and grow in layers until they are too heavy to be held up. Ns gives steady rain and Ci is made of ice crystals that do not fall as hail.
+
+2. Flying conditions in Ci cloud and horizontal visibility:
+a. less than 500 m vis, light/mod clear icing
+b. greater than 1000 m vis, light/mod rime ice
+c. less then 500 m vis, no icing
+*d. greater than 1000 m vis, no icing
+Explanation: Cirrus is made entirely of ice crystals, which do not stick to the airframe, so there is no icing. The cloud is thin, so visibility inside it is greater than 1000 m. Icing needs supercooled water droplets.
+
+3. What is the composition of Ci cloud?
+a. Super cooled water droplets
+*b. Ice crystals
+c. Water droplets
+d. Smoke particles
+Explanation: Ci forms at high level, where temperatures are far below -40°C, so all the water is frozen into ice crystals. Memory aid: high cloud = ice.
+
+4. What cloud types are classified as medium cloud?
+a. Ns + Sc
+*b. Ac + As
+c. Cb + St
+d. Ci + Cs
+Explanation: Medium cloud has the prefix "alto": altocumulus (Ac) and altostratus (As). Sc and St are low cloud, and Ci and Cs are high cloud. Ns and Cb are low-based but extend vertically across levels.
+
+5. What type of cloud is associated with drizzle?
+*a. St
+b. Cb
+c. Ci
+d. Ac
+Explanation: Drizzle falls from stratus (St), a low, thin, stable layer cloud with small droplets. Cb gives showers, and Ci and Ac do not normally produce precipitation that reaches the ground.
+
+6. Fair weather cumulus gives an indication of:
+a. poor visibility
+b. thunderstorms
+*c. turbulence
+d. smooth flying below
+Explanation: Fair weather Cu forms at the top of rising thermals, so the air below and in the cloud is bumpy (convective turbulence). Above the cloud tops the air is generally smooth. Visibility is usually good, and the cloud is too small to produce thunderstorms.
+
+8. What are lenticularis clouds a possible indication of?
+*a. Mountain waves
+b. Instability
+c. Developing Cu and Cb
+d. Horizontal windshear in the upper atmosphere
+Explanation: Lenticular (lens-shaped) clouds form at the crests of standing waves downwind of mountains when the air is stable and moist, so they indicate mountain waves, with possible severe turbulence and rotors below.
+
+9. In what cloud is icing and turbulence most severe?
+*a. Cb
+b. Ns
+c. Sc
+d. Ci
+Explanation: Cb has strong updrafts and downdrafts (severe turbulence) and large amounts of supercooled water droplets (severe icing). It is the most hazardous cloud for aircraft.
+
+10. What will snow most likely fall from?
+*a. Ns
+b. Ci
+c. Cs
+d. Ac
+Explanation: Nimbostratus (Ns) is a thick layer cloud that gives continuous precipitation. In cold conditions this falls as snow. Ci and Cs are made of ice crystals but do not give precipitation at the surface.
+
+11. A plain in Western Europe at 500 m (1600 ft) AMSL is covered with a uniform altocumulus cloud during summer months. At what height AGL is the base of the cloud expected?
+a. 100 - 1500 ft
+b. 15000 - 25000 ft
+*c. 7000 - 15000 ft
+d. 1500 - 7000 ft
+Explanation: Following the book key, altocumulus is a medium cloud with a base of about 7000 to 15 000 ft in the summer months. High cloud (Ci, Cc, Cs) is at 15 000 to 25 000 ft or higher and low cloud is below about 7000 ft, which rules out the other options.
+
+13. Clouds classified as low level are considered to have a base height of:
+a. 500 - 1000 ft
+b. 1000 - 2000 ft
+*c. the surface - 6500 ft
+d. 100 - 200 ft
+Explanation: Low cloud (St, Sc, Cu, Cb, Ns) has its base from the surface up to about 6500 ft. Medium cloud is 6500 to 20 000 ft in the book's temperate classification, and high cloud is above that.
+
+14. In a tropical downpour the visibility is sometimes reduced to:
+a. 1000 m
+b. 500 m
+c. 200 m
+*d. less than 100 m
+Explanation: Very heavy tropical rain can reduce visibility to less than 100 m, because the rain drops are large and the rate of fall is very high.
+
+15. What type of cloud is usually found at high level?
+a. St
+b. Ac
+*c. Cc
+d. Ns
+Explanation: Cirrocumulus (Cc) is a high cloud, along with Ci and Cs. St is low, Ac is medium and Ns is low-based and extends upwards. Memory aid: high cloud has the prefix "cirro" or "cirrus".
+
+17. Altostratus is:
+a. a low level cloud
+*b. a medium level cloud
+c. a high level cloud
+d. a heap type cloud
+Explanation: "Alto" means medium level, and "stratus" means layer type, so altostratus is a medium-level layer cloud. Heap clouds are cumulus types.
+
+18. What would be reflected to radar?
+a. Fog
+*b. Hail
+c. Cloud
+d. Mist
+Explanation: Weather radar detects large particles, such as raindrops and hail, which reflect the radar pulse well. Fog, mist and ordinary cloud droplets are too small to reflect much energy.
+
+19. Which cloud would you encounter the most intensive rain?
+a. Ci
+*b. Ns
+c. St
+d. Sc
+Explanation: Following the book key, nimbostratus (Ns) is the thick rain cloud that gives the heaviest and most continuous rain among these options. Ci gives none and St and Sc give only drizzle or light rain at most.
+
+20. CB cloud in summer contains:
+a. water droplets
+b. ice crystals
+*c. water droplets, ice crystals and super cooled water droplets
+d. water droplets and ice crystals
+Explanation: A Cb is very deep, so it has water droplets in its lower warm part, supercooled water droplets in the middle part between 0°C and about -40°C, and ice crystals in the cold top. All three are present.
+
+21. Which cloud would produce showers?
+a. NS
+b. AS
+c. CS
+*d. CB
+Explanation: Showers come from convective clouds (Cb or large Cu), with short, heavy bursts of precipitation. Ns, As and Cs are layer clouds that give continuous rain or none.
+
+22. When would you mostly likely get fair weather Cu?
+a. 15:00
+b. 12:00
+c. 17:00
+*d. 07:00
+Explanation: The book key says d. NOTE: book key says 07:00, but fair weather Cu normally develops from late morning and is at its best in the early afternoon, as the surface heats up. The key looks doubtful, so check it against your syllabus.
+
+23. What type of cloud extends into another level?
+a. As
+b. Acc
+*c. Ns
+d. Ci
+Explanation: Nimbostratus (Ns) is a thick layer cloud, with its base at low level and its top reaching into the medium level. It is a cloud that spans more than one level.
+
+24. Ceilometers measure:
+a. RVR
+*b. cloud height
+c. met vis
+d. turbulence
+Explanation: A ceilometer measures the height of the cloud base above the ground (cloud ceiling), using a light or laser beam. RVR is measured by transmissometers and forward scatter meters.
+
+25. Which of the following will indicate medium level instability, possibly leading to thunderstorms?
+a. Halo
+*b. Altocumulus Castellanus
+c. Altocumulus Capillatus
+d. Red Cirrus
+Explanation: Altocumulus castellanus has turret-like tops, showing instability at medium level, and it can develop into thunderstorms. A halo shows approaching warm front cirrostratus, and "capillatus" refers to Cb tops, not Ac.
+
+26. What is the base of altocumulus in summer?
+a. 0 - 1500'
+b. 1500 - 7000'
+c. 7000' - 15 000'
+*d. 7000' - 16 500'
+Explanation: Following the book key, the base of Ac in summer is about 7000 to 16 500 ft, which is the medium level in temperate regions during the summer months.
+
+27. When a CC layer lies over a West European plain in summer, with a mean terrain height of 500 m above sea level, the average cloud base could be expected to be:
+a. 0 - 100 ft above ground level
+b. 5000 - 15 000 ft above ground level
+c. 15 000 - 25 000 ft above ground level
+*d. 15 000 - 35 000 ft above ground level
+Explanation: Cirrocumulus (CC) is a high cloud, so its base is at the high level, which in the book is 15 000 to 35 000 ft above ground level for summer conditions in temperate regions.
+
+28. Which of the following cloud types can stretch across all three cloud levels (low, medium and high level)?
+a. CI
+b. ST
+c. AC
+*d. CB
+Explanation: Cumulonimbus has its base at low level and its top reaching the tropopause, so it can stretch through the low, medium and high levels. Ci is high, St is low and Ac is medium only.
+
+29. Which of the following cloud types can stretch across at least two cloud levels?
+a. ST
+*b. NS
+c. CI
+d. SC
+Explanation: Nimbostratus has a low-level base and extends upwards into the medium level, so it can cross at least two levels. St, Ci and Sc stay mainly within one level.
+
+30. From which cloud do you get hail?
+a. Sc
+*b. Cb
+c. Ns
+d. Ts
+Explanation: Hail forms in the strong updrafts of cumulonimbus (Cb). Sc and Ns do not have the vertical development for it, and "Ts" is not a standard cloud type.
+
+31. If you see Alto Cu Castellanus what does it indicate?
+a. The upper atmosphere is stable
+b. Subsidence
+c. Instability in the lower atmosphere
+*d. Middle level instability
+Explanation: Altocumulus castellanus has turret-like tops growing from a common base, which shows instability at medium level. Memory aid: "castellanus" means castle-like, and it shows that the layer is unstable.
+
+32. To dissipate cloud requires:
+*a. subsidence
+b. a decrease in temperature
+c. an increase pressure
+d. convection
+Explanation: Subsiding (sinking) air warms by compression, so it moves further from saturation and the cloud evaporates. Cooling and convection (rising air) form cloud instead.
+
+33. Cu is an indication of:
+*a. vertical movement of air
+b. stability
+c. the approach of a warm front
+d. the approach of a cold front
+Explanation: Cumulus is a heap cloud formed by rising air currents (convection), so it shows vertical air movement and instability. Stable air gives layer clouds.
+
+34. Which clouds are evidence of stable air?
+*a. St, As
+b. Cb, Cc
+c. Cu, Ns
+d. Cu, Cb
+Explanation: Layer-type clouds (stratus, altostratus) form in stable air with little vertical motion. Cu and Cb are heap clouds and show instability.
+
+35. Lack of cloud at low level in a stationary high is due to:
+a. instability
+b. rising air
+*c. sinking air
+d. divergence at high level
+Explanation: In a high (anticyclone), air sinks and warms by compression, so cloud evaporates and the sky stays clear at low level. Subsidence creates stability, and the divergence is at the surface, not at high level.
+
+36. What is the most common freezing precipitation?
+a. Freezing pellets
+*b. Freezing rain and freezing drizzle
+c. Freezing graupel
+d. Freezing hail and freezing snow
+Explanation: Freezing rain and freezing drizzle are the most common freezing precipitation. They are supercooled drops that freeze on contact with surfaces below 0°C, creating clear ice on the airframe.
+
+37. From which of the following clouds are you least likely to get precipitation in summer?
+a. CS/NS
+*b. CS/AS
+c. CB/CU
+d. CU/ST
+Explanation: Cirrostratus (high, ice) and altostratus (medium) do not normally produce precipitation that reaches the ground in summer. Ns, Cb and large Cu produce rain or showers, and St produces drizzle.
+
+38. A layer of air cooling at the SALR compared to the DALR would give what kind of cloud?
+*a. Stratus if saturated
+b. Cumulus if saturated
+c. No cloud if saturated
+d. Convective cloud
+Explanation: The book key says a. A layer cooling at the SALR (about 1.5°C/1000 ft) loses temperature more slowly than the DALR (3°C/1000 ft), so it is stable and gives layer cloud (stratus) if saturated. Convective cloud needs unstable air.
+
+39. Over flat dry land what would cause cloud?
+a. Orographic uplift
+*b. Convective uplift during the day
+c. Release of latent heat
+d. Advection
+Explanation: Flat land has no hills for orographic lifting. Daytime heating of dry land causes thermals to rise, cool and form convective cloud (Cu).
+`);
+registerChapterText("aviation-meteorology", "oxford-cloud-formation-precipitation", "Cloud Formation and Precipitation (Oxford)", `
+1. If you observe drizzle falling, the cloud above you is most likely to be:
+a. AS
+b. CU
+*c. ST
+d. NS
+Explanation: Drizzle is made of very small drops, and it falls from low, thin, stable layer cloud, which is stratus (ST). CU gives showers, NS gives continuous rain, and AS gives little or no precipitation at the surface.
+
+2. Turbulence cloud is usually a sheet of stratus, stratocumulus some 2000 ft thick with a flat top because:
+a. the air is usually at low temperatures containing little water vapour
+*b. turbulence steepens the lapse rate producing an inversion above the friction layer
+c. air is not allowed to remain in contact with the surface due to the strong wind thus maintaining cool surface air with warm air above
+d. the lapse rate becomes stable in the friction layer, due to turbulent mixing
+Explanation: Turbulent mixing in the friction layer makes the lapse rate steeper (close to the DALR) within the layer, while the air above is not mixed. This leaves a sharp inversion at the top of the mixed layer, which stops the cloud growing upwards and gives it a flat top.
+
+3. Clouds formed by convection will always:
+a. be layer clouds
+b. be CU, CB or NS
+*c. have a rising cloud base and may develop into CB as the day progresses
+d. form only in Polar maritime air
+Explanation: Convective cloud forms in rising thermals, so it is heap type, not layer type. As the surface heats during the day, the convective condensation level rises and the cloud base lifts, and the cloud may grow into CB. NS is a layer cloud, and convection is not limited to polar maritime air.
+
+4. With reference to anticyclones affecting the UK, which of the following statements is correct?
+a. The pressure gradient is greatest towards the centre of the anticyclone
+b. Anticyclones are more common in winter than they are in summer. This is why radiation fog is much more frequent in the winter
+*c. Apart from turbulence cloud, the formation of all other cloud types is unlikely in anticyclonic conditions
+d. Warm anticyclones are those which are caused by the extreme air density associated with warmer weather
+Explanation: Anticyclones have sinking air, which warms and dries and so suppresses cloud, apart from low turbulence cloud under the subsidence inversion. NOTE: this is the book key. It is a simplification, because some other cloud such as fog or high cloud can still occur. The pressure gradient is weakest in the centre of a high, so a is wrong.
+
+5. The type of cloud from which continuous moderate or heavy rain is likely to fall is:
+a. large cumulus
+b. altostratus
+*c. nimbostratus
+d. cumulonimbus
+Explanation: Nimbostratus is a thick, dark layer cloud with large vertical extent that gives continuous rain (or snow). Large cumulus and cumulonimbus give showers, and altostratus gives only light or no precipitation.
+
+6. The movement of cool moist air over a warmer surface is likely to cause:
+*a. cumulus or cumulonimbus cloud
+b. advection fog
+c. nimbostratus cloud
+d. altocumulus lenticular cloud
+Explanation: Cool air moving over a warmer surface is heated from below, which makes the lapse rate steeper and the air unstable, so convective cloud (cumulus or cumulonimbus) forms. Advection fog forms in the opposite case, with warm moist air moving over a cold surface.
+
+7. Intensity of precipitation is described as either:
+a. intermittent, continuous or showery
+b. drizzle, rain or snow
+*c. slight, moderate or heavy
+d. intermittent, moderate or heavy
+Explanation: The intensity is described as slight, moderate or heavy. Option a describes the character of precipitation, and option b describes its type.
+
+8. The term "shower" implies that:
+a. precipitation is in the form of rain and is continuous
+*b. precipitation is from cumulonimbus cloud and lasts for short periods
+c. precipitation is intermittent and is from strato form cloud
+d. precipitation is continuous for long periods from cumuloform cloud
+Explanation: Showers come from convective (cumuloform) cloud, and are short, sudden bursts, which start and stop abruptly, with a rapid change in intensity. Continuous precipitation from layer (strato form) cloud is not a shower.
+
+9. Precipitation in the form of snow will not reach the surface unless the surface temperature is:
+*a. less than +4°C
+b. less than 0°C
+c. less than 45°F
+d. less than 30°F
+Explanation: Snow can survive falling through air that is a few degrees above freezing, so it reaches the ground if the surface temperature is below about +4°C. Above that it melts to rain. NOTE: this is the book key. Option c, 45°F, equals about 7°C, so it does not match.
+
+10. The type of precipitation in which visibility is likely to be most reduced is:
+a. drizzle
+*b. snow
+c. light rain
+d. sleet
+Explanation: Snow reduces visibility the most, because the flakes are large, numerous and reflect light, and heavy snow can reduce visibility to a few tens of metres. Drizzle and light rain reduce it less.
+
+11. The type of precipitation usually associated with shallow stratocumulus is:
+*a. mainly water droplets which can be supercooled if the temperature is low enough
+b. ice crystals
+c. supercooled water droplets only
+d. large water droplets due to the strong up-currents associated with this type of cloud
+Explanation: Shallow stratocumulus is mostly made of water droplets, which give light drizzle or light rain at most. If the temperature is below 0°C they can be supercooled, and may give icing. Ice crystals need much colder temperatures, and strong up-currents with large drops belong to cumulonimbus.
+
+12. If there are small cumulus in the morning in summer, it is reasonable to forecast later in the day:
+a. clear skies
+b. St and drizzle
+*c. CB
+d. Cloud haze
+Explanation: Small cumulus in the morning shows that the air is unstable. As the surface heats during the day, the thermals strengthen and the cloud grows taller, so CB is likely later in the day. Clear skies and St with drizzle belong to stable conditions.
+`);
+registerChapterText("aviation-meteorology", "oxford-thunderstorms", "Thunderstorms (Oxford)", `
+1. The conditions which must exist to allow thunderstorms to develop are:
+a. a trigger action, a plentiful supply of moisture and a very stable atmosphere
+b. a steep lapse rate, a stable atmosphere through a large vertical extent and a plentiful supply of moisture
+*c. a plentiful supply of moisture and a steep lapse rate through a large vertical extent and a trigger action
+d. a steep lapse rate through a large vertical extent, a low relative humidity and a trigger action
+Explanation: A thunderstorm needs three things: plenty of moisture, an unstable atmosphere (steep lapse rate through a deep layer) and a trigger to start the lifting. Stable air or low humidity stops the cloud from growing into a Cb.
+
+2. When moist air moves across France in the ............ TS activity is common in southern UK in the ............ Complete the above statement correctly using one of the following:
+a. winter/morning
+*b. summer/late afternoon or evening
+c. winter/late afternoon or evening
+d. summer/morning
+Explanation: In summer, warm moist air from France is heated further over land during the day, so convection is strongest in the late afternoon or evening. Daytime heating is the trigger, so morning is too early, and winter lacks the heating.
+
+3. Hazards of the mature stage of a TS cell include lightning, turbulence and:
+a. microburst, windshear and anvil
+*b. icing, microburst and windshear
+c. icing, drizzle and microburst
+d. windshear, hail and fog
+Explanation: The mature stage has strong up and down currents, so it brings severe turbulence, icing (from supercooled water), microbursts and windshear in addition to lightning. Drizzle and fog are not hazards of a mature cell, and an anvil is a cloud shape, not a hazard.
+
+4. On a significant weather chart the thunderstorm symbol signifies:
+a. moderate turbulence and moderate icing
+b. severe turbulence and severe icing
+c. moderate turbulence and severe icing
+*d. moderate/severe turbulence and/or moderate/severe icing
+Explanation: The CB or thunderstorm symbol on a SIGWX chart implies moderate or severe turbulence and/or icing, so it covers the whole range of hazards without having to mark each one.
+
+5. Thunderstorms require a trigger action to release the conditional instability. Which of the following would be the least suitable as a trigger?
+a. Convergence in temperate latitudes
+b. Convergence in tropical latitudes
+*c. Subsidence in tropical latitudes
+d. Convection in polar latitudes
+Explanation: Subsidence is sinking air, which warms by compression and stabilises the atmosphere, so it suppresses cloud and cannot trigger lifting. Convergence forces air upwards, and convection is a rising current.
+
+6. During the ......... stage of a thunderstorm cell, the cloud contains ......... Complete the above statement correctly using one of the following:
+a. building/up currents and down currents
+*b. mature/up currents and down currents
+c. dissipating/up currents and down currents
+d. building/down currents only
+Explanation: The cumulus (building) stage has only updrafts and the dissipating stage has mainly downdrafts. Only the mature stage has both up currents and down currents side by side, and this is when rain, hail and lightning are most active.
+
+7. The following is unlikely to be a hazard below a thunderstorm:
+a. severe turbulence
+*b. severe icing
+c. windshear
+d. large variations in pressure setting values
+Explanation: Below a Cb the air is usually warmer than 0°C, so severe icing is unlikely at that level. Severe turbulence, windshear and rapid pressure changes (which affect the altimeter setting) are all expected below a thunderstorm.
+
+8. Thunderstorms are likely if:
+*a. air is unstable, there is sufficient water vapour and there is trigger action
+b. air is completely stable, there is sufficient water vapour and there is lifting orographically
+c. there is a warm front
+d. there is a col in winter
+Explanation: The three ingredients are instability, moisture and a trigger. Completely stable air will not grow into a Cb even if it is lifted, and a warm front or winter col alone do not guarantee thunderstorms.
+
+9. Hail grows by:
+a. freezing as it leaves the cloud
+b. up and down progress in CU cloud
+*c. collision with supercooled water drops
+d. collision with ice crystals
+Explanation: Hailstones are carried up and down in the strong currents of a Cb. As they travel, they collide with supercooled water drops, which freeze onto the stone in layers, so it grows larger until it is too heavy to be held up.
+
+10. How long approximately does a cumulonimbus cell take to complete the full cycle from the cumulus (building) to dissipating stage?
+*a. 2-3 hours
+b. 1-2 hours
+c. 4-5 hours
+d. About 1 hour
+Explanation: Following the book key, the full cycle is taken as 2-3 hours. NOTE: book key says a, but many sources give about 1 hour for a single cell, so verify this against your syllabus. The rotated answer key image was also hard to read, so please double check this one.
+
+11. When approaching at flight level 300 a cumulonimbus cloud with an anvil top, pilots should aim to avoid the cloud by ---- NM horizontally if avoiding visually, or by ---- NM horizontally if using cloud avoidance radar. Select the appropriate respective ranges from those given below:
+a. 10 and 20
+b. 15 and 10
+*c. 10 and 15
+d. 5 and 10
+Explanation: Following the book key, the clearance distances are 10 NM visually and 15 NM with radar. NOTE: many sources give 20 NM for radar avoidance (option a), so verify this against your syllabus. The rotated answer key image was also hard to read, so please double check this one.
+
+12. A microburst usually lasts for _________ and is about ____________ across.
+a. 20 minutes, 20 NM
+*b. 5 minutes, 5 km
+c. 30 minutes, 10 NM
+d. 45 minutes, 5 NM
+Explanation: A microburst is a small, intense downdraft that lasts only about 5 minutes (up to 10) and is under 4 km (about 5 km) across, which makes it very dangerous at low level because it hits suddenly.
+
+13. Thunderstorms caused by _________ are most common in the summer and by ____________ in the __________
+a. lapse rate, air masses, late spring
+*b. air masses, frontal activity, winter
+c. cold fronts, air masses, autumn
+d. air masses, frontal activity, summer
+Explanation: In summer, thunderstorms are mostly air mass (heating) storms. In winter the heating is weak, so thunderstorms come mainly from frontal activity (cold fronts). Option d repeats "summer", which cannot contrast with the first part.
+
+14. When flying through an active CB cloud, lightning strikes are most likely:
+a. above 5000' and underneath the anvil
+b. in the clear air below the cloud in rain
+*c. in the temperature band between +10°C and -10°C
+d. at or about 10 000 ft AMSL
+Explanation: Lightning is most frequent near the freezing level, in the band from +10°C to -10°C, where water drops, supercooled water and ice crystals mix and build up electric charge. Height alone (options a and d) varies with the day.
+
+15. Regarding thunderstorms, the most accurate statement amongst the following is:
+a. there will always be windshear under the cloud
+*b. the average movement is in accord with the wind at 10 000 ft
+c. if the cloud base has a temperature below 0°C then freezing rain will occur
+d. the number of lightning flashes is directly proportional to the degree of turbulence
+Explanation: A thunderstorm cell moves with the steering wind at about 10 000 ft (700 hPa level), which is the mean wind through the cloud. The other statements are too absolute: windshear is not always present, a cold base does not always give freezing rain, and lightning frequency is not directly proportional to turbulence.
+`);
+registerChapterText("aviation-meteorology", "oxford-visibility", "Visibility (Oxford)", `
+1. Which of the conditions given below is most likely to lead to the formation of radiation fog? (Wind speed, Cloud cover, Temperature, Dew point)
+a. 7 kt, 8/8 St, 12°C, 11°C
+b. 15 kt, NIL, 15°C, 14°C
+*c. 3 kt, 1/8 Ci, 8°C, 7°C
+d. 12 kt, NIL, -2°C, -3°C
+Explanation: Radiation fog needs a light wind (about 2-8 kt), a clear sky so the ground can cool, and a small temperature/dew point spread of 1-2°C. Option c has all three. Option a has 8/8 cloud which stops cooling, and options b and d have winds that are too strong, which mix the air.
+
+2. When _______ moist air passes over a surface which is _________ than the dew point of the air, _______ fog can form. This occurs over ____________ Examine the statement above; the line which contains the correct words in the correct order to complete the statement is:
+a. cool, warmer, radiation, the sea
+b. warm, cooler, radiation, the land only
+c. cool, warmer, frontal, land
+*d. warm, cooler, advection, land and sea
+Explanation: Advection fog forms when warm moist air moves over a surface cooler than the air's dew point. It cools below its dew point and the fog forms. It can occur over both land and sea, unlike radiation fog, which is only over land.
+
+3. Radiation fog is most likely at an inland airfield in the UK with a relative humidity of 80% in the ________ with ___________ and a wind of _______
+*a. autumn, clear skies, 2-8 knots
+b. spring, 6/8 ST and SC, 2-10 knots
+c. winter, clear skies, 15/20 knots
+d. summer, clear skies, no wind
+Explanation: Radiation fog needs a clear sky, a light wind of about 2-8 kt (to mix the cooled layer gently) and long nights, with autumn being the most common season. In winter with a 15-20 kt wind the mixing is too strong, and with no wind only shallow ground fog forms, so a is the best fit.
+
+4. Advection fog is formed when __________ air moves over a ___________ surface and is __________ its dew point:
+a. humid, cold, kept above
+*b. warm moist, cooler, cooled below
+c. dry, frozen, well below
+d. warm moist, warmer, kept above
+Explanation: Advection fog needs warm moist air moving over a cooler surface, which cools the air below its dew point. Over a warmer surface the air would stay above its dew point, and dry air would not produce fog.
+
+5. On a night when radiation fog is forming over most of southern England, the aerodromes likely to be first to experience the fog will be those situated:
+a. near the coast with a light onshore wind and clear skies
+*b. at the bottom of the hill with a light katabatic wind blowing
+c. near the coast with a land breeze and cloudy skies
+d. at the top of a hill with clear skies and no wind
+Explanation: On clear nights the cold dense air drains down slopes (katabatic wind) and collects in valleys and low ground, so the bottom of a hill is cooled most and gets fog first. Hill tops stay warmer, and cloudy skies or an onshore wind prevent fog.
+
+6. Radiation fog is most likely:
+a. with a wind speed up to 15 kt, a clear sky and a high relative humidity
+b. with a wind of 2-8 kt, a high density and the summer season
+*c. in an anticyclone in winter
+d. on a hill in autumn
+Explanation: Anticyclones give clear skies, light winds and subsidence, and winter gives long cold nights, which together are the ideal conditions for radiation fog. A 15 kt wind is too strong, and a hill is too exposed.
+
+7. If a station equipped with IRVR equipment reports RVR 1000, this means:
+a. RVR at touchdown is 1000 metres
+*b. RVR at touchdown is 1000 metres and at 'mid point' and 'stop end' the RVR is 800 metres or more
+c. RVR at touchdown is 1000 metres and 'mid point' and 'stop end' equipment is unserviceable
+d. RVR all along the runway is 1000 metres or more
+Explanation: When only one RVR value is reported, it is the touchdown zone value, and it means the mid-point and stop-end values are not lower than 800 m (they are not significantly different). If the other values differ, they are reported separately.
+
+8. Changes of RVR are reported for increments of:
+a. 25 m up to 250 m
+*b. 25 m up to 200 m
+c. 50 m between 300 m and 800 m
+d. 50 m between 500 m and 800 m
+Explanation: Following the book key, RVR is reported in steps of 25 m up to 200 m, then 50 m from 200 m to 800 m, and 100 m above 800 m. NOTE: current ICAO wording uses 25 m steps up to 400 m, so check this against your syllabus.
+
+9. Frontal fog is most likely to:
+a. form ahead of a vigorous fast moving cold front
+*b. form ahead of a warm front
+c. form on a vigorous cold front and last for many hours
+d. form to the rear of a warm front but only last for 1 to 2 hours
+Explanation: Ahead of a warm front, rain falls from the warm air above into the cooler air below, which saturates the cold air and gives fog. Cold fronts are fast, with strong winds and mixing, which prevents fog from forming and lasting.
+
+10. Fog may be defined as:
+a. a reduction of visibility to less than 1000 metres due to the presence of water vapour in the atmosphere
+*b. a reduction of visibility to less than 1000 metres due to the presence of water droplets in suspension in the atmosphere
+c. a reduction of visibility to less than 1500 metres due to the presence of water droplets in suspension in the atmosphere
+d. a reduction of visibility to less than 1000 ft due to the presence of water vapour in suspension in the atmosphere
+Explanation: Fog is visibility below 1000 m caused by tiny water droplets suspended in the air. Water vapour is invisible, so it cannot reduce visibility, which rules out a and d. Mist is 1000 m to 5000 m.
+
+11. Several types of pressure distribution may be associated with radiation fog but all have one feature in common which is:
+a. closely spaced isobars
+b. a tight pressure gradient
+*c. a slack pressure gradient
+d. a rapidly falling pressure
+Explanation: Radiation fog needs very light winds, which means a slack (weak) pressure gradient with widely spaced isobars. A tight gradient gives strong winds that mix the air and prevent fog.
+
+12. ............ forms when moist air ............ over a surface which is ............ than the dew point of the air. Fill in the missing words from the list given below:
+a. Radiation fog, passes, warmer
+b. Advection fog, settles, cooler
+*c. Advection fog, passes, cooler
+d. Radiation fog, settles, warmer
+Explanation: Moist air passing over a surface that is cooler than its dew point gives advection fog. Radiation fog forms in air that stays in place and cools, so it does not "pass" over a surface.
+
+13. Advection fog:
+a. only occurs at night and early morning
+b. is most likely with Polar Maritime air
+c. will only clear by insolation
+*d. can sometimes last for 24 hours or more in winter
+Explanation: Advection fog does not depend on night-time cooling, so it can occur at any time and it can persist for a day or more in winter if the warm moist flow continues. It clears when the wind changes or strengthens, not just by heating. Warm moist tropical air, not polar maritime air, is the usual source.
+
+14. In circumstances where there is a clear sky, calm wind and a high relative humidity in autumn:
+a. radiation fog is likely over night
+b. advection fog will form
+*c. radiation fog is likely at sunrise after previous mist
+d. hill fog can be expected
+Explanation: Following the book key, mist forms first during the night as the ground cools, and it thickens into fog around sunrise, when the temperature is at its lowest. NOTE: option a also looks plausible, so check this against your syllabus.
+
+15. At a station equipped with IRVR, reports are given:
+a. every ½ hour
+*b. when the normal visibility is 1500 m or less
+c. when there is mist
+d. when there is haze
+Explanation: IRVR (Instrumented RVR) is reported when the normal meteorological visibility is 1500 m or less (and when RVR is below 2000 m). Reports are not only for mist or haze, and not on a fixed half-hourly schedule.
+`);
+registerChapterText("aviation-meteorology", "oxford-icing", "Icing (Oxford)", `
+1. At temperatures of between 0°C and -10°C clouds will consist of:
+a. entirely water droplets
+b. entirely ice crystals
+c. mostly water vapour
+*d. mostly supercooled water droplets and a few ice crystals
+Explanation: Between 0°C and -10°C water droplets do not freeze easily, so they stay liquid below freezing (supercooled), with only a few ice crystals. Clouds are all ice only at about -40°C and below. Water vapour is invisible and does not make up a cloud.
+
+2. Turbulent clouds are most serious from the icing standpoint because:
+*a. strong vertical currents mean that a predominance of large supercooled water droplets will be present
+b. strong vertical currents mean that a predominance of small supercooled water droplets will be present
+c. turbulent clouds produce hail which sticks to the aircraft
+d. turbulent clouds indicate a low freezing level
+Explanation: Strong updrafts hold large droplets up in the cloud, and large supercooled droplets spread as they freeze, giving heavy clear ice. Small droplets freeze quickly as rime and give less severe icing. Hail bounces off and does not stick.
+
+3. Hoar frost forms on an aircraft when:
+a. the aircraft suddenly enters a cloud at below freezing temperature
+b. the aircraft in subzero clear air suddenly enters a colder region
+*c. the aircraft in subzero clear air suddenly enters a warmer moist region
+d. the aircraft suddenly enters a cloud which is at a higher temperature than the surrounding air
+Explanation: Hoar frost is water vapour turning directly to ice (deposition) on a surface colder than the air's frost point. A cold-soaked aircraft entering warmer moist air (for example after a long cold descent) gets this white feathery frost. It is a deposit from vapour, not from liquid droplets.
+
+4. Most cases of serious piston engine icing occur in cloud, fog, or precipitation with a temperature range between:
+*a. -10°C to +25°C
+b. -18°C to +5°C
+c. -10°C to 0°C
+d. -20°C to +15°C
+Explanation: Carburettor icing is not limited to freezing temperatures, because the fuel vaporisation and pressure drop cool the air by up to 20-30°C. It is therefore a risk in visible moisture over a range from about -10°C up to about +25°C. Memory aid: carb icing can happen on a warm day, so the range extends well above 0°C.
+
+5. Stratus cloud of limited depth at a temperature of -5°C will most likely give:
+a. moderate to heavy rime ice
+b. moderate to heavy glaze ice
+*c. light to moderate rime ice
+d. light to moderate glaze ice
+Explanation: Stratus has small droplets and weak vertical movement, so the droplets freeze almost instantly on contact, trapping air, which gives rime ice. The thin layer means limited water content, so the icing is light to moderate, not heavy.
+
+6. Clear ice forms as a result of:
+*a. large supercooled water droplets spreading as they freeze
+b. ice pellets splattering on the aircraft
+c. small supercooled water droplets splashing over the aircraft
+d. water vapour freezing to the aircraft
+Explanation: Large supercooled drops (from freezing rain or Cb/Cu) spread over the surface before they freeze completely, forming a smooth, transparent, heavy layer. Small droplets freeze at once and give rime. Water vapour freezing gives hoar frost.
+
+7. Orographic uplift in stable conditions gives a strong vertical component to air movement thus supporting larger supercooled droplets in orographically formed cloud. Consideration should also be given to the fact that in this cloud:
+*a. the 0°C isotherm will be higher
+b. the 0°C isotherm will be lower
+c. the lapse rate will be isothermal
+d. an inversion can be anti-cyclonic
+Explanation: Condensation in the rising air releases latent heat, which warms the cloud, so the 0°C level is higher inside the cloud than in the surrounding air. This raises the freezing level, but it also supports larger droplets, so the icing can be more severe over the high ground.
+
+8. Which of the following conditions is most favourable for the formation of carburettor icing if the aircraft is descending with glide power set? (Relative humidity, ambient temperature)
+a. 25%, +25°C
+*b. 40%, +20°C
+c. 50%, -10°C
+d. 30%, -5°C
+Explanation: Carburettor icing is most likely with high humidity at a temperature of about 0°C to +20°C or more, and glide (reduced) power makes it worse, because the throttle is nearly closed and the cooling effect is greater. +20°C with 40% RH is in the serious-icing zone at descent power. At -10°C the air holds too little moisture, and 25% or 30% RH is too dry. NOTE: this is my reading of the standard carburettor icing chart, so check it against your syllabus.
+
+9. Flying in large CU at a temperature of -20°C, the amount of each cloud droplet that will freeze on impact with the aircraft will be:
+a. all the droplet
+b. ½ of the droplet
+*c. ¼ of the droplet
+d. 20% of the droplet
+Explanation: Freezing a droplet releases latent heat, which warms it back towards 0°C, so only part of it freezes at once. Each 1°C of supercooling freezes roughly 1/80 of the droplet, so at -20°C the fraction is about 20/80 = 1/4. The rest freezes later and spreads, which is why large cumulus gives clear or mixed ice.
+
+10. Carburettor icing is unlikely:
+a. in cloud
+*b. at temperatures between -10°C and -30°C
+c. in clear air
+d. when the RH is 40%
+Explanation: At very low temperatures the air holds very little water vapour, and the moisture is mostly already frozen, so there is not enough to make ice in the carburettor. Carb icing can occur in cloud, in clear air with high humidity, and at 40% RH.
+
+11. Flying 50 NM ahead of a warm front out of cloud at 1000 ft in winter, with an ambient temperature of -8°C, there is a strong risk of:
+a. hoar frost
+b. rime icing and carburettor icing
+c. structure damage caused by hail
+*d. clear ice in the form of rain ice
+Explanation: Ahead of a warm front, rain falls from the warmer air above into the subzero air below, and becomes supercooled (freezing rain). It freezes on contact with the aircraft as heavy clear ice (rain ice), which is very dangerous. Hail is a Cb hazard and not normally associated with a warm front.
+
+12. In AS cloud at FL170 and a temperature of -20°C the airframe icing most likely to be experienced is:
+a. moderate clear icing
+*b. light rime icing
+c. hoar frost
+d. severe clear icing
+Explanation: Altostratus at -20°C is made of small supercooled droplets and ice crystals with little vertical motion, so icing is light, and the small droplets freeze quickly as rime ice. Clear ice needs large droplets, and hoar frost forms in clear air, not in cloud.
+
+13. Mixed (rime and clear) icing is most likely to be encountered:
+a. in nimbostratus at a temperature of -10°C
+b. in stratocumulus cloud at a temperature of -20°C
+c. in fair weather cumulus at a temperature of -15°C
+*d. in towering cumulus at a temperature of -10°C
+Explanation: Towering cumulus has a mix of small and large supercooled droplets, so both rime and clear ice form together. Layer cloud (Ns, Sc) gives mainly rime, and fair weather cumulus is too small to give much icing.
+
+14. When considering icing in cloud over high ground compared with icing in other clouds, the effect of orographic lifting is to:
+a. cause the height of the freezing level to fall and increases the intensity of the icing
+*b. cause the height of the freezing level to rise and increases the severity of the icing
+c. cause the free water content of the cloud to increase and the freezing level to rise so reducing the icing risk
+d. increase the temperature inside the cloud due to the release of extra latent heat so reducing the icing risk
+Explanation: Lifting over high ground releases latent heat, which raises the freezing level in the cloud, and the stronger vertical currents increase the free water content and support larger supercooled droplets. The icing therefore becomes more severe, not less. NOTE: this is my reading of the options, so check it against your syllabus.
+
+15. Kinetic heating will:
+*a. increase the risk of icing if it raises the airframe temperature to just below 0°C
+b. increase the risk of icing if it raises the airframe temperature to just above 0°C
+c. always increase the risk of airframe icing
+d. always decrease the risk of airframe icing
+Explanation: Kinetic (friction) heating raises the skin temperature above the outside air temperature at high speed. If the skin is warmed to just above 0°C, supercooled drops will not freeze, so the risk drops. If it only reaches just below 0°C, the airframe is still in the range where drops freeze, and clear ice is possible, so the risk remains. NOTE: this is my reading of the options, so check it against your syllabus.
+`);
+registerChapterText("aviation-meteorology", "oxford-air-masses", "Air Masses (Oxford)", `
+1. An air mass that has travelled over an ocean is known as:
+a. continental air and has a high humidity
+b. continental air and has a low humidity
+*c. maritime air and has a high humidity
+d. maritime air and has a low humidity
+Explanation: Air that has spent time over the ocean is called maritime, and it picks up a lot of water vapour from the sea surface, so its humidity is high. Continental air comes from land and is drier. Memory aid: maritime = moist.
+
+2. Characteristic weather associated with a mPc air mass transiting the British Isles in summer would include:
+*a. widespread Cu and Cb activity overland during the day
+b. clear quiet settled weather overland by day with good visibility
+c. warm moist conditions with some Sc or Cu and moderate to poor visibility
+d. extensive low stratus cloud giving drizzle to light rain overland by day
+Explanation: A mPc (maritime polar returning) air mass is cold air that has been warmed from below over the sea, so it is unstable. In summer, daytime heating over land adds to this and gives widespread Cu and Cb with showers. Stable, settled weather and stratus belong to warm or stable air masses.
+
+3. If air in transit is heated from below it tends to become more:
+a. stable
+b. neutrally stable
+*c. unstable
+d. none of these
+Explanation: Heating the bottom of an air layer steepens the lapse rate, because the lower air becomes warmer than the air above, so it rises and the air becomes unstable. Cooling from below does the opposite and makes the air more stable.
+
+4. The weather associated with polar maritime air is:
+a. overcast, moderate drizzle
+b. overcast moderate intermittent rain
+*c. broken cloud, light, moderate or heavy rain
+d. broken cloud, moderate continuous rain
+Explanation: Polar maritime air is cold and is heated from below as it moves over warmer seas, so it is unstable. It gives broken cumuliform cloud with showers that can be light, moderate or heavy. Overcast drizzle and continuous rain come from stable layer cloud.
+
+5. Polar maritime air is ............ and can bring ............ in the UK in winter but ............ in summer. Complete the above sentence correctly using one of the following:
+a. very unstable/heavy snow showers/does not arrive
+b. cold and stable/advection fog/rain showers
+c. unstable/intermittent or continuous snow/cool dry weather
+*d. unstable/heavy showers/light rain showers
+Explanation: Following the book key, polar maritime air is unstable, and it brings heavy showers (often wintry) in winter, but in summer the showers are lighter because the sea is cooler relative to the air and the heating over land is less intense. It is not stable, so b is wrong.
+
+6. Tropical continental air normally brings to the UK:
+*a. hot dry cloudless weather with a thick haze
+b. warm weather with broken Cu and showers on coasts, visibility very good except in showers
+c. warm dry cloudless weather with very good visibility
+d. hot dry cloudless weather on coasts but Cu building up inland with rain showers, visibility good except in showers
+Explanation: Tropical continental air comes from hot dry land (the Sahara or southern Europe). It is dry and stable, so it gives hot, cloudless weather, with a thick haze because dust and pollution are trapped under the inversion, which reduces visibility.
+
+7. Referring to the area of the North Atlantic, the mean position of the polar front in January is:
+*a. from Florida to southwest England
+b. from Newfoundland to the north of Scotland
+c. from Florida to the north of Scotland
+d. from Newfoundland to southwest England
+Explanation: Following the book key, in January the polar front lies from Florida across the Atlantic to south-west England, as it is pushed south by the strong winter cold air. In July it moves north, running from Newfoundland to the north of Scotland.
+
+8. When air from an air mass moves to a lower latitude, it can be expected that:
+a. surface layer air will become warmer, the RH will rise and the air will become unstable
+b. surface layer air will become colder, the RH will rise and the air will become more stable
+*c. surface layer air will become warmer, the RH will fall and the air will become unstable
+d. surface layer air will become warmer, the RH will fall and the air will become more stable
+Explanation: Moving to a lower latitude means moving to a warmer surface, which heats the air from below, so the air warms, the relative humidity falls (warmer air can hold more vapour) and the lapse rate steepens, making it unstable.
+
+9. In the N. Hemisphere when flying in the troposphere above the surface friction layer in the polar maritime air mass behind the cold front of a fully developed frontal depression:
+a. the wind will tend to veer in direction and increase in speed with progressive increase of altitude
+b. the wind will tend to veer in direction with increase of altitude but the speed may remain constant in the lower layers of the atmosphere
+c. the wind speed will reduce progressively with increase of altitude until at about 10 000 feet above mean sea level where it will then tend to increase in speed from another direction
+*d. the wind will tend to back in direction and increase in speed with progressive increase of altitude
+Explanation: Behind a cold front the cold air is moving towards warmer latitudes (cold advection). By the thermal wind rule, cold advection makes the wind back with height, while the speed increases. Warm advection gives veering with height.
+
+10. The air masses involved in the development of a polar front depression are:
+a. Polar Maritime and Polar Continental
+b. Tropical Maritime and Polar Continental
+c. Tropical Continental and Polar Maritime
+*d. Polar Maritime and Tropical Maritime
+Explanation: A frontal depression of the polar front forms between the cold polar maritime air and the warm tropical maritime air, along the polar front over the North Atlantic.
+
+11. It can be expected that the depth of the friction layer over the UK will be:
+*a. greater in Polar Maritime air due to the instability and moderate wind
+b. greater in Tropical Maritime air due to the warm temperature
+c. greater in Polar Continental air due to the very low temperatures
+d. greater in Tropical Continental air due to the relatively high temperatures in winter
+Explanation: Unstable air mixes vertically, which spreads the effect of surface friction to greater heights, and polar maritime air is unstable with a moderate to strong wind. Stable air masses (tropical maritime, polar continental) have a shallow friction layer.
+
+12. When a cold front passes a station in the British Isles:
+*a. The wind veers and the dew point falls
+b. The wind backs and the dew point falls
+c. The wind veers and the dew point rises
+d. The wind backs and the dew point rises
+Explanation: Behind a cold front, the wind shifts from south-westerly to north-westerly, which is veering. The air behind it is cooler and drier, so the dew point falls. Memory aid: cold front passage means the wind veers and the temperature and dew point fall.
+`);
+registerChapterText("aviation-meteorology", "oxford-occlusions", "Occlusions (Oxford)", `
+1. Which of the conditions below would lead to the worst icing condition? (Size of drop, ambient temperature)
+a. 2 mm, -30°C
+b. 1 mm, -1°C
+*c. 5 mm, -4°C
+d. 3 mm, -12°C
+Explanation: The worst icing comes from large supercooled drops at a temperature just below 0°C. Large drops spread over the surface before freezing, which gives heavy clear ice. At -30°C most water is already frozen, and 1 mm drops are small and freeze quickly as light rime, so c is the worst.
+
+2. After passage of an occluded front in the Northern Hemisphere: (Wind, temperature, precipitation)
+a. backs, stops falling, continues
+b. veers, drops rapidly, stops abruptly
+*c. veers, drops or rises, begins to dry up
+d. backs, rises quickly, increases in strength
+Explanation: After an occlusion passes, the wind veers (it shifts clockwise, from south-west towards north-west), as with any front. The temperature can either fall or rise, depending on whether it is a cold or a warm occlusion, and the rain gradually dies away. A cold front would drop the temperature rapidly and a warm front would raise it, but an occlusion is a mixture of both.
+
+3. With a cold occlusion:
+a. the air ahead of the warm front is colder than the air behind the cold front
+b. the warm sector remains on the surface
+c. the cloud type is predominately layer with a wide precipitation band
+*d. there is a risk of CB embedded in NS
+Explanation: In a cold occlusion the cold front undercuts the warm front, so the warm sector is lifted off the surface. The cold front's convective cloud can then be found with the warm front's Ns, which gives a risk of embedded CB. In a cold occlusion the air behind the front is colder than the air ahead, which rules out a, and b describes an open (unoccluded) system.
+
+4. When flying from west to east through a cold occlusion (below the warm air) over the North Atlantic you would expect the wind to ......... and the temperature to .........:
+a. veer, decrease
+*b. back, increase
+c. back, decrease
+d. veer, increase
+Explanation: Flying west to east means going from behind the front into the air ahead of it. The wind changes from north-westerly (behind) to south-westerly (ahead), which is backing. In a cold occlusion the air behind is colder than the air ahead, so the temperature increases. Memory aid: this is the reverse of normal front passage, where the wind veers.
+
+5. A warm occlusion occurs when:
+a. warm air is forcing cool air over cold air
+b. cold air is forcing cool air over warm air
+*c. cool air is forcing warm air over cold air
+d. cool air is forcing cold air aloft
+Explanation: In a warm occlusion the air behind the cold front is cool, but warmer than the very cold air ahead of the warm front. It therefore rides up over the colder air, pushing the warm sector aloft, so cool air forces warm air over cold air.
+`);
+registerChapterText("aviation-meteorology", "oxford-other-depressions", "Other Depressions (Oxford)", `
+1. A thermal depression is likely to form:
+*a. over the Iberian peninsular during the summer
+b. in the lee of the Alps over northern Italy in winter
+c. in association with a marked trough of low pressure over the USA
+d. on the trailing edge of a warm sector mid latitude depression
+Explanation: A thermal low forms when land is strongly heated, so the air above it warms, expands and rises, and surface pressure falls. The Iberian peninsula in summer is the classic example. The other options describe lows caused by orography or frontal systems.
+
+2. Tropical revolving storms usually:
+a. form close to one side of the Equator and while moving slowly in a westerly direction, cross over to the other hemisphere
+b. move in a westerly direction before recurving towards the Equator
+c. move in an easterly direction before recurving towards the nearest pole
+*d. do not form within 5° of the Equator
+Explanation: Tropical revolving storms need the Coriolis force to start rotating, and it is almost zero near the Equator. They therefore do not form within about 5° of it, and they never cross the Equator. They normally move west and then recurve towards the nearest pole, not towards the Equator.
+
+3. With reference to tropical revolving storms, which of the following statements is correct?
+a. Typhoons are found in the South China sea in January
+b. Cyclones occur in the Bay of Bengal in winter
+c. Hurricanes in the South Atlantic sometimes affect the east coast of Brazil
+*d. Hurricanes affect the southeast of the USA in late summer
+Explanation: Atlantic hurricanes peak in late summer and autumn, when the sea is warmest, and they affect the south-east USA and the Caribbean. Typhoons in the South China Sea are mainly a summer feature, Bay of Bengal cyclones occur mainly in spring and autumn, and the South Atlantic almost never has hurricanes.
+
+4. Which of the following statements accurately describes the "West African tornado"?
+a. The West African tornado is similar to the North American and European tornadoes
+*b. It is a line of thunderstorms producing a line squall aligned roughly north/south
+c. It is another name for the cyclones that affect the West African coast in summer
+d. It is the name given to a line of thunderstorms that lie along the ITCZ but some 200 miles to the south
+Explanation: The "West African tornado" is not a true tornado. It is a line squall of thunderstorms, aligned roughly north-south and moving westward, with a sudden wind shift, a gust front and heavy rain. It is not a revolving storm.
+
+5. Extensive cloud and precipitation is often associated with a non-frontal thermal depression because of:
+a. surface divergence and upper level convergence causing widespread descent of air in the depression
+b. surface convergence and upper level divergence causing widespread descent of air in the depression
+*c. surface convergence and upper level divergence causing widespread ascent of air in the depression
+d. surface divergence and upper level convergence causing widespread ascent of air in the depression
+Explanation: In any low, air converges at the surface and rises, and diverges aloft. This widespread ascent cools the air and forms extensive cloud and precipitation. Descending air (options a and b) would clear the cloud.
+
+6. In comparison with a primary depression a secondary depression is:
+a. always more active
+*b. sometimes more active
+c. never more active
+d. unlikely to produce gale force winds
+Explanation: A secondary depression forms on the trailing cold front of a primary low. It is usually smaller, but it can sometimes deepen faster than the primary and become more active and dangerous. "Always" and "never" are therefore too absolute, and secondary lows can give gales.
+
+7. A secondary depression would form in association with:
+a. a polar depression
+b. a col
+c. a summer thermal depression over the Mediterranean or Caspian Sea
+*d. a polar front low
+Explanation: A secondary depression forms in the circulation of a main (primary) polar front low, usually on its cold front or in the trough, and then rotates around it.
+
+8. Tropical revolving storms:
+a. are always given a male first name beginning with "A" for the first of the season and thereafter named in alphabetical order of occurrence
+b. have internal wind speeds of 10-20 knots rotating cyclonically round a subsiding clear air core known as the eye
+*c. usually have the most severe weather in the quadrant to the right of the track in a hurricane
+d. regenerate after crossing the coast from sea to land
+Explanation: In the Northern Hemisphere the right-hand (dangerous) semicircle has the strongest winds, because the storm's own movement adds to its wind speed there. Storms are named alternately with male and female names, the winds in the storm are far stronger than 10-20 kt, and they weaken over land without their warm sea energy supply.
+
+9. Which of the following are thermal depressions?
+a. Tropical revolving storms, polar air depressions, tornadoes
+b. The equatorial trough, monsoon lows, some depressions over the central and eastern Mediterranean sea in summer
+c. The equatorial trough, polar air depressions, monsoon lows, orographic lows
+*d. The lows forming over flat land in summer, polar air depressions, tropical revolving storms, some of the lows which form over inland seas in winter
+Explanation: Following the book key, thermal lows are those caused by heating from below, such as lows over flat land in summer and over warm inland seas in winter, and this book's grouping also includes polar air depressions and tropical revolving storms. NOTE: this is the book's own classification, and options b and c also look similar, so check it against your syllabus.
+
+10. A secondary low pressure system rotates around a primary low:
+*a. cyclonically
+b. anticyclonically
+c. into the primary
+d. at a constant distance
+Explanation: A secondary low circulates around the primary low in the same direction as the primary's own rotation, which is cyclonic (anticlockwise in the Northern Hemisphere), and it often eventually merges with it. It does not stay at a constant distance.
+
+11. Flying conditions in a secondary low pressure system are:
+a. always more severe than in a primary low
+*b. sometimes more severe than in a primary low
+c. less severe than in a primary low
+d. relatively calm
+Explanation: Secondary lows are often small but active, and can deepen rapidly, so the weather in them can sometimes be worse than in the primary low. The word "always" in option a makes it wrong.
+
+12. Tropical revolving storms:
+*a. do not occur in the South Atlantic
+b. generally move from east to west before turning towards the Equator
+c. intensify after crossing coasts
+d. occur principally in spring and early summer
+Explanation: The South Atlantic is too cool, and has strong upper winds (wind shear) and no suitable convergence, so tropical revolving storms effectively do not form there. They turn away from the Equator, not towards it, weaken over land and peak in late summer and autumn.
+`);
+registerChapterText("aviation-meteorology", "oxford-global-climatology", "Global Climatology (Oxford)", `
+1. The tropical transitional climatic zone is:
+a. approximately 20° - 30° of latitude and provides very dry desert conditions throughout the year
+*b. approximately 10° - 20° of latitude and provides dry trade wind conditions in winter and a wet summer season
+c. approximately 10° - 20° of latitude and provides a wet winter season and a dry hot summer
+d. approximately 10° - 30° of latitude and has a period of long rains in spring and autumn, but is never dry
+Explanation: The tropical transitional zone lies between the equatorial rain belt and the subtropical desert belt. In winter it is under the dry trade winds, and in summer the ITCZ moves over it and brings a wet season. The 20-30° zone is the desert belt (option a).
+
+2. The temperate transitional climatic zone is:
+a. approximately 20° - 35° of latitude and covers the high pressure desert regions of the world
+b. approximately 35° - 40° of latitude and is under the influence of polar front depressions throughout the year
+*c. approximately 35° - 40° of latitude and provides a warm dry summer with a cool wet winter
+d. approximately 35° - 40° of latitude and provides a wet summer season and a dry cold winter
+Explanation: This is the Mediterranean-type climate. In summer the subtropical high moves poleward and gives warm dry weather, and in winter the polar front depressions move south and bring the rain.
+
+3. Northern Hemisphere summers tend to be:
+a. warmer than the Southern Hemisphere and winters are warmer too
+b. colder than the Southern Hemisphere due to the smaller amount of solar radiation
+c. colder than the Southern Hemisphere because of the large land masses
+*d. warmer than the Southern Hemisphere and the winters are colder
+Explanation: The Northern Hemisphere has much more land, and land heats and cools faster than sea. This gives it hotter summers and colder winters than the more maritime Southern Hemisphere.
+
+4. The effect of mountain barriers on temperature is exemplified by the following:
+a. European temperatures are low in winter because there is no barrier to prevent cold Atlantic air crossing the area
+*b. the Rocky mountains of North America prevent cold Pacific air reaching inland, so summer temperatures to the east of the mountains are high
+c. the Himalayas prevent warm dry air from Russia reaching India and Pakistan
+d. the Ural mountains of West Russia prevent most of the cold Siberian air reaching Europe in summer
+Explanation: Following the book key, the Rockies block the cool maritime Pacific air, so the interior to the east has a continental climate with hot summers. Atlantic air is mild, not cold (option a), and the Himalayas block cold air from the north, not warm air (option c).
+
+5. The tropopause is:
+a. more or less constant for any latitude
+b. is a boundary layer between the troposphere and the stratosphere
+*c. normally the upper limit of weather
+d. the upper limit for jet streams and mountain waves
+Explanation: Following the book key, the tropopause is normally the upper limit of weather, because nearly all cloud and weather occur in the troposphere beneath it. NOTE: option b is also a true definition, so check the key against your syllabus. Its height varies with latitude, so a is wrong.
+
+6. Statistical pressure values tend to be:
+a. on average parallel to the lines of latitude
+*b. on average parallel to the lines of latitude in the Southern Hemisphere and much more variable in the Northern Hemisphere
+c. much lower in winter in the Northern Hemisphere than in the Southern Hemisphere
+d. higher over the oceans in winter
+Explanation: The Southern Hemisphere is mostly ocean, so its mean pressure belts run in bands along the lines of latitude. In the Northern Hemisphere the large land masses create seasonal highs and lows, which make the pattern much more variable.
+
+7. The heat equator is:
+a. another name for the geographic equator
+*b. coincident with the equatorial trough and ITCZ
+c. a line over the land joining places where the summer temperatures are highest
+d. a line over the land joining places where the winter temperatures are highest
+Explanation: The heat equator is the line of highest mean temperature around the globe. It follows the equatorial trough and ITCZ, and it moves north and south with the sun, so it is not the same as the geographic equator.
+
+8. The average temperature around the equatorial regions:
+a. is always above +40°C
+b. is higher over the sea areas
+*c. varies on average from winter to summer by only some 5°C
+d. has a very high range of temperatures throughout the year
+Explanation: Near the Equator the sun is high all year, so the seasonal temperature range is small, only about 5°C. Temperatures are not always above 40°C, and the range is higher over land than sea, not the reverse.
+
+9. Trade winds:
+a. blow towards the subtropical anticyclones
+*b. are caused by lifting over the heat equator and the subsequent air movements from the subtropical anticyclones
+c. only blow in the winter months
+d. blow from the equatorial low pressure systems throughout the year
+Explanation: Air rises at the heat equator, flows poleward aloft and sinks in the subtropical highs. At the surface it returns towards the equatorial low, and the Coriolis force turns it into the trade winds. They blow from the subtropical highs, not towards them, and they blow all year.
+
+10. Trade winds in the Southern Hemisphere are:
+*a. southeasterly
+b. southeast at first becoming southwest
+c. in opposition to the monsoons
+d. usually from the northeast
+Explanation: In the Southern Hemisphere the Coriolis force turns the flow to the left, so the winds moving towards the equator come from the south-east. The north-east trades are the Northern Hemisphere ones.
+
+11. The Hadley cell is the name given to:
+a. the CU cells which continue to form a CB
+b. an initial bubble of air which is lifted by convection
+c. the centre portion of a jet stream
+*d. a cell formed by lifted air over the heat equator descending to the subtropical highs
+Explanation: The Hadley cell is the large circulation in which air rises at the heat equator, flows poleward aloft, sinks in the subtropical highs and returns at the surface as the trade winds.
+
+12. The large change in the direction of trade winds is caused by:
+a. local pressure differences
+b. an excess of air at height in association with the Hadley cells
+*c. the change in geostrophic force when crossing the geographic equator
+d. the cyclostrophic force in the equatorial regions
+Explanation: Following the book key, the Coriolis (geostrophic) force changes direction when crossing the equator, so the NE trades in the north become SE trades in the south. This gives the large change in direction.
+
+13. Monsoons are seasonal winds which:
+*a. develop due to the high pressure over continents in winter and the subsequent low pressure which develops over the same areas in summer
+b. are never in combination with trade winds
+c. blow only in the southeast Asia region
+d. are from the southeasterly direction over the Indian sub continent in summer
+Explanation: Land cools in winter and forms a high, so air flows out to sea. In summer land heats and forms a low, so moist air flows in from the sea, giving a seasonal reversal of wind. Monsoons are not limited to south-east Asia, and over India in summer the wind is south-westerly.
+
+14. The outflow from the Siberian High:
+a. is northwesterly over Japan, northerly and northeasterly over China and northerly over the whole of India
+b. is the source of Polar Maritime air
+*c. is northwesterly over Japan, northeasterly over southeast Asia and easterly over Europe
+d. is evident throughout the year
+Explanation: The Siberian High is a winter feature, so d is wrong. Its clockwise outflow gives north-westerly winds over Japan, north-easterly over south-east Asia and easterly over Europe. It is a source of cold continental air, not polar maritime air.
+
+15. The upper winds tend to be westerly outside the tropics because:
+a. the rotation of the earth is west to east
+*b. the thermal winds are westerly on average
+c. surface winds are nearly always westerly
+d. jet streams are usually westerly
+Explanation: Temperature falls from the equator to the poles, so the thermal wind blows with the cold air on its left in the Northern Hemisphere, which is a westerly flow. This increases with height, so the upper winds are westerly. Jet streams are a result of this, not a cause.
+
+16. Jet stream main locations are:
+a. in the warm air some 400 NM ahead of a warm or cold front and near the subtropical highs
+*b. in the warm air some 400 NM ahead of a warm front and some 200 NM behind a cold front and near the subtropical highs
+c. only in association with the polar front
+d. in association with the polar front and with mountain waves
+Explanation: Following the book key, the jet is found about 400 NM ahead of a warm front and about 200 NM behind a cold front, where the temperature contrast is greatest, as well as near the subtropical highs. It is not limited to the polar front, and mountain waves do not create jets.
+
+17. Jet streams:
+a. only occur in the troposphere
+b. have a speed in excess of 80 kt
+c. are located above the tropopause
+*d. are caused by a large difference in mean temperature in the horizontal
+Explanation: A jet stream is a thermal wind, so it forms where there is a strong horizontal temperature gradient. They occur near the tropopause, and the definition is 60 kt or more, so the other options are not accurate.
+
+18. Near the Equator upper winds tend to be:
+*a. easterly
+b. westerly
+c. at speeds greater than 60 kt
+d. calm
+Explanation: In the tropics the temperature gradient is reversed in summer, and the upper air flows from the east. The tropical easterlies and the tropical easterly jet are typical, and winds are generally light.
+
+19. The polar front is:
+a. the boundary surface between polar continental and tropical continental air near the poles
+b. only apparent over the Atlantic ocean
+c. the region where warm sector depressions develop
+*d. the boundary between cold polar air and warm tropical air
+Explanation: The polar front is the boundary between cold polar air and warm tropical air in mid-latitudes. NOTE: option d was missing from the source, and I wrote it from the book key (which says d). Please check the wording against your book.
+
+20. The ITCZ is:
+*a. the region between the two trade wind systems centred on the heat equator
+b. the boundary region between the two monsoons
+c. the boundary between polar air and equatorial air
+d. a region of calm winds and layer type clouds with much haze
+Explanation: The InterTropical Convergence Zone is where the north-east and south-east trade winds meet, near the heat equator. It has deep convective cloud and heavy rain, not layer cloud and haze.
+
+21. Tropical revolving storms:
+*a. are a summer weather feature
+b. are easily predictable
+c. can be very active well inland
+d. can travel at speeds of 100 kt
+Explanation: Tropical revolving storms need warm sea temperatures (above 26°C), so they occur in summer and autumn in each hemisphere. They are hard to predict, weaken quickly over land, and travel at about 10-20 kt, not 100 kt.
+
+22. The areas of greatest rainfall are:
+a. those where there is much polar front depression activity
+*b. in the equatorial regions
+c. in the polar regions
+d. in central North America in summer due to the large convective cloud formations
+Explanation: The equatorial regions have warm, humid air, constant convection and the ITCZ, which gives the highest rainfall on Earth. Polar regions are very dry.
+
+23. Thunderstorms most frequently occur:
+*a. in association with the ITCZ over central Africa
+b. over the east Indies area (Java) due to the intense surface heating
+c. in regions affected by cold fronts
+d. in association with tropical revolving storms
+Explanation: Following the book key, thunderstorms are most frequent in the ITCZ over central Africa, where land heating is intense and the air is moist. NOTE: Java also has very high thunderstorm frequency, so check the key against your syllabus.
+
+24. Dust storms and haze are most common:
+a. in association with the subtropical anticyclones over land
+*b. with the Haboobs in winter
+c. in unstable air with low pressure
+d. in temperate latitudes
+Explanation: Following the book key, dust storms and haze are tied to the Haboobs, the dust storms of Sudan. NOTE: Haboobs normally occur in summer, so "in winter" looks wrong. Check the key against your syllabus.
+
+25. The most notorious advection fogs occur:
+a. over southwest UK
+*b. over the sea in the region of Newfoundland and the Kamchatka peninsula
+c. over Europe with high pressure to the north
+d. over central North America in autumn and winter
+Explanation: Advection fog forms where warm moist air flows over a cold sea. Near Newfoundland the warm Gulf Stream air flows over the cold Labrador Current, and near Kamchatka warm air flows over the cold Oyashio Current, which gives some of the worst fog in the world.
+`);
+registerChapterText("aviation-meteorology", "oxford-metars", "Meteorological Aerodrome Reports (METARs) (Oxford)", `
+1. When a TREND is included at the end of a METAR, the trend is a forecast valid for:
+a. 1 hour after the time of observation
+*b. 2 hours after the time of observation
+c. 2 hours after it was issued
+d. 1 hour after it was issued
+Explanation: A TREND landing forecast is attached to a METAR or SPECI and is valid for 2 hours from the time of the observation, not from when it was issued or sent.
+
+2. A METAR may be defined as being:
+a. a routine weather report for a large area
+b. an aerodrome forecast containing a TREND for the next 2 hours
+*c. a routine weather report concerning a specific aerodrome
+d. a forecast weather report concerning a specific aerodrome
+Explanation: A METAR is a routine observation (a report of actual weather) for one aerodrome, issued half-hourly or hourly. It is not a forecast, and the TREND is only an optional addition.
+
+3. In the METAR shown below, the cloud base has been omitted. At what height might you expect the cloud base to be? 28005KT 9999 ?????? 12/11 Q1020 NOSIG
+a. SCT042
+b. OVC090
+c. SCT280
+*d. OVC005
+Explanation: The temperature and dew point (12/11) are only 1°C apart, so the air is almost saturated and low cloud is likely. Visibility 9999 with no CAVOK also means there is cloud below 5000 ft, so OVC005 (overcast at 500 ft) fits best. NOTE: SCT042 is also below 5000 ft, so this is the book key and the question is not fully decisive.
+
+4. Which of the following correctly decodes the METAR shown below? METAR EGKL 130350Z 32005KT 0400N DZ BCFG VV002
+*a. Observed on the 13th day of the month at 0350Z, surface wind 320° True, 05 kt, minimum visibility 400 metres to the north, moderate drizzle, with fog patches and a vertical visibility of 200 ft
+b. Reported on the 13th day of the month at 0350Z, surface wind 320° magnetic, 05 kt, minimum visibility 400 metres to the north, moderate drizzle, with fog patches and a vertical visibility of 200 ft
+c. Valid on the 13th day of the month between 0300 and 1500Z, surface wind 320°T/05 kt, minimum visibility 400 metres, drizzle, with fog patches and a vertical visibility of 200 ft
+d. Valid between 1300 and 1350Z, surface wind 320°T/05 kt, minimum visibility 400 metres to the north, moderate drizzle, with fog patches and a vertical visibility of 200 ft
+Explanation: 130350Z is day 13 at 0350 UTC, and a METAR is an observation, not a forecast. The METAR wind is in degrees true (not magnetic), 0400N is 400 m visibility to the north, DZ with no sign is moderate drizzle, BCFG is fog patches, and VV002 is a vertical visibility of 200 ft.
+
+5. A temperature group of 28/24 in a METAR means that:
+a. the temperature is 28°C at the time of reporting, but it is expected to become 24°C by the end of the TREND report
+b. the dry bulb is 28°C and the wet bulb temperature is 24°C
+c. the dew point is 28°C and the temperature is 24°C
+*d. the temperature is 28°C and the dew point is 24°C
+Explanation: The group is temperature/dew point, in that order. The dew point can never be higher than the temperature, which rules out c. It is not a wet bulb value and is not a forecast.
+
+6. Providing the minimum sector altitude is not a factor, CAVOK in a TAF or METAR:
+*a. means visibility 10 km or more, and no cloud below 5000 ft
+b. means visibility 10 km or more, and few cloud below 5000 ft
+c. means visibility 10 nm or more, and no cloud below 5000 ft
+d. means visibility 10 nm or more, and no scattered cloud below 5000 ft
+Explanation: CAVOK means visibility of 10 km or more (not nautical miles), no cloud below 5000 ft (1500 m) or the highest minimum sector altitude, whichever is greater, no CB, and no significant weather. Even FEW cloud below 5000 ft rules out CAVOK.
+
+7. The visibility group R20/0050 in a METAR means:
+*a. as measured by runway measuring equipment for runway 20, a current visibility of 50 metres
+b. for runway 20, a current visibility of 500 metres measured by runway visual range equipment
+c. the runway visibility reported is 50 metres as measured by runway visual range equipment in the last 20 minutes on runway 20
+d. the current visibility is less than 5000 metres
+Explanation: In R20/0050, R means runway visual range, 20 is the runway, and 0050 is a visual range of 50 metres at the time of observation. It is a current value, not a 20-minute average, and 0050 is 50 m, not 500 m.
+
+8. The code "BECMG FM 1100 -RASH" in a METAR means:
+a. from 1100UTC, the cessation of rain showers
+b. becoming from 1100UTC slight rain showers
+c. becoming from 1100UTC rain showers
+d. becoming from 1100UTC till 0000UTC slight rain showers
+Explanation: BECMG FM1100 means the change begins at 1100 UTC, and -RASH is slight (minus sign) rain showers, so the weather becomes slight rain showers from 1100 UTC. NOTE: no sign would mean moderate, and cessation of rain would be written NSW.
+`);
