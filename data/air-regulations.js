@@ -1958,6 +1958,320 @@ b. Medium to Good
 *c. Poor
 Explanation: Friction of 0.25 and below is classed as poor, so 0.20 is poor. Memory aid: 0.40 and above is good, and below 0.25 is poor.
 `);
+registerChapterText("air-regulations", "rk-bali-use-of-ats-surveillance-system", "Use of Air Traffic Services Surveillance System (RK Bali)", `
+1. The minimum radar separation to be provided to aircraft established on the localizer course shall be:
+a. 2.0 NM between aircraft on adjacent localizer course
+*b. 2.5 NM between aircraft on the same localizer course
+c. 5.0 NM between aircraft on the same localizer course
+Explanation: ICAO allows the horizontal radar separation to be reduced to 2.5 NM between aircraft established on the same localizer course (within 10 NM of the threshold, under the conditions laid down); the normal minimum of 5.0 NM applies otherwise.
+
+2. Unless otherwise prescribed by the appropriate ATS authority, the horizontal radar separation minimum prescribed by ICAO shall be:
+a. 3.5 NM
+b. 8 NM
+*c. 5.0 NM
+Explanation: The standard ICAO horizontal radar separation minimum is 5 NM; smaller minima (such as 3 NM) are used only where the authority prescribes them.
+
+3. Where ADS-B is used for identification, aircraft may be identified by the following procedure:
+a. Asking him to squawk assigned mode A code C.
+*b. Direct recognition of the aircraft identification in an ADS-B label.
+c. Recognition of an assigned discrete code, the setting of which has been verified.
+Explanation: With ADS-B the aircraft identification is shown in the label, so the controller can identify the aircraft by directly recognising it there.
+
+4. An aircraft is considered to be maintaining its assigned level as long as the SSR mode C derived level information indicated that it is within:
+a. +/- 500 ft of the assigned level in non RVSM airspace
+*b. +/- 200 ft of the assigned level in RVSM airspace
+c. +/- 300 ft of the assigned level in RVSM airspace
+Explanation: In RVSM airspace the tolerance is +/- 200 ft (60 m); outside RVSM airspace it is +/- 300 ft (90 m), so a and c are wrong.
+
+5. An aircraft in climb or descent is considered to have crossed a level when the SSR mode C derived level information indicates that it has passed this level in the required direction by:
+a. +/- 300 ft
+*b. More than 300 ft
+c. 300 ft
+Explanation: A climbing or descending aircraft is regarded as having crossed a level only when the SSR mode C readout shows it has passed that level in the required direction by more than 300 ft.
+
+6. Secondary Surveillance Radar (SSR) information may be used alone in the provision of separation between aircraft provided;
+a. Instructions to pilot are acknowledged by him by making specific maneuver(s).
+*b. Aircraft identification is established and maintained by use of discrete SSR codes.
+c. It can not be used for providing separation.
+Explanation: SSR-only separation can be used when the aircraft identification is established and maintained using discrete SSR codes; it can be used for separation, so c is wrong.
+
+7. Radar identification of a departing aircraft can be achieved if a radar blip is observed within a certain distance from the end of the runway. Identification has to be achieved within:
+*a. 1 NM
+b. 3 NM
+c. 5 NM
+Explanation: A departing aircraft can be identified by observing its position within 1 NM of the end of the runway (the point where the take-off roll ends), and by confirming that it is the aircraft that took off.
+
+8. Separation based on the use of MLAT position symbols and PSR blips shall be applied so that
+*a. the distance between the centres of the position symbols and PSR blips, representing the positions of the aircraft concerned, is never less than a prescribed minimum.
+b. the distance between the edges of the position symbols and PSR blips, representing the positions of the aircraft concerned, is never less than a prescribed minimum.
+c. the distance between the furthest edges of the position symbols and PSR blips, representing the positions of the aircraft concerned, is never more than a prescribed minimum.
+Explanation: Separation is measured between the centres of the symbols and blips, and must never be less than the prescribed minimum; a distance can never be "never more than" a minimum.
+
+9. The air traffic control unit has reported "radar contact". What does that mean to the pilot?
+a. The aircraft is subject to positive control
+b. Position reports may be omitted
+*c. The radar identity of the aircraft has been established
+Explanation: "Radar contact" simply tells the pilot that ATC has identified the aircraft on the radar display; it does not by itself mean positive control or that position reports can be omitted unless ATC says so.
+
+10. When a RADAR operator says the following to an aircraft: "fly heading 030", the pilot must fly heading:
+a. 030° magnetic in still air conditions (thereby flying the magnetic track)
+*b. 030° compass in still air conditions (thereby flying the compass heading)
+c. 030° true, in still air conditions (thereby flying the true track)
+Explanation: NOTE: book key says b (compass heading), but ATC headings are normally given in degrees magnetic, so a would normally be expected; the book key is marked as highlighted.
+
+11. Which code shall be used on Mode "A" to provide recognition of an aircraft subjected to unlawful interference?
+a. Code 7700
+b. Code 7600
+*c. Code 7500
+Explanation: Memory aid for the special codes: 7500 = hijack (unlawful interference), 7600 = radio failure, 7700 = emergency.
+
+12. Upon intercepting the assigned radial, the controller advises you that you are on the airway and to "resume own navigation". This phrase means that:
+a. radar services are terminated and you will be responsible for position reports
+*b. You are to assume responsibility for your own navigation
+c. You are to contact the center at the next reporting point
+Explanation: "Resume own navigation" means radar vectoring has ended and the pilot is again responsible for navigating (for example along the airway).
+
+13. What does the ATC term "radar contact" signify?
+*a. Your aircraft has been identified on the radar display and radar flight instructions will be provided until radar identification is terminated
+b. You will be given traffic advisories until advised that the service has been terminated or that radar contact has been lost
+c. ATC is receiving your transponder and will furnish vectors and traffic advisories until you are advised that contact has been lost
+Explanation: Radar contact means the aircraft has been identified on the radar display and radar instructions will be given until identification is terminated.
+
+14. Where a "Secondary Surveillance Radar" (SSR) is not available, radar identification may be achieved by one of the following procedures:
+a. To instruct the pilot to execute one or more changes of 10°
+b. To instruct the pilot to execute one or more changes of 45°
+*c. To instruct the pilot to execute one or more changes of 30° or more
+Explanation: Without SSR, the controller identifies the aircraft by ordering heading changes of 30° or more and watching a matching track on the display.
+
+15. When "Secondary Radar" is used, an aircraft may be identified by one of the following procedures:
+a. To request pilot to set transponder on position "OFF"
+b. To request pilot to switch from "ON" to "STBY"
+*c. Observation of compliance with an instruction to operate transponder from "ON" to "STBY" and back to "ON"
+Explanation: One identification method is to ask the pilot to switch the transponder from ON to STBY and back, and to see the response on the display.
+
+16. The Air Traffic Control Service: do not prevent collisions with terrain.
+a. Wrong, they do prevent collisions with terrain
+b. Except when an aircraft is flying IFR in IMC
+*c. Correct, except when an IFR flight is vectored by radar
+Explanation: ATC normally does not provide terrain clearance, but when the controller vectors an IFR flight by radar they are responsible for terrain clearance.
+
+17. Which code shall be used on mode "A" to provide recognition of an emergency aircraft?
+a. Code 7600
+b. Code 7500
+*c. Code 7700
+Explanation: 7700 is the general emergency code (7600 = radio failure, 7500 = unlawful interference).
+
+18. One of the functions ensured by a radar control unit for the provision of approach control service is:
+*a. To conduct surveillance radar approaches
+b. To apply a horizontal separation less than 5 NM
+c. To provide instructions in order to reduce separations minima, if accepted by the pilots
+Explanation: A radar control unit at an approach control can conduct surveillance radar approaches (SRA); reducing separation minima is not done just because the pilot agrees.
+
+19. The primary duty provided by a radar unit is:
+a. To assist aircraft on the location of storms
+*b. To provide radar separation
+c. To assist aircraft where navigation appears unsatisfactory
+Explanation: The main purpose of a radar unit is to provide radar separation between aircraft; helping with weather or navigation are secondary duties.
+
+20. What is meant when departure control instructs you to "resume own navigation" after you have been vectored to an airway?
+a. Advisories will no longer be issued by ATC
+b. You are still in radar contact, but must make position reports
+*c. You should maintain that airway by use of your navigation equipment
+Explanation: After being vectored onto the airway, "resume own navigation" means the pilot must stay on that airway using their own navigation equipment.
+
+21. All aircraft carrying serviceable transponder shall operate the transponder:
+*a. At all times during flight, regardless of whether the aircraft is within or outside airspace where SSR is used for ATS purposes.
+b. Only when the aircraft is flying within airspace where SSR is used for ATS purposes.
+c. As and when required by the pilot.
+Explanation: A serviceable transponder must be on at all times during flight, whether or not the airspace uses SSR for ATS, so that ACAS and ATC can see the aircraft.
+`);
+registerChapterText("air-regulations", "rk-bali-aeronautical-information-services", "Aeronautical Information Services (RK Bali)", `
+1. Detailed description of meteorological information provided at the aerodrome and an indication of which meteorological office is responsible, is in the following part of the AIP
+*a. AD
+b. RAC
+c. MET
+Explanation: Aerodrome-specific information is in the AD (Aerodromes) part, and the meteorological information provided at the aerodrome (with the responsible met office) is in section AD 2.11. RAC and MET are not the parts that give this per-aerodrome detail.
+
+2. A checklist of AIP supplements currently in force shall be issued at intervals of:
+a. Not more than 2 months
+b. Not more than 28 days
+*c. Not more than one month
+Explanation: The checklist of valid AIP supplements is issued at intervals of not more than one month, usually as part of the monthly printed plain-language summary. Memory aid: checklists are monthly.
+
+3. Which of the following is information that is not given in AIP approach and landing charts?
+a. OCH or OCA
+*b. Visibility minima
+c. DME- frequencies
+Explanation: Approach charts show the OCA/OCH and navigation aid details such as DME frequencies. Visibility minima depend on the operator's approved aerodrome operating minima and are not given as a general chart item. NOTE: some charts also print RVR or visibility values, so treat this as the book key.
+
+4. An integrated aeronautical information package consists of the following elements
+a. AIP, supplements to AIP; NOTAM and PIB, AIC and checklist summaries
+*b. AIP, including amendment service; supplements to AIP, NOTAM and pre-flight information bulletin (PIB), AIC, checklists and summaries
+c. AIP, including amendment service; supplements to AIP, NOTAM, AIC and checklist summaries
+Explanation: The Integrated Aeronautical Information Package has these elements: AIP with its amendment service, AIP supplements, NOTAM and pre-flight information bulletins (PIB), AIC, and checklists and summaries. Options a and c each leave something out (the amendment service or the PIB).
+
+5. Temporary changes on specifications for AIP supplements of long duration and information of short duration which contains extensive text and/or graphics shall be published as AIP supplements. It is considered a long duration.
+*a. Three months or longer
+b. Two months or longer
+c. One year or longer
+Explanation: Temporary changes of three months or longer, and short-duration information with extensive text or graphics, are published as AIP supplements. Anything shorter than three months and brief goes by NOTAM.
+
+6. Operationally significant changes to the AIP shall be published in accordance with:
+a. AIC procedures and identified by the acronym AIC followed by a number
+b. NOTAM procedures and identified by acronym NOTAM followed by a number
+*c. AIRAC procedures and identified by the acronym AIRAC
+Explanation: Operationally significant changes to the AIP are published under the AIRAC system (Aeronautical Information Regulation And Control), with common effective dates, and are identified by the acronym AIRAC. AIC and NOTAM are not used for this.
+
+7. A checklist of NOTAM currently in force shall be issued at the AFTN at intervals of:
+a. Not more than 28 days
+*b. Not more than one month
+c. Not more than 10 days
+Explanation: The checklist of valid NOTAM is sent over the AFTN at intervals of not more than one month, using one NOTAM series checklist for each series.
+
+8. Change in frequency or location of navigational aids on short notice is notified through:
+*a. Notams
+b. AIRAC
+c. AIP
+Explanation: Short-notice changes to the frequency or location of navigation aids are circulated by NOTAM, because they are urgent and temporary. AIRAC is for planned changes with fixed effective dates, and the AIP is the permanent reference.
+
+9. The contents of Aeronautical Information Publication (AIP) are:
+*a. GEN, ENR (en-route) and AD (aerodromes)
+b. GEN, ENR, RAC, AD
+c. GEN, AGA, COM, ENR, FAL
+Explanation: The AIP has three parts: GEN (General), ENR (En-route) and AD (Aerodromes). RAC, AGA, COM and FAL were headings in the older format and are not parts of the current AIP.
+
+10. The SIGMET service, is in the AIP, in the following part:
+a. AGA
+*b. GEN
+c. MET
+Explanation: The meteorological services, including the SIGMET service, are described in GEN 3.5 (Meteorological services). The AIP has no separate MET part.
+
+11. In which chapter of the AIP can you find a list with "location indicators"?
+a. AGA
+*b. GEN
+c. ENR
+Explanation: The list of location indicators is in GEN 2.4 (Location indicators). Part GEN holds the tables and codes used throughout the AIP.
+
+12. The informations on holding, approach and departure procedures, are found in the following part of the AIP:
+*a. ENR
+b. MAP
+c. AD
+Explanation: As per the book key, holding, approach and departure procedures are in ENR (section ENR 1.5). NOTE: aerodrome-specific instrument procedures and charts are also given in the AD part, so check this against your syllabus.
+
+13. The closure of a runway for a year, because of maintenance, will be published:
+a. Only in AIP
+*b. In NOTAM and AIP, inclusive Supplement
+c. Only in NOTAM
+Explanation: A closure of about a year is long-term, so it is published as an AIP supplement, and a NOTAM (trigger NOTAM) is issued to draw attention to it. Neither one alone is enough.
+
+14. An AIRAC is:
+*a. An acronym for a system aimed at advance notification based on common effective dates, of circumstances necessitating significant changes in operating procedures
+b. A notice distributed by means of telecommunication containing information concerning the establishment, condition or change in any aeronautical facility, service, procedure or hazard, the timely knowledge of which is essential to personnel concerned with flight operations
+c. A package which consists of the following elements: AIP, supplements to the AIP, NOTAM, AIC, checklists and summaries
+Explanation: AIRAC is the system for advance notification, based on common effective dates, of changes that need significant changes in operating procedures. Option b defines a NOTAM, and option c describes the integrated aeronautical information package.
+
+15. Select the acronym corresponding to the following definition: an special NOTAM series notifying, by means of a specific format, an important change for the aircraft operations, due to a volcano activity, a volcano eruption or a volcanic ash cloud.
+a. GVATAM
+*b. ASHTAM
+c. NAVTAM
+Explanation: An ASHTAM is the special NOTAM series for volcanic activity, eruptions and ash clouds. Memory aid: ASH + NOTAM = ASHTAM. GVATAM and NAVTAM are not real terms.
+
+16. The system notifying in advance the circumstances requiring important changes in the methods of operation, based on common effective dates, is identified by the acronym:
+*a. AIRAC
+b. EATCHIP
+c. IFPS
+Explanation: AIRAC is the advance-notification system based on common effective dates (every 28 days). EATCHIP and IFPS are European air traffic management programmes and systems, not AIS terms.
+
+17. The temporary, long-term modification (3 months or more) and the short-term extensive or graphical information are published as follows:
+*a. AIP Supplements
+b. Trigger NOTAM
+c. NOTAM
+Explanation: Long-term temporary changes (three months or more) and short-term information with extensive text or graphics are published as AIP Supplements. A trigger NOTAM is only used to alert users that a supplement or AIRAC change exists.
+
+18. The informations concerning charges for aerodromes/heliports and Air Navigation Services are on the following part of the AIP:
+a. AD
+*b. GEN
+c. FAL
+Explanation: Charges for aerodromes, heliports and air navigation services are given in GEN 4 (Charges for aerodromes/heliports and air navigation services).
+
+19. A notice providing information on Rules of the Air, Traffic Services and Air Navigation Procedures and distributed in advance of its effective date is:
+*a. An AIRAC
+b. An ATS NOTAM
+c. An Advisory NOTAM
+Explanation: Changes to the rules of the air, traffic services and air navigation procedures are distributed in advance of the effective date through the AIRAC system. ATS NOTAM and Advisory NOTAM are not valid terms for this.
+
+20. A notice containing information concerning flight safety, air navigation, technical, administration or legislative matters and originated at the AIS of a state is called:
+a. NOTAM
+b. AIRAC
+*c. Aeronautical Information Circular (AIC)
+Explanation: An AIC carries information that does not qualify for a NOTAM or AIP entry but concerns flight safety, air navigation, technical, administrative or legislative matters. It is issued by the state's AIS.
+
+21. In which section of AIP are contained information elements relating to prohibited, restricted and dangerous areas?
+a. AGA
+*b. ENR
+c. GEN
+Explanation: Prohibited, restricted and danger areas are in ENR 5 (Navigation warnings). AGA was an older part, and GEN holds general information.
+
+22. In which section of AIP are contained information elements to refueling facilities and limitations on refuelling services?
+*a. AD
+b. GEN
+c. SAR
+Explanation: Refuelling facilities and any limitations are aerodrome-specific, so they are given in the AD part (for example AD 1.1 and AD 2.4 for ground handling facilities and services).
+
+23. In which section of the AIP are contained information elements relating to areas and/or routes for which meteorological service is provided?
+a. MET
+*b. GEN
+c. RAC
+Explanation: The areas and routes covered by the meteorological service are given in GEN 3.5 (Meteorological services). MET and RAC are not parts of the current AIP.
+
+24. Each contracting state shall provide an Aeronautical Information Service (AIS) in its territory and for areas in which the state is responsible for the Air Traffic Services outside its territory, and this shall include the preparation and origination of:
+a. Only AIP and NOTAM's
+b. AIP, NOTAM's, Circular and AIRAC
+*c. Integrated Aeronautical Information Package
+Explanation: The state's AIS must prepare and originate the whole Integrated Aeronautical Information Package, which includes the AIP, supplements, NOTAM, PIB, AIC, and checklists and summaries. Options a and b list only some elements.
+
+25. The identification of each prohibited, restricted and danger area shall be composed by:
+*a. The nationality letters for location indicators assigned to the state or territory, followed by the letters P, R and D and figures
+b. The letters P (Prohibited), R (Restricted) and D (Dangerous) for the area concerned and figures
+c. The letters P (Prohibited), R (Restricted) and D (Dangerous) followed by figures
+Explanation: The identification has three parts: the state's nationality letters (for India, VI), then P, R or D for the type of area, then the number. For example VIR-10 is restricted area number 10 in India.
+
+26. NOF in India are established at:
+a. All major aerodromes.
+b. All international Airports
+*c. International Airports at Delhi, Mumbai, Kolkatta and Chennai only.
+Explanation: As per the book key, the International NOTAM Offices (NOF) are at the four international airports of Delhi, Mumbai, Kolkata and Chennai only, not at every airport.
+
+27. Runway Condition Report (RCR) is prepared by ______ for use by ______.
+*a. Aerodrome Operator, Flight Crew.
+b. Flight Crew, DGCA.
+c. Flight Crew, Aircraft Operator.
+Explanation: The aerodrome operator assesses the runway surface condition and prepares the Runway Condition Report, which the flight crew use for take-off and landing performance. It is not prepared by the flight crew.
+
+28. Runway Condition Code (RWYCC) is reported for:
+a. The runway to indicate unusable portion of the operational runway.
+*b. For each one third portion of the operational runway to indicate the presence of water, snow, ice, slush or frost.
+c. For non operational runway to denote it's status.
+Explanation: The RWYCC (0 to 6) is reported for each third of the runway to describe the surface condition, such as the presence of water, snow, ice, slush or frost. Code 6 is dry and code 0 is the worst.
+
+29. Standing water on runway is notified through a:
+a. Notam W
+*b. Snowtam
+c. AIRRAC
+Explanation: A SNOWTAM is the special NOTAM series that reports the runway surface condition, and it covers standing water, snow, slush and ice. AIRRAC is a misspelling of AIRAC, which is for planned procedure changes.
+
+30. NOF stands for:
+a. Notam Office
+b. Notam for Flight
+*c. International Notam Office
+Explanation: NOF is the International NOTAM Office, the office designated by a state for the exchange of NOTAM internationally.
+
+31. A proper pre-flight briefing away from the aerodrome should include:
+a. Weather conditions en route, at destination, and alternates
+b. Fuel planning & alternate planning
+*c. Both A and B are correct
+Explanation: A thorough pre-flight briefing must cover both the weather (en route, destination and alternates) and the fuel and alternate planning. Each option alone is incomplete.
+`);
 
 registerChapterText("air-regulations", "rk-bali-human-performance-limitations", "Human Performance and Limitations (RK Bali)", `
 1. As a cause of accidents, the human factor:
