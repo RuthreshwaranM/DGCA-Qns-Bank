@@ -1162,7 +1162,475 @@ b. (+) 60 minutes of EOBT in RPL/FPL.
 *c. (-) 15 minutes to (+) 3 hours of EOBT.
 Explanation: For non-scheduled domestic flights, the ADC validity window extends from 15 minutes before to 3 hours after the EOBT.
 `);
+registerChapterText("air-regulations", "rk-bali-air-traffic-services", "Air Traffic Services (RK Bali)", `
+1. A lower limit of a Control Area shall be established at a height above the ground level or water of not less than:
+a. 150 metres
+*b. 200 metres
+c. 300 metres
+Explanation: Under ICAO Annex 11 the lower limit of a control area is at least 200 m (700 ft) above the ground or water. Remember "700 ft".
 
+2. The Approach Control Service is an air traffic control service:
+*a. provided for the arriving and departing controlled flights
+b. for IFR flights arriving and departing
+c. provided for IFR traffic within a Control Zone
+Explanation: Approach control is ATC service for arriving or departing controlled flights. It is not limited to IFR flights, and it is not limited to the Control Zone.
+
+3. The units providing Air Traffic Services are:
+a. Area Control Center - Advisory Center - Flight information Center - Approach Control Office and Tower
+*b. Area Control Center - Flight Information Center - Approach Control Office - Aerodrome Control Tower and Air Traffic Services reporting office
+c. Area Control Center - Approach Control Office and Aerodrome Control Tower only
+Explanation: The ATS units are the Area Control Centre, Flight Information Centre, Approach Control Office, Aerodrome Control Tower and the ATS Reporting Office. "Advisory Center" is not an ATS unit, and option C leaves out the FIC and the reporting office.
+
+4. Air traffic control service is provided for the purpose of:
+a. Avoiding collisions between all aircraft and maintaining an orderly flow of air traffic
+*b. Preventing collisions between aircraft, between aircraft and obstacles on the manoeuvring area and expediting and maintaining an orderly flow of air traffic
+c. Preventing collisions between controlled air traffic and expediting and maintaining an orderly flow of air traffic
+Explanation: ATC has two purposes: (a) prevent collisions between aircraft, and between aircraft and obstructions on the manoeuvring area, and (b) expedite and maintain an orderly flow of traffic. Option B is the only one that includes the obstacles.
+
+5. To perform a VFR flight in airspace classification E:
+a. a clearance and/or two-way radio communication is required
+b. a clearance is required
+*c. two-way radio communication is not required
+Explanation: In Class E, IFR flights need a clearance and radio contact, but VFR flights need neither a clearance nor two-way radio. VFR flights only get traffic information as far as practical.
+
+6. Which statement is correct?
+a. The lower limit of an UIR may coincide with an IFR cruising level
+*b. The lower limit of a TMA shall be established at a height of at least 700ft AGL
+c. The upper limit of a CTR shall be established at a height of at least 3000ft AMSL
+Explanation: The lower limit of a control area or TMA is at least 700 ft (200 m) above the ground. Option A is wrong because the lower limit of an upper FIR should coincide with a VFR cruising level, not an IFR one. Option C does not match the Annex 11 rule for a CTR.
+
+7. What is the speed limit (IAS) in an airspace class E?
+a. 250kt VFR and IFR, all levels
+*b. 250kt for IFR and VFR up to FL 100
+c. 250 kt only for IFR up to FL 100
+Explanation: In Class E, both IFR and VFR flights are limited to 250 kt IAS below 3050 m (10 000 ft) AMSL. The limit applies to both, and only below FL100, not at all levels.
+
+8. The speed limitation for IFR flights inside ATS airspace classified as C, when flying below 3050m (10000ft) AMSL, is:
+a. 250kt IAS
+*b. Not applicable
+c. 250kt TAS
+Explanation: In Class C the 250 kt IAS limit applies to VFR flights, but for IFR flights it is not applicable. The book prints "1000ft", which is a typo for 10 000 ft.
+
+9. RCP 10 means:
+*a. 10 is the number of seconds it takes for an instruction to travel from the ground to aircraft and acknowledgment back to the ground.
+b. 10 is the maximum number of minutes it takes for an instruction to be executed by an aircraft.
+c. Aircraft must communicate with ATC every 10 minutes.
+Explanation: RCP is Required Communication Performance. The number after RCP is a transaction time in seconds, which is the time for an instruction to go from the ground to the aircraft and the acknowledgement to come back.
+
+10. An ATS airspace where IFR and VFR flights are permitted, all flights are subject to air traffic control service and are separated from each other is classified as:
+a. Airspace C
+*b. Airspace B
+c. Airspace D
+Explanation: Class B is the only one where every flight, IFR and VFR, is separated from all others. Class A is IFR only. In Class C, VFR flights are not separated from each other.
+
+11. The speed limitation for both IFR flights and VFR flights inside ATS airspace classified as B, when flying below 3050m (10000ft) AMSL, is:
+a. 260kt IAS
+*b. Not applicable
+c. 250kt IAS
+Explanation: Class B has no speed limitation, because ATC separates all aircraft. The 250 kt IAS limit starts in Class C (VFR), D and E.
+
+12. Air traffic services unit clocks and other time recording devices shall be checked as necessary to ensure correct time within plus or minus:
+a. 1 minute of UTC at all times
+b. 15 seconds of UTC at all times
+*c. 30 seconds of UTC at all times
+Explanation: ATS clocks must be accurate to within 30 seconds of UTC at all times (Annex 11).
+
+13. The following airspace falls under Kolkata FIR:
+*a. VED
+b. VEB
+c. VOR
+Explanation: Indian airspace designators start with the FIR letters (VE is Kolkata, VI is Delhi, VA is Mumbai, VO is Chennai). The third letter shows the type: D is a danger area, P is prohibited and R is restricted. So VED is a danger area in Kolkata FIR, while VOR is a restricted area in Chennai FIR.
+
+14. The VMC minima for a VFR flight inside an ATS airspace classified as B, is:
+a. 8km visibility when at or above 3050m (10000ft) AMSL and clear of clouds
+*b. 8km visibility when at or above 3050m (10000ft) AMSL, and 1500m horizontal and 300m vertical from clouds
+c. 5NM visibility when below 3050m (10000ft) AMSL, 1500m horizontal and 300m vertical from cloud
+Explanation: At or above 3050 m the minima are 8 km visibility, 1500 m horizontally and 300 m (1000 ft) vertically from cloud. "Clear of cloud" applies only in Class F and G below 3050 m, and below 3050 m the visibility is 5 km, not 5 NM.
+
+15. A VFR flight when flying inside an ATS airspace classified as B has to maintain the following minima of flight visibility and distance from clouds:
+*a. 5km visibility, 1500m horizontal and 300m vertical from clouds
+b. 8km below 3050m (10000ft) AMSL, 1500m horizontal and 300m vertical from clouds
+c. 5km below 3050m (10000ft) AMSL and clear of clouds
+Explanation: Below 3050 m in Class B the minima are 5 km visibility with 1500 m horizontal and 300 m vertical cloud distance. 8 km applies only at or above 3050 m, and "clear of clouds" is only for Class F and G.
+
+16. An ATS airspace where IFR and VFR flights are permitted, all flights are subject to air traffic control service and IFR flights are separated from other IFR flights and from VFR flights, VFR flights are separated from IFR flights and receive traffic information in respect of other VFR flights, is classified as:
+a. Airspace B
+b. Airspace E
+*c. Airspace C
+Explanation: This is the Class C description. IFR is separated from IFR and VFR, and VFR is separated from IFR only and receives traffic information about other VFR flights.
+
+17. Which condition is requested so that an aerodrome may be considered controlled?
+*a. The aerodrome shall be provided with a Control Tower
+b. The aerodrome shall be located within a Control Zone (CTR) and provided with a Control Tower
+c. The aerodrome shall be located within a Control Zone
+Explanation: A controlled aerodrome is one where air traffic control service is provided to aerodrome traffic, which means it has a control tower. A control zone is not necessarily required.
+
+18. An ATS airspace where IFR and VFR flights are permitted and all flights are subject to air traffic control service. IFR flights are separated from other IFR flights and receive traffic information in respect of VFR flights. VFR flights receive traffic information in respect of all other flights, is classified as:
+a. Airspace B
+*b. Airspace D
+c. Airspace A
+Explanation: This is the Class D description. IFR is separated from IFR only, and VFR flights are not separated from anyone but get traffic information about all other flights.
+
+19. An ATS airspace where IFR and VFR flights are permitted are subject to Air Traffic Control Service and are separated from other IFR flights. All flights receive traffic information as far as practical, is classified as:
+a. Airspace D
+b. Airspace A
+*c. Airspace E
+Explanation: In Class E, only IFR flights get ATC service and separation from other IFR flights, and all flights receive traffic information as far as practical.
+
+20. An ATS airspace where IFR and VFR flights are permitted, all participating IFR flights receive an air traffic advisory service and all flights receive flight information service if requested, is classified as:
+*a. Airspace F
+b. Airspace E
+c. Airspace D
+Explanation: Class F is the advisory airspace. Participating IFR flights get an advisory service and everyone gets flight information if requested. There is no ATC separation.
+
+21. Which statement regarding approach control service is correct?
+a. Approach control have to advise the aircraft operators about substantial delays in departure in any event when they are expected to exceed 45 minutes
+b. During a visual approach an aircraft is maintaining its own separation
+*c. If it is anticipated that an aircraft has to hold for 30 minutes or more, an Expected Approach Time will be transmitted by the most expeditious means to the aircraft
+Explanation: If a hold of 30 minutes or more is expected, the Expected Approach Time is passed to the aircraft as soon as possible. Option B is wrong because ATC still provides separation between aircraft making a visual approach and other arriving or departing aircraft, and option A uses the wrong delay figure.
+
+22. Which statement regarding aerodrome control service is correct?
+*a. An aircraft entering the traffic circuit without permission of ATC, will be cleared to land if this is desirable
+b. Suspension of VFR operations can not be initiated by the aerodrome controller
+c. ATC permission is required for entering the apron with a vehicle
+Explanation: If an aircraft joins the circuit without permission, the tower may still clear it to land if that is the safest thing to do. The aerodrome controller can suspend VFR operations (option B is wrong), and vehicles need ATC permission for the manoeuvring area, not necessarily the apron.
+
+23. In ATS route designator UA1Y what does U mean?
+*a. Upper.
+b. Undirectional.
+c. Uniform.
+Explanation: A prefix U means the route is in the upper airspace. Other prefixes are K (low-level helicopter routes) and S (supersonic). A1 is the basic designator, and Y is a supplementary letter.
+
+24. Special VFR flights may be authorized to operate locally within a control zone when the ground visibility is not less than 1500 metres, even when the aircraft is not equipped with a functioning radio receiver within class:
+a. D airspace
+b. D and E airspace
+*c. E airspace
+Explanation: The book's answer is E airspace only. VFR flights in Class E do not need two-way radio, which is why the no-radio exception applies there.
+
+25. Flight information service shall be provided to all aircraft which are likely to be affected by the information and which are:
+*a. Provided with the air traffic control services and otherwise known to the relevant air traffic service units
+b. Known to the relevant air traffic services units by a filed flightplan
+c. Provided with air traffic control services, only
+Explanation: Flight information service goes to all aircraft likely to be affected, whether they receive ATC service or are otherwise known to the ATS units.
+
+26. Alerting service shall be provided:
+*a. For all controlled flight, to any aircraft known or believed to be subject of unlawful interference, and in so far as practicable to all aircraft having filed a flight plan or otherwise known to the ATS
+b. For all aircraft provided with air traffic control services, only
+c. To any aircraft known or believed to be subject of unlawful interference, only
+Explanation: Alerting service covers all controlled flights, any aircraft known or believed to be subject to unlawful interference, and, as far as practicable, aircraft with a filed flight plan or otherwise known to the ATS.
+
+27. The speed limitation for IFR flights inside ATS airspace classified as E, when flying below 3050m (10000ft) AMSL, is:
+a. 250kt TAS
+*b. 250kt IAS
+c. Not applicable
+Explanation: The limit in Class E is 250 kt IAS (indicated, not true airspeed) below 3050 m (10 000 ft) AMSL.
+
+28. Air Traffic Service unit means:
+a. Air Traffic Control units and Air Services reporting offices
+b. Flight Information Centers and Air Services reporting offices
+*c. Air Traffic Control units, Flight Information Centers or Air Services reporting offices
+Explanation: "ATS unit" is a general term meaning an air traffic control unit, a flight information centre or an ATS reporting office. Options A and B each leave one of them out.
+
+29. A controlled airspace extending upwards from a specified limit above the earth is:
+a. Advisory airspace
+*b. Control area
+c. Flight Information Region
+Explanation: A control area starts at a specified limit above the earth. A control zone, in contrast, starts at the surface. An FIR is a much bigger area with flight information service.
+
+30. Tirupati aerodrome designator is?
+a. VATP
+*b. VOTP
+c. VITP
+Explanation: VOTP is Tirupati. The letters VO show Chennai FIR (southern region), and VA is Mumbai and VI is Delhi.
+
+31. Aerodrome traffic is:
+*a. All traffic on the manoeuvring area and flying in the vicinity of an aerodrome
+b. All traffic in the aerodrome circuit
+c. All traffic on the manoeuvring area
+Explanation: Aerodrome traffic means all traffic on the manoeuvring area of an aerodrome and all aircraft flying in its vicinity. Options B and C each cover only part of that.
+
+32. Which of the following Annexes to the Chicago convention contains international standards and recommended practices for air traffic services (ATS)?
+a. Annex 6
+b. Annex 14
+*c. Annex 11
+Explanation: Annex 11 is Air Traffic Services. Annex 6 is Operation of Aircraft and Annex 14 is Aerodromes.
+
+33. An information issued by a meteorological watch office concerning the occurence or expected occurence of specified en-route weather phenomena which may affect the safety of low-level aircraft operations and which was not already included in the forecast issued for low level flights in the flight information region concerned or sub-area thereof is:
+a. An En-Route Met Report
+b. A NOTAM
+*c. An AIRMET information
+Explanation: AIRMET information is about en-route weather affecting low-level flights that is not already in the forecast. SIGMET is the equivalent for hazards that affect all aircraft, and a NOTAM is a different type of notice.
+
+34. Regarding Aerodrome Flight Information (AFIS):
+a. Its purpose is to supply ATC services but it is not a state organisation
+*b. It can only supply limited services to the users and under no circumstances may it supply ATC services
+c. It has the same privileges and prerogatives as an ATC organisation but its activity is neither continuous nor regular
+Explanation: AFIS gives flight information and alerting at uncontrolled aerodromes. It never provides ATC service, so it does not give clearances or separation.
+
+35. Air Traffic Control service shall be provided to::
+a. All IFR flights in class A, B, C, D, E and F airspaces.
+b. All VFR flights in class B, C, D and E airspaces.
+*c. To all aerodrome traffic at controlled aerodromes.
+Explanation: ATC service goes to IFR flights in Classes A to E (Class F only has an advisory service), VFR flights in Classes B, C and D (not E), and all aerodrome traffic at controlled aerodromes. So A (includes F) and B (includes E) are wrong.
+
+36. Flight Information Region (FIR) is an airspace within which the following services are provided:
+*a. Flight Information Service and Alerting Service
+b. Flight Information Service and Advisory Service
+c. Flight Information Service, Alerting Service and Advisory Service
+Explanation: An FIR provides flight information service and alerting service. The advisory service belongs to advisory airspace (Class F).
+
+37. Control Area (CTA) is defined as follows:
+*a. A controlled airspace extending upwards from a specified limit above the earth
+b. A controlled airspace extending upwards from the surface of the earth to a specified limit
+c. A controlled airspace extending upwards from a height of 900ft above the earth
+Explanation: A CTA starts above the earth at a specified limit. Option B describes a control zone, which starts at the surface.
+
+38. Aerodrome local flying area is to be considered, if ATZ is not notified:
+*a. With in 5 NM of ARP up to 3000 feet.
+b. With in 25 NM of ARP up to 10,000 feet.
+c. With in 10 NM of ARP up to 5000 feet.
+Explanation: The book's answer is within 5 NM of the aerodrome reference point (ARP) and up to 3000 ft.
+
+39. An air traffic control unit:
+*a. May ask an aircraft to temporarily change its callsign for safety reasons when there is a risk of confusion between two or more similar callsigns
+b. May not ask an aircraft to change its callsign after accepting the flight plan
+c. Must not ask an aircraft to change its callsign
+Explanation: ATC may instruct an aircraft to change its call sign temporarily for safety, when similar call signs could be confused.
+
+40. Required Navigation Performance (RNP) shall be prescribed:
+a. By regional air navigation agreements
+b. By states but not on the basis of regional air agreements
+*c. By states on the basis of regional air navigation agreements
+Explanation: RNP types are prescribed by states, on the basis of regional air navigation agreements. Both parts have to be there.
+
+41. A Control Zone shall extend laterally to at least:
+a. 10 miles from the centre of the aerodrome or aerodromes concerned in the direction from which approaches may be made
+*b. 5 nautical miles from the centre of the aerodrome or aerodromes concerned in the direction from which approaches may be made
+c. 20 miles from the centre of the aerodrome or aerodromes concerned in the direction from which approaches may be made
+Explanation: A control zone must extend at least 5 NM from the aerodrome centre in the directions from which approaches are made.
+
+42. G245ZF is a designator for:
+a. a SID
+b. a STAR
+*c. an ATS Route
+Explanation: An ATS route designator begins with a basic letter (such as G) followed by a number. The book's answer is that it is an ATS route, not a SID or STAR.
+
+43. An ATS airspace where IFR and VFR are permitted and receive flight information service if requested, is classified as:
+*a. Airspace G
+b. Airspace E
+c. Airspace C
+Explanation: Class G is uncontrolled airspace. IFR and VFR are both allowed, and flight information service is given only if requested.
+
+44. Concerning to RNP (Required Navigation Performance) types, the indication RNP 4, represents a navigation accuracy of:
+*a. Plus or minus 4 NM on a 95% containment basis
+b. Plus or minus 4 NM on a 98% containment basis
+c. Plus or minus 4 NM on a 90% containment basis
+Explanation: RNP 4 means the aircraft stays within 4 NM of its intended position for at least 95% of the flight time.
+
+45. Area Control Centers issue clearances for the purpose of:
+a. Achieving separation between IFR flights
+*b. Achieving separation between controlled flights
+c. Providing flight information Service
+Explanation: Clearances are used to achieve separation between controlled flights. This is not limited to IFR flights, because controlled VFR flights in Classes B and C are included.
+
+46. Clearances will be issued by an ATC unit for the purpose of:
+*a. Achieving separation between controlled flights
+b. Providing alerting services
+c. Providing advisory services
+Explanation: ATC clearances exist to achieve separation between controlled flights. Alerting and advisory services are different services.
+
+47. You receive an IFR enroute clearance starting: Clearance expires at 0920. What does it mean?
+*a. If not airborne until 0920, a new clearance has to be issued
+b. The take off clearance is expected at 0920
+c. After 0920 return to the ramp and file a new flight plan
+Explanation: "Clearance expires at 0920" means the clearance is void if you are not airborne by then. You need to ask ATC for a new clearance. You do not need to file a new flight plan.
+
+48. ATIS broadcast:
+a. Shall only be transmitted on a discrete VHF frequency
+*b. Shall not be transmitted on the voice channel of an ILS
+c. Shall not be transmitted on the voice of VOR
+Explanation: ATIS must not be broadcast on an ILS voice channel. If no discrete frequency is available, it may be put on the voice channel of a navigation aid, preferably a VOR, so A and C are wrong.
+
+49. Whenever ATIS is provided, the preparation and dissemination of the ATIS message shall be the responsibility of:
+a. Both air traffic services and the meteorological office
+b. The meteorological office serving the aerodromes
+*c. The air traffic services
+Explanation: The air traffic services prepare and send out the ATIS message. The met office only supplies the weather information.
+
+50. Whenever ATIS is provided, the broadcast information shall be updated:
+a. As prescribed by the meteorological office
+*b. Immediately a significant change occurs
+c. As prescribed by the state
+Explanation: ATIS is updated immediately when a significant change occurs, so the broadcast is never out of date.
+
+51. The ATIS broadcast message should, whenever practicable, not exceed:
+*a. 30 seconds
+b. 1 minute
+c. 2 minutes
+Explanation: Keep it short. Whenever practicable, an ATIS message should not be longer than 30 seconds.
+
+52. ATIS broadcast messages containing departure and arrival information should include cloud cover, when the clouds are:
+a. Below 900m (3000ft) or below the highest minimum sector altitude, whichever is the greater
+b. Below 2000m (600ft) or below the highest minimum sector altitude, whichever is the greater
+*c. Below 1500m (5000ft) or below the highest minimum sector altitude, whichever is the greater
+Explanation: Cloud is reported when it is below 1500 m (5000 ft) or below the highest minimum sector altitude, whichever is greater. Cumulonimbus is also always reported.
+
+53. When are ATIS broadcasts updated?
+*a. Upon receipt of any official weather, regardless of content change or reported values
+b. Every 30 minutes if weather conditions are below those for VFR; otherwise hourly
+c. Only when the ceiling and/or visibility changes by a reportable value
+Explanation: The book's answer is A, which means a new ATIS is prepared as soon as any official weather report arrives, even if the values are unchanged. Learn it as the book answer.
+
+54. Flight Information Service shall be provided to aircraft in order to avoid collision hazards when operating in airspace classes:
+a. F and G only
+*b. C, D, E, F and G
+c. A, B, C, D, E, F and G
+Explanation: Aircraft in Class A and B are separated by ATC, so they do not need this. In Classes C, D, E, F and G, flight information service is given to help avoid collisions.
+
+55. The lateral limit of CTR shall extend to atleast _____ NMs from the center of aerodrome in directions from where approaches may be made:
+a. 25
+b. 10
+*c. 5
+Explanation: The lateral limit of a CTR is at least 5 NM from the centre of the aerodrome in the directions from which approaches may be made.
+
+56. At radio communications, "Distress" differs from "Urgency" because in the first case:
+a. The aeroplane has suffered damages which impair its fitness to fly
+*b. There is a serious and imminent danger requiring immediate assistance
+c. The aeroplane will not be able to reach a suitable aerodrome
+Explanation: Distress (MAYDAY) means grave and imminent danger needing immediate assistance. Urgency (PAN PAN) is about difficulties that do not need immediate assistance.
+
+57. The Alerting Service is provided by:
+a. The Area Control Centers
+*b. The ATS unit responsible for the aircraft at that moment
+c. Only by ATC units
+Explanation: The ATS unit that is responsible for the aircraft at that moment gives the alerting service, which can be an ATC unit or a flight information centre.
+
+58. The phases related to an aircraft in emergency or believed in emergency are:
+a. Uncertainty phase, distress phase, urgency phase
+*b. Uncertainty phase, alert phase, distress phase
+c. Uncertainty phase, urgency phase, distress phase
+Explanation: The three emergency phases are the Uncertainty phase (INCERFA), the Alert phase (ALERFA) and the Distress phase (DETRESFA). Urgency is not a phase.
+
+59. When an aircraft is experiencing difficulties, triggering of the alert phase is the responsibility of:
+a. Search and rescue coordination centers
+b. Control centers only
+*c. Air traffic control and flight information centers
+Explanation: The book's answer is that air traffic control and flight information centres declare the alert phase. They then notify the rescue coordination centre.
+
+60. What type of flight is allowed in class A airspace?
+*a. IFR only
+b. IFR and VFR
+c. IFR and special VFR
+Explanation: Class A is the most restricted. Only IFR flights are allowed, and all of them are separated by ATC.
+
+61. Alert phase is defined as follows:
+*a. A situation where an apprehension exists as to the safety of an aircraft and its occupants
+b. An emergency event in which an aircraft and its occupants are considered to be threatened by a danger
+c. A situation related to an aircraft and its occupants are considered to be in a state of emergency
+Explanation: The key word for the alert phase is "apprehension". Uncertainty phase is "uncertainty" about safety, and distress phase is serious and imminent danger.
+
+62. A situation in which apprehension exists as to the safety of an aircraft. To which emergency phase does this situation correspond?
+*a. ALERFA
+b. INCERFA
+c. DETRESFA
+Explanation: Apprehension means the alert phase, ALERFA. INCERFA is uncertainty and DETRESFA is distress.
+
+63. Which of the following signals is a distress signal?
+a. In radiotelephony the spoken words PAN, PAN
+*b. A parachute flare showing a red light
+c. The repeated switching on and off of the navigation lights
+Explanation: Distress signals include MAYDAY, SOS, rockets or parachute flares showing red. PAN PAN and the flashing of lights are urgency signals.
+
+64. An aircraft is in emergency when:
+a. It is threatened by grave danger
+*b. It is threatened by grave danger and requires immediate assistance
+c. It is forced to land
+Explanation: This is the distress definition. The aircraft must be in grave and imminent danger and also need immediate assistance. A forced landing alone is not enough.
+
+65. The different emergency phases (in correct order) are:
+a. INCERFA, ALERTFA and DISTRESFA
+*b. INCERFA, ALERFA, DETRESFA
+c. ALERTFA, DISTRESFA, RESCUEFA
+Explanation: The order is INCERFA (uncertainty), then ALERFA (alert), then DETRESFA (distress). The other spellings are not real.
+
+66. Which of the following statements describes the Alert Phase (ALERFA)?
+a. An aircraft fails to arrive within 30 minutes of the ETA which was last notified to ATC.
+b. An aircraft declares that the fuel remaining is insufficient to reach safety.
+*c. An aircraft which has been cleared to land fails to land within 5 minutes of the ETA and communication has not been re-established.
+Explanation: Option A is the uncertainty phase (INCERFA), and option B is distress (DETRESFA). Option C is an ALERFA case.
+
+67. DETRESFA is where:
+a. An aircraft fails to land within 5 minutes of being cleared to land
+b. All answers are correct
+*c. The fuel on board is considered to be exhausted
+Explanation: DETRESFA is the distress phase. One of its cases is when the fuel on board is considered to be exhausted. Option A is an alert phase (ALERFA) case.
+
+68. RSP 180 indicates:
+a. Time in seconds taken by a pilot to receive surveillance instructions from the controller.
+*b. Time in seconds between flight crew/HMI and controller/HMI.
+c. Distance in NMs between two way points in defined RSP airspace.
+Explanation: RSP is Required Surveillance Performance. Like RCP, the number is a time in seconds, so RSP 180 refers to 180 seconds. The book's answer is B.
+
+69. A strayed aircraft is an aircraft:
+*a. that has deviated significantly from its intended track or reports that it is lost.
+b. that has been observed or is reported to be operating in a given area but whose identity has not been established.
+c. only that aircraft which has deviated significantly its intended track.
+Explanation: A strayed aircraft has deviated significantly from its track or has reported that it is lost. Option B describes an unidentified aircraft.
+
+70. Having filed a flight plan to a particular destination and having landed at another destination, you should notify ATC:
+a. within 60 minutes after landing at the alternate destination
+b. within 30 minutes after landing at the alternate destination
+*c. within 30 minutes of your intended ETA at your original destination
+Explanation: The book's answer is that you must tell ATC within 30 minutes of your ETA at the original destination. This stops a search being started for you.
+
+71. Designated airspace within controlled airspace in India is classified as Class:
+a. C
+b. D
+*c. C and D
+Explanation: The book's answer is C and D. Learn it as a book answer, and check the current AIP India (ENR 1.4) for the latest classification.
+
+72. TSA801(A) is an airspace:
+a. temporarily segregated and allocated in Delhi FIR
+*b. temporarily segregated and allocated in Chennai FIR
+c. denoting an area navigation route in India
+Explanation: TSA means Temporary Segregated Area. It is reserved for one user, with no other traffic allowed in. The book's answer places TSA801(A) in Chennai FIR.
+
+73. Temporary Reserved Area (TRA) is an airspace temporarily reserved and allocated:
+a. through which other traffic may be allowed to transit in VMC only
+b. through which other traffic is not allowed to transit with out proper equipment
+*c. through which other traffic may be allowed to transit under ATC clearance
+Explanation: In a TRA, other traffic may pass through with an ATC clearance. In a TSA, no other traffic is allowed in.
+
+74. MFA published in AIP ensures at least 1000 feet vertical clearance from obstacles within _____ of center line?
+*a. 10 Kms
+b. 10 NMs
+c. 20 NMs
+Explanation: The Minimum Flight Altitude (MFA) gives at least 1000 ft above obstacles within 10 km of the route centre line, per the book.
+
+75. Class C airspaces in India extend from ________ to _______.
+a. Ground level, FL 150
+*b. 4000 feet, FL 285
+c. FL 150, FL 290
+Explanation: The book's answer is from 4000 ft to FL285. Airspace limits can be revised, so check the current AIP India for the latest figures.
+
+76. After rain Controller reports that runway is WET. That indicates to a pilot that:
+*a. the surface is soaked but there is no standing water.
+b. there is no standing water with a depth of more than 3 cms on one third of the runway.
+c. the runway is closed due water logging and pilot should divert.
+Explanation: A "wet" runway is soaked but has no standing water. Standing water or flooding are reported with different words.
+
+77. In AIP, Enroute 3.1, ATS routes are described as::
+a. Lower ATS Routes
+*b. Conventional Navigation Routes
+c. RNP routes
+Explanation: The book's answer is Conventional Navigation Routes. AIP section titles can change between editions, so check the current AIP India.
+
+78. In AIP, Enroute 3.2, ATS routes are described as:
+a. Upper ATS Routes
+*b. Air Navigation Routes
+c. Non RNP routes
+Explanation: The book's answer is B, the next section after ENR 3.1. AIP section titles can change between editions, so check the current AIP India.
+`);
 registerChapterText("air-regulations", "separation-methods-and-minima", "Separation Methods and Minima (RK Bali)", `
 1. An aircraft is maintaining FL 150 within airspace class D. Another aircraft below at FL 140 is receiving a clearance to descend to FL 70. It is severe turbulence in the area. When is the earliest that a clearance to descend to FL 140 or below can be expected?
 a. When the other aircraft has reported that it has left FL 140.
@@ -1491,7 +1959,1181 @@ b. Medium to Good
 Explanation: Friction of 0.25 and below is classed as poor, so 0.20 is poor. Memory aid: 0.40 and above is good, and below 0.25 is poor.
 `);
 
+registerChapterText("air-regulations", "rk-bali-human-performance-limitations", "Human Performance and Limitations (RK Bali)", `
+1. As a cause of accidents, the human factor:
+*a. Is cited in approximately 73% of aviation accidents.
+b. Has increased accidents exponentially since 1970.
+c. Has been generally due to high workload in the cockpit.
+Explanation: Human factors are cited in roughly 70 to 80% of aviation accidents, and the book uses 73%. Accident rates have fallen, not risen, since 1970, so B is wrong. C is also wrong because human error has many causes, and workload is only one of them.
 
+2. The rate of accidents in commercial aviation:
+a. Is approximately 52 accidents per million airport movements.
+b. Has worsened considerably since 1970.
+*c. Is approximately 1 accident per million airport movements.
+Explanation: Commercial aviation is very safe, with about 1 accident per million airport movements. 52 is far too high, and the rate has improved since 1970, not worsened.
+
+3. The most common specific cause of pilot-induced accidents is:
+a. Poor pre-flight planning.
+b. Hypoxia
+*c. Controlled Flight Into Terrain (CFIT).
+Explanation: The book's answer is CFIT, which means a serviceable aircraft under pilot control is flown into the ground, water or an obstacle, usually because the crew has lost situational awareness. Hypoxia and poor planning are contributing factors but not the main specific cause.
+
+4. Most of the accidents take place during:
+a. Cruise.
+*b. Approach and Landing.
+c. Take off and initial climb.
+Explanation: Most accidents happen in the approach and landing phase, because workload is highest, the aircraft is close to the ground and there is less time to recover. Cruise is the safest phase, even though it is the longest.
+
+5. Most aircraft accidents are linked to:
+*a. Deficiencies in human performance.
+b. Technical failures.
+c. Adverse weather conditions.
+Explanation: Most accidents trace back to human performance: decisions, communication, fatigue, stress and situational awareness. Technical failure and weather are less common, and even then human error often plays a part. This is why Human Factors training is mandatory for pilots.
+`);
+registerChapterText("air-regulations", "rk-bali-crm-tem-loft", "CRM, TEM and LOFT (RK Bali)", `
+1. Human errors:
+a. Are now considered as being inherent to the cognitive function of human and can be totally eliminated by CRM training.
+*b. Are now considered as being inherent to the cognitive function of human and are generally inescapable.
+c. Are likely to be eliminated in the near future by higher degree of automation.
+Explanation: Errors are a normal part of how humans think, so they cannot be removed completely, by training or by automation. That is why CRM and TEM focus on managing errors, catching them before they cause harm.
+
+2. The error in checklist is related to an interface mismatch between:
+a. Liveware - Liveware.
+*b. Liveware - Software.
+c. Liveware - Environment.
+Explanation: In the SHEL model, "Software" means procedures, checklists, manuals and the way information is presented. A checklist problem is a Liveware-Software mismatch.
+
+3. CRM training has under mentioned clear aims in terms of specific skills to develop for the purpose of:
+a. Error avoidance, threat management, system management and undesired aircraft state management.
+b. Error avoidance, threat management, error management and environment management.
+*c. Error avoidance, threat management, error management and undesired aircraft state management.
+Explanation: CRM trains crews to avoid errors, manage threats, manage errors that do occur, and manage any undesired aircraft state. "System management" and "environment management" are not part of the list.
+
+4. A congested cockpit restricting movement is an interface mismatch between:
+a. Liveware - Software.
+b. Liveware - Environment.
+*c. Liveware - Hardware.
+Explanation: Hardware means the physical equipment and layout: seats, controls, displays and the cockpit space. A cramped cockpit is a Liveware-Hardware mismatch. Environment is about things like noise, temperature, light and weather.
+
+5. High noise level in a cockpit is a mismatch between:
+*a. Liveware - Liveware.
+b. Liveware - Environment.
+c. Liveware - Hardware.
+Explanation: The book's key says A, but check this one. In the SHEL model, noise is a factor of the environment, so Liveware-Environment (option B) is the textbook answer. If your instructor confirms B, move the * to option B.
+
+6. Inefficient warning system in the cockpit is a mismatch between:
+a. Liveware - Liveware.
+b. Liveware - Environment.
+*c. Liveware - Software.
+Explanation: The book's answer is Liveware-Software. Of the three options, it is the one that fits, because the problem is how the information and alerts are designed and presented to the pilot.
+
+7. A disturbance of the biological rhythm is a mismatch between:
+a. Liveware - Hardware.
+b. Liveware - Software.
+*c. Liveware - Environment.
+Explanation: The body clock (circadian rhythm) is disturbed by outside conditions such as time-zone changes, night work and light. Those belong to the environment, so it is Liveware-Environment.
+
+8. The main consideration in modern airline operations should be:
+a. Efficient utilisation of resources.
+b. Maximum utilisation of resources.
+*c. Safety.
+Explanation: Safety always comes first. Efficiency and resource use matter, but never at the cost of safety.
+
+9. The elements of the SHEL model are:
+a. Software, hardware, electronics, and livewire.
+b. Shareware, hardware, education, and limitations.
+*c. Software, hardware, environment, and liveware.
+Explanation: SHEL stands for Software, Hardware, Environment and Liveware. Liveware means the human, and "livewire" and "shareware" are not part of the model.
+
+10. Which is true regarding the interaction between various elements of the SHEL model?
+a. All components of the SHEL model are equally important, as conflict and error can arise from the various mismatches.
+b. The hardware is the hub for interactions between the different components of the system, hence other components should be matched to design most suitable hardware.
+*c. The liveware is the hub of the SHEL model; therefore, the nonhuman components should be adapted and matched to this central component.
+Explanation: The human (liveware) is at the centre of the SHEL model. The other parts (software, hardware, environment) must be designed to fit the human, not the other way round.
+
+11. CRM and LOFT training are designed to improve:
+a. The quality number of individuals performance.
+b. Individual performance in adverse conditions.
+*c. The quality of crew performance.
+Explanation: CRM and LOFT (Line-Oriented Flight Training) are about teamwork. They train the whole crew to work together, so the aim is better crew performance, not just individual performance.
+
+12. Four important disciplines from which information is drawn in understanding human performance and behavior are:
+*a. Psychology, engineering, physiology, and anthropometry.
+b. Sociology, mathematics, biology and industrial design.
+c. Physics, biochemistry, physiology, and anthropometry.
+Explanation: Human factors draws on psychology (mind and behaviour), physiology (body function), anthropometry (body measurements, which guide cockpit design) and engineering.
+
+13. Pilots have now become responsible for the management of hardware and software interfaces, through which they are required to direct the operation of the aircraft. These technological advances have:
+a. Significantly eliminated human errors.
+*b. Given rise to new forms of error.
+c. Are aimed to eliminate pilots from the cockpit.
+Explanation: Modern automation has not removed errors. It has created new ones, such as mode confusion, over-reliance and data-entry mistakes. The pilot's job has shifted from flying to managing systems.
+
+14. About what proportion of civil air accidents result from inadequate human performance?
+a. 89%
+*b. 73%
+c. 57%
+Explanation: The book's figure is about 73%. This matches the number used in the Human Performance and Limitations chapter.
+
+15. What is meant by the trans authority gradient?
+a. It is the authority exercised by the captain over all flight operations.
+b. It is the authority relationship between captain and other crew members.
+*c. It is the authority relationship between captain and first officer.
+Explanation: The trans-cockpit authority gradient is the difference in authority between the captain and the first officer. If it is too steep, the first officer is afraid to speak up, and if it is too flat, leadership is unclear. A good gradient is in between.
+
+16. Introducing Automation in a cockpit:
+a. Always reduces potential for human error and workload.
+*b. Generally relocates potential for error and increases workload.
+c. Eliminates human error but work load increases.
+Explanation: Automation moves the possible errors to new places (programming, monitoring) and can raise workload at busy moments. It does not always reduce errors or workload, and it never eliminates human error.
+
+17. High Arousal Overload results in:
+*a. A real danger of attention becoming narrowed.
+b. An attention becoming sharpest.
+c. An optimum arousal for more difficult or intellectually (cognitive) tasks.
+Explanation: Too much arousal (stress) narrows attention, giving tunnel vision and missed information. Performance is best at a moderate level of arousal, not at a high one.
+
+18. A pilot suffering from a mild head ache before flight can:
+a. Take Over The Counter medicines from the chemist and fly.
+b. Take Over The Counter medicines from the first aid box in the aircraft and fly.
+*c. Should take medicines prescribed by an aviation medicine specialist and take his advise for flying.
+Explanation: Do not self-medicate before flying, because even common medicines can affect alertness, and the headache itself may be a sign of a problem. Take advice from an aviation medicine specialist before you decide to fly.
+
+19. Categories of errors defined by TEM are:
+*a. Intentional non-compliance error, Procedural error, Communication error, Proficiency error and Operational decision error.
+b. Intentional non-compliance error, Procedural error, Communication error, Proficiency error and vigilance error.
+c. Instrument error, Procedural error, Communication error, Proficiency error and vigilance error.
+Explanation: TEM defines five error types: intentional non-compliance, procedural, communication, proficiency and operational decision errors. There is no "vigilance error" or "instrument error" category.
+
+20. Operational Threats outside the control of flight crew are:
+a. Adverse weather, Terrain, Airport conditions, Heavy traffic/TCAS events, Unfamiliar airports etc.
+*b. Time pressure, Irregular operations, Flight diversions, Missed approaches etc.
+c. Aircraft malfunctions, Automation events etc.
+Explanation: The book's answer is B, the threats that come from the flying operation itself. Option A lists environmental threats (weather, terrain, traffic, airports). Some TEM listings also count aircraft malfunctions and automation events as operational threats, but pick B for the exam.
+
+21. What airplane equipment marked a substantial decrease in hull loss rates in the eighties?
+*a. GPWS
+b. TCAS
+c. SSR
+Explanation: The Ground Proximity Warning System (GPWS) warns of terrain ahead, and its introduction sharply reduced Controlled Flight Into Terrain accidents. TCAS is for traffic collision avoidance, and SSR is a radar transponder system.
+`);
+registerChapterText("air-regulations", "rk-bali-aviation-psychology-human-factors", "Aviation Psychology and Human Factors (RK Bali)", `
+1. Stress occurs:
+*a. With inexperienced pilots when the situational demands exceed their individual capabilities.
+b. While monitoring the progress of motor programmes.
+c. While concentrating on routine procedures.
+Explanation: Stress arises when the demands of a situation are greater than a person's perceived ability to cope; routine tasks and well-learned motor programmes do not overload the pilot.
+
+2. Divided attention is the ability:
+a. To overcome mental blocks.
+*b. To execute several mental activities at almost the same time.
+c. To train or practice regularly.
+Explanation: Divided attention means handling more than one task at once (for example flying while listening to the radio), and it works only if the tasks do not compete for the same mental resources.
+
+3. Stress promotes:
+a. A decrease in physical strength rather than promoting mental performance.
+*b. An increase in physical strength rather than promoting mental performance.
+c. An increase in mental performance rather than promoting physical strength.
+Explanation: Stress triggers the fight-or-flight response, which prepares the body for physical action (more strength) but tends to reduce clear mental performance such as judgement and decision making.
+
+4. An over stressed pilot may show the following symptoms:
+*a. Deterioration in motor coordination.
+b. Concentration and determination to complete the task.
+c. Low pitch voice and slow speaking.
+Explanation: Over-stress causes poor coordination, narrowed attention, a higher-pitched and faster voice, and mistakes; good concentration and slow speech are signs of a calm pilot.
+
+5. Which of the following statement is correct?
+a. Domestic stress will not affect the pilot's performance.
+*b. A moderate level of stress may improve performance.
+c. A student will learn faster and better under severe stress.
+Explanation: Performance follows an inverted U: moderate stress (arousal) helps performance, while too little or too much hurts it; domestic stress carries over into the cockpit.
+
+6. In the initial phase of flight training:
+a. The pilot is competent to fly and knows at this stage what he can and cannot do.
+b. The pilot is confident of his abilities and is able to negotiate all challenges in adverse situations.
+*c. The pilot is competent enough to fly the aircraft at this stage, but does not have a great deal of confidence in his/her abilities.
+Explanation: A new student can handle the basics but lacks experience, so confidence is low and the student does not yet know their own limits.
+
+7. A pilot is skilled when he:
+a. Is familiar with his aircraft systems.
+*b. Trains or practices regularly, knows how to manage himself/herself and knows how to keep resources in reserve for coping with the unexpected.
+c. Is directing and focusing psychological resources to enhance perception, performance and mental experience.
+Explanation: Skill is more than system knowledge; it is regular practice plus self-management and keeping spare mental capacity for the unexpected.
+
+8. Anthropometry is the study of:
+a. Human workspace.
+b. Human working conditions.
+*c. Human measurement.
+Explanation: Anthropometry measures the human body (height, reach, sitting height and so on) so that equipment and cockpits can be designed to fit people. Memory aid: anthropo = human, metry = measuring.
+
+9. The human information processing system is highly efficient compared to computers because of its
+*a. Flexibility.
+b. Working memory capacity.
+c. Speed.
+Explanation: Humans are slower and have limited working memory compared with computers, but we adapt to new situations and solve unexpected problems, which is our key strength.
+
+10. Cockpit lights should:
+*a. Avoid harsh shadows and reflected glare.
+b. Contain red filters.
+c. Be covered with non-reflective plastic.
+Explanation: Good cockpit lighting is even and free of glare and sharp shadows so instruments can be read easily; red filtering is not a general requirement.
+
+11. Normally the design of aircraft uses measurements taken from:
+*a. The entire population disregarding both the 5% lowest and the 5% highest.
+b. The entire population disregarding the 5% lowest.
+c. The entire population.
+Explanation: Designers fit the 5th to 95th percentile of the population, so the extreme 5% at each end are left out, which covers 90% of people.
+
+12. The most important requirement in the design of both displays and controls is:
+a. Accessibility.
+b. Positioning.
+*c. Standardization.
+Explanation: Standardised layout and operation reduce confusion and errors between aircraft types, so it is the most important design requirement.
+
+13. Many pilots think ahead to deal with abnormal situations:
+*a. This has to be positively appreciated for it increases consistency in action.
+b. This has to be rejected because the company draws the rules and the procedures they have to comply with.
+c. This is dangerous for every situation is different.
+Explanation: Mentally rehearsing possible abnormal situations (what if...) is good airmanship; it speeds up response and makes actions more consistent.
+
+14. In an abnormal situation the pilot has an apparently correct explanation for the problem. The chance that he/she now ignores or devalues other relevant information, not fitting into his/her mental picture is:
+a. The same, no matter if he/she has already made up his/her mind.
+b. Decreasing.
+*c. Increasing.
+Explanation: Once a pilot believes they know the cause, confirmation bias makes them filter out or play down information that does not fit, so the risk of ignoring it grows.
+
+15. What are the main factors which bring about hypo vigilance are:
+a. State of low fatigue is liable to cause phases of drowsiness and hypo-vigilance.
+*b. The monotony of the task, tiredness, the need for sleep and a lack of stimulation.
+c. Stress, panic and the need to keep awake.
+Explanation: Hypovigilance (low alertness) is caused by monotony, tiredness, sleep need and lack of stimulation; stress and panic lead to hypervigilance, the opposite.
+
+16. Hypo vigilance is:
+a. An extremely agitated state of panic or near panic.
+*b. A state of high fatigue liable to cause phases of drowsiness and hypo-vigilance.
+c. Tends to lead to slower but more accurate responses.
+Explanation: Hypovigilance is a state of lowered alertness due to high fatigue; the agitated state in option a is hypervigilance, and responses in hypovigilance are slower and less accurate.
+
+17. The human brain has:
+*a. Different reservoirs of resources for information-gathering, information-processing or action phase.
+b. One reservoir of resources for the information-gathering, information-processing or action phase.
+c. Different reservoir of resources for all phases of information stored briefly in our sensory memory.
+Explanation: According to the multiple resource idea, the brain has separate pools of resources for gathering information, processing it and acting, which is why some tasks can be combined and others cannot.
+
+18. If a pilot has to perform two tasks requiring the allocation of cognitive resources:
+*a. The sharing of resources causes performance on each task to be reduced.
+b. Resources are not limited, there is no deterioration in tasks being performed.
+c. Multi-tasking is very common in aviation, hence pilots need not worry.
+Explanation: Mental resources are limited, so when two demanding tasks share them, performance on each of them drops.
+
+19. What are the main signs indicating the loss of vigilance?
+a. Increase in sensory perception and loss of concentration.
+*b. Decrease in sensory perception and sensation of muscular heaviness.
+c. Blurred vision.
+Explanation: Falling vigilance shows as reduced sensory perception and a feeling of heavy muscles (drowsiness); sensory perception does not increase.
+
+20. Which are the preferred solutions to manage phases of reduced or low vigilance (hypovigilance)?
+*a. Healthy living and organizing periods of rest during the flight.
+b. Exercise and meditation.
+c. Selective attention to important matters only.
+Explanation: Hypovigilance is best managed by a healthy lifestyle and planned rest during the flight (for example controlled rest), which attack the cause, which is fatigue.
+
+21. The three distinct phases to developing a Motor Programme or skill (Anderson model) are:
+*a. Cognitive, associative and autonomous.
+b. Training, practice and specialization.
+c. Learning, perfecting and demonstrating.
+Explanation: Skill learning goes through the cognitive stage (thinking about each step), the associative stage (practice and refining) and the autonomous stage (automatic, little conscious effort).
+
+22. "Divided attention" is:
+*a. To execute several mental activities at almost the same time.
+b. To prioritize the activities depending upon the relevance.
+c. To develop skills to monitor multiple instruments.
+Explanation: Divided attention means sharing attention between several activities at almost the same time; prioritising is a different skill.
+
+23. The available cognitive resources of the human brain:
+a. Are of unlimited capacity of the central decision maker and working memory.
+*b. Are limited and make it impossible to perform two attentional tasks at the same time.
+c. Can be trained to perform several attentional tasks together through motor programs.
+Explanation: The central decision maker and working memory have limited capacity, so two tasks that both need attention cannot be done properly together; only practised motor programmes run in the background.
+
+24. The "cocktail party effect" is:
+a. To exceed alcohol limits unintentionally.
+*b. The ability to pick up relevant information unintentionally.
+c. To gather irrelevant information intentionally.
+Explanation: In a noisy room you suddenly notice your own name from another conversation; this is the unintentional picking up of relevant information. In the cockpit it explains why you may hear your callsign among other radio calls.
+
+25. Attention and Concentration is essential for pilots, however:
+*a. Capacity of attention and concentration is limited.
+b. Sensory information is a stumbling block.
+c. Attention cannot move very quickly from item to item.
+Explanation: Attention and concentration are valuable but limited, so a pilot can only attend to a limited number of things at a time.
+
+26. The first stage in the information process is:
+*a. Sensory stimulation.
+b. Attention.
+c. Perception.
+Explanation: The order is sensory stimulation (the senses receive the signal), then attention, then perception; so stimulation of the senses comes first.
+
+27. In the short-term-memory, information is stored for approximately ______ and its capacity is ______ items,
+a. 40 to 60 seconds, 11 + 3.
+b. 20 to 30 seconds, 7 + 2.
+*c. 10 to 20 seconds, 7 + 2.
+Explanation: Short-term (working) memory holds information for roughly 10 to 20 seconds and has a capacity of 7 plus or minus 2 items (Miller's rule).
+
+28. Motor programmes are:
+a. Routines stored in sensory memory to be executed without continuous conscious control.
+*b. Held within the Long Term Memory and can be carried out without conscious thought.
+c. Held within the Short Term Memory and can be carried out without conscious thought.
+Explanation: Motor programmes (well-practised skills such as flying a coordinated turn) are stored in long-term memory and run automatically.
+
+29. NREM sleep Stage 4 is:
+a. Beginning of deep sleep.
+b. End of deep sleep.
+*c. Deep sleep.
+Explanation: NREM stages 3 and 4 are deep (slow-wave) sleep, so Stage 4 is deep sleep itself.
+
+30. Concerning the capacity of the human long-term memory:
+*a. Its storage capacity is unlimited, although frequently there may be retrieval problems.
+b. Its storage capacity is unlimited, there are no retrieval problems.
+c. Its storage capacity is limited. Can be improved considerably by rehearsals.
+Explanation: Long-term memory has no practical limit, but forgetting happens because we sometimes cannot retrieve what is stored.
+
+31. Murphy's law states:
+*a. If equipment is designed in such a way that it can be operated wrongly, then sooner or later, it will be.
+b. Safety is paramount in designing any equipment.
+c. Operational well-being of personnel is the industry need.
+Explanation: Murphy's law says anything that can go wrong eventually will, which is why equipment should be designed so that it cannot be operated wrongly.
+
+32. Which of the following are primary sources of motivation?
+a. Loyalty to the employer and high arousal level.
+b. Skill learning, mnemonics and insight.
+*c. Satisfaction and feelings of achievement, rewards, punishment, and goal obtainment.
+Explanation: Motivation comes from achievement, rewards, punishment and reaching goals; skill learning and mnemonics are learning and memory topics.
+
+33. Flying a coordinated turn is:
+*a. Skill-based behavior.
+b. Attention-based behavior.
+c. Experience-based behavior.
+Explanation: A well-practised, automatic action like a coordinated turn is skill-based behaviour (Rasmussen), done with little conscious thought.
+
+34. The following factors can interfere with accurate situational awareness:
+a. Stress, Boredom and Fatigue.
+b. Emotional disturbance, Poor communication and Interruptions.
+*c. Both A and B are correct.
+Explanation: Stress, boredom, fatigue, emotional disturbance, poor communication and interruptions all reduce situational awareness, so both lists are correct.
+
+35. Which of the following provides the basis of all perceptions?
+a. We perceive most of the information reaching our senses at any moment.
+*b. Perception involves the conversion of the sensory information received into a meaningful structure.
+c. Sensory information that we expect to receive is not easily perceived.
+Explanation: Perception turns raw sensory input into something meaningful; we do not perceive everything, and expected information is perceived more easily, not less.
+
+36. How can optimum arousal and vigilance affect a pilot?
+a. High arousal and vigilance are necessary for a pilot in all stages of flight.
+b. In low arousal and vigilance, there is a real danger of attention becoming narrowed.
+*c. Too little arousal and vigilance have an inert affect, while too much has a hyper affect.
+Explanation: Too little arousal makes a pilot sluggish (inert), while too much makes them over-reactive (hyper); the best performance is at an optimum level, not a constantly high one.
+
+37. An attention mechanism is required because:
+a. Attention can move very quickly from item to item.
+b. Attention is the deliberate devotion of the cognitive resources to a specific item.
+*c. There is a limit to the number of items held or maintained in short term memory (or working memory) and our channel capacity is limited.
+Explanation: Because working memory and channel capacity are limited, we need attention to select what gets processed.
+
+38. Hyper vigilance is:
+a. Necessary in critical stages of a flight.
+b. Necessary to allow flight crew to concentrate on instruments while landing.
+*c. In its most acute forms, an extremely agitated state of panic or near panic.
+Explanation: Hypervigilance is excessive alertness that in its acute form becomes panic; it is harmful, unlike the normal alertness needed in critical phases.
+
+39. What is meant by Episodic memory?
+*a. Memory of events or 'episodes' in our life, held in the long term memory.
+b. Memory of events or 'episodes' in our life, held in the short term memory.
+c. Stores knowledge of the major events or episodes in the world in long term memory.
+Explanation: Episodic memory stores personal life events and is part of long-term memory; knowledge of facts about the world is semantic memory.
+
+40. Automated assistance for the human operator must be highly reliable, it:
+a. Enables pilots to use their motor skills effectively in case the machine fails.
+b. Induces hyper vigilance resulting in complacency.
+*c. Induces complacency, human expertise may gradually be lost if the machine fails.
+Explanation: A very reliable automatic system makes the crew complacent and their hands-on skills can fade, which is a problem when the machine fails.
+
+41. The achievable rate of human error after practice is:
+a. 1 in 10 times.
+b. 1 in 100 times.
+*c. 1 in 1000 times.
+Explanation: Even after practice humans still make errors; the achievable rate is about 1 in 1000, so no human is error-free.
+
+42. Sleep is basically divided into two components.
+a. Sleep credit and sleep debit.
+*b. Rapid Eye Movement (REM) sleep and Non-Rapid Eye Movement (NREM) sleep.
+c. Light sleep and deep sleep.
+Explanation: Sleep has two components, REM and NREM; NREM is further split into stages 1 to 4 (light to deep).
+
+43. In the absence of all time cues (Free running circadian rhythms), the biological clock has a natural cycle of about:
+a. 26 hours.
+*b. 25 hours.
+c. 24 hours.
+Explanation: Without time cues (sun, clocks) the human body clock free-runs at about 25 hours, which is why we must be reset daily by cues.
+
+44. Circadian cycles cause body temperature to change. At approximately what time of day is our temperature at its lowest value?
+a. 19:30
+b. 14:30
+*c. 04:30
+Explanation: Body temperature is lowest around 04:30 (early morning) and highest in the late afternoon or early evening; performance is poorest near the low point.
+
+45. Flying from Hyderabad to Berlin with a layover of 22 hours, what time measure is relevant for your circadian rhythm?
+a. ZT (zonal time).
+*b. IST (Indian Standard Time).
+c. LT (local time).
+Explanation: On a short layover (less than about 48 hours) the body clock does not adapt to the new time zone, so it stays on home (IST) time.
+
+46. Performance loss may be present up to :
+a. 60 minutes after awaking from a short sleep (nap).
+b. 30 minutes after awaking from a short sleep (nap).
+*c. 20 minutes after awaking from a short sleep (nap).
+Explanation: Sleep inertia (grogginess after waking) can reduce performance for up to about 20 minutes, so allow time to wake fully before an important task.
+
+47. As a result of automation in cockpits,
+a. Pilots may be replaced in the cockpit with AI in the near future.
+*b. Pilots, computers and machines are not alternatives, but complementary factors in ensuring flight safety.
+c. Humans being responsible for the majority of accidents are dispensable.
+Explanation: Humans and machines each have strengths; they work together for flight safety rather than one replacing the other.
+
+48. A skilled motor task will be momentarily disrupted by a startle reflex but return to normal within:
+a. Five to ten minutes.
+*b. Five to ten seconds.
+c. Two to three minutes.
+Explanation: The startle reflex is a very brief disruption, and a skilled motor task recovers within about 5 to 10 seconds.
+
+49. Easily observable indications of stress are:
+a. perspiration, flushed skin, dilated pupils and slow breathing.
+b. perspiration, flushed skin, low blood pressure and slow breathing.
+*c. perspiration, flushed skin, dilated pupils and fast breathing.
+Explanation: Stress gives sweating, flushed skin, dilated pupils and fast breathing (and a higher blood pressure), as the body gets ready to fight or flee.
+
+50. The key to reducing cockpit workload is:
+a. Good cockpit housekeeping.
+b. Good communication and flying skills.
+*c. Thorough flight planning.
+Explanation: Planning ahead (briefing, preparation, anticipating problems) means less has to be done in flight, so workload drops during busy phases.
+
+51. Which of the following statement is correct with respect to REM sleep?
+a. It is not important for the regeneration of mental and physical functions compared to all the other sleep stages.
+*b. The eye moves rapidly from side to side and the brain wave form is similar to that when a person is awake.
+c. There is no eye movement and muscle activity.
+Explanation: In REM sleep the eyes dart rapidly and brain waves look like those of someone awake; this is the stage of vivid dreaming and it is important for mental recovery.
+
+52. About _____ of a normal sleep is spent in Stage 2 sleep.
+a. 30 percent.
+b. 75 percent.
+*c. 50 percent.
+Explanation: Stage 2 (light sleep) takes up about half of the night, more than any other stage.
+
+53. Fatigue is a:
+*a. Very deep tiredness due to the cumulative effects of a stressful lifestyle and/or living and working environment.
+b. Very deep depression due to the cumulative effects of a low arousal and/or living and working environment.
+c. Lethargic instant response of a person to the event or circumstances to which he is exposed.
+Explanation: Fatigue is deep tiredness built up over time from a stressful lifestyle or working conditions; it is not depression or an instant reaction.
+
+54. To avoid stress,
+a. Wish it away, stress is not a natural part of life, hence avoidable.
+b. Raise your vigilance and arousal to a high level to counter stress.
+*c. Know your limits and fly well inside them.
+Explanation: Stress is a natural part of life and cannot be wished away; the best defence is to know your limits and stay well within them.
+
+55. Stress factors are cumulative. A cumulative score indicating that a person is life stress free is less than:
+*a. 60
+b. 40
+c. 20
+Explanation: Life stress events are scored and added up; as per the book key, a total below 60 means the person is considered life stress free.
+
+56. What does stress management involve?
+*a. Recognizing stress, accepting it and developing a coping strategy.
+b. The recognition and removal of stress.
+c. A constant stress prevention.
+Explanation: Stress cannot always be removed, so management means recognising it, accepting it and developing ways to cope.
+
+57. What are the main effects of a lack of sleep on performance?
+a. The brain activity, eye movement become faster and the cardiac activity increases.
+*b. It affects fatigue, concentration, attention, the risk of sensory illusions and mood disorders.
+c. The physiological rhythms of a pilot in a new time zone will re-synchronize quickly to cater for sleep loss.
+Explanation: Lack of sleep causes fatigue, poor concentration and attention, more illusions and mood problems, and it does not speed up re-synchronisation.
+
+58. In order to minimize the effects of crossing more than 3-4 zones with a layover more than 24 hours, it is advisable to:
+a. Keep in swing with the rhythm of the arrival country for as long as possible and maintain regular living patterns.
+*b. Keep in swing with the rhythm of the departure country for as long as possible and maintain regular living patterns.
+c. Keep in swing with the rhythm of the arrival country for as long as possible and maintain regular living patterns of departure country.
+Explanation: On a short layover the body clock cannot adapt, so it is best to stay in step with the home (departure) rhythm and keep regular living patterns.
+
+59. Of the following statements concerning the effects of circadian rhythms on performance:
+a. Sensorimotor performance is better in the morning whereas intellectual performance is better in the evening.
+b. Sensorimotor and intellectual performance are better in the morning after a good night sleep.
+*c. Sensorimotor performance is better in the evening whereas intellectual performance is better in the morning.
+Explanation: Mental (intellectual) work peaks in the morning, while physical and sensorimotor performance peaks later in the day (evening), following the body temperature rhythm.
+
+60. Melatonin secretion regulates:
+a. Metabolism.
+*b. Sleep.
+c. Muscles.
+Explanation: Melatonin is the hormone released in darkness by the pineal gland that regulates the sleep-wake cycle.
+
+61. The physiological rhythms of a pilot in a new time zone will resynchronize to this new time zone at a rate of about:
+*a. 1 – 1.5 hours a day.
+b. 2 – 2.5 hours a day.
+c. 3 – 3.5 hours a day.
+Explanation: The body clock adapts slowly, about 1 to 1.5 hours per day, so a 6-hour shift takes roughly 4 to 6 days.
+
+62. The readjustment of the biological rhythms after a time shift is normally more difficult with flights towards the:
+a. West.
+b. North.
+*c. East.
+Explanation: Flying east shortens the day (the body clock must advance), which is harder than the lengthened day when flying west. Memory aid: west is best, east is least.
+
+63. The main functions of deep sleep are?
+a. It essentially allows for motor programmes reactivation and the reconstitution of mental agility.
+*b. It essentially allows for physical recovery and the reconstitution of neuron energy reserves.
+c. It essentially allows for fatigue recovery and the reconstitution of circadian circle.
+Explanation: Deep sleep restores the body physically and rebuilds the energy reserves of neurons; REM sleep is more linked to mental and memory functions.
+
+64. Preventive efforts for mental disorders should be aimed at more common mental health problems such as:
+a. Psychosis.
+*b. Depression, anxiety, and substance misuse.
+c. Personal and financial issues.
+Explanation: The common mental health problems are depression, anxiety and substance misuse, so prevention targets those; psychosis is less common.
+`);
+
+registerChapterText("air-regulations", "rk-bali-aviation-physiology-human-factors", "Aviation Physiology and Human Factors (RK Bali)", `
+1. A flight crew has completed a two-day stay at a hospital. What must he/she do before flying as a crew member?
+a. Do his class I medical from an authorized agency.
+b. Take clearance from DGCA before flying.
+*c. Seek advice from the authority and Aviation Medicine Specialist.
+Explanation: After a hospital stay the crew member must not just fly; they should consult the licensing authority and an Aviation Medicine Specialist to decide whether they are fit to resume duties.
+
+2. Linear deceleration:
+*a. Causes sensory illusions on the pitch axis.
+b. Can create the illusion of being in a nose up attitude.
+c. Application of full power during a missed instrument approach can lead to this illusion.
+Explanation: Linear acceleration or deceleration is sensed by the otoliths and gives pitch illusions; deceleration gives a nose-down feeling, while a nose-up illusion comes from acceleration (such as applying full power on a go-around), so b and c describe acceleration.
+
+3. High blood pressure or hypertension is:
+*a. A major cause of unfitness in pilots.
+b. Responsible for reduced tolerance to G forces.
+c. May cause chokes during flight.
+Explanation: Hypertension is one of the main medical reasons for pilots being declared unfit because it raises the risk of heart attack and stroke; chokes are caused by decompression, not blood pressure.
+
+4. Unusual fatigue and a loss of consciousness are symptoms of:
+a. Leans
+b. Presbyopia
+*c. Hypoxia
+Explanation: Lack of oxygen (hypoxia) causes fatigue and finally loss of consciousness; the leans is a vestibular illusion and presbyopia is age-related far-sightedness.
+
+5. Total Space Equivalent Zone extends outwards from 120nm. To survive in this zone:
+a. Good quality pressure suit is adequate.
+b. Adequate food and water is enough.
+*c. Adequate oxygen, pressure and heat is a must.
+Explanation: In the space-equivalent zone there is no useful oxygen and almost no pressure or heat, so a pilot needs a full life-support system providing oxygen, pressure and temperature control.
+
+6. At 8,000 ft, the standard barometric pressure is 77 kPa (574 mmHg). This means that there is:
+a. 57% of the oxygen available at sea level.
+b. 65% of the oxygen available at sea level.
+*c. 76% of the oxygen available at sea level.
+Explanation: Oxygen is always 21% of the air, so the available oxygen follows pressure: 574 / 760 = about 0.76, or 76% of the sea-level amount.
+
+7. The atmospheric gas pressure:
+a. Decreases slower at lower altitudes compared with higher levels and equivalent altitude changes.
+b. Rises with altitude.
+*c. Drops faster at lower altitudes in comparison to the same altitude changes at higher levels.
+Explanation: Pressure falls rapidly near the surface (the air is densest there) and more slowly higher up; half of the atmosphere is below about 18,000 ft.
+
+8. The chemical composition of the earth's atmosphere approximately is:
+*a. 78% nitrogen, 21% oxygen, 0.9% argon, 0.03% carbon dioxide.
+b. 70% nitrogen, 28% oxygen, 1.9% argon, 0.03% carbon dioxide.
+c. 78% nitrogen, 20% oxygen, 0.9% carbon dioxide, 1.03% argon.
+Explanation: Remember 78-21-1: nitrogen 78%, oxygen 21%, and about 1% for argon and trace gases including carbon dioxide (0.03%).
+
+9. The volume percentage of oxygen in the atmosphere is 21% which:
+*a. Is constant for all altitudes in troposphere.
+b. Decreases with increasing altitude.
+c. Increases with increasing altitude.
+Explanation: The percentage of oxygen stays at about 21% at all altitudes in the lower atmosphere; it is the pressure (and so the partial pressure of oxygen) that falls with height.
+
+10. Pain in the middle ear during descent may be eased by:
+a. Increasing the rate of descent.
+b. Sneezing deliberately with the nostrils wide open.
+*c. Leveling off and possibly climbing.
+Explanation: During descent the outside pressure rises faster than the middle ear can equalise; stopping the descent or climbing a little reduces the pressure difference so the Eustachian tube can open (swallowing or Valsalva helps).
+
+11. Gases of physiological importance to man are:
+*a. Oxygen and carbon dioxide.
+b. Ozone and carbon dioxide.
+c. Oxygen and Ozone.
+Explanation: The body needs oxygen for energy and removes carbon dioxide, which also controls breathing, so these two gases are the physiologically important ones.
+
+12. Oxygen, combined with hemoglobin in blood is transported by:
+a. Platelets.
+b. Blood plasma.
+*c. Red blood cells.
+Explanation: Haemoglobin is the oxygen-carrying protein inside red blood cells; platelets help clotting and plasma is the liquid part of blood.
+
+13. An increase in the amount of carbon dioxide in the blood leads to:
+a. Hyperventilation.
+b. Over breathing.
+*c. Shortness of breath.
+Explanation: Rising CO2 in the blood is the main trigger for the urge to breathe, giving a feeling of breathlessness (shortness of breath), according to the book key.
+
+14. According to the ICAO standard atmosphere, the temperature lapse rate of the troposphere is approximately:
+*a. -2°C every 1,000 feet.
+b. -10°C every 10,000 feet.
+c. -1°C every 190 meters.
+Explanation: The ISA lapse rate is 1.98°C per 1,000 ft, about 2°C per 1,000 ft (6.5°C per 1,000 m).
+
+15. The barometric pressure drops to 1/2 of the pressure at sea level at:
+a. 30,000 feet.
+*b. 18,000 feet.
+c. 10,000 feet.
+Explanation: Pressure halves at about 18,000 ft (5,500 m), which is why oxygen is needed at that height.
+
+16. The total pressure of a mixture of gases is equal to the sum of the partial pressures of the gases which compose the mixture corresponds to:
+a. Charle's law.
+*b. Dalton's law.
+c. Henry's law
+Explanation: That statement is Dalton's law of partial pressures; Charles' law links gas volume and temperature and Henry's law links gas dissolved in a liquid to its pressure.
+
+17. Boyle's law is directly applicable in case of:
+a. The transfer of gas between the alveoli and the blood.
+*b. The expansion of trapped gases in the human body with increasing altitude.
+c. Pressure of a mixture of gases at high altitude.
+Explanation: Boyle's law says volume is inversely proportional to pressure (at constant temperature), so trapped gas in the ears, sinuses, teeth and gut expands as pressure falls on climbing.
+
+18. Which data compose the ICAO standard atmosphere?
+a. Pressure, Temperature, Humidity and positive lapse rate.
+*b. Density, Pressure, Temperature and lapse rate.
+c. Density, Pressure, dryness and negative lapse rate.
+Explanation: The ISA is defined by density, pressure, temperature and lapse rate; it assumes dry air, so humidity is not part of it.
+
+19. Otitis Barotrauma is:
+*a. Stretching of the ear drum caused by the expansion and contraction of gases trapped in the inner ear by a blocked Eustachian tube.
+b. Stretching of the ear drum caused by the expansion and contraction of gases trapped in the outer ear by the blocked Tympanum.
+c. Damage to the ear drum caused by the expansion and contraction of gases trapped in the middle ear by infected Ossicles.
+Explanation: Book key is a. NOTE: book key says a, but strictly the gas is trapped in the middle ear (behind the eardrum) by a blocked Eustachian tube; the other two options are even less accurate.
+
+20. Dalton's law explains the occurrence of:
+a. Ischemic hypoxia.
+b. Histotoxic hypoxia.
+*c. Hypoxic hypoxia.
+Explanation: With altitude the total pressure falls, so the partial pressure of oxygen falls too (Dalton's law) and the body gets too little oxygen: hypoxic hypoxia.
+
+21. Henry's law explains the occurrence of:
+a. Hyperventilation.
+b. Hypoxia.
+*c. Decompression sickness.
+Explanation: Henry's law says the amount of gas dissolved in a liquid depends on pressure; when pressure drops, dissolved nitrogen comes out as bubbles, causing decompression sickness.
+
+22. In aviation any mismatch between what we sense and what we expect is:
+a. An effect of motion sickness.
+*b. An illusion.
+c. A symptom of Hypoxia.
+Explanation: An illusion is a false perception that happens when sensory input does not match what the brain expects.
+
+23. On ascent the gases in the digestive tract will:
+a. Shrink.
+b. Escape to lungs.
+*c. Expand.
+Explanation: Trapped gas expands as ambient pressure falls (Boyle's law), which can cause abdominal pain on climbing.
+
+24. The most serious hypoxia:
+a. Causes headache and tingling in hands and feet.
+b. Causes formication, flushed cheeks and cherry red lips.
+*c. Interferes with reasoning, gives rise to unusual fatigue and, finally, results in a loss of consciousness/death.
+Explanation: The most serious effects of hypoxia are loss of judgement, fatigue, then unconsciousness and death; tingling suggests hyperventilation and cherry red lips suggest carbon monoxide.
+
+25. One of the symptoms of decompression sickness are:
+*a. The bends.
+b. Convulsions.
+c. Impaired night vision and slow reaction time.
+Explanation: The bends (joint pain from nitrogen bubbles) is a classic decompression sickness symptom; impaired night vision and slow reactions are signs of hypoxia.
+
+26. The tendency to develop the bends increases with:
+a. Low rates of climb, age, obesity, physical activity and high temperatures.
+*b. High rates of climb, age, obesity, physical activity and low temperatures.
+c. High rates of descend age, obesity, physical activity and high temperatures.
+Explanation: Fast climbs, age, obesity, exercise and cold all increase the risk of bubble formation; slow climbs reduce it.
+
+27. The cabin pressure in airline operation is:
+a. Normally not exceeding 4,000 to 5,000 feet.
+b. Normally not exceeding 2,000 to 3,000 feet.
+*c. Normally not exceeding 6,000 to 8,000 feet.
+Explanation: Airliner cabins are pressurised to an altitude of no more than about 6,000 to 8,000 ft, where passengers still get enough oxygen.
+
+28. The circulation system transports:
+a. Oxygen, carbon monoxide and adrenaline.
+b. Oxygen and carbon dioxide only.
+*c. Chemical messengers, oxygen and carbon dioxide.
+Explanation: Blood carries oxygen, carbon dioxide and chemical messengers (hormones), so b is too limited and carbon monoxide is a poison, not a normal cargo.
+
+29. Physiological problems at high altitude are caused by:
+a. Increased atmospheric pressure.
+b. Reduced oxygen percentage in atmosphere.
+*c. Decreased atmospheric pressure.
+Explanation: The oxygen percentage stays at 21%, but falling atmospheric pressure reduces the partial pressure of oxygen, which causes the problems.
+
+30. Which gas will diffuse from the blood to the alveoli:
+a. Nitrogen.
+*b. Carbon Dioxide.
+c. Oxygen.
+Explanation: In the lungs oxygen moves from the alveoli into the blood, and carbon dioxide moves from the blood into the alveoli to be breathed out.
+
+31. The symptoms caused by gas bubbles under the skin following a decompression are called:
+a. Leans.
+*b. Creeps.
+c. Chokes.
+Explanation: Bubbles under the skin cause itching and tingling called creeps; chokes come from bubbles in the lungs and the bends from joints.
+
+32. The Oxygen-Carbon Dioxide exchange takes place through:
+*a. The walls of the capillaries.
+b. Red blood cells.
+c. Platelets.
+Explanation: Gases diffuse through the very thin walls of the capillaries (between the alveoli and blood, and between blood and tissues).
+
+33. In order to get rid of excess nitrogen following scuba diving, subsequent flights should be delayed:
+a. 36 hours.
+b. 12 hours.
+*c. 24 hours.
+Explanation: After scuba diving, leftover nitrogen can cause decompression sickness at altitude, so wait at least 24 hours before flying, as per the book key.
+
+34. The normal arterial blood-pressure of a healthy adult is:
+a. 140/100 mmHg.
+b. 120/60 mmHg.
+*c. 120/80 mmHg.
+Explanation: Normal blood pressure is 120 (systolic) over 80 (diastolic) mmHg; 140/100 is high.
+
+35. Decompression symptoms are:
+*a. Bends, chokes, skin manifestations, neurological symptoms and circulatory shock.
+b. Bends, chokes, Personality change, Impaired memory and circulatory shock.
+c. Bends, chokes, Personality change, Impaired memory and Impaired vision.
+Explanation: The five groups of decompression symptoms are bends, chokes, skin manifestations (creeps), neurological symptoms and circulatory shock.
+
+36. Baroreceptor reflex is triggered by:
+*a. Body's need to adjust blood pressure.
+b. Body's need to adjust to extreme temperatures.
+c. Body's need to adjust to extreme cold.
+Explanation: Baroreceptors in the arteries sense blood pressure changes and trigger the reflex that adjusts heart rate and vessel size to restore it.
+
+37. While climbing from sea level to 40,000 ft the difference in barometric pressure is greatest between:
+*a. Sea level and 10,000 ft.
+b. 10,000 and 20,000 ft.
+c. 30,000 and 40,000 ft.
+Explanation: Pressure falls fastest at low level, so the biggest drop (about 760 to 523 hPa) is in the first 10,000 ft.
+
+38. The blood-pressure which is measured during flight medical checks is the:
+a. Pressure in the artery of the left upper arm (representing the pressure at left arm).
+*b. Pressure in the artery of the upper arm (representing the pressure at heart level).
+c. Pressure in the artery of the upper arm (representing the cardiac pressure).
+Explanation: The cuff on the upper arm artery, held at heart level, gives a measurement that represents the pressure at the level of the heart.
+
+39. What is the average Time of Useful Consciousness after a rapid decompression at 40,000 ft?
+*a. About 12 seconds.
+b. More than 1 minute.
+c. About 40 seconds.
+Explanation: At 40,000 ft after a rapid decompression the time of useful consciousness is only about 12 to 15 seconds, so oxygen must be donned immediately.
+
+40. What is the Time of Useful Consciousness?
+*a. The amount of time an individual is able to function effectively (e.g. perform flying duties) in an environment of inadequate oxygen supply.
+b. The time period during which there is an inability of the cells of the body to use the oxygen available.
+c. The period of time when there is inadequate blood flow to body tissues.
+Explanation: TUC is the time you can still perform useful tasks, such as flying, when the oxygen supply is inadequate; it ends well before total unconsciousness.
+
+41. What are the signs of hypoxia during explosive decompression?
+a. Initially, there is an inability to concentrate, impairment of night vision, unusual fatigue, loss of consciousness/death.
+b. Initially there is cramping and spasms of the hands and feet, cold clammy skin, paleness, impaired judgement.
+*c. Initially there may be a feeling of wellbeing (euphoria), impairment of night vision, unusual fatigue, loss of consciousness/ death.
+Explanation: Hypoxia often starts with a false feeling of wellbeing (euphoria) and then night vision loss, fatigue and unconsciousness; cramps and cold clammy skin point to hyperventilation or shock.
+
+42. Which is the procedure to be followed when symptoms of decompression sickness occur?
+a. 100% Oxygen, immediate descent, land as soon as possible, seek medical assistance immediately on landing.
+*b. 100% Oxygen, immediate descent, land in case not comfortable, seek medical assistance if required.
+c. Descend below 10,000 feet, symptoms will disappear after few minutes.
+Explanation: Book key is b. NOTE: book key says b, but the standard procedure is 100% oxygen, descend, land as soon as possible and seek medical help at once (option a), because symptoms can return or get worse.
+
+43. What is decompression sickness?
+*a. A rapid reduction in ambient pressure, may cause the nitrogen in our blood to come out of solution as small bubbles.
+b. A rapid increase in ambient pressure, may cause the nitrogen in our blood to come out of solution as small bubbles.
+c. A rapid reduction in ambient pressure, may cause the oxygen in our blood to come out of solution as small bubbles.
+Explanation: A rapid pressure drop makes dissolved nitrogen (not oxygen) form bubbles, just like opening a fizzy drink bottle.
+
+44. The part of blood without cell is called:
+a. Serum.
+b. Lymph.
+*c. Plasma.
+Explanation: Plasma is the liquid part of blood that carries the cells; serum is plasma without clotting factors and lymph is a different fluid.
+
+45. At rest, with a heart rate of 72 beats per minute and a stroke volume of 70 ml the cardiac output is about:
+a. 7 liters/min.
+*b. 5 liters/min.
+c. 6 liters/min.
+Explanation: Cardiac output = heart rate x stroke volume = 72 x 70 ml = 5,040 ml, which is about 5 litres per minute.
+
+46. Hemoglobin is:
+a. In the white blood cells.
+b. Dissolved in the plasma.
+*c. In the red blood cells.
+Explanation: Haemoglobin is the oxygen-carrying pigment inside red blood cells.
+
+47. The heart muscle is supplied with blood from:
+a. The pulmonary veins.
+*b. The coronary arteries.
+c. Coronary capillaries.
+Explanation: The coronary arteries branch off the aorta and bring oxygenated blood to the heart muscle itself; blocking them causes a heart attack.
+
+48. Bubbles in the joints cause rheumatic-like pain, called the:
+a. Staggers.
+b. Chokes.
+*c. Bends.
+Explanation: Bends = joint pain from nitrogen bubbles; chokes affect the lungs and staggers the nervous system.
+
+49. Which symptom does not belong to the Decompression Sickness:
+a. Bends.
+b. Creeps.
+*c. Convulsions.
+Explanation: Bends and creeps are decompression sickness symptoms; convulsions are not one of the classic symptoms and are more related to hypoxia or hyperventilation.
+
+50. A few hours after a rapid decompression at FL320 you experience a feeling of wellbeing after having three pints of beer. You should:
+a. Ask for medical advice since this is a symptom of hypoxia.
+b. Ask for medical advice since this is a symptom of decompression sickness.
+*c. Stop drinking and allow twenty-four hours between the last drink and take off time.
+Explanation: The feeling of wellbeing here comes from the beer, not from hypoxia, so stop drinking and keep at least 24 hours between the last drink and flying (the beer effect remains).
+
+51. In a severe case of hypoxia:
+a. Only brain and heart functions are maintained.
+*b. Only blood pressure and heart functions are maintained.
+c. Only blood pressure and brain functions are maintained.
+Explanation: Book key is b. NOTE: book key says b, but the usual teaching is that in severe hypoxia the body gives priority to the brain and heart (option a).
+
+52. Generally, active pilots should not donate blood, because:
+a. The loss of blood causes permanent disturbances to the circulation.
+b. The fluid reduction caused by donating one unit of blood is generally replaced within several weeks.
+*c. The effects at ground level are minimal, flying during this period may entail a risk.
+Explanation: Donating blood has little effect on the ground, but the reduced oxygen-carrying capacity lowers altitude and G tolerance, which makes flying risky for a period.
+
+53. In mild cases, hypoxia causes only:
+a. Inattentiveness, poor judgment, and brain stem reflexes.
+*b. Inattentiveness, poor judgment, and uncoordinated movement.
+c. State of complete unawareness and unresponsiveness.
+Explanation: Mild hypoxia gives inattentiveness, poor judgement and clumsiness; complete unresponsiveness is a severe case.
+
+54. During an extensive gym work out one experiences:
+a. Angina due to increased blood circulation.
+b. Hypoxia due to lack of oxygen.
+*c. Hyperventilation due to excessive CO2 in blood.
+Explanation: Heavy exercise produces extra CO2, which drives fast, deep breathing (hyperventilation), according to the book key.
+
+55. The symptoms of CO poisoning are:
+a. Memory Impairment, Sensory Loss, Tunnel Vision, Cyanosis (a bluing of the body extremities).
+*b. Headache, Dizziness, Nausea, Impaired vision.
+c. Impaired Judgment, Headache, Tingling in hands & feet, Hyperventilation.
+Explanation: Carbon monoxide poisoning causes headache, dizziness, nausea and impaired vision; tingling and hyperventilation are linked to hyperventilation.
+
+56. In severe hypothermia, core body temperature can drop below:
+a. 95°F.
+b. 90°F.
+*c. 82°F.
+Explanation: Hypothermia starts below about 95°F and severe hypothermia is below 82°F core temperature (degrees taken as Fahrenheit).
+
+57. A pilot, climbing in a non-pressurized aircraft and without using supplemental oxygen will pass the "critical threshold" at approximately:
+*a. 22,000 feet.
+b. 18,000 feet.
+c. 10,000 feet.
+Explanation: In the critical zone of the physiological zones of the atmosphere, unconsciousness comes rapidly; the book key gives the critical threshold at about 22,000 ft.
+
+58. In a steep turn at 26,000 feet, you experience a loss of muscular coordination. What should be your actions?
+*a. Breathe oxygen at 100 percent. If hypoxia is the cause, the symptoms will improve markedly after three or four breaths. If the symptoms persist, consciously slow the rate of breathing to 10–12 breaths per minute.
+b. Breathe oxygen at 100 percent. If Hyper ventilation is the cause, the symptoms will improve markedly after three or four breaths. If the symptoms persist, consciously increase the rate of breathing to 30–32 breaths per minute.
+c. Breathe oxygen at 100 percent. If CO poisoning is the cause, the symptoms will improve markedly after three or four breaths. If the symptoms persist, land as soon as possible.
+Explanation: Take 100% oxygen first, because hypoxia improves within a few breaths; if the symptoms persist they are likely due to hyperventilation, which is treated by slowing breathing to 10 to 12 breaths a minute.
+
+59. While flying solo, suddenly your mood changes to intense feelings of well-being and happiness. Your actions should be:
+a. Plan a date with your girlfriend.
+b. Enjoy the flight singing favorite songs.
+*c. Suspect onset of hypoxia. Take oxygen and descend below 10000 feet.
+Explanation: Euphoria is an early warning sign of hypoxia, so use oxygen and descend below 10,000 ft instead of enjoying it.
+
+60. A pressurized cabin is necessary to protect against:
+*a. Decompression sickness, expansion of gases in the intestines and hypoxia.
+b. Decompression sickness, uv rays and hypoxia.
+c. Expansion of gases in the intestines, heart attack and hypoxia.
+Explanation: Pressurisation keeps the cabin pressure near ground level, preventing decompression sickness, gas expansion in the body and hypoxia; it does not stop UV rays or heart attacks.
+
+61. What is the "Time of Useful Consciousness" for a progressive decompression at 20,000 ft?
+*a. Between 15 and 20 minutes depending on the physical activities being performed.
+b. Between 45 seconds and 2 minutes depending on the physical activities being performed.
+c. Between 5 and 10 minutes depending on the physical activities being performed.
+Explanation: At 20,000 ft with a gradual loss of pressure, the book gives a TUC of about 15 to 20 minutes, shorter with more physical activity.
+
+62. Hypobaric hypoxia is a result of:
+a. Exposure to high temperatures.
+b. High blood alcohol levels in blood.
+*c. Exposure to high altitude.
+Explanation: Hypobaric means low pressure, so hypobaric hypoxia is the lack of oxygen caused by low pressure at high altitude.
+
+63. Otitis Barotrauma is due to stretching of the ear drum caused by:
+*a. The expansion and contraction of gases trapped in the inner ear by a blocked Eustachian tube.
+b. The expansion and contraction of gases trapped in the middle ear due damage to the hearing mechanism.
+c. The expansion and contraction of gases trapped in the middle ear due to build up of wax.
+Explanation: Book key is a. NOTE: book key says a, but strictly the gases are trapped in the middle ear by a blocked Eustachian tube (the cause is the blocked tube, not damage or wax).
+
+64. The release of nitrogen bubbles due to decompression can adversely affect:
+*a. Joints, skin, respiratory system and brain.
+b. Joints, skin, inner ear and brain.
+c. Vision, liver, respiratory system and brain.
+Explanation: Bubbles cause the bends (joints), creeps (skin), chokes (respiratory system) and neurological problems (brain).
+
+65. Myocardial infarction refers to:
+a. A brain attack when high blood flow causes damage to brain nerves.
+*b. A heart attack when low blood flow causes the heart to starve for oxygen.
+c. Expansion of trapped gases in intestine at high altitude causing severe pain in the chest.
+Explanation: Myocardial infarction is a heart attack, in which a blocked coronary artery reduces blood flow so the heart muscle starves of oxygen.
+
+66. Dehydration due to low relative humidity at high altitude can be prevented with:
+a. Excessive fluid intake.
+*b. Adequate fluid intake.
+c. Diuretics like coffee or tea to be taken frequently.
+Explanation: Dry air at altitude dehydrates, so drink an adequate amount of fluids; too much is unnecessary and coffee or tea (diuretics) increase water loss.
+
+67. Oxygen in blood is carried by, which is found in:
+a. Hemoglobin, white blood cells.
+*b. Hemoglobin, red blood cells.
+c. Red blood cells, platelets.
+Explanation: Oxygen is carried by haemoglobin, which is found in red blood cells.
+
+68. Smoking:
+a. Has decreased susceptibility to Carbon Monoxide poisoning.
+b. Results in a 'masked hangover', rendering pilot unfit for flying.
+*c. Reduces capacity to carry oxygen resulting in hypoxia at lower altitudes.
+Explanation: Smoke brings carbon monoxide into the blood, which blocks haemoglobin, so a smoker is effectively at a higher altitude and gets hypoxia at lower altitudes.
+
+69. What does Visual Acuity stand for?
+*a. Is the capacity of the eye to determine small detail, undistorted, at a given distance.
+b. Time taken for night vision adaptation.
+c. Distance at which one can see objects undistorted under dim and bright Illumination.
+Explanation: Visual acuity is the sharpness of vision, the ability to see fine detail at a given distance.
+
+70. Out of the following, which are different types of Hypoxia?
+*a. Hypoxic, Anemic, Ischemic, Histotoxic.
+b. Hypoxic, Anemic, Ischemic, Asphyxiation.
+c. Hypoxic, Anemic, Compression, Histotoxic.
+Explanation: The four types are hypoxic, anaemic, ischaemic (stagnant) and histotoxic; asphyxiation and compression are not types of hypoxia.
+
+71. Flying a Cessna 172 at 6,000 feet with heaters on, you develop breathlessness. The most probable reason could be due to:
+a. Hypoxic Hypoxia.
+*b. Anemic Hypoxia as a result of CO poisoning.
+c. Ischemic Hypoxia as a result of CO poisoning.
+Explanation: A heater with an exhaust leak can release carbon monoxide, which binds to haemoglobin and stops it carrying oxygen: anaemic hypoxia; 6,000 ft is too low for hypoxic hypoxia.
+
+72. Flying Cessna 172 at 6,000 feet without heaters on, you feel sick, suffer blurred vision and feel weak. The most probable reason could be due to:
+a. High BP resulting in Ischemic hypoxia/stagnant hypoxia, curable by taking 100% oxygen for 2-3 minutes.
+b. Low BP resulting in Ischemic hypoxia/stagnant hypoxia, curable by taking 100% oxygen for 2-3 minutes.
+*c. Low BP resulting in Ischemic hypoxia/stagnant hypoxia, taking 100% oxygen doesn't help.
+Explanation: Low blood pressure reduces blood flow (ischaemic or stagnant hypoxia); the oxygen in the blood is fine, the problem is circulation, so extra oxygen does not fix it.
+
+73. Flying a Cessna 172 at 6,000 feet without heaters on, you feel difficulty breathing and rapid heart rate. You remember having excessive drinks in a party previous night. The most probable reason could be due to:
+*a. Histotoxic Hypoxia.
+b. Hypoxic Hypoxia.
+c. Ischemic Hypoxia.
+Explanation: Alcohol poisons the cells so they cannot use the oxygen supplied (histotoxic hypoxia), and the effect lasts well after drinking; the altitude is too low for hypoxic hypoxia.
+
+74. Alcohol leaves the body at an average rate of:
+a. 0.050 g/100 mL/hour, for men, this is usually a rate of about half standard drink per hour.
+b. 0.035 g/100 mL/hour, for men, this is usually a rate of about quarter standard drink per hour.
+*c. 0.015 g/100 mL/hour, for men, this is usually a rate of about one standard drink per hour.
+Explanation: The body removes alcohol at about 0.015 g/100 mL per hour, roughly one standard drink an hour, and nothing speeds it up.
+
+75. You can overcome hyperventilation by:
+a. Consciously increasing the rate of breathing to 18-20 breaths per minute.
+b. Breathing deeply to raise the level of oxygen in blood.
+*c. Breathing into a paper bag to raise the level of CO2 in the blood.
+Explanation: Hyperventilation blows off too much CO2, so rebreathing exhaled air from a paper bag (or breathing slowly) raises the CO2 level again.
+
+76. While joining circuit, you start breathing heavily, feel dizzy, get tingling sensations in your feet and a rapid heart rate. Your actions are:
+a. Suspect carbon monoxide poisoning, take 100% oxygen, turn off cabin heating and open ventilation.
+b. Suspect hypoxia, take 100% oxygen, land at the earliest and report to an aviation medicine specialist.
+*c. Suspect hyperventilation, raise CO2 level by breathing in a paper bag or consciously lowering breathing rate or shouting loudly.
+Explanation: Heavy breathing, dizziness and tingling feet are typical of hyperventilation at low altitude; fix it by raising CO2 (paper bag, slow breathing, talking or shouting loudly).
+
+77. Symptoms caused by gas bubbles in the lungs, following a decompression are called:
+*a. Chokes
+b. Bends
+c. Staggers
+Explanation: Bubbles in the lungs cause chest pain and coughing called the chokes.
+
+78. The chance of a black-out during positive G Maneuvers can be reduced by:
+a. Engaging autopilot.
+*b. A tilted back seat.
+c. Applying negative G.
+Explanation: A reclined seat reduces the vertical distance between the heart and brain, so blood still reaches the brain at high positive G.
+
+79. During sustained positive G-forces the order of symptoms is:
+a. Diminished awareness, Tiredness, Lack of coordination, Black out.
+*b. Internal organs displaced, Onset of tunnel vision, Grey out, Possible black out.
+c. Memory lapses, Frequent mistakes in speech and actions, Rapid changes of mood, Grey out.
+Explanation: Positive G first displaces body organs, then vision narrows (tunnel vision), then grey out and finally black out as blood drains from the head.
+
+80. Hemoglobin, the oxygen-carrying chemical in the blood, picks up:
+*a. Carbon monoxide over 200 times more readily than it picks up oxygen.
+b. Carbon dioxide over 10 times more readily than it picks up oxygen.
+c. Oxygen over 5 times more readily than it picks up nitrogen.
+Explanation: Haemoglobin binds carbon monoxide over 200 times more readily than oxygen, which is why even small amounts of CO are dangerous.
+
+81. Carbon monoxide is a:
+a. Light blue, odorless, tasteless gas.
+*b. Colorless, odorless, tasteless gas.
+c. Colorless, foul smelling, tasteless gas.
+Explanation: CO cannot be seen, smelled or tasted, so you cannot detect it with your senses.
+
+82. Why most pilots can learn to tolerate moderate increases in positive "G", but many find even the smallest exposure to negative "G" to be unpleasant?
+a. Negative "G" manoeuvres decrease the flow of blood to the head, the face becomes white, and the vision becomes blurred.
+*b. Negative "G" manoeuvres increase the flow of blood to the head, the face becomes very flushed, and the eyes bulge.
+c. Black out occurs in quick succession after a red out, allowing hardly any reaction time.
+Explanation: Negative G forces blood into the head, causing a flushed face, a red-out and a feeling of the eyes bulging, which is unpleasant; positive G does the opposite.
+
+83. Barotrauma is caused by:
+a. The trapped gases inside the aircraft which create pain as ambient pressure increases.
+b. The trapped gases inside the body which create pain as ambient pressure decreases.
+*c. The trapped gases inside the outer ear, which cause damage to the ossicles or the ear drum.
+Explanation: Book key is c. NOTE: book key says c, but barotrauma is generally defined as trapped gas in body cavities (middle ear, sinuses, teeth, gut) reacting to pressure change (option b); the gas is in the middle ear, not the outer ear.
+
+84. Breathing 100% oxygen will lift the pilot's physiological safe altitude to approximately:
+a. 18,000 ft.
+b. 22,000 ft.
+*c. 38,000 ft.
+Explanation: With 100% oxygen the alveolar oxygen pressure at about 38,000 ft equals that of breathing air at sea level, so it is the safe limit; above that pressure breathing is needed.
+
+85. The retina has about 100 million rods on its peripheral zone. Rods can:
+*a. Only detect black and white but are much more sensitive at lower light levels.
+b. All colors but are much more sensitive black and white.
+c. Only detect black and white but are much less sensitive at lower light levels.
+Explanation: Rods work in dim light and see only black, white and grey, while cones see colour but need bright light.
+
+86. Depth perception when objects are close is achieved through:
+a. Central Vision.
+b. Visual Acuity.
+*c. Binocular Vision.
+Explanation: Using both eyes (binocular vision) gives depth perception for close objects; far away we depend on monocular cues.
+
+87. Which scanning technique should be used when flying at night?
+a. Increase intensity of cabin lights.
+*b. Look to the side of the object.
+c. Look directly at the object.
+Explanation: At night the centre of the retina (fovea) has no rods and a blind spot in dim light, so look slightly off to the side of the object (off-centre viewing) to see it.
+
+88. Flickering light when reflected from helicopter blades or propellers of aircraft rotating at high RPM:
+*a. Can not cause any harm, hence no action is required.
+b. Can cause Stroboscopic Vertigo, hence make frequent but small changes in RPM.
+c. Can cause nausea, dizziness or unconsciousness, hence land as soon as possible.
+Explanation: Book key is a. NOTE: book key says a, but flicker at certain rotation rates can cause stroboscopic effects such as dizziness and nausea, and the usual advice is to change the RPM or the light conditions (option b).
+
+89. B-787 pilots feel nausea and dizziness while flying through low clouds. This could be due to:
+a. Somatogravic Effect, take 100% oxygen and climb to a higher altitude.
+b. The leans, get on to the instruments and correct the aircraft attitude.
+*c. Stroboscopic Effect, switch off anti-collision lights.
+Explanation: The flashing anti-collision lights reflecting from the cloud cause a stroboscopic effect that can give nausea and dizziness, so switch them off.
+
+90. The primary and most reliable sense of spatial orientation is ______. The balance sensors situated in the ______ provide us with a secondary system.
+a. Ear, Eyesight.
+*b. Eyesight, ear.
+c. Vestibular apparatus, Somatosensory system.
+Explanation: Vision is the most reliable sense for orientation, and the balance organs in the inner ear (vestibular system) are the secondary system.
+
+91. The Vestibular apparatus (Otoliths + Semi-circular canals) helps maintain spatial orientation. The Otoliths detect ______. The Semi-Circular Canals detect ______.
+a. Angular acceleration, linear acceleration.
+b. Equilibrium, orientation
+*c. Linear acceleration, angular acceleration.
+Explanation: The otoliths sense linear acceleration and gravity, and the three semicircular canals sense angular acceleration (rotation).
+
+92. A pilot approaching a runway which is narrower than normal may feel that he is ______ and make an ______.
+*a. High, under shooting approach.
+b. Low, over shooting approach.
+c. Disoriented, instrument approach (2D).
+Explanation: A narrow runway looks farther away, so the pilot feels high and tends to descend too much, giving an undershooting (low) approach.
+
+93. Human beings maintain spatial orientation using a combination of three factors. Out of these, most reliable is ______, insufficiently reliable is ______ and not at all reliable especially in IMC is ______.
+a. The Somatosensory system ("seat of the pants" feeling)/G-force, The sense of vision, The Vestibular Apparatus.
+b. The Vestibular Apparatus, The Somatosensory system ("seat of the pants" feeling)/G-force, The sense of vision.
+*c. The sense of vision, The Vestibular Apparatus, The Somatosensory system ("seat of the pants" feeling)/G-force.
+Explanation: Vision is the most reliable, the vestibular apparatus is not sufficiently reliable, and the seat-of-the-pants feeling is not reliable at all in IMC.
+
+94. Coriolis illusion, causing spatial disorientation is the result of:
+*a. Simultaneous head movements during aircraft manoeuvres can give the feeling to pilots that they are pitching, yawing, and rolling simultaneously.
+b. The absence of visual cues during IMC manoeuvres.
+c. Because of the lack of stable visual references and the erroneous mental models, the pilot is at a disadvantage.
+Explanation: The Coriolis illusion occurs when you move your head while the aircraft is turning, which stimulates more than one semicircular canal and gives a false feeling of tumbling.
+
+95. The Eustachian tube:
+*a. Equalizes pressure between middle ear and external atmosphere.
+b. Provides us with our sense of balance.
+c. Helps maintain spatial orientation.
+Explanation: The Eustachian tube links the middle ear to the throat and equalises the pressure on both sides of the eardrum.
+
+96. Night vision can be affected by:
+a. Lack of exercise, High blood pressure, Lack of exercise, Smoking.
+b. Obesity, Too much fat in your diet, Alcohol, Smoking.
+*c. Age, hypoxia, altitudes above 8,000 ft, smoking and alcohol.
+Explanation: Night vision gets worse with age, hypoxia, altitudes above about 8,000 ft, smoking (CO) and alcohol.
+
+97. Dark adaptation is impaired by:
+a. Altitudes above 8,000 feet, inhaling carbon monoxide, myopia and exposure to bright sunlight.
+b. Altitudes above 5,000 feet, vibrations, deficiency of Vitamin C and exposure to bright sunlight.
+*c. Altitudes above 5,000 feet, inhaling carbon monoxide, deficiency of Vitamin A and exposure to bright sunlight.
+Explanation: Dark adaptation is impaired by altitudes above 5,000 ft, carbon monoxide, vitamin A deficiency (needed for rod pigment) and bright sunlight.
+
+98. Myopia is more commonly known as ______ and Hypermetropia as ______.
+a. Long-sightedness, Short-sightedness.
+*b. Short-sightedness, Long-sightedness.
+c. Defective vision, color-defective vision.
+Explanation: Myopia is short-sightedness (near objects clear, far blurred) and hypermetropia is long-sightedness.
+
+99. Hypothermia is potentially:
+*a. A life-threatening condition caused by core body temperature dropping below 95 deg F. It needs emergency medical attention.
+b. Not a life-threatening condition, shivering tends to ease discomfort and is followed by full recovery with 100% oxygen.
+c. A shivering condition caused due to low cabin temperature. However, it doesn't have any adverse effect on physical and mental abilities.
+Explanation: Hypothermia is a dangerous drop of core body temperature below about 95°F that can be fatal and needs emergency medical care.
+
+100. The absence of anything to focus on in a featureless sky (empty field myopia) affects the pilot's capacity to scan for traffic. It can be overcome by:
+a. Periodically and deliberately focusing on objects at a distance.
+*b. Periodically and deliberately focusing on objects, both close and at a distance.
+c. Periodically and deliberately focusing on objects at the horizon.
+Explanation: In an empty sky the eyes relax to a resting focus about 1 to 2 m, so the book advises regularly focusing on objects at different ranges, near and far, to keep the eyes working.
+
+101. Normal Body Mass Index, or BMI, for men is ______ and for women ______.
+a. 22-30; 20-28.
+*b. 20-25; 19-24.
+c. 18-25; 16-23.
+Explanation: According to the book, normal BMI is 20 to 25 for men and 19 to 24 for women.
+
+102. "Oxygen moves from the alveoli into the blood and from the blood into the tissues" this phenomenon is explained by:
+a. Boyle's law.
+b. Charle's law.
+*c. Graham's law.
+Explanation: Gases move by diffusion from an area of higher partial pressure to lower partial pressure, which is described by Graham's law of diffusion in this key.
+
+103. The illusions are:
+*a. A natural phenomena, organized formal training is the best protective measure against illusions.
+b. Abnormal, require psychiatric treatment.
+c. Visual cues with no effective counter measures available to overcome them.
+Explanation: Illusions are normal sensory effects (not a mental disorder), and training in recognising them and trusting instruments is the best protection.
+
+104. Bright runway / app. lights give illusion of being:
+a. High, resulting in low approaches.
+*b. Low, resulting in high approaches.
+c. On correct approach, resulting in an inadvertent speed loss.
+Explanation: Bright lights make the runway look closer, so the pilot feels low and flies a higher approach; dim lights give the opposite illusion.
+
+105. A dark scene spread with ground lights and stars and obscured sky can create illusions of:
+*a. Not being aligned correctly with the actual horizon.
+b. Being aligned correctly with the actual horizon.
+c. Being aligned with the artificial horizon.
+Explanation: With ground lights and stars mixed together and no real horizon, a pilot can mistake the lights for stars and feel misaligned with the actual horizon (a false horizon illusion).
+`);
 /* ============================================================
    AIR REGULATIONS QUESTION BANK
    Format matches js/parser.js (registerSubject / registerChapterText)
